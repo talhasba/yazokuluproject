@@ -1,0 +1,196 @@
+.orp-options {
+  margin: 0 -0.25rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  background: #f5f5f7;
+  color: #161b2b;
+}
+
+.orp-heading {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.65rem, 3vw, 2.25rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.orp-intro,
+.orp-note {
+  max-width: 54rem;
+  margin: 1rem 0 0;
+  color: #697087;
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+.orp-note {
+  margin-top: 0.75rem;
+  color: #4b5268;
+  font-weight: 500;
+}
+
+.orp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.875rem;
+  margin-top: 1.5rem;
+}
+
+.orp-card {
+  display: flex;
+  min-width: 0;
+  min-height: 25rem;
+  flex-direction: column;
+  padding: clamp(1.15rem, 2.5vw, 1.5rem);
+  border: 1px solid #ebecef;
+  border-radius: 0.25rem 0.25rem 2rem 0.25rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(18, 24, 40, 0.03);
+}
+
+.orp-card-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: start;
+  gap: 0.75rem;
+}
+
+.orp-card-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.orp-card-duration,
+.orp-card-price {
+  color: #777e91;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.orp-card-price {
+  color: #161b2b;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.orp-card-description {
+  margin: 1rem 0 0;
+  color: #71788d;
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+.orp-feature-list {
+  display: grid;
+  gap: 0.7rem;
+  margin: 1.1rem 0 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.orp-feature {
+  position: relative;
+  padding-left: 1.35rem;
+  color: #687087;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.orp-feature::before {
+  position: absolute;
+  top: 0.02rem;
+  left: 0;
+  color: #151b2b;
+  content: "✦";
+  font-size: 0.72rem;
+}
+
+.orp-card[data-option="classic"] .orp-feature::before {
+  color: #c39a55;
+}
+
+.orp-view-all {
+  align-self: flex-start;
+  margin: auto 0 0.9rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #171c2b;
+  border-radius: 999px;
+  background: #fff;
+  color: #171c2b;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 650;
+}
+
+.orp-view-all:hover {
+  background: #f3f4f6;
+}
+
+.orp-apply {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: #171c2b;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 150ms ease, background-color 150ms ease;
+}
+
+.orp-card[data-option="classic"] .orp-apply {
+  background: #c39a55;
+}
+
+.orp-apply:hover {
+  background: #293147;
+  transform: translateY(-1px);
+}
+
+.orp-card[data-option="classic"] .orp-apply:hover {
+  background: #ae8544;
+}
+
+.orp-apply-arrow {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 820px) {
+  .orp-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .orp-card {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .orp-options {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .orp-card-heading {
+    grid-template-columns: 1fr auto;
+  }
+
+  .orp-card-duration {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .orp-card-price {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+}
