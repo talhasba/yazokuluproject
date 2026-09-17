@@ -1,0 +1,2606 @@
+{
+  "generated_at": "2026-09-17T13:47:03.683507+00:00",
+  "total_programs": 299,
+  "by_provider": {
+    "edconic": 7,
+    "mpw": 8,
+    "sportech": 19,
+    "summer_discovery": 265
+  },
+  "by_program_type": {
+    "edconic_summer": 5,
+    "edconic_winter": 1,
+    "edconic_year_round_online": 1,
+    "mpw_academic_stream": 8,
+    "sportech_teen": 15,
+    "sportech_university": 4,
+    "summer_discovery_academy": 68,
+    "summer_discovery_individual-course": 197
+  },
+  "by_publish_status": {
+    "needs_review": 280,
+    "ready": 19
+  },
+  "duplicate_ids": [],
+  "duplicate_detail_urls": [
+    "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/"
+  ],
+  "expected_shared_detail_urls": [
+    "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/"
+  ],
+  "missing_fields": {
+    "age_or_grade": [
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
+        "title": "Physics and Engineering"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-architecture",
+        "title": "Architecture"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
+        "title": "Art and Design"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
+        "title": "Business, Finance and Economics"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
+        "title": "Computing, Robotics and AI"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
+        "title": "Medicine and Sciences"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
+        "title": "Politics and Law"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
+        "title": "Psychology and Sociology"
+      },
+      {
+        "id": "sportech-business-university",
+        "title": "Business"
+      },
+      {
+        "id": "sportech-motorsport-management-university",
+        "title": "Motorsport Management"
+      },
+      {
+        "id": "sportech-motorsport-engineering-university",
+        "title": "Motorsport Engineering"
+      },
+      {
+        "id": "sportech-aerospace-engineering-university",
+        "title": "Aerospace Engineering"
+      }
+    ],
+    "dates": [
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      }
+    ],
+    "price": [
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
+        "title": "Physics and Engineering"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-architecture",
+        "title": "Architecture"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
+        "title": "Art and Design"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
+        "title": "Business, Finance and Economics"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
+        "title": "Computing, Robotics and AI"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
+        "title": "Medicine and Sciences"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
+        "title": "Politics and Law"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
+        "title": "Psychology and Sociology"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-digital-advertising-and-brand-strategy-academy-s1",
+        "title": "Digital Advertising and Brand Strategy Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-digital-advertising-and-brand-strategy-academy-s2",
+        "title": "Digital Advertising and Brand Strategy Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-foundations-in-business-leadership-academy-s1",
+        "title": "Foundations in Business Leadership Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-foundations-in-business-leadership-academy-s2",
+        "title": "Foundations in Business Leadership Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-sports-business-academy-with-ucla-anderson-school-of-management-s1",
+        "title": "Sports Business Academy with UCLA Anderson School of Management"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-sports-business-academy-with-ucla-anderson-school-of-management-s2",
+        "title": "Sports Business Academy with UCLA Anderson School of Management"
+      }
+    ]
+  },
+  "flags": {
+    "2026_applications_closed": [
+      {
+        "id": "edconic-precollege-mayo-edu-pre-college-healthcare-academy",
+        "title": "Pre-College Healthcare Academy"
+      }
+    ],
+    "2026_sections_reported_closed": [
+      {
+        "id": "edconic-pre-college-summer-institute-summer-institute-nyc",
+        "title": "Summer Institute NYC"
+      }
+    ],
+    "age_and_grade_need_review": [
+      {
+        "id": "edconic-courses-vogue-winter-break-vogue-winter-break-nyc",
+        "title": "Vogue Winter Break - NYC"
+      }
+    ],
+    "age_floor_needs_review": [
+      {
+        "id": "edconic-vogue-summer-school-vogue-summer-school-nyc",
+        "title": "Vogue Summer School - NYC"
+      }
+    ],
+    "age_range_needs_review": [
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      }
+    ],
+    "campus_level_price_not_course_specific": [
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-big-questions-club-philosophy-for-kids-s1",
+        "title": "Big Questions Club: Philosophy for Kids"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-regenerative-medicine-the-engineered-anatomy-s1",
+        "title": "Biomedical Engineering Design Lab"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-codes-and-ciphers-the-mathematics-of-cryptography-s1",
+        "title": "Crack the Code: Mathematics, Ciphers & Encryption"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-dynamic-dna-the-genetics-of-plant-life-s1",
+        "title": "DNA Detectives: The Genetics of Plant Life"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-applied-data-science-with-python-s1",
+        "title": "Data Detectives: Real-World Insights and Data Science"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-smart-stats-the-power-of-data-s1",
+        "title": "Data Detectives: Smart Decisions with Data & Numbers"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-engineering-your-future-s1",
+        "title": "Engineering Adventures: Problem Solving for the Future"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-hit-the-gavel-mock-trial-and-debate-s1",
+        "title": "Hit the Gavel: Mock Trial and Debate"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-speaking-of-winning-whats-your-point-s1",
+        "title": "Make Your Point! Public Speaking & Debate"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-medical-microbiology-s1",
+        "title": "Microbe Detectives: Infection, Immunity & Disease"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-money-matters-stocks-bonds-your-financial-future-s1",
+        "title": "Money Matters: Build Your Investment Game Plan"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-myth-makers-stories-from-around-the-world-s1",
+        "title": "Myth Makers: Stories From Around the World"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-marine-biology-s1",
+        "title": "Ocean Explorers: Marine Biology & Conservation"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-interactive-robotics-programming-prowess-s1",
+        "title": "Robot Makers: Learn to Program Your Robot"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-young-scientists-coding-superstars-s1",
+        "title": "Science & Coding: Exploring the World Through Data"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-stargazers-astronomy-galaxies-the-universe-s1",
+        "title": "Stargazers: Astronomy, Galaxies & the Universe"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-superhero-storytelling-creative-engineering-s1",
+        "title": "Superhero Storytelling and 3D Model Design"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-tinkering-engineers-s1",
+        "title": "Tinkering Engineers: Make, Build & Create"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-applied-neuroscience-s1",
+        "title": "Applied Neuroscience: Nature as your Laboratory"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-business-foundations-s1",
+        "title": "Business Foundations"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-business-foundations-s5",
+        "title": "Business Foundations"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-clean-energy-technologies-s2",
+        "title": "Clean Energy Technologies"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-conflict-resolution-and-international-negotiation-s2",
+        "title": "Conflict Resolution & International Negotiation"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-creative-writing-in-the-great-outdoors-s6",
+        "title": "Creative Writing in the Great Outdoors"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-engineering-design-and-prototyping-s1",
+        "title": "Engineering: Design and Prototyping"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-entrepreneurship-innovation-and-impact-s2",
+        "title": "Entrepreneurship, Innovation and Impact"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-introduction-to-alternatives-investing-s5",
+        "title": "Introduction to Alternatives Investing"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-medicine-in-action-preventative-care-to-emergency-response-s5",
+        "title": "Medicine in Action: Preventative Care to Emergency Response"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-psychology-and-cognitive-neuroscience-s2",
+        "title": "Psychology and Cognitive Neuroscience"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-research-and-lab-work-in-medicine-s1",
+        "title": "Research and Lab Work in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-stem-accelerator-s1",
+        "title": "STEM Accelerator"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-spanish-language-intensive-public-speaking-s5",
+        "title": "Spanish Language Intensive: Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s1",
+        "title": "The Dartmouth Leadership Institute"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s4",
+        "title": "The Dartmouth Leadership Institute"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s6",
+        "title": "The Dartmouth Leadership Institute"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-the-genetic-basis-of-human-disease-s3",
+        "title": "The Genetic Basis of Human Disease"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-the-psychology-of-happiness-science-wellbeing-human-flourishing-s1",
+        "title": "The Psychology of Happiness: Science, Wellbeing & Human Flourishing"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-trowel-treasures-archaeology-for-young-scientists-s1",
+        "title": "Archaeology Adventures: Dig, Discover & Decode"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-big-questions-club-philosophy-for-kids-s1",
+        "title": "Big Questions Club: Philosophy for Kids"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-dynamic-dna-the-genetics-of-plant-life-s1",
+        "title": "DNA Detectives: The Genetics of Plant Life"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-smart-stats-the-power-of-data-s1",
+        "title": "Data Detectives: Smart Decisions with Data & Numbers"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-engineering-your-future-s1",
+        "title": "Engineering Adventures: Problem Solving for the Future"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-speaking-of-winning-whats-your-point-s1",
+        "title": "Make Your Point! Public Speaking & Debate"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-marine-biology-s1",
+        "title": "Ocean Explorers: Marine Biology & Conservation"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-interactive-robotics-programming-prowess-s1",
+        "title": "Robot Makers: Learn to Program Your Robot"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-young-scientists-coding-superstars-s1",
+        "title": "Science & Coding: Exploring the World Through Data"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-stargazers-astronomy-galaxies-the-universe-s1",
+        "title": "Stargazers: Astronomy, Galaxies & the Universe"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-superhero-storytelling-creative-engineering-s1",
+        "title": "Superhero Storytelling and 3D Model Design"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-tinkering-engineers-s1",
+        "title": "Tinkering Engineers: Make, Build & Create"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-advanced-debate-persuasive-public-speaking-s2",
+        "title": "Advanced Debate: Persuasive Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-debate-public-speaking-s1",
+        "title": "Advanced Debate: Persuasive Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-advertising-consumer-behavior-campaign-strategy-s2",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-advertising-public-relations-s1",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-build-your-business-exploring-entrepreneurship-s1",
+        "title": "Build Your Business: Exploring Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-build-your-business-exploring-entrepreneurship-s2",
+        "title": "Build Your Business: Exploring Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s1",
+        "title": "Business & Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s1-1",
+        "title": "Business & Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s2",
+        "title": "Business & Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-fundamentals-of-entrepreneurship-s1-1",
+        "title": "Business & Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-careers-in-law-introduction-to-the-us-legal-system-s2",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-careers-in-law-s1",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-careers-in-medicine-s1",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-careers-in-medicine-s2",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-college-essay-writing-masterclass-s1",
+        "title": "College Essay Writing Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-college-essay-writing-masterclass-s2",
+        "title": "College Essay Writing Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-branding-the-athlete-college-sports-marketing-s1",
+        "title": "College Sports Marketing: Brands, Fans & NIL"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-college-sports-marketing-brands-fans-nil-s2",
+        "title": "College Sports Marketing: Brands, Fans & NIL"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-economics-s1",
+        "title": "Economics"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-economics-s1-1",
+        "title": "Economics"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-finding-your-voice-confident-public-speaking-s2",
+        "title": "Finding Your Voice: Confident Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-public-speaking-s1",
+        "title": "Finding Your Voice: Confident Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-csi-forensic-science-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-forensic-investigation-crime-scenes-case-strategy-s2",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-forensics-101-solve-crimes-with-evidence-s2",
+        "title": "Forensics 101: Solve Crimes with Evidence"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-the-science-behind-crime-solving-s1",
+        "title": "Forensics 101: Solve Crimes with Evidence"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-global-business-leadership-s1",
+        "title": "Global Business & Leadership"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-global-business-leadership-s2",
+        "title": "Global Business & Leadership"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-american-government-civic-engagement-s1",
+        "title": "Governing America: Power & Constitutional Democracy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-governing-america-power-constitutional-democracy-s2",
+        "title": "Governing America: Power & Constitutional Democracy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-international-relations-geopolitics-diplomacy-s2",
+        "title": "International Relations: Geopolitics & Diplomacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-international-relations-s1",
+        "title": "International Relations: Geopolitics & Diplomacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-introduction-to-medicine-exploring-the-world-of-healthcare-s2",
+        "title": "Introduction to Medicine: Exploring the World of Healthcare"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-introduction-to-medicine-s1",
+        "title": "Introduction to Medicine: Exploring the World of Healthcare"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-mock-trial-courtroom-strategy-advocacy-s2",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-mock-trial-courtroom-strategy-advocacy-s2-1",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-mock-trial-order-in-the-court-s1",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-mock-trial-order-in-the-court-s1-1",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-money-matters-finance-and-investment-s1",
+        "title": "Money Matters: Smart Investing for Your Future"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-money-matters-smart-investing-for-your-future-s2",
+        "title": "Money Matters: Smart Investing for Your Future"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-psychology-mental-health-behavior-s2",
+        "title": "Psychology: Mental Health & Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-psychology-s1",
+        "title": "Psychology: Mental Health & Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-introduction-to-public-health-s1",
+        "title": "Public Health: Protecting Communities & Preventing Disease"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-public-health-protecting-communities-preventing-disease-s2",
+        "title": "Public Health: Protecting Communities & Preventing Disease"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-exploring-the-mind-psychology-101-s1",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-social-psychology-dynamics-of-group-behavior-s2",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sociology-culture-institutions-social-change-s2",
+        "title": "Sociology: Culture, Institutions & Social Change"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sociology-s1",
+        "title": "Sociology: Culture, Institutions & Social Change"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sports-law-inside-sports-contracts-s2",
+        "title": "Sports Law: Inside Sports Contracts"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sports-law-s1",
+        "title": "Sports Law: Inside Sports Contracts"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sports-management-s1",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sports-management-s2",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-foundations-of-international-relations-s1",
+        "title": "The World in Action: International Diplomacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-the-world-in-action-international-diplomacy-s2",
+        "title": "The World in Action: International Diplomacy"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-engineering-research-scientific-investigation-the-research-process-s2",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-engineering-research-scientific-investigation-the-research-process-s2-1",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-engineering-and-robotics-academy-s1",
+        "title": "Engineering and Robotics Academy"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-engineering-and-robotics-academy-s2",
+        "title": "Engineering and Robotics Academy"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-entrepreneurship-with-nfte-new-venture-creation-s2",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-global-social-entrepreneurship-systems-change-impact-s1",
+        "title": "Global Social Entrepreneurship: Systems Change & Impact"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-medical-research-scientific-investigation-the-research-process-s1",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-medical-research-scientific-investigation-the-research-process-s2",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-medicine-academy-clinical-practice-career-exploration-s2",
+        "title": "Medicine Academy: Clinical Practice & Career Exploration"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-psychiatry-neuroscience-academy-clinical-application-s1",
+        "title": "Psychiatry & Neuroscience Academy: Clinical Application"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-actsat-success-studio-s1",
+        "title": "ACT/SAT Success Studio"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-actsat-success-studio-s2",
+        "title": "ACT/SAT Success Studio"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-ai-pioneers-an-artificial-intelligence-primer-s1",
+        "title": "AI Pioneers: Code, Create & Build AI for Good"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-abnormal-psychology-s1",
+        "title": "Abnormal Psychology"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-abnormal-psychology-s2",
+        "title": "Abnormal Psychology"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-advertising-marketing-public-relations-s1",
+        "title": "Advertising, Marketing & Public Relations"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-advertising-marketing-public-relations-s2",
+        "title": "Advertising, Marketing & Public Relations"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-artificial-intelligence-emerging-applications-s1-1",
+        "title": "Artificial Intelligence: Emerging Applications"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-artificial-intelligence-emerging-applications-s2",
+        "title": "Artificial Intelligence: Emerging Applications"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-regenerative-medicine-the-engineered-anatomy-s1",
+        "title": "Biomedical Engineering Design Lab"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-build-the-movement-civic-engagement-social-impact-s1",
+        "title": "Build the Movement: Civic Engagement & Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-careers-in-medicine-s1",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-careers-in-medicine-s2",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-cooking-creations-s1",
+        "title": "Cooking: Culinary Arts"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-cooking-culinary-arts-s2",
+        "title": "Cooking: Culinary Arts"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-corporate-finance-accounting-s1",
+        "title": "Corporate Finance & Accounting"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-corporate-finance-accounting-s2",
+        "title": "Corporate Finance & Accounting"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-codes-and-ciphers-the-mathematics-of-cryptography-s1",
+        "title": "Crack the Code: Mathematics, Ciphers & Encryption"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-creative-writing-s1",
+        "title": "Creative Writing: The Art of Storytelling"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-criminal-psychology-s1",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-criminal-psychology-the-roots-of-criminal-behavior-s2",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-applied-data-science-with-python-s1",
+        "title": "Data Detectives: Real-World Insights and Data Science"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-discrete-mathematics-s1",
+        "title": "Discrete Math: Patterns, Logic & Puzzles"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-engineering-research-scientific-investigation-the-research-process-s1",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-development-branding-and-merchandising-s1",
+        "title": "Fashion Business: Product & Brand Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-development-branding-and-merchandising-s2",
+        "title": "Fashion Business: Product & Brand Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-design-s1",
+        "title": "Fashion Design: Sketch & Design Construction"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-design-s1-2",
+        "title": "Fashion Design: Sketch & Design Construction"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-design-s2",
+        "title": "Fashion Design: Sketch & Design Construction"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-film-industry-primer-s1-1",
+        "title": "Film Industry Primer"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-film-industry-primer-s1-2",
+        "title": "Film Industry Primer"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-film-industry-primer-s2-1",
+        "title": "Film Industry Primer"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-film-production-s1",
+        "title": "Film Production: Storytelling through Cinema"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-csi-forensic-science-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-forensic-investigation-crime-scenes-case-strategy-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-forensic-investigation-crime-scenes-case-strategy-s2",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-foundations-of-psychology-s1",
+        "title": "Foundations of Psychology: Thought, Emotion & Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-future-founders-the-entrepreneurship-experience-s1",
+        "title": "Future Founders: The Entrepreneurship Experience"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-future-founders-the-entrepreneurship-experience-s2",
+        "title": "Future Founders: The Entrepreneurship Experience"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-hit-the-gavel-mock-trial-and-debate-s1-2",
+        "title": "Hit the Gavel: Mock Trial and Debate"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-the-business-of-experience-hospitality-and-event-management-s1",
+        "title": "Hospitality & Event Management: The Business of Experience"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-the-business-of-experience-hospitality-and-event-management-s2",
+        "title": "Hospitality & Event Management: The Business of Experience"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-introduction-to-real-estate-s2",
+        "title": "Introduction to Real Estate"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-sports-leadership-and-teamwork-with-elevate-by-img-academy-s1",
+        "title": "Lead the Team: Sports Leadership with IMG Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-introduction-to-marketing-advertising-s1",
+        "title": "Marketing & Advertising: Big Ideas, Bold Brands"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-research-in-medicine-from-hypothesis-to-healthcare-breakthrough-s1",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-medical-microbiology-s1",
+        "title": "Microbe Detectives: Infection, Immunity & Disease"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-hit-the-gavel-mock-trial-and-debate-s1-1",
+        "title": "Mock Trial: Order in the Court"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-money-matters-stocks-bonds-your-financial-future-s1",
+        "title": "Money Matters: Stocks, Bonds, & Your Financial Future"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-music-production-s1",
+        "title": "Music Production: Recording, Mixing & Sound Design"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-music-production-s2",
+        "title": "Music Production: Recording, Mixing & Sound Design"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-psychology-academy-s1",
+        "title": "Psychology Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-psychology-academy-s2",
+        "title": "Psychology Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-masterminds-of-creative-robotics-s1",
+        "title": "Robotics Masterminds: Design, Build & Code"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-remarkable-rhetoric-make-a-lasting-impression-s1",
+        "title": "Speak with Confidence: Rhetoric & Debate"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-theories-of-time-travel-spacetime-physics-wormholes-s1",
+        "title": "Wormholes & Time Warps: A Physics Adventure"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-entrepreneurship-with-nfte-ideation-pitch-strategy-new-venture-creation-s1",
+        "title": "Young Entrepreneurs: Build Your Business with NFTE"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s1",
+        "title": "AI Product Studio: Vibe Coding for Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s2",
+        "title": "AI Product Studio: Vibe Coding for Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s3",
+        "title": "AI Product Studio: Vibe Coding for Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s1",
+        "title": "AI Scholars: Build Intelligent Systems For Social Good"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s2",
+        "title": "AI Scholars: Build Intelligent Systems For Social Good"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s3",
+        "title": "AI Scholars: Build Intelligent Systems For Social Good"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s1",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s2",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s3",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s1",
+        "title": "Biopsychology, Cognition, and Neuroscience (BCN)"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s2",
+        "title": "Biopsychology, Cognition, and Neuroscience (BCN)"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s3",
+        "title": "Biopsychology, Cognition, and Neuroscience (BCN)"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s1",
+        "title": "Build the Movement: Civic Engagement & Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s2",
+        "title": "Build the Movement: Civic Engagement & Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s3",
+        "title": "Build the Movement: Civic Engagement & Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s1",
+        "title": "Careers in Engineering"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s2",
+        "title": "Careers in Engineering"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s3",
+        "title": "Careers in Engineering"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s1",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s2",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s3",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s1",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s2",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s3",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s1",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s2",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s3",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s1",
+        "title": "Day Trading Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s2",
+        "title": "Day Trading Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s3",
+        "title": "Day Trading Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-engineering-research-scientific-investigation-the-research-process-s2",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s1",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s2",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s3",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s2",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s3",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s1",
+        "title": "Introduction to Real Estate"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s2",
+        "title": "Introduction to Real Estate"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s3",
+        "title": "Introduction to Real Estate"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s1",
+        "title": "Mechanical Engineering: Structural Analysis & Design"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s2",
+        "title": "Mechanical Engineering: Structural Analysis & Design"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s3",
+        "title": "Mechanical Engineering: Structural Analysis & Design"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-medical-research-scientific-investigation-the-research-process-s1",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-medical-research-scientific-investigation-the-research-process-s3",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s1",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s2",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s3",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s1",
+        "title": "Personal Finance & Investment Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s2",
+        "title": "Personal Finance & Investment Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s3",
+        "title": "Personal Finance & Investment Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s1",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s2",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s3",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s1",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s2",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s3",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-anatomy-academy-s1",
+        "title": "Anatomy Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-biomedical-engineering-academy-s1",
+        "title": "Biomedical Engineering Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-business-innovation-and-entrepreneurship-academy-s1",
+        "title": "Business Innovation and Entrepreneurship Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-careers-in-medicine-academy-s1",
+        "title": "Careers in Medicine Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-digital-marketing-and-business-build-your-brand-s1",
+        "title": "Digital Marketing & Business Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-engineering-academy-s1",
+        "title": "Engineering Academy: Design, Systems & Problem Solving"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-forensic-science-and-crime-scene-investigation-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-introduction-to-law-academy-s1",
+        "title": "Law Academy: Foundations of the U.S. Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-microbiology-s1",
+        "title": "Microbiology: Pathogens & Biotechnology"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-neuroscience-unlocking-the-brains-secrets-s1",
+        "title": "Neuroscience: Psychology, Behavior & Cognition"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-organizational-behavior-and-leadership-academy-s1",
+        "title": "Organizational Behavior and Leadership Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-positive-psychology-and-mental-wellness-s1",
+        "title": "Positive Psychology and Mental Wellness"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-psychology-academy-s1",
+        "title": "Psychology Academy: How We Think Feel And Behave"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-persuasive-communication-public-speaking-s1",
+        "title": "Rhetoric & Debate: Argumentation & Persuasive Discourse"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-sports-management-s1",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-sports-media-behind-the-scenes-s1",
+        "title": "Sports Media: Broadcasting & Production"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-ai-pioneers-code-create-build-ai-for-good-s1",
+        "title": "AI Pioneers: Code, Create & Build AI for Good"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-ai-scholars-build-intelligent-systems-for-social-good-s1",
+        "title": "AI Scholars: Build Intelligent Systems For Social Good"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-regenerative-medicine-the-engineered-anatomy-s1",
+        "title": "Biomedical Engineering Design Lab"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-codes-and-ciphers-the-mathematics-of-cryptography-s1",
+        "title": "Crack the Code: Mathematics, Ciphers & Encryption"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-research-in-engineering-academy-s1",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-business-entrepreneurship-with-nfte-s1-1",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-global-politics-unveiled-human-rights-justice-in-a-changing-world-s1",
+        "title": "Global Politics: Human Rights & International Law"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-hit-the-gavel-mock-trial-and-debate-s1",
+        "title": "Hit the Gavel: Mock Trial and Debate"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-research-in-medicine-academy-s1",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-medical-microbiology-s1",
+        "title": "Microbe Detectives: Infection, Immunity & Disease"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-money-matters-stocks-bonds-your-financial-future-s1",
+        "title": "Money Matters: Build Your Investment Game Plan"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-neuroscience-the-brains-physiology-pathology-s1",
+        "title": "Neuroscience: Brain Physiology & Disease"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-quantum-mechanics-in-the-quantum-realm-s1",
+        "title": "Quantum Physics: Superposition & the Subatomic World"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-remarkable-rhetoric-make-a-lasting-impression-s1",
+        "title": "Speak with Confidence: Rhetoric & Debate"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-stem-cells-in-action-revolutionary-medicine-s1",
+        "title": "Stem Cells in Action: Breakthroughs in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-business-entrepreneurship-with-nfte-s1",
+        "title": "Young Entrepreneurs: Build Your Business with NFTE"
+      }
+    ],
+    "current_age_unpublished": [
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
+        "title": "Physics and Engineering"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-architecture",
+        "title": "Architecture"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
+        "title": "Art and Design"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
+        "title": "Business, Finance and Economics"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
+        "title": "Computing, Robotics and AI"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
+        "title": "Medicine and Sciences"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
+        "title": "Politics and Law"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
+        "title": "Psychology and Sociology"
+      }
+    ],
+    "current_price_unpublished": [
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
+        "title": "Physics and Engineering"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-architecture",
+        "title": "Architecture"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
+        "title": "Art and Design"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
+        "title": "Business, Finance and Economics"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
+        "title": "Computing, Robotics and AI"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
+        "title": "Medicine and Sciences"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
+        "title": "Politics and Law"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
+        "title": "Psychology and Sociology"
+      }
+    ],
+    "dates_need_review": [
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      }
+    ],
+    "grades_only_no_age_range": [
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-big-questions-club-philosophy-for-kids-s1",
+        "title": "Big Questions Club: Philosophy for Kids"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-regenerative-medicine-the-engineered-anatomy-s1",
+        "title": "Biomedical Engineering Design Lab"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-codes-and-ciphers-the-mathematics-of-cryptography-s1",
+        "title": "Crack the Code: Mathematics, Ciphers & Encryption"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-dynamic-dna-the-genetics-of-plant-life-s1",
+        "title": "DNA Detectives: The Genetics of Plant Life"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-applied-data-science-with-python-s1",
+        "title": "Data Detectives: Real-World Insights and Data Science"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-smart-stats-the-power-of-data-s1",
+        "title": "Data Detectives: Smart Decisions with Data & Numbers"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-engineering-your-future-s1",
+        "title": "Engineering Adventures: Problem Solving for the Future"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-hit-the-gavel-mock-trial-and-debate-s1",
+        "title": "Hit the Gavel: Mock Trial and Debate"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-speaking-of-winning-whats-your-point-s1",
+        "title": "Make Your Point! Public Speaking & Debate"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-medical-microbiology-s1",
+        "title": "Microbe Detectives: Infection, Immunity & Disease"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-money-matters-stocks-bonds-your-financial-future-s1",
+        "title": "Money Matters: Build Your Investment Game Plan"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-myth-makers-stories-from-around-the-world-s1",
+        "title": "Myth Makers: Stories From Around the World"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-marine-biology-s1",
+        "title": "Ocean Explorers: Marine Biology & Conservation"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-interactive-robotics-programming-prowess-s1",
+        "title": "Robot Makers: Learn to Program Your Robot"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-young-scientists-coding-superstars-s1",
+        "title": "Science & Coding: Exploring the World Through Data"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-stargazers-astronomy-galaxies-the-universe-s1",
+        "title": "Stargazers: Astronomy, Galaxies & the Universe"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-superhero-storytelling-creative-engineering-s1",
+        "title": "Superhero Storytelling and 3D Model Design"
+      },
+      {
+        "id": "summer-discovery-2027-bryn-mawr-college-tinkering-engineers-s1",
+        "title": "Tinkering Engineers: Make, Build & Create"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-applied-neuroscience-s1",
+        "title": "Applied Neuroscience: Nature as your Laboratory"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-business-foundations-s1",
+        "title": "Business Foundations"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-business-foundations-s5",
+        "title": "Business Foundations"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-clean-energy-technologies-s2",
+        "title": "Clean Energy Technologies"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-conflict-resolution-and-international-negotiation-s2",
+        "title": "Conflict Resolution & International Negotiation"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-creative-writing-in-the-great-outdoors-s6",
+        "title": "Creative Writing in the Great Outdoors"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-engineering-design-and-prototyping-s1",
+        "title": "Engineering: Design and Prototyping"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-entrepreneurship-innovation-and-impact-s2",
+        "title": "Entrepreneurship, Innovation and Impact"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-introduction-to-alternatives-investing-s5",
+        "title": "Introduction to Alternatives Investing"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-medicine-in-action-preventative-care-to-emergency-response-s5",
+        "title": "Medicine in Action: Preventative Care to Emergency Response"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-psychology-and-cognitive-neuroscience-s2",
+        "title": "Psychology and Cognitive Neuroscience"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-research-and-lab-work-in-medicine-s1",
+        "title": "Research and Lab Work in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-stem-accelerator-s1",
+        "title": "STEM Accelerator"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-spanish-language-intensive-public-speaking-s5",
+        "title": "Spanish Language Intensive: Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s1",
+        "title": "The Dartmouth Leadership Institute"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s4",
+        "title": "The Dartmouth Leadership Institute"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s6",
+        "title": "The Dartmouth Leadership Institute"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-the-genetic-basis-of-human-disease-s3",
+        "title": "The Genetic Basis of Human Disease"
+      },
+      {
+        "id": "summer-discovery-2027-dartmouth-the-psychology-of-happiness-science-wellbeing-human-flourishing-s1",
+        "title": "The Psychology of Happiness: Science, Wellbeing & Human Flourishing"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-trowel-treasures-archaeology-for-young-scientists-s1",
+        "title": "Archaeology Adventures: Dig, Discover & Decode"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-big-questions-club-philosophy-for-kids-s1",
+        "title": "Big Questions Club: Philosophy for Kids"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-dynamic-dna-the-genetics-of-plant-life-s1",
+        "title": "DNA Detectives: The Genetics of Plant Life"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-smart-stats-the-power-of-data-s1",
+        "title": "Data Detectives: Smart Decisions with Data & Numbers"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-engineering-your-future-s1",
+        "title": "Engineering Adventures: Problem Solving for the Future"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-speaking-of-winning-whats-your-point-s1",
+        "title": "Make Your Point! Public Speaking & Debate"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-marine-biology-s1",
+        "title": "Ocean Explorers: Marine Biology & Conservation"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-interactive-robotics-programming-prowess-s1",
+        "title": "Robot Makers: Learn to Program Your Robot"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-young-scientists-coding-superstars-s1",
+        "title": "Science & Coding: Exploring the World Through Data"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-stargazers-astronomy-galaxies-the-universe-s1",
+        "title": "Stargazers: Astronomy, Galaxies & the Universe"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-superhero-storytelling-creative-engineering-s1",
+        "title": "Superhero Storytelling and 3D Model Design"
+      },
+      {
+        "id": "summer-discovery-2027-fairfield-university-tinkering-engineers-s1",
+        "title": "Tinkering Engineers: Make, Build & Create"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-advanced-debate-persuasive-public-speaking-s2",
+        "title": "Advanced Debate: Persuasive Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-debate-public-speaking-s1",
+        "title": "Advanced Debate: Persuasive Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-advertising-consumer-behavior-campaign-strategy-s2",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-advertising-public-relations-s1",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-build-your-business-exploring-entrepreneurship-s1",
+        "title": "Build Your Business: Exploring Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-build-your-business-exploring-entrepreneurship-s2",
+        "title": "Build Your Business: Exploring Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s1",
+        "title": "Business & Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s1-1",
+        "title": "Business & Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s2",
+        "title": "Business & Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-fundamentals-of-entrepreneurship-s1-1",
+        "title": "Business & Entrepreneurship"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-careers-in-law-introduction-to-the-us-legal-system-s2",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-careers-in-law-s1",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-careers-in-medicine-s1",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-careers-in-medicine-s2",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-college-essay-writing-masterclass-s1",
+        "title": "College Essay Writing Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-college-essay-writing-masterclass-s2",
+        "title": "College Essay Writing Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-branding-the-athlete-college-sports-marketing-s1",
+        "title": "College Sports Marketing: Brands, Fans & NIL"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-college-sports-marketing-brands-fans-nil-s2",
+        "title": "College Sports Marketing: Brands, Fans & NIL"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-economics-s1",
+        "title": "Economics"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-economics-s1-1",
+        "title": "Economics"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-finding-your-voice-confident-public-speaking-s2",
+        "title": "Finding Your Voice: Confident Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-public-speaking-s1",
+        "title": "Finding Your Voice: Confident Public Speaking"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-csi-forensic-science-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-forensic-investigation-crime-scenes-case-strategy-s2",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-forensics-101-solve-crimes-with-evidence-s2",
+        "title": "Forensics 101: Solve Crimes with Evidence"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-the-science-behind-crime-solving-s1",
+        "title": "Forensics 101: Solve Crimes with Evidence"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-global-business-leadership-s1",
+        "title": "Global Business & Leadership"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-global-business-leadership-s2",
+        "title": "Global Business & Leadership"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-american-government-civic-engagement-s1",
+        "title": "Governing America: Power & Constitutional Democracy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-governing-america-power-constitutional-democracy-s2",
+        "title": "Governing America: Power & Constitutional Democracy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-international-relations-geopolitics-diplomacy-s2",
+        "title": "International Relations: Geopolitics & Diplomacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-international-relations-s1",
+        "title": "International Relations: Geopolitics & Diplomacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-introduction-to-medicine-exploring-the-world-of-healthcare-s2",
+        "title": "Introduction to Medicine: Exploring the World of Healthcare"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-introduction-to-medicine-s1",
+        "title": "Introduction to Medicine: Exploring the World of Healthcare"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-mock-trial-courtroom-strategy-advocacy-s2",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-mock-trial-courtroom-strategy-advocacy-s2-1",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-mock-trial-order-in-the-court-s1",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-mock-trial-order-in-the-court-s1-1",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-money-matters-finance-and-investment-s1",
+        "title": "Money Matters: Smart Investing for Your Future"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-money-matters-smart-investing-for-your-future-s2",
+        "title": "Money Matters: Smart Investing for Your Future"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-psychology-mental-health-behavior-s2",
+        "title": "Psychology: Mental Health & Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-psychology-s1",
+        "title": "Psychology: Mental Health & Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-introduction-to-public-health-s1",
+        "title": "Public Health: Protecting Communities & Preventing Disease"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-public-health-protecting-communities-preventing-disease-s2",
+        "title": "Public Health: Protecting Communities & Preventing Disease"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-exploring-the-mind-psychology-101-s1",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-social-psychology-dynamics-of-group-behavior-s2",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sociology-culture-institutions-social-change-s2",
+        "title": "Sociology: Culture, Institutions & Social Change"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sociology-s1",
+        "title": "Sociology: Culture, Institutions & Social Change"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sports-law-inside-sports-contracts-s2",
+        "title": "Sports Law: Inside Sports Contracts"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sports-law-s1",
+        "title": "Sports Law: Inside Sports Contracts"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sports-management-s1",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-sports-management-s2",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-foundations-of-international-relations-s1",
+        "title": "The World in Action: International Diplomacy"
+      },
+      {
+        "id": "summer-discovery-2027-georgetown-university-the-world-in-action-international-diplomacy-s2",
+        "title": "The World in Action: International Diplomacy"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-engineering-research-scientific-investigation-the-research-process-s2",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-engineering-research-scientific-investigation-the-research-process-s2-1",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-engineering-and-robotics-academy-s1",
+        "title": "Engineering and Robotics Academy"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-engineering-and-robotics-academy-s2",
+        "title": "Engineering and Robotics Academy"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-entrepreneurship-with-nfte-new-venture-creation-s2",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-global-social-entrepreneurship-systems-change-impact-s1",
+        "title": "Global Social Entrepreneurship: Systems Change & Impact"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-medical-research-scientific-investigation-the-research-process-s1",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-medical-research-scientific-investigation-the-research-process-s2",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-medicine-academy-clinical-practice-career-exploration-s2",
+        "title": "Medicine Academy: Clinical Practice & Career Exploration"
+      },
+      {
+        "id": "summer-discovery-2027-uc-berkeley-psychiatry-neuroscience-academy-clinical-application-s1",
+        "title": "Psychiatry & Neuroscience Academy: Clinical Application"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-actsat-success-studio-s1",
+        "title": "ACT/SAT Success Studio"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-actsat-success-studio-s2",
+        "title": "ACT/SAT Success Studio"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-ai-pioneers-an-artificial-intelligence-primer-s1",
+        "title": "AI Pioneers: Code, Create & Build AI for Good"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-abnormal-psychology-s1",
+        "title": "Abnormal Psychology"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-abnormal-psychology-s2",
+        "title": "Abnormal Psychology"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-advertising-marketing-public-relations-s1",
+        "title": "Advertising, Marketing & Public Relations"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-advertising-marketing-public-relations-s2",
+        "title": "Advertising, Marketing & Public Relations"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-artificial-intelligence-emerging-applications-s1-1",
+        "title": "Artificial Intelligence: Emerging Applications"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-artificial-intelligence-emerging-applications-s2",
+        "title": "Artificial Intelligence: Emerging Applications"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-regenerative-medicine-the-engineered-anatomy-s1",
+        "title": "Biomedical Engineering Design Lab"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-build-the-movement-civic-engagement-social-impact-s1",
+        "title": "Build the Movement: Civic Engagement & Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-careers-in-medicine-s1",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-careers-in-medicine-s2",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-cooking-creations-s1",
+        "title": "Cooking: Culinary Arts"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-cooking-culinary-arts-s2",
+        "title": "Cooking: Culinary Arts"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-corporate-finance-accounting-s1",
+        "title": "Corporate Finance & Accounting"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-corporate-finance-accounting-s2",
+        "title": "Corporate Finance & Accounting"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-codes-and-ciphers-the-mathematics-of-cryptography-s1",
+        "title": "Crack the Code: Mathematics, Ciphers & Encryption"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-creative-writing-s1",
+        "title": "Creative Writing: The Art of Storytelling"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-criminal-psychology-s1",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-criminal-psychology-the-roots-of-criminal-behavior-s2",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-applied-data-science-with-python-s1",
+        "title": "Data Detectives: Real-World Insights and Data Science"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-discrete-mathematics-s1",
+        "title": "Discrete Math: Patterns, Logic & Puzzles"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-engineering-research-scientific-investigation-the-research-process-s1",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-development-branding-and-merchandising-s1",
+        "title": "Fashion Business: Product & Brand Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-development-branding-and-merchandising-s2",
+        "title": "Fashion Business: Product & Brand Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-design-s1",
+        "title": "Fashion Design: Sketch & Design Construction"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-design-s1-2",
+        "title": "Fashion Design: Sketch & Design Construction"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-fashion-design-s2",
+        "title": "Fashion Design: Sketch & Design Construction"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-film-industry-primer-s1-1",
+        "title": "Film Industry Primer"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-film-industry-primer-s1-2",
+        "title": "Film Industry Primer"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-film-industry-primer-s2-1",
+        "title": "Film Industry Primer"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-film-production-s1",
+        "title": "Film Production: Storytelling through Cinema"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-csi-forensic-science-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-forensic-investigation-crime-scenes-case-strategy-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-forensic-investigation-crime-scenes-case-strategy-s2",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-foundations-of-psychology-s1",
+        "title": "Foundations of Psychology: Thought, Emotion & Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-future-founders-the-entrepreneurship-experience-s1",
+        "title": "Future Founders: The Entrepreneurship Experience"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-future-founders-the-entrepreneurship-experience-s2",
+        "title": "Future Founders: The Entrepreneurship Experience"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-hit-the-gavel-mock-trial-and-debate-s1-2",
+        "title": "Hit the Gavel: Mock Trial and Debate"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-the-business-of-experience-hospitality-and-event-management-s1",
+        "title": "Hospitality & Event Management: The Business of Experience"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-the-business-of-experience-hospitality-and-event-management-s2",
+        "title": "Hospitality & Event Management: The Business of Experience"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-introduction-to-real-estate-s2",
+        "title": "Introduction to Real Estate"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-sports-leadership-and-teamwork-with-elevate-by-img-academy-s1",
+        "title": "Lead the Team: Sports Leadership with IMG Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-introduction-to-marketing-advertising-s1",
+        "title": "Marketing & Advertising: Big Ideas, Bold Brands"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-research-in-medicine-from-hypothesis-to-healthcare-breakthrough-s1",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-medical-microbiology-s1",
+        "title": "Microbe Detectives: Infection, Immunity & Disease"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-hit-the-gavel-mock-trial-and-debate-s1-1",
+        "title": "Mock Trial: Order in the Court"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-money-matters-stocks-bonds-your-financial-future-s1",
+        "title": "Money Matters: Stocks, Bonds, & Your Financial Future"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-music-production-s1",
+        "title": "Music Production: Recording, Mixing & Sound Design"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-music-production-s2",
+        "title": "Music Production: Recording, Mixing & Sound Design"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-psychology-academy-s1",
+        "title": "Psychology Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-psychology-academy-s2",
+        "title": "Psychology Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-masterminds-of-creative-robotics-s1",
+        "title": "Robotics Masterminds: Design, Build & Code"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-remarkable-rhetoric-make-a-lasting-impression-s1",
+        "title": "Speak with Confidence: Rhetoric & Debate"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-theories-of-time-travel-spacetime-physics-wormholes-s1",
+        "title": "Wormholes & Time Warps: A Physics Adventure"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-entrepreneurship-with-nfte-ideation-pitch-strategy-new-venture-creation-s1",
+        "title": "Young Entrepreneurs: Build Your Business with NFTE"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-digital-advertising-and-brand-strategy-academy-s1",
+        "title": "Digital Advertising and Brand Strategy Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-digital-advertising-and-brand-strategy-academy-s2",
+        "title": "Digital Advertising and Brand Strategy Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-foundations-in-business-leadership-academy-s1",
+        "title": "Foundations in Business Leadership Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-foundations-in-business-leadership-academy-s2",
+        "title": "Foundations in Business Leadership Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-sports-business-academy-with-ucla-anderson-school-of-management-s1",
+        "title": "Sports Business Academy with UCLA Anderson School of Management"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-sports-business-academy-with-ucla-anderson-school-of-management-s2",
+        "title": "Sports Business Academy with UCLA Anderson School of Management"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s1",
+        "title": "AI Product Studio: Vibe Coding for Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s2",
+        "title": "AI Product Studio: Vibe Coding for Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s3",
+        "title": "AI Product Studio: Vibe Coding for Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s1",
+        "title": "AI Scholars: Build Intelligent Systems For Social Good"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s2",
+        "title": "AI Scholars: Build Intelligent Systems For Social Good"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s3",
+        "title": "AI Scholars: Build Intelligent Systems For Social Good"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s1",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s2",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s3",
+        "title": "Advertising: Consumer Behavior & Campaign Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s1",
+        "title": "Biopsychology, Cognition, and Neuroscience (BCN)"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s2",
+        "title": "Biopsychology, Cognition, and Neuroscience (BCN)"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s3",
+        "title": "Biopsychology, Cognition, and Neuroscience (BCN)"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s1",
+        "title": "Build the Movement: Civic Engagement & Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s2",
+        "title": "Build the Movement: Civic Engagement & Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s3",
+        "title": "Build the Movement: Civic Engagement & Social Impact"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s1",
+        "title": "Careers in Engineering"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s2",
+        "title": "Careers in Engineering"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s3",
+        "title": "Careers in Engineering"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s1",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s2",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s3",
+        "title": "Careers in Law: Introduction to the US Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s1",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s2",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s3",
+        "title": "Careers in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s1",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s2",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s3",
+        "title": "Criminal Psychology: The Roots of Criminal Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s1",
+        "title": "Day Trading Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s2",
+        "title": "Day Trading Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s3",
+        "title": "Day Trading Masterclass"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-engineering-research-scientific-investigation-the-research-process-s2",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s1",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s2",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s3",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s2",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s3",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s1",
+        "title": "Introduction to Real Estate"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s2",
+        "title": "Introduction to Real Estate"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s3",
+        "title": "Introduction to Real Estate"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s1",
+        "title": "Mechanical Engineering: Structural Analysis & Design"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s2",
+        "title": "Mechanical Engineering: Structural Analysis & Design"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s3",
+        "title": "Mechanical Engineering: Structural Analysis & Design"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-medical-research-scientific-investigation-the-research-process-s1",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-medical-research-scientific-investigation-the-research-process-s3",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s1",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s2",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s3",
+        "title": "Mock Trial: Courtroom Strategy & Advocacy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s1",
+        "title": "Personal Finance & Investment Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s2",
+        "title": "Personal Finance & Investment Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s3",
+        "title": "Personal Finance & Investment Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s1",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s2",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s3",
+        "title": "Social Psychology: Dynamics of Group Behavior"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s1",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s2",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s3",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-anatomy-academy-s1",
+        "title": "Anatomy Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-biomedical-engineering-academy-s1",
+        "title": "Biomedical Engineering Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-business-innovation-and-entrepreneurship-academy-s1",
+        "title": "Business Innovation and Entrepreneurship Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-careers-in-medicine-academy-s1",
+        "title": "Careers in Medicine Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-digital-marketing-and-business-build-your-brand-s1",
+        "title": "Digital Marketing & Business Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-engineering-academy-s1",
+        "title": "Engineering Academy: Design, Systems & Problem Solving"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-forensic-science-and-crime-scene-investigation-s1",
+        "title": "Forensic Investigation: Crime Scenes & Case Strategy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-introduction-to-law-academy-s1",
+        "title": "Law Academy: Foundations of the U.S. Legal System"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-microbiology-s1",
+        "title": "Microbiology: Pathogens & Biotechnology"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-neuroscience-unlocking-the-brains-secrets-s1",
+        "title": "Neuroscience: Psychology, Behavior & Cognition"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-organizational-behavior-and-leadership-academy-s1",
+        "title": "Organizational Behavior and Leadership Academy"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-positive-psychology-and-mental-wellness-s1",
+        "title": "Positive Psychology and Mental Wellness"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-psychology-academy-s1",
+        "title": "Psychology Academy: How We Think Feel And Behave"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-persuasive-communication-public-speaking-s1",
+        "title": "Rhetoric & Debate: Argumentation & Persuasive Discourse"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-sports-management-s1",
+        "title": "Sports Management & Strategy: Behind the Game"
+      },
+      {
+        "id": "summer-discovery-2027-university-of-texas-at-austin-sports-media-behind-the-scenes-s1",
+        "title": "Sports Media: Broadcasting & Production"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-ai-pioneers-code-create-build-ai-for-good-s1",
+        "title": "AI Pioneers: Code, Create & Build AI for Good"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-ai-scholars-build-intelligent-systems-for-social-good-s1",
+        "title": "AI Scholars: Build Intelligent Systems For Social Good"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-regenerative-medicine-the-engineered-anatomy-s1",
+        "title": "Biomedical Engineering Design Lab"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-codes-and-ciphers-the-mathematics-of-cryptography-s1",
+        "title": "Crack the Code: Mathematics, Ciphers & Encryption"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-research-in-engineering-academy-s1",
+        "title": "Engineering Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-business-entrepreneurship-with-nfte-s1-1",
+        "title": "Entrepreneurship with NFTE: New Venture Creation"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-global-politics-unveiled-human-rights-justice-in-a-changing-world-s1",
+        "title": "Global Politics: Human Rights & International Law"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-hit-the-gavel-mock-trial-and-debate-s1",
+        "title": "Hit the Gavel: Mock Trial and Debate"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-research-in-medicine-academy-s1",
+        "title": "Medical Research: Scientific Investigation & The Research Process"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-medical-microbiology-s1",
+        "title": "Microbe Detectives: Infection, Immunity & Disease"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-money-matters-stocks-bonds-your-financial-future-s1",
+        "title": "Money Matters: Build Your Investment Game Plan"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-neuroscience-the-brains-physiology-pathology-s1",
+        "title": "Neuroscience: Brain Physiology & Disease"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-quantum-mechanics-in-the-quantum-realm-s1",
+        "title": "Quantum Physics: Superposition & the Subatomic World"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-remarkable-rhetoric-make-a-lasting-impression-s1",
+        "title": "Speak with Confidence: Rhetoric & Debate"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-stem-cells-in-action-revolutionary-medicine-s1",
+        "title": "Stem Cells in Action: Breakthroughs in Medicine"
+      },
+      {
+        "id": "summer-discovery-2027-yale-university-business-entrepreneurship-with-nfte-s1",
+        "title": "Young Entrepreneurs: Build Your Business with NFTE"
+      }
+    ],
+    "historical_2026_age_and_price_available": [
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
+        "title": "Physics and Engineering"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-architecture",
+        "title": "Architecture"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
+        "title": "Art and Design"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
+        "title": "Business, Finance and Economics"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
+        "title": "Computing, Robotics and AI"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
+        "title": "Medicine and Sciences"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
+        "title": "Politics and Law"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
+        "title": "Psychology and Sociology"
+      }
+    ],
+    "inaugural_2026_cohort_100_seats": [
+      {
+        "id": "edconic-precollege-mayo-edu-pre-college-healthcare-academy",
+        "title": "Pre-College Healthcare Academy"
+      }
+    ],
+    "likely_out_of_scope": [
+      {
+        "id": "sportech-business-university",
+        "title": "Business"
+      },
+      {
+        "id": "sportech-motorsport-management-university",
+        "title": "Motorsport Management"
+      },
+      {
+        "id": "sportech-motorsport-engineering-university",
+        "title": "Motorsport Engineering"
+      },
+      {
+        "id": "sportech-aerospace-engineering-university",
+        "title": "Aerospace Engineering"
+      }
+    ],
+    "location_outside_italy": [
+      {
+        "id": "sportech-esports-in-motorsport",
+        "title": "Esports in Motorsport"
+      }
+    ],
+    "missing_age": [
+      {
+        "id": "edconic-vogue-summer-school-vogue-summer-school-nyc",
+        "title": "Vogue Summer School - NYC"
+      },
+      {
+        "id": "edconic-courses-vogue-winter-break-vogue-winter-break-nyc",
+        "title": "Vogue Winter Break - NYC"
+      },
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      },
+      {
+        "id": "sportech-business-university",
+        "title": "Business"
+      },
+      {
+        "id": "sportech-motorsport-management-university",
+        "title": "Motorsport Management"
+      },
+      {
+        "id": "sportech-motorsport-engineering-university",
+        "title": "Motorsport Engineering"
+      },
+      {
+        "id": "sportech-aerospace-engineering-university",
+        "title": "Aerospace Engineering"
+      }
+    ],
+    "missing_dates": [
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      }
+    ],
+    "missing_price": [
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-digital-advertising-and-brand-strategy-academy-s1",
+        "title": "Digital Advertising and Brand Strategy Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-digital-advertising-and-brand-strategy-academy-s2",
+        "title": "Digital Advertising and Brand Strategy Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-foundations-in-business-leadership-academy-s1",
+        "title": "Foundations in Business Leadership Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-foundations-in-business-leadership-academy-s2",
+        "title": "Foundations in Business Leadership Academy"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-sports-business-academy-with-ucla-anderson-school-of-management-s1",
+        "title": "Sports Business Academy with UCLA Anderson School of Management"
+      },
+      {
+        "id": "summer-discovery-2027-ucla-anderson-school-of-management-sports-business-academy-with-ucla-anderson-school-of-management-s2",
+        "title": "Sports Business Academy with UCLA Anderson School of Management"
+      }
+    ],
+    "not_season_specific": [
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      }
+    ],
+    "not_summer": [
+      {
+        "id": "edconic-courses-vogue-winter-break-vogue-winter-break-nyc",
+        "title": "Vogue Winter Break - NYC"
+      }
+    ],
+    "operator_attribution_provisional": [
+      {
+        "id": "edconic-courses-vogue-summer-school-fashion-business-vogue-summer-school-london",
+        "title": "Vogue Summer School - London"
+      },
+      {
+        "id": "edconic-pre-college-summer-academy-nyc-nyc-summer-academy",
+        "title": "NYC Summer Academy"
+      },
+      {
+        "id": "edconic-pre-college-summer-institute-summer-institute-nyc",
+        "title": "Summer Institute NYC"
+      },
+      {
+        "id": "edconic-vogue-summer-school-vogue-summer-school-nyc",
+        "title": "Vogue Summer School - NYC"
+      },
+      {
+        "id": "edconic-courses-vogue-winter-break-vogue-winter-break-nyc",
+        "title": "Vogue Winter Break - NYC"
+      },
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      },
+      {
+        "id": "edconic-precollege-mayo-edu-pre-college-healthcare-academy",
+        "title": "Pre-College Healthcare Academy"
+      }
+    ],
+    "operator_page_not_directly_fetchable": [
+      {
+        "id": "edconic-pre-college-summer-academy-nyc-nyc-summer-academy",
+        "title": "NYC Summer Academy"
+      }
+    ],
+    "shared_catalogue_page_no_detail_url": [
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
+        "title": "Physics and Engineering"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-architecture",
+        "title": "Architecture"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
+        "title": "Art and Design"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
+        "title": "Business, Finance and Economics"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
+        "title": "Computing, Robotics and AI"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
+        "title": "Medicine and Sciences"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
+        "title": "Politics and Law"
+      },
+      {
+        "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
+        "title": "Psychology and Sociology"
+      }
+    ],
+    "year_round_online": [
+      {
+        "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+        "title": "Online Essentials"
+      }
+    ]
+  },
+  "source_counts_expected": {
+    "edconic": 7,
+    "sportech": 19,
+    "summer_discovery": 265,
+    "mpw": 8
+  },
+  "schema_fields_required": [
+    "id",
+    "provider",
+    "provider_label",
+    "program_type",
+    "title",
+    "raw_title",
+    "subject",
+    "categories",
+    "location",
+    "city",
+    "country",
+    "age_ranges",
+    "duration",
+    "delivery_modes",
+    "price",
+    "dates",
+    "date_months",
+    "description_short",
+    "description_full",
+    "curriculum_sections",
+    "learning_outcomes",
+    "image_url",
+    "detail_url",
+    "source_url",
+    "source_files",
+    "flags",
+    "publish_status"
+  ]
+}

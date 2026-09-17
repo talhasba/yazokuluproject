@@ -1,0 +1,522 @@
+[
+  {
+    "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
+    "provider": "mpw",
+    "provider_label": "MPW Summer School",
+    "program_type": "mpw_academic_stream",
+    "title": "Physics and Engineering",
+    "raw_title": "Physics and Engineering",
+    "subject": "Physics and Engineering",
+    "categories": [
+      "Physics and Engineering",
+      "Academic stream"
+    ],
+    "location": "Cambridge & London",
+    "city": "Cambridge & London",
+    "country": "United Kingdom",
+    "age_ranges": [],
+    "historical_age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "",
+      "min_amount": null,
+      "max_amount": null,
+      "display": "",
+      "tiers": []
+    },
+    "historical_2026_fees_gbp": {
+      "London": {
+        "residential": 4500,
+        "day_student": 2400
+      },
+      "Cambridge": {
+        "residential": 4200,
+        "day_student": 2150
+      }
+    },
+    "dates": [
+      "27 June – 10 July",
+      "11 July – 24 July",
+      "25 July – 7 August"
+    ],
+    "date_months": [],
+    "description_short": "Bring your understanding of these three complementary subjects to life. Mix practical workshops with theoretical sessions to explore topics such as speed and acceleration, light properties, trigonometry, and electrical circuits.",
+    "description_full": "Bring your understanding of these three complementary subjects to life. Mix practical workshops with theoretical sessions to explore topics such as speed and acceleration, light properties, trigonometry, and electrical circuits.",
+    "curriculum_sections": [],
+    "learning_outcomes": [],
+    "image_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-physics-engineering-tt.jpg",
+    "detail_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_files": [
+      "mpw_streams_metadata.json",
+      "mpw_summer_school_general_info.json"
+    ],
+    "flags": [
+      "shared_catalogue_page_no_detail_url",
+      "current_age_unpublished",
+      "current_price_unpublished",
+      "historical_2026_age_and_price_available"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "mpw-international-students-summer-school-academic-programme-architecture",
+    "provider": "mpw",
+    "provider_label": "MPW Summer School",
+    "program_type": "mpw_academic_stream",
+    "title": "Architecture",
+    "raw_title": "Architecture",
+    "subject": "Architecture",
+    "categories": [
+      "Architecture",
+      "Academic stream"
+    ],
+    "location": "London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [],
+    "historical_age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "",
+      "min_amount": null,
+      "max_amount": null,
+      "display": "",
+      "tiers": []
+    },
+    "historical_2026_fees_gbp": {
+      "London": {
+        "residential": 4500,
+        "day_student": 2400
+      },
+      "Cambridge": {
+        "residential": 4200,
+        "day_student": 2150
+      }
+    },
+    "dates": [
+      "27 June – 10 July",
+      "11 July – 24 July",
+      "25 July – 7 August"
+    ],
+    "date_months": [],
+    "description_short": "Take your­ first steps into the world of architecture. Learn about design principles, practical skills, building a portfolio, and how to progress into an architectural career. With London as your base, you’ll also explore the world-class architecture the city has to offer.",
+    "description_full": "Take your­ first steps into the world of architecture. Learn about design principles, practical skills, building a portfolio, and how to progress into an architectural career. With London as your base, you’ll also explore the world-class architecture the city has to offer.",
+    "curriculum_sections": [],
+    "learning_outcomes": [],
+    "image_url": "https://www.mpw.ac.uk/wp-content/uploads/2025/10/mpw-summer-school-26-architecture-tt.jpg",
+    "detail_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_files": [
+      "mpw_streams_metadata.json",
+      "mpw_summer_school_general_info.json"
+    ],
+    "flags": [
+      "shared_catalogue_page_no_detail_url",
+      "current_age_unpublished",
+      "current_price_unpublished",
+      "historical_2026_age_and_price_available"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
+    "provider": "mpw",
+    "provider_label": "MPW Summer School",
+    "program_type": "mpw_academic_stream",
+    "title": "Art and Design",
+    "raw_title": "Art and Design",
+    "subject": "Art and Design",
+    "categories": [
+      "Art and Design",
+      "Academic stream"
+    ],
+    "location": "London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [],
+    "historical_age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "",
+      "min_amount": null,
+      "max_amount": null,
+      "display": "",
+      "tiers": []
+    },
+    "historical_2026_fees_gbp": {
+      "London": {
+        "residential": 4500,
+        "day_student": 2400
+      },
+      "Cambridge": {
+        "residential": 4200,
+        "day_student": 2150
+      }
+    },
+    "dates": [
+      "27 June – 10 July",
+      "11 July – 24 July",
+      "25 July – 7 August"
+    ],
+    "date_months": [],
+    "description_short": "Experiment with different media, techniques and forms to express your creativity. Explore illustration, painting, typography, colour and more. Be inspired as you tour art galleries and learn about building a portfolio for entry to creative arts courses and institutions.",
+    "description_full": "Experiment with different media, techniques and forms to express your creativity. Explore illustration, painting, typography, colour and more. Be inspired as you tour art galleries and learn about building a portfolio for entry to creative arts courses and institutions.",
+    "curriculum_sections": [],
+    "learning_outcomes": [],
+    "image_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-art-design-tt.jpg",
+    "detail_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_files": [
+      "mpw_streams_metadata.json",
+      "mpw_summer_school_general_info.json"
+    ],
+    "flags": [
+      "shared_catalogue_page_no_detail_url",
+      "current_age_unpublished",
+      "current_price_unpublished",
+      "historical_2026_age_and_price_available"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
+    "provider": "mpw",
+    "provider_label": "MPW Summer School",
+    "program_type": "mpw_academic_stream",
+    "title": "Business, Finance and Economics",
+    "raw_title": "Business, Finance and Economics",
+    "subject": "Business, Finance and Economics",
+    "categories": [
+      "Business, Finance and Economics",
+      "Academic stream"
+    ],
+    "location": "London & Cambridge",
+    "city": "London & Cambridge",
+    "country": "United Kingdom",
+    "age_ranges": [],
+    "historical_age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "",
+      "min_amount": null,
+      "max_amount": null,
+      "display": "",
+      "tiers": []
+    },
+    "historical_2026_fees_gbp": {
+      "London": {
+        "residential": 4500,
+        "day_student": 2400
+      },
+      "Cambridge": {
+        "residential": 4200,
+        "day_student": 2150
+      }
+    },
+    "dates": [
+      "27 June – 10 July",
+      "11 July – 24 July",
+      "25 July – 7 August"
+    ],
+    "date_months": [],
+    "description_short": "Develop your understanding of the commercial world. Gain insight into how businesses operate – from business planning, investments and supply chains, all the way through to branding and marketing.",
+    "description_full": "Develop your understanding of the commercial world. Gain insight into how businesses operate – from business planning, investments and supply chains, all the way through to branding and marketing.",
+    "curriculum_sections": [],
+    "learning_outcomes": [],
+    "image_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-business-finance-economics-tt.jpg",
+    "detail_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_files": [
+      "mpw_streams_metadata.json",
+      "mpw_summer_school_general_info.json"
+    ],
+    "flags": [
+      "shared_catalogue_page_no_detail_url",
+      "current_age_unpublished",
+      "current_price_unpublished",
+      "historical_2026_age_and_price_available"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
+    "provider": "mpw",
+    "provider_label": "MPW Summer School",
+    "program_type": "mpw_academic_stream",
+    "title": "Computing, Robotics and AI",
+    "raw_title": "Computing, Robotics and AI",
+    "subject": "Computing, Robotics and AI",
+    "categories": [
+      "Computing, Robotics and AI",
+      "Academic stream"
+    ],
+    "location": "London & Cambridge",
+    "city": "London & Cambridge",
+    "country": "United Kingdom",
+    "age_ranges": [],
+    "historical_age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "",
+      "min_amount": null,
+      "max_amount": null,
+      "display": "",
+      "tiers": []
+    },
+    "historical_2026_fees_gbp": {
+      "London": {
+        "residential": 4500,
+        "day_student": 2400
+      },
+      "Cambridge": {
+        "residential": 4200,
+        "day_student": 2150
+      }
+    },
+    "dates": [
+      "27 June – 10 July",
+      "11 July – 24 July",
+      "25 July – 7 August"
+    ],
+    "date_months": [],
+    "description_short": "Take an exciting look into the future. Explore the technology that will shape our lives and discover your areas of interest, with topics ranging from crypto to coding. Bring your imagination to tasks such as building a robot and developing characters for computer games.",
+    "description_full": "Take an exciting look into the future. Explore the technology that will shape our lives and discover your areas of interest, with topics ranging from crypto to coding. Bring your imagination to tasks such as building a robot and developing characters for computer games.",
+    "curriculum_sections": [],
+    "learning_outcomes": [],
+    "image_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-computing-robotics-ai-tt.jpg",
+    "detail_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_files": [
+      "mpw_streams_metadata.json",
+      "mpw_summer_school_general_info.json"
+    ],
+    "flags": [
+      "shared_catalogue_page_no_detail_url",
+      "current_age_unpublished",
+      "current_price_unpublished",
+      "historical_2026_age_and_price_available"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
+    "provider": "mpw",
+    "provider_label": "MPW Summer School",
+    "program_type": "mpw_academic_stream",
+    "title": "Medicine and Sciences",
+    "raw_title": "Medicine and Sciences",
+    "subject": "Medicine and Sciences",
+    "categories": [
+      "Medicine and Sciences",
+      "Academic stream"
+    ],
+    "location": "London & Cambridge",
+    "city": "London & Cambridge",
+    "country": "United Kingdom",
+    "age_ranges": [],
+    "historical_age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "",
+      "min_amount": null,
+      "max_amount": null,
+      "display": "",
+      "tiers": []
+    },
+    "historical_2026_fees_gbp": {
+      "London": {
+        "residential": 4500,
+        "day_student": 2400
+      },
+      "Cambridge": {
+        "residential": 4200,
+        "day_student": 2150
+      }
+    },
+    "dates": [
+      "27 June – 10 July",
+      "11 July – 24 July",
+      "25 July – 7 August"
+    ],
+    "date_months": [],
+    "description_short": "Start your journey to medical school. Take part in practical, hands-on workshops and build your theoretical knowledge. Gain valuable guidance from medical professionals and insight into how to succeed through the medical school admissions process.",
+    "description_full": "Start your journey to medical school. Take part in practical, hands-on workshops and build your theoretical knowledge. Gain valuable guidance from medical professionals and insight into how to succeed through the medical school admissions process.",
+    "curriculum_sections": [],
+    "learning_outcomes": [],
+    "image_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-medicine-sciences-tt.jpg",
+    "detail_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_files": [
+      "mpw_streams_metadata.json",
+      "mpw_summer_school_general_info.json"
+    ],
+    "flags": [
+      "shared_catalogue_page_no_detail_url",
+      "current_age_unpublished",
+      "current_price_unpublished",
+      "historical_2026_age_and_price_available"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
+    "provider": "mpw",
+    "provider_label": "MPW Summer School",
+    "program_type": "mpw_academic_stream",
+    "title": "Politics and Law",
+    "raw_title": "Politics and Law",
+    "subject": "Politics and Law",
+    "categories": [
+      "Politics and Law",
+      "Academic stream"
+    ],
+    "location": "London & Cambridge",
+    "city": "London & Cambridge",
+    "country": "United Kingdom",
+    "age_ranges": [],
+    "historical_age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "",
+      "min_amount": null,
+      "max_amount": null,
+      "display": "",
+      "tiers": []
+    },
+    "historical_2026_fees_gbp": {
+      "London": {
+        "residential": 4500,
+        "day_student": 2400
+      },
+      "Cambridge": {
+        "residential": 4200,
+        "day_student": 2150
+      }
+    },
+    "dates": [
+      "27 June – 10 July",
+      "11 July – 24 July",
+      "25 July – 7 August"
+    ],
+    "date_months": [],
+    "description_short": "Understand the institutions and decisions that affect how we live and are governed. Explore the social, legal and political issues that dominate the headlines in our increasingly interconnected, but volatile world.",
+    "description_full": "Understand the institutions and decisions that affect how we live and are governed. Explore the social, legal and political issues that dominate the headlines in our increasingly interconnected, but volatile world.",
+    "curriculum_sections": [],
+    "learning_outcomes": [],
+    "image_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-politics-law-tt.jpg",
+    "detail_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_files": [
+      "mpw_streams_metadata.json",
+      "mpw_summer_school_general_info.json"
+    ],
+    "flags": [
+      "shared_catalogue_page_no_detail_url",
+      "current_age_unpublished",
+      "current_price_unpublished",
+      "historical_2026_age_and_price_available"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
+    "provider": "mpw",
+    "provider_label": "MPW Summer School",
+    "program_type": "mpw_academic_stream",
+    "title": "Psychology and Sociology",
+    "raw_title": "Psychology and Sociology",
+    "subject": "Psychology and Sociology",
+    "categories": [
+      "Psychology and Sociology",
+      "Academic stream"
+    ],
+    "location": "London & Cambridge",
+    "city": "London & Cambridge",
+    "country": "United Kingdom",
+    "age_ranges": [],
+    "historical_age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "",
+      "min_amount": null,
+      "max_amount": null,
+      "display": "",
+      "tiers": []
+    },
+    "historical_2026_fees_gbp": {
+      "London": {
+        "residential": 4500,
+        "day_student": 2400
+      },
+      "Cambridge": {
+        "residential": 4200,
+        "day_student": 2150
+      }
+    },
+    "dates": [
+      "27 June – 10 July",
+      "11 July – 24 July",
+      "25 July – 7 August"
+    ],
+    "date_months": [],
+    "description_short": "Take a fascinating look at human behaviour and how it shapes modern society. Discover the theory behind criminal behaviour, explore social identity, analyse family function in modern societies, and the influence of the media.",
+    "description_full": "Take a fascinating look at human behaviour and how it shapes modern society. Discover the theory behind criminal behaviour, explore social identity, analyse family function in modern societies, and the influence of the media.",
+    "curriculum_sections": [],
+    "learning_outcomes": [],
+    "image_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-psychology-sociology-tt.jpg",
+    "detail_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_url": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+    "source_files": [
+      "mpw_streams_metadata.json",
+      "mpw_summer_school_general_info.json"
+    ],
+    "flags": [
+      "shared_catalogue_page_no_detail_url",
+      "current_age_unpublished",
+      "current_price_unpublished",
+      "historical_2026_age_and_price_available"
+    ],
+    "publish_status": "needs_review"
+  }
+]

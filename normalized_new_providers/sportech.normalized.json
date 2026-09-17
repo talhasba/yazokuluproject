@@ -1,0 +1,1409 @@
+[
+  {
+    "id": "sportech-esports-in-motorsport",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Esports in Motorsport",
+    "raw_title": "Esports in Motorsport",
+    "subject": "Engineering",
+    "categories": [
+      "Engineering",
+      "teen",
+      "Dallara AK Esports",
+      "Dallara",
+      "AK Esports"
+    ],
+    "location": "Indianapolis",
+    "city": "Indianapolis",
+    "country": "United States",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1 week",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "USD",
+      "min_amount": 5000,
+      "max_amount": 5000,
+      "display": "$5,000",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "USD",
+          "amount": 5000,
+          "display": "$5,000"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 14 - Sat 21 March 2027",
+      "Available: July 2027"
+    ],
+    "date_months": [],
+    "description_short": "One week with Dallara and AK Esports, from the simulator to the real track at the home of American motorsport.",
+    "description_full": "Esports in Motorsport: Sim to Reality This esports and sim racing summer program in Indianapolis runs for one week and is designed for students aged 15 to 18. Designed for students passionate about motorsport, engineering and sim racing. Hosted at Dallara AK Esports’ Indianapolis facilities during US spring break, this one-week program puts students inside the loop real race engineers live in: make performance decisions first in the simulator, then validate them against the real car, the factory and the Indianapolis Motor Speedway. It complements our Engineering & Technologies in Motorsport program at Dallara in Italy: together, a two-campus Dallara Pathway from building a race car to engineering its performance. In Indianapolis the Dallara Experience Hub, the Dallara IndyCar Factory and the Speedway sit within reach of one another: the simulator and the real car it models quite literally share an address.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Simulation & Performance Engineering • Vehicle dynamics, aerodynamics and setup applied hands-on in the simulator, working towards a measurable performance gain over a baseline. • Data, Telemetry & Race Strategy • Telemetry, data analysis and race strategy: reading the numbers the way a race engineer does and turning them into decisions. • Sim-to-Reality Correlation & Race Weekend Capstone • Understanding the levels of fidelity from a gaming simulator to a professional driver-in-the-loop simulator to the track, then validating the work against reality. • Special Excursions • Tour of the Dallara US Factory & Experience Hub, the Indianapolis Motor Speedway and a team dinner. • Final Project • The program culminates in a virtual race weekend: teams apply their setup, strategy and telemetry work, then validate the result against the real IR-18 chassis, Dallara’s own sim-to-reality correlation process and published Speedway lap data."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Vehicle dynamics, aerodynamics and setup in a professional simulator • Telemetry, data and race strategy applied to a real chassis • Sim-to-reality correlation and a virtual race weekend capstone"
+      }
+    ],
+    "learning_outcomes": [
+      "Vehicle dynamics, aerodynamics and setup in a professional simulator",
+      "Telemetry, data and race strategy applied to a real chassis",
+      "Sim-to-reality correlation and a virtual race weekend capstone"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/esports_motorsport_junior_featured_summer_program_sportech_academy_1.jpg",
+    "detail_url": "https://sportechacademy.com/esports-in-motorsport/",
+    "source_url": "https://sportechacademy.com/esports-in-motorsport/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [
+      "location_outside_italy"
+    ],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-architecture-urban-design",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Architecture & Urban Design",
+    "raw_title": "Architecture & Urban Design",
+    "subject": "Design",
+    "categories": [
+      "Design",
+      "teen",
+      "Language"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Sat 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Studio work and site visits across Milan, from historic buildings to the districts being redrawn today.",
+    "description_full": "This architecture and urban design summer program in Milan runs for two weeks and is designed for students aged 15 to 18. Designed for aspiring architects and urban designers alike. Hosted in Milan, the world capital of design, this two-week program takes students across every scale of the discipline, from buildings and open spaces to infrastructure. Working in hands-on studios led by leading architects and designers, participants sketch, model and prototype, culminating in a capstone that reimagines a run-down urban area as their own renovation concept. The program takes place in Milan, the global capital of design and a world reference point for architecture and interiors. Home to Salone del Mobile, Milan Design Week and the ADI Design Museum, the city is where design culture is made. Students work alongside practicing architects and designers, and visit iconic urban renovations that have attracted international attention.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Urban & Architectural Design Foundations • Explore architecture and design at every scale through studio work, lectures and project-based learning, starting from the fundamentals of urban and architectural design. • Sketching & Model Making • Develop skills in sketching and model-making, studying how exterior spaces are conceived and composed. • 3D Design & Digital Concepts • Move from hand drawing to 3D design and digital concepts, translating ideas into presentable models. • Special Excursions • Visits to urban requalifications in Milan such as Scalo Farini, Porta Genova and Scalo Romana, plus a Lake Como excursion. • Final Project • The program culminates in a capstone project: students reimagine a run-down urban area, from concept and sketches to a portfolio-ready renovation proposal."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Learn the fundamentals of urban and architectural design • Develop skills in sketching, model-making and 3D digital concepts • Reimagine a run-down urban area in a portfolio-ready renovation project"
+      }
+    ],
+    "learning_outcomes": [
+      "Learn the fundamentals of urban and architectural design",
+      "Develop skills in sketching, model-making and 3D digital concepts",
+      "Reimagine a run-down urban area in a portfolio-ready renovation project"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/architecture_urban_design_junior_featured_summer_program_sportech_academy_1-og-og.jpg",
+    "detail_url": "https://sportechacademy.com/architecture-urban-design/",
+    "source_url": "https://sportechacademy.com/architecture-urban-design/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-automotive-design",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Automotive Design",
+    "raw_title": "Automotive Design",
+    "subject": "Transportation Design",
+    "categories": [
+      "Transportation Design",
+      "teen",
+      "Alfa Romeo & Pagani"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Sat 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Car design with Alfa Romeo and Pagani: sketching, clay modelling and a full project brief.",
+    "description_full": "Automotive Design & Future Mobility This automotive and car design summer program in Milan runs for two weeks and is designed for students aged 15 to 18. An immersive two-week program introducing the fundamentals of automotive design through studio work, clay modelling, digital tools and curated industry visits in Milan, Turin and Motor Valley. Students work in modern labs equipped with professional software for sketching, digital rendering and clay modelling, then extend the experience to Turin, the historic heart of Italian automotive culture, and to Motor Valley.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Design Foundations & Sketching • Develop sketching techniques and understand vehicle proportions through studio-based learning in modern labs. • Digital Rendering & Basic 3D Exploration • Translate ideas into digital renders using professional software, exploring basic 3D. • Clay Modelling & Industry Experience • Experiment with clay modelling and volume development, with curated industry experience. • Special Excursions • Motor Valley (Dallara and Pagani Automobili), National Automotive Museum and ADI Museum. • Final Project • The program culminates in the development and presentation of a personal automotive concept, including refined sketches, a digital render and a 1:10 scale clay model."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Car design foundations, sketching and vehicle proportions • Clay modelling, volume development and 1:10 scale model creation • Digital rendering, basic 3D exploration and future mobility concepts"
+      }
+    ],
+    "learning_outcomes": [
+      "Car design foundations, sketching and vehicle proportions",
+      "Clay modelling, volume development and 1:10 scale model creation",
+      "Digital rendering, basic 3D exploration and future mobility concepts"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/automotive_design_junior_featured_summer_program_sportech_academy_1-og.jpg",
+    "detail_url": "https://sportechacademy.com/automotive-design/",
+    "source_url": "https://sportechacademy.com/automotive-design/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-biomedical-engineering",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Biomedical Engineering",
+    "raw_title": "Biomedical Engineering",
+    "subject": "Engineering",
+    "categories": [
+      "Engineering",
+      "teen",
+      "Language"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Sat 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Where engineering meets medicine: prosthetics, imaging and the devices that keep people alive.",
+    "description_full": "This biomedical engineering summer program in Milan runs for two weeks and is designed for students aged 15 to 18. Designed for students fascinated by the meeting point of medicine and engineering. Hosted in Milan, Italy’s hub for healthcare, life sciences and biomedical innovation, this two-week program shows how medical technology is designed, prototyped and tested, and ends with a capstone project developed together with a biomedical engineering company. The program takes place in Milan, the heart of Italy’s healthcare and life sciences ecosystem, a city with world-class hospitals, research universities and a dense network of medtech and biotech companies. Here students study in a real academic environment, working in engineering labs alongside researchers and industry professionals.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Foundations: Medical Devices & Biomechanics • Learn how medical devices work and how the mechanics of the human body shape their design. • Biotechnology, Diagnostics & Prototyping • Explore biotechnology and diagnostics, and build and prototype your own medical device. • Testing, Industry & Capstone Project • Test and validate your prototype, meet the industry and develop the capstone with a biomedical engineering company. • Special Excursions • Company visits to medtech and biotech companies, a Lake Como excursion and Milan sightseeing (residential only). • Capstone Project with the Industry • The program culminates in a capstone project developed together with a biomedical engineering company."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Medical devices and the biomechanics of the human body • Biotechnology, diagnostics and hands-on prototyping • Testing, industry visits and a capstone project"
+      }
+    ],
+    "learning_outcomes": [
+      "Medical devices and the biomechanics of the human body",
+      "Biotechnology, diagnostics and hands-on prototyping",
+      "Testing, industry visits and a capstone project"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/biomedical_engineering_junior_featured_summer_program_sportech_academy_1-og.jpg",
+    "detail_url": "https://sportechacademy.com/biomedical-engineering/",
+    "source_url": "https://sportechacademy.com/biomedical-engineering/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-business",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Business",
+    "raw_title": "Business",
+    "subject": "Business",
+    "categories": [
+      "Business",
+      "teen",
+      "Language",
+      "IBEM"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Fri 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "The business behind Italian luxury, taught inside the maisons, showrooms and shipyards that built it.",
+    "description_full": "Business of Luxury Goods This business summer program in Milan runs for two weeks and is designed for students aged 15 to 18. The Italian Business Excellence Management (IBEM) program has a strong focus on the luxury sector, where Italian companies excel: Fashion, Automotive, Yachting, Jewelry & Watches, and Hospitality. Unlike traditional business summer programs, ours is extremely hands-on, built to teach skills you won’t find in university textbooks. Students learn the “Made in Italy” managerial model directly from top executives and founders, through company visits, applied workshops and a real business challenge. The IBEM is headquartered in the heart of Milan, Italy’s economic and financial capital, hosting the stock exchange, major banks, numerous multinational HQs, and a significant portion of Italy’s GDP. Students alternate in-class lectures walking distance from their accommodation with company and innovation district visits across Northern Italy, the country’s primary industrial and economic powerhouse.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Leadership & Entrepreneurial Mindset • Students build a strong foundation in Italian business management: leadership, strategy and the organizational models that drive excellence in Italian enterprises, starting from an introduction to business management and entrepreneurship. • Strategy, Finance & Internationalization • Leadership, strategy and sustainability are explored alongside the financial and international dimensions of running a luxury business. • Industry Deep Dive • Exclusive company visits, applied workshops and direct interaction with industry leaders show how Italy’s luxury industries turn strategy, craftsmanship and innovation into globally recognized success. • Special Excursions • Company visits to Pagani, Baglietto, Pomellato and other leading Italian brands, plus a Lake Como excursion, pizza night and an Italian lunch. • Final Project • Everything culminates in a final group project: students start their own business from scratch and pitch it."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Leadership & entrepreneurial mindset • Strategy, finance & internationalization • Industry deep dive & real business project"
+      }
+    ],
+    "learning_outcomes": [
+      "Leadership & entrepreneurial mindset",
+      "Strategy, finance & internationalization",
+      "Industry deep dive & real business project"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/business_luxury_goods_junior_featured_summer_program_sportech_academy_1-og-opt-1-og.jpg",
+    "detail_url": "https://sportechacademy.com/business/",
+    "source_url": "https://sportechacademy.com/business/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-business-university",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_university",
+    "title": "Business",
+    "raw_title": "Business",
+    "subject": "Business",
+    "categories": [
+      "Business",
+      "university",
+      "IBEM",
+      "Pagani"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 3000,
+      "max_amount": 3000,
+      "display": "€3,000",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 3000,
+          "display": "€3,000"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Italian excellence as a business model, taught in Milan with IBEM and its partner companies.",
+    "description_full": "Business in Italian Excellence This business summer term in Milan runs for two weeks and is designed for undergraduate and master students. Discover the world of Business of Luxury Goods at the heart of Italy’s most prestigious institutions and companies. Students work inside real business environments, alongside practising professionals, using the same tools, methodologies and approaches as the actual industry. In collaboration with Spring Studios, Baglietto, Pagani and Cipriani, this programme offers a unique blend of hands-on learning, expert mentorship and immersive cultural experience in Milan. All teaching is in English. Ideal for Business, Management, Marketing, Economics and Luxury/Fashion Management students. The IBEM is headquartered in the heart of Milan, Italy’s economic and financial capital, hosting the stock exchange, major banks, numerous multinational headquarters and a significant portion of Italy’s GDP. Students alternate in-class lectures walking distance from their accommodation with company and innovation district visits across Northern Italy, the country’s primary industrial and economic powerhouse.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Leadership & Entrepreneurial Mindset • Participants build a rigorous foundation in Italian business management: leadership, strategy and the organisational models that drive performance in Italian enterprises. • Strategy, Finance & Internationalisation • Brand equity, positioning, corporate strategy, sustainability and international expansion, with executive sessions led by CEOs and founders. • Industry Deep Dive & Real Business Project • Exclusive corporate visits, applied workshops and direct engagement with industry leaders, examining how Italy’s excellence sectors turn strategy, craftsmanship and innovation into globally recognised commercial success. • Special Excursions • Visits to Pagani, Baglietto and Pomellato, among others. • Real Business Project • The programme culminates in a group project centred on launching a real venture."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Foundations of Italian business management and entrepreneurship • Leadership, corporate strategy, sustainability and international expansion • Executive sessions with CEOs and founders, and a real business project"
+      }
+    ],
+    "learning_outcomes": [
+      "Foundations of Italian business management and entrepreneurship",
+      "Leadership, corporate strategy, sustainability and international expansion",
+      "Executive sessions with CEOs and founders, and a real business project"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/business_italian_excellence_university_featured_summer_program_sportech_academy_1.jpg",
+    "detail_url": "https://sportechacademy.com/business-university/",
+    "source_url": "https://sportechacademy.com/business-university/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [
+      "missing_age",
+      "likely_out_of_scope"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "sportech-cosmetic-sciences",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Cosmetic Sciences",
+    "raw_title": "Cosmetic Sciences",
+    "subject": "Health & Life Sciences",
+    "categories": [
+      "Health & Life Sciences",
+      "teen",
+      "Università di Pavia"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Sat 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Cosmetic formulation with Universita di Pavia, from the lab bench to the beauty industry that sells it.",
+    "description_full": "This cosmetic sciences summer program in Milan runs for two weeks and is designed for students aged 15 to 18. Designed for students fascinated by the science and business of beauty. Hosted in Milan, this two-week program explores how cosmetics are formulated, tested and brought to market, from the chemistry of ingredients to AI-driven formulation and the trends reshaping the global beauty industry. Hands-on lab work lets students create their own products, from molecules to finished formula. The program takes place in Milan, the world capital of fashion and beauty and the gateway to Italy’s cosmetics industry, one of the world’s leading centres for cosmetics and make-up manufacturing. Here students study in a real academic environment, accessing the labs of one of the world’s leading cosmetics universities, Università di Pavia, with hands-on access to formulation and testing laboratories.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Formulation Chemistry & Product Development • Learn the fundamentals of formulation chemistry and product development, and work hands-on in the lab to create your own skincare and make-up. • Testing, Efficacy & Safety + AI • Explore how products are tested for efficacy and safety, including the growing role of AI in formulation. • Beauty Trends & Innovation • Decode the trends reshaping the global market, from skin longevity and K-Beauty to the science and storytelling of ingredients. • Special Excursions • Company visits to Italy’s leading cosmetic companies, a Lake Como excursion and Milan sightseeing (residential only), plus pizza night. • From Molecules to Finished Formula • Hands-on lab work lets students create their own products, from molecules to finished formula."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Formulate skincare and make-up in the lab • AI-powered formulation, testing and safety • Decode beauty trends: skin longevity, K-Beauty, ingredients"
+      }
+    ],
+    "learning_outcomes": [
+      "Formulate skincare and make-up in the lab",
+      "AI-powered formulation, testing and safety",
+      "Decode beauty trends: skin longevity, K-Beauty, ingredients"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/cosmetic_sciences_junior_featured_summer_program_sportech_academy_1.jpg",
+    "detail_url": "https://sportechacademy.com/cosmetic-sciences/",
+    "source_url": "https://sportechacademy.com/cosmetic-sciences/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-fashion",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Fashion",
+    "raw_title": "Fashion",
+    "subject": "Fashion",
+    "categories": [
+      "Fashion",
+      "teen",
+      "Giorgio Armani"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Sat 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Two weeks inside Milan fashion, from studio and atelier work to the industry that turns it into a collection.",
+    "description_full": "This fashion summer program in Milan runs for two weeks and is designed for students aged 15 to 18. An immersive two-week program in Milan, the global fashion capital, taking students on the full journey of launching their own fashion brand: from the first sketch to a finished garment, a brand identity and lookbook, and a go-to-market launch with a social media page and website mockup. Students work in professional fashion and photography studios in the heart of Milan, surrounded by the ateliers, showrooms and flagship stores of the Quadrilatero della Moda, where global fashion is actually made.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Design & Create Your Garment • Design and create your own garment, from the first sketch and tailoring to a finished piece, while learning styling and editorial shooting. • Brand Identity & Lookbook • Build a brand around your garment: choose a name, develop its identity and produce a professional lookbook. • Launch to Market & Industry Immersion • Take your label to market: develop a social media page, a website mockup and a launch campaign, with company visits to leading Italian fashion houses. • Special Excursions • Giorgio Armani Prive visit, leading fashion brands visits and a gelato afternoon in Milan. • Final Project • The program culminates in the launch of a complete fashion label: a finished garment, a brand identity and lookbook, and a go-to-market campaign with social media and website mockup."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Design and create your own garment, from sketch and tailoring to a finished piece • Build a brand: name, identity and a professional lookbook • Launch to market with a social media page, website mockup and campaign"
+      }
+    ],
+    "learning_outcomes": [
+      "Design and create your own garment, from sketch and tailoring to a finished piece",
+      "Build a brand: name, identity and a professional lookbook",
+      "Launch to market with a social media page, website mockup and campaign"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/fashion_junior_featured_summer_program_sportech_academy_1-og.jpg",
+    "detail_url": "https://sportechacademy.com/fashion/",
+    "source_url": "https://sportechacademy.com/fashion/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-football",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Football - AC Milan Experience Elite",
+    "raw_title": "Football - AC Milan Experience Elite",
+    "subject": "Sports",
+    "categories": [
+      "Sports",
+      "teen",
+      "AC Milan",
+      "AC Milan Academy"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "8-16"
+    ],
+    "duration": "1 or 2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 1200,
+      "max_amount": 4750,
+      "display": "€1,200 - €4,750",
+      "tiers": [
+        {
+          "label": "Residential - 1 week",
+          "currency": "EUR",
+          "amount": 2500,
+          "display": "€2,500"
+        },
+        {
+          "label": "Residential - 2 weeks",
+          "currency": "EUR",
+          "amount": 4750,
+          "display": "€4,750"
+        },
+        {
+          "label": "Day - 1 week",
+          "currency": "EUR",
+          "amount": 1200,
+          "display": "€1,200"
+        },
+        {
+          "label": "Day - 2 weeks",
+          "currency": "EUR",
+          "amount": 2300,
+          "display": "€2,300"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 27 June - Sat 3 July 2027",
+      "Sun 4 July - Sat 10 July 2027",
+      "Sun 11 July - Sat 17 July 2027",
+      "Mon 28 June - Sat 3 July 2027",
+      "Mon 5 July - Sat 10 July 2027",
+      "Mon 12 July - Sat 17 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Train with AC Milan Academy coaches inside the club’s elite facilities, with the same methodology and video analysis used by the academy.",
+    "description_full": "AC Milan Academy Experience Élite This football summer camp in Milan is open to students aged 8 to 16, for one or two weeks. Train under AC Milan’s official Youth Team coaches at the club’s iconic Vismara training center, home to the Puma House of Football. A true Rossoneri experience built on 125 years of footballing excellence. Players train inside AC Milan’s elite facilities (7 training pitches, changing rooms, gym and recovery areas) using the same methodology, GPS tracking and video analysis as the Rossoneri youth academy.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Monday • Reception & evaluation. Registration and camp presentation. Athletic tests, technical analysis and first training session: ball control and dribbling. • Tuesday-Wednesday • Technique & tactics. 1v1 game situations, intensive training with GPS tracking, role-specific and individual technique sessions with custom video analytics. • Thursday • Development & competition. Leadership work on the pitch, mental coaching, recovery and injury-prevention techniques, set-piece sessions. • Friday • Optimization & competition. Individual work with AC Milan technicians, personalized performance feedback and progress review. • Weekend (Residential) • Final tournament & celebration. Awards and individual recognition, Meet & Greet with AC Milan Legends, excursions to Casa Milan, Milan sightseeing and Lake Como."
+      },
+      {
+        "title": "Program highlights",
+        "body": "30+ hours of coaching with official AC Milan Academy coaches • Exclusive access to the Puma House of Football, Vismara • Meet & Greet with AC Milan Legends and Casa Milan visit"
+      }
+    ],
+    "learning_outcomes": [
+      "30+ hours of coaching with official AC Milan Academy coaches",
+      "Exclusive access to the Puma House of Football, Vismara",
+      "Meet & Greet with AC Milan Legends and Casa Milan visit"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/ac_milan_junior_featured_summer_program_sportech_academy_1.jpg",
+    "detail_url": "https://sportechacademy.com/football/",
+    "source_url": "https://sportechacademy.com/football/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-medicine",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Medicine",
+    "raw_title": "Medicine",
+    "subject": "Health & Life Sciences",
+    "categories": [
+      "Health & Life Sciences",
+      "teen",
+      "UniSR"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5250,
+      "display": "€2,950 - €5,250",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5250,
+          "display": "€5,250"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "July 2027",
+      "Sun 18 - Sat 31 July 2027",
+      "Mon 5 - Sat 16 July 2027",
+      "Mon 19 - Sat 30 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Hands-on clinical and laboratory learning at San Raffaele University, one of Italy’s most prestigious medical institutions.",
+    "description_full": "This medicine summer program in Milan runs for two weeks and is designed for students aged 15 to 18. The Medicine Summer Program, with academic coordination by Università Vita-Salute San Raffaele (UniSR), is designed for motivated high school students who are considering a future in medicine or healthcare. Through direct training with doctors and specialists, participants gain early exposure to medical practice and develop essential skills in diagnostics, emergency response and patient care. The program takes place at UniSR, a leading medical school in Italy known for its integration of teaching and research. The university is closely affiliated with the San Raffaele Research Hospital, a pioneer in cutting-edge medical and scientific research. UniSR ranks among the top 40 universities in the world and offers a 6-year International MD program.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Foundations: Cell Biology, Anatomy & Physiology • Students are introduced to the fundamentals of medicine and healthcare practice, learning the theoretical foundations of key medical specialties. • Clinical Skills & Simulation Labs • Hands-on simulations in the simulator lab: digital anatomy, suturing, blood draws and BLS, plus the fundamentals of doctor-patient interaction. • Imaging, Research & Clinical Case • AI in medical imaging, reading X-ray, CT, MRI and ultrasound, alongside medical research and a deep dive into the admission process for Italian medical universities. • Special Excursions • Milan sightseeing and a Lake Como excursion, plus a pizza night beyond the classroom. • Final Project • The program culminates in a capstone: students solve and present their own clinical case."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Explore anatomy, physiology, radiology, surgery and lab medicine • Hands-on simulation labs: digital anatomy, suturing, blood draws and BLS • Capstone: solve and present your own clinical case"
+      }
+    ],
+    "learning_outcomes": [
+      "Explore anatomy, physiology, radiology, surgery and lab medicine",
+      "Hands-on simulation labs: digital anatomy, suturing, blood draws and BLS",
+      "Capstone: solve and present your own clinical case"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/medicine_junior_featured_summer_program_sportech_academy_1-og.jpg",
+    "detail_url": "https://sportechacademy.com/medicine/",
+    "source_url": "https://sportechacademy.com/medicine/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-pet-design",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Pet Design",
+    "raw_title": "Pet Design",
+    "subject": "Design",
+    "categories": [
+      "Design",
+      "teen",
+      "The HAD - Human Animal Design®",
+      "The HAD"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Sat 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Design for animals with The HAD: from ethology and sketching to a finished product you build yourself.",
+    "description_full": "This pet design summer program in Milan runs for two weeks and is designed for students aged 15 to 18. Designed for creative students curious about design, animals, veterinary and the fast-growing pet industry. Hosted in Milan in partnership with The HAD - Human Animal Design®, Italy’s leading studio in Pet Design, this two-week program introduces an entirely new discipline: designing products, spaces and services for the well-being of pets. Combining design, ethology and zoo-anthropology, students learn to design not for humans alone, but for the animals who share our world, culminating in their own multiexperiential concept for the pet industry. The program takes place in Milan, the global capital of design and home to The HAD - Human Animal Design®, the studio that pioneered Pet Design as a discipline. Here students work at the meeting point of two of Italy’s great strengths, world-class design culture and a deep respect for animal welfare, in a city that hosts Salone del Mobile, Milan Design Week and the ADI Design Museum.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Design, Ethology & Zoo-Anthropology • Move beyond an anthropocentric approach and study the foundations of relational ethology and zoo-anthropology, learning how to design ethically for pets. • Animal Perception, Physiology & Needs • Explore the perception, physiology and behavioural needs of dogs and cats, and apply design thinking to real case studies. • Human-Animal Design Studio & Project • Work at the meeting point of design culture and animal welfare with The HAD - Human Animal Design®, turning research into a designed solution. • Special Excursions • Company visit at Arcaplanet and MyPet Clinic, the ADI Design Museum and a Lake Como excursion (residential only), plus Milan sightseeing, visits to Italian design brands and a gelato afternoon. • Final Project • The program culminates in a capstone: students design their own multiexperiential solution, a product, space or service for the pet industry."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Learn the foundations of pet design, relational ethology and zoo-anthropology • Explore the perception, physiology and behavioural needs of dogs and cats • Design a multiexperiential product, space or service for the pet industry"
+      }
+    ],
+    "learning_outcomes": [
+      "Learn the foundations of pet design, relational ethology and zoo-anthropology",
+      "Explore the perception, physiology and behavioural needs of dogs and cats",
+      "Design a multiexperiential product, space or service for the pet industry"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/pet_design_junior_featured_summer_program_sportech_academy_1-og.jpg",
+    "detail_url": "https://sportechacademy.com/pet-design/",
+    "source_url": "https://sportechacademy.com/pet-design/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-sports-management",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Sports Management",
+    "raw_title": "Sports Management",
+    "subject": "Business",
+    "categories": [
+      "Business",
+      "teen",
+      "Language"
+    ],
+    "location": "Milan",
+    "city": "Milan",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Sat 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "How Italian sport is run: club management, fan growth and team strategy, pitched to a panel of mentors.",
+    "description_full": "This sports management summer program in Milan runs for two weeks and is designed for students aged 15 to 18. Discover how the business of sport really works, inside two of the industries Italy leads the world in: football and motorsport. Over two weeks, students go behind the commercial engine of professional sport: how a top football club and a professional racing team are financed, how players and drivers are contracted, sponsored and turned into global brands, and how championships and events are built and sold. Taught by faculty who work inside leading sports organizations, with an HQ visit to a top Serie A club and behind-the-scenes access at a live GT race weekend. The program is based in Milan, home turf of both industries: Serie A football and the €12.4bn Motor Valley, home to 188 racing teams.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "The Business of Football: Clubs, Players and Revenue • Week 1 covers club economics, player contracts and the transfer system, the academy model and commercial operations. • The Business of Motorsport: Teams, Drivers & Sponsorship • Week 2 covers team economics and the sponsorship model, the anatomy of a team, driver management and how championships are commercialized. • Team Project: Grow a Club, Launch a Team • Two team projects bring it to life: grow a top club’s fanbase and launch a new racing team, each pitched to a mentor panel. • Special Excursions • HQ visit of a leading Serie A team, GT race weekend, visit to a leading sports apparel brand and Lake Como. • Final Project • The program culminates in two team projects: growing a top club’s fanbase and launching a new racing team, each pitched to a mentor panel."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Football club economics, player contracts and the transfer system • Motorsport team economics, driver management and the sponsorship model • Two team projects: grow a club’s fanbase and launch a new racing team"
+      }
+    ],
+    "learning_outcomes": [
+      "Football club economics, player contracts and the transfer system",
+      "Motorsport team economics, driver management and the sponsorship model",
+      "Two team projects: grow a club’s fanbase and launch a new racing team"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/sports_management_junior_featured_summer_program_sportech_academy_1-og.jpg",
+    "detail_url": "https://sportechacademy.com/sports-management/",
+    "source_url": "https://sportechacademy.com/sports-management/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-motorsport-management-university",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_university",
+    "title": "Motorsport Management",
+    "raw_title": "Motorsport Management",
+    "subject": "Business",
+    "categories": [
+      "Business",
+      "university",
+      "SRO Motorsports Group",
+      "Pagani",
+      "Dallara"
+    ],
+    "location": "Milan & Motor Valley",
+    "city": "Milan & Motor Valley",
+    "country": "Italy",
+    "age_ranges": [],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 4000,
+      "max_amount": 4000,
+      "display": "€4,000",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 4000,
+          "display": "€4,000"
+        }
+      ]
+    },
+    "dates": [
+      "27 June - 10 July 2027",
+      "Available: July 2027"
+    ],
+    "date_months": [],
+    "description_short": "How a racing series is run, with SRO Motorsports Group and a day inside the paddock.",
+    "description_full": "This motorsport management summer term in Milan and the Motor Valley runs for two weeks and is designed for undergraduate and master students. Motorsport Management & Leadership is a two-week summer experience for university students who want a career in the business and leadership of motor racing. Not a degree or a multi-year commitment, it is the most immersive way into the industry while you are still studying, open to far more people than a postgraduate program. You learn the sport where it lives: Italy’s Motor Valley and Lombardy, where the cars are built, the teams are based and the championships are run. Across two weeks you go inside how a motorsport business runs: financing, sponsorship, media rights, talent management, and how winning teams are led under pressure, taught on the ground by the people who run the sport, led by SRO Motorsports Group, creator of modern GT racing. It blends seminars with factory visits, a live race weekend, a leadership module and The Brief: a real commercial challenge pitched to industry decision-makers. Ideal for Business, Management, Sports Management, Marketing, Economics and Automotive Engineering students. The program is taught inside motorsport’s heartland, Italy’s Motor Valley and Lombardy, where the cars are built, the teams are based and the championships are run. The Motor Valley generates around €12bn and is home to 188 racing teams and constructors, including Ferrari, Lamborghini, Pagani, Dallara, Maserati and Ducati. And the timing matters: motorsport is in its strongest decade, with Formula 1 posting record revenue of $3.87bn in 2025 and sponsorship passing 20% of core revenue for the first time, making commercial and leadership roles some of the most in-demand in the sport.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "The Economics & Commerce of Motorsport • How teams are financed (budgets, cost caps, prize money, the sponsorship model), how sponsorship and media rights are sold and activated, how championships are commercialised and how drivers are managed as brands. • Leadership, Performance & The Team • How a race team is structured and led under pressure, the engineer-to-leader path, and Pit Wall, a live strategy simulation. • Race Weekend & Commercial Challenge Pitch • Behind-the-scenes access at a live race weekend and a Motor Valley visit, closing with The Brief, a real commercial challenge pitched to industry decision-makers. • Special Excursions • Dallara HQ visit, race weekend paddock access and a Ferrari factory visit including Corse Clienti and Scuderia Ferrari. • The Brief • A real commercial challenge, pitched to industry decision-makers at the end of the two weeks."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Team economics, finance, sponsorship, commercial and media rights • Leadership, high performance teams and Pit Wall, a live strategy simulation • A live race weekend and The Brief, a real commercial challenge pitch"
+      }
+    ],
+    "learning_outcomes": [
+      "Team economics, finance, sponsorship, commercial and media rights",
+      "Leadership, high performance teams and Pit Wall, a live strategy simulation",
+      "A live race weekend and The Brief, a real commercial challenge pitch"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/motorsport_management_university_featured_summer_program_sportech_academy_1.jpg",
+    "detail_url": "https://sportechacademy.com/motorsport-management-university/",
+    "source_url": "https://sportechacademy.com/motorsport-management-university/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [
+      "missing_age",
+      "likely_out_of_scope"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "sportech-agrifoodtech",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "AgriFoodTech",
+    "raw_title": "AgriFoodTech",
+    "subject": "Health & Life Sciences",
+    "categories": [
+      "Health & Life Sciences",
+      "teen",
+      "Language"
+    ],
+    "location": "Milan, Piacenza & Turin",
+    "city": "Milan, Piacenza & Turin",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5050,
+      "display": "€2,950 - €5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Sat 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "The future of food and farming, from vertical farms and labs to the companies bringing it to market.",
+    "description_full": "This agrifood and agritech summer program in Milan, Piacenza and Turin runs for two weeks and is designed for students aged 15 to 18. A two-week program for students aged 15 to 18, exploring how food is produced, kept safe and reinvented, from laboratory science to the technologies transforming farming and the supply chain. The program runs between Milan, Piacenza and Turin, combining lessons and laboratory work with visits to leading Italian food innovation companies. It builds toward a Food Innovation Project developed and presented by the students.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Food Science & Safety • Study the science behind food production, quality and safety, with laboratory work on ingredients and the standards that protect the supply chain. • AgriTech: Farming, Traceability & Blockchain • Explore the technologies transforming agriculture, from precision and vertical farming to traceability systems and blockchain applied to the food supply chain. • Food Innovation Project • Work in teams on a food innovation project, developing an idea from concept to a final presentation. • Special Excursions • Visits to leading Italian food innovation companies, a Lake Como excursion, Milan sightseeing and a pizza night. • Final Project • The program culminates in the Food Innovation Project: students develop and present their own concept, applying what they have learned across food science and AgriTech."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Study food science, safety and quality across the supply chain • Explore AgriTech: precision farming, traceability and blockchain • Build a food innovation project from concept to final pitch"
+      }
+    ],
+    "learning_outcomes": [
+      "Study food science, safety and quality across the supply chain",
+      "Explore AgriTech: precision farming, traceability and blockchain",
+      "Build a food innovation project from concept to final pitch"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/agrifoodtech_junior_featured_summer_program_sportech_academy_1.jpg",
+    "detail_url": "https://sportechacademy.com/agrifoodtech/",
+    "source_url": "https://sportechacademy.com/agrifoodtech/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-motorsport-engineering-university",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_university",
+    "title": "Motorsport Engineering",
+    "raw_title": "Motorsport Engineering",
+    "subject": "Engineering",
+    "categories": [
+      "Engineering",
+      "university",
+      "Dallara Academy",
+      "Pagani"
+    ],
+    "location": "Motor Valley",
+    "city": "Motor Valley",
+    "country": "Italy",
+    "age_ranges": [],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 4000,
+      "max_amount": 4000,
+      "display": "€4,000",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 4000,
+          "display": "€4,000"
+        }
+      ]
+    },
+    "dates": [
+      "27 June - 10 July 2027",
+      "Available: July 2027"
+    ],
+    "date_months": [],
+    "description_short": "A university-level term inside Dallara’s engineering facility, with an optional curricular internship.",
+    "description_full": "This motorsport engineering summer term in the Motor Valley runs for two weeks and is designed for undergraduate and master students. A two-week summer term that fills the motorsport gap most engineering degrees leave open. In the heart of Italy’s Motor Valley, university engineering students go deep into both sides of the sport: Race Car Design & Manufacturing, designing, building and validating a real aerodynamic component and Race Strategy & Performance, learning the race engineer’s craft from active Formula 1 race engineers and running a full race weekend. Deliberately advanced, hands-on, and taught entirely in English. Ideal for Mechanical, Automotive, Aerospace and Motorsport Engineering students. The program is based in the Motor Valley (Emilia-Romagna), at a leading engineering and innovation campus near Parma. The companies of this cluster design Formula 1 cars, build chassis for IndyCar, Formula 2 and Formula 3, and produce Le Mans hypercars including the Cadillac and BMW LMDh, the Le Mans-winning Ferrari 499P and McLaren's 2027 car. The surrounding Motor Valley is the densest motorsport-engineering cluster on earth, around 188 companies and over €12bn, home to Ferrari, Lamborghini, Pagani, Maserati and Ducati.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Race Car Design & Manufacturing • Advanced aerodynamics and CFD, vehicle dynamics, composite engineering and real manufacturing: lamination, CNC and 3D printing. • Race Strategy & Performance • Trackside work on telemetry and data, tyres, race strategy and pit-wall communications, taught by active Formula 1 race engineers. • Project: Build a Component & Run a Race Weekend • The term is built as one continuous arc: design and build a race-car component, then engineer its performance on track, proven on a professional driving simulator. • Special Excursions • Dallara HQ visit, Autodromo di Varano and a Ferrari factory visit including Corse Clienti and Scuderia Ferrari. • Final Project • Students validate a real aerodynamic component and run a full race weekend, defending their engineering choices against real data."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Aerodynamics & CFD, vehicle dynamics and composite engineering • Telemetry, data and race strategy with active Formula 1 race engineers • Build a real aerodynamic component and run a full race weekend"
+      }
+    ],
+    "learning_outcomes": [
+      "Aerodynamics & CFD, vehicle dynamics and composite engineering",
+      "Telemetry, data and race strategy with active Formula 1 race engineers",
+      "Build a real aerodynamic component and run a full race weekend"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/motorsport_engineering_university_featured_summer_program_sportech_academy_1-og.jpg",
+    "detail_url": "https://sportechacademy.com/motorsport-engineering-university/",
+    "source_url": "https://sportechacademy.com/motorsport-engineering-university/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [
+      "missing_age",
+      "likely_out_of_scope"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "sportech-engineering-motorsport",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Motorsport Engineering",
+    "raw_title": "Motorsport Engineering",
+    "subject": "Engineering",
+    "categories": [
+      "Engineering",
+      "teen",
+      "Dallara Academy"
+    ],
+    "location": "Parma",
+    "city": "Parma",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 5500,
+      "max_amount": 5500,
+      "display": "€5,500",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5500,
+          "display": "€5,500"
+        }
+      ]
+    },
+    "dates": [
+      "July 2027",
+      "Sun 27 June - Sat 10 July 2027",
+      "Sun 11 - Sat 24 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Two weeks in the Motor Valley with Dallara Academy: race car design, manufacturing and performance, from the drawing to the track.",
+    "description_full": "Engineering & Technologies in Motorsport This motorsport engineering summer program in Parma runs for two weeks and is designed for students aged 15 to 18. Discover the world of Engineering & Technologies in Motorsport at the heart of Italy’s most prestigious institutions and companies. Students work inside real engineering environments alongside practising professionals, using the same tools and methodologies as the actual industry. In partnership with Dallara Academy, this programme offers hands-on learning, expert mentorship and immersive cultural experience in Parma. All teaching is in English. The Dallara Academy and Dallara Innovation Farm form a cutting-edge educational hub in the heart of Italy’s Motor Valley. Created by race car manufacturer Dallara, they combine motorsport innovation, sustainability and interactive learning.",
+    "curriculum_sections": [
+      {
+        "title": "Program highlights",
+        "body": "Work inside Dallara Academy, one of the world’s leading motorsport engineering facilities • Hands-on sessions in aerodynamics, race strategy, vehicle dynamics and powertrains • Guided by professional engineers and motorsport industry experts"
+      }
+    ],
+    "learning_outcomes": [
+      "Work inside Dallara Academy, one of the world’s leading motorsport engineering facilities",
+      "Hands-on sessions in aerodynamics, race strategy, vehicle dynamics and powertrains",
+      "Guided by professional engineers and motorsport industry experts"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/motorsport_engineering_junior_featured_summer_program_sportech_academy_1-og-og.jpg",
+    "detail_url": "https://sportechacademy.com/engineering-motorsport/",
+    "source_url": "https://sportechacademy.com/engineering-motorsport/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-aerospace-engineering",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Aerospace Engineering",
+    "raw_title": "Aerospace Engineering",
+    "subject": "Engineering",
+    "categories": [
+      "Engineering",
+      "teen",
+      "Sapienza",
+      "Università Sapienza’s School of Aerospace Engineering"
+    ],
+    "location": "Rome",
+    "city": "Rome",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2950,
+      "max_amount": 5250,
+      "display": "€2,950 - €5,250",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5250,
+          "display": "€5,250"
+        },
+        {
+          "label": "Day",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027",
+      "Mon 5 - Fri 16 July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Aerospace design and propulsion at Sapienza, ending with a real rocket launch and a flight readiness review.",
+    "description_full": "This aerospace engineering summer program in Rome runs for two weeks and is designed for students aged 15 to 18. Designed for students passionate about space exploration, aviation and engineering. Hosted at Università Sapienza’s School of Aerospace Engineering in Rome, whose graduates work at the Italian Space Agency and the European Space Agency. Participants design and build their own rocket prototype, culminating in a rocket launch experience. The program takes place in Rome at the facilities of the School of Aerospace Engineering, one of Europe’s most historic institutions dedicated to aerospace research and education. Founded in 1926, the school celebrates 100 years of aerospace innovation and has trained generations of engineers who now work across Italy’s aerospace sector, including ASI and ESA. Students experience a real academic environment at the heart of Italy’s aerospace ecosystem, while discovering the cultural richness of one of the world’s most iconic cities.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Aerospace Engineering Foundations • Students explore the fundamentals of rocket engineering and space technologies through lectures, laboratory activities and project-based learning, starting with how rockets actually work. • Rocket Design & Propulsion • How propulsion systems are designed and how aerospace engineers plan space missions. • Space Mission Simulation & Embedded Systems • Using simulation tools such as OpenRocket, students model rocket trajectories and understand flight dynamics, while developing Arduino-based systems to control rocket electronics and collect flight data. • Special Excursions • Rome sightseeing, a Colosseum tour and star and moon observation from the Pincio Terrace, alongside Roman cuisine beyond the classroom. • Prototype Development & Rocket Launch • The program culminates in a rocket prototype designed and built by the students, and in the launch itself."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Rocket engineering & propulsion • Space mission simulation & embedded systems • Prototype development & rocket launch"
+      }
+    ],
+    "learning_outcomes": [
+      "Rocket engineering & propulsion",
+      "Space mission simulation & embedded systems",
+      "Prototype development & rocket launch"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/aerospace_engineering_junior_featured_razzo_sportech_academy.jpg",
+    "detail_url": "https://sportechacademy.com/aerospace-engineering/",
+    "source_url": "https://sportechacademy.com/aerospace-engineering/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  },
+  {
+    "id": "sportech-aerospace-engineering-university",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_university",
+    "title": "Aerospace Engineering",
+    "raw_title": "Aerospace Engineering",
+    "subject": "Engineering",
+    "categories": [
+      "Engineering",
+      "university",
+      "Sapienza - School of Aerospace Engineering",
+      "Sapienza"
+    ],
+    "location": "Rome",
+    "city": "Rome",
+    "country": "Italy",
+    "age_ranges": [],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 4000,
+      "max_amount": 4000,
+      "display": "€4,000",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 4000,
+          "display": "€4,000"
+        }
+      ]
+    },
+    "dates": [
+      "27 June - 10 July 2027",
+      "Available: July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Build and launch the avionics stack of a real sounding rocket at Sapienza’s School of Aerospace Engineering.",
+    "description_full": "This aerospace engineering summer term in Rome runs for two weeks and is designed for undergraduate and master students. A two-week intensive summer term built around the part of a space mission most engineering degrees never let you touch: the flight electronics. At Sapienza’s Scuola di Ingegneria Aerospaziale in Rome, university students work in cross-functional teams to design, build and program the complete avionics stack of a real sounding rocket: power and battery management, IMU and barometric sensors, embedded flight software, custom PCBs, and a live telemetry link. After hardware-in-the-loop ground testing and a formal Flight Readiness Review, each team launches its vehicle at the Rovigo range and defends its engineering choices against real flight data. Deliberately advanced, hands-on, and taught entirely in English. Ideal for Aerospace, Mechanical and Electronic Engineers. The program takes place in Rome at the facilities of the School of Aerospace Engineering, one of Europe’s most historic institutions dedicated to aerospace research and education. Founded in 1926, the school celebrates 100 years of aerospace innovation and has trained generations of engineers who now work across Italy’s aerospace sector, including leading agencies such as the Italian Space Agency (ASI) and the European Space Agency (ESA).",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Flight Dynamics & Simulation • Flight dynamics and simulation, aerodynamics, propulsion and structures. • Avionics, Telemetry & Power Systems • Power and battery management, IMU and barometric sensors, embedded flight software, custom PCBs and a live telemetry link. • Build the Avionics Stack & Launch a Rocket • Cross-functional teams build and program the complete avionics stack of a real sounding rocket, then take it through hardware-in-the-loop ground testing. • Special Excursions • Launch day at the Rovigo range, plus the cultural richness of Rome. • Flight Readiness Review & Launch • After a formal Flight Readiness Review each team launches its vehicle and defends its engineering choices against real flight data."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Flight dynamics, simulation, aerodynamics, propulsion and structures • Avionics, telemetry, power systems and embedded programming on custom PCBs • Build the avionics stack and launch a real sounding rocket"
+      }
+    ],
+    "learning_outcomes": [
+      "Flight dynamics, simulation, aerodynamics, propulsion and structures",
+      "Avionics, telemetry, power systems and embedded programming on custom PCBs",
+      "Build the avionics stack and launch a real sounding rocket"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/aerospace_engineering_university_featured_summer_term_sportech_academy_1-og-og.jpg",
+    "detail_url": "https://sportechacademy.com/aerospace-engineering-university/",
+    "source_url": "https://sportechacademy.com/aerospace-engineering-university/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [
+      "missing_age",
+      "likely_out_of_scope"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "sportech-music-innovation",
+    "provider": "sportech",
+    "provider_label": "Sportech Academy",
+    "program_type": "sportech_teen",
+    "title": "Music Innovation",
+    "raw_title": "Music Innovation",
+    "subject": "Music",
+    "categories": [
+      "Music",
+      "teen",
+      "Art Voice Academy"
+    ],
+    "location": "Venice",
+    "city": "Venice",
+    "country": "Italy",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 5050,
+      "max_amount": 5050,
+      "display": "€5,050",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "EUR",
+          "amount": 5050,
+          "display": "€5,050"
+        }
+      ]
+    },
+    "dates": [
+      "Sun 4 - Sat 17 July 2027",
+      "Available: July 2027"
+    ],
+    "date_months": [],
+    "description_short": "Voice and orchestra with Art Voice Academy, in the region where Italian music was written.",
+    "description_full": "Music Innovation: Voice & Orchestra This music summer program in Venice runs for two weeks and is designed for students aged 15 to 18. Designed for young singers and musicians ready to grow as performers and creators. Set in Veneto, a short trip from Venice and the Verona Arena, this two-week summer school pairs daily voice and orchestra labs with a forward-looking curriculum in music, AI, neuroscience and branding. Students rehearse, record their own track in a professional studio, and take to the stage in a live final concert. The program takes place in Castelfranco Veneto, a historic town in the heart of the Veneto, one of Italy’s richest musical and cultural regions, within reach of Venice and the legendary Verona Arena. Students train at a dedicated music academy, Art Voice Academy, surrounded by the landscapes and traditions that have inspired centuries of Italian music, while experiencing the artistic life of the region first-hand.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Voice & Orchestra Labs • Mornings are dedicated to Voice & Orchestra labs, where singers and instrumentalists work together toward a shared repertoire. • Music Innovation: AI, Neuroscience & Branding • Afternoons open the discipline up to the future of music: improvisation, music and AI, the neuroscience of music and emotion, acoustic engineering, plus music branding and public speaking. • Recording & Final Concert • Each participant records their own track in a professional studio, and the program builds through rehearsals to a live final concert. • Special Excursions • A visit to the Arena di Verona and to the Fenice Theater in Venice, plus pizza night. • Live Final Concert • The program culminates in a live final concert on stage, with the repertoire built together over the two weeks."
+      },
+      {
+        "title": "Program highlights",
+        "body": "Daily Voice & Orchestra labs, building to a live final concert • Record your own track in a professional studio • Innovation modules: music & AI, neuroscience, branding and public speaking"
+      }
+    ],
+    "learning_outcomes": [
+      "Daily Voice & Orchestra labs, building to a live final concert",
+      "Record your own track in a professional studio",
+      "Innovation modules: music & AI, neuroscience, branding and public speaking"
+    ],
+    "image_url": "https://sportechacademy.com/wp-content/uploads/2026/08/music_innovation_junior_featured_summer_program_sportech_academy_1-og.jpg",
+    "detail_url": "https://sportechacademy.com/music-innovation/",
+    "source_url": "https://sportechacademy.com/music-innovation/",
+    "source_files": [
+      "sportech_programs_combined.json"
+    ],
+    "flags": [],
+    "publish_status": "ready"
+  }
+]

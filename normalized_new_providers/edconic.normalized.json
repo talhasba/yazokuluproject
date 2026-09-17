@@ -1,0 +1,500 @@
+[
+  {
+    "id": "edconic-courses-vogue-summer-school-fashion-business-vogue-summer-school-london",
+    "provider": "edconic",
+    "provider_label": "Edconic",
+    "operating_institution": "Vogue College of Fashion",
+    "program_type": "edconic_summer",
+    "title": "Vogue Summer School - London",
+    "raw_title": "Vogue Summer School - London",
+    "subject": "Fashion Business & Media",
+    "categories": [
+      "Fashion Business & Media",
+      "summer",
+      "Vogue College of Fashion"
+    ],
+    "location": "London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "16+"
+    ],
+    "grade_ranges": [
+      "Grades 10-12 and graduating seniors"
+    ],
+    "duration": "2 Weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "GBP",
+      "min_amount": 4590,
+      "max_amount": 5690,
+      "display": "£4,590 - £5,690",
+      "tiers": [
+        {
+          "label": "Day",
+          "currency": "GBP",
+          "amount": 4590,
+          "display": "£4,590"
+        },
+        {
+          "label": "Residential",
+          "currency": "GBP",
+          "amount": 5690,
+          "display": "£5,690"
+        }
+      ]
+    },
+    "dates": [
+      "2026-07-19/2026-07-31",
+      "2026-08-02/2026-08-14"
+    ],
+    "date_months": [],
+    "description_short": "Discover the world of fashion business through the lens of British brands defining today's industry.",
+    "description_full": "Discover fashion business through British heritage and disruptive brands, with projects and visits spanning branding, marketing, public relations, retail, sustainability and creative services.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Fashion careers • Design and craft • Manufacturing and sustainability • Branding, marketing, PR and events • Beauty and fragrance • Retail and distribution • Creative services • Student-created fashion brand presentation"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "",
+    "detail_url": "https://www.voguecollege.com/courses/vogue-summer-school-fashion-business/",
+    "source_url": "https://www.voguecollege.com/courses/vogue-summer-school-fashion-business/",
+    "source_files": [
+      "edconic_programs_combined.json"
+    ],
+    "flags": [
+      "operator_attribution_provisional"
+    ],
+    "publish_status": "ready"
+  },
+  {
+    "id": "edconic-pre-college-summer-academy-nyc-nyc-summer-academy",
+    "provider": "edconic",
+    "provider_label": "Edconic",
+    "operating_institution": "The School of The New York Times",
+    "program_type": "edconic_summer",
+    "title": "NYC Summer Academy",
+    "raw_title": "NYC Summer Academy",
+    "subject": "Journalism & Writing",
+    "categories": [
+      "Journalism & Writing",
+      "summer",
+      "The School of The New York Times"
+    ],
+    "location": "New York City",
+    "city": "New York City",
+    "country": "United States",
+    "age_ranges": [
+      "15-18"
+    ],
+    "grade_ranges": [
+      "Rising grades 10-12 and graduating seniors"
+    ],
+    "duration": "2 Weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "USD",
+      "min_amount": 6195,
+      "max_amount": 7695,
+      "display": "$6,195 - $7,695",
+      "tiers": [
+        {
+          "label": "Day",
+          "currency": "USD",
+          "amount": 6195,
+          "display": "$6,195"
+        },
+        {
+          "label": "Residential",
+          "currency": "USD",
+          "amount": 7695,
+          "display": "$7,695"
+        }
+      ]
+    },
+    "dates": [
+      "2026-06-07/2026-06-19",
+      "2026-06-21/2026-07-03",
+      "2026-07-05/2026-07-17",
+      "2026-07-19/2026-07-31"
+    ],
+    "date_months": [],
+    "description_short": "Immerse yourself in the issues that are important to you and explore topics in journalism and media, such as culture, sports, fashion, business and law.",
+    "description_full": "Explore journalism, media, culture, sports, fashion, business and law with journalists, editors and media professionals, using New York City as an extended classroom.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Reporting and writing • Editing and media literacy • Issue-based investigation • Newsroom-style projects • New York City visits"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "",
+    "detail_url": "https://nytedu.com/pre-college/summer-academy/nyc/",
+    "source_url": "https://nytedu.com/pre-college/summer-academy/nyc/",
+    "source_files": [
+      "edconic_programs_combined.json"
+    ],
+    "flags": [
+      "operator_page_not_directly_fetchable",
+      "operator_attribution_provisional"
+    ],
+    "publish_status": "ready"
+  },
+  {
+    "id": "edconic-pre-college-summer-institute-summer-institute-nyc",
+    "provider": "edconic",
+    "provider_label": "Edconic",
+    "operating_institution": "Sotheby’s Institute of Art",
+    "program_type": "edconic_summer",
+    "title": "Summer Institute NYC",
+    "raw_title": "Summer Institute NYC",
+    "subject": "Art Business & Art History",
+    "categories": [
+      "Art Business & Art History",
+      "summer",
+      "Sotheby’s Institute of Art"
+    ],
+    "location": "New York City",
+    "city": "New York City",
+    "country": "United States",
+    "age_ranges": [
+      "15+"
+    ],
+    "grade_ranges": [
+      "Rising grades 10-12 and graduating seniors"
+    ],
+    "duration": "2 Weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "USD",
+      "min_amount": 6195,
+      "max_amount": 7695,
+      "display": "$6,195 - $7,695",
+      "tiers": [
+        {
+          "label": "Day",
+          "currency": "USD",
+          "amount": 6195,
+          "display": "$6,195"
+        },
+        {
+          "label": "Residential",
+          "currency": "USD",
+          "amount": 7695,
+          "display": "$7,695"
+        }
+      ]
+    },
+    "dates": [
+      "2026-07-05/2026-07-17",
+      "2026-07-19/2026-07-31"
+    ],
+    "date_months": [],
+    "description_short": "Explore your passion for art, culture and luxury and experience the industry first-hand through museums, galleries, auction houses, artist studios and more.",
+    "description_full": "An immersive pre-college program in art, culture, luxury and commerce, with access to museums, galleries, auction houses, artist studios and art-world professionals.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Art Business: Markets, Museums, and Money • Global Art History: Movements and Masterpieces • Inside Luxury: Culture and Couture • Industry visits • Final project"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "",
+    "detail_url": "https://sothebysinstitute.com/pre-college/summer-institute/",
+    "source_url": "https://sothebysinstitute.com/pre-college/summer-institute/",
+    "source_files": [
+      "edconic_programs_combined.json"
+    ],
+    "flags": [
+      "2026_sections_reported_closed",
+      "operator_attribution_provisional"
+    ],
+    "publish_status": "ready"
+  },
+  {
+    "id": "edconic-vogue-summer-school-vogue-summer-school-nyc",
+    "provider": "edconic",
+    "provider_label": "Edconic",
+    "operating_institution": "Vogue College of Fashion",
+    "program_type": "edconic_summer",
+    "title": "Vogue Summer School - NYC",
+    "raw_title": "Vogue Summer School - NYC",
+    "subject": "Fashion Business & Media",
+    "categories": [
+      "Fashion Business & Media",
+      "summer",
+      "Vogue College of Fashion"
+    ],
+    "location": "New York City",
+    "city": "New York City",
+    "country": "United States",
+    "age_ranges": [],
+    "grade_ranges": [
+      "High-school students"
+    ],
+    "duration": "2 Weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "USD",
+      "min_amount": 6195,
+      "max_amount": 7695,
+      "display": "$6,195 - $7,695",
+      "tiers": [
+        {
+          "label": "Day",
+          "currency": "USD",
+          "amount": 6195,
+          "display": "$6,195"
+        },
+        {
+          "label": "Residential",
+          "currency": "USD",
+          "amount": 7695,
+          "display": "$7,695"
+        }
+      ]
+    },
+    "dates": [
+      "2026-06-07/2026-06-19",
+      "2026-06-21/2026-07-03",
+      "2026-07-05/2026-07-17",
+      "2026-07-19/2026-07-31"
+    ],
+    "date_months": [],
+    "description_short": "Go behind the scenes of the global fashion industry with Vogue and choose from foundational courses in fashion business, fashion media and fashion styling.",
+    "description_full": "Go behind the scenes of the global fashion industry through focused courses in fashion business, fashion media and fashion styling.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Fashion Business: branding, marketing, strategy and innovation • Fashion Media: print and digital content through the Vogue lens • Fashion Styling: concept development through a professional photo shoot"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "",
+    "detail_url": "https://www.voguecollege.com/vogue-summer-school/",
+    "source_url": "https://www.voguecollege.com/vogue-summer-school/",
+    "source_files": [
+      "edconic_programs_combined.json"
+    ],
+    "flags": [
+      "age_floor_needs_review",
+      "missing_age",
+      "operator_attribution_provisional"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "edconic-courses-vogue-winter-break-vogue-winter-break-nyc",
+    "provider": "edconic",
+    "provider_label": "Edconic",
+    "operating_institution": "Vogue College of Fashion",
+    "program_type": "edconic_winter",
+    "title": "Vogue Winter Break - NYC",
+    "raw_title": "Vogue Winter Break - NYC",
+    "subject": "Fashion Business & Media",
+    "categories": [
+      "Fashion Business & Media",
+      "winter",
+      "Vogue College of Fashion"
+    ],
+    "location": "New York City",
+    "city": "New York City",
+    "country": "United States",
+    "age_ranges": [],
+    "grade_ranges": [
+      "High-school students"
+    ],
+    "duration": "1 Week",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "USD",
+      "min_amount": 3100,
+      "max_amount": 3945,
+      "display": "$3,100 - $3,945",
+      "tiers": [
+        {
+          "label": "Day",
+          "currency": "USD",
+          "amount": 3100,
+          "display": "$3,100"
+        },
+        {
+          "label": "Residential",
+          "currency": "USD",
+          "amount": 3945,
+          "display": "$3,945"
+        }
+      ]
+    },
+    "dates": [
+      "2026-01-04/2026-01-09"
+    ],
+    "date_months": [],
+    "description_short": "Spend your winter break in the fashion capital of the world during this five-day fashion business intensive with Vogue.",
+    "description_full": "A five-day fashion-business intensive for high-school students, pairing classroom learning with the energy and industry access of New York City.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Fashion-business intensive • Classroom instruction • New York fashion-industry exposure"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "",
+    "detail_url": "https://www.voguecollege.com/courses/vogue-winter-break/",
+    "source_url": "https://www.voguecollege.com/courses/vogue-winter-break/",
+    "source_files": [
+      "edconic_programs_combined.json"
+    ],
+    "flags": [
+      "not_summer",
+      "age_and_grade_need_review",
+      "missing_age",
+      "operator_attribution_provisional"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
+    "provider": "edconic",
+    "provider_label": "Edconic",
+    "operating_institution": "Vogue College of Fashion",
+    "program_type": "edconic_year_round_online",
+    "title": "Online Essentials",
+    "raw_title": "Online Essentials",
+    "subject": "Fashion Business & Media",
+    "categories": [
+      "Fashion Business & Media",
+      "year_round_online",
+      "Vogue College of Fashion"
+    ],
+    "location": "Online",
+    "city": "Online",
+    "country": "",
+    "age_ranges": [],
+    "grade_ranges": [],
+    "duration": "4 Weeks",
+    "delivery_modes": [
+      "virtual"
+    ],
+    "price": {
+      "currency": "USD",
+      "min_amount": 995,
+      "max_amount": 995,
+      "display": "$995",
+      "tiers": [
+        {
+          "label": "Online",
+          "currency": "USD",
+          "amount": 995,
+          "display": "$995"
+        }
+      ]
+    },
+    "dates": [],
+    "date_months": [],
+    "description_short": "Study with Vogue online from anywhere in the world and get a head start on college and career opportunities in the fashion industry.",
+    "description_full": "Study online from anywhere and build a foundation for college and career opportunities in fashion through Vogue College's pre-college learning environment.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Four-week online pre-college fashion learning • Specific module list was not verified from the accessible page"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "",
+    "detail_url": "https://www.voguecollege.com/academics/pre-college/pre-college-online/",
+    "source_url": "https://www.voguecollege.com/academics/pre-college/pre-college-online/",
+    "source_files": [
+      "edconic_programs_combined.json"
+    ],
+    "flags": [
+      "not_season_specific",
+      "dates_need_review",
+      "age_range_needs_review",
+      "missing_age",
+      "missing_dates",
+      "year_round_online",
+      "operator_attribution_provisional"
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "edconic-precollege-mayo-edu-pre-college-healthcare-academy",
+    "provider": "edconic",
+    "provider_label": "Edconic",
+    "operating_institution": "Mayo Clinic College of Medicine & Science",
+    "program_type": "edconic_summer",
+    "title": "Pre-College Healthcare Academy",
+    "raw_title": "Pre-College Healthcare Academy",
+    "subject": "Medicine & Health",
+    "categories": [
+      "Medicine & Health",
+      "summer",
+      "Mayo Clinic College of Medicine & Science"
+    ],
+    "location": "Rochester, MN",
+    "city": "Rochester, MN",
+    "country": "United States",
+    "age_ranges": [
+      "15-18"
+    ],
+    "grade_ranges": [
+      "Entering grades 10-12 and graduating seniors"
+    ],
+    "duration": "2 Weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "USD",
+      "min_amount": 7695,
+      "max_amount": 7695,
+      "display": "$7,695",
+      "tiers": [
+        {
+          "label": "Residential",
+          "currency": "USD",
+          "amount": 7695,
+          "display": "$7,695"
+        }
+      ]
+    },
+    "dates": [
+      "2026-07-12/2026-07-24"
+    ],
+    "date_months": [],
+    "description_short": "Prepare for a future in healthcare with the world’s No.1 hospital.",
+    "description_full": "A two-week residential introduction to medicine and healthcare inside Mayo Clinic's learning environment, combining interactive workshops, applied learning and exposure to clinical and research careers.",
+    "curriculum_sections": [
+      {
+        "title": "Curriculum",
+        "body": "Healthcare systems and multidisciplinary care • Surgical care and operating-room teams • Nursing and advanced-practice roles • Diagnostic imaging and technology • Research and laboratory science • Healthcare leadership and innovation • Team capstone project"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "",
+    "detail_url": "https://precollege.mayo.edu/",
+    "source_url": "https://precollege.mayo.edu/",
+    "source_files": [
+      "edconic_programs_combined.json"
+    ],
+    "flags": [
+      "2026_applications_closed",
+      "inaugural_2026_cohort_100_seats",
+      "operator_attribution_provisional"
+    ],
+    "publish_status": "ready"
+  }
+]
