@@ -34,6 +34,24 @@ replaceOnce(
 );
 
 replaceOnce(
+  '_0=["Bucksmore","Immerse Education","InvestIN Education","Oxford Royale","St Clare\'s, Oxford"]',
+  '_0=["Bucksmore","Edconic","Immerse Education","InvestIN Education","MPW Summer School","Oxford Royale","Sportech Academy","St Clare\'s, Oxford","Summer Discovery"]',
+  "complete provider filter options"
+);
+
+replaceOnce(
+  'src:"/logo.png"',
+  'src:"./logo.png"',
+  "GitHub Pages logo path"
+);
+
+replaceOnce(
+  'function C0(m,x){const O=x.get(m.id);return O&&O.length>0?O[0]:m.image_url?m.image_url:null}',
+  'function codexAssetUrl(m){return typeof m==="string"&&m.startsWith("/assets/")?new URL("."+m,document.baseURI).href:m}function C0(m,x){const O=x.get(m.id);return codexAssetUrl(O&&O.length>0?O[0]:m.image_url?m.image_url:null)}',
+  "GitHub Pages program image paths"
+);
+
+replaceOnce(
   'O0=["Cambridge","London","New Haven","New Haven / New York","New York","Online","Oxford","San Francisco","Toronto"],U0={Cambridge:{en:"Cambridge",tr:"Cambridge"},London:{en:"London",tr:"Londra"},"New Haven":{en:"New Haven",tr:"New Haven"},"New Haven / New York":{en:"New Haven / New York",tr:"New Haven / New York"},"New York":{en:"New York",tr:"New York"},Online:{en:"Online",tr:"Çevrimiçi"},Oxford:{en:"Oxford",tr:"Oxford"},"San Francisco":{en:"San Francisco",tr:"San Francisco"},Toronto:{en:"Toronto",tr:"Toronto"}}',
   'O0=["Canada","United Kingdom","United States"],U0={Canada:{en:"Canada",tr:"Kanada"},"United Kingdom":{en:"United Kingdom",tr:"Birleşik Krallık"},"United States":{en:"United States",tr:"Amerika Birleşik Devletleri"}}',
   "country filter options"
