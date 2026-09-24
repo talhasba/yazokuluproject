@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digestible program pages — prototype</title>
+<style>
+  :root {
+    --ink: #17213b; --muted: #667085; --brand: #3157d5; --brand-dark: #2342ad;
+    --soft: #f1f5ff; --line: #e4e8f0; --bg: #f7f8fb; --card: #fff;
+    --warn-bg: #fff7e6; --warn-ink: #8a5a00; --ok-bg: #e8f7ee; --ok-ink: #14663a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .bar { position: sticky; top: 0; z-index: 5; background: #fff; border-bottom: 1px solid var(--line); padding: 10px 20px; display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; }
+  .bar h1 { font-size: 14px; margin: 0; color: var(--muted); font-weight: 600; letter-spacing: .02em; text-transform: uppercase; }
+  .group { display: flex; align-items: center; gap: 8px; }
+  .group > label { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; background: #fff; }
+  .seg button { border: 0; background: transparent; padding: 6px 11px; font: inherit; font-size: 13px; color: var(--ink); cursor: pointer; border-right: 1px solid var(--line); }
+  .seg button:last-child { border-right: 0; }
+  .seg button[aria-pressed="true"] { background: var(--brand); color: #fff; }
+  main { max-width: 1040px; margin: 0 auto; padding: 24px 20px 80px; }
+  .note { font-size: 13px; color: var(--muted); margin: 0 0 18px; }
+  .note b { color: var(--ink); }
+
+  /* shared page pieces */
+  .crumb { font-size: 13px; color: var(--brand); font-weight: 600; margin-bottom: 6px; }
+  h2.title { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
+  .sub { color: var(--muted); margin-bottom: 18px; }
+  .status { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; vertical-align: middle; margin-left: 8px; }
+  .status.ready { background: var(--ok-bg); color: var(--ok-ink); }
+  .status.needs_review { background: var(--warn-bg); color: var(--warn-ink); }
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; margin-bottom: 20px; }
+  .fact { background: #fff; padding: 11px 14px; }
+  .fact small { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 700; }
+  .fact span { font-weight: 600; font-size: 14.5px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+  .card h3 { margin: 0 0 12px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--brand-dark); }
+  ul.b { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  ul.b li { display: flex; gap: 11px; align-items: flex-start; }
+  ul.b li::before { content: ""; flex: 0 0 auto; width: 7px; height: 7px; border-radius: 99px; background: var(--brand); margin-top: 8px; }
+  ul.b li b { font-weight: 650; }
+  ul.b li .t { color: #475467; }
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; }
+  .chip { background: var(--soft); color: var(--brand-dark); border-radius: 999px; padding: 4px 11px; font-size: 13px; font-weight: 600; }
+  .focus { font-size: 18px; line-height: 1.45; font-weight: 550; padding: 16px 20px; border-left: 4px solid var(--brand); background: var(--soft); border-radius: 0 12px 12px 0; margin-bottom: 18px; }
+  .check { background: var(--warn-bg); border: 1px solid #f3dca7; border-radius: 12px; padding: 12px 16px; margin-top: 18px; color: var(--warn-ink); font-size: 13.5px; }
+  .check b { display: block; margin-bottom: 4px; }
+  .check ul { margin: 0; padding-left: 18px; }
+  .stack { display: grid; gap: 16px; }
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+
+  .sched { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+  .sched li { display: grid; grid-template-columns: 64px 1fr; gap: 14px; padding: 8px 0; border-bottom: 1px dashed var(--line); }
+  .sched li:last-child { border-bottom: 0; }
+  .sched li.nt { grid-template-columns: 1fr; }
+  .sched .tm { font-weight: 700; color: var(--brand-dark); font-variant-numeric: tabular-nums; }
+  .sched .t { color: #475467; }
+  .snote { margin: 10px 0 0; font-size: 12.5px; color: var(--muted); }
+
+  /* B: accordion */
+  details.acc { background: #fff; border: 1px solid var(--line); border-radius: 12px; }
+  details.acc + details.acc { margin-top: 10px; }
+  details.acc summary { cursor: pointer; padding: 14px 18px; font-weight: 650; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+  details.acc summary::-webkit-details-marker { display: none; }
+  details.acc summary::after { content: "+"; font-size: 20px; color: var(--brand); }
+  details.acc[open] summary::after { content: "–"; }
+  details.acc .in { padding: 0 18px 16px; }
+  .count { font-weight: 500; color: var(--muted); font-size: 13px; margin-left: 8px; }
+
+  /* C: focus-first with sidebar */
+  .cwrap { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 24px; align-items: start; }
+  .side { position: sticky; top: 70px; display: grid; gap: 14px; }
+  .side .row { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .side .row:last-child { border-bottom: 0; }
+  .side .row small { color: var(--muted); font-weight: 600; }
+  .side .row span { font-weight: 600; text-align: right; }
+  .tl { list-style: none; margin: 0; padding: 0 0 0 18px; border-left: 2px solid var(--line); display: grid; gap: 16px; }
+  .tl li { position: relative; }
+  .tl li::before { content: ""; position: absolute; left: -25px; top: 6px; width: 10px; height: 10px; border-radius: 99px; background: var(--brand); box-shadow: 0 0 0 3px var(--soft); }
+  .tl li b { display: block; }
+  .tl li .t { color: #475467; font-size: 14.5px; }
+  @media (max-width: 800px) { .cwrap { grid-template-columns: 1fr; } .side { position: static; } h2.title { font-size: 25px; } }
+
+  /* current site (approximation) */
+  .now .warnbar { background: #fdecec; color: #8a1f1f; border-radius: 10px; padding: 9px 14px; font-size: 13px; margin-bottom: 14px; }
+  .now section { margin-bottom: 22px; }
+  .now section h3 { font-size: 20px; margin: 0 0 10px; text-transform: none; letter-spacing: 0; color: var(--ink); }
+  .now ul.b li { font-size: 14px; color: #475467; }
+</style>
+</head>
+<body>
+<div class="bar">
+  <h1>Program page prototype</h1>
+  <div class="group"><label>Program</label><div class="seg" id="progSeg"></div></div>
+  <div class="group"><label>Layout</label><div class="seg" id="varSeg"></div></div>
+  <div class="group"><label>Language</label><div class="seg" id="langSeg"></div></div>
+</div>
+<main>
+  <p class="note" id="note"></p>
+  <div id="page"></div>
+</main>
+
+<script>
+/* ------------------------------------------------------------------
+   Hand-written "digests" — this is what the real pipeline would output
+   per program (structured, short, extractive from the source page).
+------------------------------------------------------------------ */
+const DIGESTS = {
+"immerse-architecture-summer-school-cambridge": {
+  short: "Immerse · Architecture",
+  en: {
+    focus: "Study Cambridge's architecture up close — design principles, building techniques, and your own design and research projects.",
+    tags: ["Design principles","Building techniques","Design projects","Research project","Cambridge landmarks"],
+    highlights: ["Examine Cambridge's built environment and its iconic landmarks","Work on design projects and a self-directed research project","Taught by expert tutors from prestigious universities","Certificate of achievement at the end"],
+    doTitle: "What you'll do",
+    do: [
+      {lead:"In-depth academic sessions", text:"Complex concepts and critical analysis, led by expert university tutors."},
+      {lead:"Personal research project", text:"Craft an original research question and apply university-level methods, with tutor guidance."},
+      {lead:"1-on-1 tutoring", text:"Individual sessions tailored to your learning style, with focused feedback."},
+      {lead:"Certificate of achievement", text:"Recognises your work — useful evidence for university applications."}],
+    outcomes: ["An original research project to show admissions teams","Deeper critical-analysis skills beyond the standard curriculum","A certificate of achievement"],
+    fit: ["Aged 13–15 or 16–18 (two age tracks)","Interested in architecture and the built environment"],
+    extras: [],
+    flags: ["Source text for the 16–18 track is cut off mid-sentence — confirm its content","Fee entries are duplicated in the data (Architecture £5,995 ×2) — confirm both age tracks cost the same"]
+  },
+  tr: {
+    focus: "Cambridge'in mimarisini yakından inceleyin — tasarım ilkeleri, yapım teknikleri ve kendi tasarım ile araştırma projeleriniz.",
+    tags: ["Tasarım ilkeleri","Yapım teknikleri","Tasarım projeleri","Araştırma projesi","Cambridge yapıları"],
+    highlights: ["Cambridge'in yapılı çevresini ve simge yapılarını inceleyin","Tasarım projeleri ve bireysel bir araştırma projesi yürütün","Saygın üniversitelerden uzman eğitmenlerle ders alın","Programın sonunda başarı sertifikası"],
+    doTitle: "Neler yapacaksınız",
+    do: [
+      {lead:"Derinlemesine akademik oturumlar", text:"Üniversite eğitmenleri eşliğinde karmaşık kavramlar ve eleştirel analiz."},
+      {lead:"Kişisel araştırma projesi", text:"Eğitmen desteğiyle özgün bir araştırma sorusu oluşturun ve üniversite düzeyi yöntemler uygulayın."},
+      {lead:"Birebir mentorluk", text:"Öğrenme tarzınıza göre uyarlanmış bireysel oturumlar ve odaklı geri bildirim."},
+      {lead:"Başarı sertifikası", text:"Çalışmanızı belgeler — üniversite başvurularında destekleyici kanıt."}],
+    outcomes: ["Kabul ofislerine gösterebileceğiniz özgün bir araştırma projesi","Standart müfredatın ötesinde eleştirel analiz becerisi","Başarı sertifikası"],
+    fit: ["13–15 veya 16–18 yaş (iki yaş grubu)","Mimarlık ve yapılı çevreyle ilgilenenler"],
+    extras: [],
+    flags: ["16–18 yaş grubunun kaynak metni yarıda kesilmiş — içeriği doğrulayın","Ücret girişi veride iki kez tekrarlanıyor (Architecture £5,995 ×2) — iki yaş grubunun ücretinin aynı olduğunu doğrulayın"]
+  }
+},
+"investin-products-the-ai-software-summer-experience": {
+  short: "InvestIN · AI & Software",
+  en: {
+    focus: "Step into the shoes of a computer scientist in London — program a robot, design a video game and learn Figma, with professional site visits.",
+    tags: ["Robotics","Python","Figma & UI/UX","Front & back end","Cybersecurity","AI ethics","Game design","Fintech"],
+    highlights: ["Career simulations and professional site visits in London","Based at UCL; students live in University of London halls (single en-suite rooms)","Enhanced option adds a Level 3 Award in Work Experience and UCAS points","Beginner-friendly: robot coding uses Scratch or Python by skill level"],
+    doTitle: "Course modules",
+    do: [
+      {lead:"The World of AI & Software", text:"Career paths in software, game design and AI/ML, plus career coaching."},
+      {lead:"Robotics", text:"Build an obstacle-avoidance robot and program it for line-following, in teams."},
+      {lead:"UI/UX & Front-end", text:"Figma masterclass, HTML/CSS/JavaScript, and a full-stack web simulation in Python & Java."},
+      {lead:"Back-end Engineering", text:"Algorithms, a Python back end, and an intro to cybersecurity; get professional feedback."},
+      {lead:"The Ethics of AI", text:"Benefits, challenges and regulation — finish with a debate."},
+      {lead:"The Game Jam", text:"Story, game design and level creation, ending in alpha testing and awards."},
+      {lead:"The Fintech Forum", text:"Design a trading app in teams and pitch it to engineers, bankers and entrepreneurs."},
+      {lead:"Graduation & certification", text:"Industry reference letter signed by professionals."}],
+    outcomes: ["Industry reference letter signed by professionals","Hands-on projects: robot, video game, trading-app design, full-stack web project","Enhanced only: Level 3 Award in Work Experience, UCAS points and a professional-development portfolio"],
+    fit: ["Ages 15–18","English level B2 (upper-intermediate) or above","No fixed coding level — tasks adapt to skill"],
+    extras: ["Expert masterclasses: CV writing, LinkedIn, Oxbridge & Ivy League applications (Enhanced)","Psychometric testing and personality profiling (Enhanced)","Private Gala dinner in central London (Enhanced)"],
+    flags: ["Source page mixed marketing, testimonials and support text — only programme content kept","Fee range £2,290–£7,930 covers several package tiers — confirm which apply"]
+  },
+  tr: {
+    focus: "Londra'da bir bilgisayar bilimcinin yerine geçin — robot programlayın, video oyunu tasarlayın ve Figma öğrenin; profesyonel saha ziyaretleriyle.",
+    tags: ["Robotik","Python","Figma ve UI/UX","Ön ve arka uç","Siber güvenlik","Yapay zekâ etiği","Oyun tasarımı","Fintech"],
+    highlights: ["Londra'da kariyer simülasyonları ve profesyonel saha ziyaretleri","UCL kampüsünde; öğrenciler Londra Üniversitesi yurtlarında kalır (tek kişilik, banyolu odalar)","Enhanced seçeneği Level 3 İş Deneyimi Ödülü ve UCAS puanı ekler","Yeni başlayanlara uygun: robot kodlama beceriye göre Scratch veya Python"],
+    doTitle: "Ders modülleri",
+    do: [
+      {lead:"Yapay Zekâ ve Yazılım Dünyası", text:"Yazılım, oyun tasarımı ve YZ/ML kariyer yolları ile kariyer koçluğu."},
+      {lead:"Robotik", text:"Engelden kaçınan bir robot yapın ve takımlarla çizgi izleme için programlayın."},
+      {lead:"UI/UX ve Ön Uç", text:"Figma masterclass, HTML/CSS/JavaScript ve Python & Java ile tam kapsamlı web simülasyonu."},
+      {lead:"Arka Uç Mühendisliği", text:"Algoritmalar, Python ile arka uç ve siber güvenliğe giriş; profesyonellerden geri bildirim."},
+      {lead:"Yapay Zekâ Etiği", text:"Yararlar, zorluklar ve düzenlemeler — bir münazarayla bitirin."},
+      {lead:"Game Jam", text:"Hikâye, oyun tasarımı ve seviye yaratımı; alfa testi ve ödül töreniyle sonlanır."},
+      {lead:"Fintech Forumu", text:"Takımlarla bir alım-satım uygulaması tasarlayıp mühendis, bankacı ve girişimcilere sunun."},
+      {lead:"Mezuniyet ve sertifika", text:"Profesyoneller tarafından imzalanmış sektör referans mektubu."}],
+    outcomes: ["Profesyoneller tarafından imzalanmış sektör referans mektubu","Uygulamalı projeler: robot, video oyunu, alım-satım uygulaması tasarımı, tam kapsamlı web projesi","Yalnızca Enhanced: Level 3 İş Deneyimi Ödülü, UCAS puanı ve mesleki gelişim portföyü"],
+    fit: ["15–18 yaş","İngilizce B2 (orta-üstü) ve üzeri","Sabit bir kodlama seviyesi yok — görevler beceriye göre uyarlanır"],
+    extras: ["Uzman masterclass'ları: CV yazımı, LinkedIn, Oxbridge ve Ivy League başvuruları (Enhanced)","Psikometrik test ve kişilik profili (Enhanced)","Londra merkezde özel Gala yemeği (Enhanced)"],
+    flags: ["Kaynak sayfa pazarlama, yorum ve destek metinleriyle karışıktı — yalnızca program içeriği tutuldu","£2,290–£7,930 aralığı birden çok paket seviyesini kapsıyor — hangilerinin geçerli olduğunu doğrulayın"]
+  }
+},
+"oxford-royale-cambridge-summer-school-architecture-design-16-18": {
+  short: "Oxford Royale · Architecture",
+  en: {
+    focus: "Explore how history, creativity and innovation shape the built world — through model-making, technical drawing and design challenges in Cambridge.",
+    tags: ["Design history","Technical drawing","Model-making","Site analysis","Design challenges"],
+    highlights: ["Hands-on daily projects, from concept to creation","Learn in Cambridge — historic colleges beside bold contemporary design","Subject experts, seminars, guest speakers and debates","Certificate of completion and a graduation ceremony"],
+    doTitle: "What you'll do",
+    do: [
+      {lead:"Design projects", text:"Model-making, technical drawing, site analysis and design challenges."},
+      {lead:"Group project", text:"Design a house and studio for a violin maker: sketches, technical drawings, physical and digital models, a full proposal and a final crit presentation."},
+      {lead:"Workshops", text:"Hands-on classes that teach through practical application."},
+      {lead:"Seminars & debates", text:"Expert-led seminars, guest speakers and debates to build reasoning and public speaking."}],
+    outcomes: ["Practical skills, creative confidence and critical thinking","Oxford Royale certificate of completion (course title, dates, campus)"],
+    fit: ["Ages 16–18","Interested in architecture and design"],
+    extras: ["Guided walking tours and college visits in Cambridge","Punting on the Cam, creative workshops, debate evenings","Optional full-day London excursion","Graduation ceremony, formal dinner and party"],
+    schedule: {
+      title: "A typical day",
+      items: [
+        {time:"08:00", text:"Breakfast"},
+        {time:"09:00", text:"Morning seminar (sample day: collage in architectural design)"},
+        {time:"10:30", text:"Hands-on workshop (sample: collage)"},
+        {time:"11:45", text:"Class sharing and feedback"},
+        {time:"13:00", text:"Lunch and free time"},
+        {time:"14:00", text:"Design project work applying the new skills"},
+        {time:"18:30", text:"Dinner in the college dining hall"},
+        {time:"20:00", text:"Evening social activities (sports, talent shows, cultural experiences)"}],
+      note: "Sample day from the provider's Cambridge page; the full two-week timetable is a download on their site."
+    },
+    flags: ["Duration is blank in the data (dates suggest 2 weeks) — confirm"]
+  },
+  tr: {
+    focus: "Tarih, yaratıcılık ve yeniliğin yapılı dünyayı nasıl şekillendirdiğini keşfedin — Cambridge'de maket yapımı, teknik çizim ve tasarım görevleriyle.",
+    tags: ["Tasarım tarihi","Teknik çizim","Maket yapımı","Saha analizi","Tasarım görevleri"],
+    highlights: ["Fikirden ürüne, günlük uygulamalı projeler","Cambridge'de öğrenin — tarihi kolejler ve cesur çağdaş tasarım yan yana","Alan uzmanları, seminerler, konuk konuşmacılar ve münazaralar","Tamamlama sertifikası ve mezuniyet töreni"],
+    doTitle: "Neler yapacaksınız",
+    do: [
+      {lead:"Tasarım projeleri", text:"Maket yapımı, teknik çizim, saha analizi ve tasarım görevleri."},
+      {lead:"Grup projesi", text:"Bir kemancı için ev ve stüdyo tasarlayın: eskizler, teknik çizimler, fiziksel ve dijital maketler, tam bir öneri ve son sunum."},
+      {lead:"Atölyeler", text:"Uygulama yoluyla öğreten pratik dersler."},
+      {lead:"Seminerler ve münazaralar", text:"Muhakeme ve topluluk önünde konuşma becerisi için uzman seminerleri, konuk konuşmacılar ve münazaralar."}],
+    outcomes: ["Pratik beceriler, yaratıcı özgüven ve eleştirel düşünme","Oxford Royale tamamlama sertifikası (ders adı, tarihler, kampüs)"],
+    fit: ["16–18 yaş","Mimarlık ve tasarımla ilgilenenler"],
+    extras: ["Cambridge'de rehberli yürüyüş turları ve kolej ziyaretleri","Cam nehrinde kayık gezisi, yaratıcı atölyeler, münazara akşamları","İsteğe bağlı tam gün Londra gezisi","Mezuniyet töreni, resmi akşam yemeği ve parti"],
+    schedule: {
+      title: "Tipik bir gün",
+      items: [
+        {time:"08:00", text:"Kahvaltı"},
+        {time:"09:00", text:"Sabah semineri (örnek gün: mimari tasarımda kolaj)"},
+        {time:"10:30", text:"Uygulamalı atölye (örnek: kolaj)"},
+        {time:"11:45", text:"Sınıf içi paylaşım ve geri bildirim"},
+        {time:"13:00", text:"Öğle yemeği ve serbest zaman"},
+        {time:"14:00", text:"Yeni becerilerle tasarım projesi çalışması"},
+        {time:"18:30", text:"Kolej yemekhanesinde akşam yemeği"},
+        {time:"20:00", text:"Akşam sosyal etkinlikleri (spor, yetenek gösterileri, kültürel deneyimler)"}],
+      note: "Örnek gün, sağlayıcının Cambridge sayfasından; iki haftalık tam program sitelerinde indirilebilir."
+    },
+    flags: ["Süre veride boş (tarihler 2 haftayı işaret ediyor) — doğrulayın"]
+  }
+},
+"sportech-esports-in-motorsport": {
+  short: "Sportech · Esports in Motorsport",
+  en: {
+    focus: "One week with Dallara and AK Esports — from the simulator to the real track at the home of American motorsport.",
+    tags: ["Vehicle dynamics","Aerodynamics","Telemetry & data","Race strategy","Sim-to-reality"],
+    highlights: ["Professional simulator work, then the real track","Tour of the Dallara US Factory & Experience Hub and Indianapolis Motor Speedway","Ends with a virtual race weekend capstone"],
+    doTitle: "Course modules",
+    do: [
+      {lead:"Simulation & Performance Engineering", text:"Vehicle dynamics, aerodynamics and setup in the simulator, aiming for a measurable gain over a baseline."},
+      {lead:"Data, Telemetry & Race Strategy", text:"Read the numbers like a race engineer and turn them into decisions."},
+      {lead:"Sim-to-Reality Correlation", text:"Compare a gaming simulator, a professional driver-in-the-loop simulator and the track, then validate against reality."},
+      {lead:"Special excursions", text:"Dallara US Factory & Experience Hub, Indianapolis Motor Speedway, team dinner."},
+      {lead:"Final project", text:"A virtual race weekend, validated against the real IR-18 chassis, Dallara's sim-to-reality process and published Speedway lap data."}],
+    outcomes: ["Vehicle dynamics, aerodynamics and setup in a professional simulator","Telemetry, data and race strategy applied to a real chassis","Sim-to-reality correlation and a virtual race weekend capstone"],
+    fit: ["Ages 15–18"],
+    extras: [],
+    schedule: {
+      title: "Typical weekly schedule",
+      items: [
+        {time:"", lead:"Driving Technique & Vehicle Dynamics", text:"Line, braking, minimum speed and consistency, then vehicle dynamics, aerodynamics and setup."},
+        {time:"", lead:"Telemetry, Data & Race Strategy", text:"Telemetry in MoTeC format, analysed in MoTeC i2: lap overlays, corner and sector comparison."},
+        {time:"", lead:"Race Weekend & Pit Wall", text:"Simulator fidelity levels, then validating the work against real conditions."},
+        {time:"", lead:"Special Excursions", text:"Dallara US factory, Indianapolis Motor Speedway and an IndyCar team headquarters."}],
+      note: "The provider lists these four components but no day-by-day hours."
+    },
+    flags: ["Two date entries: 14–21 March 2027 and “Available: July 2027” — confirm the July dates"]
+  },
+  tr: {
+    focus: "Dallara ve AK Esports ile bir hafta — simülatörden, Amerikan motor sporlarının kalbindeki gerçek pistte.",
+    tags: ["Araç dinamiği","Aerodinamik","Telemetri ve veri","Yarış stratejisi","Simülasyondan gerçeğe"],
+    highlights: ["Profesyonel simülatör çalışması, ardından gerçek pist","Dallara ABD Fabrikası ve Deneyim Merkezi ile Indianapolis Motor Speedway turu","Sanal yarış hafta sonu projesiyle biter"],
+    doTitle: "Ders modülleri",
+    do: [
+      {lead:"Simülasyon ve Performans Mühendisliği", text:"Simülatörde araç dinamiği, aerodinamik ve ayar; başlangıca göre ölçülebilir kazanım hedefi."},
+      {lead:"Veri, Telemetri ve Yarış Stratejisi", text:"Sayıları bir yarış mühendisi gibi okuyup kararlara dönüştürün."},
+      {lead:"Simülasyondan Gerçeğe Uyum", text:"Oyun simülatörü, profesyonel sürücü-döngüde simülatör ve pisti karşılaştırıp gerçekle doğrulayın."},
+      {lead:"Özel geziler", text:"Dallara ABD Fabrikası ve Deneyim Merkezi, Indianapolis Motor Speedway, takım yemeği."},
+      {lead:"Final projesi", text:"Gerçek IR-18 şasisi, Dallara'nın simülasyon-gerçek uyum süreci ve yayımlanmış pist tur verileriyle doğrulanan sanal yarış hafta sonu."}],
+    outcomes: ["Profesyonel simülatörde araç dinamiği, aerodinamik ve ayar","Gerçek bir şasiye uygulanan telemetri, veri ve yarış stratejisi","Simülasyon-gerçek uyumu ve sanal yarış hafta sonu projesi"],
+    fit: ["15–18 yaş"],
+    extras: [],
+    schedule: {
+      title: "Tipik haftalık program",
+      items: [
+        {time:"", lead:"Sürüş Tekniği ve Araç Dinamiği", text:"Çizgi, frenleme, minimum hız ve tutarlılık; ardından araç dinamiği, aerodinamik ve ayar."},
+        {time:"", lead:"Telemetri, Veri ve Yarış Stratejisi", text:"MoTeC formatında telemetri, MoTeC i2 ile analiz: tur karşılaştırmaları, viraj ve sektör kıyasları."},
+        {time:"", lead:"Yarış Hafta Sonu ve Pit Duvarı", text:"Simülatör doğruluk seviyeleri, ardından çalışmayı gerçek koşullara karşı doğrulama."},
+        {time:"", lead:"Özel Geziler", text:"Dallara ABD fabrikası, Indianapolis Motor Speedway ve bir IndyCar takımı merkezi."}],
+      note: "Sağlayıcı bu dört bileşeni listeliyor, ancak gün gün saat bilgisi vermiyor."
+    },
+    flags: ["İki tarih girişi var: 14–21 Mart 2027 ve “Available: July 2027” — Temmuz tarihlerini doğrulayın"]
+  }
+},
+"summer-discovery-2027-bryn-mawr-college-big-questions-club-philosophy-for-kids-s1": {
+  short: "Summer Discovery · Philosophy for Kids",
+  ageLabel: {en: "Completed grades 1–3", tr: "1–3. sınıfı bitirmiş"},
+  en: {
+    focus: "Children are already experts at asking why. This course turns that curiosity into reasoning — through stories, puzzles, movement, drawing and role-play.",
+    tags: ["Philosophy","Reasoning","Listening","Creative project"],
+    highlights: ["Explore fairness, friendship, rules and how we know what is true","Learn through stories, puzzles, mystery objects, movement and role-play","Finish with a poster, comic, model or interactive Big Questions Gallery"],
+    doTitle: "What you'll do",
+    do: [
+      {lead:"Turn stories into big questions", text:"Using stories, mystery objects and everyday choices."},
+      {lead:"Explore fairness", text:"Share materials and act out different solutions."},
+      {lead:"Puzzle it out", text:"Use clues, pictures and puzzles to decide what they know and why."},
+      {lead:"“Is following rules thinking?”", text:"Act like a paper robot to find out."},
+      {lead:"Share ideas", text:"Through speaking, drawing, building and respectful conversation."}],
+    outcomes: ["Recognise when a question has more than one thoughtful answer","Explain an idea with a reason, example, picture or observation","Listen to and compare different viewpoints","Take home: an illustrated Big Questions journal and a gallery project"],
+    fit: ["Elementary students who have completed grade 1, 2 or 3","Curious talkers and quiet observers alike","Ready to listen, take turns and share a finished project","Program application required (Institute for the Gifted eligibility: see provider FAQ)"],
+    extras: [],
+    flags: ["Age field is empty in the data — grades come from the description","Price is a campus-wide range ($2,399–$3,999), not course-specific","Dates are raw ISO strings, and 28 Jun–16 Jul is under 3 weeks — confirm duration"]
+  },
+  tr: {
+    focus: "Çocuklar zaten “neden?” diye sormakta uzman. Bu ders, o merakı hikâyeler, bulmacalar, hareket, çizim ve rol yapma ile akıl yürütmeye dönüştürür.",
+    tags: ["Felsefe","Akıl yürütme","Dinleme","Yaratıcı proje"],
+    highlights: ["Adalet, arkadaşlık, kurallar ve doğruyu nasıl bildiğimiz üzerine sorular","Hikâyeler, bulmacalar, gizemli nesneler, hareket ve rol yapma ile öğrenme","Poster, çizgi roman, maket veya etkileşimli Büyük Sorular Galerisi ile bitirme"],
+    doTitle: "Neler yapacaklar",
+    do: [
+      {lead:"Hikâyeleri büyük sorulara çevirme", text:"Hikâyeler, gizemli nesneler ve günlük seçimlerle."},
+      {lead:"Adaleti keşfetme", text:"Malzemeleri paylaşıp farklı çözümleri canlandırma."},
+      {lead:"Bulmacayı çözme", text:"İpuçları, resimler ve bulmacalarla neyi neden bildiklerine karar verme."},
+      {lead:"“Kurallara uymak düşünmek müdür?”", text:"Bunu anlamak için kâğıttan robot gibi davranma."},
+      {lead:"Fikirleri paylaşma", text:"Konuşarak, çizerek, inşa ederek ve saygılı sohbetle."}],
+    outcomes: ["Bir sorunun birden çok düşünceli cevabı olabileceğini fark etme","Bir fikri gerekçe, örnek, resim veya gözlemle açıklama","Farklı bakış açılarını dinleyip karşılaştırma","Eve götürülenler: resimli Büyük Sorular günlüğü ve galeri projesi"],
+    fit: ["1., 2. veya 3. sınıfı bitirmiş ilkokul öğrencileri","Meraklı konuşkanlar ve sessiz gözlemciler","Dinlemeye, sıra beklemeye ve bitmiş projeyi paylaşmaya hazır","Program başvurusu gerekli (Institute for the Gifted uygunluk koşulları: sağlayıcı SSS sayfası)"],
+    extras: [],
+    flags: ["Yaş alanı veride boş — sınıf bilgisi açıklamadan alındı","Fiyat kampüs geneli bir aralık ($2,399–$3,999), derse özel değil","Tarihler ham ISO metni ve 28 Haz–16 Tem 3 haftadan kısa — süreyi doğrulayın"]
+  }
+}
+};
+
+/* ------------------------------------------------------------------ */
+const LABELS = {
+  en: { glance:"At a glance", focus:"Focus", outcomes:"You'll leave with", fit:"Good fit if…", extras:"Beyond the classroom", topics:"Topics", check:"Needs source check",
+        age:"Age", duration:"Duration", dates:"Dates", price:"Price", location:"Location", format:"Format", ready:"Ready", needs_review:"Needs review", in_person:"In person", online:"Online", hybrid:"Hybrid", by:"by", units:{week:"week",weeks:"weeks"}, notListed:"Not listed",
+        now:"Current site (approx.)", nowWarn:"Approximation of today's detail page: the live script chops the source text into sentence bullets (max 10) with no cleaning.",
+        note:"<b>Same content, four presentations.</b> Facts (age, price, dates…) come live from <code>programs.normalized.json</code>; the bullets are hand-written digests standing in for what the pipeline would generate. Yellow box = data issues found while digesting." },
+  tr: { glance:"Bir bakışta", focus:"Odak", outcomes:"Programın sonunda", fit:"Şunlar için uygun…", extras:"Sınıfın dışında", topics:"Konular", check:"Kaynak kontrolü gerekli",
+        age:"Yaş", duration:"Süre", dates:"Tarihler", price:"Ücret", location:"Konum", format:"Format", ready:"Hazır", needs_review:"İnceleme gerekli", in_person:"Yüz yüze", online:"Çevrimiçi", hybrid:"Karma", by:"—", units:{week:"hafta",weeks:"hafta"}, notListed:"Belirtilmemiş",
+        now:"Şu anki site (yaklaşık)", nowWarn:"Bugünkü detay sayfasının yaklaşık hali: canlı betik kaynak metni temizlemeden en fazla 10 cümle maddesine böler.",
+        note:"<b>Aynı içerik, dört sunum.</b> Olgular (yaş, ücret, tarih…) doğrudan <code>programs.normalized.json</code> dosyasından gelir; maddeler, üretim hattının çıkaracağı özetin elle yazılmış örnekleridir. Sarı kutu = özetlerken bulunan veri sorunları." }
+};
+const VARIANTS = [["A","A · Cards"],["B","B · Accordion"],["C","C · Focus + timeline"],["N","Current site"]];
+
+const state = { p: 0, v: "A", l: "en" };
+const q = new URLSearchParams(location.search);
+const ids = Object.keys(DIGESTS);
+if (q.has("p")) state.p = Math.min(+q.get("p") || 0, ids.length - 1);
+if (q.get("v") && "ABCN".includes(q.get("v"))) state.v = q.get("v");
+if (q.get("l") === "tr") state.l = "tr";
+
+let DATA = {};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function fmtDates(arr, l) {
+  const mon = l === "tr" ? ["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"] : ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const one = s => { const m = /^(\d{4})-(\d\d)-(\d\d)/.exec(s); return m ? `${+m[3]} ${mon[+m[2]-1]} ${m[1]}` : s; };
+  return (arr || []).map(d => d.includes("/") && /^\d{4}-/.test(d) ? d.split("/").map(one).join(" – ") : one(d));
+}
+function facts(rec, dg, l) {
+  const L = LABELS[l];
+  const mode = (rec.delivery_modes || [])[0];
+  const dur = rec.duration ? rec.duration.replace(/weeks?/i, m => (l === "tr" ? "hafta" : m)) : "";
+  return [
+    [L.age, dg.ageLabel ? dg.ageLabel[l] : ((rec.age_ranges || []).join(", ") || L.notListed)],
+    [L.duration, dur || L.notListed],
+    [L.dates, fmtDates(rec.dates, l).join(" · ") || L.notListed],
+    [L.price, rec.price?.display || L.notListed],
+    [L.location, rec.location || L.notListed],
+    [L.format, L[mode] || mode || L.notListed]
+  ];
+}
+const bullets = (arr, fn) => `<ul class="b">${arr.map(fn).join("")}</ul>`;
+const li = x => `<li><span class="t">${esc(x)}</span></li>`;
+const liLead = x => `<li><span class="t"><b>${esc(x.lead)}</b> — ${esc(x.text)}</span></li>`;
+const chips = t => `<div class="chips">${t.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>`;
+const card = (title, body) => `<div class="card"><h3>${esc(title)}</h3>${body}</div>`;
+
+function header(rec, l) {
+  const L = LABELS[l];
+  const title = l === "tr" && rec.title_tr ? rec.title_tr : rec.title;
+  return `<div class="crumb">${esc(rec.provider_label || rec.provider)}</div>
+    <h2 class="title">${esc(title)}<span class="status ${rec.publish_status}">${L[rec.publish_status]}</span></h2>
+    <div class="sub">${esc(rec.location)}</div>`;
+}
+function factsStrip(rec, dg, l) {
+  return `<div class="facts">${facts(rec, dg, l).map(([k, v]) => `<div class="fact"><small>${esc(k)}</small><span>${esc(v)}</span></div>`).join("")}</div>`;
+}
+function scheduleBody(s) {
+  return `<ul class="sched">${s.items.map(i => i.time
+    ? `<li><span class="tm">${esc(i.time)}</span><span class="t">${esc(i.text)}</span></li>`
+    : `<li class="nt"><span class="t">${i.lead ? `<b>${esc(i.lead)}</b> — ` : ""}${esc(i.text)}</span></li>`).join("")}</ul>` +
+    (s.note ? `<p class="snote">${esc(s.note)}</p>` : "");
+}
+function scheduleCard(d) { return d.schedule ? card(d.schedule.title, scheduleBody(d.schedule)) : ""; }
+function flagsBox(d, l) {
+  if (!d.flags?.length) return "";
+  return `<div class="check"><b>⚠ ${LABELS[l].check}</b><ul>${d.flags.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div>`;
+}
+
+/* --- Variant A: scannable cards */
+function viewA(rec, dg, l) {
+  const d = dg[l], L = LABELS[l];
+  return header(rec, l) + factsStrip(rec, dg, l) +
+    `<div class="focus">${esc(d.focus)}</div>` +
+    `<div class="stack">` +
+      card(L.glance, bullets(d.highlights, li)) +
+      `<div class="grid2">` +
+        card(d.doTitle, bullets(d.do, liLead)) +
+        `<div class="stack">` +
+          card(L.outcomes, bullets(d.outcomes, li)) +
+          card(L.fit, bullets(d.fit, li)) +
+          (d.extras.length ? card(L.extras, bullets(d.extras, li)) : "") +
+        `</div>` +
+      `</div>` +
+      scheduleCard(d) +
+    `</div>` + flagsBox(d, l);
+}
+
+/* --- Variant B: accordion (good for long programs) */
+function viewB(rec, dg, l) {
+  const d = dg[l], L = LABELS[l];
+  const sec = (title, n, body, open) => `<details class="acc"${open ? " open" : ""}><summary><span>${esc(title)}<span class="count">${n}</span></span></summary><div class="in">${body}</div></details>`;
+  return header(rec, l) + factsStrip(rec, dg, l) +
+    `<div class="card" style="margin-bottom:14px"><h3>${L.glance}</h3>${bullets(d.highlights, li)}</div>` +
+    sec(d.doTitle, d.do.length, bullets(d.do, liLead), true) +
+    sec(L.outcomes, d.outcomes.length, bullets(d.outcomes, li), false) +
+    sec(L.fit, d.fit.length, bullets(d.fit, li), false) +
+    (d.extras.length ? sec(L.extras, d.extras.length, bullets(d.extras, li), false) : "") +
+    (d.schedule ? sec(d.schedule.title, d.schedule.items.length, scheduleBody(d.schedule), false) : "") +
+    flagsBox(d, l);
+}
+
+/* --- Variant C: focus-first, timeline, sticky facts */
+function viewC(rec, dg, l) {
+  const d = dg[l], L = LABELS[l];
+  const side = facts(rec, dg, l).map(([k, v]) => `<div class="row"><small>${esc(k)}</small><span>${esc(v)}</span></div>`).join("");
+  return header(rec, l) + `<div class="cwrap"><div class="stack">` +
+      `<div class="focus" style="margin-bottom:0">${esc(d.focus)}</div>` +
+      card(L.topics, chips(d.tags)) +
+      card(d.doTitle, `<ol class="tl">${d.do.map(x => `<li><b>${esc(x.lead)}</b><span class="t">${esc(x.text)}</span></li>`).join("")}</ol>`) +
+      card(L.outcomes, bullets(d.outcomes, li)) +
+      scheduleCard(d) +
+      `<div class="grid2">${card(L.fit, bullets(d.fit, li))}${d.extras.length ? card(L.extras, bullets(d.extras, li)) : ""}</div>` +
+      flagsBox(d, l) +
+    `</div><aside class="side"><div class="card"><h3>${L.glance}</h3>${side}</div>${card(L.glance, bullets(d.highlights, li))}</aside></div>`;
+}
+
+/* --- "Now": approximation of today's site (same chunker as catalogue-cleanup.js) */
+function chunkText(text, max = 210) {
+  const words = text.split(/\s+/).filter(Boolean), out = []; let cur = "";
+  words.forEach(w => { const c = cur ? cur + " " + w : w; if (c.length > max && cur) { out.push(cur); cur = w; } else cur = c; });
+  if (cur) out.push(cur); return out;
+}
+function makeBullets(text) {
+  const cleaned = text.replace(/\s+/g, " ").replace(/\.([A-ZÇĞİÖŞÜ])/g, ". $1").trim();
+  const seen = new Set();
+  return cleaned.split(/(?<=[.!?])\s+(?=[A-ZÇĞİÖŞÜ0-9])/u).flatMap(s => chunkText(s.trim()))
+    .map(s => s.replace(/^[•–-]\s*/, "").trim()).filter(s => s.length > 2)
+    .filter(s => { const k = s.toLowerCase().replace(/[^a-z0-9çğıöşü]+/gi, " ").trim(); if (!k || seen.has(k)) return false; seen.add(k); return true; }).slice(0, 10);
+}
+const REDUNDANT = new Set(["Overview","Dates, ages and format","Schedule, ages and format","Fees","Location","Genel Bakış","Tarihler, Yaş Aralığı ve Format","Takvim, Yaş Aralığı ve Format","Ücretler","Konum"]);
+function viewNow(rec, dg, l) {
+  const L = LABELS[l];
+  let secs = (l === "tr" ? rec.detail_sections_tr : rec.detail_sections) || [];
+  if (!secs.length) secs = (rec.curriculum_sections || []).map(s => ({ title: s.title, body: s.body }));
+  secs = secs.filter(s => !REDUNDANT.has(s.title));
+  return `<div class="now">` + header(rec, l) + `<div class="warnbar">${L.nowWarn}</div>` +
+    (secs.length ? secs.map(s => `<section><h3>${esc(s.title || "—")}</h3>${bullets(makeBullets(s.body || ""), li)}</section>`).join("")
+                 : `<p class="note">(no detail sections in data)</p>`) + `</div>`;
+}
+
+/* --- shell */
+function seg(el, items, cur, onPick) {
+  el.innerHTML = items.map(([k, label]) => `<button aria-pressed="${k == cur}" data-k="${k}">${esc(label)}</button>`).join("");
+  el.onclick = e => { const b = e.target.closest("button"); if (b) onPick(b.dataset.k); };
+}
+function render() {
+  const id = ids[state.p], rec = DATA[id], dg = DIGESTS[id], l = state.l;
+  seg(document.getElementById("progSeg"), ids.map((k, i) => [i, DIGESTS[k].short]), state.p, k => { state.p = +k; render(); });
+  seg(document.getElementById("varSeg"), VARIANTS.map(([k, n]) => [k, k === "N" ? LABELS[l].now : n]), state.v, k => { state.v = k; render(); });
+  seg(document.getElementById("langSeg"), [["en","English"],["tr","Türkçe"]], l, k => { state.l = k; render(); });
+  document.getElementById("note").innerHTML = LABELS[l].note;
+  document.documentElement.lang = l;
+  const view = { A: viewA, B: viewB, C: viewC, N: viewNow }[state.v];
+  document.getElementById("page").innerHTML = rec ? view(rec, dg, l) : "<p>Loading…</p>";
+}
+render();
+fetch("../data/programs.normalized.json").then(r => r.json()).then(all => {
+  ids.forEach(id => { DATA[id] = all.find(p => p.id === id); });
+  render();
+}).catch(e => { document.getElementById("page").innerHTML = "<p>Could not load ../data/programs.normalized.json — " + esc(e.message) + "</p>"; });
+</script>
+</body>
+</html>

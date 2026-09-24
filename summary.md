@@ -71,11 +71,11 @@ The represented providers are Bucksmore, Edconic, Immerse Education, InvestIN Ed
 
 ### `data/image-candidates.json`
 
-This object maps 162 program IDs to ordered arrays of candidate image URLs. The UI uses the first candidate when available, then falls back to the program's own `image_url`, and finally displays a placeholder.
+This object maps all 471 program IDs to ordered arrays of image candidates. The library includes reusable campus photography for the major catalogue locations and local subject-based fallbacks for business, engineering, medicine, law, arts, and other program areas. The UI uses the first candidate when available, then falls back to the program's own `image_url`, and finally displays a placeholder.
 
 ### `assets/`
 
-Contains local JPG, PNG, and WebP images used by the home page and as catalogue image fallbacks.
+Contains local JPG, PNG, and WebP images used by the home page and as catalogue image fallbacks. `assets/program-images/` holds the campus photo library and a manifest with creator, source, and license information for every downloaded image.
 
 ## Important Files
 
@@ -112,7 +112,7 @@ Both `package-lock.json` and `pnpm-lock.yaml` are committed, although the pnpm w
 - `app-loader.js` depends on unique, exact snippets inside a minified generated bundle. Rebuilding or changing `script.js` can make a patch target disappear or become ambiguous, causing startup to fail. The patches should be reapplied to source code if maintainable source becomes available.
 - Several scripts use `MutationObserver` to modify React-generated DOM after rendering. This works for the current markup but is coupled to headings, class names, text labels, and element structure in the bundle.
 - The home page displays a hard-coded total of **176 programs**, while the dataset contains **471**.
-- The image map has entries for 162 program IDs; programs without a mapping rely on `image_url` or the placeholder.
+- The image map has entries for all 471 program IDs. Campus photos and local subject images provide fallback coverage, while the UI still retains its final placeholder state for failed or missing files.
 - Of the 299 newer-provider records, 280 are marked `needs_review`; their flags preserve known scope, age/grade, pricing, date, and source limitations.
 - The repository has no automated test files, lint configuration, or visible CI configuration. Verification is currently manual or build-based.
 - The bundle and generated CSS are checked in, but their original React/Tailwind source files and build configuration are not present. That makes direct feature development and regeneration harder than editing a typical Vite project.
