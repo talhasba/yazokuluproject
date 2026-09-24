@@ -1,0 +1,97 @@
+{
+  "architecture-summer-school-oxford": {
+    "flags": ["Listed ages are 16–18, but the page also describes a 13–15 group"],
+    "en": { "focus": "Explore Oxford with an architect's eye: analyse its buildings and structures and apply those insights to your own designs.", "tags": ["Design principles", "Sustainable architecture", "Urban planning", "Building techniques"], "hl": ["Set among Oxford University architecture and landmarks", "Suits different levels, from spatial-design fundamentals to advanced design techniques"], "tracks": [["13–15", "Examine Oxford's built environment, study architectural design principles, explore innovative building techniques and work on design projects."], ["16–18", "Analyse each building, structure and feature and apply the insights to your own designs, with topics like sustainable architecture, urban planning and advanced design techniques."]] },
+    "tr": { "focus": "Oxford'u bir mimarın gözüyle keşfedin: binaları ve yapıları analiz edin, edindiğiniz içgörüleri kendi tasarımlarınıza uygulayın.", "tags": ["Tasarım ilkeleri", "Sürdürülebilir mimari", "Kent planlama", "Yapım teknikleri"], "hl": ["Oxford Üniversitesi mimarisi ve simge yapıları arasında", "Mekânsal tasarımın temellerinden ileri tasarım tekniklerine farklı seviyelere uygun"], "tracks": [["13–15", "Oxford'un yapılı çevresini inceleyin, mimari tasarım ilkelerini öğrenin, yenilikçi yapım tekniklerini keşfedin ve tasarım projeleri yürütün."], ["16–18", "Her binayı, yapıyı ve özelliği analiz edin ve içgörüleri kendi tasarımlarınıza uygulayın; sürdürülebilir mimari, kent planlama ve ileri tasarım teknikleri gibi konular."]] }
+  },
+  "artificial-intelligence-summer-school-oxford": {
+    "flags": ["Page text gives both 16–18 and 15–18 as the target age"],
+    "en": { "focus": "Learn how AI works, from algorithms to machine learning, and how it is changing industries, through coding activities and group discussion.", "tags": ["Algorithms", "Machine learning", "Coding", "AI and society"], "hl": ["A starting point for computer science or your own tech ideas", "Explores AI's impact on society and industries"] },
+    "tr": { "focus": "Algoritmalardan makine öğrenmesine yapay zekânın nasıl çalıştığını ve sektörleri nasıl değiştirdiğini kodlama etkinlikleri ve grup tartışmalarıyla öğrenin.", "tags": ["Algoritmalar", "Makine öğrenmesi", "Kodlama", "YZ ve toplum"], "hl": ["Bilgisayar bilimi veya kendi teknoloji fikirleriniz için bir başlangıç", "Yapay zekânın toplum ve sektörler üzerindeki etkisini inceler"] }
+  },
+  "biology-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Cover genetics, ecology and human biology with expert tutors, in the academic heart of Oxford.", "tags": ["Genetics", "Ecology", "Human biology", "Analytical skills"], "hl": ["Hands-on experience with expert academic tutors", "Prepares for university biology or related fields"] },
+    "tr": { "focus": "Oxford'un akademik kalbinde uzman eğitmenlerle genetik, ekoloji ve insan biyolojisini işleyin.", "tags": ["Genetik", "Ekoloji", "İnsan biyolojisi", "Analitik beceriler"], "hl": ["Uzman akademik eğitmenlerle uygulamalı deneyim", "Üniversitede biyoloji veya ilgili alanlara hazırlar"] }
+  },
+  "business-management-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Build business acumen in Oxford, with content pitched at each age level.", "tags": ["Business strategy", "Management", "Global brands", "Consumer behaviour"], "hl": ["Suits students at different levels", "Studied in Oxford's historic buildings"], "tracks": [["13–15", "Business strategies and management principles, with practical business skills and a foundation in how businesses work."], ["16–18", "After key theory, analyse and improve business performance through effective management; more complex topics such as how global brands adapt products to different cultures and consumer preferences."]] },
+    "tr": { "focus": "Oxford'da iş zekânızı geliştirin; her yaş seviyesine uygun içerik.", "tags": ["İş stratejisi", "Yönetim", "Küresel markalar", "Tüketici davranışı"], "hl": ["Farklı seviyelerdeki öğrencilere uygun", "Oxford'un tarihi binalarında eğitim"], "tracks": [["13–15", "İş stratejileri ve yönetim ilkeleri, pratik iş becerileri ve işletmelerin nasıl çalıştığına dair temel."], ["16–18", "Temel kuramdan sonra etkili yönetimle iş performansını analiz edip geliştirme; küresel markaların ürünlerini farklı kültürlere ve tüketici tercihlerine nasıl uyarladığı gibi daha karmaşık konular."]] }
+  },
+  "chemistry-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Cover organic and inorganic chemistry, chemical reactions and sustainable chemistry: the principles behind modern science.", "tags": ["Organic chemistry", "Inorganic chemistry", "Reactions", "Sustainable chemistry"], "hl": ["Builds analytical and problem-solving skills"] },
+    "tr": { "focus": "Organik ve inorganik kimya, kimyasal tepkimeler ve sürdürülebilir kimyayı işleyin: modern bilimin dayandığı ilkeler.", "tags": ["Organik kimya", "İnorganik kimya", "Tepkimeler", "Sürdürülebilir kimya"], "hl": ["Analitik ve problem çözme becerilerini geliştirir"] }
+  },
+  "computer-science-summer-school-oxford": {
+    "flags": ["Listed ages are 13–15 and 16–18, but the page text only describes the 13–15 course"],
+    "en": { "focus": "Introduces computational thinking, programming languages and problem-solving through code, in a city with a growing tech reputation.", "tags": ["Computational thinking", "Programming", "Problem-solving"], "hl": ["Builds practical skills and confidence for younger students"], "tracks": [["13–15", "Foundational concepts: computational thinking, programming languages and problem-solving through code."]] },
+    "tr": { "focus": "Teknolojik yenilik konusunda itibarı artan bir şehirde algoritmik düşünme, programlama dilleri ve kodla problem çözmeyi tanıtır.", "tags": ["Algoritmik düşünme", "Programlama", "Problem çözme"], "hl": ["Genç öğrenciler için pratik beceri ve özgüven kazandırır"], "tracks": [["13–15", "Temel kavramlar: algoritmik düşünme, programlama dilleri ve kodla problem çözme."]] }
+  },
+  "creative-writing-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Develop your writing at a renowned Oxford University college, with lessons tailored to each age group.", "tags": ["Fiction", "Poetry", "Character development", "Narrative structure", "Editing"], "hl": ["Surrounded by Oxford's literary heritage"], "tracks": [["13–15", "Foundations of storytelling through fiction, poetry and writing across genres."], ["16–18", "Advanced techniques including character development, narrative structure and editing, under mentorship from seasoned writing professionals."]] },
+    "tr": { "focus": "Oxford Üniversitesi'nin ünlü kolejlerinden birinde yazınızı geliştirin; her yaş grubuna göre uyarlanmış dersler.", "tags": ["Kurgu", "Şiir", "Karakter geliştirme", "Anlatı yapısı", "Editörlük"], "hl": ["Oxford'un edebi mirasıyla çevrili"], "tracks": [["13–15", "Kurgu, şiir ve farklı türlerde yazarak hikâye anlatımının temelleri."], ["16–18", "Deneyimli yazarlık profesyonellerinin mentorluğunda karakter geliştirme, anlatı yapısı ve editörlük gibi ileri teknikler."]] }
+  },
+  "criminology-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Examine criminal behaviour, justice systems and social impact through real-life case studies and debate.", "tags": ["Criminal behaviour", "Forensic psychology", "Legal frameworks", "Social inequality"], "hl": ["Oxford's museums, landmarks and libraries as settings", "Preparation for law, sociology or politics"] },
+    "tr": { "focus": "Suç davranışını, adalet sistemlerini ve toplumsal etkiyi gerçek vaka çalışmaları ve tartışmalarla inceleyin.", "tags": ["Suç davranışı", "Adli psikoloji", "Hukuki çerçeveler", "Toplumsal eşitsizlik"], "hl": ["Oxford'un müzeleri, simge yapıları ve kütüphaneleri", "Hukuk, sosyoloji veya siyasete hazırlık"] }
+  },
+  "economics-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Explore the fundamentals of economics, with a course pitched at each age group.", "tags": ["Supply & demand", "Market structures", "Global finance", "Economic policy"], "hl": ["Builds a critical understanding of economics", "Prepares for business, finance or economics"], "tracks": [["13–15", "Economic theories, market dynamics, trends and policies, including the basics of supply, demand and market structures."], ["16–18", "Macro- and microeconomics, global trade and the skills behind sound decision-making, with advanced topics such as global finance and economic policy."]] },
+    "tr": { "focus": "Ekonominin temellerini keşfedin; her yaş grubuna uygun bir ders.", "tags": ["Arz ve talep", "Piyasa yapıları", "Küresel finans", "Ekonomi politikası"], "hl": ["Ekonomiye dair eleştirel bir anlayış kazandırır", "İşletme, finans veya ekonomiye hazırlar"], "tracks": [["13–15", "Ekonomik kuramlar, piyasa dinamikleri, eğilimler ve politikalar; arz, talep ve piyasa yapılarının temelleri."], ["16–18", "Makro ve mikroekonomi, küresel ticaret ve sağlam karar vermenin ardındaki beceriler; küresel finans ve ekonomi politikası gibi ileri konular."]] }
+  },
+  "engineering-summer-school-oxford": {
+    "flags": ["Listed ages are 16–18, but the page also describes a 13–15 course"],
+    "en": { "focus": "Work on practical projects across engineering disciplines and build problem-solving skills, in a city known for innovation in science and technology.", "tags": ["Mechanics", "Electronics", "Structural design", "Innovation"], "hl": ["Practical projects and problem-solving", "Prepares for engineering study and careers"], "tracks": [["13–15", "Fundamental engineering concepts; discover design, innovation and problem-solving."], ["16–18", "Advanced topics like mechanics, electronics and structural design."]] },
+    "tr": { "focus": "Bilim ve teknolojide yenilikçiliğiyle bilinen bir şehirde mühendislik disiplinleri boyunca pratik projeler yürütün ve problem çözme becerilerinizi geliştirin.", "tags": ["Mekanik", "Elektronik", "Yapısal tasarım", "Yenilik"], "hl": ["Pratik projeler ve problem çözme", "Mühendislik eğitimine ve kariyerine hazırlar"], "tracks": [["13–15", "Temel mühendislik kavramları; tasarım, yenilik ve problem çözmeyi keşfedin."], ["16–18", "Mekanik, elektronik ve yapısal tasarım gibi ileri konular."]] }
+  },
+  "english-literature-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Study poetry, prose and drama from Chaucer to contemporary fiction, and develop your own critical voice.", "tags": ["Poetry", "Prose", "Drama", "Literary theory", "Essay writing"], "hl": ["Essay writing, discussion and text-based workshops", "Based at Oxford University"] },
+    "tr": { "focus": "Chaucer'dan çağdaş kurguya şiir, düzyazı ve tiyatro eserlerini inceleyin ve kendi eleştirel sesinizi geliştirin.", "tags": ["Şiir", "Düzyazı", "Tiyatro", "Edebiyat kuramı", "Deneme yazımı"], "hl": ["Deneme yazımı, tartışma ve metin odaklı atölyeler", "Oxford Üniversitesi'nde"] }
+  },
+  "film-studies-summer-school-oxford": {
+    "flags": ["Listed ages are 16–18, but part of the page text says 15–18"],
+    "en": { "focus": "Watch classic and modern films to learn how directors create stories, and how cameras and technique shape the way we experience cinema.", "tags": ["Direction", "Cinematography", "Narrative techniques"], "hl": ["A good fit if you are thinking about studying film or love creative storytelling"] },
+    "tr": { "focus": "Yönetmenlerin hikâye anlatımını ve kamera ile tekniğin sinema deneyimini nasıl şekillendirdiğini klasik ve modern filmler izleyerek öğrenin.", "tags": ["Yönetmenlik", "Görüntü yönetimi", "Anlatı teknikleri"], "hl": ["Film okumayı düşünenler veya yaratıcı hikâye anlatımını sevenler için uygun"] }
+  },
+  "history-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Cover key historical events, figures and movements while developing research and analytical skills.", "tags": ["Historical events", "Research skills", "Critical analysis", "Debate"], "hl": ["Prepares for history, politics or humanities study"] },
+    "tr": { "focus": "Araştırma ve analitik becerilerinizi geliştirirken önemli tarihsel olayları, kişileri ve akımları işleyin.", "tags": ["Tarihsel olaylar", "Araştırma becerileri", "Eleştirel analiz", "Tartışma"], "hl": ["Tarih, siyaset veya beşeri bilimler eğitimine hazırlar"] }
+  },
+  "international-relations-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Debate real-world issues in engaging, discussion-based classes on international law, political theory and global conflicts.", "tags": ["International law", "Political theory", "Global conflicts", "Diplomacy"], "hl": ["Builds critical thinking and the confidence to present ideas"] },
+    "tr": { "focus": "Uluslararası hukuk, siyaset kuramı ve küresel çatışmalar üzerine tartışma temelli derslerde gerçek dünya konularını tartışın.", "tags": ["Uluslararası hukuk", "Siyaset kuramı", "Küresel çatışmalar", "Diplomasi"], "hl": ["Eleştirel düşünmeyi ve fikirleri özgüvenle sunmayı geliştirir"] }
+  },
+  "law-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Study law in one of the world's most prestigious legal traditions, with a course for each age group.", "tags": ["Legal systems", "Criminal law", "Human rights", "International law"], "hl": ["Builds critical thinking and argumentation skills"], "tracks": [["13–15", "Key legal principles: explore legal systems and build a solid foundational understanding."], ["16–18", "Advanced topics such as criminal law, human rights and international law."]] },
+    "tr": { "focus": "Dünyanın en prestijli hukuk geleneklerinden birinde hukuk okuyun; her yaş grubu için ayrı bir ders.", "tags": ["Hukuk sistemleri", "Ceza hukuku", "İnsan hakları", "Uluslararası hukuk"], "hl": ["Eleştirel düşünme ve argümantasyon becerilerini geliştirir"], "tracks": [["13–15", "Temel hukuk ilkeleri: hukuk sistemlerini keşfedin ve sağlam bir temel oluşturun."], ["16–18", "Ceza hukuku, insan hakları ve uluslararası hukuk gibi ileri konular."]] }
+  },
+  "mathematics-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Cover algebra, calculus and probability while building problem-solving and analytical skills.", "tags": ["Algebra", "Calculus", "Probability"], "hl": ["Prepares for university maths, engineering or data science"] },
+    "tr": { "focus": "Cebir, kalkülüs ve olasılığı işlerken problem çözme ve analitik becerilerinizi geliştirin.", "tags": ["Cebir", "Kalkülüs", "Olasılık"], "hl": ["Üniversitede matematik, mühendislik veya veri bilimine hazırlar"] }
+  },
+  "medicine-summer-school-medicine-summer-programme-in-oxford": {
+    "flags": [],
+    "en": { "focus": "Learn what a future in medicine could look like, with hands-on courses for two age groups.", "tags": ["Anatomy", "Medical science", "Neuroscience", "Epidemiology", "Ethics"], "hl": ["Hands-on and engaging", "Learn from real-world examples"], "tracks": [["13–15", "The basics of human anatomy, healthcare and medical sciences: how the body works and the role of medicine in everyday life, with hands-on exploration of medical specialities."], ["16–18", "Advanced topics such as neuroscience and epidemiology, plus clinical skills and the ethical questions behind healthcare systems."]] },
+    "tr": { "focus": "Tıpta bir geleceğin nasıl görünebileceğini öğrenin; iki yaş grubu için uygulamalı dersler.", "tags": ["Anatomi", "Tıp bilimi", "Nörobilim", "Epidemiyoloji", "Etik"], "hl": ["Uygulamalı ve ilgi çekici", "Gerçek hayat örneklerinden öğrenin"], "tracks": [["13–15", "İnsan anatomisi, sağlık hizmetleri ve tıp bilimlerinin temelleri: vücut nasıl çalışır, tıbbın günlük hayattaki rolü; tıbbi uzmanlıkların uygulamalı keşfi."], ["16–18", "Nörobilim ve epidemiyoloji gibi ileri konular; klinik beceriler ve sağlık sistemlerinin ardındaki etik sorular."]] }
+  },
+  "philosophy-politics-economics-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Study philosophy, politics and economics together, in a city known for shaping leaders and thinkers.", "tags": ["Philosophy", "Politics", "Economics", "Critical thinking"], "hl": ["Prepares for humanities or social-science study"] },
+    "tr": { "focus": "Liderleri ve düşünürleri yetiştirmesiyle bilinen bir şehirde felsefe, siyaset ve ekonomiyi birlikte okuyun.", "tags": ["Felsefe", "Siyaset", "Ekonomi", "Eleştirel düşünme"], "hl": ["Beşeri veya sosyal bilimler eğitimine hazırlar"] }
+  },
+  "psychology-summer-school-oxford": {
+    "flags": [],
+    "en": { "focus": "Core concepts in cognitive psychology, behavioural science and research methods, in a city known for world-class scientific research.", "tags": ["Cognitive psychology", "Behavioural science", "Research methods"], "hl": ["Builds critical thinking and research skills", "Prepares for psychology or social-science study"] },
+    "tr": { "focus": "Dünya standartlarında bilimsel araştırmalarıyla bilinen bir şehirde bilişsel psikoloji, davranış bilimi ve araştırma yöntemlerinin temel kavramları.", "tags": ["Bilişsel psikoloji", "Davranış bilimi", "Araştırma yöntemleri"], "hl": ["Eleştirel düşünme ve araştırma becerilerini geliştirir", "Psikoloji veya sosyal bilimler eğitimine hazırlar"] }
+  }
+}

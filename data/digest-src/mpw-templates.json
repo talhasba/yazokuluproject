@@ -1,0 +1,7 @@
+{
+  "commonFlags": ["The dataset holds only a one-line description for MPW programmes (no curriculum, ages or price), so this digest is intentionally brief"],
+  "common": {
+    "en": { "doTitle": "What you'll do" },
+    "tr": { "doTitle": "Neler yapacaksınız" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "common": {
+    "en": {
+      "doTitle": "What you'll do",
+      "doAppend": [{ "lead": "Interactive lessons & debates", "text": "Immersive, hands-on teaching plus debates that build reasoning and public speaking." }],
+      "outcomes": ["Oxford Royale certificate of completion (course, dates and campus)"]
+    },
+    "tr": {
+      "doTitle": "Neler yapacaksınız",
+      "doAppend": [{ "lead": "İnteraktif dersler ve münazaralar", "text": "Sürükleyici, uygulamalı öğretim ile muhakeme ve topluluk önünde konuşma becerisini geliştiren münazaralar." }],
+      "outcomes": ["Oxford Royale tamamlama sertifikası (ders, tarihler ve kampüs)"]
+    }
+  },
+  "cities": {
+    "cambridge": {
+      "en": { "extras": ["Guided walking tours, college visits and riverside highlights, plus an optional full-day London trip", "Punting on the Cam, creative workshops, debate evenings and museum and gallery visits", "Graduation ceremony, formal dinner and party in a Cambridge venue"] },
+      "tr": { "extras": ["Rehberli yürüyüş turları, kolej ziyaretleri ve nehir kıyısı gezileri; isteğe bağlı tam gün Londra gezisi", "Cam nehrinde kayık gezisi, yaratıcı atölyeler, münazara akşamları ve müze ile galeri ziyaretleri", "Cambridge'de mezuniyet töreni, resmi akşam yemeği ve parti"] }
+    },
+    "oxford": {
+      "en": { "extras": ["Punting on the Cherwell, creative workshops, debate evenings, karaoke and talent shows", "Visits to museums, galleries, the Covered Market and Westgate", "Welcome activities to help everyone settle in quickly"] },
+      "tr": { "extras": ["Cherwell nehrinde kayık gezisi, yaratıcı atölyeler, münazara akşamları, karaoke ve yetenek gösterileri", "Müze, galeri, Covered Market ve Westgate ziyaretleri", "Herkesin çabuk uyum sağlaması için karşılama etkinlikleri"] }
+    },
+    "london": {
+      "en": { "extras": ["Creative workshops and group outings to museums, galleries and riverside destinations", "Welcome activities, a debate society and a grand final"] },
+      "tr": { "extras": ["Yaratıcı atölyeler ile müze, galeri ve nehir kıyısı grup gezileri", "Karşılama etkinlikleri, münazara topluluğu ve büyük final"] }
+    },
+    "yale": {
+      "en": { "extras": ["Visits to Yale faculties, incl. the School of Management, Law Library and engineering design centre", "A Friday night party for the full American college experience", "Graduation with a certificate, plus outings to museums, galleries and Yale faculty"] },
+      "tr": { "extras": ["Yale fakülteleri ziyareti: İşletme Okulu, Hukuk Kütüphanesi ve mühendislik tasarım merkezi dahil", "Tam bir Amerikan üniversite deneyimi için cuma gecesi partisi", "Sertifikalı mezuniyet; müze, galeri ve Yale fakültelerine geziler"] }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "architecture-design-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Explore design principles, urban planning and sustainable architecture, with workshops and site visits to iconic London landmarks.", "tags": ["Design principles", "Urban planning", "Sustainable architecture", "Site visits"], "hl": ["Interactive workshops", "Practical skills and insight into the architectural profession"] },
+    "tr": { "focus": "Tasarım ilkelerini, kent planlamayı ve sürdürülebilir mimariyi keşfedin; atölyeler ve Londra'nın simge yapılarına saha ziyaretleriyle.", "tags": ["Tasarım ilkeleri", "Kent planlama", "Sürdürülebilir mimari", "Saha ziyaretleri"], "hl": ["İnteraktif atölyeler", "Mimarlık mesleğine dair pratik beceriler ve içgörü"] }
+  },
+  "banking-finance-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Explore financial markets, investment strategies and global banking systems through real case studies, in one of the world's leading financial centres.", "tags": ["Financial markets", "Investment strategies", "Global banking"], "hl": ["Real case studies and interactive sessions", "Builds confidence and analytical skills", "A foundation for finance, investment or economics"] },
+    "tr": { "focus": "Dünyanın önde gelen finans merkezlerinden birinde finansal piyasaları, yatırım stratejilerini ve küresel bankacılık sistemlerini gerçek vaka çalışmalarıyla keşfedin.", "tags": ["Finansal piyasalar", "Yatırım stratejileri", "Küresel bankacılık"], "hl": ["Gerçek vaka çalışmaları ve etkileşimli oturumlar", "Özgüveni ve analitik becerileri geliştirir", "Finans, yatırım veya ekonomi için sağlam bir temel"] }
+  },
+  "business-management-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Cover leadership, corporate strategy and global business operations, with practical knowledge and contact with industry professionals.", "tags": ["Leadership", "Corporate strategy", "Global operations", "Marketing", "Financial planning"], "hl": ["Meet industry professionals", "Suits beginners and students with prior experience"] },
+    "tr": { "focus": "Liderlik, kurumsal strateji ve küresel iş operasyonlarını işleyin; pratik bilgi edinin ve sektör profesyonelleriyle tanışın.", "tags": ["Liderlik", "Kurumsal strateji", "Küresel operasyonlar", "Pazarlama", "Finansal planlama"], "hl": ["Sektör profesyonelleriyle tanışın", "Yeni başlayanlara ve deneyimli öğrencilere uygun"] }
+  },
+  "creative-industries-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Get an insider's look at creative industries through practical briefs and visits to studios and agencies, from branding to visual storytelling.", "tags": ["Brand development", "Digital campaigns", "Visual storytelling", "User experience"], "hl": ["Visits to industry-leading creative firms", "Learn from industry insiders", "Relevant to marketing, design, film or creative direction"] },
+    "tr": { "focus": "Yaratıcı sektörlere içeriden bakın: markalaşmadan görsel hikâye anlatımına, pratik görevler ve stüdyo ile ajans ziyaretleriyle.", "tags": ["Marka geliştirme", "Dijital kampanyalar", "Görsel hikâye anlatımı", "Kullanıcı deneyimi"], "hl": ["Sektörün önde gelen yaratıcı firmalarına ziyaretler", "Sektör insiderlarından öğrenin", "Pazarlama, tasarım, sinema veya yaratıcı yönetmenlik için ilgili"] }
+  },
+  "economics-summer-school-ai-london": {
+    "flags": [],
+    "en": { "focus": "Explore supply and demand, trade, inflation and inequality through academic instruction, data analysis and group projects.", "tags": ["Markets", "Trade", "Inflation", "Inequality", "Data analysis"], "hl": ["Seminars, data-led projects and critical discussion", "Connects classroom learning to real policy and investment decisions", "Prepares for economics, business, politics or international relations"] },
+    "tr": { "focus": "Arz ve talebi, ticareti, enflasyonu ve eşitsizliği akademik eğitim, veri analizi ve grup projeleriyle keşfedin.", "tags": ["Piyasalar", "Ticaret", "Enflasyon", "Eşitsizlik", "Veri analizi"], "hl": ["Seminerler, veriye dayalı projeler ve eleştirel tartışma", "Sınıf öğrenimini gerçek politika ve yatırım kararlarına bağlar", "Ekonomi, işletme, siyaset veya uluslararası ilişkilere hazırlar"] }
+  },
+  "engineering-summer-school-ai-london": {
+    "flags": [],
+    "en": { "focus": "Explore mechanical, civil and electrical engineering through real-world challenges, hands-on design projects and structured lessons.", "tags": ["Mechanical", "Civil", "Electrical", "Systems thinking", "Sustainability"], "hl": ["Guided by experienced mentors", "Builds creativity, analytical thinking and teamwork", "Preparation for university STEM study"] },
+    "tr": { "focus": "Makine, inşaat ve elektrik mühendisliğini gerçek dünya görevleri, uygulamalı tasarım projeleri ve yapılandırılmış derslerle keşfedin.", "tags": ["Makine", "İnşaat", "Elektrik", "Sistem düşüncesi", "Sürdürülebilirlik"], "hl": ["Deneyimli mentor rehberliği", "Yaratıcılığı, analitik düşünmeyi ve ekip çalışmasını geliştirir", "Üniversitede STEM eğitimine hazırlık"] }
+  },
+  "engineering-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Learn engineering by doing: design, create and experiment, and visit iconic engineering landmarks in London.", "tags": ["Civil", "Mechanical", "Electrical", "Hands-on projects"], "hl": ["No prior experience needed", "Visits to London's engineering landmarks"] },
+    "tr": { "focus": "Mühendisliği yaparak öğrenin: tasarlayın, üretin, deney yapın ve Londra'nın simge mühendislik yapılarını ziyaret edin.", "tags": ["İnşaat", "Makine", "Elektrik", "Uygulamalı projeler"], "hl": ["Önceden deneyim gerekmez", "Londra'nın mühendislik simge yapılarına ziyaretler"] }
+  },
+  "film-studies-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Explore filmmaking, including directing, cinematography and scriptwriting, and study classic and contemporary cinema.", "tags": ["Directing", "Cinematography", "Scriptwriting", "Film history"], "hl": ["A gateway to studies or careers in media and film"] },
+    "tr": { "focus": "Yönetmenlik, görüntü yönetimi ve senaryo yazımı dahil film yapımını keşfedin; klasik ve çağdaş sinemayı inceleyin.", "tags": ["Yönetmenlik", "Görüntü yönetimi", "Senaryo yazımı", "Sinema tarihi"], "hl": ["Medya ve sinema eğitimine veya kariyerine açılan bir kapı"] }
+  },
+  "fine-and-digital-art-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Combine traditional art forms with cutting-edge digital techniques through studio work and gallery visits.", "tags": ["Fine art", "Digital art", "Studio work", "Gallery visits"], "hl": ["Builds artistic skills and creativity for further study in art and design"] },
+    "tr": { "focus": "Geleneksel sanat biçimlerini son teknoloji dijital tekniklerle stüdyo çalışması ve galeri ziyaretleriyle birleştirin.", "tags": ["Güzel sanatlar", "Dijital sanat", "Stüdyo çalışması", "Galeri ziyaretleri"], "hl": ["Sanat ve tasarım alanında ileri eğitim için sanatsal beceri ve yaratıcılığı geliştirir"] }
+  },
+  "law-summer-school-ai-london": {
+    "flags": ["Listed ages are 15–18, but part of the page text says 16–18"],
+    "en": { "focus": "Study criminal and civil law, ethical debates and landmark cases through seminars, workshops and mock courtroom experiences.", "tags": ["Criminal law", "Civil law", "Legal ethics", "Advocacy", "Mock courtroom"], "hl": ["Build persuasive arguments and evaluate legislation", "Guided by academic mentors", "Preparation for law, politics or related study"] },
+    "tr": { "focus": "Ceza ve medeni hukuku, etik tartışmaları ve dönüm noktası davaları seminerler, atölyeler ve sahte mahkeme deneyimleriyle inceleyin.", "tags": ["Ceza hukuku", "Medeni hukuk", "Hukuk etiği", "Savunuculuk", "Sahte mahkeme"], "hl": ["İkna edici argümanlar kurun ve mevzuatı değerlendirin", "Akademik mentor rehberliği", "Hukuk, siyaset veya ilgili alanlara hazırlık"] }
+  },
+  "law-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Learn key legal concepts (criminal law, international law and human rights) with insights from legal professionals and visits to London's legal landmarks.", "tags": ["Criminal law", "International law", "Human rights", "Legal landmarks"], "hl": ["Practical skills and a deeper view of the legal profession"] },
+    "tr": { "focus": "Temel hukuki kavramları (ceza hukuku, uluslararası hukuk ve insan hakları) hukuk profesyonellerinin içgörüleri ve Londra'nın hukuki simge yapılarına ziyaretlerle öğrenin.", "tags": ["Ceza hukuku", "Uluslararası hukuk", "İnsan hakları", "Hukuki simge yapılar"], "hl": ["Pratik beceriler ve hukuk mesleğine daha derin bir bakış"] }
+  },
+  "mathematics-summer-school-ai-london": {
+    "flags": [],
+    "en": { "focus": "Explore algebra, calculus, probability and number theory through rigorous teaching, challenging problem sets and small-class group tasks.", "tags": ["Algebra", "Calculus", "Probability", "Number theory"], "hl": ["Group tasks and abstract reasoning applied to practical questions", "Preparation for STEM study at university"] },
+    "tr": { "focus": "Cebir, kalkülüs, olasılık ve sayılar kuramını titiz eğitim, zorlayıcı problem setleri ve küçük sınıf grup görevleriyle keşfedin.", "tags": ["Cebir", "Kalkülüs", "Olasılık", "Sayılar kuramı"], "hl": ["Grup görevleri ve pratik sorulara uygulanan soyut akıl yürütme", "Üniversitede STEM eğitimine hazırlık"] }
+  },
+  "media-journalism-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Explore journalism, media ethics and storytelling in the digital age through practical workshops.", "tags": ["Journalism", "Media ethics", "Digital storytelling", "Broadcasting"], "hl": ["Skills for journalism, broadcasting or media studies"] },
+    "tr": { "focus": "Dijital çağda gazetecilik, medya etiği ve hikâye anlatımını pratik atölyelerle keşfedin.", "tags": ["Gazetecilik", "Medya etiği", "Dijital hikâye anlatımı", "Yayıncılık"], "hl": ["Gazetecilik, yayıncılık veya medya çalışmaları için beceriler"] }
+  },
+  "medicine-summer-school-ai-london": {
+    "flags": [],
+    "en": { "focus": "Explore anatomy, diagnostics, ethics and clinical decision-making through lectures, case discussions and hands-on workshops.", "tags": ["Anatomy", "Diagnostics", "Medical ethics", "Clinical decision-making"], "hl": ["Learn to assess symptoms and interpret test results", "Expert academic mentors"] },
+    "tr": { "focus": "Anatomiyi, tanıyı, etiği ve klinik karar vermeyi dersler, vaka tartışmaları ve uygulamalı atölyelerle keşfedin.", "tags": ["Anatomi", "Tanı", "Tıp etiği", "Klinik karar verme"], "hl": ["Belirtileri değerlendirmeyi ve test sonuçlarını yorumlamayı öğrenin", "Uzman akademik mentorlar"] }
+  },
+  "medicine-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Try real-world medical tasks through hands-on activities and simulations, and visit industry locations to see professionals at work.", "tags": ["Human anatomy", "Biomedical sciences", "Healthcare systems", "Simulations"], "hl": ["Hands-on activities and simulations", "Industry location visits", "A first step whether you aim to be a doctor, researcher or healthcare worker"] },
+    "tr": { "focus": "Uygulamalı etkinlikler ve simülasyonlarla gerçek tıbbi görevleri deneyin; profesyonelleri iş başında görmek için sektör mekânlarını ziyaret edin.", "tags": ["İnsan anatomisi", "Biyomedikal bilimler", "Sağlık sistemleri", "Simülasyonlar"], "hl": ["Uygulamalı etkinlikler ve simülasyonlar", "Sektör mekânı ziyaretleri", "Doktor, araştırmacı veya sağlık çalışanı olmak isteyenler için ilk adım"] }
+  },
+  "psychology-summer-school-ai-london": {
+    "flags": ["Listed ages are 15–18, but part of the page text says 16–18"],
+    "en": { "focus": "Investigate memory, emotion, perception and development through seminars, case studies and collaborative research projects.", "tags": ["Memory", "Emotion", "Perception", "Development", "Experiment design"], "hl": ["Design and critique your own psychology experiments", "Builds academic writing and critical thinking"] },
+    "tr": { "focus": "Belleği, duyguyu, algıyı ve gelişimi seminerler, vaka çalışmaları ve ortak araştırma projeleriyle inceleyin.", "tags": ["Bellek", "Duygu", "Algı", "Gelişim", "Deney tasarımı"], "hl": ["Kendi psikoloji deneylerinizi tasarlayın ve eleştirin", "Akademik yazımı ve eleştirel düşünmeyi geliştirir"] }
+  },
+  "software-development-gaming-summer-school-london": {
+    "flags": [],
+    "en": { "focus": "Learn key programming languages, game design principles and software engineering through hands-on coding projects.", "tags": ["Programming", "Game design", "Software engineering"], "hl": ["Insights from London's tech scene", "Skills for future study and careers in software development and gaming"] },
+    "tr": { "focus": "Temel programlama dillerini, oyun tasarımı ilkelerini ve yazılım mühendisliğini uygulamalı kodlama projeleriyle öğrenin.", "tags": ["Programlama", "Oyun tasarımı", "Yazılım mühendisliği"], "hl": ["Londra'nın teknoloji dünyasından içgörüler", "Yazılım geliştirme ve oyun alanında eğitim ve kariyer için beceriler"] }
+  }
+}

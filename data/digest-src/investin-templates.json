@@ -1,0 +1,21 @@
+{
+  "commonFlags": ["Fee range covers several package tiers (programme fee, residential package, Enhanced): confirm which apply"],
+  "common": {
+    "en": {
+      "doTitle": "Course modules",
+      "outcomes": ["An industry reference letter signed by professionals"],
+      "fit": ["Ages 15–18", "English level B2 (upper-intermediate) or above"]
+    },
+    "tr": {
+      "doTitle": "Ders modülleri",
+      "outcomes": ["Profesyoneller tarafından imzalanmış sektör referans mektubu"],
+      "fit": ["15–18 yaş", "İngilizce B2 (orta-üstü) ve üzeri"]
+    }
+  },
+  "cities": {
+    "ucl": {
+      "en": { "extras": ["Based at UCL and the University of London campus, with some days at industry locations across London", "Students live in University of London halls: single en-suite rooms", "2-Week Enhanced option: 15 extra hours with professionals, a portfolio, a career weekend and a Gala dinner", "Enhanced also includes assessment for a Level 3 Award in Work Experience and UCAS points"] },
+      "tr": { "extras": ["UCL ve Londra Üniversitesi kampüsünde; bazı günler Londra'daki sektör mekânlarında", "Öğrenciler Londra Üniversitesi yurtlarında kalır: tek kişilik, banyolu odalar", "2 Haftalık Enhanced seçeneği: profesyonellerle 15 ek saat, portföy, kariyer hafta sonu ve Gala yemeği", "Enhanced ayrıca Level 3 İş Deneyimi Ödülü ve UCAS puanı değerlendirmesini içerir"] }
+    }
+  }
+}

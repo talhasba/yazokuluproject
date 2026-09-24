@@ -1,0 +1,69 @@
+{
+  "_note": "Shared blocks for Immerse programs. The build picks 'academic' or 'career' by matching the record's curriculum section titles; a mismatch fails the build.",
+  "academic": {
+    "sectionTitles": ["In-depth academic sessions", "Personal research project", "1-on-1 tutoring", "Certificate of achievement"],
+    "en": {
+      "doTitle": "How the course works",
+      "do": [
+        { "lead": "In-depth academic sessions", "text": "Rigorous, university-style classes led by expert tutors from prestigious universities, focused on complex concepts and critical analysis." },
+        { "lead": "Personal research project", "text": "A self-directed project in a subject you choose: craft an original research question and apply university-level methods, with tutor guidance." },
+        { "lead": "1-on-1 tutoring", "text": "Individual sessions adapted to your learning style and goals, with focused feedback." },
+        { "lead": "Certificate of achievement", "text": "Recognises your accomplishments and can support a university application." }
+      ],
+      "outcomes": [
+        "An original research project that shows your curiosity to admissions teams",
+        "A deeper, more critical understanding than the standard curriculum",
+        "A certificate of achievement"
+      ]
+    },
+    "tr": {
+      "doTitle": "Ders nasıl işliyor",
+      "do": [
+        { "lead": "Derinlemesine akademik oturumlar", "text": "Saygın üniversitelerden uzman eğitmenlerle yürütülen, karmaşık kavramlara ve eleştirel analize odaklanan üniversite tarzı dersler." },
+        { "lead": "Kişisel araştırma projesi", "text": "Seçtiğiniz konuda kendi kendine yürüttüğünüz proje: eğitmen desteğiyle özgün bir araştırma sorusu oluşturur ve üniversite düzeyinde yöntemler uygularsınız." },
+        { "lead": "Birebir mentorluk", "text": "Öğrenme tarzınıza ve hedeflerinize göre uyarlanmış bireysel oturumlar ve odaklı geri bildirim." },
+        { "lead": "Başarı sertifikası", "text": "Başarılarınızı belgeler ve üniversite başvurusunda destekleyici olabilir." }
+      ],
+      "outcomes": [
+        "Kabul ofislerine merakınızı gösteren özgün bir araştırma projesi",
+        "Standart müfredatın ötesinde daha derin ve eleştirel bir anlayış",
+        "Başarı sertifikası"
+      ]
+    }
+  },
+  "career": {
+    "sectionTitles": ["Project-Based Learning Sessions", "Career Skills Sessions", "Expert Workshops", "1:1 Coaching Sessions", "Work on Personal Project", "Industry Visits"],
+    "en": {
+      "doTitle": "How the course works",
+      "do": [
+        { "lead": "Project-based learning sessions", "text": "Two-hour, hands-on tasks guided by industry Expert Tutors that build practical skills for your chosen field." },
+        { "lead": "Career skills sessions", "text": "Career exploration, job-search strategies, evaluating employers, and writing future CVs and cover letters." },
+        { "lead": "Expert workshops", "text": "Professionals share insights into career paths and industry practice." },
+        { "lead": "1:1 coaching", "text": "A weekly one-on-one session with your dedicated Expert Industry Tutor, with career-focused feedback." },
+        { "lead": "Personal project", "text": "Apply what you learn to a real-world scenario and present it to industry experts." },
+        { "lead": "Industry visits", "text": "Visits to leading local companies and on-site guest speakers, with chances to network with professionals." }
+      ],
+      "outcomes": [
+        "A personal project presented to industry experts",
+        "Practical, industry-relevant skills and a clearer view of career paths",
+        "CV and cover-letter know-how"
+      ]
+    },
+    "tr": {
+      "doTitle": "Ders nasıl işliyor",
+      "do": [
+        { "lead": "Proje tabanlı öğrenme oturumları", "text": "Sektörden uzman eğitmenler eşliğinde, seçtiğiniz alan için pratik beceri kazandıran iki saatlik uygulamalı görevler." },
+        { "lead": "Kariyer becerileri oturumları", "text": "Kariyer keşfi, iş arama stratejileri, işverenleri değerlendirme ile gelecekteki CV ve ön yazıları hazırlama." },
+        { "lead": "Uzman atölyeleri", "text": "Profesyoneller kariyer yolları ve sektör uygulamaları hakkında bilgi paylaşır." },
+        { "lead": "Birebir koçluk", "text": "Size ayrılmış sektör uzmanı eğitmenle haftalık birebir görüşme ve kariyer odaklı geri bildirim." },
+        { "lead": "Kişisel proje", "text": "Öğrendiklerinizi gerçek bir senaryoya uygular ve sektör uzmanlarına sunarsınız." },
+        { "lead": "Sektör ziyaretleri", "text": "Önde gelen yerel şirket ziyaretleri ve yerinde konuk konuşmacılar; profesyonellerle tanışma fırsatı." }
+      ],
+      "outcomes": [
+        "Sektör uzmanlarına sunulan kişisel bir proje",
+        "Pratik, sektöre yönelik beceriler ve kariyer yollarına dair daha net bir bakış",
+        "CV ve ön yazı hazırlama becerisi"
+      ]
+    }
+  }
+}

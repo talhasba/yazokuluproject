@@ -1,0 +1,42 @@
+{
+  "international-students-summer-school-academic-programme-physics-and-engineering": {
+    "flags": [],
+    "en": { "focus": "Bring three complementary subjects to life, including physics and engineering, with practical workshops and theory sessions.", "tags": ["Speed & acceleration", "Light properties", "Trigonometry", "Electrical circuits"], "hl": ["A mix of practical workshops and theoretical sessions", "Based across Cambridge and London"] },
+    "tr": { "focus": "Fizik ve mühendislik dahil üç birbirini tamamlayan dersi uygulamalı atölyeler ve kuram oturumlarıyla hayata geçirin.", "tags": ["Hız ve ivme", "Işığın özellikleri", "Trigonometri", "Elektrik devreleri"], "hl": ["Uygulamalı atölyeler ve kuramsal oturumların karışımı", "Cambridge ve Londra'da"] }
+  },
+  "international-students-summer-school-academic-programme-architecture": {
+    "flags": [],
+    "en": { "focus": "Take your first steps into architecture: design principles, practical skills and building a portfolio, with London as your base.", "tags": ["Design principles", "Practical skills", "Portfolio", "London architecture"], "hl": ["Explore the world-class architecture London has to offer", "Guidance on progressing into an architectural career"] },
+    "tr": { "focus": "Mimarlığa ilk adımlarınızı atın: tasarım ilkeleri, pratik beceriler ve portfolyo oluşturma; merkezi Londra.", "tags": ["Tasarım ilkeleri", "Pratik beceriler", "Portfolyo", "Londra mimarisi"], "hl": ["Londra'nın sunduğu dünya standardındaki mimariyi keşfedin", "Mimarlık kariyerine ilerleme konusunda rehberlik"] }
+  },
+  "international-students-summer-school-academic-programme-art-and-design": {
+    "flags": [],
+    "en": { "focus": "Experiment with different media, techniques and forms to express your creativity, from illustration and painting to typography and colour.", "tags": ["Illustration", "Painting", "Typography", "Colour", "Portfolio"], "hl": ["Tour art galleries for inspiration", "Learn how to build a portfolio for creative arts courses"] },
+    "tr": { "focus": "Yaratıcılığınızı ifade etmek için farklı malzeme, teknik ve formları deneyin: illüstrasyondan resme, tipografiden renge.", "tags": ["İllüstrasyon", "Resim", "Tipografi", "Renk", "Portfolyo"], "hl": ["İlham için sanat galerilerini gezin", "Yaratıcı sanat programları için portfolyo hazırlamayı öğrenin"] }
+  },
+  "international-students-summer-school-academic-programme-business-finance-and-economics": {
+    "flags": [],
+    "en": { "focus": "Understand how businesses operate, from planning, investments and supply chains to branding and marketing.", "tags": ["Business planning", "Investments", "Supply chains", "Branding", "Marketing"], "hl": ["Insight into the commercial world", "Based across London and Cambridge"] },
+    "tr": { "focus": "İşletmelerin nasıl çalıştığını anlayın: planlama, yatırım ve tedarik zincirinden markalaşma ve pazarlamaya.", "tags": ["İş planlama", "Yatırımlar", "Tedarik zincirleri", "Markalaşma", "Pazarlama"], "hl": ["Ticari dünyaya dair içgörü", "Londra ve Cambridge'de"] }
+  },
+  "international-students-summer-school-academic-programme-computing-robotics-and-ai": {
+    "flags": [],
+    "en": { "focus": "Explore the technology shaping our future, from crypto to coding, and put imagination to work by building a robot.", "tags": ["Coding", "Robotics", "AI", "Crypto", "Game characters"], "hl": ["Build a robot", "Develop characters for computer games", "Discover your own areas of interest"] },
+    "tr": { "focus": "Geleceğimizi şekillendiren teknolojiyi kriptodan kodlamaya keşfedin ve hayal gücünüzü robot yaparak kullanın.", "tags": ["Kodlama", "Robotik", "YZ", "Kripto", "Oyun karakterleri"], "hl": ["Bir robot yapın", "Bilgisayar oyunları için karakterler geliştirin", "Kendi ilgi alanlarınızı keşfedin"] }
+  },
+  "international-students-summer-school-academic-programme-medicine-and-sciences": {
+    "flags": [],
+    "en": { "focus": "Start your journey to medical school with practical, hands-on workshops and theoretical learning.", "tags": ["Medical school", "Practical workshops", "Medical sciences"], "hl": ["Guidance from medical professionals", "Insight into how to succeed in the admissions process"] },
+    "tr": { "focus": "Tıp fakültesi yolculuğunuza uygulamalı atölyeler ve kuramsal öğrenmeyle başlayın.", "tags": ["Tıp fakültesi", "Uygulamalı atölyeler", "Tıp bilimleri"], "hl": ["Tıp profesyonellerinden rehberlik", "Kabul sürecinde nasıl başarılı olunacağına dair içgörü"] }
+  },
+  "international-students-summer-school-academic-programme-politics-and-law": {
+    "flags": [],
+    "en": { "focus": "Understand the institutions and decisions that shape how we are governed, and the legal and political issues in today's headlines.", "tags": ["Politics", "Law", "Institutions", "Global issues"], "hl": ["Explore social, legal and political issues in an interconnected, volatile world"] },
+    "tr": { "focus": "Nasıl yönetildiğimizi belirleyen kurumları ve kararları, günümüz manşetlerindeki hukuki ve siyasi konuları anlayın.", "tags": ["Siyaset", "Hukuk", "Kurumlar", "Küresel konular"], "hl": ["Birbirine bağlı ama dalgalı bir dünyada toplumsal, hukuki ve siyasi konuları keşfedin"] }
+  },
+  "international-students-summer-school-academic-programme-psychology-and-sociology": {
+    "flags": [],
+    "en": { "focus": "Look at human behaviour and how it shapes modern society: criminal behaviour, social identity, family and the media.", "tags": ["Criminal behaviour", "Social identity", "Family", "Media influence"], "hl": ["The theory behind human behaviour and society"] },
+    "tr": { "focus": "İnsan davranışına ve modern toplumu nasıl şekillendirdiğine bakın: suç davranışı, sosyal kimlik, aile ve medya.", "tags": ["Suç davranışı", "Sosyal kimlik", "Aile", "Medyanın etkisi"], "hl": ["İnsan davranışı ve toplumun ardındaki kuram"] }
+  }
+}

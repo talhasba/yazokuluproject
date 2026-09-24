@@ -1,0 +1,77 @@
+{
+  "banking-finance-summer-school-new-york": {
+    "flags": [],
+    "en": { "focus": "Explore investment banking, financial markets and global economics in the home of Wall Street.", "tags": ["Investment banking", "Financial markets", "Global economics"], "hl": ["A New York perspective on fast-paced finance", "Builds analytical skills and financial knowledge"] },
+    "tr": { "focus": "Wall Street'in evi New York'ta yatırım bankacılığını, finansal piyasaları ve küresel ekonomiyi keşfedin.", "tags": ["Yatırım bankacılığı", "Finansal piyasalar", "Küresel ekonomi"], "hl": ["Hızlı tempolu finansa New York perspektifinden bakış", "Analitik becerileri ve finansal bilgiyi geliştirir"] }
+  },
+  "business-management-summer-school-new-york": {
+    "flags": [],
+    "en": { "focus": "Learn business strategy, leadership and entrepreneurship through a mix of theory and practice in one of the world's most influential cities.", "tags": ["Strategy", "Leadership", "Entrepreneurship"], "hl": ["Suits a range of experience levels", "From foundational concepts to real-world applications"] },
+    "tr": { "focus": "Dünyanın en etkili şehirlerinden birinde iş stratejisini, liderliği ve girişimciliği kuram ve uygulama karışımıyla öğrenin.", "tags": ["Strateji", "Liderlik", "Girişimcilik"], "hl": ["Farklı deneyim seviyelerine uygun", "Temel kavramlardan gerçek hayat uygulamalarına"] }
+  },
+  "fashion-design-summer-school-new-york": {
+    "flags": [],
+    "en": { "focus": "Cover fashion design fundamentals, trend analysis and the business of fashion, with visits to studios and showrooms.", "tags": ["Fashion design", "Trend analysis", "Business of fashion", "Studio and showroom visits"], "hl": ["Hands-on experience and creative insight", "Preparation for careers in fashion"] },
+    "tr": { "focus": "Moda tasarımının temellerini, trend analizini ve modanın iş tarafını stüdyo ve showroom ziyaretleriyle işleyin.", "tags": ["Moda tasarımı", "Trend analizi", "Moda işletmeciliği", "Stüdyo ve showroom ziyaretleri"], "hl": ["Uygulamalı deneyim ve yaratıcı içgörü", "Moda kariyerlerine hazırlık"] }
+  },
+  "marketing-entertainment-summer-school-new-york": {
+    "flags": [],
+    "en": { "focus": "Dive into marketing strategy, branding and entertainment management in one of the world's leading media capitals.", "tags": ["Marketing strategy", "Branding", "Entertainment management"], "hl": ["Hands-on projects with insights from New York's entertainment sector"] },
+    "tr": { "focus": "Dünyanın önde gelen medya başkentlerinden birinde pazarlama stratejisine, markalaşmaya ve eğlence yönetimine dalın.", "tags": ["Pazarlama stratejisi", "Markalaşma", "Eğlence yönetimi"], "hl": ["New York eğlence sektöründen içgörülerle uygulamalı projeler"] }
+  },
+  "medicine-summer-school-new-york": {
+    "flags": [],
+    "en": { "focus": "Explore urban medicine and healthcare systems through interactive workshops, seminars and case-based learning.", "tags": ["Patient care", "Medical ethics", "Global health", "Case-based learning"], "hl": ["Industry visits to university research facilities, simulation labs and innovation centres", "Real-world case studies with experienced tutors", "Connect with professionals"] },
+    "tr": { "focus": "Kentsel tıbbı ve sağlık sistemlerini etkileşimli atölyeler, seminerler ve vaka temelli öğrenmeyle keşfedin.", "tags": ["Hasta bakımı", "Tıp etiği", "Küresel sağlık", "Vaka temelli öğrenme"], "hl": ["Üniversite araştırma tesislerine, simülasyon laboratuvarlarına ve inovasyon merkezlerine sektör ziyaretleri", "Deneyimli eğitmenlerle gerçek vaka çalışmaları", "Profesyonellerle tanışın"] }
+  },
+  "entrepreneurship-summer-school-san-francisco": {
+    "flags": [],
+    "en": { "focus": "See how entrepreneurs develop, launch and scale new ventures at the epicentre of Silicon Valley.", "tags": ["Startups", "Launching ventures", "Scaling", "Critical thinking"], "hl": ["Hands-on projects and real-world case studies", "Builds problem-solving skills for the startup world"] },
+    "tr": { "focus": "Silikon Vadisi'nin merkezinde girişimcilerin yeni girişimleri nasıl geliştirdiğini, başlattığını ve büyüttüğünü görün.", "tags": ["Girişimler", "Girişim başlatma", "Ölçekleme", "Eleştirel düşünme"], "hl": ["Uygulamalı projeler ve gerçek vaka çalışmaları", "Girişim dünyası için problem çözme becerilerini geliştirir"] }
+  },
+  "software-development-ai-summer-school-san-francisco": {
+    "flags": [],
+    "en": { "focus": "Cover programming, game design and software development through hands-on coding projects and insights from Silicon Valley developers.", "tags": ["Programming", "Game design", "Software development"], "hl": ["Insights from leading developers in Silicon Valley", "Preparation for careers in software engineering and gaming"] },
+    "tr": { "focus": "Programlama, oyun tasarımı ve yazılım geliştirmeyi uygulamalı kodlama projeleri ve Silikon Vadisi geliştiricilerinden içgörülerle işleyin.", "tags": ["Programlama", "Oyun tasarımı", "Yazılım geliştirme"], "hl": ["Silikon Vadisi'nin önde gelen geliştiricilerinden içgörüler", "Yazılım mühendisliği ve oyun kariyerlerine hazırlık"] }
+  },
+  "business-management-summer-school-toronto": {
+    "flags": [],
+    "en": { "focus": "Explore leadership, strategy and entrepreneurship in Canada's financial hub.", "tags": ["Leadership", "Strategy", "Entrepreneurship", "Global market trends"], "hl": ["Suits students of all levels", "A balance of theory and practical insight"] },
+    "tr": { "focus": "Kanada'nın finans merkezinde liderliği, stratejiyi ve girişimciliği keşfedin.", "tags": ["Liderlik", "Strateji", "Girişimcilik", "Küresel pazar trendleri"], "hl": ["Her seviyeden öğrenciye uygun", "Kuram ve pratik içgörü dengesi"] }
+  },
+  "economics-summer-school-toronto": {
+    "flags": [],
+    "en": { "focus": "Learn about inflation, trade, inequality and fiscal policy through lectures, collaborative projects and data-led workshops.", "tags": ["Inflation", "Trade", "Inequality", "Fiscal policy", "Data"], "hl": ["Interpret data, evaluate arguments and predict trends", "Prepares for finance, business or international relations"] },
+    "tr": { "focus": "Enflasyon, ticaret, eşitsizlik ve maliye politikasını dersler, ortak projeler ve veriye dayalı atölyelerle öğrenin.", "tags": ["Enflasyon", "Ticaret", "Eşitsizlik", "Maliye politikası", "Veri"], "hl": ["Verileri yorumlayın, argümanları değerlendirin ve eğilimleri öngörün", "Finans, işletme veya uluslararası ilişkilere hazırlar"] }
+  },
+  "engineering-summer-school-ai-toronto": {
+    "flags": [],
+    "en": { "focus": "Study civil, electrical and mechanical engineering through lessons, group challenges and project-based learning.", "tags": ["Civil", "Electrical", "Mechanical", "Design thinking", "Sustainability"], "hl": ["Applies design thinking and sustainability to real-world problems", "Builds teamwork, communication and analytical skills"] },
+    "tr": { "focus": "İnşaat, elektrik ve makine mühendisliğini dersler, grup görevleri ve proje tabanlı öğrenmeyle inceleyin.", "tags": ["İnşaat", "Elektrik", "Makine", "Tasarım odaklı düşünme", "Sürdürülebilirlik"], "hl": ["Tasarım odaklı düşünmeyi ve sürdürülebilirliği gerçek problemlere uygular", "Ekip çalışmasını, iletişimi ve analitik becerileri geliştirir"] }
+  },
+  "international-relations-summer-school-toronto": {
+    "flags": [],
+    "en": { "focus": "Cover international law, conflict resolution and global governance through debates and critical discussion.", "tags": ["International law", "Conflict resolution", "Global governance"], "hl": ["Prepares for study in global politics or diplomacy"] },
+    "tr": { "focus": "Uluslararası hukuk, çatışma çözümü ve küresel yönetişimi tartışmalar ve eleştirel görüşmelerle işleyin.", "tags": ["Uluslararası hukuk", "Çatışma çözümü", "Küresel yönetişim"], "hl": ["Küresel siyaset veya diplomasi eğitimine hazırlar"] }
+  },
+  "law-summer-school-toronto": {
+    "flags": ["Listed ages are 15–18, but part of the page text says 16–18"],
+    "en": { "focus": "Study legal systems, constitutional principles and human rights through lectures, case analysis and mock courtroom sessions.", "tags": ["Constitutional principles", "Human rights", "Mock courtroom", "Persuasive argument"], "hl": ["Builds public speaking, critical thinking and written expression"] },
+    "tr": { "focus": "Hukuk sistemlerini, anayasal ilkeleri ve insan haklarını dersler, vaka analizi ve sahte mahkeme oturumlarıyla inceleyin.", "tags": ["Anayasal ilkeler", "İnsan hakları", "Sahte mahkeme", "İkna edici argüman"], "hl": ["Topluluk önünde konuşmayı, eleştirel düşünmeyi ve yazılı anlatımı geliştirir"] }
+  },
+  "medicine-summer-school-toronto": {
+    "flags": [],
+    "en": { "focus": "Learn human anatomy, biomedical sciences and patient care through interactive, hands-on activities.", "tags": ["Human anatomy", "Biomedical sciences", "Patient care"], "hl": ["Shows what working in medicine is really like"] },
+    "tr": { "focus": "İnsan anatomisini, biyomedikal bilimleri ve hasta bakımını etkileşimli, uygulamalı etkinliklerle öğrenin.", "tags": ["İnsan anatomisi", "Biyomedikal bilimler", "Hasta bakımı"], "hl": ["Tıpta çalışmanın gerçekte nasıl olduğunu gösterir"] }
+  },
+  "psychology-summer-school-toronto": {
+    "flags": [],
+    "en": { "focus": "An introduction to cognitive psychology, behavioural science and mental health.", "tags": ["Cognitive psychology", "Behavioural science", "Mental health"], "hl": ["Prepares for psychology or social-science study"] },
+    "tr": { "focus": "Bilişsel psikoloji, davranış bilimi ve ruh sağlığına giriş.", "tags": ["Bilişsel psikoloji", "Davranış bilimi", "Ruh sağlığı"], "hl": ["Psikoloji veya sosyal bilimler eğitimine hazırlar"] }
+  },
+  "software-development-ai-summer-school-toronto": {
+    "flags": [],
+    "en": { "focus": "Learn programming, AI and software design through coding projects, problem-solving challenges and talks from industry professionals.", "tags": ["Programming", "Artificial intelligence", "Machine learning", "Software design"], "hl": ["Practical skills for future study", "Toronto is one of North America's fastest-growing tech cities"] },
+    "tr": { "focus": "Programlama, yapay zekâ ve yazılım tasarımını kodlama projeleri, problem çözme görevleri ve sektör profesyonellerinin konuşmalarıyla öğrenin.", "tags": ["Programlama", "Yapay zekâ", "Makine öğrenmesi", "Yazılım tasarımı"], "hl": ["Gelecekteki eğitim için pratik beceriler", "Toronto, Kuzey Amerika'nın en hızlı büyüyen teknoloji şehirlerinden biri"] }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "commonFlags": ["Source price note reads 'per week' while the dataset shows one figure for the whole course: confirm the total"],
+  "common": {
+    "en": { "doTitle": "What you'll do", "fit": ["Ages 13–17"] },
+    "tr": { "doTitle": "Neler yapacaksınız", "fit": ["13–17 yaş"] }
+  },
+  "cities": {
+    "kcl": {
+      "en": { "extras": ["Based at King's College London", "Activities and excursions are built into the timetable"] },
+      "tr": { "extras": ["King's College London'da", "Etkinlikler ve geziler programa dahildir"] }
+    }
+  }
+}
