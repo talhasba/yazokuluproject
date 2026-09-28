@@ -6,6 +6,64 @@ if (!response.ok) {
 
 let source = await response.text();
 
+const additionalSubjectBuckets = {
+  "Academic Research": "Online Research Program",
+  "Art Business & Art History": "Arts & Design",
+  "Art and Design": "Arts & Design",
+  "Biology & Research": "Medicine & Life Sciences",
+  "Business, Finance and Economics": "Business",
+  "Business, Leadership & Entrepreneurship": "Business",
+  "Chemistry & Research": "Medicine & Life Sciences",
+  "Computer Science & Technology": "Computer Science",
+  "Computing, Robotics and AI": "Computer Science",
+  "Creative Arts": "Arts & Design",
+  "Design": "Arts & Design",
+  "Economics and Finance": "Business",
+  "Fashion": "Arts & Design",
+  "Fashion Business & Media": "Arts & Design",
+  "Health & Life Sciences": "Medicine & Life Sciences",
+  "Human Behavior & Society": "Medicine & Life Sciences",
+  "Humanities": "Arts & Design",
+  "Innovation & Design Thinking": "Business",
+  "Journalism & Writing": "Arts & Design",
+  "Law & Government": "Law & Politics",
+  "Mathematics & Modeling": "Mathematics",
+  "Medicine & Health": "Medicine & Life Sciences",
+  "Medicine & Health Sciences": "Medicine & Life Sciences",
+  "Medicine and Sciences": "Medicine & Life Sciences",
+  "Music": "Arts & Design",
+  "Neural Networks & Robotics": "Computer Science",
+  "Physics & Research": "Medicine & Life Sciences",
+  "Physics and Engineering": "Engineering",
+  "Politics and Law": "Law & Politics",
+  "Programming & Algorithms": "Computer Science",
+  "Psychology & Social Science": "Medicine & Life Sciences",
+  "Psychology and Sociology": "Medicine & Life Sciences",
+  "Science & Mathematics": "Science & Mathematics",
+  "Sports": "Sports",
+  "Sports Management": "Sports",
+  "Transportation Design": "Architecture & Design"
+};
+
+const additionalBucketTranslations = {
+  "Online Research Program": {
+    en: "Online Research Program",
+    tr: "Çevrimiçi Araştırma Programı"
+  },
+  "Science & Mathematics": {
+    en: "Science & Mathematics",
+    tr: "Fen Bilimleri ve Matematik"
+  },
+  Sports: {
+    en: "Sports",
+    tr: "Spor"
+  }
+};
+
+function objectPrefix(value) {
+  return JSON.stringify(value).slice(0, -1) + ",";
+}
+
 function replaceOnce(search, replacement, description) {
   const firstMatch = source.indexOf(search);
   const lastMatch = source.lastIndexOf(search);
@@ -23,14 +81,14 @@ function replaceOnce(search, replacement, description) {
 
 replaceOnce(
   "const Uh={",
-  'const Uh={"Academic Research":"Online Research Program","Mathematics & Modeling":"Mathematics","Programming & Algorithms":"Computer Science","Neural Networks & Robotics":"Computer Science","Chemistry & Research":"Medicine & Life Sciences","Biology & Research":"Medicine & Life Sciences","Physics & Research":"Medicine & Life Sciences","Human Behavior & Society":"Medicine & Life Sciences","Innovation & Design Thinking":"Business",',
-  "online research and Constructor University subject categories"
+  `const Uh=${objectPrefix(additionalSubjectBuckets)}`,
+  "complete additional subject categories"
 );
 
 replaceOnce(
   "hf={",
-  'hf={"Online Research Program":{en:"Online Research Program",tr:"Çevrimiçi Araştırma Programı"},',
-  "online research category translation"
+  `hf=${objectPrefix(additionalBucketTranslations)}`,
+  "additional subject category translations"
 );
 
 replaceOnce(
