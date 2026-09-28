@@ -4,11 +4,11 @@
 
 This repository contains a password-gated, bilingual (English/Turkish) catalogue of international summer programs. It is a static browser application: the client loads normalized JSON data, renders a filterable program grid, and shows a detail page for each program. There is no backend, database, account system, or server-side API.
 
-The catalogue currently contains **480 programs** from ten providers. The application supports desktop and mobile layouts, subject/provider/country filtering, pagination, localized program content, and image fallbacks.
+The catalogue currently contains **474 programs** from ten providers. The application supports desktop and mobile layouts, subject/provider/country filtering, pagination, localized program content, and image fallbacks.
 
 The newer-provider normalization sources and their QA reports are kept in `normalized_new_providers/`; their combined output has been merged into the main catalogue data. Constructor University's Summer Camp (Bremen, Germany) was normalized separately from its saved program page and course-syllabus document in `constructor/`; the reproducible normalizer and its standalone output live in `normalized_constructor/` and were merged into the same main catalogue data (see **Constructor University normalization** below).
 
-A second layer, added after the original bundle, replaces the generated detail page with a bullet-first "digest" page for 479 of the 480 programs (see **Program Digest Layer** below). This layer sits beside the original React catalogue rather than replacing it.
+A second layer, added after the original bundle, replaces the generated detail page with a bullet-first "digest" page for 473 of the 474 programs (see **Program Digest Layer** below). This layer sits beside the original React catalogue rather than replacing it.
 
 ## Runtime Architecture
 
@@ -30,7 +30,7 @@ This means `script.js` is effectively a compiled artifact, while `app-loader.js`
 
 - `#/` (or no hash): the marketing home page.
 - `#/programs`: the searchable program catalogue.
-- `#/programs/<program-id>`: an individual program detail page — the digest page (below) for 479 of 480 programs, the original React detail page otherwise.
+- `#/programs/<program-id>`: an individual program detail page — the digest page (below) for 473 of 474 programs, the original React detail page otherwise.
 
 Routing is hash-based and handled in the browser. No server rewrite rules are required.
 
@@ -70,11 +70,11 @@ The original bundle groups many raw subjects into broader display buckets such a
 `data/program-digests.json` (one entry per program, keyed by program id) is generated — not hand-edited — by `node tools/build-digests.mjs`, which reads hand-authored source files under `data/digest-src/` and validates every field (length limits, no placeholder text, no duplicate bullets) before writing output. Two authoring styles are used:
 
 - **Per-provider files** (`data/digest-src/<provider>/*.json`, optional `data/digest-src/<provider>-templates.json` for shared blocks like a certificate note or a campus's excursion list): used for Immerse, Oxford Royale, InvestIN, St Clare's, Bucksmore, MPW, Edconic, Sportech, and Constructor University. Immerse additionally reuses one of two shared curriculum templates ("academic" or "career") matched by the program's curriculum-section titles.
-- **Summer Discovery** (265 of the 480 programs) is handled differently because its source text is already bulleted and highly repetitive: `tools/extract-sd.mjs` auto-extracts the English structure from `programs.normalized.json` into `data/digest-src/summer_discovery-units.json`, de-duplicating 265 records down to 171 unique course "units" by content hash. Turkish translations are hand-written per unit (not per program) in `data/digest-src/summer_discovery-tr/part*.json`; the build fails if a translated list doesn't match its English counterpart item-for-item.
+- **Summer Discovery** (265 of the 474 programs) is handled differently because its source text is already bulleted and highly repetitive: `tools/extract-sd.mjs` auto-extracts the English structure from `programs.normalized.json` into `data/digest-src/summer_discovery-units.json`, de-duplicating 265 records down to 171 unique course "units" by content hash. Turkish translations are hand-written per unit (not per program) in `data/digest-src/summer_discovery-tr/part*.json`; the build fails if a translated list doesn't match its English counterpart item-for-item.
 
 Turkish catalogue metadata for Edconic, MPW, Sportech, Summer Discovery, and Constructor University is maintained in `data/tr-translations.json`. Run `node tools/apply-tr-translations.mjs` after rebuilding normalized data and digests. The script adds the reviewed Turkish title, subject, and location labels, reuses each program's reviewed Turkish digest focus as `description_short_tr`, updates the main and provider-level normalized files, and fails if any catalogue record remains incomplete.
 
-Coverage: 479 of 480 programs have a digest (Immerse's Online Research Programme is intentionally excluded — see above). Running `node tools/build-digests.mjs` after any source edit is required to regenerate `data/program-digests.json`; it exits non-zero on validation failure.
+Coverage: 473 of 474 programs have a digest (Immerse's Online Research Programme is intentionally excluded — see above). Running `node tools/build-digests.mjs` after any source edit is required to regenerate `data/program-digests.json`; it exits non-zero on validation failure.
 
 ### Testing without the password gate
 
@@ -89,7 +89,7 @@ Constructor University's Summer Camp is a single 12-day residential program in B
 - Unlike `normalized_new_providers/normalize_new_providers.py`, this normalizer is JavaScript: no Python interpreter was available in this environment to run or verify a `.py` version, so a `.mjs` script (consistent with `tools/build-digests.mjs`) was used instead.
 - All 9 records are digested like any other authored provider: `data/digest-src/constructor_university/courses.json` (per-course EN/TR focus, tags, highlights, "do" steps, outcomes, fit) plus `data/digest-src/constructor_university-templates.json` (a shared closing "do" step about the company visit/excursions and a shared outcome about campus life). `constructor_university` was added to the `PREFIX` map in `tools/build-digests.mjs` so `buildAuthored()` picks it up automatically.
 - Building a digest for these records isn't just cosmetic: the original generated React detail page (`script.js`) renders blank past the hero image for any record whose `price` and `dates` are both empty (a latent bug that was previously unreachable because every other record with that shape already had a digest overriding it). The digest layer bypasses this entirely and shows "On request" for price/dates instead.
-- The home page's hard-coded `480`/`5` stats in `index.html` were updated to match after this merge (see **Maintenance Notes and Risks**).
+- The home page's hard-coded `474`/`5` stats in `index.html` were updated to match after this merge (see **Maintenance Notes and Risks**).
 - `data/programs.normalized.json`, `data/program-digests.json`, and `data/image-candidates.json` alone were not enough for the new provider to be usable: `script.js`'s provider filter list, country filter list, and subject-bucket map are hardcoded at build time, so `app-loader.js` needed three additional `replaceOnce(...)` patches (provider `_0`, country `O0`/`U0`, subject `Uh`) or Constructor's programs would exist in the data and catalogue count but be unreachable via the filter sidebar and would show under the generic "Other" subject.
 - Photos: the site's own campus-photo pipeline (Wikimedia Commons, tracked in `assets/program-images/image-sources.json`) had no Bremen entry. The user supplied a campus-sign photo directly, saved as `assets/program-images/campuses/bremen.jpg` (marked "provenance not verified" in the manifest, since it wasn't sourced or license-checked by this pipeline). Six additional, license-checked Commons photos (one per course topic without an existing local subject image) were downloaded into `assets/program-images/constructor/`; the other 3 courses (Chemistry, Biology, Business) reuse the site's existing `*-Product-Image` subject assets. `normalized_constructor/add_image_candidates.mjs` wires all of this into `data/image-candidates.json`, ordered [course topic photo, `bremen.jpg`, the provider's `image_url`] — `program-page.js`'s `photosFor()` always promotes whichever candidate contains `/campuses/` to the page hero, so Bremen becomes the header photo automatically and the topic photo appears in the gallery below it.
 
@@ -97,7 +97,7 @@ Constructor University's Summer Camp is a single 12-day residential program in B
 
 ### `data/programs.normalized.json`
 
-The main data file is an array of 480 normalized program records. The original 172-record catalogue is supplemented by 308 records from five newer providers. Common records include:
+The main data file is an array of 474 normalized program records. The original catalogue now contains 166 records after incomplete entries were removed, supplemented by 308 records from five newer providers. Common records include:
 
 - Identity and source: `id`, provider fields, source URLs/files, flags, and publish status.
 - Classification: program type, subject, categories, location, city, country, and delivery modes.
@@ -115,7 +115,7 @@ Generated output of the digest pipeline (see **Program Digest Layer** above). ~1
 
 ### `data/image-candidates.json`
 
-This object maps all 480 program IDs to ordered arrays of image candidates. The library includes reusable campus photography for the major catalogue locations and local subject-based fallbacks for business, engineering, medicine, law, arts, and other program areas. The UI uses the first candidate when available, then falls back to the program's own `image_url`, and finally displays a placeholder. The digest layer's `photosFor()` (`program-page.js`) always picks whichever candidate path contains `/campuses/` as the page's hero (rendered as a CSS `background-image`, not an `<img>` tag); the remaining local candidates become the small gallery below it. The 9 Constructor University records each list a course-specific topic photo first, then the shared `campuses/bremen.jpg` campus photo (so Bremen is always the hero), then the provider's own `image_url` as a last-resort fallback.
+This object maps all 474 program IDs to ordered arrays of image candidates. The library includes reusable campus photography for the major catalogue locations and local subject-based fallbacks for business, engineering, medicine, law, arts, and other program areas. The UI uses the first candidate when available, then falls back to the program's own `image_url`, and finally displays a placeholder. The digest layer's `photosFor()` (`program-page.js`) always picks whichever candidate path contains `/campuses/` as the page's hero (rendered as a CSS `background-image`, not an `<img>` tag); the remaining local candidates become the small gallery below it. The 9 Constructor University records each list a course-specific topic photo first, then the shared `campuses/bremen.jpg` campus photo (so Bremen is always the hero), then the provider's own `image_url` as a last-resort fallback.
 
 ### `assets/`
 
@@ -159,10 +159,10 @@ Both `package-lock.json` and `pnpm-lock.yaml` are committed, although the pnpm w
 - The access control is only a client-side convenience. The password and all protected content are delivered to the browser, so this is not suitable for securing sensitive information.
 - `app-loader.js` depends on unique, exact snippets inside a minified generated bundle. Rebuilding or changing `script.js` can make a patch target disappear or become ambiguous, causing startup to fail. The patches should be reapplied to source code if maintainable source becomes available.
 - Several scripts use `MutationObserver` to modify React-generated DOM after rendering. This works for the current markup but is coupled to headings, class names, text labels, and element structure in the bundle. This risk is now confined to the single non-digested program.
-- The home page's hard-coded stats (currently 480 programs / 5 countries in `index.html`) must be updated by hand whenever the dataset total or country count changes; they are not computed from `data/programs.normalized.json`.
-- The image map (`data/image-candidates.json`) has entries for all 480 program IDs. Campus photos and local subject images provide fallback coverage; any future addition without an entry falls back to its own `image_url` and finally a placeholder.
+- The home page's hard-coded stats (currently 474 programs / 5 countries in `index.html`) must be updated by hand whenever the dataset total or country count changes; they are not computed from `data/programs.normalized.json`.
+- The image map (`data/image-candidates.json`) has entries for all 474 program IDs. Campus photos and local subject images provide fallback coverage; any future addition without an entry falls back to its own `image_url` and finally a placeholder.
 - Of the 308 newer-provider records, 287 are marked `needs_review` (the 9 Constructor University records are `ready`: price €4,600 and dates 25 July – 5 August were confirmed 2026-09-28). Flags preserve known scope, age/grade, pricing, date, and source limitations. The digest build surfaces many of these same issues (and others, e.g. campus-wide pricing, missing age ranges) per-record in `review.flags`, visible via `?review` on the live site.
 - The Bilgi Formu on digest pages does not send its submissions anywhere yet (`FORM_ENDPOINT` / `WHATSAPP_NUMBER` are empty in `program-page.js`); this must be wired up before relying on it for real enquiries.
-- All 480 catalogue records now include `title_tr`, `subject_tr`, `location_tr`, and `description_short_tr`. The newer-provider values are reproducible through `data/tr-translations.json` and `tools/apply-tr-translations.mjs`.
+- All 474 catalogue records now include `title_tr`, `subject_tr`, `location_tr`, and `description_short_tr`. The newer-provider values are reproducible through `data/tr-translations.json` and `tools/apply-tr-translations.mjs`.
 - The repository has no automated test files, lint configuration, or visible CI configuration. Verification is currently manual (see **Testing without the password gate** above) or build-based.
 - The bundle and generated CSS are checked in, but their original React/Tailwind source files and build configuration are not present. That makes direct feature development and regeneration harder than editing a typical Vite project.

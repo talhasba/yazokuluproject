@@ -4,11 +4,6 @@
     "en": { "focus": "Explore architecture through Cambridge's historic and contemporary buildings, from design principles to hands-on design projects.", "tags": ["Design principles", "Building techniques", "Design projects", "Cambridge architecture"], "hl": ["Study Cambridge's built environment and its iconic landmarks", "Hands-on projects, expert guidance and a mix of classroom and practical work", "Two tracks: foundations for 13–15, advanced studio work for 16–18"], "tracks": [["13–15", "Examine Cambridge's built environment, study architectural design principles, explore innovative building techniques and work on design projects."], ["16–18", "Analyse the city's built environment, develop portfolio-ready studio work, explore sustainable and structural design, and refine proposals with industry-standard tools."]] },
     "tr": { "focus": "Cambridge'in tarihi ve çağdaş yapıları üzerinden mimarlığı keşfedin: tasarım ilkelerinden uygulamalı tasarım projelerine.", "tags": ["Tasarım ilkeleri", "Yapım teknikleri", "Tasarım projeleri", "Cambridge mimarisi"], "hl": ["Cambridge'in yapılı çevresini ve simge yapılarını inceleyin", "Uygulamalı projeler, uzman rehberliği ve sınıf ile pratik çalışmanın karışımı", "İki grup: 13–15 için temeller, 16–18 için ileri stüdyo çalışması"], "tracks": [["13–15", "Cambridge'in yapılı çevresini inceleyin, mimari tasarım ilkelerini öğrenin, yenilikçi yapım tekniklerini keşfedin ve tasarım projeleri yürütün."], ["16–18", "Şehrin yapılı çevresini analiz edin, portfolyoya hazır stüdyo çalışması geliştirin, sürdürülebilir ve yapısal tasarımı keşfedin ve önerilerinizi sektör standardı araçlarla geliştirin."]] }
   },
-  "artificial-intelligence-summer-school-cambridge": {
-    "flags": ["Listed ages are 13–18, but the page text says 15–18"],
-    "en": { "focus": "Learn the basics of AI through hands-on coding and discussion, and see how it is used in the real world, from self-driving cars to virtual assistants.", "tags": ["Machine learning basics", "Coding", "Real-world AI", "Problem-solving"], "hl": ["Hands-on coding and interactive discussions", "Builds programming and problem-solving skills useful for university", "A starting point for AI or computer science study"] },
-    "tr": { "focus": "Uygulamalı kodlama ve tartışmalarla yapay zekânın temellerini öğrenin; sürücüsüz araçlardan sanal asistanlara gerçek hayattaki kullanımını görün.", "tags": ["Makine öğrenmesi temelleri", "Kodlama", "Gerçek hayatta YZ", "Problem çözme"], "hl": ["Uygulamalı kodlama ve etkileşimli tartışmalar", "Üniversitede işe yarayan programlama ve problem çözme becerileri", "Yapay zekâ veya bilgisayar bilimi eğitimi için bir başlangıç"] }
-  },
   "artificial-intelligence-summer-school-ci-cambridge": {
     "flags": [],
     "en": { "focus": "Explore machine learning, ethics and real-world AI in Cambridge's startup-rich setting, through projects, simulations and expert-led discussion.", "tags": ["Machine learning", "Robotics", "Algorithmic thinking", "AI ethics"], "hl": ["Hands-on projects and practical simulations", "Discussions led by expert mentors and local experts", "Set among Cambridge's thriving startup landscape"] },
@@ -54,11 +49,6 @@
     "en": { "focus": "Explore where design, storytelling and media meet, from branding and digital media to production and design thinking.", "tags": ["Branding", "Digital media", "Production", "Design thinking"], "hl": ["Hands-on projects and collaborative workshops led by professionals", "Skills relevant from fashion and film to advertising and tech", "Builds creative and commercial awareness"] },
     "tr": { "focus": "Tasarım, hikâye anlatımı ve medyanın buluştuğu noktayı keşfedin: markalaşmadan dijital medyaya, prodüksiyondan tasarım odaklı düşünmeye.", "tags": ["Markalaşma", "Dijital medya", "Prodüksiyon", "Tasarım odaklı düşünme"], "hl": ["Profesyonellerin yürüttüğü uygulamalı projeler ve ortak atölyeler", "Modadan sinemaya, reklamdan teknolojiye uzanan alanlarda işe yarayan beceriler", "Yaratıcı ve ticari farkındalığı geliştirir"] }
   },
-  "creative-writing-summer-school-cambridge": {
-    "flags": [],
-    "en": { "focus": "Develop your writing voice in a city that has inspired some of the world's greatest writers, with a course for each age group.", "tags": ["Narrative", "Poetry", "Essays", "Character development", "Editing"], "hl": ["Encourages you to develop your own writing voice", "Prepares for future study in literature or writing"], "tracks": [["13–15", "Tools to write engagingly and effectively, practised in narratives, poems and essays."], ["16–18", "Refine your craft in narratives, evocative poems and essays under seasoned writing professionals; advanced methods such as character development and editing."]] },
-    "tr": { "focus": "Dünyanın en büyük yazarlarından bazılarına ilham vermiş bir şehirde kendi yazı sesinizi geliştirin; her yaş grubu için ayrı bir ders.", "tags": ["Anlatı", "Şiir", "Denemeler", "Karakter geliştirme", "Editörlük"], "hl": ["Kendi yazı sesinizi bulmanızı destekler", "Edebiyat veya yazarlık eğitimine hazırlar"], "tracks": [["13–15", "Etkileyici ve etkili yazmak için araçlar; öykü, şiir ve denemelerle pratik."], ["16–18", "Deneyimli yazarlık profesyonelleri eşliğinde öykü, etkileyici şiir ve denemelerde ustalaşın; karakter geliştirme ve editörlük gibi ileri yöntemler."]] }
-  },
   "criminology-summer-school-cambridge": {
     "flags": [],
     "en": { "focus": "Explore crime, justice and the criminal mind through case studies and expert-led discussion.", "tags": ["Criminological theory", "Case studies", "Justice", "Critical thinking"], "hl": ["Builds critical thinking and analytical skills", "Prepares for criminology, law or social sciences"] },
@@ -74,11 +64,6 @@
     "en": { "focus": "Discover engineering fundamentals through hands-on experience at the University of Cambridge, with a course for each age group.", "tags": ["Mechanical engineering", "Electrical engineering", "Design", "Innovation"], "hl": ["Suits beginners and students with some experience", "Hands-on experience and a glimpse of more advanced topics"], "tracks": [["13–15", "Engineering fundamentals, exploring both mechanical and electrical engineering."], ["16–18", "Advanced engineering disciplines: design, innovation and problem-solving."]] },
     "tr": { "focus": "Cambridge Üniversitesi'nde uygulamalı deneyimle mühendisliğin temellerini keşfedin; her yaş grubu için ayrı bir ders.", "tags": ["Makine mühendisliği", "Elektrik mühendisliği", "Tasarım", "Yenilik"], "hl": ["Yeni başlayanlara ve biraz deneyimi olanlara uygun", "Uygulamalı deneyim ve daha ileri konulara bir bakış"], "tracks": [["13–15", "Mühendisliğin temelleri; hem makine hem elektrik mühendisliğini keşfetme."], ["16–18", "İleri mühendislik disiplinleri: tasarım, yenilik ve problem çözme."]] }
   },
-  "engineering-summer-school-ci-cambridge": {
-    "flags": [],
-    "en": { "focus": "Tackle real-world engineering challenges, build prototypes and visit cutting-edge labs and engineering firms.", "tags": ["Mechanical systems", "Sustainable design", "Prototyping", "Engineering ethics"], "hl": ["Industry visits to labs and engineering firms", "Learning by doing, with expert mentorship", "Reflect on the ethical and societal impact of engineering"] },
-    "tr": { "focus": "Gerçek dünya mühendislik sorunlarını çözün, prototip yapın ve ileri teknoloji laboratuvarlarını ve mühendislik firmalarını ziyaret edin.", "tags": ["Mekanik sistemler", "Sürdürülebilir tasarım", "Prototipleme", "Mühendislik etiği"], "hl": ["Laboratuvar ve mühendislik firması ziyaretleri", "Uzman mentorlukla yaparak öğrenme", "Mühendisliğin etik ve toplumsal etkisi üzerine düşünme"] }
-  },
   "english-literature-summer-school-cambridge": {
     "flags": [],
     "en": { "focus": "Analyse literary classics and modern works through close reading and discussion.", "tags": ["Close reading", "Classic literature", "Modern works", "Critical analysis"], "hl": ["Builds critical thinking and analytical skills", "Prepares for English literature or humanities study"] },
@@ -93,11 +78,6 @@
     "flags": ["Source text is cut off before listing the personal and interpersonal skills workshops"],
     "en": { "focus": "Build the mindset, practical skills and confidence to lead in a rapidly changing world, from crisis-response exercises to negotiating international policy.", "tags": ["Leadership", "Communication", "International systems", "Negotiation", "Cross-cultural fluency"], "hl": ["Interdisciplinary programme exploring global challenges from multiple perspectives", "Builds emotional intelligence and professional resilience", "Workshops on core personal and interpersonal skills"] },
     "tr": { "focus": "Hızla değişen bir dünyada liderlik için zihniyet, pratik beceri ve özgüven kazanın; kriz müdahale çalışmalarından uluslararası politika müzakerelerine.", "tags": ["Liderlik", "İletişim", "Uluslararası sistemler", "Müzakere", "Kültürler arası akıcılık"], "hl": ["Küresel sorunları farklı açılardan ele alan disiplinler arası program", "Duygusal zekâyı ve mesleki dayanıklılığı geliştirir", "Kişisel ve kişilerarası becerilere yönelik atölyeler"] }
-  },
-  "history-summer-school-cambridge": {
-    "flags": ["Listed ages are 13–18, but the page text says 16–18"],
-    "en": { "focus": "Study key historical events, figures and movements, with a deep dive into historical analysis and critical thinking.", "tags": ["Historical analysis", "Research skills", "Critical thinking"], "hl": ["Set against Cambridge's rich historical backdrop", "Prepares for history, politics or humanities study"] },
-    "tr": { "focus": "Önemli tarihsel olayları, kişileri ve akımları inceleyin; tarihsel analiz ve eleştirel düşünmeye derinlemesine dalın.", "tags": ["Tarihsel analiz", "Araştırma becerileri", "Eleştirel düşünme"], "hl": ["Cambridge'in zengin tarihi arka planında", "Tarih, siyaset veya beşeri bilimler eğitimine hazırlar"] }
   },
   "international-relations-summer-school-cambridge": {
     "flags": [],
@@ -119,12 +99,6 @@
     "en": { "focus": "Cover algebra, calculus and probability while building problem-solving and analytical skills, in a city renowned for its contributions to mathematics.", "tags": ["Algebra", "Calculus", "Probability", "Problem-solving"], "hl": ["Prepares for university-level study and careers in maths, engineering or data science"] },
     "tr": { "focus": "Matematiğe katkılarıyla ünlü bir şehirde cebir, kalkülüs ve olasılığı işleyin; problem çözme ve analitik becerilerinizi geliştirin.", "tags": ["Cebir", "Kalkülüs", "Olasılık", "Problem çözme"], "hl": ["Matematik, mühendislik veya veri bilimi alanlarında üniversite eğitimine ve kariyere hazırlar"] }
   },
-  "medicine-career-insights": {
-    "type": "custom",
-    "flags": ["The source lists no programme sections, so this digest uses the short description only"],
-    "en": { "focus": "A medical careers programme: gain practical knowledge and visit organisations in the medical field.", "tags": ["Medical careers", "Organisation visits"], "hl": ["Practical knowledge of medical professions", "Visits to organisations in the medical field", "Ideal for students wishing to explore medical professions"] },
-    "tr": { "focus": "Tıp kariyerlerine yönelik bir program: pratik bilgi edinin ve tıp alanındaki kuruluşları ziyaret edin.", "tags": ["Tıp kariyerleri", "Kurum ziyaretleri"], "hl": ["Tıp mesleklerine dair pratik bilgi", "Tıp alanındaki kuruluşlara ziyaretler", "Tıp mesleklerini keşfetmek isteyen öğrenciler için ideal"] }
-  },
   "medicine-summer-school-cambridge": {
     "flags": [],
     "en": { "focus": "Understand what studying medicine is really like, in a city known for cutting-edge medical research and discoveries.", "tags": ["Anatomy", "Medical science", "Neuroscience", "Patient care", "Epidemiology"], "hl": ["Hands-on, academically rigorous, built to grow clarity and confidence"], "tracks": [["13–15", "Foundations of human anatomy, healthcare and medical sciences: how the body works, real medical challenges and the role of medicine in everyday life."], ["16–18", "More advanced topics such as neuroscience, patient care, epidemiology and modern medical science, through case-based learning and practical discussion."]] },
@@ -134,11 +108,6 @@
     "flags": [],
     "en": { "focus": "Study human anatomy, diagnostics, ethics and clinical skills, with hands-on practicals in clinical settings.", "tags": ["Anatomy", "Diagnostics", "Medical ethics", "Clinical skills", "Public health"], "hl": ["Visits to clinical settings", "Learn from experienced medical professionals through real-world case studies", "Explore patient communication and the diagnostic process"] },
     "tr": { "focus": "İnsan anatomisini, tanıyı, etiği ve klinik becerileri klinik ortamlarda uygulamalı çalışmalarla öğrenin.", "tags": ["Anatomi", "Tanı", "Tıp etiği", "Klinik beceriler", "Halk sağlığı"], "hl": ["Klinik ortam ziyaretleri", "Deneyimli tıp profesyonellerinden gerçek vaka çalışmalarıyla öğrenin", "Hasta iletişimini ve tanı sürecini keşfedin"] }
-  },
-  "nanotechnology-summer-school-cambridge": {
-    "flags": ["Listed ages are 13–18, but the page text says 16–18"],
-    "en": { "focus": "See how nanotechnology is revolutionising healthcare, energy and electronics, through theory and practice.", "tags": ["Nanotechnology", "Healthcare", "Energy", "Electronics", "Materials science"], "hl": ["Prepares for study in nanotechnology or materials science"] },
-    "tr": { "focus": "Nanoteknolojinin sağlık, enerji ve elektronik alanlarında nasıl devrim yarattığını teori ve pratikle görün.", "tags": ["Nanoteknoloji", "Sağlık", "Enerji", "Elektronik", "Malzeme bilimi"], "hl": ["Nanoteknoloji veya malzeme bilimi eğitimine hazırlar"] }
   },
   "natural-sciences-summer-school-cambridge": {
     "flags": [],
