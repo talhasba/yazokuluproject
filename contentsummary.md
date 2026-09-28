@@ -26,13 +26,15 @@ The website currently contains **474 programs from ten providers**:
 9. St Clare's, Oxford
 10. Summer Discovery
 
-The website is a static application. It loads its program information from JSON files in the repository and does not use a database or server-side content-management system.
+The website is a static application. It loads its program information from JSON files in the repository and does not use a database or hosted server-side content-management system. For local editing, the repository includes a browser-based Program Editor that creates a small publishable override file without requiring the editor to work directly in JSON.
 
 ## Main Website Data
 
 The main source of program information is:
 
 `data/programs.normalized.json`
+
+Approved local editor changes are stored in `data/program-editor-overrides.json` and take precedence at runtime. This keeps the generated catalogue intact while allowing prices, dates, descriptions, and bilingual detail content to be maintained through a form.
 
 This file contains the structured records used by the website. Depending on the provider and the available source information, a program record may contain:
 
@@ -182,10 +184,12 @@ The Word document should normally be treated as a reading and proofreading refer
 | Edit structured program information | `contents/provider-contents.xlsx`, provider Info worksheet |
 | Edit descriptions and long-form text | `contents/provider-contents.xlsx`, provider Content worksheet |
 | Publish changes to the website | `data/programs.normalized.json` |
+| Edit and preview a program without opening JSON | Run `open-program-editor.bat`, then use the local Program Editor |
+| Publish changes made in the local editor | Commit and push `data/program-editor-overrides.json` |
 | Review normalization decisions for newer providers | `normalized_new_providers/README.md` and QA files |
 | Review normalization decisions for Constructor University | `normalized_constructor/README.md` |
 | Understand the application code and technical risks | `summary.md` |
 
 ## Recommended Maintenance Practice
 
-Treat `data/programs.normalized.json` as the source of truth. Use Program IDs to track every edit, preserve review flags until the underlying issue has been confirmed, and regenerate the Excel and Word files after substantial JSON changes. This prevents the website, spreadsheet, and document from gradually containing different versions of the same program information.
+Treat `data/programs.normalized.json` and the digest source files as the generated source layer, with `data/program-editor-overrides.json` as the explicit final editorial layer. Use Program IDs to track every edit, preserve review flags until the underlying issue has been confirmed, and regenerate the Excel and Word files after substantial source changes. The Local Program Editor's **Reset changes** action removes the selected program's editorial override and reveals the generated content again.

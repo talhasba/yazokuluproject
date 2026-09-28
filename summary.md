@@ -6,6 +6,8 @@ This repository contains a password-gated, bilingual (English/Turkish) catalogue
 
 The catalogue currently contains **474 programs** from ten providers. The application supports desktop and mobile layouts, subject/provider/country filtering, pagination, localized program content, and image fallbacks.
 
+The repository also includes a local browser-based Program Editor. Running `open-program-editor.bat` opens `http://localhost:5173/admin`, where an editor can search for a program and update titles, locations, dates, ages, pricing, catalogue summaries, and structured English/Turkish detail content without editing JSON manually. Saved changes are stored as a small override layer in `data/program-editor-overrides.json`; generated source files remain untouched.
+
 The newer-provider normalization sources and their QA reports are kept in `normalized_new_providers/`; their combined output has been merged into the main catalogue data. Constructor University's Summer Camp (Bremen, Germany) was normalized separately from its saved program page and course-syllabus document in `constructor/`; the reproducible normalizer and its standalone output live in `normalized_constructor/` and were merged into the same main catalogue data (see **Constructor University normalization** below).
 
 A second layer, added after the original bundle, replaces the generated detail page with a bullet-first "digest" page for 473 of the 474 programs (see **Program Digest Layer** below). This layer sits beside the original React catalogue rather than replacing it.
@@ -18,7 +20,7 @@ The browser loads the application in this order:
 
 1. `password-lock.js` blocks the page until the visitor enters the client-side password.
 2. `app-loader.js` fetches the generated `script.js` bundle as text, applies a series of exact string replacements, converts the result to a Blob module, and imports it.
-3. The patched React application fetches the program and image JSON files and renders into `#root`.
+3. The patched React application fetches the program and image JSON files, merges any fields in `data/program-editor-overrides.json`, and renders into `#root`.
 4. `online-research-options.js`, `home-page.js`, and `catalogue-cleanup.js` observe or modify the rendered page to add behavior not present in the generated bundle.
 5. `program-page.js` watches the hash route. On `#/programs/<id>`, if `data/program-digests.json` has an entry for that id, it hides `#root` and renders its own digest page into `#program-page` instead; otherwise it leaves the original React page visible.
 
@@ -58,7 +60,7 @@ The original bundle groups many raw subjects into broader display buckets such a
 
 ## Program Digest Layer
 
-`program-page.js` / `program-page.css` render a redesigned detail page — hero photo, a facts strip (age/duration/dates/price/location/format), a focus statement, topic chips, "what you'll do" modules, outcomes, "good fit if…", extras, and a bilingual "Bilgi Formu" enquiry form (name, phone, email, participant age, city) — for any program with an entry in `data/program-digests.json`. It never edits `script.js`; it only toggles which of `#root` / `#program-page` is visible.
+`program-page.js` / `program-page.css` render a redesigned detail page — hero photo, a facts strip (age/duration/dates/price/location/format), a focus statement, topic chips, "what you'll do" modules, outcomes, "good fit if…", extras, and a bilingual "Bilgi Formu" enquiry form (name, phone, email, participant age, city) — for any program with an entry in `data/program-digests.json`. Before rendering, it merges the program and digest entries from `data/program-editor-overrides.json`. It never edits `script.js`; it only toggles which of `#root` / `#program-page` is visible.
 
 - **Facts always come from `data/programs.normalized.json`**, read live, never from the digest — so age/price/dates/location can't drift out of sync with the dataset.
 - **Photos** come from `data/image-candidates.json`, preferring local campus photos from `assets/program-images/`; attribution (photographer, license) is shown on the page when known.
@@ -117,6 +119,16 @@ Generated output of the digest pipeline (see **Program Digest Layer** above). ~1
 
 This object maps all 474 program IDs to ordered arrays of image candidates. The library includes reusable campus photography for the major catalogue locations and local subject-based fallbacks for business, engineering, medicine, law, arts, and other program areas. The UI uses the first candidate when available, then falls back to the program's own `image_url`, and finally displays a placeholder. The digest layer's `photosFor()` (`program-page.js`) always picks whichever candidate path contains `/campuses/` as the page's hero (rendered as a CSS `background-image`, not an `<img>` tag); the remaining local candidates become the small gallery below it. The 9 Constructor University records each list a course-specific topic photo first, then the shared `campuses/bremen.jpg` campus photo (so Bremen is always the hero), then the provider's own `image_url` as a last-resort fallback.
 
+### `data/program-editor-overrides.json`
+
+This is the publishable output of the Local Program Editor. It contains only the program and digest fields that differ from generated source content, keyed by stable program ID. `app-loader.js` applies program overrides before the React catalogue renders, and `program-page.js` applies both program and digest overrides before a detail page renders. Resetting a program in the editor removes its entries from this file. Rebuilding the normalized catalogue or digest does not erase editor changes because the overrides are applied afterward.
+
+## Local Program Editor
+
+`open-program-editor.bat` starts `local-server.mjs` in editor mode and opens `/admin`. The editor provides search and provider filters, changed-program tracking, structured overview/pricing/content forms, repeatable price/activity fields, a built-in detail-page preview, `Ctrl+S` saving, and per-program reset.
+
+The editor write API exists only in `local-server.mjs`; GitHub Pages serves no write endpoint. The server binds to `127.0.0.1`, injects a random session token into `/admin`, checks the request origin, validates the payload, and backs up the prior override file under the Git-ignored `.local-editor/backups/` directory before saving.
+
 ### `assets/`
 
 Contains local JPG, PNG, and WebP images used by the home page and as catalogue image fallbacks. `assets/program-images/` holds the campus photo library and a manifest with creator, source, and license information for every downloaded image.
@@ -134,6 +146,9 @@ Contains local JPG, PNG, and WebP images used by the home page and as catalogue 
 | `catalogue-cleanup.js` / `catalogue-cleanup.css` | Post-render cleanup and bullet formatting for detail pages (now only reached by the one non-digested program). |
 | `online-research-options.js` / `online-research-options.css` | Special pricing/pathway section for one online research program. |
 | `program-page.js` / `program-page.css` | Digest detail-page layer: renders the redesigned program page and Bilgi Formu, or falls back to the original React page. |
+| `local-editor/` | Local browser UI for editing program facts and bilingual detail content. |
+| `data/program-editor-overrides.json` | Small, committed editorial layer generated by the local editor and applied at runtime. |
+| `open-program-editor.bat` | Windows launcher that starts the local editor at `/admin`. |
 | `tools/build-digests.mjs` | Builds/validates `data/program-digests.json` from `data/digest-src/`. |
 | `tools/extract-sd.mjs` | Auto-extracts and de-duplicates Summer Discovery's English digest content into `data/digest-src/summer_discovery-units.json`. |
 | `tools/fetch_program_images.py` | Re-downloads the approved Commons campus images and rebuilds the image mapping. |
@@ -150,7 +165,7 @@ The package defines these commands:
 - `npm run preview` / `pnpm preview`: preview the Vite build.
 - `npm run build:compress` and `preview:compress`: use the custom `compress` mode/output.
 
-On Windows, `open-localhost.bat` offers a dependency-light alternative that serves the repository directly through `local-server.mjs`. The local server accepts only GET and HEAD requests, prevents path traversal, sends basic MIME types, disables browser caching, and does not provide history-route fallback because routing uses URL hashes. `.claude/launch.json` defines a `local-site` preview configuration that runs the same server for the built-in browser pane.
+On Windows, `open-localhost.bat` offers a dependency-light alternative that serves the repository directly through `local-server.mjs`. For normal site paths the server accepts GET and HEAD requests, prevents path traversal, sends basic MIME types, disables browser caching, and does not provide history-route fallback because routing uses URL hashes. Its local-only `/api/editor/` endpoints accept validated save/reset requests from `/admin`. `open-program-editor.bat` starts the same server with the editor as its opening page. `.claude/launch.json` defines a `local-site` preview configuration that runs the same server for the built-in browser pane.
 
 Both `package-lock.json` and `pnpm-lock.yaml` are committed, although the pnpm workspace file indicates pnpm is likely the intended package manager.
 

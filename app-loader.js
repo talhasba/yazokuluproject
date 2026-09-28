@@ -6,6 +6,23 @@ if (!response.ok) {
 
 let source = await response.text();
 
+function mergeEditorOverride(base, override) {
+  if (override === undefined) return base;
+  if (Array.isArray(override) || !override || typeof override !== "object") return override;
+  const result = base && typeof base === "object" && !Array.isArray(base) ? { ...base } : {};
+  for (const [key, value] of Object.entries(override)) result[key] = mergeEditorOverride(result[key], value);
+  return result;
+}
+
+const [basePrograms, editorOverrides] = await Promise.all([
+  fetch("./data/programs.normalized.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : []),
+  fetch("./data/program-editor-overrides.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : { programs: {} }).catch(() => ({ programs: {} }))
+]);
+
+window.__PROGRAM_EDITOR_PROGRAMS__ = basePrograms.map((program) =>
+  mergeEditorOverride(program, editorOverrides.programs?.[program.id])
+);
+
 const additionalSubjectBuckets = {
   "Academic Research": "Online Research Program",
   "Art Business & Art History": "Arts & Design",
@@ -111,7 +128,7 @@ replaceOnce(
 
 replaceOnce(
   'O0=["Cambridge","London","New Haven","New Haven / New York","New York","Online","Oxford","San Francisco","Toronto"],U0={Cambridge:{en:"Cambridge",tr:"Cambridge"},London:{en:"London",tr:"Londra"},"New Haven":{en:"New Haven",tr:"New Haven"},"New Haven / New York":{en:"New Haven / New York",tr:"New Haven / New York"},"New York":{en:"New York",tr:"New York"},Online:{en:"Online",tr:"Çevrimiçi"},Oxford:{en:"Oxford",tr:"Oxford"},"San Francisco":{en:"San Francisco",tr:"San Francisco"},Toronto:{en:"Toronto",tr:"Toronto"}}',
-  'O0=["Canada","Germany","United Kingdom","United States"],U0={Canada:{en:"Canada",tr:"Kanada"},Germany:{en:"Germany",tr:"Almanya"},"United Kingdom":{en:"United Kingdom",tr:"Birleşik Krallık"},"United States":{en:"United States",tr:"Amerika Birleşik Devletleri"}}',
+  'O0=["Canada","Germany","Italy","United Kingdom","United States"],U0={Canada:{en:"Canada",tr:"Kanada"},Germany:{en:"Germany",tr:"Almanya"},Italy:{en:"Italy",tr:"İtalya"},"United Kingdom":{en:"United Kingdom",tr:"Birleşik Krallık"},"United States":{en:"United States",tr:"Amerika Birleşik Devletleri"}}',
   "country filter options"
 );
 
@@ -148,6 +165,12 @@ function codexDecoratedProvider(m,x){const O=m.provider_label||m.provider||"Unkn
 function codexCleanProgram(m){const x=m.provider_label||m.provider||"Unknown",O=codexDecoratedProvider(m,!1),d=codexDecoratedProvider(m,!0),_=m.detail_facts?{...m.detail_facts,school:O}:m.detail_facts,N=m.detail_facts_tr?{...m.detail_facts_tr,school:d}:m.detail_facts_tr;return{...m,title:codexProgramTitle(m,!1),title_tr:codexProgramTitle(m,!0),displayLocation:codexDisplayLocation(m,!1),displayLocation_tr:codexDisplayLocation(m,!0),providerLabel:O,providerFilter:x,detail_facts:_,detail_facts_tr:N}}
 function Xh(m){const x=codexCleanProgram(m);return{...x,subjectBucket:Uh[x.subject]||"Other"}}`,
   "program title and provider normalization"
+);
+
+replaceOnce(
+  'fetch("data/programs.normalized.json")',
+  'Promise.resolve({json:async()=>window.__PROGRAM_EDITOR_PROGRAMS__})',
+  "local program editor overrides"
 );
 
 replaceOnce(

@@ -25,6 +25,14 @@
   let data = null;
   let loading = null;
 
+  const mergeEditorOverride = (base, override) => {
+    if (override === undefined) return base;
+    if (Array.isArray(override) || !override || typeof override !== "object") return override;
+    const result = base && typeof base === "object" && !Array.isArray(base) ? { ...base } : {};
+    Object.entries(override).forEach(([key, value]) => { result[key] = mergeEditorOverride(result[key], value); });
+    return result;
+  };
+
   const getLang = () => (localStorage.getItem("lang") === "tr" ? "tr" : "en");
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const stripTags = (s) => String(s ?? "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
@@ -170,9 +178,15 @@
         json("./data/programs.normalized.json", []),
         json("./data/program-digests.json", {}),
         json("./data/image-candidates.json", {}),
-        json("./assets/program-images/image-sources.json", { images: {} })
-      ]).then(([programs, digests, images, sources]) => {
-        data = { programs: new Map(programs.map((p) => [p.id, p])), digests, images, sources: sources.images || {} };
+        json("./assets/program-images/image-sources.json", { images: {} }),
+        json("./data/program-editor-overrides.json", { programs: {}, digests: {} })
+      ]).then(([programs, digests, images, sources, overrides]) => {
+        const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
+        const mergedDigests = { ...digests };
+        Object.entries(overrides.digests || {}).forEach(([id, override]) => {
+          if (mergedDigests[id]) mergedDigests[id] = mergeEditorOverride(mergedDigests[id], override);
+        });
+        data = { programs: new Map(mergedPrograms.map((p) => [p.id, p])), digests: mergedDigests, images, sources: sources.images || {} };
         return data;
       });
     }

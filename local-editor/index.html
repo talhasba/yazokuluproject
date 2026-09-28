@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="editor-token" content="__EDITOR_TOKEN__" />
+    <title>Program Editor · Summer Programs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/local-editor/editor.css" />
+    <script defer src="/local-editor/editor.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">SP</span>
+          <div>
+            <strong>Program Editor</strong>
+            <span>Summer Programs</span>
+          </div>
+        </div>
+
+        <div class="local-pill"><span></span> Local only</div>
+
+        <div class="search-block">
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="search" type="search" placeholder="Search programs…" autocomplete="off" />
+          </label>
+          <div class="filter-row">
+            <select id="provider-filter" aria-label="Filter by provider">
+              <option value="">All providers</option>
+            </select>
+            <label class="changed-toggle"><input id="changed-only" type="checkbox" /> Changed</label>
+          </div>
+        </div>
+
+        <div class="list-heading">
+          <span id="list-count">Loading…</span>
+          <button id="clear-filters" class="text-button" type="button">Clear</button>
+        </div>
+        <div id="program-list" class="program-list" aria-live="polite"></div>
+
+        <div class="sidebar-footer">
+          <a href="/" target="_blank" rel="noopener">Open local website ↗</a>
+          <span id="modified-count">No saved edits</span>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <div id="loading" class="loading-state">
+          <div class="spinner"></div>
+          <h1>Preparing your programs</h1>
+          <p>Loading catalogue content and local edits…</p>
+        </div>
+
+        <section id="editor" class="editor" hidden>
+          <header class="editor-header">
+            <div class="editor-title">
+              <div class="eyebrow-row">
+                <span id="provider-name"></span>
+                <span id="saved-badge" class="saved-badge" hidden>Edited locally</span>
+              </div>
+              <h1 id="program-title"></h1>
+              <p id="program-id"></p>
+            </div>
+            <div class="header-actions">
+              <button id="reset-button" class="button button-ghost" type="button">Reset changes</button>
+              <button id="preview-button" class="button button-secondary" type="button">Preview</button>
+              <button id="save-button" class="button button-primary" type="button">
+                <span class="save-label">Save changes</span>
+                <span class="saving-label" hidden>Saving…</span>
+              </button>
+            </div>
+          </header>
+
+          <div class="publish-note">
+            <span aria-hidden="true">✓</span>
+            <div><strong>Safe local editing</strong><small>Saving creates a small override and a local backup. Your generated catalogue files stay untouched.</small></div>
+          </div>
+
+          <nav id="tabs" class="tabs" aria-label="Editor sections">
+            <button type="button" data-tab="overview" class="active">Overview</button>
+            <button type="button" data-tab="pricing">Dates & pricing</button>
+            <button type="button" data-tab="english">English content</button>
+            <button type="button" data-tab="turkish">Turkish content</button>
+          </nav>
+
+          <form id="program-form" novalidate>
+            <div id="form-content"></div>
+          </form>
+
+          <footer class="editor-footer">
+            <div id="dirty-state" class="dirty-state"><span></span> No unsaved changes</div>
+            <p>Tip: press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.</p>
+          </footer>
+        </section>
+
+        <aside id="preview-drawer" class="preview-drawer" hidden>
+          <header>
+            <div><strong>Program preview</strong><span>Saved version</span></div>
+            <div>
+              <button id="refresh-preview" class="icon-button" type="button" aria-label="Refresh preview">↻</button>
+              <button id="close-preview" class="icon-button" type="button" aria-label="Close preview">×</button>
+            </div>
+          </header>
+          <iframe id="preview-frame" title="Program preview"></iframe>
+        </aside>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
