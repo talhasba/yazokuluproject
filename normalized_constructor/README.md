@@ -16,8 +16,10 @@ This folder holds the normalized records for Constructor University's Summer Cam
 `../constructor/` holds the inputs the normalizer's text was extracted from:
 
 - `Summer Camp at Constructor University – A Top Program for High School Students.html`
-  — the saved public program page (camp-wide facts: ages 16–18, English B2, 12 days,
-  price/dates TBA for the next cycle, what the price includes/excludes).
+  — the saved public program page (camp-wide facts: ages 16–18, English B2, 12 days, what
+  the price includes/excludes). The page itself still shows price/dates as TBA; the
+  actual price (€4,600) and dates (25 July – 5 August) were confirmed by the user in chat
+  on 2026-09-28 and are hardcoded as `CAMP_PRICE`/`CAMP_DATES` in the normalizer.
 - `[public] Summer Camp 2026.docx` — the course-by-course syllabus (one description +
   topic list per course).
 
@@ -32,12 +34,11 @@ no prior scrape produced machine-readable raw files for this provider.
   catalogue record sharing that one `detail_url`/`source_url`, the same location
   (Bremen, Germany), the same age range (16–18) and the same 12-day duration, following
   the same "shared catalogue page" pattern already used for MPW's academic streams.
-- Price and dates for the next cycle are not yet published by the provider, so `price` is
-  left empty and `dates`/`date_months` are left empty, each with an explanatory
-  `price_note` / `date_note` field. This intentionally makes every record `needs_review`
-  (consistent with how `add_publish_status` already treats missing price/dates elsewhere).
-- A previous cycle's example arrival/departure dates (24 July / 4 August) are preserved in
-  `date_note` as historical context only, not presented as confirmed dates.
+- Price (€4,600 for the whole 12-day camp, not per course) and dates (25 July – 5 August)
+  are user-confirmed values, not scraped from the page (which still says TBA there). They
+  are set as `CAMP_PRICE`/`CAMP_DATES` constants at the top of the normalizer, applied to
+  all 9 records. All 9 records are `publish_status: "ready"` as a result. If the provider
+  later publishes different official figures, update those two constants and rerun.
 
 ## Rebuild
 

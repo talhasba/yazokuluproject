@@ -24,17 +24,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "From fundamentals of life from cell structure, DNA/RNA, and evolution to brain function, ecology, and applications in bioengineering.",
     "description_full": "This course explores the fundamentals of biology from the inner workings of cells and the code of life to evolution, brain function, and ecosystems. It connects core scientific concepts with real-world applications like genetic engineering, disease treatment, and environmental conservation.",
     "curriculum_sections": [
@@ -53,11 +61,9 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   },
   {
     "id": "constructor-university-summer-camp-business-and-entrepreneurship",
@@ -84,17 +90,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "Market principles, supply and demand laws, cost classification, and essential tools for planning, pitching, and funding new ventures.",
     "description_full": "A practical course on how markets work and how to build ventures: students use simple graphs and real cases to apply the laws of supply and demand across market structures, and use cost classification to make smarter pricing and resource decisions—while seeing how entrepreneurs and innovation drive growth. Learners apply decision tools (Business Model Canvas, personas/journey maps, decision trees, prioritization, SWOT), explore startup investment types and what investors seek, master pitching and funding rounds, and practice revenue models, budgeting, and breakeven.",
     "curriculum_sections": [
@@ -113,11 +127,9 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   },
   {
     "id": "constructor-university-summer-camp-chemistry-and-research",
@@ -144,17 +156,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "Fundamental chemical principles—from atomic structure and bonding to materials and biochemistry—with real-world relevance and sustainability.",
     "description_full": "This course connects fundamental chemical principles with real-world relevance, progressing from atomic structure to advanced materials and biochemistry. Through engaging activities and demonstrations, you'll discover how chemistry powers living systems, drives technological innovation, and shapes daily life while addressing global challenges.",
     "curriculum_sections": [
@@ -173,11 +193,9 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   },
   {
     "id": "constructor-university-summer-camp-human-behavior-and-society",
@@ -204,17 +222,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "Explaining human thought and action through bio-psycho-social lenses, decision-making, social influence, and media literacy.",
     "description_full": "A practical course on why people think, feel, and act as they do—and how groups, culture, media, and institutions shape everyday life. Students learn bio-psycho-social lenses, decision-making, emotions, motivation, and well-being, social influence, communication/media literacy, and civic systems, with a forward-looking module on persuasive technology, digital well-being, and AI.",
     "curriculum_sections": [
@@ -233,11 +259,9 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   },
   {
     "id": "constructor-university-summer-camp-innovation-and-design-thinking",
@@ -264,17 +288,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "Full human-centered design cycle—empathize, define, ideate, prototype, test—to turn needs into tested solutions, including AI-assisted design.",
     "description_full": "A hands-on, human-centered design course where students turn real needs into tested solutions. Learners practice the full cycle—empathize, define, ideate, prototype, test—translate research into personas and journey maps, prioritize with clear criteria, and communicate ideas through storytelling and visual clarity. Systems, feasibility, and sustainability, culminating in a deep dive on AI-assisted and data-informed design (prompting, quality control, simple metrics/A/B tests, and ethics).",
     "curriculum_sections": [
@@ -293,11 +325,9 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   },
   {
     "id": "constructor-university-summer-camp-mathematics-and-modeling",
@@ -324,17 +354,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "Core calculus, data analysis, and optimization concepts for mathematical modeling across natural, social, and technical sciences.",
     "description_full": "This course introduces the core concepts of calculus and their role in mathematical modeling. It covers functions, derivatives, integrals, differential equations, data analysis, and optimization, with applications in natural, social, and technical sciences. Emphasis is placed on clarity of interpretation and relevance to real-world problems.",
     "curriculum_sections": [
@@ -353,11 +391,9 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   },
   {
     "id": "constructor-university-summer-camp-neural-networks-and-robotics",
@@ -384,17 +420,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "Hands-on introduction to embodied artificial intelligence, building and training an AI-driven robot using reinforcement learning models and real-world sensors.",
     "description_full": "An introduction to the foundations of embodied artificial intelligence through hands-on work with a fully functional robotic platform. Intelligent behavior is explored as it emerges from the interaction between algorithms, sensors, actuators, and the unpredictability of the real world. The course focuses on intuitive understanding, practical experimentation, and the engineering mindset needed to build and refine autonomous systems. By the end of the program, a fully trained, AI-driven robot is assembled, tested, and ready to navigate a physical rail environment.",
     "curriculum_sections": [
@@ -413,11 +457,9 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   },
   {
     "id": "constructor-university-summer-camp-physics-and-research",
@@ -444,17 +486,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "Core physical principles, including motion, energy, waves, and electromagnetism, linking them to technological systems and modern developments like computing and AI.",
     "description_full": "This course introduces the fundamental principles of physics and their real-world applications. Core topics such as motion, energy, waves, and electromagnetism are explored alongside modern developments in computing and artificial intelligence. Emphasis is placed on connecting physical concepts with technological systems and natural phenomena, while the practice sharpens critical thinking and problem-solving skills.",
     "curriculum_sections": [
@@ -473,11 +523,9 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   },
   {
     "id": "constructor-university-summer-camp-programming-and-algorithms",
@@ -504,17 +552,25 @@
       "in_person"
     ],
     "price": {
-      "currency": "",
-      "min_amount": null,
-      "max_amount": null,
-      "display": "",
-      "tiers": []
+      "currency": "EUR",
+      "min_amount": 4600,
+      "max_amount": 4600,
+      "display": "€4,600",
+      "tiers": [
+        {
+          "label": "Program fee",
+          "currency": "EUR",
+          "amount": 4600,
+          "display": "€4,600"
+        }
+      ]
     },
     "price_scope": "camp_wide_not_course_specific",
-    "price_note": "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-    "dates": [],
+    "price_note": "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+    "dates": [
+      "25 July – 5 August"
+    ],
     "date_months": [],
-    "date_note": "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
     "description_short": "Algorithmic problem-solving, analyzing efficiency with Big-O notation, recursion, sorting, and searching.",
     "description_full": "This course provides a structured exploration of algorithmic problem-solving and computational complexity. Students will learn to analyze the efficiency of algorithms, optimize problem-solving techniques, and understand key concepts such as Big-O notation, recursion, sorting, searching, and problem reduction. The course emphasizes both theoretical understanding and practical strategies for designing efficient algorithms.",
     "curriculum_sections": [
@@ -533,10 +589,8 @@
     ],
     "flags": [
       "shared_catalogue_page_no_detail_url",
-      "current_dates_unpublished",
-      "current_price_unpublished",
       "choose_2_of_9_courses"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "ready"
   }
 ]

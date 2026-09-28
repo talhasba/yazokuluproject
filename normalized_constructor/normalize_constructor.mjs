@@ -192,6 +192,15 @@ const slugify = (value) =>
 
 const emptyPrice = () => ({ currency: "", min_amount: null, max_amount: null, display: "", tiers: [] });
 
+const CAMP_PRICE = {
+  currency: "EUR",
+  min_amount: 4600,
+  max_amount: 4600,
+  display: "€4,600",
+  tiers: [{ label: "Program fee", currency: "EUR", amount: 4600, display: "€4,600" }],
+};
+const CAMP_DATES = ["25 July – 5 August"];
+
 function buildRecords() {
   return COURSES.map(([cluster, title, short, description, topics]) => {
     const topicsBody = topics.map(([name, body]) => `${name}: ${body}`).join(" • ");
@@ -211,14 +220,12 @@ function buildRecords() {
       age_ranges: ["16-18"],
       duration: "12 days",
       delivery_modes: ["in_person"],
-      price: emptyPrice(),
+      price: CAMP_PRICE,
       price_scope: "camp_wide_not_course_specific",
       price_note:
-        "Program price for the whole camp not yet published (TBA). It is expected to cover tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
-      dates: [],
+        "Price is for the whole 12-day camp (not per course) and covers tuition, accommodation, meal plan, excursions & activities, domestic transportation, and mentorship/supervision. It does not cover visa fees, airline tickets, health insurance, or pocket money.",
+      dates: CAMP_DATES,
       date_months: [],
-      date_note:
-        "Exact 2027 camp dates not yet published (TBA). The camp runs 12 days; a previous cycle's example schedule had participants arrive 24 July (before 18:00) and depart 4 August.",
       description_short: short,
       description_full: description,
       curriculum_sections: [{ title: "Topics", body: topicsBody }],
@@ -229,8 +236,6 @@ function buildRecords() {
       source_files: SOURCE_FILES,
       flags: [
         "shared_catalogue_page_no_detail_url",
-        "current_dates_unpublished",
-        "current_price_unpublished",
         "choose_2_of_9_courses",
       ],
     };

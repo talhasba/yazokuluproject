@@ -50,7 +50,7 @@ This file contains the structured records used by the website. Depending on the 
 - Image and source URLs
 - Publication status and data-quality flags
 
-The file currently contains **184 records marked `ready`** and **296 records marked `needs_review`**. A `needs_review` status does not necessarily mean that the program is unusable. It indicates that one or more fields may need confirmation, such as age, grade, price, date, scope, source attribution, or whether the program fits the intended catalogue.
+The file currently contains **193 records marked `ready`** and **287 records marked `needs_review`**. A `needs_review` status does not necessarily mean that the program is unusable. It indicates that one or more fields may need confirmation, such as age, grade, price, date, scope, source attribution, or whether the program fits the intended catalogue.
 
 ## Purpose of the `contents` Folder
 
