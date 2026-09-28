@@ -135,7 +135,18 @@ replaceOnce(
 
 replaceOnce(
   'function Xh(m){return{...m,providerLabel:m.provider_label||m.provider||"Unknown",subjectBucket:Uh[m.subject]||"Other"}}',
-  String.raw`function codexEscapeRegExp(m){return m.replace(/[|\\{}()[\]^$+*?.-]/g,function(x){return "\\"+x})}function codexCleanTitle(m,x,O){if(!m)return m;let d=m;const _={London:"Londra","New York":"New York",Oxford:"Oxford",Cambridge:"Cambridge",Toronto:"Toronto","San Francisco":"San Francisco","New Haven":"New Haven","New Haven / New York":"New Haven ve New York",Online:"Çevrimiçi"},N=O?[(x.location_tr||"").split(",")[0],_[x.city],x.location,x.city]:[x.location,x.city];return[...new Set(N.filter(Boolean))].sort((X,J)=>J.length-X.length).forEach(X=>{const J=codexEscapeRegExp(X),M=O?new RegExp("\\s*[-–]\\s*"+J,"gi"):new RegExp("\\s+in\\s+"+J,"gi");d=d.replace(M," ")}),d.replace(/\s+/g," ").replace(/\s+([,:])/g,"$1").trim()}function codexDecoratedProvider(m,x){const O=m.provider_label||m.provider||"Unknown",d=x?(m.location_tr||"").split(",")[0]:m.location||m.city;return d&&!O.toLowerCase().endsWith(", "+d.toLowerCase())?O+" ("+d+")":O}function codexCleanProgram(m){const x=m.provider_label||m.provider||"Unknown",O=codexDecoratedProvider(m,!1),d=codexDecoratedProvider(m,!0),_=m.detail_facts?{...m.detail_facts,school:O}:m.detail_facts,N=m.detail_facts_tr?{...m.detail_facts_tr,school:d}:m.detail_facts_tr;return{...m,title:codexCleanTitle(m.title,m,!1),title_tr:codexCleanTitle(m.title_tr,m,!0),providerLabel:O,providerFilter:x,detail_facts:_,detail_facts_tr:N}}function Xh(m){const x=codexCleanProgram(m);return{...x,subjectBucket:Uh[x.subject]||"Other"}}`,
+  String.raw`
+function codexEscapeRegExp(m){return String(m||"").replace(/[|\\{}()[\]^$+*?.-]/g,function(x){return "\\"+x})}
+function codexStripCountry(m,x,O){let d=String(m||"").trim();const _={Canada:"Kanada",Germany:"Almanya","United Kingdom":"Birleşik Krallık","United States":"Amerika Birleşik Devletleri",Italy:"İtalya"},N=[x,O?_[x]:x].filter(Boolean);return N.forEach(X=>{d=d.replace(new RegExp("\\s*,\\s*"+codexEscapeRegExp(X)+"\\s*$","i"),"")}),d.trim()}
+function codexCityName(m,x){const O={London:"Londra","New York City":"New York",Oxford:"Oxford",Cambridge:"Cambridge",Toronto:"Toronto","San Francisco":"San Francisco","New Haven":"New Haven","New Haven / New York":"New Haven ve New York","London & Cambridge":"Londra ve Cambridge","Cambridge & London":"Cambridge ve Londra",Milan:"Milano",Rome:"Roma",Venice:"Venedik",Online:"Çevrimiçi"};return x&&O[m.city]||m.city||""}
+function codexSamePlace(m){if(["city","virtual","multi_city"].includes(m.location_type))return!0;const x=codexStripCountry(m.location,m.country,!1).toLowerCase().replace(/[^a-z0-9]+/g,""),O=String(m.city||"").toLowerCase().replace(/[^a-z0-9]+/g,"");return!!x&&x===O}
+function codexPlaceName(m,x){const O=codexCityName(m,x),d=x?codexStripCountry(m.location_tr||m.location,m.country,!0):codexStripCountry(m.location,m.country,!1);return codexSamePlace(m)?O||d:d||O}
+function codexDisplayLocation(m,x){const O=codexCityName(m,x),d=codexPlaceName(m,x);return!O||codexSamePlace(m)||O.toLowerCase()===d.toLowerCase()?d||O:O+" · "+d}
+function codexCleanTitle(m,x,O){if(!m)return m;let d=m;const _={London:"Londra","New York City":"New York",Oxford:"Oxford",Cambridge:"Cambridge",Toronto:"Toronto","San Francisco":"San Francisco","New Haven":"New Haven","New Haven / New York":"New Haven ve New York",Online:"Çevrimiçi"},N=[x.location,codexStripCountry(x.location,x.country,!1),x.city,x.location_tr,codexStripCountry(x.location_tr,x.country,!0),_[x.city],...(x.city==="New York City"?["NYC"]:[])];return[...new Set(N.filter(Boolean))].sort((X,J)=>J.length-X.length).forEach(X=>{const J=codexEscapeRegExp(X);d=d.replace(new RegExp("\\s+in\\s+"+J+"(?=\\s|$)","gi")," ").replace(new RegExp("\\s*[-–]\\s*"+J+"(?=\\s|$)","gi")," ")}),d.replace(/\s+/g," ").replace(/\s+([,:])/g,"$1").trim()}
+function codexProgramTitle(m,x){const O=codexCleanTitle(x&&m.title_tr?m.title_tr:m.title,m,x),d=codexPlaceName(m,x);return d?O+" - "+d:O}
+function codexDecoratedProvider(m,x){const O=m.provider_label||m.provider||"Unknown",d=codexPlaceName(m,x);return d&&!O.toLowerCase().endsWith(", "+d.toLowerCase())?O+" ("+d+")":O}
+function codexCleanProgram(m){const x=m.provider_label||m.provider||"Unknown",O=codexDecoratedProvider(m,!1),d=codexDecoratedProvider(m,!0),_=m.detail_facts?{...m.detail_facts,school:O}:m.detail_facts,N=m.detail_facts_tr?{...m.detail_facts_tr,school:d}:m.detail_facts_tr;return{...m,title:codexProgramTitle(m,!1),title_tr:codexProgramTitle(m,!0),displayLocation:codexDisplayLocation(m,!1),displayLocation_tr:codexDisplayLocation(m,!0),providerLabel:O,providerFilter:x,detail_facts:_,detail_facts_tr:N}}
+function Xh(m){const x=codexCleanProgram(m);return{...x,subjectBucket:Uh[x.subject]||"Other"}}`,
   "program title and provider normalization"
 );
 
@@ -143,6 +154,18 @@ replaceOnce(
   "d.includes(H.providerLabel)",
   "d.includes(H.providerFilter)",
   "base provider filter matching"
+);
+
+replaceOnce(
+  'm.city&&b.jsxs("span",{className:"flex items-center gap-1",children:[b.jsx("span",{className:"text-surface-300",children:"📍"})," ",m.city]})',
+  '(x==="tr"?m.displayLocation_tr:m.displayLocation)&&b.jsxs("span",{className:"flex items-center gap-1",children:[b.jsx("span",{className:"text-surface-300",children:"📍"})," ",x==="tr"?m.displayLocation_tr:m.displayLocation]})',
+  "city and campus card label"
+);
+
+replaceOnce(
+  'className:"mb-2 line-clamp-2 text-sm font-bold text-surface-800 leading-snug"',
+  'className:"mb-2 line-clamp-3 text-sm font-bold text-surface-800 leading-snug"',
+  "three-line program card titles"
 );
 
 const blob = new Blob([source], { type: "text/javascript" });

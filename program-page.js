@@ -28,6 +28,66 @@
   const getLang = () => (localStorage.getItem("lang") === "tr" ? "tr" : "en");
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const stripTags = (s) => String(s ?? "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
+  const escapeRegExp = (s) => String(s ?? "").replace(/[|\\{}()[\]^$+*?.-]/g, "\\$&");
+  const cityName = (rec, lang) => {
+    const tr = {
+      London: "Londra", "New York City": "New York", Oxford: "Oxford", Cambridge: "Cambridge",
+      Toronto: "Toronto", "San Francisco": "San Francisco", "New Haven": "New Haven",
+      "New Haven / New York": "New Haven ve New York", "London & Cambridge": "Londra ve Cambridge",
+      "Cambridge & London": "Cambridge ve Londra", Milan: "Milano", Rome: "Roma",
+      Venice: "Venedik", Online: "Çevrimiçi"
+    };
+    return (lang === "tr" && tr[rec.city]) || rec.city || "";
+  };
+  const stripCountry = (value, country, lang) => {
+    const tr = { Canada: "Kanada", Germany: "Almanya", "United Kingdom": "Birleşik Krallık", "United States": "Amerika Birleşik Devletleri", Italy: "İtalya" };
+    let result = String(value || "").trim();
+    [country, lang === "tr" && tr[country]].filter(Boolean).forEach((suffix) => {
+      result = result.replace(new RegExp(`\\s*,\\s*${escapeRegExp(suffix)}\\s*$`, "i"), "");
+    });
+    return result.trim();
+  };
+  const samePlace = (rec) => {
+    if (["city", "virtual", "multi_city"].includes(rec.location_type)) return true;
+    const location = stripCountry(rec.location, rec.country, "en").toLowerCase().replace(/[^a-z0-9]+/g, "");
+    const city = String(rec.city || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+    return Boolean(location) && location === city;
+  };
+  const placeName = (rec, lang) => {
+    const city = cityName(rec, lang);
+    const location = lang === "tr"
+      ? stripCountry(rec.location_tr || rec.location, rec.country, lang)
+      : stripCountry(rec.location, rec.country, lang);
+    return samePlace(rec) ? city || location : location || city;
+  };
+  const displayLocation = (rec, lang) => {
+    const city = cityName(rec, lang);
+    const location = placeName(rec, lang);
+    return !city || samePlace(rec) || city.toLowerCase() === location.toLowerCase()
+      ? location || city
+      : `${city} · ${location}`;
+  };
+  const cleanTitle = (value, rec, lang) => {
+    const cityTr = { London: "Londra", "New York City": "New York", Oxford: "Oxford", Cambridge: "Cambridge", Toronto: "Toronto", "San Francisco": "San Francisco", "New Haven": "New Haven", "New Haven / New York": "New Haven ve New York", Online: "Çevrimiçi" };
+    const candidates = [
+      rec.location, stripCountry(rec.location, rec.country, "en"), rec.city,
+      rec.location_tr, stripCountry(rec.location_tr, rec.country, "tr"), cityTr[rec.city],
+      ...(rec.city === "New York City" ? ["NYC"] : [])
+    ].filter(Boolean).sort((a, b) => b.length - a.length);
+    let title = String(value || "");
+    [...new Set(candidates)].forEach((candidate) => {
+      const escaped = escapeRegExp(candidate);
+      title = title
+        .replace(new RegExp(`\\s+in\\s+${escaped}(?=\\s|$)`, "gi"), " ")
+        .replace(new RegExp(`\\s*[-–]\\s*${escaped}(?=\\s|$)`, "gi"), " ");
+    });
+    return title.replace(/\s+/g, " ").replace(/\s+([,:])/g, "$1").trim();
+  };
+  const programTitle = (rec, lang) => {
+    const title = cleanTitle((lang === "tr" && rec.title_tr) || rec.title, rec, lang);
+    const place = placeName(rec, lang);
+    return place ? `${title} - ${place}` : title;
+  };
 
   const T = {
     en: {
@@ -178,7 +238,7 @@
       ["duration", L.duration, duration || L.notListed],
       ["dates", L.dates, dates.join(" · ") || L.onRequest],
       ["price", L.price, rec.price?.display || L.onRequest],
-      ["location", L.location, (lang === "tr" && rec.location_tr) || rec.location || L.notListed],
+      ["location", L.location, displayLocation(rec, lang) || L.notListed],
       ["format", L.format, L[mode] || mode || L.notListed]
     ];
   }
@@ -192,7 +252,7 @@
     document.documentElement.lang = lang;
     const L = T[lang];
     const d = digest[lang] || digest.en;
-    const title = (lang === "tr" && rec.title_tr) || rec.title;
+    const title = programTitle(rec, lang);
     const { hero, gallery } = photosFor(rec.id);
     const facts = factRows(rec, lang, digest);
     const dates = fmtDates(rec.dates, lang);
@@ -267,7 +327,7 @@
   // ---- Bilgi Formu ---------------------------------------------------------------------------
   function formHTML(rec, lang) {
     const F = FORM[lang];
-    const name = (lang === "tr" && rec.title_tr) || rec.title;
+    const name = programTitle(rec, lang);
     const ages = Array.from({ length: 15 }, (_, i) => i + 5);
     const field = (id, label, icon, inner, err, full) =>
       `<div class="pp-field${full ? " full" : ""}" data-f="${id}"><label for="pp-${id}">${esc(label)} <i>*</i></label><div class="pp-in">${ICON[icon]}${inner}</div><div class="pp-err">${esc(err)}</div></div>`;
@@ -395,7 +455,7 @@
     root.style.visibility = "";
     page.hidden = false;
     document.body.classList.add("pp-active");
-    document.title = `${((getLang() === "tr" && rec.title_tr) || rec.title)} · ${T[getLang()].brand}`;
+      document.title = `${programTitle(rec, getLang())} · ${T[getLang()].brand}`;
     window.scrollTo(0, 0);
   }
 
