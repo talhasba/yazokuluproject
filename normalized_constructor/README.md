@@ -50,8 +50,16 @@ node .\normalized_constructor\normalize_constructor.mjs
 
 This also merges the 9 records into `data/programs.normalized.json` in place (replacing
 any existing `constructor_university` records first, so it is safe to rerun). After
-rerunning it, also rerun `node .\tools\build-digests.mjs` to regenerate
-`data/program-digests.json` from `data/digest-src/constructor_university/`.
+rerunning it, also run:
+
+```powershell
+node .\tools\build-digests.mjs
+node .\tools\apply-tr-translations.mjs
+```
+
+The first command regenerates `data/program-digests.json` from
+`data/digest-src/constructor_university/`. The second reapplies the reviewed Turkish
+title, subject, location, and short-description fields to the generated records.
 
 ## Photos
 

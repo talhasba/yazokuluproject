@@ -158,7 +158,21 @@
     const ageOverride = !(rec.age_ranges || []).length && digest?.facts?.age?.[lang];
     const mode = (rec.delivery_modes || [])[0];
     const dates = fmtDates(rec.dates, lang);
-    const duration = rec.duration ? (lang === "tr" ? rec.duration.replace(/weeks?/i, "hafta") : rec.duration) : "";
+    const durationTr = {
+      "1 Week": "1 hafta",
+      "1 or 2 weeks": "1 veya 2 hafta",
+      "1 week": "1 hafta",
+      "1 week – can be added to selected courses": "1 hafta – seçilen derslere eklenebilir",
+      "10-15 contact hours": "10-15 ders saati",
+      "12 days": "12 gün",
+      "2 Weeks": "2 hafta",
+      "2 or 4 weeks": "2 veya 4 hafta",
+      "2 weeks": "2 hafta",
+      "2+ weeks": "2+ hafta",
+      "3 weeks": "3 hafta",
+      "4 Weeks": "4 hafta"
+    };
+    const duration = rec.duration ? (lang === "tr" ? durationTr[rec.duration] || rec.duration : rec.duration) : "";
     return [
       ["age", L.age, (rec.age_ranges || []).join(", ") || ageOverride || L.notListed],
       ["duration", L.duration, duration || L.notListed],
@@ -175,6 +189,7 @@
   // ---- render --------------------------------------------------------------------------------
   function render(rec, digest) {
     const lang = getLang();
+    document.documentElement.lang = lang;
     const L = T[lang];
     const d = digest[lang] || digest.en;
     const title = (lang === "tr" && rec.title_tr) || rec.title;
@@ -209,7 +224,7 @@
       <div class="pp-wrap">
         <div class="pp-hero"${hero ? ` style="background-image:url('${esc(hero)}')"` : ""}>
           <div class="pp-hero-in">
-            <div class="pp-crumb">${esc(rec.provider_label || rec.provider)}</div>
+            <div class="pp-crumb" lang="en">${esc(rec.provider_label || rec.provider)}</div>
             <h1 class="pp-title">${esc(title)}</h1>
             <div class="pp-sub">${ICON.location}<span>${esc(facts[4][2])}</span></div>
           </div>

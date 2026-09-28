@@ -26,4 +26,8 @@ Run from the project root:
 
 ```powershell
 python .\normalized_new_providers\normalize_new_providers.py
+node .\tools\build-digests.mjs
+node .\tools\apply-tr-translations.mjs
 ```
+
+The final command reapplies the reviewed Turkish title, subject, location, and short-description fields to these generated records and to the main catalogue.

@@ -69,7 +69,11 @@
     "flags": [
       "location_outside_italy"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Motor Sporlarında Espor",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Indianapolis",
+    "description_short_tr": "Dallara ve AK Esports ile bir hafta: simülatörden, Amerikan motor sporlarının merkezindeki gerçek pistte."
   },
   {
     "id": "sportech-architecture-urban-design",
@@ -144,7 +148,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Mimarlık ve Kentsel Tasarım",
+    "subject_tr": "Tasarım",
+    "location_tr": "Milano",
+    "description_short_tr": "Milano genelinde stüdyo çalışması ve saha ziyaretleri: tarihi binalardan bugün yeniden çizilen bölgelere."
   },
   {
     "id": "sportech-automotive-design",
@@ -219,7 +227,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Otomotiv Tasarımı",
+    "subject_tr": "Ulaşım Tasarımı",
+    "location_tr": "Milano",
+    "description_short_tr": "Alfa Romeo ve Pagani ile otomobil tasarımı: eskiz, kil modelleme ve eksiksiz bir proje brifi."
   },
   {
     "id": "sportech-biomedical-engineering",
@@ -294,7 +306,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Biyomedikal Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Milano",
+    "description_short_tr": "Mühendisliğin tıpla buluştuğu yer: protezler, görüntüleme ve insanları hayatta tutan cihazlar."
   },
   {
     "id": "sportech-business",
@@ -370,7 +386,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "İşletme",
+    "subject_tr": "İşletme",
+    "location_tr": "Milano",
+    "description_short_tr": "İtalyan lüksünün ardındaki iş dünyası; onu kuran moda evlerinde, showroomlarda ve tersanelerde öğretilir."
   },
   {
     "id": "sportech-business-university",
@@ -440,7 +460,11 @@
       "missing_age",
       "likely_out_of_scope"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme",
+    "subject_tr": "İşletme",
+    "location_tr": "Milano",
+    "description_short_tr": "Bir iş modeli olarak İtalyan mükemmelliği; Milano'da IBEM ve iş ortağı şirketlerle."
   },
   {
     "id": "sportech-cosmetic-sciences",
@@ -515,7 +539,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Kozmetik Bilimleri",
+    "subject_tr": "Sağlık ve Yaşam Bilimleri",
+    "location_tr": "Milano",
+    "description_short_tr": "Università di Pavia ile kozmetik formülasyonu: laboratuvar masasından onu satan güzellik sektörüne."
   },
   {
     "id": "sportech-fashion",
@@ -590,7 +618,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Moda",
+    "subject_tr": "Moda",
+    "location_tr": "Milano",
+    "description_short_tr": "Milano modasının içinde iki hafta: stüdyo ve atölye çalışmasından onu koleksiyona dönüştüren sektöre."
   },
   {
     "id": "sportech-football",
@@ -681,7 +713,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Futbol - AC Milan Experience Elite",
+    "subject_tr": "Spor",
+    "location_tr": "Milano",
+    "description_short_tr": "AC Milan Akademi antrenörleriyle kulübün elit tesislerinde, akademinin aynı metodolojisi ve video analiziyle antrenman yapın."
   },
   {
     "id": "sportech-medicine",
@@ -758,7 +794,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Tıp",
+    "subject_tr": "Sağlık ve Yaşam Bilimleri",
+    "location_tr": "Milano",
+    "description_short_tr": "İtalya'nın en prestijli tıp kurumlarından San Raffaele Üniversitesi'nde uygulamalı klinik ve laboratuvar öğrenimi."
   },
   {
     "id": "sportech-pet-design",
@@ -834,7 +874,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Evcil Hayvan Ürünleri Tasarımı",
+    "subject_tr": "Tasarım",
+    "location_tr": "Milano",
+    "description_short_tr": "The HAD ile hayvanlar için tasarım yapın: etoloji ve eskizden kendi yaptığınız bitmiş bir ürüne."
   },
   {
     "id": "sportech-sports-management",
@@ -909,7 +953,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Spor Yönetimi",
+    "subject_tr": "İşletme",
+    "location_tr": "Milano",
+    "description_short_tr": "İtalyan sporunun nasıl yönetildiği: kulüp yönetimi, taraftar büyümesi ve takım stratejisi; bir mentor paneline sunulur."
   },
   {
     "id": "sportech-motorsport-management-university",
@@ -980,7 +1028,11 @@
       "missing_age",
       "likely_out_of_scope"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Motor Sporları Yönetimi",
+    "subject_tr": "İşletme",
+    "location_tr": "Milano ve Motor Valley",
+    "description_short_tr": "Bir yarış serisinin nasıl yönetildiği; SRO Motorsports Group ile ve pedokta bir gün."
   },
   {
     "id": "sportech-agrifoodtech",
@@ -1055,7 +1107,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Tarım ve Gıda Teknolojileri",
+    "subject_tr": "Sağlık ve Yaşam Bilimleri",
+    "location_tr": "Milano, Piacenza ve Torino",
+    "description_short_tr": "Gıdanın ve tarımın geleceği: dikey çiftliklerden ve laboratuvarlardan onu pazara getiren şirketlere."
   },
   {
     "id": "sportech-motorsport-engineering-university",
@@ -1125,7 +1181,11 @@
       "missing_age",
       "likely_out_of_scope"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Motor Sporları Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Motor Valley",
+    "description_short_tr": "Dallara'nın mühendislik tesisinin içinde üniversite düzeyinde bir dönem; isteğe bağlı müfredat stajıyla."
   },
   {
     "id": "sportech-engineering-motorsport",
@@ -1190,7 +1250,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Motor Sporları Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Parma",
+    "description_short_tr": "Dallara Academy ile Motor Valley'de iki hafta: yarış aracı tasarımı, üretimi ve performansı; çizimden piste."
   },
   {
     "id": "sportech-aerospace-engineering",
@@ -1266,7 +1330,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Havacılık ve Uzay Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Roma",
+    "description_short_tr": "Sapienza'da havacılık ve uzay tasarımı ile itki; gerçek bir roket fırlatma ve uçuş hazırlık incelemesiyle biter."
   },
   {
     "id": "sportech-aerospace-engineering-university",
@@ -1336,7 +1404,11 @@
       "missing_age",
       "likely_out_of_scope"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Havacılık ve Uzay Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Roma",
+    "description_short_tr": "Sapienza Havacılık ve Uzay Mühendisliği Okulu'nda gerçek bir sondaj roketinin aviyonik yığınını yapın ve fırlatın."
   },
   {
     "id": "sportech-music-innovation",
@@ -1404,6 +1476,10 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Müzik İnovasyonu",
+    "subject_tr": "Müzik",
+    "location_tr": "Venedik",
+    "description_short_tr": "İtalyan müziğinin yazıldığı bölgede Art Voice Academy ile ses ve orkestra."
   }
 ]

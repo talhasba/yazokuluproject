@@ -69,7 +69,11 @@
     "flags": [
       "operator_attribution_provisional"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Vogue Yaz Okulu - Londra",
+    "subject_tr": "Moda İşletmeciliği ve Medya",
+    "location_tr": "Londra",
+    "description_short_tr": "Modayı İngiliz mirası ve yıkıcı markalar üzerinden keşfedin; markalaşma, pazarlama, halkla ilişkiler, perakende, sürdürülebilirlik ve yaratıcı hizmetlerde projeler ve ziyaretler."
   },
   {
     "id": "edconic-pre-college-summer-academy-nyc-nyc-summer-academy",
@@ -144,7 +148,11 @@
       "operator_page_not_directly_fetchable",
       "operator_attribution_provisional"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "NYC Yaz Akademisi",
+    "subject_tr": "Gazetecilik ve Yazarlık",
+    "location_tr": "New York",
+    "description_short_tr": "Gazeteciler ve editörlerle gazetecilik ve medyayı (kültür, spor, moda, iş ve hukuk) keşfedin; New York City'yi uzatılmış bir sınıf olarak kullanın."
   },
   {
     "id": "edconic-pre-college-summer-institute-summer-institute-nyc",
@@ -217,7 +225,11 @@
       "2026_sections_reported_closed",
       "operator_attribution_provisional"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "NYC Yaz Enstitüsü",
+    "subject_tr": "Sanat İşletmeciliği ve Sanat Tarihi",
+    "location_tr": "New York",
+    "description_short_tr": "Sanat, kültür ve lüksü keşfedin; müzeler, galeriler, müzayede evleri ve sanatçı stüdyolarıyla sektörü ilk elden deneyimleyin."
   },
   {
     "id": "edconic-vogue-summer-school-vogue-summer-school-nyc",
@@ -291,7 +303,11 @@
       "missing_age",
       "operator_attribution_provisional"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Vogue Yaz Okulu - NYC",
+    "subject_tr": "Moda İşletmeciliği ve Medya",
+    "location_tr": "New York",
+    "description_short_tr": "Vogue ile küresel moda sektörünün kulisine girin; moda işletmeciliği, moda medyası ve moda stilistliği temel kurslarından seçin."
   },
   {
     "id": "edconic-courses-vogue-winter-break-vogue-winter-break-nyc",
@@ -363,7 +379,11 @@
       "missing_age",
       "operator_attribution_provisional"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Vogue Kış Programı - NYC",
+    "subject_tr": "Moda İşletmeciliği ve Medya",
+    "location_tr": "New York",
+    "description_short_tr": "Lise öğrencileri için New York'ta, sınıf öğrenimini şehrin moda sektörüne erişimle birleştiren beş günlük moda işletmeciliği yoğun programı."
   },
   {
     "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
@@ -428,7 +448,11 @@
       "year_round_online",
       "operator_attribution_provisional"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Çevrim İçi Temel Program",
+    "subject_tr": "Moda İşletmeciliği ve Medya",
+    "location_tr": "Çevrim içi",
+    "description_short_tr": "Dünyanın her yerinden Vogue ile çevrimiçi moda okuyun; üniversite ve kariyer fırsatlarında bir adım önde başlayın."
   },
   {
     "id": "edconic-precollege-mayo-edu-pre-college-healthcare-academy",
@@ -495,7 +519,11 @@
       "inaugural_2026_cohort_100_seats",
       "operator_attribution_provisional"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Üniversite Öncesi Sağlık Akademisi",
+    "subject_tr": "Tıp ve Sağlık",
+    "location_tr": "Rochester, Minnesota",
+    "description_short_tr": "Mayo Clinic'in öğrenme ortamında iki haftalık yatılı tıp ve sağlık hizmetlerine giriş; interaktif atölyeler ve uygulamalı öğrenmeyle."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
@@ -560,7 +588,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Fizik ve Mühendislik",
+    "subject_tr": "Fizik ve Mühendislik",
+    "location_tr": "Cambridge ve Londra",
+    "description_short_tr": "Fizik ve mühendislik dahil üç birbirini tamamlayan dersi uygulamalı atölyeler ve kuram oturumlarıyla hayata geçirin."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-architecture",
@@ -625,7 +657,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mimarlık",
+    "subject_tr": "Mimarlık",
+    "location_tr": "Londra",
+    "description_short_tr": "Mimarlığa ilk adımlarınızı atın: tasarım ilkeleri, pratik beceriler ve portfolyo oluşturma; merkezi Londra."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
@@ -690,7 +726,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sanat ve Tasarım",
+    "subject_tr": "Sanat ve Tasarım",
+    "location_tr": "Londra",
+    "description_short_tr": "Yaratıcılığınızı ifade etmek için farklı malzeme, teknik ve formları deneyin: illüstrasyondan resme, tipografiden renge."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
@@ -755,7 +795,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme, Finans ve Ekonomi",
+    "subject_tr": "İşletme, Finans ve Ekonomi",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "İşletmelerin nasıl çalıştığını anlayın: planlama, yatırım ve tedarik zincirinden markalaşma ve pazarlamaya."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
@@ -820,7 +864,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Bilgisayar Bilimleri, Robotik ve Yapay Zekâ",
+    "subject_tr": "Bilgisayar Bilimleri, Robotik ve Yapay Zekâ",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "Geleceğimizi şekillendiren teknolojiyi kriptodan kodlamaya keşfedin ve hayal gücünüzü robot yaparak kullanın."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
@@ -885,7 +933,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp ve Fen Bilimleri",
+    "subject_tr": "Tıp ve Fen Bilimleri",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "Tıp fakültesi yolculuğunuza uygulamalı atölyeler ve kuramsal öğrenmeyle başlayın."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
@@ -950,7 +1002,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Siyaset ve Hukuk",
+    "subject_tr": "Siyaset ve Hukuk",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "Nasıl yönetildiğimizi belirleyen kurumları ve kararları, günümüz manşetlerindeki hukuki ve siyasi konuları anlayın."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
@@ -1015,7 +1071,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikoloji ve Sosyoloji",
+    "subject_tr": "Psikoloji ve Sosyoloji",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "İnsan davranışına ve modern toplumu nasıl şekillendirdiğine bakın: suç davranışı, sosyal kimlik, aile ve medya."
   },
   {
     "id": "sportech-esports-in-motorsport",
@@ -1087,7 +1147,11 @@
     "flags": [
       "location_outside_italy"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Motor Sporlarında Espor",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Indianapolis",
+    "description_short_tr": "Dallara ve AK Esports ile bir hafta: simülatörden, Amerikan motor sporlarının merkezindeki gerçek pistte."
   },
   {
     "id": "sportech-architecture-urban-design",
@@ -1162,7 +1226,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Mimarlık ve Kentsel Tasarım",
+    "subject_tr": "Tasarım",
+    "location_tr": "Milano",
+    "description_short_tr": "Milano genelinde stüdyo çalışması ve saha ziyaretleri: tarihi binalardan bugün yeniden çizilen bölgelere."
   },
   {
     "id": "sportech-automotive-design",
@@ -1237,7 +1305,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Otomotiv Tasarımı",
+    "subject_tr": "Ulaşım Tasarımı",
+    "location_tr": "Milano",
+    "description_short_tr": "Alfa Romeo ve Pagani ile otomobil tasarımı: eskiz, kil modelleme ve eksiksiz bir proje brifi."
   },
   {
     "id": "sportech-biomedical-engineering",
@@ -1312,7 +1384,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Biyomedikal Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Milano",
+    "description_short_tr": "Mühendisliğin tıpla buluştuğu yer: protezler, görüntüleme ve insanları hayatta tutan cihazlar."
   },
   {
     "id": "sportech-business",
@@ -1388,7 +1464,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "İşletme",
+    "subject_tr": "İşletme",
+    "location_tr": "Milano",
+    "description_short_tr": "İtalyan lüksünün ardındaki iş dünyası; onu kuran moda evlerinde, showroomlarda ve tersanelerde öğretilir."
   },
   {
     "id": "sportech-business-university",
@@ -1458,7 +1538,11 @@
       "missing_age",
       "likely_out_of_scope"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme",
+    "subject_tr": "İşletme",
+    "location_tr": "Milano",
+    "description_short_tr": "Bir iş modeli olarak İtalyan mükemmelliği; Milano'da IBEM ve iş ortağı şirketlerle."
   },
   {
     "id": "sportech-cosmetic-sciences",
@@ -1533,7 +1617,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Kozmetik Bilimleri",
+    "subject_tr": "Sağlık ve Yaşam Bilimleri",
+    "location_tr": "Milano",
+    "description_short_tr": "Università di Pavia ile kozmetik formülasyonu: laboratuvar masasından onu satan güzellik sektörüne."
   },
   {
     "id": "sportech-fashion",
@@ -1608,7 +1696,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Moda",
+    "subject_tr": "Moda",
+    "location_tr": "Milano",
+    "description_short_tr": "Milano modasının içinde iki hafta: stüdyo ve atölye çalışmasından onu koleksiyona dönüştüren sektöre."
   },
   {
     "id": "sportech-football",
@@ -1699,7 +1791,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Futbol - AC Milan Experience Elite",
+    "subject_tr": "Spor",
+    "location_tr": "Milano",
+    "description_short_tr": "AC Milan Akademi antrenörleriyle kulübün elit tesislerinde, akademinin aynı metodolojisi ve video analiziyle antrenman yapın."
   },
   {
     "id": "sportech-medicine",
@@ -1776,7 +1872,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Tıp",
+    "subject_tr": "Sağlık ve Yaşam Bilimleri",
+    "location_tr": "Milano",
+    "description_short_tr": "İtalya'nın en prestijli tıp kurumlarından San Raffaele Üniversitesi'nde uygulamalı klinik ve laboratuvar öğrenimi."
   },
   {
     "id": "sportech-pet-design",
@@ -1852,7 +1952,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Evcil Hayvan Ürünleri Tasarımı",
+    "subject_tr": "Tasarım",
+    "location_tr": "Milano",
+    "description_short_tr": "The HAD ile hayvanlar için tasarım yapın: etoloji ve eskizden kendi yaptığınız bitmiş bir ürüne."
   },
   {
     "id": "sportech-sports-management",
@@ -1927,7 +2031,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Spor Yönetimi",
+    "subject_tr": "İşletme",
+    "location_tr": "Milano",
+    "description_short_tr": "İtalyan sporunun nasıl yönetildiği: kulüp yönetimi, taraftar büyümesi ve takım stratejisi; bir mentor paneline sunulur."
   },
   {
     "id": "sportech-motorsport-management-university",
@@ -1998,7 +2106,11 @@
       "missing_age",
       "likely_out_of_scope"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Motor Sporları Yönetimi",
+    "subject_tr": "İşletme",
+    "location_tr": "Milano ve Motor Valley",
+    "description_short_tr": "Bir yarış serisinin nasıl yönetildiği; SRO Motorsports Group ile ve pedokta bir gün."
   },
   {
     "id": "sportech-agrifoodtech",
@@ -2073,7 +2185,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Tarım ve Gıda Teknolojileri",
+    "subject_tr": "Sağlık ve Yaşam Bilimleri",
+    "location_tr": "Milano, Piacenza ve Torino",
+    "description_short_tr": "Gıdanın ve tarımın geleceği: dikey çiftliklerden ve laboratuvarlardan onu pazara getiren şirketlere."
   },
   {
     "id": "sportech-motorsport-engineering-university",
@@ -2143,7 +2259,11 @@
       "missing_age",
       "likely_out_of_scope"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Motor Sporları Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Motor Valley",
+    "description_short_tr": "Dallara'nın mühendislik tesisinin içinde üniversite düzeyinde bir dönem; isteğe bağlı müfredat stajıyla."
   },
   {
     "id": "sportech-engineering-motorsport",
@@ -2208,7 +2328,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Motor Sporları Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Parma",
+    "description_short_tr": "Dallara Academy ile Motor Valley'de iki hafta: yarış aracı tasarımı, üretimi ve performansı; çizimden piste."
   },
   {
     "id": "sportech-aerospace-engineering",
@@ -2284,7 +2408,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Havacılık ve Uzay Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Roma",
+    "description_short_tr": "Sapienza'da havacılık ve uzay tasarımı ile itki; gerçek bir roket fırlatma ve uçuş hazırlık incelemesiyle biter."
   },
   {
     "id": "sportech-aerospace-engineering-university",
@@ -2354,7 +2482,11 @@
       "missing_age",
       "likely_out_of_scope"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Havacılık ve Uzay Mühendisliği",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Roma",
+    "description_short_tr": "Sapienza Havacılık ve Uzay Mühendisliği Okulu'nda gerçek bir sondaj roketinin aviyonik yığınını yapın ve fırlatın."
   },
   {
     "id": "sportech-music-innovation",
@@ -2422,7 +2554,11 @@
       "sportech_programs_combined.json"
     ],
     "flags": [],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Müzik İnovasyonu",
+    "subject_tr": "Müzik",
+    "location_tr": "Venedik",
+    "description_short_tr": "İtalyan müziğinin yazıldığı bölgede Art Voice Academy ile ses ve orkestra."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-big-questions-club-philosophy-for-kids-s1",
@@ -2504,7 +2640,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Büyük Sorular Kulübü: Çocuklar İçin Felsefe",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Çocuklar zaten “neden?” diye sormakta uzman. Büyük Sorular Kulübü bu merağa hikâyeler, bulmacalar, gizemli nesneler, hareket, çizim ve rol yapma yoluyla büyüyeceği bir yer verir."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-regenerative-medicine-the-engineered-anatomy-s1",
@@ -2587,7 +2727,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Biyomedikal Mühendisliği Tasarım Laboratuvarı",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Gerçek bir hastaya uyması, hareket etmesi ve çalışması gereken bir yedek vücut parçasını nasıl tasarlardınız?"
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-codes-and-ciphers-the-mathematics-of-cryptography-s1",
@@ -2670,7 +2814,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kodu Çöz: Matematik, Şifreler ve Şifreleme",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Gizli bir mesaj, amacı olan bir matematik bulmacasıdır. Öğrenciler kriptografiyi Sezar kaydırmalarından ve yerine koyma sistemlerinden Enigma makinesine ve modern iletişimi koruyan açık anahtar fikirlerine kadar izler."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-dynamic-dna-the-genetics-of-plant-life-s1",
@@ -2752,7 +2900,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "DNA Dedektifleri: Bitki Yaşamının Genetiği",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Bir bitki neden uzun gövdelere, mor çiçeklere veya tırtıklı yapraklara sahiptir? Öğrenciler gerçek bitkiler ve tohumlarla başlar, ardından bu görünür özelliklerin ardındaki küçücük talimatları araştırır."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-applied-data-science-with-python-s1",
@@ -2835,7 +2987,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Veri Dedektifleri: Gerçek Yaşam İçgörüleri ve Veri Bilimi",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Bir sayı koleksiyonu nasıl bir örüntüyü ortaya çıkarabilir, bir fikri test edebilir veya birinin tahmin yapmasına yardımcı olabilir?"
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-smart-stats-the-power-of-data-s1",
@@ -2917,7 +3073,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Veri Dedektifleri: Veri ve Sayılarla Akıllı Kararlar",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Hangi kâğıt uçak en uzağa uçar? Torbada gerçekten bir şeker renginden daha fazla var mı? Öğrenciler sayıları ipucu olarak kullanarak oyunlar ve uygulamalı deneylerle soruları yanıtlayan veri dedektifleri olur."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-engineering-your-future-s1",
@@ -2999,7 +3159,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Maceraları: Gelecek İçin Problem Çözme",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Mühendisler ihtiyaçları araştırabilecekleri sorulara dönüştürür."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-hit-the-gavel-mock-trial-and-debate-s1",
@@ -3082,7 +3246,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hâkim Tokmağını Vur: Duruşma Canlandırması ve Münazara",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Mahkeme salonundaki bir argüman bir iddiayı kanıta bağlamalı ve o kanıtın neden önemli olduğunu açıklamalıdır."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-speaking-of-winning-whats-your-point-s1",
@@ -3164,7 +3332,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Fikrini Savun! Topluluk Önünde Konuşma ve Münazara",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Önem verdiğiniz bir konu seçin, bir izleyicinin neyi anlamasını istediğinize karar verin ve fikrinizi net kılan bir savunma kurun. Öğrenciler ikna edici konuşmacıların bir argümanı nasıl düzenlediğini, fikirleri gerekçelerle nasıl bağladığını ve başkalarının takip edebileceği bir konuşmayı nasıl hazırladığını öğrenir."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-medical-microbiology-s1",
@@ -3247,7 +3419,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mikrop Dedektifleri: Enfeksiyon, Bağışıklık ve Hastalık",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Mikroorganizmalar her yerdedir, ancak etkileri yararlıdan zararlıya uzanır. Öğrenciler tıbbi mikrobiyolojinin tarihiyle ve keşifleri insanların enfeksiyonu anlama biçimini değiştiren bilim insanlarıyla başlar."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-money-matters-stocks-bonds-your-financial-future-s1",
@@ -3329,7 +3505,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Finans Önemlidir: Yatırım Planını Oluştur",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Bir hisse seçmek yalnızca başlangıçtır. Öğrenciler bir şirketi incelemeye değer kılan şeyin ne olduğunu, bir yatırımcının hedeflerinin stratejiyi nasıl şekillendirdiğini ve getirinin risk, ücretler ve zaman olmadan neden düşünülemeyeceğini sorar."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-myth-makers-stories-from-around-the-world-s1",
@@ -3411,7 +3591,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mit Yaratıcıları: Dünyanın Dört Bir Yanından Hikâyeler",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Kahramanlar, düzenbazlar, dönüşümler ve imkânsız yaratıklar hakkındaki hikâyeler neden dünyanın her yerinde ortaya çıkar?"
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-marine-biology-s1",
@@ -3494,7 +3678,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Okyanus Kâşifleri: Deniz Biyolojisi ve Koruma",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Okyanus; küçücük planktonları, dev deniz memelilerini, kıyı topluluklarını ve küresel iklimi birbirine bağlar."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-interactive-robotics-programming-prowess-s1",
@@ -3577,7 +3765,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Robot Tasarımcıları: Robotunu Programlamayı Öğren",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Bir makineyi robot yapan nedir? Öğrenciler tanıdık robotları karşılaştırır, yaptıkları işleri araştırır ve bir robotun harekete geçmesini sağlayan sensörleri, komutları, hareketi ve geri bildirimi belirler."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-young-scientists-coding-superstars-s1",
@@ -3660,7 +3852,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Bilim ve Kodlama: Dünyayı Verilerle Keşfet",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Bir deneydeki adımlar bir bilgisayar için talimatlar gibi çalışabilir mi? Öğrenciler bu bağlantıyı bir kâğıt roket yaparak, adil bir test planlayarak ve veri toplayarak keşfeder."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-stargazers-astronomy-galaxies-the-universe-s1",
@@ -3742,7 +3938,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yıldız Gözlemcileri: Astronomi, Galaksiler ve Evren",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Ay neden şekil değiştiriyor gibi görünür ve bir gölge Dünya'nın hareketini nasıl ortaya çıkarabilir?"
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-superhero-storytelling-creative-engineering-s1",
@@ -3825,7 +4025,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Süper Kahraman Hikâyeleri ve 3B Model Tasarımı",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Akılda kalan her hikâye, bir şey isteyen bir karakterle başlar. Öğrenciler özelliklerin, motivasyonların, mekânların, problemlerin ve çözümlerin birlikte nasıl çalıştığını keşfeder."
   },
   {
     "id": "summer-discovery-2027-bryn-mawr-college-tinkering-engineers-s1",
@@ -3907,7 +4111,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Üreten Mühendisler: Yap, İnşa Et ve Tasarla",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Bryn Mawr College",
+    "description_short_tr": "Bir kürdan kulesi devrilmeden ayakta durmalıdır. Bir pizza kutusu fırını çalışacak kadar ısı yakalamalıdır. Öğrenciler nesneleri sökerek, birleştirerek ve elleriyle düşünerek bu tür eğlenceli görevleri çözer."
   },
   {
     "id": "summer-discovery-2027-dartmouth-applied-neuroscience-s1",
@@ -3990,7 +4198,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Uygulamalı Nörobilim: Laboratuvar Olarak Doğa",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Beyin, beden ve çevre dikkati, stresi, algıyı ve davranışı şekillendirmek için nasıl birlikte çalışır? Öğrenciler ortaya çıkan çevresel nörobilim alanını keşfederken nöroanatomi ve sinirsel işlev temeli oluşturur."
   },
   {
     "id": "summer-discovery-2027-dartmouth-business-foundations-s1",
@@ -4073,7 +4285,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletmenin Temelleri",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler finans, muhasebe, ekonomi, pazarlama, strateji ve iletişimin modern bir işletmenin içinde birlikte nasıl çalıştığını inceler."
   },
   {
     "id": "summer-discovery-2027-dartmouth-business-foundations-s5",
@@ -4156,7 +4372,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletmenin Temelleri",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler finans, muhasebe, ekonomi, pazarlama, strateji ve iletişimin modern bir işletmenin içinde birlikte nasıl çalıştığını inceler."
   },
   {
     "id": "summer-discovery-2027-dartmouth-clean-energy-technologies-s2",
@@ -4239,7 +4459,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Temiz Enerji Teknolojileri",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler düşük karbonlu bir geleceğe geçişi şekillendiren teknolojileri, politikaları ve etik seçimleri inceler."
   },
   {
     "id": "summer-discovery-2027-dartmouth-conflict-resolution-and-international-negotiation-s2",
@@ -4321,7 +4545,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Çatışma Çözümü ve Uluslararası Müzakere",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler uluslararası çatışmaların neden başladığını, nasıl bittiğini ve çıkarlar çatıştığında diplomatların ve kurumların neler yapabileceğini inceler."
   },
   {
     "id": "summer-discovery-2027-dartmouth-creative-writing-in-the-great-outdoors-s6",
@@ -4404,7 +4632,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Doğada Yaratıcı Yazarlık",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Dartmouth'un açık alanları hem konu hem sınıf olur; öğrenciler mekânın sesi, hayal gücünü ve belleği nasıl şekillendirebileceğini keşfeder."
   },
   {
     "id": "summer-discovery-2027-dartmouth-engineering-design-and-prototyping-s1",
@@ -4486,7 +4718,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik: Tasarım ve Prototipleme",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler mühendisliği bir problemi tanımlama, olası bir çözüm inşa etme, test etme ve tasarımı iyileştirmek için kanıt kullanma döngüsü olarak deneyimler."
   },
   {
     "id": "summer-discovery-2027-dartmouth-entrepreneurship-innovation-and-impact-s2",
@@ -4568,7 +4804,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Girişimcilik, İnovasyon ve Etki",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler problem bulucular olarak başlar. Kampüste bir Problem Safarisi ve müşteri görüşmeleri, girişim ekiplerinin ihtiyaçları gözlemlemesine, anlamlı fırsatları belirlemesine ve iş fikrine atlamadan önce bir sorunu çerçevelemesine yardımcı olur."
   },
   {
     "id": "summer-discovery-2027-dartmouth-introduction-to-alternatives-investing-s5",
@@ -4651,7 +4891,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Alternatif Yatırımlara Giriş",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler hedge fonların, özel sermaye firmalarının, girişim sermayesi yatırımcılarının ve kurumsal portföylerin küresel finansal piyasalarda nasıl çalıştığını keşfeder."
   },
   {
     "id": "summer-discovery-2027-dartmouth-medicine-in-action-preventative-care-to-emergency-response-s5",
@@ -4733,7 +4977,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Uygulamalı Tıp: Koruyucu Bakımdan Acil Müdahaleye",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler sağlık hizmetlerinin sürekliliğini, korunma ve sağlıkla başlayıp acil müdahale ve akut bakıma uzanan bir yelpazede keşfeder."
   },
   {
     "id": "summer-discovery-2027-dartmouth-psychology-and-cognitive-neuroscience-s2",
@@ -4816,7 +5064,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikoloji ve Bilişsel Nörobilim",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler beynin belleği, dikkati, algıyı, öğrenmeyi, duyguyu, karar vermeyi, alışkanlıkları ve ruh sağlığını nasıl şekillendirdiğini keşfeder."
   },
   {
     "id": "summer-discovery-2027-dartmouth-research-and-lab-work-in-medicine-s1",
@@ -4899,7 +5151,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıpta Araştırma ve Laboratuvar Çalışmaları",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler temel bilimsel keşiften klinik uygulamaya uzanan yolu izler."
   },
   {
     "id": "summer-discovery-2027-dartmouth-stem-accelerator-s1",
@@ -4984,7 +5240,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "STEM Hızlandırma Programı",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "STEM alanında bir gelecek gerçekte nasıl görünebilir?"
   },
   {
     "id": "summer-discovery-2027-dartmouth-spanish-language-intensive-public-speaking-s5",
@@ -5066,7 +5326,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yoğun İspanyolca: Topluluk Önünde Konuşma",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Her kelime, yanıt ve kültürel işaret önemliyken ikna edici bir nokta nasıl yaparsınız?"
   },
   {
     "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s1",
@@ -5148,7 +5412,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Dartmouth Liderlik Enstitüsü",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Liderlik çoğu zaman bir unvan olarak görülür. Dartmouth'un simge Liderlik Enstitüsü onu bir uygulama olarak ele alır: kendinizi anlayın, güven kazanın, belirsizlik altında karar verin ve bir ekibin ilerlemesine yardımcı olun."
   },
   {
     "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s4",
@@ -5230,7 +5498,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Dartmouth Liderlik Enstitüsü",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Liderlik çoğu zaman bir unvan olarak görülür. Dartmouth'un simge Liderlik Enstitüsü onu bir uygulama olarak ele alır: kendinizi anlayın, güven kazanın, belirsizlik altında karar verin ve bir ekibin ilerlemesine yardımcı olun."
   },
   {
     "id": "summer-discovery-2027-dartmouth-leadership-institute-real-world-leadership-in-action-s6",
@@ -5312,7 +5584,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Dartmouth Liderlik Enstitüsü",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Liderlik çoğu zaman bir unvan olarak görülür. Dartmouth'un simge Liderlik Enstitüsü onu bir uygulama olarak ele alır: kendinizi anlayın, güven kazanın, belirsizlik altında karar verin ve bir ekibin ilerlemesine yardımcı olun."
   },
   {
     "id": "summer-discovery-2027-dartmouth-the-genetic-basis-of-human-disease-s3",
@@ -5395,7 +5671,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İnsan Hastalıklarının Genetik Temeli",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Öğrenciler genetik çeşitliliğin kalıtsal bozukluklara, karmaşık hastalıklara ve tedavideki farklılıklara nasıl katkıda bulunduğunu araştırır."
   },
   {
     "id": "summer-discovery-2027-dartmouth-the-psychology-of-happiness-science-wellbeing-human-flourishing-s1",
@@ -5478,7 +5758,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mutluluğun Psikolojisi: Bilim, İyi Oluş ve İnsanın Gelişimi",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Dartmouth",
+    "description_short_tr": "Kalıcı iyi oluşa katkıda bulunan nedir ve mutluluğa dair popüler fikirlerden hangileri bilimsel incelemeye dayanır? Öğrenciler mutluluğu, dayanıklılığı ve insan gelişimini pozitif psikoloji, nörobilim, sosyoloji ve davranış bilimi üzerinden inceler."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-trowel-treasures-archaeology-for-young-scientists-s1",
@@ -5560,7 +5844,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Arkeoloji Maceraları: Kaz, Keşfet ve Çöz",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Bir nesne, onu uzun zaman önce kullanan birinin hayatını nasıl ortaya çıkarabilir? Öğrenciler arkeoloğun temel hamlesini uygular: çıkarım yapmadan önce dikkatle gözlemlemek."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-big-questions-club-philosophy-for-kids-s1",
@@ -5642,7 +5930,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Büyük Sorular Kulübü: Çocuklar İçin Felsefe",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Çocuklar zaten “neden?” diye sormakta uzman. Büyük Sorular Kulübü bu merağa hikâyeler, bulmacalar, gizemli nesneler, hareket, çizim ve rol yapma yoluyla büyüyeceği bir yer verir."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-dynamic-dna-the-genetics-of-plant-life-s1",
@@ -5724,7 +6016,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "DNA Dedektifleri: Bitki Yaşamının Genetiği",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Bir bitki neden uzun gövdelere, mor çiçeklere veya tırtıklı yapraklara sahiptir? Öğrenciler gerçek bitkiler ve tohumlarla başlar, ardından bu görünür özelliklerin ardındaki küçücük talimatları araştırır."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-smart-stats-the-power-of-data-s1",
@@ -5806,7 +6102,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Veri Dedektifleri: Veri ve Sayılarla Akıllı Kararlar",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Hangi kâğıt uçak en uzağa uçar? Torbada gerçekten bir şeker renginden daha fazla var mı? Öğrenciler sayıları ipucu olarak kullanarak oyunlar ve uygulamalı deneylerle soruları yanıtlayan veri dedektifleri olur."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-engineering-your-future-s1",
@@ -5888,7 +6188,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Maceraları: Gelecek İçin Problem Çözme",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Mühendisler ihtiyaçları araştırabilecekleri sorulara dönüştürür."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-speaking-of-winning-whats-your-point-s1",
@@ -5970,7 +6274,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Fikrini Savun! Topluluk Önünde Konuşma ve Münazara",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Önem verdiğiniz bir konu seçin, bir izleyicinin neyi anlamasını istediğinize karar verin ve fikrinizi net kılan bir savunma kurun. Öğrenciler ikna edici konuşmacıların bir argümanı nasıl düzenlediğini, fikirleri gerekçelerle nasıl bağladığını ve başkalarının takip edebileceği bir konuşmayı nasıl hazırladığını öğrenir."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-marine-biology-s1",
@@ -6052,7 +6360,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Okyanus Kâşifleri: Deniz Biyolojisi ve Koruma",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Okyanus; küçücük planktonları, dev deniz memelilerini, kıyı topluluklarını ve küresel iklimi birbirine bağlar."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-interactive-robotics-programming-prowess-s1",
@@ -6135,7 +6447,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Robot Tasarımcıları: Robotunu Programlamayı Öğren",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Bir makineyi robot yapan nedir? Öğrenciler tanıdık robotları karşılaştırır, yaptıkları işleri araştırır ve bir robotun harekete geçmesini sağlayan sensörleri, komutları, hareketi ve geri bildirimi belirler."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-young-scientists-coding-superstars-s1",
@@ -6218,7 +6534,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Bilim ve Kodlama: Dünyayı Verilerle Keşfet",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Bir deneydeki adımlar bir bilgisayar için talimatlar gibi çalışabilir mi? Öğrenciler bu bağlantıyı bir kâğıt roket yaparak, adil bir test planlayarak ve veri toplayarak keşfeder."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-stargazers-astronomy-galaxies-the-universe-s1",
@@ -6300,7 +6620,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yıldız Gözlemcileri: Astronomi, Galaksiler ve Evren",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Ay neden şekil değiştiriyor gibi görünür ve bir gölge Dünya'nın hareketini nasıl ortaya çıkarabilir?"
   },
   {
     "id": "summer-discovery-2027-fairfield-university-superhero-storytelling-creative-engineering-s1",
@@ -6383,7 +6707,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Süper Kahraman Hikâyeleri ve 3B Model Tasarımı",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Akılda kalan her hikâye, bir şey isteyen bir karakterle başlar. Öğrenciler özelliklerin, motivasyonların, mekânların, problemlerin ve çözümlerin birlikte nasıl çalıştığını keşfeder."
   },
   {
     "id": "summer-discovery-2027-fairfield-university-tinkering-engineers-s1",
@@ -6465,7 +6793,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Üreten Mühendisler: Yap, İnşa Et ve Tasarla",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Fairfield University",
+    "description_short_tr": "Bir kürdan kulesi devrilmeden ayakta durmalıdır. Bir pizza kutusu fırını çalışacak kadar ısı yakalamalıdır. Öğrenciler nesneleri sökerek, birleştirerek ve elleriyle düşünerek bu tür eğlenceli görevleri çözer."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-advanced-debate-persuasive-public-speaking-s2",
@@ -6547,7 +6879,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İleri Düzey Münazara: İkna Edici Topluluk Önünde Konuşma",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Riskler yüksekken bir argümanı ikna edici yapan nedir? Öğrenciler yapının, kanıtın, kelime seçiminin, sesin, temponun ve beden dilinin bir izleyici kitlesini nasıl etkilediğini inceler."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-debate-public-speaking-s1",
@@ -6629,7 +6965,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İleri Düzey Münazara: İkna Edici Topluluk Önünde Konuşma",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Riskler yüksekken bir argümanı ikna edici yapan nedir? Öğrenciler yapının, kanıtın, kelime seçiminin, sesin, temponun ve beden dilinin bir izleyici kitlesini nasıl etkilediğini inceler."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-advertising-consumer-behavior-campaign-strategy-s2",
@@ -6713,7 +7053,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Reklamcılık: Tüketici Davranışı ve Kampanya Stratejisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir reklam neden bağ kurarken bir diğeri göz ardı edilir? Öğrenciler; basılı yayın, dergi, radyo, televizyon, sosyal medya, doğrudan posta ve açık hava mecralarında reklam, pazarlama iletişimi ve halkla ilişkileri keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-advertising-public-relations-s1",
@@ -6797,7 +7141,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Reklamcılık: Tüketici Davranışı ve Kampanya Stratejisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir reklam neden bağ kurarken bir diğeri göz ardı edilir? Öğrenciler; basılı yayın, dergi, radyo, televizyon, sosyal medya, doğrudan posta ve açık hava mecralarında reklam, pazarlama iletişimi ve halkla ilişkileri keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-build-your-business-exploring-entrepreneurship-s1",
@@ -6879,7 +7227,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşini Kur: Girişimciliği Keşfet",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir fikri insanların anlayıp destekleyebileceği bir işe dönüştüren nedir? Öğrenciler girişimcilerin niteliklerini inceler, başarılı kurucuların doğuştan mı yoksa sonradan mı oluştuğunu tartışır ve girişimlerin ile ikonik markaların köken hikâyelerini çalışır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-build-your-business-exploring-entrepreneurship-s2",
@@ -6961,7 +7313,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşini Kur: Girişimciliği Keşfet",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir fikri insanların anlayıp destekleyebileceği bir işe dönüştüren nedir? Öğrenciler girişimcilerin niteliklerini inceler, başarılı kurucuların doğuştan mı yoksa sonradan mı oluştuğunu tartışır ve girişimlerin ile ikonik markaların köken hikâyelerini çalışır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s1",
@@ -7043,7 +7399,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme ve Girişimcilik",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "İlginç bir fikri peşinden gitmeye değer bir girişime dönüştüren nedir? Öğrenciler hızlı tempolu bir girişim stüdyosuna girer ve fırsat tanımayla başlar."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s1-1",
@@ -7125,7 +7485,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme ve Girişimcilik",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "İlginç bir fikri peşinden gitmeye değer bir girişime dönüştüren nedir? Öğrenciler hızlı tempolu bir girişim stüdyosuna girer ve fırsat tanımayla başlar."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-business-entrepreneurship-s2",
@@ -7207,7 +7571,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme ve Girişimcilik",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "İlginç bir fikri peşinden gitmeye değer bir girişime dönüştüren nedir? Öğrenciler hızlı tempolu bir girişim stüdyosuna girer ve fırsat tanımayla başlar."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-fundamentals-of-entrepreneurship-s1-1",
@@ -7289,7 +7657,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme ve Girişimcilik",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "İlginç bir fikri peşinden gitmeye değer bir girişime dönüştüren nedir? Öğrenciler hızlı tempolu bir girişim stüdyosuna girer ve fırsat tanımayla başlar."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-careers-in-law-introduction-to-the-us-legal-system-s2",
@@ -7371,7 +7743,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hukuk Kariyerleri: ABD Hukuk Sistemine Giriş",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Amerikan hukuk sistemi geniş ilkeleri kararlara nasıl dönüştürür? Öğrenciler hukukun üstünlüğünü, adaleti, Anayasa'yı ve yasama, yürütme ve yargı organlarının rollerini inceler."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-careers-in-law-s1",
@@ -7453,7 +7829,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hukuk Kariyerleri: ABD Hukuk Sistemine Giriş",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Amerikan hukuk sistemi geniş ilkeleri kararlara nasıl dönüştürür? Öğrenciler hukukun üstünlüğünü, adaleti, Anayasa'yı ve yasama, yürütme ve yargı organlarının rollerini inceler."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-careers-in-medicine-s1",
@@ -7535,7 +7915,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Kariyerleri",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Sağlık hizmetleri tek bir kariyer yolu değil, birbirine bağlı mesleklerden oluşan bir sistemdir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-careers-in-medicine-s2",
@@ -7617,7 +8001,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Kariyerleri",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Sağlık hizmetleri tek bir kariyer yolu değil, birbirine bağlı mesleklerden oluşan bir sistemdir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-college-essay-writing-masterclass-s1",
@@ -7699,7 +8087,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Üniversite Başvuru Yazısı Ustalık Sınıfı",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Kabul komitesi okuyucuları bir öğrencinin notlarını ve etkinliklerini zaten biliyorken üniversite yazısını akılda kalıcı kılan nedir? Öğrenciler kişisel mektupların ve ek yazıların karakteri, bakış açısını, gelişimi ve hedefleri nasıl ortaya koyabileceğini öğrenir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-college-essay-writing-masterclass-s2",
@@ -7781,7 +8173,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Üniversite Başvuru Yazısı Ustalık Sınıfı",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Kabul komitesi okuyucuları bir öğrencinin notlarını ve etkinliklerini zaten biliyorken üniversite yazısını akılda kalıcı kılan nedir? Öğrenciler kişisel mektupların ve ek yazıların karakteri, bakış açısını, gelişimi ve hedefleri nasıl ortaya koyabileceğini öğrenir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-branding-the-athlete-college-sports-marketing-s1",
@@ -7864,7 +8260,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Üniversite Sporları Pazarlaması: Markalar, Taraftarlar ve NIL",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir üniversite sporcusu nasıl güvenilir bir marka olur? Öğrenciler üniversite sporlarının iş ve medya ekosistemini inceler, ardından isim, imaj ve benzerlik (NIL) haklarının sporcular, okullar, izleyiciler ve ticari ortaklar arasındaki ilişkiyi nasıl değiştirdiğini çalışır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-college-sports-marketing-brands-fans-nil-s2",
@@ -7947,7 +8347,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Üniversite Sporları Pazarlaması: Markalar, Taraftarlar ve NIL",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir üniversite sporcusu nasıl güvenilir bir marka olur? Öğrenciler üniversite sporlarının iş ve medya ekosistemini inceler, ardından isim, imaj ve benzerlik (NIL) haklarının sporcular, okullar, izleyiciler ve ticari ortaklar arasındaki ilişkiyi nasıl değiştirdiğini çalışır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-economics-s1",
@@ -8029,7 +8433,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Ekonomi",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Fiyatlar neden yükselir, resesyonlar neden yayılır veya piyasalar beklenmedik haberlere neden tepki verir? Öğrenciler bu sorularla ekonomik düşünceye ve ABD ekonomisine bir giriş oluşturur."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-economics-s1-1",
@@ -8111,7 +8519,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Ekonomi",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Fiyatlar neden yükselir, resesyonlar neden yayılır veya piyasalar beklenmedik haberlere neden tepki verir? Öğrenciler bu sorularla ekonomik düşünceye ve ABD ekonomisine bir giriş oluşturur."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-finding-your-voice-confident-public-speaking-s2",
@@ -8193,7 +8605,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kendi Sesini Bul: Özgüvenli Topluluk Önünde Konuşma",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Konuşmacılar bir fikri insanların takip edebileceği bir mesaja nasıl dönüştürür? Öğrenciler destekleyici bir ortamda konuşma yapma pratiği yaparken topluluk önünde konuşma ve hitabet iletişiminin temel kavramlarını öğrenir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-public-speaking-s1",
@@ -8275,7 +8691,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kendi Sesini Bul: Özgüvenli Topluluk Önünde Konuşma",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Konuşmacılar bir fikri insanların takip edebileceği bir mesaja nasıl dönüştürür? Öğrenciler destekleyici bir ortamda konuşma yapma pratiği yaparken topluluk önünde konuşma ve hitabet iletişiminin temel kavramlarını öğrenir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-csi-forensic-science-s1",
@@ -8358,7 +8778,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir suç mahalli kendi adına konuşamaz. Öğrenciler soruşturmacıların delilleri nasıl belgelediğini, topladığını, koruduğunu ve yorumladığını, böylece sonraki sonuçların test edilebilmesini öğrenir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-forensic-investigation-crime-scenes-case-strategy-s2",
@@ -8441,7 +8865,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir suç mahalli kendi adına konuşamaz. Öğrenciler soruşturmacıların delilleri nasıl belgelediğini, topladığını, koruduğunu ve yorumladığını, böylece sonraki sonuçların test edilebilmesini öğrenir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-forensics-101-solve-crimes-with-evidence-s2",
@@ -8524,7 +8952,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli Bilimler 101: Suçları Kanıtlarla Çöz",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Küçük bir ipucu bir soruşturmayı nasıl değiştirebilir? Öğrenciler bilimsel yöntemlerin insanların bir suç mahallini incelemesine ve olası açıklamaları test etmesine nasıl yardımcı olduğunu keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-the-science-behind-crime-solving-s1",
@@ -8607,7 +9039,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli Bilimler 101: Suçları Kanıtlarla Çöz",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Küçük bir ipucu bir soruşturmayı nasıl değiştirebilir? Öğrenciler bilimsel yöntemlerin insanların bir suç mahallini incelemesine ve olası açıklamaları test etmesine nasıl yardımcı olduğunu keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-global-business-leadership-s1",
@@ -8690,7 +9126,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Küresel İşletme ve Liderlik",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Kuruluşlar küresel sorunlara yanıt verirken nasıl değer yaratabilir? Öğrenciler Birleşmiş Milletler Sürdürülebilir Kalkınma Amaçları'nı liderliği, işi ve toplumsal etkiyi incelemek için bir çerçeve olarak kullanır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-global-business-leadership-s2",
@@ -8773,7 +9213,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Küresel İşletme ve Liderlik",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Kuruluşlar küresel sorunlara yanıt verirken nasıl değer yaratabilir? Öğrenciler Birleşmiş Milletler Sürdürülebilir Kalkınma Amaçları'nı liderliği, işi ve toplumsal etkiyi incelemek için bir çerçeve olarak kullanır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-american-government-civic-engagement-s1",
@@ -8855,7 +9299,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Amerika'yı Yönetmek: Güç ve Anayasal Demokrasi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Amerikalılar haklar, politika veya kamusal öncelikler konusunda anlaşamadığında harekete geçme yetkisi kimdedir? Öğrenciler bu soruya federal hükümetin anayasal yapısını inceleyerek ve onu güncel iç ve dış konularla ilişkilendirerek yaklaşır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-governing-america-power-constitutional-democracy-s2",
@@ -8937,7 +9385,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Amerika'yı Yönetmek: Güç ve Anayasal Demokrasi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Amerikalılar haklar, politika veya kamusal öncelikler konusunda anlaşamadığında harekete geçme yetkisi kimdedir? Öğrenciler bu soruya federal hükümetin anayasal yapısını inceleyerek ve onu güncel iç ve dış konularla ilişkilendirerek yaklaşır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-international-relations-geopolitics-diplomacy-s2",
@@ -9019,7 +9471,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Uluslararası İlişkiler: Jeopolitik ve Diplomasi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Devletler bazı anlarda neden iş birliği yapar, bazılarında rekabet eder? Öğrenciler uluslararası bir sistemde aktör olarak ulusları ve tercihlerini şekillendiren güçleri tanır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-international-relations-s1",
@@ -9101,7 +9557,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Uluslararası İlişkiler: Jeopolitik ve Diplomasi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Devletler bazı anlarda neden iş birliği yapar, bazılarında rekabet eder? Öğrenciler uluslararası bir sistemde aktör olarak ulusları ve tercihlerini şekillendiren güçleri tanır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-introduction-to-medicine-exploring-the-world-of-healthcare-s2",
@@ -9183,7 +9643,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıbba Giriş: Sağlık Dünyasını Keşfet",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir hastanın iyileşmesine, hastalığı önlemesine veya bir tanıyı anlamasına kim yardımcı olur? Öğrenciler tıbbı, hasta bakımına ve toplum sağlığına katkıda bulunan birçok profesyonel üzerinden keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-introduction-to-medicine-s1",
@@ -9265,7 +9729,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıbba Giriş: Sağlık Dünyasını Keşfet",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir hastanın iyileşmesine, hastalığı önlemesine veya bir tanıyı anlamasına kim yardımcı olur? Öğrenciler tıbbı, hasta bakımına ve toplum sağlığına katkıda bulunan birçok profesyonel üzerinden keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-mock-trial-courtroom-strategy-advocacy-s2",
@@ -9347,7 +9815,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Duruşma Canlandırması: Mahkeme Stratejisi ve Savunuculuk",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Georgetown University'un Washington D.C.'deki kampüsünde öğrenciler, hukukla, politikayla ve kamu kurumlarıyla yakından ilişkilendirilen bir şehirde mahkeme stratejisini keşfeder. Bir duruşma, her rolün davayı farklı gördüğü koordineli bir süreçtir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-mock-trial-courtroom-strategy-advocacy-s2-1",
@@ -9429,7 +9901,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Duruşma Canlandırması: Mahkeme Stratejisi ve Savunuculuk",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir davanın başlangıcı ile jürinin kararı arasında neler olur? Öğrenciler avukatların, sanıkların, tanıkların, yargıçların ve jüri üyelerinin temel rollerini keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-mock-trial-order-in-the-court-s1",
@@ -9511,7 +9987,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Duruşma Canlandırması: Mahkeme Stratejisi ve Savunuculuk",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Georgetown University'un Washington D.C.'deki kampüsünde öğrenciler, hukukla, politikayla ve kamu kurumlarıyla yakından ilişkilendirilen bir şehirde mahkeme stratejisini keşfeder. Bir duruşma, her rolün davayı farklı gördüğü koordineli bir süreçtir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-mock-trial-order-in-the-court-s1-1",
@@ -9593,7 +10073,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Duruşma Canlandırması: Mahkeme Stratejisi ve Savunuculuk",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir davanın başlangıcı ile jürinin kararı arasında neler olur? Öğrenciler avukatların, sanıkların, tanıkların, yargıçların ve jüri üyelerinin temel rollerini keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-money-matters-finance-and-investment-s1",
@@ -9675,7 +10159,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Finans Önemlidir: Geleceğin İçin Akıllı Yatırım",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bugünkü para, yıllar sonraki bir hedefi nasıl destekleyebilir? Öğrenciler finansa, yatırım yönetimine ve sermaye piyasalarına erişilebilir bir giriş oluşturur."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-money-matters-smart-investing-for-your-future-s2",
@@ -9757,7 +10245,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Finans Önemlidir: Geleceğin İçin Akıllı Yatırım",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bugünkü para, yıllar sonraki bir hedefi nasıl destekleyebilir? Öğrenciler finansa, yatırım yönetimine ve sermaye piyasalarına erişilebilir bir giriş oluşturur."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-psychology-mental-health-behavior-s2",
@@ -9840,7 +10332,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikoloji: Ruh Sağlığı ve Davranış",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "İnsanlar neden bu şekilde düşünür, öğrenir, hisseder ve davranır? Öğrenciler alanın tarihi ve bilimsel temelleriyle başlayarak psikolojideki başlıca ilkeleri ve bakış açılarını gözden geçirir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-psychology-s1",
@@ -9923,7 +10419,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikoloji: Ruh Sağlığı ve Davranış",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "İnsanlar neden bu şekilde düşünür, öğrenir, hisseder ve davranır? Öğrenciler alanın tarihi ve bilimsel temelleriyle başlayarak psikolojideki başlıca ilkeleri ve bakış açılarını gözden geçirir."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-introduction-to-public-health-s1",
@@ -10006,7 +10506,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Halk Sağlığı: Toplumları Korumak ve Hastalıkları Önlemek",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir toplum, biri kliniğe ulaşmadan önce hastalığı nasıl önleyebilir? Öğrenciler halk sağlığını tıbbın, politikanın, davranışın ve nüfus sağlığını şekillendiren koşulların kesişiminde keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-public-health-protecting-communities-preventing-disease-s2",
@@ -10089,7 +10593,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Halk Sağlığı: Toplumları Korumak ve Hastalıkları Önlemek",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir toplum, biri kliniğe ulaşmadan önce hastalığı nasıl önleyebilir? Öğrenciler halk sağlığını tıbbın, politikanın, davranışın ve nüfus sağlığını şekillendiren koşulların kesişiminde keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-exploring-the-mind-psychology-101-s1",
@@ -10171,7 +10679,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sosyal Psikoloji: Grup Davranışının Dinamikleri",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "İnsanlar neden bazı şeyleri hatırlar, bir grubu takip eder veya aynı durumda farklı tepki verir? Öğrenciler temel psikolojiyi düşünce, davranış ve toplumsal etki üzerine sorularla keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-social-psychology-dynamics-of-group-behavior-s2",
@@ -10253,7 +10765,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sosyal Psikoloji: Grup Davranışının Dinamikleri",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "İnsanlar neden bazı şeyleri hatırlar, bir grubu takip eder veya aynı durumda farklı tepki verir? Öğrenciler temel psikolojiyi düşünce, davranış ve toplumsal etki üzerine sorularla keşfeder."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-sociology-culture-institutions-social-change-s2",
@@ -10335,7 +10851,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sosyoloji: Kültür, Kurumlar ve Toplumsal Değişim",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Kültür, kurumlar ve ilişkiler bireysel seçimleri nasıl şekillendirir? Öğrenciler kişisel deneyimleri daha geniş toplumsal örüntülerle ilişkilendirmek için sosyolojik hayal gücünü kullanır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-sociology-s1",
@@ -10417,7 +10937,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sosyoloji: Kültür, Kurumlar ve Toplumsal Değişim",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Kültür, kurumlar ve ilişkiler bireysel seçimleri nasıl şekillendirir? Öğrenciler kişisel deneyimleri daha geniş toplumsal örüntülerle ilişkilendirmek için sosyolojik hayal gücünü kullanır."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-sports-law-inside-sports-contracts-s2",
@@ -10500,7 +11024,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Hukuku: Spor Sözleşmelerinin İç Yüzü",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir spor sözleşmesini bir sporcu, takım, lig veya sponsor için işleyen kılan nedir? Öğrenciler amatör, profesyonel ve uluslararası sporları karşılaştırarak başlar, ardından sözleşme ve haksız fiil hukukunu spor etkinliği senaryolarına uygular."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-sports-law-s1",
@@ -10583,7 +11111,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Hukuku: Spor Sözleşmelerinin İç Yüzü",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir spor sözleşmesini bir sporcu, takım, lig veya sponsor için işleyen kılan nedir? Öğrenciler amatör, profesyonel ve uluslararası sporları karşılaştırarak başlar, ardından sözleşme ve haksız fiil hukukunu spor etkinliği senaryolarına uygular."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-sports-management-s1",
@@ -10666,7 +11198,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Yönetimi ve Stratejisi: Oyunun Perde Arkası",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir takım sahaya çıkmadan önce sahne arkasında neler olur? Öğrenciler sporun iş tarafını keşfeder: takımların nasıl örgütlendiği, oyuncuların nasıl değerlendirildiği, sözleşmelerin nasıl işlediği ve maçların nasıl küresel etkinliklere ve toplum platformlarına dönüştüğü."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-sports-management-s2",
@@ -10749,7 +11285,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Yönetimi ve Stratejisi: Oyunun Perde Arkası",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Bir takım sahaya çıkmadan önce sahne arkasında neler olur? Öğrenciler sporun iş tarafını keşfeder: takımların nasıl örgütlendiği, oyuncuların nasıl değerlendirildiği, sözleşmelerin nasıl işlediği ve maçların nasıl küresel etkinliklere ve toplum platformlarına dönüştüğü."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-foundations-of-international-relations-s1",
@@ -10831,7 +11371,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Harekete Geçen Dünya: Uluslararası Diplomasi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Ülkeleri iş birliği yapmaya iten nedir ve çatışmaya sürükleyen nedir? Öğrenciler uluslararası bir sistemde aktör olarak ulusları inceleyerek ve gücün, güvenliğin, kurumların ve kimliğin seçimlerini nasıl şekillendirebileceğini öğrenerek başlar."
   },
   {
     "id": "summer-discovery-2027-georgetown-university-the-world-in-action-international-diplomacy-s2",
@@ -10913,7 +11457,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Harekete Geçen Dünya: Uluslararası Diplomasi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Georgetown University",
+    "description_short_tr": "Ülkeleri iş birliği yapmaya iten nedir ve çatışmaya sürükleyen nedir? Öğrenciler uluslararası bir sistemde aktör olarak ulusları inceleyerek ve gücün, güvenliğin, kurumların ve kimliğin seçimlerini nasıl şekillendirebileceğini öğrenerek başlar."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-engineering-research-scientific-investigation-the-research-process-s2",
@@ -10996,7 +11544,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Araştırmaları: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Mühendislik",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "İyi mühendislik araştırması, bir şey inşa edilmeden önce başlar. İncelenebilecek kadar spesifik ve peşinden gidilecek kadar önemli bir soruyla başlar."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-engineering-research-scientific-investigation-the-research-process-s2-1",
@@ -11079,7 +11631,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Araştırmaları: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Mühendislik",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "İyi mühendislik araştırması, bir şey inşa edilmeden önce başlar. İncelenebilecek kadar spesifik ve peşinden gidilecek kadar önemli bir soruyla başlar."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-engineering-and-robotics-academy-s1",
@@ -11162,7 +11718,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik ve Robotik Akademisi",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "Bir robot çevresini nasıl algılar ve gerçek bir ihtiyaca göre nasıl hareket eder? Öğrenciler robotiğin tarihini erken mekanizmalardan endüstriyel sistemlere, yumuşak robotiğe, otonom makinelere ve YZ destekli otomasyona kadar izler."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-engineering-and-robotics-academy-s2",
@@ -11245,7 +11805,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik ve Robotik Akademisi",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "Bir robot çevresini nasıl algılar ve gerçek bir ihtiyaca göre nasıl hareket eder? Öğrenciler robotiğin tarihini erken mekanizmalardan endüstriyel sistemlere, yumuşak robotiğe, otonom makinelere ve YZ destekli otomasyona kadar izler."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-entrepreneurship-with-nfte-new-venture-creation-s2",
@@ -11327,7 +11891,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "NFTE ile Girişimcilik: Yeni Girişim Kurma",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "Güçlü bir iş fikri, çözmeye değer bir problemle başlar. Öğrenciler karşılanmamış ihtiyaçları arayarak, bir fikrin gerçek değer yaratıp yaratmadığını test ederek ve düşüncelerini tek bir özgün girişim konseptine daraltarak başlar."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-global-social-entrepreneurship-systems-change-impact-s1",
@@ -11409,7 +11977,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Küresel Sosyal Girişimcilik: Sistem Değişimi ve Etki",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "Güçlü bir sosyal girişim, satılmayı bekleyen bir ürünle değil, anlamaya değer bir problemle başlar."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-medical-research-scientific-investigation-the-research-process-s1",
@@ -11492,7 +12064,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıbbi Araştırma: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "Bir sağlık atılımı çoğu zaman dikkatle çerçevelenmiş bir soruyla başlar."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-medical-research-scientific-investigation-the-research-process-s2",
@@ -11575,7 +12151,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıbbi Araştırma: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "Bir sağlık atılımı çoğu zaman dikkatle çerçevelenmiş bir soruyla başlar."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-medicine-academy-clinical-practice-career-exploration-s2",
@@ -11657,7 +12237,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Akademisi: Klinik Uygulama ve Kariyer Keşfi",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "Sağlık hizmetleri hangi teknik beceriyi, ekip çalışmasını ve hazırlığı gerektirir? Öğrenciler alanı uzmanların yürüttüğü eylem odaklı simülasyonlarla keşfeder."
   },
   {
     "id": "summer-discovery-2027-uc-berkeley-psychiatry-neuroscience-academy-clinical-application-s1",
@@ -11740,7 +12324,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikiyatri ve Nörobilim Akademisi: Klinik Uygulama",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UC Berkeley",
+    "description_short_tr": "Bir hastanın belirtileri birkaç yönü işaret edebilir. Öğrenciler bir tanıyı veya tedavi yaklaşımını düşünmeden önce beynin, davranışın, öykünün ve çevrenin birlikte neyi ortaya koyduğunu sormayı öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-actsat-success-studio-s1",
@@ -11823,7 +12411,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "ACT/SAT Başarı Atölyesi",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "UCLA",
+    "description_short_tr": "ACT/SAT Success Studio, UCLA kampüsünde düzenlenen programın parçası olarak ESM Prep tarafından sunulan özel bir sınav hazırlık dersidir."
   },
   {
     "id": "summer-discovery-2027-ucla-actsat-success-studio-s2",
@@ -11906,7 +12498,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "ACT/SAT Başarı Atölyesi",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "UCLA",
+    "description_short_tr": "ACT/SAT Success Studio, UCLA kampüsünde düzenlenen programın parçası olarak ESM Prep tarafından sunulan özel bir sınav hazırlık dersidir."
   },
   {
     "id": "summer-discovery-2027-ucla-ai-pioneers-an-artificial-intelligence-primer-s1",
@@ -11988,7 +12584,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Öncüleri: İyilik İçin Kodla, Tasarla ve Yapay Zekâ Geliştir",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir bilgisayar verideki örüntüleri nasıl bulur ve bunları tahmin yapmak için nasıl kullanır?"
   },
   {
     "id": "summer-discovery-2027-ucla-abnormal-psychology-s1",
@@ -12071,7 +12671,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Anormal Psikoloji",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UCLA",
+    "description_short_tr": "İki hasta aynı belirtiyi paylaşabilir ve yine de farklı tanılar gerektirebilir. Öğrenciler tek bir ipucunun ötesine bakmayı, tüm örüntüyü karşılaştırmayı ve hangi kanıtın bir psikolojik bozukluğu diğerinden ayırdığını sormayı öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-abnormal-psychology-s2",
@@ -12154,7 +12758,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Anormal Psikoloji",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UCLA",
+    "description_short_tr": "İki hasta aynı belirtiyi paylaşabilir ve yine de farklı tanılar gerektirebilir. Öğrenciler tek bir ipucunun ötesine bakmayı, tüm örüntüyü karşılaştırmayı ve hangi kanıtın bir psikolojik bozukluğu diğerinden ayırdığını sormayı öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-advertising-marketing-public-relations-s1",
@@ -12237,7 +12845,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Reklamcılık, Pazarlama ve Halkla İlişkiler",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir logo dikkat çekebilir, ancak bir kampanya yalnızca marka, hedef kitle, mesaj ve medya aynı fikri desteklediğinde işe yarar. Öğrenciler pazarlamanın Dört P'sini ve tanıdık markaların neden akılda kaldığını inceleyerek başlar."
   },
   {
     "id": "summer-discovery-2027-ucla-advertising-marketing-public-relations-s2",
@@ -12320,7 +12932,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Reklamcılık, Pazarlama ve Halkla İlişkiler",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir logo dikkat çekebilir, ancak bir kampanya yalnızca marka, hedef kitle, mesaj ve medya aynı fikri desteklediğinde işe yarar. Öğrenciler pazarlamanın Dört P'sini ve tanıdık markaların neden akılda kaldığını inceleyerek başlar."
   },
   {
     "id": "summer-discovery-2027-ucla-artificial-intelligence-emerging-applications-s1-1",
@@ -12403,7 +13019,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ: Gelişen Uygulamalar",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir YZ sistemi etkileyici bir sonuç üretebilir ve yine de zor soruları gündeme getirebilir. Veride kim temsil edildi? Bir insan neyi doğrulamalı? Hangi kararlar insan denetimi gerektirir?"
   },
   {
     "id": "summer-discovery-2027-ucla-artificial-intelligence-emerging-applications-s2",
@@ -12486,7 +13106,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ: Gelişen Uygulamalar",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir YZ sistemi etkileyici bir sonuç üretebilir ve yine de zor soruları gündeme getirebilir. Veride kim temsil edildi? Bir insan neyi doğrulamalı? Hangi kararlar insan denetimi gerektirir?"
   },
   {
     "id": "summer-discovery-2027-ucla-regenerative-medicine-the-engineered-anatomy-s1",
@@ -12569,7 +13193,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Biyomedikal Mühendisliği Tasarım Laboratuvarı",
+    "subject_tr": "Mühendislik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Gerçek bir hastaya uyması, hareket etmesi ve çalışması gereken bir yedek vücut parçasını nasıl tasarlardınız?"
   },
   {
     "id": "summer-discovery-2027-ucla-build-the-movement-civic-engagement-social-impact-s1",
@@ -12651,7 +13279,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Harekete Geç: Sivil Katılım ve Sosyal Etki",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Tutku bir hareketi başlatabilir, ancak kalıcı değişim bir strateji gerektirir. Öğrenciler; sivil toplum kuruluşlarının, hayır işlerinin, hükümetin, işletmelerin ve toplum örgütlerinin karmaşık toplumsal sorunlara nasıl yaklaştığını inceler."
   },
   {
     "id": "summer-discovery-2027-ucla-careers-in-medicine-s1",
@@ -12733,7 +13365,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Kariyerleri",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir hastanın belirtileri yalnızca başlangıç noktasıdır. Öğrenciler biyolojinin, kanıtın ve klinik araçların tıp profesyonellerinin bilinmeyen bir problemden tanıya ve tedaviye ilerlemesine nasıl yardımcı olduğunu öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-careers-in-medicine-s2",
@@ -12815,7 +13451,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Kariyerleri",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir hastanın belirtileri yalnızca başlangıç noktasıdır. Öğrenciler biyolojinin, kanıtın ve klinik araçların tıp profesyonellerinin bilinmeyen bir problemden tanıya ve tedaviye ilerlemesine nasıl yardımcı olduğunu öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-cooking-creations-s1",
@@ -12897,7 +13537,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Aşçılık: Mutfak Sanatları",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Ölçüde, karıştırmada veya sıcaklıkta küçük bir değişiklik bir hamur işini tamamen değiştirebilir. Öğrenciler bu dersi tekrarlı pratikle öğrenir; tanıdık tariflerden hamurlara, beze, muhallebi ve pasta tekniklerine ilerler."
   },
   {
     "id": "summer-discovery-2027-ucla-cooking-culinary-arts-s2",
@@ -12979,7 +13623,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Aşçılık: Mutfak Sanatları",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Ölçüde, karıştırmada veya sıcaklıkta küçük bir değişiklik bir hamur işini tamamen değiştirebilir. Öğrenciler bu dersi tekrarlı pratikle öğrenir; tanıdık tariflerden hamurlara, beze, muhallebi ve pasta tekniklerine ilerler."
   },
   {
     "id": "summer-discovery-2027-ucla-corporate-finance-accounting-s1",
@@ -13061,7 +13709,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kurumsal Finans ve Muhasebe",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir şirket büyüyor olabilir ve yine de kötü bir finansal karar verebilir. Öğrenciler finansal tabloları okuyarak, oranları karşılaştırarak ve bir tercihin nakdi, riski ve uzun vadeli değeri nasıl etkilediğini sorarak manşetin arkasına bakmayı öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-corporate-finance-accounting-s2",
@@ -13143,7 +13795,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kurumsal Finans ve Muhasebe",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir şirket büyüyor olabilir ve yine de kötü bir finansal karar verebilir. Öğrenciler finansal tabloları okuyarak, oranları karşılaştırarak ve bir tercihin nakdi, riski ve uzun vadeli değeri nasıl etkilediğini sorarak manşetin arkasına bakmayı öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-codes-and-ciphers-the-mathematics-of-cryptography-s1",
@@ -13226,7 +13882,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kodu Çöz: Matematik, Şifreler ve Şifreleme",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "UCLA",
+    "description_short_tr": "Gizli bir mesaj, amacı olan bir matematik bulmacasıdır. Öğrenciler kriptografiyi Sezar kaydırmalarından ve yerine koyma sistemlerinden Enigma makinesine ve modern iletişimi koruyan açık anahtar fikirlerine kadar izler."
   },
   {
     "id": "summer-discovery-2027-ucla-creative-writing-s1",
@@ -13309,7 +13969,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yaratıcı Yazarlık: Hikâye Anlatma Sanatı",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Her kelimenin yerini hak etmesi gerekirken bir kısa öykü neden tamamlanmış hissettirir? Öğrenciler yazar gibi okur; karakterin, olay örgüsünün, mekânın, diyaloğun, bakış açısının, sesin, çatışmanın ve metaforun birlikte nasıl çalıştığını inceler."
   },
   {
     "id": "summer-discovery-2027-ucla-criminal-psychology-s1",
@@ -13392,7 +14056,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Suç Psikolojisi: Suç Davranışının Kökenleri",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "UCLA",
+    "description_short_tr": "Suç psikolojisi suç davranışını açıklamaya ve onu önleme çabalarını desteklemeye nasıl yardımcı olabilir? Öğrenciler psikodinamik, biyolojik, genetik, sosyal öğrenme, bilişsel, gelişimsel, sosyolojik ve kültürel kuramları inceler."
   },
   {
     "id": "summer-discovery-2027-ucla-criminal-psychology-the-roots-of-criminal-behavior-s2",
@@ -13475,7 +14143,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Suç Psikolojisi: Suç Davranışının Kökenleri",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "UCLA",
+    "description_short_tr": "Suç psikolojisi suç davranışını açıklamaya ve onu önleme çabalarını desteklemeye nasıl yardımcı olabilir? Öğrenciler psikodinamik, biyolojik, genetik, sosyal öğrenme, bilişsel, gelişimsel, sosyolojik ve kültürel kuramları inceler."
   },
   {
     "id": "summer-discovery-2027-ucla-applied-data-science-with-python-s1",
@@ -13558,7 +14230,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Veri Dedektifleri: Gerçek Yaşam İçgörüleri ve Veri Bilimi",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir sayı koleksiyonu nasıl bir örüntüyü ortaya çıkarabilir, bir fikri test edebilir veya bir tahmini destekleyebilir?"
   },
   {
     "id": "summer-discovery-2027-ucla-discrete-mathematics-s1",
@@ -13640,7 +14316,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Ayrık Matematik: Örüntüler, Mantık ve Bulmacalar",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Matematik bir şeyi adil biçimde bölmeye, bir seçim sonucunu açıklamaya veya bir ağdaki en iyi rotayı bulmaya nasıl yardımcı olabilir?"
   },
   {
     "id": "summer-discovery-2027-ucla-engineering-research-scientific-investigation-the-research-process-s1",
@@ -13723,7 +14403,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Araştırmaları: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Mühendislik",
+    "location_tr": "UCLA",
+    "description_short_tr": "İncelemeye değer bir mühendislik problemiyle başlayın, ardından hangi kanıtın onu bir çözüme yaklaştırabileceğini belirleyin."
   },
   {
     "id": "summer-discovery-2027-ucla-fashion-development-branding-and-merchandising-s1",
@@ -13806,7 +14490,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Moda İşletmeciliği: Ürün ve Marka Stratejisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir moda fikrini insanların tanıdığı, istediği ve satın aldığı bir ürüne dönüştüren nedir? Öğrenciler tasarımın ardındaki işi inceler; trendlerin, malzemelerin, fiyatlandırmanın, tedarikin, tüketici davranışının, markalaşmanın ve ürün sunumunun pazara ulaşanı nasıl şekillendirdiğini izler."
   },
   {
     "id": "summer-discovery-2027-ucla-fashion-development-branding-and-merchandising-s2",
@@ -13889,7 +14577,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Moda İşletmeciliği: Ürün ve Marka Stratejisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir moda fikrini insanların tanıdığı, istediği ve satın aldığı bir ürüne dönüştüren nedir? Öğrenciler tasarımın ardındaki işi inceler; trendlerin, malzemelerin, fiyatlandırmanın, tedarikin, tüketici davranışının, markalaşmanın ve ürün sunumunun pazara ulaşanı nasıl şekillendirdiğini izler."
   },
   {
     "id": "summer-discovery-2027-ucla-fashion-design-s1",
@@ -13972,7 +14664,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Moda Tasarımı: Eskiz ve Tasarım Geliştirme",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir koleksiyon bir bakış açısıyla başlar. Öğrenciler tasarımcıların ilhamı ruh hali, renk, siluet, kumaş, yapım ve ayrı parçaları birbirine bağlı hissettiren seçimler aracılığıyla nasıl görsel bir sisteme dönüştürdüğünü öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-fashion-design-s1-2",
@@ -14055,7 +14751,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Moda Tasarımı: Eskiz ve Tasarım Geliştirme",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir tasarımcı ilhamdan başkasının giyebileceği bir şeye nasıl ilerler? Öğrenciler bir ruh hali panosu hazırlayarak, tasarım unsurlarını öğrenerek ve croquis üzerinde kıyafet eskizleri çizerek başlar."
   },
   {
     "id": "summer-discovery-2027-ucla-fashion-design-s2",
@@ -14138,7 +14838,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Moda Tasarımı: Eskiz ve Tasarım Geliştirme",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir koleksiyon bir bakış açısıyla başlar. Öğrenciler tasarımcıların ilhamı ruh hali, renk, siluet, kumaş, yapım ve ayrı parçaları birbirine bağlı hissettiren seçimler aracılığıyla nasıl görsel bir sisteme dönüştürdüğünü öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-film-industry-primer-s1-1",
@@ -14221,7 +14925,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Film Endüstrisine Giriş",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir kısa film, kamera dönmeden çok önce başlar. Öğrenciler hikâye, karakter ve net bir logline ile başlar, ardından fikri senaryo sayfalarına, storyboard'lara, ekip rollerine ve bir ekibin gerçekten izleyebileceği bir çekim planına dönüştürür."
   },
   {
     "id": "summer-discovery-2027-ucla-film-industry-primer-s1-2",
@@ -14304,7 +15012,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Film Endüstrisine Giriş",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir kısa film, kamera dönmeden çok önce başlar. Öğrenciler hikâye, karakter ve net bir logline ile başlar, ardından fikri senaryo sayfalarına, storyboard'lara, ekip rollerine ve bir ekibin gerçekten izleyebileceği bir çekim planına dönüştürür."
   },
   {
     "id": "summer-discovery-2027-ucla-film-industry-primer-s2-1",
@@ -14387,7 +15099,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Film Endüstrisine Giriş",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir kısa film, kamera dönmeden çok önce başlar. Öğrenciler hikâye, karakter ve net bir logline ile başlar, ardından fikri senaryo sayfalarına, storyboard'lara, ekip rollerine ve bir ekibin gerçekten izleyebileceği bir çekim planına dönüştürür."
   },
   {
     "id": "summer-discovery-2027-ucla-film-production-s1",
@@ -14469,7 +15185,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Film Yapımı: Sinema Yoluyla Hikâye Anlatımı",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir fikir, bir izleyici kitlesinin izleyebileceği bitmiş bir filme nasıl dönüşür? Öğrenciler yaratıcı süreci film tarihi, senaryo yazımı, storyboard, oyunculuk, yapım ve kurgu boyunca takip eder."
   },
   {
     "id": "summer-discovery-2027-ucla-csi-forensic-science-s1",
@@ -14552,7 +15272,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "UCLA",
+    "description_short_tr": "Deliller, yalnızca soruşturmacılar nereden geldiğini, nasıl işlendiğini ve bilimsel olarak kabul görmüş bir testin neyi destekleyebileceğini gösterebildiğinde değer taşır."
   },
   {
     "id": "summer-discovery-2027-ucla-forensic-investigation-crime-scenes-case-strategy-s1",
@@ -14635,7 +15359,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir suç mahalli ipuçlarından fazlasını içerir. Fark edilmesi, toplanması, korunması, test edilmesi ve açıklanması gereken delilleri içerir."
   },
   {
     "id": "summer-discovery-2027-ucla-forensic-investigation-crime-scenes-case-strategy-s2",
@@ -14718,7 +15446,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "UCLA",
+    "description_short_tr": "Deliller, yalnızca soruşturmacılar nereden geldiğini, nasıl işlendiğini ve bilimsel olarak kabul görmüş bir testin neyi destekleyebileceğini gösterebildiğinde değer taşır."
   },
   {
     "id": "summer-discovery-2027-ucla-foundations-of-psychology-s1",
@@ -14800,7 +15532,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikolojinin Temelleri: Düşünce, Duygu ve Davranış",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "UCLA",
+    "description_short_tr": "İnsanlar neden alışkanlık edinir, strese farklı tepki verir veya aynı olayı farklı biçimlerde hatırlar? Öğrenciler psikolojiyi beyin, başlıca kuramlar, insan gelişimi, davranış, duygu ve yaşa uygun ruh sağlığı konuları üzerinden keşfeder."
   },
   {
     "id": "summer-discovery-2027-ucla-future-founders-the-entrepreneurship-experience-s1",
@@ -14882,7 +15618,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Geleceğin Kurucuları: Girişimcilik Deneyimi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir girişim fikri, birileri arkasındaki problemi test ettiğinde daha yararlı olur. Öğrenci ekipleri gerçek bir ihtiyacı belirleyerek, odaklı bir problem tanımı yazarak ve görüşmeler veya anketlerle müşteri keşfi yaparak başlar."
   },
   {
     "id": "summer-discovery-2027-ucla-future-founders-the-entrepreneurship-experience-s2",
@@ -14964,7 +15704,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Geleceğin Kurucuları: Girişimcilik Deneyimi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir girişim fikri, birileri arkasındaki problemi test ettiğinde daha yararlı olur. Öğrenci ekipleri gerçek bir ihtiyacı belirleyerek, odaklı bir problem tanımı yazarak ve görüşmeler veya anketlerle müşteri keşfi yaparak başlar."
   },
   {
     "id": "summer-discovery-2027-ucla-hit-the-gavel-mock-trial-and-debate-s1-2",
@@ -15047,7 +15791,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hâkim Tokmağını Vur: Duruşma Canlandırması ve Münazara",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "UCLA",
+    "description_short_tr": "Mahkeme salonundaki bir argüman özgüvenden fazlasına dayanır. Öğrencilerin kanıta, davanın net bir kuramına, dikkatle planlanmış sorulara ve tanıklık bir duruşmanın yönünü değiştirdiğinde yanıt verebilme yeteneğine ihtiyacı vardır."
   },
   {
     "id": "summer-discovery-2027-ucla-the-business-of-experience-hospitality-and-event-management-s1",
@@ -15129,7 +15877,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Konaklama ve Etkinlik Yönetimi: Deneyim İşletmeciliği",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir VIP'i karşılamak, yüzlerce hareketli parçayı koordine etmek ve bir şeyler ters gittiğinde büyük bir etkinliği zamanında tutmak neler gerektirir? Öğrenciler ağırlama ve büyük ölçekli etkinlik yapımını simülasyonlar, vaka çalışmaları ve canlı bir projeyle inceler."
   },
   {
     "id": "summer-discovery-2027-ucla-the-business-of-experience-hospitality-and-event-management-s2",
@@ -15211,7 +15963,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Konaklama ve Etkinlik Yönetimi: Deneyim İşletmeciliği",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir VIP'i karşılamak, yüzlerce hareketli parçayı koordine etmek ve bir şeyler ters gittiğinde büyük bir etkinliği zamanında tutmak neler gerektirir? Öğrenciler ağırlama ve büyük ölçekli etkinlik yapımını simülasyonlar, vaka çalışmaları ve canlı bir projeyle inceler."
   },
   {
     "id": "summer-discovery-2027-ucla-introduction-to-real-estate-s2",
@@ -15294,7 +16050,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Gayrimenkule Giriş",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir ev satmak veya bir konut mülkünü yönetmek neler gerektirir? Öğrenciler gayrimenkulde bir temel oluşturur; meslek genelinde kullanılan rolleri, sorumlulukları ve günlük kaynakları karşılaştırır."
   },
   {
     "id": "summer-discovery-2027-ucla-sports-leadership-and-teamwork-with-elevate-by-img-academy-s1",
@@ -15366,7 +16126,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Takıma Liderlik Et: IMG Academy ile Spor Liderliği",
+    "subject_tr": "Spor Yönetimi",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bu temel ders, öğrencilere liderliğin temel ilkelerini spor ve takım dinamikleri merceğinden tanıtır. Efsanevi takımların nasıl birlikte çalıştığını ve en sevdiğiniz sporcuların neden bu kadar iyi lider sayıldığını keşfedin."
   },
   {
     "id": "summer-discovery-2027-ucla-introduction-to-marketing-advertising-s1",
@@ -15449,7 +16213,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Pazarlama ve Reklamcılık: Büyük Fikirler, Cesur Markalar",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Ürün, reklam veya platform değişse bile bazı markalar neden tanınır kalır? Öğrenciler pazarlama, reklam ve halkla ilişkilerin bir şirketin ne sunduğunu, nasıl iletişim kurduğunu ve insanların nasıl yanıt verdiğini şekillendirmek için nasıl birlikte çalıştığını araştırır."
   },
   {
     "id": "summer-discovery-2027-ucla-research-in-medicine-from-hypothesis-to-healthcare-breakthrough-s1",
@@ -15532,7 +16300,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıbbi Araştırma: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UCLA",
+    "description_short_tr": "Tıp veya halk sağlığı hakkında bir soruyla başlayın, ardından hangi kanıtın onu yanıtlayabileceğini belirlemek için geriye doğru çalışın. Öğrenciler tıbbi araştırmanın nasıl geliştiğini inceler ve PubMed ile Cochrane Library gibi akademik veri tabanlarında arama yapmayı öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-medical-microbiology-s1",
@@ -15615,7 +16387,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mikrop Dedektifleri: Enfeksiyon, Bağışıklık ve Hastalık",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bazı mikroplar neden hastalığa yol açarken diğerleri insan sağlığını destekler? Öğrenciler bir mikrobiyoloji zaman çizelgesi oluşturarak ve simüle mikropların yüzeyler arasında ne kadar kolay hareket ettiğini test ederek başlar."
   },
   {
     "id": "summer-discovery-2027-ucla-hit-the-gavel-mock-trial-and-debate-s1-1",
@@ -15697,7 +16473,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Duruşma Canlandırması: Mahkemede Düzen",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "UCLA",
+    "description_short_tr": "Mahkeme salonunda bir argümanı ikna edici kılan nedir ve karşı taraf ona itiraz ettiğinde ne olur? Öğrenciler bir duruşmayı şekillendiren yapıyı ve kuralları öğrenmeden önce avukatların, sanıkların, tanıkların, yargıçların ve jüri üyelerinin rollerini inceler."
   },
   {
     "id": "summer-discovery-2027-ucla-money-matters-stocks-bonds-your-financial-future-s1",
@@ -15779,7 +16559,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Finans Önemlidir: Hisse Senetleri, Tahviller ve Finansal Geleceğin",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir hisse seçmek yalnızca başlangıçtır. Öğrenciler bir şirketi incelemeye değer kılan şeyin ne olduğunu, bir yatırımcının hedeflerinin stratejiyi nasıl şekillendirdiğini ve getirinin risk, ücretler ve zaman olmadan neden düşünülemeyeceğini sorar."
   },
   {
     "id": "summer-discovery-2027-ucla-music-production-s1",
@@ -15861,7 +16645,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Müzik Prodüksiyonu: Kayıt, Miks ve Ses Tasarımı",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir müzik fikri, ilk notadan son miksaja kadar kasıtlı hissettiren bir parçaya nasıl dönüşür? Öğrenciler dijital ses araçlarıyla özgün materyal geliştirirken müzik prodüksiyonunun dilini ve iş akışını öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-music-production-s2",
@@ -15943,7 +16731,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Müzik Prodüksiyonu: Kayıt, Miks ve Ses Tasarımı",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir müzik fikri, ilk notadan son miksaja kadar kasıtlı hissettiren bir parçaya nasıl dönüşür? Öğrenciler dijital ses araçlarıyla özgün materyal geliştirirken müzik prodüksiyonunun dilini ve iş akışını öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-psychology-academy-s1",
@@ -16026,7 +16818,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikoloji Akademisi",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "UCLA",
+    "description_short_tr": "Psikoloji öğrencilerden tanıdık davranışı tanıdık olmayan bir hassasiyetle incelemelerini ister. İnsanlar neden hatırlar, uyum sağlar, yargılar, başa çıkar veya karar verir?"
   },
   {
     "id": "summer-discovery-2027-ucla-psychology-academy-s2",
@@ -16109,7 +16905,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikoloji Akademisi",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "UCLA",
+    "description_short_tr": "Psikoloji öğrencilerden tanıdık davranışı tanıdık olmayan bir hassasiyetle incelemelerini ister. İnsanlar neden hatırlar, uyum sağlar, yargılar, başa çıkar veya karar verir?"
   },
   {
     "id": "summer-discovery-2027-ucla-masterminds-of-creative-robotics-s1",
@@ -16192,7 +16992,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Robotik Dehaları: Tasarla, İnşa Et ve Kodla",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "UCLA",
+    "description_short_tr": "Bir eskiz, bir yığın sıradan malzeme ve bir soruyla başlayın: kod bu yaratımı nasıl hareket ettirebilir veya tepki verdirebilir? Öğrenciler el işi veya geri dönüşüm malzemelerini Hummingbird robotik kiti ile birleştirerek bir fikri interaktif bir robota dönüştürür."
   },
   {
     "id": "summer-discovery-2027-ucla-remarkable-rhetoric-make-a-lasting-impression-s1",
@@ -16274,7 +17078,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Özgüvenle Konuş: Retorik ve Münazara",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "UCLA",
+    "description_short_tr": "Her konuşma bir izleyiciden bir şey düşünmesini, hissetmesini, yapmasını veya hatırlamasını ister. Öğrenciler bilgilendirici, ikna edici, eğlendirici ve törensel konuşmaların bu farklı amaçlara nasıl hizmet ettiğini öğrenir."
   },
   {
     "id": "summer-discovery-2027-ucla-theories-of-time-travel-spacetime-physics-wormholes-s1",
@@ -16356,7 +17164,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Solucan Delikleri ve Zaman Bükülmeleri: Bir Fizik Macerası",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Zaman yolculuğu fizik yasalarını çiğnemeden işleyebilir mi? Öğrenciler bu soruyu kuantum mekaniği, genel görelilik ve kuantum çekim kuramı arayışından fikirleri karşılaştırarak araştırır."
   },
   {
     "id": "summer-discovery-2027-ucla-entrepreneurship-with-nfte-ideation-pitch-strategy-new-venture-creation-s1",
@@ -16438,7 +17250,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Genç Girişimciler: NFTE ile İşini Kur",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA",
+    "description_short_tr": "Güçlü bir iş fikri, çözmeye değer bir problemle başlar. Öğrenciler karşılanmamış ihtiyaçları arar, bir fikrin gerçek değer yaratıp yaratamayacağını test eder ve düşüncelerini tek bir özgün girişim konseptine daraltır."
   },
   {
     "id": "summer-discovery-2027-ucla-anderson-school-of-management-digital-advertising-and-brand-strategy-academy-s1",
@@ -16508,7 +17324,11 @@
       "grades_only_no_age_range",
       "missing_price"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Dijital Reklamcılık ve Marka Stratejisi Akademisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA Anderson School of Management",
+    "description_short_tr": "Bazı dijital kampanyalar neden dikkat çekerken diğerleri akışta kaybolup gider?"
   },
   {
     "id": "summer-discovery-2027-ucla-anderson-school-of-management-digital-advertising-and-brand-strategy-academy-s2",
@@ -16578,7 +17398,11 @@
       "grades_only_no_age_range",
       "missing_price"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Dijital Reklamcılık ve Marka Stratejisi Akademisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA Anderson School of Management",
+    "description_short_tr": "Bazı dijital kampanyalar neden dikkat çekerken diğerleri akışta kaybolup gider?"
   },
   {
     "id": "summer-discovery-2027-ucla-anderson-school-of-management-foundations-in-business-leadership-academy-s1",
@@ -16647,7 +17471,11 @@
       "grades_only_no_age_range",
       "missing_price"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme Liderliğinin Temelleri Akademisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA Anderson School of Management",
+    "description_short_tr": "Pazar değiştiğinde, rakamlar belirsiz olduğunda ve ekip bir sonraki hamle konusunda anlaşamadığında bir şirket ne yapmalı?"
   },
   {
     "id": "summer-discovery-2027-ucla-anderson-school-of-management-foundations-in-business-leadership-academy-s2",
@@ -16716,7 +17544,11 @@
       "grades_only_no_age_range",
       "missing_price"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme Liderliğinin Temelleri Akademisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA Anderson School of Management",
+    "description_short_tr": "Pazar değiştiğinde, rakamlar belirsiz olduğunda ve ekip bir sonraki hamle konusunda anlaşamadığında bir şirket ne yapmalı?"
   },
   {
     "id": "summer-discovery-2027-ucla-anderson-school-of-management-sports-business-academy-with-ucla-anderson-school-of-management-s1",
@@ -16786,7 +17618,11 @@
       "grades_only_no_age_range",
       "missing_price"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "UCLA Anderson School of Management ile Spor İşletmeciliği Akademisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA Anderson School of Management",
+    "description_short_tr": "Taraftarları izlemeye, katılmaya, abone olmaya ve satın almaya devam ettiren nedir? Öğrenciler takımların, liglerin, sporcuların, mekânların, medyanın ve canlı deneyimlerin ardındaki iş kararlarını inceler; ardından bu kararların teknoloji ve izleyici davranışı geliştikçe nasıl değiştiğini ele alır."
   },
   {
     "id": "summer-discovery-2027-ucla-anderson-school-of-management-sports-business-academy-with-ucla-anderson-school-of-management-s2",
@@ -16856,7 +17692,11 @@
       "grades_only_no_age_range",
       "missing_price"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "UCLA Anderson School of Management ile Spor İşletmeciliği Akademisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "UCLA Anderson School of Management",
+    "description_short_tr": "Taraftarları izlemeye, katılmaya, abone olmaya ve satın almaya devam ettiren nedir? Öğrenciler takımların, liglerin, sporcuların, mekânların, medyanın ve canlı deneyimlerin ardındaki iş kararlarını inceler; ardından bu kararların teknoloji ve izleyici davranışı geliştikçe nasıl değiştiğini ele alır."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s1",
@@ -16938,7 +17778,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Ürün Atölyesi: Sosyal Etki İçin Vibe Coding",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Amaç önem verdiğiniz bir şeyi iyileştirmek olsaydı YZ ile ne inşa edebilirdiniz? Öğrenciler güncel üretken YZ araçlarını keşfeder, bir toplumsal problem belirler ve boş bir sayfadan özgün bir proje geliştirir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s2",
@@ -17020,7 +17864,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Ürün Atölyesi: Sosyal Etki İçin Vibe Coding",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Amaç önem verdiğiniz bir şeyi iyileştirmek olsaydı YZ ile ne inşa edebilirdiniz? Öğrenciler güncel üretken YZ araçlarını keşfeder, bir toplumsal problem belirler ve boş bir sayfadan özgün bir proje geliştirir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s3",
@@ -17102,7 +17950,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Ürün Atölyesi: Sosyal Etki İçin Vibe Coding",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Amaç önem verdiğiniz bir şeyi iyileştirmek olsaydı YZ ile ne inşa edebilirdiniz? Öğrenciler güncel üretken YZ araçlarını keşfeder, bir toplumsal problem belirler ve boş bir sayfadan özgün bir proje geliştirir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s1",
@@ -17184,7 +18036,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Araştırmacıları: Toplumsal Fayda İçin Akıllı Sistemler Geliştir",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir YZ kullanıcısını bir YZ geliştiricisinden ayıran nedir? Öğrenciler Python temellerini ve modeller, araçlar, ajanlar ve sistemler dahil modern yapay zekânın yapısını öğrenir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s2",
@@ -17266,7 +18122,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Araştırmacıları: Toplumsal Fayda İçin Akıllı Sistemler Geliştir",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir YZ kullanıcısını bir YZ geliştiricisinden ayıran nedir? Öğrenciler Python temellerini ve modeller, araçlar, ajanlar ve sistemler dahil modern yapay zekânın yapısını öğrenir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s3",
@@ -17348,7 +18208,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Araştırmacıları: Toplumsal Fayda İçin Akıllı Sistemler Geliştir",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir YZ kullanıcısını bir YZ geliştiricisinden ayıran nedir? Öğrenciler Python temellerini ve modeller, araçlar, ajanlar ve sistemler dahil modern yapay zekânın yapısını öğrenir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s1",
@@ -17432,7 +18296,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Reklamcılık: Tüketici Davranışı ve Kampanya Stratejisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Reklam, bir toplum sorununu harekete geçebilecek bir hedef kitleyle nasıl buluşturabilir? Öğrenciler reklamın kültür, kamuoyu ve tüketici davranışı üzerindeki etkisini inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s2",
@@ -17516,7 +18384,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Reklamcılık: Tüketici Davranışı ve Kampanya Stratejisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Reklam, bir toplum sorununu harekete geçebilecek bir hedef kitleyle nasıl buluşturabilir? Öğrenciler reklamın kültür, kamuoyu ve tüketici davranışı üzerindeki etkisini inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-advertising-consumer-behavior-campaign-strategy-s3",
@@ -17600,7 +18472,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Reklamcılık: Tüketici Davranışı ve Kampanya Stratejisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Reklam, bir toplum sorununu harekete geçebilecek bir hedef kitleyle nasıl buluşturabilir? Öğrenciler reklamın kültür, kamuoyu ve tüketici davranışı üzerindeki etkisini inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s1",
@@ -17683,7 +18559,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Biyopsikoloji, Biliş ve Nörobilim (BCN)",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Elektriksel sinyaller, kimyasal süreçler, genler ve deneyim beyni ve davranışı nasıl şekillendirir? Öğrenciler biyopsikoloji, biliş ve nörobilimin disiplinler arası alanını keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s2",
@@ -17766,7 +18646,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Biyopsikoloji, Biliş ve Nörobilim (BCN)",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Elektriksel sinyaller, kimyasal süreçler, genler ve deneyim beyni ve davranışı nasıl şekillendirir? Öğrenciler biyopsikoloji, biliş ve nörobilimin disiplinler arası alanını keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s3",
@@ -17849,7 +18733,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Biyopsikoloji, Biliş ve Nörobilim (BCN)",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Elektriksel sinyaller, kimyasal süreçler, genler ve deneyim beyni ve davranışı nasıl şekillendirir? Öğrenciler biyopsikoloji, biliş ve nörobilimin disiplinler arası alanını keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s1",
@@ -17932,7 +18820,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Harekete Geç: Sivil Katılım ve Sosyal Etki",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Tutku bir hareketi başlatabilir, ancak kalıcı değişim bir strateji gerektirir. Öğrenciler; sivil toplum kuruluşlarının, hayır işlerinin, hükümetin, işletmelerin ve toplum örgütlerinin karmaşık toplumsal sorunlara nasıl yaklaştığını inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s2",
@@ -18015,7 +18907,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Harekete Geç: Sivil Katılım ve Sosyal Etki",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Tutku bir hareketi başlatabilir, ancak kalıcı değişim bir strateji gerektirir. Öğrenciler; sivil toplum kuruluşlarının, hayır işlerinin, hükümetin, işletmelerin ve toplum örgütlerinin karmaşık toplumsal sorunlara nasıl yaklaştığını inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s3",
@@ -18098,7 +18994,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Harekete Geç: Sivil Katılım ve Sosyal Etki",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Tutku bir hareketi başlatabilir, ancak kalıcı değişim bir strateji gerektirir. Öğrenciler; sivil toplum kuruluşlarının, hayır işlerinin, hükümetin, işletmelerin ve toplum örgütlerinin karmaşık toplumsal sorunlara nasıl yaklaştığını inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s1",
@@ -18180,7 +19080,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Kariyerleri",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Makine mühendisi, havacılık mühendisi, robotik tasarımcısı, inşaat mühendisi, biyomedikal mühendis veya sistem mühendisi: hangi yol bir öğrencinin güçlü yönlerine ve ilgi alanlarına uyar?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s2",
@@ -18262,7 +19166,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Kariyerleri",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Makine mühendisi, havacılık mühendisi, robotik tasarımcısı, inşaat mühendisi, biyomedikal mühendis veya sistem mühendisi: hangi yol bir öğrencinin güçlü yönlerine ve ilgi alanlarına uyar?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-engineering-s3",
@@ -18344,7 +19252,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Kariyerleri",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Makine mühendisi, havacılık mühendisi, robotik tasarımcısı, inşaat mühendisi, biyomedikal mühendis veya sistem mühendisi: hangi yol bir öğrencinin güçlü yönlerine ve ilgi alanlarına uyar?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s1",
@@ -18426,7 +19338,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hukuk Kariyerleri: ABD Hukuk Sistemine Giriş",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Tek bir hukuki karar davranışı bir mahkeme salonunun çok ötesinde nasıl değiştirebilir? Öğrenciler Amerikan ceza adalet sistemini mahkemelerin, kolluk görevlilerinin, mağdurların, failin ve farklı toplulukların bakış açılarıyla inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s2",
@@ -18508,7 +19424,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hukuk Kariyerleri: ABD Hukuk Sistemine Giriş",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Tek bir hukuki karar davranışı bir mahkeme salonunun çok ötesinde nasıl değiştirebilir? Öğrenciler Amerikan ceza adalet sistemini mahkemelerin, kolluk görevlilerinin, mağdurların, failin ve farklı toplulukların bakış açılarıyla inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s3",
@@ -18590,7 +19510,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hukuk Kariyerleri: ABD Hukuk Sistemine Giriş",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir kuralı adil yapan nedir ve haklar, güvenlik ve toplum çıkarları çatıştığında mahkemeler onu nasıl uygulamalıdır?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s1",
@@ -18672,7 +19596,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Kariyerleri",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Doktor, hemşire, hastane yöneticisi, eczacı, diş hekimi veya aşı araştırmacısı: hangi rol hangi güçlü yönlere ve hedeflere uyar?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s2",
@@ -18754,7 +19682,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Kariyerleri",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Doktor, hemşire, hastane yöneticisi, eczacı, diş hekimi veya aşı araştırmacısı: hangi rol hangi güçlü yönlere ve hedeflere uyar?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-careers-in-medicine-s3",
@@ -18836,7 +19768,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Kariyerleri",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Doktor, hemşire, hastane yöneticisi, eczacı, diş hekimi veya aşı araştırmacısı: hangi rol hangi güçlü yönlere ve hedeflere uyar?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s1",
@@ -18919,7 +19855,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Suç Psikolojisi: Suç Davranışının Kökenleri",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bazı insanlar neden manipüle eder, aldatır, sömürür veya öldürür ve bu davranışlar zararı yüceltmeden nasıl incelenebilir?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s2",
@@ -19002,7 +19942,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Suç Psikolojisi: Suç Davranışının Kökenleri",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bazı insanlar neden manipüle eder, aldatır, sömürür veya öldürür ve bu davranışlar zararı yüceltmeden nasıl incelenebilir?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-criminal-psychology-s3",
@@ -19085,7 +20029,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Suç Psikolojisi: Suç Davranışının Kökenleri",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bazı insanlar neden manipüle eder, aldatır, sömürür veya öldürür ve bu davranışlar zararı yüceltmeden nasıl incelenebilir?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s1",
@@ -19167,7 +20115,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Gün İçi İşlem Ustalık Sınıfı",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir işlem kararını dürtüsel değil düşünceli yapan nedir? Bu başlangıç akademisi lise öğrencilerine finansal piyasaları keşfetmek için net bir başlangıç noktası sunar."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s2",
@@ -19249,7 +20201,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Gün İçi İşlem Ustalık Sınıfı",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir işlem kararını dürtüsel değil düşünceli yapan nedir? Bu başlangıç akademisi lise öğrencilerine finansal piyasaları keşfetmek için net bir başlangıç noktası sunar."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s3",
@@ -19331,7 +20287,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Gün İçi İşlem Ustalık Sınıfı",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir işlem kararını dürtüsel değil düşünceli yapan nedir? Bu başlangıç akademisi lise öğrencilerine finansal piyasaları keşfetmek için net bir başlangıç noktası sunar."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-engineering-research-scientific-investigation-the-research-process-s2",
@@ -19414,7 +20374,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Araştırmaları: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "İyi mühendislik araştırması, bir şey inşa edilmeden önce başlar. İncelenebilecek kadar spesifik ve peşinden gidilecek kadar önemli bir soruyla başlar."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s1",
@@ -19496,7 +20460,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "NFTE ile Girişimcilik: Yeni Girişim Kurma",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Umut vadeden bir fikir, sorulara dayanan bir iş konseptine ne kadar hızlı dönüşebilir?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s2",
@@ -19578,7 +20546,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "NFTE ile Girişimcilik: Yeni Girişim Kurma",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Umut vadeden bir fikir, sorulara dayanan bir iş konseptine ne kadar hızlı dönüşebilir?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-entrepreneurship-with-nfte-new-venture-creation-s3",
@@ -19660,7 +20632,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "NFTE ile Girişimcilik: Yeni Girişim Kurma",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Umut vadeden bir fikir, sorulara dayanan bir iş konseptine ne kadar hızlı dönüşebilir?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s1",
@@ -19743,7 +20719,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir soruşturmacı karmaşık bir mahalden savunulabilir bir sonuca nasıl ilerler? Öğrenciler delil bütünlüğüne ve delil zincirine dikkat ederek suç mahalli tekniklerini, araçlarını ve prosedürlerini keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s2",
@@ -19826,7 +20806,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir soruşturmacı karmaşık bir mahalden savunulabilir bir sonuca nasıl ilerler? Öğrenciler delil bütünlüğüne ve delil zincirine dikkat ederek suç mahalli tekniklerini, araçlarını ve prosedürlerini keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-forensic-investigation-crime-scenes-case-strategy-s3",
@@ -19909,7 +20893,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir soruşturmacı karmaşık bir mahalden savunulabilir bir sonuca nasıl ilerler? Öğrenciler delil bütünlüğüne ve delil zincirine dikkat ederek suç mahalli tekniklerini, araçlarını ve prosedürlerini keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s1",
@@ -19992,7 +20980,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Gayrimenkule Giriş",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir ev satmak veya bir konut mülkünü yönetmek neler gerektirir? Öğrenciler gayrimenkulde bir temel oluşturur; meslek genelinde kullanılan rolleri, sorumlulukları ve günlük kaynakları karşılaştırır."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s2",
@@ -20075,7 +21067,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Gayrimenkule Giriş",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir ev satmak veya bir konut mülkünü yönetmek neler gerektirir? Öğrenciler gayrimenkulde bir temel oluşturur; meslek genelinde kullanılan rolleri, sorumlulukları ve günlük kaynakları karşılaştırır."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-introduction-to-real-estate-s3",
@@ -20158,7 +21154,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Gayrimenkule Giriş",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir ev satmak veya bir konut mülkünü yönetmek neler gerektirir? Öğrenciler gayrimenkulde bir temel oluşturur; meslek genelinde kullanılan rolleri, sorumlulukları ve günlük kaynakları karşılaştırır."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s1",
@@ -20240,7 +21240,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Makine Mühendisliği: Yapısal Analiz ve Tasarım",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Mühendisler fiziği ve malzeme özelliklerini çalışan bir sisteme nasıl dönüştürür? Öğrenciler makine mühendisliğini yapısal ve malzeme analizi, tasarım, üretim, elektrik, termodinamik ve ısı transferi üzerinden keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s2",
@@ -20322,7 +21326,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Makine Mühendisliği: Yapısal Analiz ve Tasarım",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Mühendisler fiziği ve malzeme özelliklerini çalışan bir sisteme nasıl dönüştürür? Öğrenciler makine mühendisliğini yapısal ve malzeme analizi, tasarım, üretim, elektrik, termodinamik ve ısı transferi üzerinden keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s3",
@@ -20404,7 +21412,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Makine Mühendisliği: Yapısal Analiz ve Tasarım",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Mühendisler fiziği ve malzeme özelliklerini çalışan bir sisteme nasıl dönüştürür? Öğrenciler makine mühendisliğini yapısal ve malzeme analizi, tasarım, üretim, elektrik, termodinamik ve ısı transferi üzerinden keşfeder."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-medical-research-scientific-investigation-the-research-process-s1",
@@ -20487,7 +21499,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıbbi Araştırma: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir sağlık atılımı çoğu zaman dikkatle çerçevelenmiş bir soruyla başlar."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-medical-research-scientific-investigation-the-research-process-s3",
@@ -20570,7 +21586,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıbbi Araştırma: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bir sağlık atılımı çoğu zaman dikkatle çerçevelenmiş bir soruyla başlar."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s1",
@@ -20652,7 +21672,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Duruşma Canlandırması: Mahkeme Stratejisi ve Savunuculuk",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Ann Arbor'daki University of Michigan kampüsünde öğrenciler, canlı bir üniversite kasabası ortamında mahkeme stratejisini keşfeder. Bir duruşma, her rolün davayı farklı gördüğü koordineli bir süreçtir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s2",
@@ -20734,7 +21758,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Duruşma Canlandırması: Mahkeme Stratejisi ve Savunuculuk",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Ann Arbor'daki University of Michigan kampüsünde öğrenciler, canlı bir üniversite kasabası ortamında mahkeme stratejisini keşfeder. Bir duruşma, her rolün davayı farklı gördüğü koordineli bir süreçtir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-mock-trial-courtroom-strategy-advocacy-s3",
@@ -20816,7 +21844,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Duruşma Canlandırması: Mahkeme Stratejisi ve Savunuculuk",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Ann Arbor'daki University of Michigan kampüsünde öğrenciler, canlı bir üniversite kasabası ortamında mahkeme stratejisini keşfeder. Bir duruşma, her rolün davayı farklı gördüğü koordineli bir süreçtir."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s1",
@@ -20898,7 +21930,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kişisel Finans ve Yatırım Stratejisi",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bugünün finansal kararları gelecekte nasıl daha fazla seçenek yaratabilir? Öğrenciler bütçelemeye, tasarrufa, krediye, borca, yatırıma ve girişimciliğe bir giriş oluşturur."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s2",
@@ -20980,7 +22016,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kişisel Finans ve Yatırım Stratejisi",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bugünün finansal kararları gelecekte nasıl daha fazla seçenek yaratabilir? Öğrenciler bütçelemeye, tasarrufa, krediye, borca, yatırıma ve girişimciliğe bir giriş oluşturur."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s3",
@@ -21062,7 +22102,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kişisel Finans ve Yatırım Stratejisi",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Bugünün finansal kararları gelecekte nasıl daha fazla seçenek yaratabilir? Öğrenciler bütçelemeye, tasarrufa, krediye, borca, yatırıma ve girişimciliğe bir giriş oluşturur."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s1",
@@ -21145,7 +22189,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sosyal Psikoloji: Grup Davranışının Dinamikleri",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "İnsanlar neden kalabalığı izler, otoriteye itaat eder, ikna girişimlerine yanıt verir veya sosyal ortamlara göre farklı davranır? Öğrenciler grupları, ilişkileri, kurumları ve günlük hayatı davranışı şekillendiren güçleri inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s2",
@@ -21228,7 +22276,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sosyal Psikoloji: Grup Davranışının Dinamikleri",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "İnsanlar neden kalabalığı izler, otoriteye itaat eder, ikna girişimlerine yanıt verir veya sosyal ortamlara göre farklı davranır? Öğrenciler grupları, ilişkileri, kurumları ve günlük hayatı davranışı şekillendiren güçleri inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s3",
@@ -21310,7 +22362,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sosyal Psikoloji: Grup Davranışının Dinamikleri",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "İnsanlar neden kalabalığı izler, otoriteye itaat eder, ikna girişimlerine yanıt verir veya sosyal ortamlara göre farklı davranır? Öğrenciler grupları, ilişkileri, kurumları ve günlük hayatı davranışı şekillendiren güçleri inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s1",
@@ -21393,7 +22449,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Yönetimi ve Stratejisi: Oyunun Perde Arkası",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Spor neden hem büyük bir iş hem de Amerikan kültürünün önemli bir parçasıdır?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s2",
@@ -21476,7 +22536,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Yönetimi ve Stratejisi: Oyunun Perde Arkası",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Spor neden hem büyük bir iş hem de Amerikan kültürünün önemli bir parçasıdır?"
   },
   {
     "id": "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s3",
@@ -21559,7 +22623,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Yönetimi ve Stratejisi: Oyunun Perde Arkası",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Michigan Üniversitesi",
+    "description_short_tr": "Spor neden hem büyük bir iş hem de Amerikan kültürünün önemli bir parçasıdır?"
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-anatomy-academy-s1",
@@ -21642,7 +22710,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Anatomi Akademisi",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bir eklemin yapısı hareketi nasıl şekillendirir ve vücudun sistemleri bir kişiyi işlevsel tutmak için nasıl birlikte çalışır?"
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-biomedical-engineering-academy-s1",
@@ -21725,7 +22797,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Biyomedikal Mühendisliği Akademisi",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Mühendislik araçları araştırmacıların bedeni anlamasına veya sağlık hizmetlerini iyileştirmesine nasıl yardımcı olabilir? Öğrenciler mühendislik tasarım süreciyle ve biyomedikal mühendisliğe katkıda bulunan başlıca disiplinlerle başlar."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-business-innovation-and-entrepreneurship-academy-s1",
@@ -21807,7 +22883,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme İnovasyonu ve Girişimcilik Akademisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bu konuda bir şey yapma şansınız olsaydı hangi problemi çözerdiniz? Öğrenciler toplumlarında veya daha geniş dünyada fark ettikleri ihtiyaçlarla başlar, ardından girişimcilerin fikirleri nasıl etkiye dönüştürdüğünü keşfeder. Şirket kurmak yollardan yalnızca biridir."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-careers-in-medicine-academy-s1",
@@ -21889,7 +22969,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp Kariyerleri Akademisi",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bir sağlık profesyoneli bir hastanın neye ihtiyacı olabileceğine karar vermeden önce hangi bilgileri toplar? Öğrenciler yaşamsal belirtiler, tıbbi öykü görüşmeleri ve fizik muayeneyle başlar."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-digital-marketing-and-business-build-your-brand-s1",
@@ -21972,7 +23056,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Dijital Pazarlama ve İşletme Stratejisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bazı markalar neden dikkat çekerken diğerleri kalabalık akışta kaybolup gider? Öğrenciler tanıdık şirketleri içeren vakalarla strateji, müşteri davranışı, konumlandırma ve marka sesini çalışır."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-engineering-academy-s1",
@@ -22054,7 +23142,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Akademisi: Tasarım, Sistemler ve Problem Çözme",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Yararlı bir ürün, inşadan çok önce başlar. Öğrenci ekipleri problemi tanımlayarak, ihtiyaçları teknik özelliklere dönüştürerek ve olası yaklaşımları araştırarak başlar."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-forensic-science-and-crime-scene-investigation-s1",
@@ -22137,7 +23229,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Adli İnceleme: Olay Yeri ve Vaka Stratejisi",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bir damla kan, gizli bir parmak izi veya tek bir lif bir soruşturmanın yönünü değiştirebilir. Öğrenciler adli bilimcilerin fiziksel delilleri bulurken, korurken, test ederken, karşılaştırırken ve yorumlarken bulaşmadan nasıl koruduğunu öğrenir."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-introduction-to-law-academy-s1",
@@ -22219,7 +23315,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hukuk Akademisi: ABD Hukuk Sisteminin Temelleri",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "İnsanlar haklar, sorumluluk veya adalet konusunda anlaşamadığında, bir hukuki argümana gücünü veren nedir? Öğrenciler ABD Anayasası'nın, kuvvetler ayrılığının, federalizmin, mahkemelerin, kanunların ve örf ve adet hukukunun hukuki otoriteyi nasıl düzenlediğini inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-microbiology-s1",
@@ -22302,7 +23402,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mikrobiyoloji: Patojenler ve Biyoteknoloji",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bir mikroorganizma çıplak gözle görünmez olabilir, ancak şekli, büyümesi, hareketi ve tedaviye yanıtı kanıt bırakır."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-neuroscience-unlocking-the-brains-secrets-s1",
@@ -22385,7 +23489,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Nörobilim: Psikoloji, Davranış ve Biliş",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Sinir sistemi duyumu harekete, belleğe, davranışa ve uyuma nasıl dönüştürür? Öğrenciler nöroanatomi ve nörobilimin giriş düzeyi bir haritasını oluşturur, ardından hücrelerin, yolakların ve sistemlerin insan işlevine nasıl katkıda bulunduğunu inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-organizational-behavior-and-leadership-academy-s1",
@@ -22468,7 +23576,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Örgütsel Davranış ve Liderlik Akademisi",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bir kuruluşu çalıştıran nedir ve bir lider insanların katkı biçimini nasıl etkiler? Öğrenciler sahte kuruluşlar oluşturur, bir misyon ve değerler seçer, yönetici ve işlevsel roller atar ve sivil toplum, kurumsal ve girişim yapılarını karşılaştırır."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-positive-psychology-and-mental-wellness-s1",
@@ -22551,7 +23663,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Pozitif Psikoloji ve Ruhsal İyi Oluş",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bazı insanlar aksiliklerden neden diğerlerinden daha kolay toparlanır ve duygu, motivasyon ve ilişkiler iyi oluşu nasıl şekillendirir?"
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-psychology-academy-s1",
@@ -22633,7 +23749,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikoloji Akademisi: Nasıl Düşünür, Hisseder ve Davranırız?",
+    "subject_tr": "Psikoloji ve Sosyal Bilimler",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "İki kişi aynı olayı neden farklı yorumlayabilir? Bellek, duygu, kişilik ve toplumsal bağlam davranışı nasıl etkiler?"
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-persuasive-communication-public-speaking-s1",
@@ -22715,7 +23835,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Retorik ve Münazara: Argümantasyon ve İkna Edici Söylem",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bir konuşmacıyı görmezden gelmeyi zorlaştıran nedir? Öğrenciler önem verdikleri şeyi belirleyerek ve kısa bir tanıtım yaparak başlar."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-sports-management-s1",
@@ -22798,7 +23922,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Yönetimi ve Stratejisi: Oyunun Perde Arkası",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "Bazı spor kuruluşları rekabetin dışında neden başarılı olurken diğerleri zorlanır? Öğrenciler profesyonel liglerin, üniversite sporlarının, birliklerin, franchise'ların ve yeni ortaya çıkan yarışmaların ardındaki iş yapılarını ve yönetim kararlarını inceler."
   },
   {
     "id": "summer-discovery-2027-university-of-texas-at-austin-sports-media-behind-the-scenes-s1",
@@ -22881,7 +24009,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Spor Medyası: Yayıncılık ve Prodüksiyon",
+    "subject_tr": "Yaratıcı Sanatlar",
+    "location_tr": "Austin'deki Teksas Üniversitesi",
+    "description_short_tr": "İyi bir spor haberi yalnızca sonucu özetlemekten fazlasını yapar. Hikâyeyi belirler, kulak için yazar ve izleyicinin dikkatini tutmak için anlatımı ve görüntüleri kullanır."
   },
   {
     "id": "summer-discovery-2027-yale-university-ai-pioneers-code-create-build-ai-for-good-s1",
@@ -22963,7 +24095,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Öncüleri: İyilik İçin Kodla, Tasarla ve Yapay Zekâ Geliştir",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Bir bilgisayar verideki örüntüleri nasıl bulur ve bunları tahmin yapmak için nasıl kullanır?"
   },
   {
     "id": "summer-discovery-2027-yale-university-ai-scholars-build-intelligent-systems-for-social-good-s1",
@@ -23045,7 +24181,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Yapay Zekâ Araştırmacıları: Toplumsal Fayda İçin Akıllı Sistemler Geliştir",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Bir YZ kullanıcısını bir YZ geliştiricisinden ayıran nedir? Öğrenciler Python temellerini ve modeller, araçlar, ajanlar ve sistemler dahil modern yapay zekânın yapısını öğrenir."
   },
   {
     "id": "summer-discovery-2027-yale-university-regenerative-medicine-the-engineered-anatomy-s1",
@@ -23128,7 +24268,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Biyomedikal Mühendisliği Tasarım Laboratuvarı",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Gerçek bir hastaya uyması, hareket etmesi ve çalışması gereken bir yedek vücut parçasını nasıl tasarlardınız?"
   },
   {
     "id": "summer-discovery-2027-yale-university-codes-and-ciphers-the-mathematics-of-cryptography-s1",
@@ -23211,7 +24355,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kodu Çöz: Matematik, Şifreler ve Şifreleme",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Gizli bir mesaj, amacı olan bir matematik bulmacasıdır. Öğrenciler kriptografiyi Sezar kaydırmalarından ve yerine koyma sistemlerinden Enigma makinesine ve modern iletişimi koruyan açık anahtar fikirlerine kadar izler."
   },
   {
     "id": "summer-discovery-2027-yale-university-research-in-engineering-academy-s1",
@@ -23294,7 +24442,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mühendislik Araştırmaları: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "İncelemeye değer bir mühendislik problemiyle başlayın, ardından hangi kanıtın onu bir çözüme yaklaştırabileceğini belirleyin."
   },
   {
     "id": "summer-discovery-2027-yale-university-business-entrepreneurship-with-nfte-s1-1",
@@ -23376,7 +24528,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "NFTE ile Girişimcilik: Yeni Girişim Kurma",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Girişimciler, başkalarının görmezden gelmeyi öğrendiği problemleri fark ederek başlar."
   },
   {
     "id": "summer-discovery-2027-yale-university-global-politics-unveiled-human-rights-justice-in-a-changing-world-s1",
@@ -23458,7 +24614,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Küresel Siyaset: İnsan Hakları ve Uluslararası Hukuk",
+    "subject_tr": "Hukuk ve Kamu Yönetimi",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Bir insan hakları ihlali nadiren yalnızca bir fail ve bir mağdurdan ibarettir."
   },
   {
     "id": "summer-discovery-2027-yale-university-hit-the-gavel-mock-trial-and-debate-s1",
@@ -23541,7 +24701,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Hâkim Tokmağını Vur: Duruşma Canlandırması ve Münazara",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Mahkeme salonundaki bir argüman bir iddiayı kanıta bağlamalı ve o kanıtın neden önemli olduğunu açıklamalıdır."
   },
   {
     "id": "summer-discovery-2027-yale-university-research-in-medicine-academy-s1",
@@ -23624,7 +24788,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıbbi Araştırma: Bilimsel İnceleme ve Araştırma Süreci",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Tıp veya halk sağlığı hakkında bir soruyla başlayın, ardından hangi kanıtın onu yanıtlayabileceğini belirlemek için geriye doğru çalışın. Öğrenciler tıbbi araştırmanın nasıl geliştiğini inceler ve PubMed ile Cochrane Library gibi akademik veri tabanlarında arama yapmayı öğrenir."
   },
   {
     "id": "summer-discovery-2027-yale-university-medical-microbiology-s1",
@@ -23707,7 +24875,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mikrop Dedektifleri: Enfeksiyon, Bağışıklık ve Hastalık",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Mikroorganizmalar her yerdedir, ancak etkileri yararlıdan zararlıya uzanır. Öğrenciler tıbbi mikrobiyolojinin tarihiyle ve keşifleri insanların enfeksiyonu anlama biçimini değiştiren bilim insanlarıyla başlar."
   },
   {
     "id": "summer-discovery-2027-yale-university-money-matters-stocks-bonds-your-financial-future-s1",
@@ -23789,7 +24961,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Finans Önemlidir: Yatırım Planını Oluştur",
+    "subject_tr": "Ekonomi ve Finans",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Bir hisse seçmek yalnızca başlangıçtır. Öğrenciler bir şirketi incelemeye değer kılan şeyin ne olduğunu, bir yatırımcının hedeflerinin stratejiyi nasıl şekillendirdiğini ve getirinin risk, ücretler ve zaman olmadan neden düşünülemeyeceğini sorar."
   },
   {
     "id": "summer-discovery-2027-yale-university-neuroscience-the-brains-physiology-pathology-s1",
@@ -23872,7 +25048,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Nörobilim: Beyin Fizyolojisi ve Hastalıklar",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Beynin yapısı duyumu, hareketi, düşünceyi ve davranışı anlamak için bir harita sunar."
   },
   {
     "id": "summer-discovery-2027-yale-university-quantum-mechanics-in-the-quantum-realm-s1",
@@ -23954,7 +25134,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kuantum Fiziği: Süperpozisyon ve Atom Altı Dünya",
+    "subject_tr": "Fen Bilimleri ve Matematik",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "En küçük ölçeklerde madde ve ışık, gündelik sezgiyi zorlayan biçimlerde davranır."
   },
   {
     "id": "summer-discovery-2027-yale-university-remarkable-rhetoric-make-a-lasting-impression-s1",
@@ -24036,7 +25220,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Özgüvenle Konuş: Retorik ve Münazara",
+    "subject_tr": "Beşerî Bilimler",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Her konuşma bir izleyiciden bir şey düşünmesini, hissetmesini, yapmasını veya hatırlamasını ister. Öğrenciler bilgilendirici, ikna edici, eğlendirici ve törensel konuşmaların bu farklı amaçlara nasıl hizmet ettiğini öğrenir."
   },
   {
     "id": "summer-discovery-2027-yale-university-stem-cells-in-action-revolutionary-medicine-s1",
@@ -24119,7 +25307,11 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Kök Hücreler İş Başında: Tıpta Çığır Açan Gelişmeler",
+    "subject_tr": "Tıp ve Sağlık Bilimleri",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Yeni bir tıbbi teknolojinin umut verici görünmekten fazlasını yapması gerekir. Öğrenciler araştırmanın neyi gösterdiğini, hangi hastaların yararlanabileceğini ve maliyetin, erişimin, etiğin ve halk sağlığı etkilerinin bir fikrin ilerleyip ilerleyemeyeceğini nasıl şekillendirdiğini sormayı öğrenir."
   },
   {
     "id": "summer-discovery-2027-yale-university-business-entrepreneurship-with-nfte-s1",
@@ -24201,6 +25393,10 @@
       "grades_only_no_age_range",
       "campus_level_price_not_course_specific"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Genç Girişimciler: NFTE ile İşini Kur",
+    "subject_tr": "İşletme, Liderlik ve Girişimcilik",
+    "location_tr": "Yale Üniversitesi",
+    "description_short_tr": "Güçlü bir iş fikri, çözmeye değer bir problemle başlar. Öğrenciler karşılanmamış ihtiyaçları arar, bir fikrin gerçek değer yaratıp yaratamayacağını test eder ve düşüncelerini tek bir özgün girişim konseptine daraltır."
   }
 ]

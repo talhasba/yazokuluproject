@@ -69,7 +69,11 @@
     "flags": [
       "operator_attribution_provisional"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Vogue Yaz Okulu - Londra",
+    "subject_tr": "Moda İşletmeciliği ve Medya",
+    "location_tr": "Londra",
+    "description_short_tr": "Modayı İngiliz mirası ve yıkıcı markalar üzerinden keşfedin; markalaşma, pazarlama, halkla ilişkiler, perakende, sürdürülebilirlik ve yaratıcı hizmetlerde projeler ve ziyaretler."
   },
   {
     "id": "edconic-pre-college-summer-academy-nyc-nyc-summer-academy",
@@ -144,7 +148,11 @@
       "operator_page_not_directly_fetchable",
       "operator_attribution_provisional"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "NYC Yaz Akademisi",
+    "subject_tr": "Gazetecilik ve Yazarlık",
+    "location_tr": "New York",
+    "description_short_tr": "Gazeteciler ve editörlerle gazetecilik ve medyayı (kültür, spor, moda, iş ve hukuk) keşfedin; New York City'yi uzatılmış bir sınıf olarak kullanın."
   },
   {
     "id": "edconic-pre-college-summer-institute-summer-institute-nyc",
@@ -217,7 +225,11 @@
       "2026_sections_reported_closed",
       "operator_attribution_provisional"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "NYC Yaz Enstitüsü",
+    "subject_tr": "Sanat İşletmeciliği ve Sanat Tarihi",
+    "location_tr": "New York",
+    "description_short_tr": "Sanat, kültür ve lüksü keşfedin; müzeler, galeriler, müzayede evleri ve sanatçı stüdyolarıyla sektörü ilk elden deneyimleyin."
   },
   {
     "id": "edconic-vogue-summer-school-vogue-summer-school-nyc",
@@ -291,7 +303,11 @@
       "missing_age",
       "operator_attribution_provisional"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Vogue Yaz Okulu - NYC",
+    "subject_tr": "Moda İşletmeciliği ve Medya",
+    "location_tr": "New York",
+    "description_short_tr": "Vogue ile küresel moda sektörünün kulisine girin; moda işletmeciliği, moda medyası ve moda stilistliği temel kurslarından seçin."
   },
   {
     "id": "edconic-courses-vogue-winter-break-vogue-winter-break-nyc",
@@ -363,7 +379,11 @@
       "missing_age",
       "operator_attribution_provisional"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Vogue Kış Programı - NYC",
+    "subject_tr": "Moda İşletmeciliği ve Medya",
+    "location_tr": "New York",
+    "description_short_tr": "Lise öğrencileri için New York'ta, sınıf öğrenimini şehrin moda sektörüne erişimle birleştiren beş günlük moda işletmeciliği yoğun programı."
   },
   {
     "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
@@ -428,7 +448,11 @@
       "year_round_online",
       "operator_attribution_provisional"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Çevrim İçi Temel Program",
+    "subject_tr": "Moda İşletmeciliği ve Medya",
+    "location_tr": "Çevrim içi",
+    "description_short_tr": "Dünyanın her yerinden Vogue ile çevrimiçi moda okuyun; üniversite ve kariyer fırsatlarında bir adım önde başlayın."
   },
   {
     "id": "edconic-precollege-mayo-edu-pre-college-healthcare-academy",
@@ -495,6 +519,10 @@
       "inaugural_2026_cohort_100_seats",
       "operator_attribution_provisional"
     ],
-    "publish_status": "ready"
+    "publish_status": "ready",
+    "title_tr": "Üniversite Öncesi Sağlık Akademisi",
+    "subject_tr": "Tıp ve Sağlık",
+    "location_tr": "Rochester, Minnesota",
+    "description_short_tr": "Mayo Clinic'in öğrenme ortamında iki haftalık yatılı tıp ve sağlık hizmetlerine giriş; interaktif atölyeler ve uygulamalı öğrenmeyle."
   }
 ]

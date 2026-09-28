@@ -62,7 +62,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Fizik ve Mühendislik",
+    "subject_tr": "Fizik ve Mühendislik",
+    "location_tr": "Cambridge ve Londra",
+    "description_short_tr": "Fizik ve mühendislik dahil üç birbirini tamamlayan dersi uygulamalı atölyeler ve kuram oturumlarıyla hayata geçirin."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-architecture",
@@ -127,7 +131,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Mimarlık",
+    "subject_tr": "Mimarlık",
+    "location_tr": "Londra",
+    "description_short_tr": "Mimarlığa ilk adımlarınızı atın: tasarım ilkeleri, pratik beceriler ve portfolyo oluşturma; merkezi Londra."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
@@ -192,7 +200,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Sanat ve Tasarım",
+    "subject_tr": "Sanat ve Tasarım",
+    "location_tr": "Londra",
+    "description_short_tr": "Yaratıcılığınızı ifade etmek için farklı malzeme, teknik ve formları deneyin: illüstrasyondan resme, tipografiden renge."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
@@ -257,7 +269,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "İşletme, Finans ve Ekonomi",
+    "subject_tr": "İşletme, Finans ve Ekonomi",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "İşletmelerin nasıl çalıştığını anlayın: planlama, yatırım ve tedarik zincirinden markalaşma ve pazarlamaya."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
@@ -322,7 +338,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Bilgisayar Bilimleri, Robotik ve Yapay Zekâ",
+    "subject_tr": "Bilgisayar Bilimleri, Robotik ve Yapay Zekâ",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "Geleceğimizi şekillendiren teknolojiyi kriptodan kodlamaya keşfedin ve hayal gücünüzü robot yaparak kullanın."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
@@ -387,7 +407,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Tıp ve Fen Bilimleri",
+    "subject_tr": "Tıp ve Fen Bilimleri",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "Tıp fakültesi yolculuğunuza uygulamalı atölyeler ve kuramsal öğrenmeyle başlayın."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
@@ -452,7 +476,11 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Siyaset ve Hukuk",
+    "subject_tr": "Siyaset ve Hukuk",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "Nasıl yönetildiğimizi belirleyen kurumları ve kararları, günümüz manşetlerindeki hukuki ve siyasi konuları anlayın."
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
@@ -517,6 +545,10 @@
       "current_price_unpublished",
       "historical_2026_age_and_price_available"
     ],
-    "publish_status": "needs_review"
+    "publish_status": "needs_review",
+    "title_tr": "Psikoloji ve Sosyoloji",
+    "subject_tr": "Psikoloji ve Sosyoloji",
+    "location_tr": "Londra ve Cambridge",
+    "description_short_tr": "İnsan davranışına ve modern toplumu nasıl şekillendirdiğine bakın: suç davranışı, sosyal kimlik, aile ve medya."
   }
 ]

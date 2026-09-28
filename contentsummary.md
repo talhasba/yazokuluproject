@@ -166,7 +166,7 @@ The Word document should normally be treated as a reading and proofreading refer
 
 ## Important Content Notes
 
-- English content is more complete than Turkish content for some providers.
+- All 480 program records include Turkish catalogue metadata (`title_tr`, `subject_tr`, `location_tr`, and `description_short_tr`), and all digest-backed detail pages include reviewed Turkish content. The original English source descriptions remain preserved separately.
 - Many newer-provider records are marked `needs_review` because the source supplied grades instead of ages, campus-level pricing instead of course-specific pricing, historical information, or incomplete dates and fees.
 - Some providers use shared catalogue pages instead of program-specific detail URLs.
 - Image coverage is incomplete. The website uses mapped image candidates, record-level image URLs, or a placeholder when no image is available.
