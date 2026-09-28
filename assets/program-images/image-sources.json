@@ -347,9 +347,95 @@
       "description": "Imola (Italy), \"Enzo e Dino Ferrari\" Autodrome, June 1998. A view of circuit tower and start-finish line during a day of private motorcycle testing.",
       "local_path": "/assets/program-images/campuses/motor-valley.webp",
       "query": "Italian Motor Valley race track"
+    },
+    "bremen": {
+      "title": "Constructor University campus sign (Bremen)",
+      "source": "Supplied directly by the user (not sourced from Wikimedia Commons by this pipeline)",
+      "download_url": "",
+      "original_url": "",
+      "commons_page": "",
+      "width": null,
+      "height": null,
+      "license": "Unknown — provenance not verified. Confirm usage rights (e.g. with Constructor University) before any public/commercial redistribution beyond this internal catalogue.",
+      "license_url": "",
+      "artist": "",
+      "credit": "",
+      "description": "Campus wayfinding sign and building at Constructor University, Bremen, Germany.",
+      "local_path": "/assets/program-images/campuses/bremen.jpg",
+      "query": "user-supplied, 2026-09-28"
+    }
+  },
+  "constructor_topic_images": {
+    "usage_note": "Distinct Wikimedia Commons photos used per Constructor University Summer Camp course, since the provider's own site has only one shared marketing photo for all 9 courses. Not campus photos of Bremen — subject-illustrative only.",
+    "images": {
+      "mathematics-and-modeling": {
+        "title": "File:Mathematics lecture at the Helsinki University of Technology.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mathematics_lecture_at_the_Helsinki_University_of_Technology.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mathematics_lecture_at_the_Helsinki_University_of_Technology.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Tungsten",
+        "credit": "photo taken by Tungsten",
+        "local_path": "/assets/program-images/constructor/mathematics-and-modeling.jpg"
+      },
+      "programming-and-algorithms": {
+        "title": "File:Macro laptop coding (Unsplash).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Macro_laptop_coding_(Unsplash).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Macro_laptop_coding_(Unsplash).jpg",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+        "artist": "Marc Mueller (seven11nash)",
+        "credit": "https://unsplash.com/photos/Lg8xTZjs6Lg",
+        "local_path": "/assets/program-images/constructor/programming-and-algorithms.jpg"
+      },
+      "neural-networks-and-robotics": {
+        "title": "File:MIREA Laboratory Industry 4.0. Digital robotic manufacturing 5.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/MIREA_Laboratory_Industry_4.0._Digital_robotic_manufacturing_5.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:MIREA_Laboratory_Industry_4.0._Digital_robotic_manufacturing_5.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Нечаева Лилия Александровна",
+        "credit": "Фотостудия РТУ МИРЭА",
+        "local_path": "/assets/program-images/constructor/neural-networks-and-robotics.jpg"
+      },
+      "physics-and-research": {
+        "title": "File:Particle Physics Masterclass students visit Diamond. (8270039132).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Particle_Physics_Masterclass_students_visit_Diamond._(8270039132).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Particle_Physics_Masterclass_students_visit_Diamond._(8270039132).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Science and Technology Facilities Council",
+        "credit": "Particle Physics Masterclass students visit Diamond.",
+        "local_path": "/assets/program-images/constructor/physics-and-research.jpg"
+      },
+      "human-behavior-and-society": {
+        "title": "File:Education Seminar (6234253230).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Education_Seminar_(6234253230).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Education_Seminar_(6234253230).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "US Embassy Sweden",
+        "credit": "Education Seminar",
+        "local_path": "/assets/program-images/constructor/human-behavior-and-society.jpg"
+      },
+      "innovation-and-design-thinking": {
+        "title": "File:A Design thinking Workshop.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/A_Design_thinking_Workshop.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_Design_thinking_Workshop.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Jose Berengueres",
+        "credit": "Own work",
+        "local_path": "/assets/program-images/constructor/innovation-and-design-thinking.jpg"
+      }
+    },
+    "reused_existing_local_images": {
+      "chemistry-and-research": "/assets/Chemistry-Product-Image-1-300x300-Bun8Vcox.webp",
+      "biology-and-research": "/assets/Biology-Product-Image-2-300x300-CH2Cuhib.webp",
+      "business-and-entrepreneurship": "/assets/Business-Management-Product-Image-4-300x300-D6z5b-10.webp"
     }
   },
   "failures": {},
-  "programs_mapped": 471,
-  "campus_images_downloaded": 23
+  "programs_mapped": 480,
+  "campus_images_downloaded": 24
 }

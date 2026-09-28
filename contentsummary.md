@@ -13,17 +13,18 @@ Visitors can:
 - Switch between English and Turkish where translated content is available.
 - Use the catalogue on desktop and mobile devices.
 
-The website currently contains **471 programs from nine providers**:
+The website currently contains **480 programs from ten providers**:
 
 1. Bucksmore
-2. Edconic
-3. Immerse Education
-4. InvestIN Education
-5. MPW Summer School
-6. Oxford Royale
-7. Sportech Academy
-8. St Clare's, Oxford
-9. Summer Discovery
+2. Constructor University
+3. Edconic
+4. Immerse Education
+5. InvestIN Education
+6. MPW Summer School
+7. Oxford Royale
+8. Sportech Academy
+9. St Clare's, Oxford
+10. Summer Discovery
 
 The website is a static application. It loads its program information from JSON files in the repository and does not use a database or server-side content-management system.
 
@@ -49,7 +50,7 @@ This file contains the structured records used by the website. Depending on the 
 - Image and source URLs
 - Publication status and data-quality flags
 
-The file currently contains **184 records marked `ready`** and **287 records marked `needs_review`**. A `needs_review` status does not necessarily mean that the program is unusable. It indicates that one or more fields may need confirmation, such as age, grade, price, date, scope, source attribution, or whether the program fits the intended catalogue.
+The file currently contains **184 records marked `ready`** and **296 records marked `needs_review`**. A `needs_review` status does not necessarily mean that the program is unusable. It indicates that one or more fields may need confirmation, such as age, grade, price, date, scope, source attribution, or whether the program fits the intended catalogue.
 
 ## Purpose of the `contents` Folder
 
@@ -63,13 +64,15 @@ The folder contains:
 
 These files are generated snapshots of `data/programs.normalized.json`. They are reference and editing tools; they are not automatically connected to the website.
 
+**Note:** these snapshots predate the Constructor University addition (see below) and still describe the earlier 471-program, nine-provider state. Regenerate them from the current JSON before relying on their totals or worksheet list.
+
 ## `provider-contents.xlsx`
 
-The Excel workbook is the main content-editing file. It contains **19 worksheets**:
+As last generated, the Excel workbook is the main content-editing file and contains **19 worksheets**:
 
 - One `Index` worksheet
-- One `Info` worksheet for each of the nine providers
-- One `Content` worksheet for each of the nine providers
+- One `Info` worksheet for each of the nine providers covered at generation time
+- One `Content` worksheet for each of the nine providers covered at generation time
 
 ### Index Worksheet
 
@@ -180,6 +183,7 @@ The Word document should normally be treated as a reading and proofreading refer
 | Edit descriptions and long-form text | `contents/provider-contents.xlsx`, provider Content worksheet |
 | Publish changes to the website | `data/programs.normalized.json` |
 | Review normalization decisions for newer providers | `normalized_new_providers/README.md` and QA files |
+| Review normalization decisions for Constructor University | `normalized_constructor/README.md` |
 | Understand the application code and technical risks | `summary.md` |
 
 ## Recommended Maintenance Practice

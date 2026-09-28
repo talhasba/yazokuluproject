@@ -1,0 +1,267 @@
+{
+  "mathematics-and-modeling": {
+    "flags": [],
+    "en": {
+      "focus": "Learn calculus and mathematical modeling — functions, derivatives, integrals and data analysis — and apply them to real-world natural, social and technical problems.",
+      "tags": ["Calculus", "Data analysis", "Optimization", "Modeling"],
+      "hl": ["Build and analyze real mathematical models, from logistic growth to forecasting", "Use statistics and regression on real datasets"],
+      "do": [
+        ["Derivatives and change", "See how derivatives measure and predict change, and use them to solve basic optimization problems."],
+        ["Integrals and differential equations", "Move from rates of change to integrals and differential equations that describe real processes."],
+        ["Statistics with real data", "Explore distributions and use spreadsheets to analyze mean, median and spread in real datasets."],
+        ["Models for decisions and forecasting", "Apply optimization, decision-making and forecasting models, including linear and logistic regression."]
+      ],
+      "outcomes": ["Read and build simple mathematical models of real processes", "Use derivatives, integrals and statistics to analyze and predict outcomes"],
+      "fit": ["Curious about how math describes the real world", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "Kalkülüs ve matematiksel modellemenin temellerini öğrenin — fonksiyonlar, türevler, integraller ve veri analizi — ve bunları gerçek dünyadaki doğa, toplum ve teknik problemlere uygulayın.",
+      "tags": ["Kalkülüs", "Veri analizi", "Optimizasyon", "Modelleme"],
+      "hl": ["Lojistik büyümeden tahmine gerçek matematiksel modeller kurun ve analiz edin", "İstatistik ve regresyonu gerçek veri setlerinde kullanın"],
+      "do": [
+        ["Türevler ve değişim", "Türevlerin değişimi nasıl ölçtüğünü görün ve temel optimizasyon problemlerini çözmek için kullanın."],
+        ["İntegraller ve diferansiyel denklemler", "Değişim oranlarından, gerçek süreçleri tanımlayan integrallere ve diferansiyel denklemlere geçin."],
+        ["Gerçek verilerle istatistik", "Dağılımları keşfedin ve gerçek veri setlerinde ortalama, medyan ve yayılımı analiz etmek için elektronik tablolar kullanın."],
+        ["Karar ve tahmin modelleri", "Doğrusal ve lojistik regresyon dahil optimizasyon, karar verme ve tahmin modellerini uygulayın."]
+      ],
+      "outcomes": ["Gerçek süreçlerin basit matematiksel modellerini okuyabilme ve kurabilme", "Sonuçları analiz etmek ve tahmin etmek için türev, integral ve istatistik kullanabilme"],
+      "fit": ["Matematiğin gerçek dünyayı nasıl tanımladığını merak edenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  },
+  "programming-and-algorithms": {
+    "flags": [],
+    "en": {
+      "focus": "Study algorithmic problem-solving and computational complexity, from Big-O notation to recursion, sorting and searching.",
+      "tags": ["Algorithms", "Big-O notation", "Recursion", "Sorting", "Searching"],
+      "hl": ["Compare algorithm efficiency using Big-O notation", "Work hands-on with classic sorting and searching techniques"],
+      "do": [
+        ["Big-O notation", "Formalize algorithm efficiency with Big-O notation and compare different approaches to the same problem."],
+        ["Recursion and descent", "Explore recursion and descent techniques, including the Euclidean Algorithm, and their limitations."],
+        ["Sorting algorithms", "Study sorting techniques in detail, from Insertion Sort to Quicksort."],
+        ["Compressing and searching", "Work with Huffman trees and interpolation search to compress and search data efficiently."]
+      ],
+      "outcomes": ["Analyze and compare the efficiency of different algorithms", "Apply recursion, sorting and searching techniques to solve computational problems"],
+      "fit": ["Enjoys logical problem-solving and computational thinking", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "Big-O gösteriminden özyinelemeye, sıralamaya ve aramaya kadar algoritmik problem çözme ve hesaplama karmaşıklığını inceleyin.",
+      "tags": ["Algoritmalar", "Big-O gösterimi", "Özyineleme", "Sıralama", "Arama"],
+      "hl": ["Algoritma verimliliğini Big-O gösterimiyle karşılaştırın", "Klasik sıralama ve arama tekniklerinde uygulamalı çalışın"],
+      "do": [
+        ["Big-O gösterimi", "Algoritma verimliliğini Big-O gösterimiyle formülleştirin ve aynı probleme farklı yaklaşımları karşılaştırın."],
+        ["Özyineleme ve indirgeme", "Öklid Algoritması dahil özyineleme ve indirgeme tekniklerini ve sınırlamalarını keşfedin."],
+        ["Sıralama algoritmaları", "Insertion Sort'tan Quicksort'a sıralama tekniklerini detaylı inceleyin."],
+        ["Sıkıştırma ve arama", "Veriyi verimli sıkıştırmak ve aramak için Huffman ağaçları ve interpolasyon aramasıyla çalışın."]
+      ],
+      "outcomes": ["Farklı algoritmaların verimliliğini analiz edip karşılaştırabilme", "Hesaplamalı problemleri çözmek için özyineleme, sıralama ve arama tekniklerini uygulayabilme"],
+      "fit": ["Mantıksal problem çözmeyi ve hesaplamalı düşünmeyi sevenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  },
+  "neural-networks-and-robotics": {
+    "flags": [],
+    "en": {
+      "focus": "Build and train a real AI-driven robot, from hardware assembly to reinforcement learning, sensor calibration and autonomous navigation.",
+      "tags": ["Robotics", "Reinforcement learning", "AI", "Sensors", "Hardware"],
+      "hl": ["Assemble a fully functional robot from motors, sensors and camera", "Train and deploy your own reinforcement-learning policy", "Race your trained robot on a miniature railway with obstacles"],
+      "do": [
+        ["Robot hardware", "Assemble the robot: mount motors, attach the camera and sensors, wire the emergency stop, and power it on for the first time."],
+        ["Sensing and calibration", "Analyze raw sensor signals and calibrate the camera, distance sensor and magnet detector through hands-on experiments."],
+        ["Reinforcement learning", "Run and tweak ready-to-use RL models, then modify reward parameters to shape the robot's navigation style."],
+        ["Training and deployment", "Launch a training loop, export the resulting policy, and load it onto the robot to test its real-world performance."],
+        ["Bot's journey", "Run your trained robot through a full miniature railway with obstacles and magnetic stations."]
+      ],
+      "outcomes": ["Assemble and calibrate a functioning robotic platform", "Train and deploy a reinforcement-learning policy on real hardware"],
+      "fit": ["Wants hands-on experience with AI and robotics hardware", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "Donanım montajından pekiştirmeli öğrenmeye, sensör kalibrasyonuna ve otonom navigasyona kadar gerçek bir yapay zeka destekli robot inşa edip eğitin.",
+      "tags": ["Robotik", "Pekiştirmeli öğrenme", "Yapay zeka", "Sensörler", "Donanım"],
+      "hl": ["Motor, sensör ve kameradan tam işlevli bir robot monte edin", "Kendi pekiştirmeli öğrenme politikanızı eğitip devreye alın", "Eğittiğiniz robotu engelli minyatür bir ray hattında yarıştırın"],
+      "do": [
+        ["Robot donanımı", "Robotu monte edin: motorları takın, kamera ve sensörleri bağlayın, acil durdurmayı kablolandırın ve ilk kez çalıştırın."],
+        ["Algılama ve kalibrasyon", "Ham sensör sinyallerini analiz edin; kamera, mesafe sensörü ve mıknatıs dedektörünü uygulamalı deneylerle kalibre edin."],
+        ["Pekiştirmeli öğrenme", "Hazır RL modellerini çalıştırıp ayarlayın, ardından robotun navigasyon tarzını şekillendirmek için ödül parametrelerini değiştirin."],
+        ["Eğitim ve devreye alma", "Bir eğitim döngüsü başlatın, elde edilen politikayı dışa aktarın ve robota yükleyerek gerçek dünya performansını test edin."],
+        ["Botun yolculuğu", "Eğittiğiniz robotu engeller ve mıknatıslı istasyonlar içeren tam bir minyatür ray hattında çalıştırın."]
+      ],
+      "outcomes": ["Çalışan bir robotik platformu monte edip kalibre edebilme", "Gerçek donanımda bir pekiştirmeli öğrenme politikası eğitip devreye alabilme"],
+      "fit": ["Yapay zeka ve robotik donanımıyla uygulamalı deneyim isteyenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  },
+  "chemistry-and-research": {
+    "flags": [],
+    "en": {
+      "focus": "Connect fundamental chemistry — atomic structure, reactions, acids and bases — to advanced materials, biochemistry and everyday life.",
+      "tags": ["Chemical bonding", "Reactions", "Biochemistry", "Materials", "Sustainability"],
+      "hl": ["Hands-on activities and demonstrations across the periodic table", "See how AI and computation are changing molecular discovery"],
+      "do": [
+        ["Atomic structure and bonding", "Explore how the periodic table organizes elements and how chemical bonds form diverse substances."],
+        ["Reactions, acids and bases", "Study how substances transform and the analytical techniques chemists use to identify them."],
+        ["Biochemistry of life", "See how carbon's bonding versatility builds proteins, carbohydrates, lipids and nucleic acids."],
+        ["Materials, medicine and sustainability", "Look at nanomaterials, drug discovery, and the chemistry behind pollution, plastics and green energy."]
+      ],
+      "outcomes": ["Explain core chemical principles from atomic structure to biochemistry", "Connect chemistry to real materials, medicine and sustainability challenges"],
+      "fit": ["Curious about how chemistry powers living systems and technology", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "Temel kimyayı — atomik yapı, reaksiyonlar, asitler ve bazlar — ileri malzemelere, biyokimyaya ve günlük hayata bağlayın.",
+      "tags": ["Kimyasal bağlar", "Reaksiyonlar", "Biyokimya", "Malzemeler", "Sürdürülebilirlik"],
+      "hl": ["Periyodik tablo boyunca uygulamalı etkinlikler ve gösterimler", "Yapay zekanın moleküler keşfi nasıl değiştirdiğini görün"],
+      "do": [
+        ["Atomik yapı ve bağlar", "Periyodik tablonun elementleri nasıl organize ettiğini ve kimyasal bağların çeşitli maddeleri nasıl oluşturduğunu keşfedin."],
+        ["Reaksiyonlar, asitler ve bazlar", "Maddelerin nasıl dönüştüğünü ve kimyagerlerin bunları tanımlamak için kullandığı analitik teknikleri inceleyin."],
+        ["Yaşamın biyokimyası", "Karbonun bağ çeşitliliğinin proteinleri, karbonhidratları, lipitleri ve nükleik asitleri nasıl inşa ettiğini görün."],
+        ["Malzemeler, tıp ve sürdürülebilirlik", "Nanomalzemelere, ilaç keşfine ve kirlilik, plastikler ile yeşil enerjinin arkasındaki kimyaya bakın."]
+      ],
+      "outcomes": ["Atomik yapıdan biyokimyaya temel kimya ilkelerini açıklayabilme", "Kimyayı gerçek malzemeler, tıp ve sürdürülebilirlik sorunlarına bağlayabilme"],
+      "fit": ["Kimyanın canlı sistemleri ve teknolojiyi nasıl güçlendirdiğini merak edenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  },
+  "biology-and-research": {
+    "flags": [],
+    "en": {
+      "focus": "Explore biology from cell structure and DNA to evolution, brain function and ecosystems, with real applications in genetics, medicine and conservation.",
+      "tags": ["Cell biology", "Genetics", "Evolution", "Ecology", "Bioengineering"],
+      "hl": ["Connect classical genetics to modern gene editing", "Explore extreme and unusual life-forms and adaptations"],
+      "do": [
+        ["Cells and genetics", "Study cell structure and communication, then trace gene expression from classical inheritance to modern gene editing."],
+        ["Evolution and the brain", "Examine natural selection and fossil evidence, then explore neuroplasticity and how the brain shapes behavior."],
+        ["Ecology and immunity", "Trace energy flow through ecosystems and see how the immune system responds to pathogens and vaccines."],
+        ["Bioengineering", "Look at genetic engineering, regenerative technologies and the ethics of biological manipulation."]
+      ],
+      "outcomes": ["Explain how cells, genes and evolution shape living systems", "Connect biology to genetic engineering, medicine and conservation"],
+      "fit": ["Curious about genetics, the brain, or how living systems work", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "Hücre yapısından ve DNA'dan evrime, beyin işlevine ve ekosistemlere kadar biyolojiyi keşfedin; genetik, tıp ve koruma alanlarındaki gerçek uygulamalarla.",
+      "tags": ["Hücre biyolojisi", "Genetik", "Evrim", "Ekoloji", "Biyomühendislik"],
+      "hl": ["Klasik genetiği modern gen düzenlemeye bağlayın", "Sıra dışı yaşam formlarını ve adaptasyonları keşfedin"],
+      "do": [
+        ["Hücreler ve genetik", "Hücre yapısını ve iletişimini inceleyin, ardından gen ifadesini klasik kalıtımdan modern gen düzenlemeye kadar izleyin."],
+        ["Evrim ve beyin", "Doğal seçilimi ve fosil kanıtlarını inceleyin, ardından nöroplastisitenin davranışı nasıl şekillendirdiğini keşfedin."],
+        ["Ekoloji ve bağışıklık", "Ekosistemlerde enerji akışını izleyin ve bağışıklık sisteminin patojenlere ve aşılara nasıl tepki verdiğini görün."],
+        ["Biyomühendislik", "Genetik mühendisliğine, rejeneratif teknolojilere ve biyolojik müdahalenin etiğine bakın."]
+      ],
+      "outcomes": ["Hücrelerin, genlerin ve evrimin canlı sistemleri nasıl şekillendirdiğini açıklayabilme", "Biyolojiyi genetik mühendisliği, tıp ve korumaya bağlayabilme"],
+      "fit": ["Genetiği, beyni veya canlı sistemlerin nasıl çalıştığını merak edenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  },
+  "physics-and-research": {
+    "flags": [],
+    "en": {
+      "focus": "Study motion, energy, waves and electromagnetism, and connect them to modern computing, AI and space exploration.",
+      "tags": ["Mechanics", "Electromagnetism", "Optics", "Computing & AI"],
+      "hl": ["Link classic physics to the semiconductors that power AI", "Derive the orbital and escape velocities behind satellite launches"],
+      "do": [
+        ["Forces, waves and heat", "Work through motion, Newton's laws, wave behavior, and why real engines fall short of Carnot efficiency."],
+        ["Electricity and magnetism", "Apply Ohm's and Kirchhoff's laws, then explore induction through generators and induction-cooktop stoves."],
+        ["Optics and space", "Study reflection, refraction and lenses, then derive the orbital and escape velocities behind space travel."],
+        ["Physics of computing and AI", "Dive into semiconductor band theory and transistor switching that underlie digital circuits and AI hardware."]
+      ],
+      "outcomes": ["Apply core physics principles to real mechanical, electrical and optical systems", "Connect physics to modern computing, AI hardware and space exploration"],
+      "fit": ["Enjoys connecting physics principles to real-world technology", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "Hareket, enerji, dalgalar ve elektromanyetizmayı inceleyin; bunları modern hesaplama, yapay zeka ve uzay keşfiyle ilişkilendirin.",
+      "tags": ["Mekanik", "Elektromanyetizma", "Optik", "Hesaplama ve YZ"],
+      "hl": ["Klasik fiziği yapay zekayı güçlendiren yarı iletkenlere bağlayın", "Uydu fırlatmalarının arkasındaki yörünge ve kaçış hızlarını türetin"],
+      "do": [
+        ["Kuvvetler, dalgalar ve ısı", "Hareketi, Newton yasalarını, dalga davranışını ve gerçek motorların neden Carnot verimliliğinin gerisinde kaldığını işleyin."],
+        ["Elektrik ve manyetizma", "Ohm ve Kirchhoff yasalarını uygulayın, ardından jeneratörler ve indüksiyon ocakları üzerinden indüksiyonu keşfedin."],
+        ["Optik ve uzay", "Yansıma, kırılma ve mercekleri inceleyin, ardından uzay yolculuğunun arkasındaki yörünge ve kaçış hızlarını türetin."],
+        ["Hesaplama ve yapay zekanın fiziği", "Dijital devrelerin ve yapay zeka donanımının temelindeki yarı iletken bant teorisi ve transistör anahtarlamasına dalın."]
+      ],
+      "outcomes": ["Temel fizik ilkelerini gerçek mekanik, elektrik ve optik sistemlere uygulayabilme", "Fiziği modern hesaplama, yapay zeka donanımı ve uzay keşfine bağlayabilme"],
+      "fit": ["Fizik ilkelerini gerçek dünya teknolojisine bağlamayı sevenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  },
+  "human-behavior-and-society": {
+    "flags": [],
+    "en": {
+      "focus": "Explore why people think, feel and act as they do through bio-psycho-social lenses, decision-making, social influence and media literacy.",
+      "tags": ["Psychology", "Decision-making", "Social influence", "Media literacy", "Society"],
+      "hl": ["Explore how persuasive technology and AI shape everyday choices", "Practice evidence-based, non-leading research methods"],
+      "do": [
+        ["Foundations of behavior", "Explore the bio-psycho-social model and how one behavior can be explained through multiple lenses."],
+        ["Decision-making and bias", "Study common heuristics and biases, and how choice architecture shapes better decisions."],
+        ["Social influence", "Examine how social proof, normative pressure and authority operate, plus what increases cooperation and helping."],
+        ["Media, technology and civic life", "Practice source evaluation and media literacy, then connect institutions and civic action to persuasive technology and AI."]
+      ],
+      "outcomes": ["Explain human behavior through bio-psycho-social lenses", "Evaluate media, technology and civic systems critically"],
+      "fit": ["Curious about psychology, society, or how media and technology shape behavior", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "İnsanların neden öyle düşündüğünü, hissettiğini ve davrandığını bio-psiko-sosyal bakış açılarıyla, karar verme, sosyal etki ve medya okuryazarlığıyla keşfedin.",
+      "tags": ["Psikoloji", "Karar verme", "Sosyal etki", "Medya okuryazarlığı", "Toplum"],
+      "hl": ["İkna edici teknolojinin ve yapay zekanın günlük seçimleri nasıl şekillendirdiğini keşfedin", "Kanıta dayalı, yönlendirici olmayan araştırma yöntemlerini uygulayın"],
+      "do": [
+        ["Davranışın temelleri", "Bio-psiko-sosyal modeli ve bir davranışın birden fazla bakış açısıyla nasıl açıklanabileceğini keşfedin."],
+        ["Karar verme ve önyargı", "Yaygın sezgisel kısayolları ve önyargıları, ayrıca seçim mimarisinin daha iyi kararları nasıl desteklediğini inceleyin."],
+        ["Sosyal etki", "Sosyal kanıtın, normatif baskının ve otoritenin nasıl işlediğini; işbirliğini ve yardımlaşmayı neyin arttırdığını inceleyin."],
+        ["Medya, teknoloji ve sivil yaşam", "Kaynak değerlendirme ve medya okuryazarlığı uygulayın, ardından kurumları ve sivil eylemi ikna edici teknoloji ve yapay zekaya bağlayın."]
+      ],
+      "outcomes": ["İnsan davranışını bio-psiko-sosyal bakış açılarıyla açıklayabilme", "Medyayı, teknolojiyi ve sivil sistemleri eleştirel biçimde değerlendirebilme"],
+      "fit": ["Psikolojiyi, toplumu veya medya ile teknolojinin davranışı nasıl şekillendirdiğini merak edenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  },
+  "innovation-and-design-thinking": {
+    "flags": [],
+    "en": {
+      "focus": "Practice the full human-centered design cycle — empathize, define, ideate, prototype, test — including AI-assisted and data-informed design.",
+      "tags": ["Design thinking", "Prototyping", "User research", "AI-assisted design"],
+      "hl": ["Practice the complete design cycle from user research to a tested prototype", "Explore AI-assisted design workflows, quality control and ethics"],
+      "do": [
+        ["Framing the problem", "Learn design thinking phases and write strong “How Might We” statements to scope a real problem."],
+        ["Understanding users", "Interview and observe users, then turn insights into personas and journey maps."],
+        ["Ideating and prototyping", "Brainstorm with SCAMPER and other techniques, then build low- and high-fidelity prototypes and test them."],
+        ["Storytelling and AI-assisted design", "Present ideas through storytelling and visual thinking, then explore AI tools, prompting and responsible AI design."]
+      ],
+      "outcomes": ["Run a complete human-centered design cycle from research to tested prototype", "Apply AI-assisted and data-informed methods responsibly in design work"],
+      "fit": ["Enjoys creative problem-solving and building things users actually need", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "Empati kurma, tanımlama, fikir üretme, prototipleme ve test etmeyi kapsayan tam insan odaklı tasarım döngüsünü uygulayın; yapay zeka destekli ve veriye dayalı tasarım dahil.",
+      "tags": ["Tasarım odaklı düşünme", "Prototipleme", "Kullanıcı araştırması", "YZ destekli tasarım"],
+      "hl": ["Kullanıcı araştırmasından test edilmiş bir prototipe kadar tam tasarım döngüsünü uygulayın", "Yapay zeka destekli tasarım iş akışlarını, kalite kontrolünü ve etiği keşfedin"],
+      "do": [
+        ["Problemi çerçeveleme", "Tasarım odaklı düşünme aşamalarını öğrenin ve gerçek bir problemi kapsamak için güçlü “Nasıl Yapabiliriz” ifadeleri yazın."],
+        ["Kullanıcıları anlama", "Kullanıcılarla görüşün ve onları gözlemleyin, ardından içgörüleri kişiliklere ve yolculuk haritalarına dönüştürün."],
+        ["Fikir üretme ve prototipleme", "SCAMPER ve diğer tekniklerle beyin fırtınası yapın, ardından düşük ve yüksek çözünürlüklü prototipler oluşturup test edin."],
+        ["Hikaye anlatımı ve YZ destekli tasarım", "Fikirleri hikaye anlatımı ve görsel düşünmeyle sunun, ardından yapay zeka araçlarını, prompt yazımını ve sorumlu YZ tasarımını keşfedin."]
+      ],
+      "outcomes": ["Araştırmadan test edilmiş bir prototipe kadar tam bir insan odaklı tasarım döngüsü yürütebilme", "Tasarım çalışmasında yapay zeka destekli ve veriye dayalı yöntemleri sorumlu biçimde uygulayabilme"],
+      "fit": ["Yaratıcı problem çözmeyi ve kullanıcıların gerçekten ihtiyaç duyduğu şeyleri inşa etmeyi sevenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  },
+  "business-and-entrepreneurship": {
+    "flags": [],
+    "en": {
+      "focus": "Learn how markets work and how to build ventures — supply and demand, cost classification, startup investment, pitching and budgeting.",
+      "tags": ["Supply & demand", "Entrepreneurship", "Pitching", "Budgeting", "Startups"],
+      "hl": ["Pitch a venture using the same structure real investors expect", "Apply the Business Model Canvas, SWOT and other decision tools"],
+      "do": [
+        ["Supply, demand and markets", "Draw supply and demand curves and see how market structure affects pricing and competition."],
+        ["Cost classification", "Break down fixed, variable and marginal costs to price products and manage resources smartly."],
+        ["Planning a venture", "Apply the Business Model Canvas, customer personas, decision trees and SWOT analysis to a business idea."],
+        ["Pitching and funding", "Structure a pitch from problem to ask, and learn how startup funding rounds and investor expectations work."],
+        ["Revenue and budgeting", "Build a simple budget, choose a monetization model, and calculate a breakeven point."]
+      ],
+      "outcomes": ["Explain how supply, demand and cost classification drive business decisions", "Build a venture plan, pitch and budget using real investor frameworks"],
+      "fit": ["Curious about startups, markets, or building a venture from scratch", "Ages 16–18 with at least B2 English"]
+    },
+    "tr": {
+      "focus": "Piyasaların nasıl işlediğini ve girişimlerin nasıl kurulduğunu öğrenin — arz-talep, maliyet sınıflandırması, girişim yatırımı, sunum yapma ve bütçeleme.",
+      "tags": ["Arz ve talep", "Girişimcilik", "Sunum yapma", "Bütçeleme", "Girişimler"],
+      "hl": ["Gerçek yatırımcıların beklediği yapıyla bir girişim sunumu yapın", "İş Modeli Kanvası, SWOT ve diğer karar araçlarını uygulayın"],
+      "do": [
+        ["Arz, talep ve piyasalar", "Arz ve talep eğrilerini çizin; piyasa yapısının fiyatlandırmayı ve rekabeti nasıl etkilediğini görün."],
+        ["Maliyet sınıflandırması", "Ürünleri fiyatlandırmak ve kaynakları akıllıca yönetmek için sabit, değişken ve marjinal maliyetleri ayırın."],
+        ["Bir girişimi planlama", "Bir iş fikrine İş Modeli Kanvası, müşteri kişilikleri, karar ağaçları ve SWOT analizini uygulayın."],
+        ["Sunum yapma ve finansman", "Problemden talebe bir sunum yapılandırın; girişim finansman turlarının ve yatırımcı beklentilerinin nasıl işlediğini öğrenin."],
+        ["Gelir ve bütçeleme", "Basit bir bütçe oluşturun, bir gelir modeli seçin ve başabaş noktasını hesaplayın."]
+      ],
+      "outcomes": ["Arz, talep ve maliyet sınıflandırmasının iş kararlarını nasıl yönlendirdiğini açıklayabilme", "Gerçek yatırımcı çerçeveleriyle bir girişim planı, sunum ve bütçe oluşturabilme"],
+      "fit": ["Girişimleri, piyasaları veya sıfırdan bir girişim kurmayı merak edenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+    }
+  }
+}

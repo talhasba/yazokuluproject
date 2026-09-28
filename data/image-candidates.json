@@ -2196,5 +2196,50 @@
   "summer-discovery-2027-yale-university-business-entrepreneurship-with-nfte-s1": [
     "/assets/Business-Management-Product-Image-4-300x300-D6z5b-10.webp",
     "/assets/program-images/campuses/yale-university.webp"
+  ],
+  "constructor-university-summer-camp-mathematics-and-modeling": [
+    "/assets/program-images/constructor/mathematics-and-modeling.jpg",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
+  ],
+  "constructor-university-summer-camp-programming-and-algorithms": [
+    "/assets/program-images/constructor/programming-and-algorithms.jpg",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
+  ],
+  "constructor-university-summer-camp-neural-networks-and-robotics": [
+    "/assets/program-images/constructor/neural-networks-and-robotics.jpg",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
+  ],
+  "constructor-university-summer-camp-physics-and-research": [
+    "/assets/program-images/constructor/physics-and-research.jpg",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
+  ],
+  "constructor-university-summer-camp-human-behavior-and-society": [
+    "/assets/program-images/constructor/human-behavior-and-society.jpg",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
+  ],
+  "constructor-university-summer-camp-innovation-and-design-thinking": [
+    "/assets/program-images/constructor/innovation-and-design-thinking.jpg",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
+  ],
+  "constructor-university-summer-camp-chemistry-and-research": [
+    "/assets/Chemistry-Product-Image-1-300x300-Bun8Vcox.webp",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
+  ],
+  "constructor-university-summer-camp-biology-and-research": [
+    "/assets/Biology-Product-Image-2-300x300-CH2Cuhib.webp",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
+  ],
+  "constructor-university-summer-camp-business-and-entrepreneurship": [
+    "/assets/Business-Management-Product-Image-4-300x300-D6z5b-10.webp",
+    "/assets/program-images/campuses/bremen.jpg",
+    "https://constructor.university/sites/default/files/2025-09/Summer%20Camp%202026-2.jpg"
   ]
 }

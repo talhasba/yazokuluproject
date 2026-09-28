@@ -23,8 +23,8 @@ function replaceOnce(search, replacement, description) {
 
 replaceOnce(
   "const Uh={",
-  'const Uh={"Academic Research":"Online Research Program",',
-  "online research subject category"
+  'const Uh={"Academic Research":"Online Research Program","Mathematics & Modeling":"Mathematics","Programming & Algorithms":"Computer Science","Neural Networks & Robotics":"Computer Science","Chemistry & Research":"Medicine & Life Sciences","Biology & Research":"Medicine & Life Sciences","Physics & Research":"Medicine & Life Sciences","Human Behavior & Society":"Medicine & Life Sciences","Innovation & Design Thinking":"Business",',
+  "online research and Constructor University subject categories"
 );
 
 replaceOnce(
@@ -35,7 +35,7 @@ replaceOnce(
 
 replaceOnce(
   '_0=["Bucksmore","Immerse Education","InvestIN Education","Oxford Royale","St Clare\'s, Oxford"]',
-  '_0=["Bucksmore","Edconic","Immerse Education","InvestIN Education","MPW Summer School","Oxford Royale","Sportech Academy","St Clare\'s, Oxford","Summer Discovery"]',
+  '_0=["Bucksmore","Constructor University Summer Camp","Edconic","Immerse Education","InvestIN Education","MPW Summer School","Oxford Royale","Sportech Academy","St Clare\'s, Oxford","Summer Discovery"]',
   "complete provider filter options"
 );
 
@@ -53,7 +53,7 @@ replaceOnce(
 
 replaceOnce(
   'O0=["Cambridge","London","New Haven","New Haven / New York","New York","Online","Oxford","San Francisco","Toronto"],U0={Cambridge:{en:"Cambridge",tr:"Cambridge"},London:{en:"London",tr:"Londra"},"New Haven":{en:"New Haven",tr:"New Haven"},"New Haven / New York":{en:"New Haven / New York",tr:"New Haven / New York"},"New York":{en:"New York",tr:"New York"},Online:{en:"Online",tr:"Çevrimiçi"},Oxford:{en:"Oxford",tr:"Oxford"},"San Francisco":{en:"San Francisco",tr:"San Francisco"},Toronto:{en:"Toronto",tr:"Toronto"}}',
-  'O0=["Canada","United Kingdom","United States"],U0={Canada:{en:"Canada",tr:"Kanada"},"United Kingdom":{en:"United Kingdom",tr:"Birleşik Krallık"},"United States":{en:"United States",tr:"Amerika Birleşik Devletleri"}}',
+  'O0=["Canada","Germany","United Kingdom","United States"],U0={Canada:{en:"Canada",tr:"Kanada"},Germany:{en:"Germany",tr:"Almanya"},"United Kingdom":{en:"United Kingdom",tr:"Birleşik Krallık"},"United States":{en:"United States",tr:"Amerika Birleşik Devletleri"}}',
   "country filter options"
 );
 

@@ -1,0 +1,15 @@
+{
+  "commonFlags": ["This is one of 9 courses; participants choose 2 to study during the 12-day camp"],
+  "common": {
+    "en": {
+      "doTitle": "What you'll do",
+      "doAppend": [{ "lead": "Beyond the classroom", "text": "Take part in a company visit (past years: Mercedes-Benz, Airbus) and excursions to Bremen and Hamburg together with the whole camp." }],
+      "outcomes": ["Get a first-hand feel for university life on a residential international campus"]
+    },
+    "tr": {
+      "doTitle": "Neler yapacaksınız",
+      "doAppend": [{ "lead": "Sınıfın ötesinde", "text": "Kampın tamamıyla birlikte bir şirket ziyaretine (önceki yıllarda: Mercedes-Benz, Airbus) ve Bremen ile Hamburg gezilerine katılın." }],
+      "outcomes": ["Yatılı, uluslararası bir kampüste üniversite yaşamını ilk elden deneyimleme"]
+    }
+  }
+}
