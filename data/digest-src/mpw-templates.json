@@ -1,7 +1,35 @@
 {
-  "commonFlags": ["The dataset holds only a one-line description for MPW programmes (no curriculum, ages or price), so this digest is intentionally brief"],
+  "commonFlags": ["Extra detail comes from the MPW summer school web pages (academic programme, FAQs, My Path; My Way); the dataset itself has only a one-line description per stream", "MPW's FAQ states ages 14–17 and an intermediate English level (IELTS 5.0 / CEFR B1+); the dataset lists no current age, so this is not shown as a fact"],
   "common": {
-    "en": { "doTitle": "What you'll do" },
-    "tr": { "doTitle": "Neler yapacaksınız" }
+    "en": {
+      "doTitle": "What you'll do",
+      "doAppend": [
+        { "lead": "My Path; My Way", "text": "Two skills courses, one per week: public speaking, negotiation and persuasion in week 1; problem-solving, emotional intelligence and media literacy in week 2." },
+        { "lead": "University preparation", "text": "Take part in a 3½-hour university preparation workshop and a lecture series from Cambridge and London academics." },
+        { "lead": "Beyond the classroom", "text": "Join industry field trips, guest speaker sessions and social and cultural activities, with evening and weekend trips." }
+      ],
+      "outcomes": ["A certificate of completion", "A personalised progress report from your stream teacher"],
+      "fit": ["Students who want to try one subject in depth over two weeks", "Students who want to build their English while studying in a UK setting"]
+    },
+    "tr": {
+      "doTitle": "Neler yapacaksınız",
+      "doAppend": [
+        { "lead": "My Path; My Way", "text": "Haftada bir olmak üzere iki beceri kursu: 1. hafta topluluk önünde konuşma, müzakere ve ikna; 2. hafta problem çözme, duygusal zekâ ve medya okuryazarlığı." },
+        { "lead": "Üniversite hazırlığı", "text": "3,5 saatlik üniversite hazırlık atölyesine ve Cambridge ile Londra'dan akademisyenlerin verdiği konferans serisine katılın." },
+        { "lead": "Sınıfın ötesinde", "text": "Sektör gezilerine, konuk konuşmacı oturumlarına ve sosyal-kültürel etkinliklere katılın; akşam ve hafta sonu gezileri de vardır." }
+      ],
+      "outcomes": ["Tamamlama sertifikası", "Bölüm öğretmeninizden kişiye özel gelişim raporu"],
+      "fit": ["İki hafta boyunca tek bir konuyu derinlemesine denemek isteyen öğrenciler", "Birleşik Krallık ortamında okurken İngilizcesini geliştirmek isteyen öğrenciler"]
+    }
+  },
+  "cities": {
+    "london": {
+      "en": { "extras": ["Campus: London (South Kensington)", "Residential: single en-suite rooms at Queen's Gate House", "Small classes: maximum 12 students, average 9", "Lunch Monday–Friday for residential and day students"] },
+      "tr": { "extras": ["Kampüs: Londra (South Kensington)", "Yurt: Queen's Gate House'ta tek kişilik, banyolu odalar", "Küçük sınıflar: en fazla 12, ortalama 9 öğrenci", "Yatılı ve gündüzlü öğrencilere hafta içi öğle yemeği"] }
+    },
+    "both": {
+      "en": { "extras": ["Campuses: London (South Kensington) and Cambridge", "Residential: single en-suite rooms at Queen's Gate House (London) or Tripos Court (Cambridge)", "Small classes: maximum 12 students, average 9", "Lunch Monday–Friday for residential and day students"] },
+      "tr": { "extras": ["Kampüsler: Londra (South Kensington) ve Cambridge", "Yurt: Queen's Gate House (Londra) veya Tripos Court'ta (Cambridge) tek kişilik, banyolu odalar", "Küçük sınıflar: en fazla 12, ortalama 9 öğrenci", "Yatılı ve gündüzlü öğrencilere hafta içi öğle yemeği"] }
+    }
   }
 }
