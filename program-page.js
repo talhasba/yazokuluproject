@@ -102,6 +102,7 @@
       brand: "Summer Programs", back: "All programs", langBtn: "TR", langLabel: "Türkçeye geç",
       age: "Age", duration: "Duration", dates: "Dates", price: "Price", location: "Location", format: "Format",
       onRequest: "On request", notListed: "Not listed",
+      priceOptions: "Price options", historicalFees: "Historical 2026 fees", dayStudent: "Day student",
       in_person: "In person", virtual: "Online", online: "Online", hybrid: "Hybrid",
       ready: "Ready", needs_review: "Needs review",
       topics: "Topics", tracks: "Course by age group", outcomes: "You'll leave with", fit: "Good fit if…", extras: "Beyond the classroom",
@@ -112,6 +113,7 @@
       brand: "Yaz Programları", back: "Tüm programlar", langBtn: "EN", langLabel: "Switch to English",
       age: "Yaş", duration: "Süre", dates: "Tarihler", price: "Ücret", location: "Konum", format: "Format",
       onRequest: "Talep üzerine", notListed: "Belirtilmemiş",
+      priceOptions: "Fiyat seçenekleri", historicalFees: "Geçmiş 2026 ücretleri", dayStudent: "Gündüzlü öğrenci",
       in_person: "Yüz yüze", virtual: "Çevrimiçi", online: "Çevrimiçi", hybrid: "Karma",
       ready: "Hazır", needs_review: "İnceleme gerekli",
       topics: "Konular", tracks: "Yaş grubuna göre içerik", outcomes: "Programın sonunda", fit: "Şunlar için uygun…", extras: "Sınıfın dışında",
@@ -257,6 +259,73 @@
     ];
   }
 
+  const accommodationTier = (label) => /residential|non-residential|\bday\b|accommodation|boarding/i.test(label || "");
+
+  function translatedPriceLabel(label, lang) {
+    if (lang !== "tr") return label;
+    const exact = {
+      "Residential": "Konaklamalı",
+      "Non-Residential": "Konaklamasız",
+      "Day": "Gündüzlü",
+      "Programme fee": "Program ücreti",
+      "Program fee": "Program ücreti",
+      "Programme fee + residential package total": "Program ücreti + konaklama paketi toplamı",
+      "Programme fee + Residential package": "Program ücreti + konaklama paketi",
+      "Residential - 1 week": "Konaklamalı - 1 hafta",
+      "Residential - 2 weeks": "Konaklamalı - 2 hafta",
+      "Day - 1 week": "Gündüzlü - 1 hafta",
+      "Day - 2 weeks": "Gündüzlü - 2 hafta"
+    };
+    return exact[label] || label;
+  }
+
+  function priceOptionHTML(rec, lang) {
+    const tiers = Array.isArray(rec.price?.tiers) ? rec.price.tiers : [];
+    if (!tiers.some((tier) => accommodationTier(tier.label))) return "";
+
+    const groups = [];
+    tiers.forEach((tier) => {
+      const label = String(tier.label || T[lang].price).trim();
+      const key = label.toLocaleLowerCase("en");
+      let group = groups.find((item) => item.key === key);
+      if (!group) {
+        group = { key, label, values: [] };
+        groups.push(group);
+      }
+      const value = String(tier.display || "").trim();
+      if (value && !group.values.includes(value)) group.values.push(value);
+    });
+
+    const rows = groups.filter((group) => group.values.length).map((group) => `
+      <div class="pp-price-option">
+        <span>${esc(translatedPriceLabel(group.label, lang))}</span>
+        <b>${group.values.map(esc).join(" · ")}</b>
+      </div>`).join("");
+    return rows ? `<div class="pp-price-options"><div class="pp-price-options-title">${esc(T[lang].priceOptions)}</div>${rows}</div>` : "";
+  }
+
+  function historicalPriceHTML(rec, lang) {
+    const fees = rec.historical_2026_fees_gbp;
+    if (!fees || typeof fees !== "object") return "";
+    const money = (amount) => Number.isFinite(Number(amount))
+      ? new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP", maximumFractionDigits: 0 }).format(Number(amount))
+      : "";
+    const cityTr = { London: "Londra", Cambridge: "Cambridge" };
+    const rows = Object.entries(fees).flatMap(([city, options]) => {
+      if (!options || typeof options !== "object") return [];
+      const place = lang === "tr" ? cityTr[city] || city : city;
+      return [
+        [lang === "tr" ? `${place} · Konaklamalı` : `${place} · Residential`, options.residential],
+        [`${place} · ${T[lang].dayStudent}`, options.day_student]
+      ].filter(([, amount]) => Number.isFinite(Number(amount)));
+    }).map(([label, amount]) => `
+      <div class="pp-price-option">
+        <span>${esc(label)}</span>
+        <b>${esc(money(amount))}</b>
+      </div>`).join("");
+    return rows ? `<div class="pp-price-options pp-price-history"><div class="pp-price-options-title">${esc(T[lang].historicalFees)}</div>${rows}</div>` : "";
+  }
+
   const list = (items, cls = "") => `<ul class="pp-list ${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
   const card = (title, body) => `<section class="pp-card"><h3 class="pp-h">${esc(title)}</h3>${body}</section>`;
 
@@ -270,6 +339,8 @@
     const { hero, gallery } = photosFor(rec.id);
     const facts = factRows(rec, lang, digest);
     const dates = fmtDates(rec.dates, lang);
+    const priceOptions = priceOptionHTML(rec, lang);
+    const historicalPrices = priceOptions ? "" : historicalPriceHTML(rec, lang);
 
     const tracks = d.tracks?.length
       ? `<section class="pp-block"><h3 class="pp-h">${esc(L.tracks)}</h3><div class="pp-tracks">${d.tracks.map((t) => `<div class="pp-track"><span class="pp-age">${esc(t.age)}</span><p>${esc(t.text)}</p></div>`).join("")}</div></section>`
@@ -315,6 +386,7 @@
             <div class="pp-card pp-price">
               <h3 class="pp-h">${esc(L.price)}</h3>
               <div class="pp-big">${esc(rec.price?.display || L.onRequest)}</div>
+              ${priceOptions || historicalPrices}
               ${dates.length ? `<div class="pp-sm">${esc(dates.join(" · "))}</div>` : ""}
               ${d.highlights?.length ? `<div class="pp-hl">${list(d.highlights)}</div>` : ""}
               <a class="pp-cta" href="#" data-goto-form>${esc(L.formPill)} ${ICON.form}</a>
