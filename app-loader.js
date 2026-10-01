@@ -175,7 +175,7 @@ replaceOnce(
 
 replaceOnce(
   'fetch("data/image-candidates.json")',
-  'fetch("data/image-candidates.json?v=20261001-1")',
+  'fetch("data/image-candidates.json?v=20261001-2")',
   "program thumbnail cache version"
 );
 
