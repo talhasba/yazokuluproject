@@ -174,6 +174,12 @@ replaceOnce(
 );
 
 replaceOnce(
+  'fetch("data/image-candidates.json")',
+  'fetch("data/image-candidates.json?v=20261001-1")',
+  "program thumbnail cache version"
+);
+
+replaceOnce(
   "d.includes(H.providerLabel)",
   "d.includes(H.providerFilter)",
   "base provider filter matching"

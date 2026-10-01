@@ -1,0 +1,265 @@
+{
+  "generated_on": "2026-10-01",
+  "usage_note": "Provider-owned images; open-license status was not independently verified. Confirm permission before public redistribution.",
+  "thumbnail_size": [
+    1200,
+    675
+  ],
+  "images": {
+    "immerse-online-research-programme": {
+      "provider": "Immerse Education",
+      "source_url": "https://cdn.prod.website-files.com/68935b974878a1f17a26d0de/690329a30433ae202947a00e_online-landing.avif",
+      "programme_page": "https://www.immerse.education/pathways/online",
+      "local_path": "/assets/program-images/providers/immerse/immerse-online-research-programme.webp",
+      "original_width": 900,
+      "original_height": 792,
+      "crop_strategy": "center crop"
+    },
+    "mpw-international-students-summer-school-academic-programme-physics-and-engineering": {
+      "provider": "MPW Summer School",
+      "source_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-physics-engineering-tt.jpg",
+      "programme_page": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+      "local_path": "/assets/program-images/providers/mpw/mpw-international-students-summer-school-academic-programme-physics-and-engineering.webp",
+      "original_width": 2048,
+      "original_height": 1448,
+      "crop_strategy": "centre photo from right-hand timetable strip"
+    },
+    "mpw-international-students-summer-school-academic-programme-architecture": {
+      "provider": "MPW Summer School",
+      "source_url": "https://www.mpw.ac.uk/wp-content/uploads/2025/10/mpw-summer-school-26-architecture-tt.jpg",
+      "programme_page": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+      "local_path": "/assets/program-images/providers/mpw/mpw-international-students-summer-school-academic-programme-architecture.webp",
+      "original_width": 2048,
+      "original_height": 1448,
+      "crop_strategy": "centre photo from right-hand timetable strip"
+    },
+    "mpw-international-students-summer-school-academic-programme-art-and-design": {
+      "provider": "MPW Summer School",
+      "source_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-art-design-tt.jpg",
+      "programme_page": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+      "local_path": "/assets/program-images/providers/mpw/mpw-international-students-summer-school-academic-programme-art-and-design.webp",
+      "original_width": 2048,
+      "original_height": 1448,
+      "crop_strategy": "centre photo from right-hand timetable strip"
+    },
+    "mpw-international-students-summer-school-academic-programme-business-finance-and-economics": {
+      "provider": "MPW Summer School",
+      "source_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-business-finance-economics-tt.jpg",
+      "programme_page": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+      "local_path": "/assets/program-images/providers/mpw/mpw-international-students-summer-school-academic-programme-business-finance-and-economics.webp",
+      "original_width": 2048,
+      "original_height": 1448,
+      "crop_strategy": "centre photo from right-hand timetable strip"
+    },
+    "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai": {
+      "provider": "MPW Summer School",
+      "source_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-computing-robotics-ai-tt.jpg",
+      "programme_page": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+      "local_path": "/assets/program-images/providers/mpw/mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai.webp",
+      "original_width": 2048,
+      "original_height": 1448,
+      "crop_strategy": "centre photo from right-hand timetable strip"
+    },
+    "mpw-international-students-summer-school-academic-programme-medicine-and-sciences": {
+      "provider": "MPW Summer School",
+      "source_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-medicine-sciences-tt.jpg",
+      "programme_page": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+      "local_path": "/assets/program-images/providers/mpw/mpw-international-students-summer-school-academic-programme-medicine-and-sciences.webp",
+      "original_width": 2048,
+      "original_height": 1448,
+      "crop_strategy": "centre photo from right-hand timetable strip"
+    },
+    "mpw-international-students-summer-school-academic-programme-politics-and-law": {
+      "provider": "MPW Summer School",
+      "source_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-politics-law-tt.jpg",
+      "programme_page": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+      "local_path": "/assets/program-images/providers/mpw/mpw-international-students-summer-school-academic-programme-politics-and-law.webp",
+      "original_width": 2048,
+      "original_height": 1448,
+      "crop_strategy": "centre photo from right-hand timetable strip"
+    },
+    "mpw-international-students-summer-school-academic-programme-psychology-and-sociology": {
+      "provider": "MPW Summer School",
+      "source_url": "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-psychology-sociology-tt.jpg",
+      "programme_page": "https://www.mpw.ac.uk/international-students/summer-school/academic-programme/",
+      "local_path": "/assets/program-images/providers/mpw/mpw-international-students-summer-school-academic-programme-psychology-and-sociology.webp",
+      "original_width": 2048,
+      "original_height": 1448,
+      "crop_strategy": "centre photo from right-hand timetable strip"
+    },
+    "sportech-esports-in-motorsport": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/esports_motorsport_junior_featured_summer_program_sportech_academy_1.jpg",
+      "programme_page": "https://sportechacademy.com/esports-in-motorsport/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-esports-in-motorsport.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-architecture-urban-design": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/architecture_urban_design_junior_featured_summer_program_sportech_academy_1-og-og.jpg",
+      "programme_page": "https://sportechacademy.com/architecture-urban-design/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-architecture-urban-design.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-automotive-design": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/automotive_design_junior_featured_summer_program_sportech_academy_1-og.jpg",
+      "programme_page": "https://sportechacademy.com/automotive-design/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-automotive-design.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-biomedical-engineering": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/biomedical_engineering_junior_featured_summer_program_sportech_academy_1-og.jpg",
+      "programme_page": "https://sportechacademy.com/biomedical-engineering/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-biomedical-engineering.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-business": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/business_luxury_goods_junior_featured_summer_program_sportech_academy_1-og-opt-1-og.jpg",
+      "programme_page": "https://sportechacademy.com/business/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-business.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-business-university": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/business_italian_excellence_university_featured_summer_program_sportech_academy_1.jpg",
+      "programme_page": "https://sportechacademy.com/business-university/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-business-university.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-cosmetic-sciences": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/cosmetic_sciences_junior_featured_summer_program_sportech_academy_1.jpg",
+      "programme_page": "https://sportechacademy.com/cosmetic-sciences/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-cosmetic-sciences.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-fashion": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/fashion_junior_featured_summer_program_sportech_academy_1-og.jpg",
+      "programme_page": "https://sportechacademy.com/fashion/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-fashion.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-football": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/ac_milan_junior_featured_summer_program_sportech_academy_1.jpg",
+      "programme_page": "https://sportechacademy.com/football/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-football.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-medicine": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/medicine_junior_featured_summer_program_sportech_academy_1-og.jpg",
+      "programme_page": "https://sportechacademy.com/medicine/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-medicine.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-pet-design": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/pet_design_junior_featured_summer_program_sportech_academy_1-og.jpg",
+      "programme_page": "https://sportechacademy.com/pet-design/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-pet-design.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-sports-management": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/sports_management_junior_featured_summer_program_sportech_academy_1-og.jpg",
+      "programme_page": "https://sportechacademy.com/sports-management/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-sports-management.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-motorsport-management-university": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/motorsport_management_university_featured_summer_program_sportech_academy_1.jpg",
+      "programme_page": "https://sportechacademy.com/motorsport-management-university/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-motorsport-management-university.webp",
+      "original_width": 1143,
+      "original_height": 600,
+      "crop_strategy": "center crop"
+    },
+    "sportech-agrifoodtech": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/agrifoodtech_junior_featured_summer_program_sportech_academy_1.jpg",
+      "programme_page": "https://sportechacademy.com/agrifoodtech/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-agrifoodtech.webp",
+      "original_width": 1152,
+      "original_height": 604,
+      "crop_strategy": "center crop"
+    },
+    "sportech-motorsport-engineering-university": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/motorsport_engineering_university_featured_summer_program_sportech_academy_1-og.jpg",
+      "programme_page": "https://sportechacademy.com/motorsport-engineering-university/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-motorsport-engineering-university.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-engineering-motorsport": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/motorsport_engineering_junior_featured_summer_program_sportech_academy_1-og-og.jpg",
+      "programme_page": "https://sportechacademy.com/engineering-motorsport/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-engineering-motorsport.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-aerospace-engineering": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/aerospace_engineering_junior_featured_razzo_sportech_academy.jpg",
+      "programme_page": "https://sportechacademy.com/aerospace-engineering/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-aerospace-engineering.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-aerospace-engineering-university": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/aerospace_engineering_university_featured_summer_term_sportech_academy_1-og-og.jpg",
+      "programme_page": "https://sportechacademy.com/aerospace-engineering-university/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-aerospace-engineering-university.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    },
+    "sportech-music-innovation": {
+      "provider": "Sportech Academy",
+      "source_url": "https://sportechacademy.com/wp-content/uploads/2026/08/music_innovation_junior_featured_summer_program_sportech_academy_1-og.jpg",
+      "programme_page": "https://sportechacademy.com/music-innovation/",
+      "local_path": "/assets/program-images/providers/sportech/sportech-music-innovation.webp",
+      "original_width": 1200,
+      "original_height": 630,
+      "crop_strategy": "center crop"
+    }
+  },
+  "failures": {},
+  "programmes_selected": 28,
+  "images_downloaded": 28
+}

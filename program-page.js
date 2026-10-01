@@ -179,7 +179,7 @@
       loading = Promise.all([
         json("./data/programs.normalized.json", []),
         json("./data/program-digests.json", {}),
-        json("./data/image-candidates.json", {}),
+        json("./data/image-candidates.json?v=20261001-1", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} })
       ]).then(([programs, digests, images, sources, overrides]) => {
