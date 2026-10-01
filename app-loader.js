@@ -116,8 +116,20 @@ replaceOnce(
 
 replaceOnce(
   'src:"/logo.png"',
-  'src:"./logo.png"',
+  'src:"./summerbutwhere-logo.png"',
   "GitHub Pages logo path"
+);
+
+replaceOnce(
+  'siteSubtitle:"Discover summer programs, camps and schools worldwide"',
+  'siteSubtitle:"An ASBA project · Discover summer programs worldwide"',
+  "English parent-brand label"
+);
+
+replaceOnce(
+  'siteSubtitle:"Dünya genelinde yaz programlarını, kampları ve okulları keşfedin"',
+  'siteSubtitle:"Bir ASBA projesi · Dünyadaki yaz programlarını keşfedin"',
+  "Turkish parent-brand label"
 );
 
 replaceOnce(

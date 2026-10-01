@@ -99,7 +99,7 @@
 
   const T = {
     en: {
-      brand: "Summer Programs", back: "All programs", langBtn: "TR", langLabel: "Türkçeye geç",
+      brand: "An ASBA project", back: "All programs", langBtn: "TR", langLabel: "Türkçeye geç",
       age: "Age", duration: "Duration", dates: "Dates", price: "Price", location: "Location", format: "Format",
       onRequest: "On request", notListed: "Not listed",
       priceOptions: "Price options", historicalFees: "Historical 2026 fees", dayStudent: "Day student",
@@ -110,7 +110,7 @@
       review: "Needs source check (internal)"
     },
     tr: {
-      brand: "Yaz Programları", back: "Tüm programlar", langBtn: "EN", langLabel: "Switch to English",
+      brand: "Bir ASBA projesi", back: "Tüm programlar", langBtn: "EN", langLabel: "Switch to English",
       age: "Yaş", duration: "Süre", dates: "Tarihler", price: "Ücret", location: "Konum", format: "Format",
       onRequest: "Talep üzerine", notListed: "Belirtilmemiş",
       priceOptions: "Fiyat seçenekleri", historicalFees: "Geçmiş 2026 ücretleri", dayStudent: "Gündüzlü öğrenci",
@@ -362,7 +362,7 @@
 
     page.innerHTML = `
       <header class="pp-top">
-        <a class="pp-brand" href="#/"><img src="./logo.png" alt=""><span>${esc(L.brand)}</span></a>
+        <a class="pp-brand" href="#/"><img src="./summerbutwhere-logo.png" alt="SummerButWhere"><span>${esc(L.brand)}</span></a>
         <nav><a class="pp-back" href="#/programs">← ${esc(L.back)}</a>
         <button class="pp-lang" type="button" aria-label="${esc(L.langLabel)}">${L.langBtn}</button></nav>
       </header>

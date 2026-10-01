@@ -1,0 +1,223 @@
+/* Shared public-site palette: blue for primary actions, red for accents. */
+:root {
+  --site-primary: #3451d1;
+  --site-primary-dark: #293fa5;
+  --site-primary-soft: #eef1ff;
+  --site-accent: #be1e2d;
+  --site-accent-dark: #951722;
+  --site-accent-soft: #fff0f2;
+
+  /* Override the compiled catalogue's Tailwind brand scale. */
+  --color-brand-50: #eef1ff;
+  --color-brand-200: #c7d0ff;
+  --color-brand-300: #9fafff;
+  --color-brand-600: #3451d1;
+  --color-brand-700: #293fa5;
+}
+
+/* Home page */
+.home-page {
+  --home-brand: var(--site-primary);
+  --home-brand-dark: var(--site-primary-dark);
+  --home-soft: var(--site-primary-soft);
+  background:
+    radial-gradient(circle at 8% 12%, rgba(52, 81, 209, 0.12), transparent 28rem),
+    radial-gradient(circle at 92% 8%, rgba(190, 30, 45, 0.07), transparent 22rem),
+    #fff;
+}
+
+.home-brand img {
+  width: clamp(170px, 18vw, 220px);
+  height: auto;
+}
+
+.home-brand span,
+.pp-brand span {
+  color: #667085;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.home-eyebrow,
+.home-section-label {
+  color: var(--site-accent);
+}
+
+.home-primary-button,
+.home-secondary-button {
+  box-shadow: 0 12px 30px rgba(52, 81, 209, 0.24);
+}
+
+.home-primary-button:hover,
+.home-secondary-button:hover {
+  box-shadow: 0 16px 34px rgba(52, 81, 209, 0.3);
+}
+
+.home-benefits .home-section-label,
+.home-benefit-number {
+  color: #f3aab2;
+}
+
+.home-final-cta {
+  border-color: #d9dfff;
+  background: linear-gradient(135deg, #f5f7ff, #fff3f4);
+}
+
+/* Catalogue cards and filters */
+.program-bullet-marker {
+  background: var(--site-accent);
+}
+
+/* Program details */
+.pp {
+  --pp-brand: var(--site-primary);
+  --pp-brand-dark: var(--site-primary-dark);
+  --pp-soft: var(--site-primary-soft);
+  --pp-accent: var(--site-accent);
+  --pp-accent-dark: var(--site-accent-dark);
+  --pp-accent-soft: var(--site-accent-soft);
+}
+
+.pp-lang:hover {
+  background: #dfe4ff;
+}
+
+.pp-brand img {
+  width: clamp(160px, 17vw, 210px);
+  height: auto;
+}
+
+.pp-hero {
+  background-color: var(--site-primary-dark);
+  background-image: linear-gradient(135deg, var(--site-primary-dark), var(--site-primary));
+}
+
+.pp-crumb {
+  color: #ffc3ca;
+  font-weight: 750;
+}
+
+.pp-chip {
+  color: var(--site-accent-dark);
+  background: var(--site-accent-soft);
+  font-weight: 650;
+}
+
+.pp-age,
+.pp-list li::before {
+  background: var(--site-accent);
+}
+
+.pp-price,
+.pp-form-side {
+  background: linear-gradient(160deg, var(--site-primary-dark), var(--site-primary));
+}
+
+.pp-in input:focus,
+.pp-in select:focus {
+  box-shadow: 0 0 0 4px rgba(52, 81, 209, 0.14);
+}
+
+.pp-submit {
+  box-shadow: 0 6px 16px rgba(52, 81, 209, 0.28);
+}
+
+/* Keep white bullets on the blue price card. */
+.pp-hl .pp-list li::before {
+  background: #fff;
+}
+
+/* Online Research Programme option cards */
+.orp-apply {
+  background: var(--site-primary);
+}
+
+.orp-apply:hover {
+  background: var(--site-primary-dark);
+}
+
+.orp-card[data-option="classic"] .orp-feature::before,
+.orp-card[data-option="classic"] .orp-apply {
+  color: var(--site-accent);
+}
+
+.orp-card[data-option="classic"] .orp-apply {
+  color: #fff;
+  background: var(--site-accent);
+}
+
+.orp-card[data-option="classic"] .orp-apply:hover {
+  background: var(--site-accent-dark);
+}
+
+/* Password screen */
+.site-lock {
+  color: #17213b;
+  background:
+    radial-gradient(circle at 14% 18%, rgba(255, 255, 255, 0.82), transparent 30%),
+    radial-gradient(circle at 12% 84%, rgba(52, 81, 209, 0.17), transparent 30%),
+    radial-gradient(circle at 86% 18%, rgba(190, 30, 45, 0.12), transparent 28%),
+    #eef1ff;
+}
+
+.site-lock__eyebrow,
+.site-lock__error {
+  color: var(--site-accent);
+}
+
+.site-lock__logo {
+  width: min(100%, 320px);
+  height: auto;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  .home-brand img {
+    width: 170px;
+    height: auto;
+  }
+
+  .pp-brand img {
+    width: 150px;
+  }
+
+  .pp-brand span {
+    display: none;
+  }
+}
+
+.site-lock h1,
+.site-lock__form label {
+  color: #17213b;
+}
+
+.site-lock__intro {
+  color: #667085;
+}
+
+.site-lock__input-row input {
+  border-color: #c7d0ff;
+}
+
+.site-lock__input-row input:focus {
+  border-color: var(--site-primary);
+  box-shadow: 0 0 0 4px rgba(52, 81, 209, 0.14);
+}
+
+.site-lock__input-row input[aria-invalid="true"] {
+  border-color: var(--site-accent);
+}
+
+.site-lock__input-row button {
+  background: var(--site-primary);
+}
+
+.site-lock__input-row button:hover {
+  background: var(--site-primary-dark);
+}
+
+.site-lock__input-row button:focus-visible {
+  outline-color: rgba(52, 81, 209, 0.3);
+}
