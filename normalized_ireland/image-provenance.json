@@ -1,0 +1,17 @@
+{
+  "note": "Original JPEGs extracted from supplied Emerald brochures; provider-owned material, no open licence asserted.",
+  "images": [
+    {
+      "path": "/assets/program-images/emerald/trinity-walton.jpg",
+      "source_file": "ireland/Trinity-Walton-STEM-Programme-2026.pdf",
+      "page": 2,
+      "credit": "Emerald Cultural Institute"
+    },
+    {
+      "path": "/assets/program-images/emerald/young-adult.jpg",
+      "source_file": "ireland/Young-Adult-Programme-SUM8.pdf",
+      "page": 2,
+      "credit": "Emerald Cultural Institute"
+    }
+  ]
+}

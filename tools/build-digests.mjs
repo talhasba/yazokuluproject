@@ -120,7 +120,7 @@ function buildImmerse(out) {
 const PREFIX = {
   oxford_royale: "oxford-royale-", investin: "investin-", stclares: "stclares-", bucksmore: "bucksmore-",
   mpw: "mpw-", edconic: "edconic-", sportech: "sportech-", summer_discovery: "summer-discovery-",
-  constructor_university: "constructor-university-summer-camp-"
+  constructor_university: "constructor-university-summer-camp-", emerald: "emerald-"
 };
 
 function optionalJson(path) {

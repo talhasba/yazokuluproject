@@ -193,3 +193,5 @@
   .pp-fact:last-child { border-bottom: 0; }
   .pp-focus { font-size: 18px; }
 }
+/* Past-season source information stays visible without internal review mode. */
+.pp-season { padding: 14px 18px; margin: 0 0 22px; border-left: 4px solid #ca8a04; background: #fffbeb; color: #713f12; border-radius: 8px; font-size: 14px; line-height: 1.6; }

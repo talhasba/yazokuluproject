@@ -4,6 +4,43 @@
     "note": "Editorial descriptions only. Amounts always come from program data. Exact InvestIN price matches identify otherwise unlabelled packages; unmatched prices keep their original labels. Sources describe inclusions, not confirmation of a catalogue price for a new season."
   },
   "providers": {
+    "emerald": {
+      "sources": [
+        "2026-Junior-Price-List.pdf (pp. 2–3, 6–7)",
+        "ireland/Trinity-Walton-STEM-Programme-2026.pdf",
+        "ireland/Young-Adult-Programme-SUM8.pdf",
+        "https://www.eci.ie/courses/trinity-walton-stem-programme/",
+        "https://www.eci.ie/courses/young-adult-programme/"
+      ],
+      "residentialNote": {
+        "en": "A refundable €70 residence deposit is payable on arrival, in addition to the package fee.",
+        "tr": "Paket ücretine ek olarak varışta iade edilebilir €70 yurt depozitosu ödenir."
+      },
+      "note": {
+        "en": "2026 reference fees. Return airport transfers are required for students under 18 and charged separately. Future prices and availability require confirmation.",
+        "tr": "2026 referans ücretleri. 18 yaş altı öğrenciler için gidiş-dönüş havalimanı transferi zorunludur ve ayrıca ücretlendirilir. Yeni dönem ücretleri ve kontenjanı teyit edilmelidir."
+      },
+      "residentialTitle": {
+        "en": "Residence",
+        "tr": "Yurt"
+      },
+      "excluded": {
+        "en": [
+          "Flights and medical/travel/personal insurance",
+          "Airport transfers: €105 each way; €65 each way for shared bookings of two or more",
+          "Unaccompanied-minor supplement: €30 each way",
+          "Special diet: €45/week; optional school-canteen lunch voucher: €60/week",
+          "Non-EU bank charges: €35"
+        ],
+        "tr": [
+          "Uçuşlar ve sağlık/seyahat/kişisel sigorta",
+          "Havalimanı transferi: tek yön €105; iki veya daha fazla kişilik ortak rezervasyonda tek yön €65",
+          "Refakatsiz çocuk ek ücreti: tek yön €30",
+          "Özel beslenme: haftada €45; isteğe bağlı okul kantini öğle yemeği kuponu: haftada €60",
+          "AB dışı banka masrafı: €35"
+        ]
+      }
+    },
     "investin": {
       "sources": ["https://investin.org/products/the-ai-software-summer-experience", "https://investin.org/pages/faq"],
       "explanation": {"en": "Prices vary by length, Enhanced benefits and whether you add accommodation. Residential prices are the complete programme-and-accommodation total.", "tr": "Ücretler süreye, Enhanced ek olanaklarına ve konaklama seçimine göre değişir. Konaklamalı ücretler, eğitim ve konaklama paketinin toplamıdır."},
@@ -42,6 +79,100 @@
     }
   },
   "programs": {
+    "emerald-trinity-walton-stem": {
+      "explanation": {
+        "en": "Both two-week packages include the same STEM and English teaching. The fee difference is the accommodation: host family or Trinity Hall residence, both with full board.",
+        "tr": "Her iki iki haftalık paket aynı STEM ve İngilizce eğitimini içerir. Fiyat farkı konaklamadan kaynaklanır: aile yanı veya Trinity Hall yurdu; ikisi de tam pansiyondur."
+      },
+      "homestay": {
+        "en": [
+          "10 hours STEM + 10 hours English for STEM per week",
+          "Host-family accommodation with full board",
+          "Learning materials and Emerald + Trinity Walton completion diplomas",
+          "Registration and accommodation fees",
+          "Guided Dublin tour, organised activities and a weekly full-day excursion",
+          "Transport to/from school and organised activities",
+          "Two evening activities per week"
+        ],
+        "tr": [
+          "Haftada 10 saat STEM + 10 saat STEM için İngilizce",
+          "Tam pansiyon aile yanı konaklaması",
+          "Eğitim materyalleri ve Emerald + Trinity Walton bitirme diplomaları",
+          "Kayıt ve konaklama ücretleri",
+          "Rehberli Dublin turu, düzenlenen etkinlikler ve haftada bir tam günlük gezi",
+          "Okula ve düzenlenen etkinliklere ulaşım",
+          "Haftada iki akşam etkinliği"
+        ]
+      },
+      "residential": {
+        "en": [
+          "10 hours STEM + 10 hours English for STEM per week",
+          "Trinity Hall residence: single/twin en-suite rooms and full board",
+          "Learning materials and Emerald + Trinity Walton completion diplomas",
+          "Registration and accommodation fees",
+          "Guided Dublin tour, organised activities and a weekly full-day excursion",
+          "Transport to/from school and organised activities"
+        ],
+        "tr": [
+          "Haftada 10 saat STEM + 10 saat STEM için İngilizce",
+          "Trinity Hall yurdu: tek/iki kişilik, özel banyolu odalar ve tam pansiyon",
+          "Eğitim materyalleri ve Emerald + Trinity Walton bitirme diplomaları",
+          "Kayıt ve konaklama ücretleri",
+          "Rehberli Dublin turu, düzenlenen etkinlikler ve haftada bir tam günlük gezi",
+          "Okula ve düzenlenen etkinliklere ulaşım"
+        ]
+      }
+    },
+    "emerald-young-adult": {
+      "explanation": {
+        "en": "Prices vary by two, three or four weeks and by accommodation. Homestay students attend Sandford Park School and stay with a host family; residential students use Trinity Hall. Both include full board.",
+        "tr": "Fiyatlar iki, üç veya dört haftalık süreye ve konaklamaya göre değişir. Aile yanı öğrencileri Sandford Park School’da ders görür ve bir ailenin yanında kalır; yurt öğrencileri Trinity Hall’u kullanır. İkisi de tam pansiyondur."
+      },
+      "homestay": {
+        "en": [
+          "20 hours English per week, workshops and seminars",
+          "Host-family accommodation in twin rooms; full board",
+          "Learning materials and Emerald completion diploma",
+          "Registration and accommodation fees",
+          "Guided Dublin tour, organised activities and a weekly full-day excursion",
+          "Transport to/from school and organised activities",
+          "Two cultural activities and two evening activities per week"
+        ],
+        "tr": [
+          "Haftada 20 saat İngilizce, atölyeler ve seminerler",
+          "Aile yanında iki kişilik odada tam pansiyon konaklama",
+          "Eğitim materyalleri ve Emerald bitirme diploması",
+          "Kayıt ve konaklama ücretleri",
+          "Rehberli Dublin turu, düzenlenen etkinlikler ve haftada bir tam günlük gezi",
+          "Okula ve düzenlenen etkinliklere ulaşım",
+          "Haftada iki kültürel etkinlik ve iki akşam etkinliği"
+        ]
+      },
+      "residential": {
+        "en": [
+          "20 hours English per week, workshops and seminars",
+          "Trinity Hall residence in single/twin rooms; full board",
+          "Learning materials and Emerald completion diploma",
+          "Registration and accommodation fees",
+          "Guided Dublin tour, organised activities and a weekly full-day excursion",
+          "Transport to/from school and organised activities",
+          "Two cultural activities per week and daily evening activities"
+        ],
+        "tr": [
+          "Haftada 20 saat İngilizce, atölyeler ve seminerler",
+          "Trinity Hall’da tek/iki kişilik odada tam pansiyon konaklama",
+          "Eğitim materyalleri ve Emerald bitirme diploması",
+          "Kayıt ve konaklama ücretleri",
+          "Rehberli Dublin turu, düzenlenen etkinlikler ve haftada bir tam günlük gezi",
+          "Okula ve düzenlenen etkinliklere ulaşım",
+          "Haftada iki kültürel etkinlik ve her gün akşam etkinliği"
+        ]
+      },
+      "note": {
+        "en": "2026 additional-week supplements: homestay €990; residence €1,365 (extensions, not standalone packages). Airport transfer fees follow the dated 2026 tariff (€105 each way); the brochure’s €190 return figure differs. Under-18 return transfers are compulsory. Confirm the next season.",
+        "tr": "2026 ek hafta ücretleri: aile yanı €990; yurt €1.365 (süre uzatma bedelidir, ayrı bir paket değildir). Transfer ücretinde tarihli 2026 tarifesi (tek yön €105) esas alınmıştır; broşürdeki €190 gidiş-dönüş bilgisi farklıdır. 18 yaş altı gidiş-dönüş transferi zorunludur. Yeni dönemi teyit edin."
+      }
+    },
     "sportech-football": {
       "sources": ["https://sportechacademy.com/football/"],
       "residential": {"en": ["Football training and programme activities", "Accommodation with breakfast, lunch and dinner", "Supervised evening/weekend activities and 24-hour support"], "tr": ["Futbol antrenmanları ve program etkinlikleri", "Konaklama, kahvaltı, öğle ve akşam yemeği", "Gözetimli akşam/hafta sonu etkinlikleri ve 24 saat destek"]},

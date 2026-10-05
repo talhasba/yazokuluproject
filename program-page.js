@@ -48,7 +48,7 @@
     return (lang === "tr" && tr[rec.city]) || rec.city || "";
   };
   const stripCountry = (value, country, lang) => {
-    const tr = { Canada: "Kanada", Germany: "Almanya", "United Kingdom": "Birleşik Krallık", "United States": "Amerika Birleşik Devletleri", Italy: "İtalya" };
+    const tr = { Canada: "Kanada", Germany: "Almanya", Ireland: "İrlanda", "United Kingdom": "Birleşik Krallık", "United States": "Amerika Birleşik Devletleri", Italy: "İtalya" };
     let result = String(value || "").trim();
     [country, lang === "tr" && tr[country]].filter(Boolean).forEach((suffix) => {
       result = result.replace(new RegExp(`\\s*,\\s*${escapeRegExp(suffix)}\\s*$`, "i"), "");
@@ -179,11 +179,11 @@
       loading = Promise.all([
         json("./data/programs.normalized.json", []),
         json("./data/program-digests.json", {}),
-        json("./data/image-candidates.json?v=20261001-2", {}),
+        json("./data/image-candidates.json?v=20261005-2", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
         json("./data/price-inclusions.json", {}),
-        import("./program-pricing.js?v=20261005-1")
+        import("./program-pricing.js?v=20261005-2")
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
@@ -293,6 +293,8 @@
     const pair = outcomes || fit ? `<div class="pp-two">${outcomes}${fit}</div>` : "";
     const flags = reviewMode && digest.review?.flags?.length
       ? `<div class="pp-review"><b>⚠ ${esc(L.review)}</b>${list(digest.review.flags)}</div>` : "";
+    const season = rec.price_status === "historical" && rec.dates_year
+      ? `<div class="pp-season">${esc(lang === "tr" ? `${rec.dates_year} dönemi bilgileri: tarihler ve ücretler geçmiş döneme aittir. Yeni dönem için tarih, ücret ve kontenjan teyidi gerekir.` : `${rec.dates_year} season reference: dates and fees are from a past season. Confirm dates, fees and availability for the next season.`)}</div>` : "";
 
     page.innerHTML = `
       <header class="pp-top">
@@ -307,11 +309,12 @@
             <h1 class="pp-title">${esc(title)}</h1>
             <div class="pp-sub">${ICON.location}<span>${esc(facts[4][2])}</span></div>
           </div>
-          ${hero ? credit(hero) : ""}
+          ${hero ? (credit(hero) || (rec.image_credit ? `<span class="pp-credit">${esc(L.photo)}: ${esc(rec.image_credit)}</span>` : "")) : ""}
         </div>
         <div class="pp-facts">${facts.map(([k, label, value]) => `<div class="pp-fact"><div class="pp-ic">${ICON[k]}</div><div><small>${esc(label)}</small><span>${esc(value)}</span></div></div>`).join("")}</div>
         <div class="pp-grid">
           <main class="pp-main">
+            ${season}
             <p class="pp-focus">${esc(d.focus)}</p>
             <div class="pp-chips">${(d.tags || []).map((t) => `<span class="pp-chip">${esc(t)}</span>`).join("")}</div>
             ${pricing.section}${tracks}${steps}${schedule}${pair}${extras}${flags}

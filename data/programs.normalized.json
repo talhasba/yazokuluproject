@@ -52216,5 +52216,305 @@
     "subject_tr": "Programlama ve Algoritmalar",
     "location_tr": "Bremen, Almanya",
     "description_short_tr": "Big-O gösteriminden özyinelemeye, sıralamaya ve aramaya kadar algoritmik problem çözme ve hesaplama karmaşıklığını inceleyin."
+  },
+  {
+    "id": "emerald-trinity-walton-stem",
+    "provider": "emerald",
+    "provider_label": "Emerald Cultural Institute",
+    "program_type": "summer_school",
+    "title": "Trinity Walton STEM Programme",
+    "raw_title": "Trinity Walton STEM Programme",
+    "title_tr": "Trinity Walton STEM Programı",
+    "subject": "STEM & English",
+    "subject_tr": "STEM ve İngilizce",
+    "categories": [
+      "STEM",
+      "English for STEM",
+      "Team projects",
+      "Dublin"
+    ],
+    "location": "Trinity College Dublin",
+    "location_tr": "Trinity College Dublin",
+    "location_type": "campus",
+    "location_id": "trinity-college-dublin",
+    "location_name": "Trinity College Dublin",
+    "city": "Dublin",
+    "country": "Ireland",
+    "age_ranges": [
+      "14-17"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2990,
+      "max_amount": 3700,
+      "display": "2026 · €2,990–€3,700",
+      "tiers": [
+        {
+          "label": "Homestay · 2 weeks",
+          "currency": "EUR",
+          "amount": 2990,
+          "display": "€2,990"
+        },
+        {
+          "label": "Residential · 2 weeks",
+          "currency": "EUR",
+          "amount": 3700,
+          "display": "€3,700"
+        }
+      ]
+    },
+    "price_status": "historical",
+    "price_year": 2026,
+    "dates_year": 2026,
+    "dates": [
+      "2026-07-19/2026-08-02"
+    ],
+    "date_months": [
+      "July",
+      "August"
+    ],
+    "language_requirement": "CEFR B2 minimum; English entry test before course confirmation",
+    "course_codes": [
+      "SUM9",
+      "SUM9R"
+    ],
+    "description_short": "Explore science, technology, engineering and maths with Trinity Walton Club at Trinity College Dublin, alongside English for STEM. Work in teams on practical challenges and experience Dublin through cultural activities and excursions.",
+    "description_short_tr": "Trinity College Dublin'deki Trinity Walton Club ile fen, teknoloji, mühendislik ve matematiği keşfederken STEM için İngilizcenizi geliştirin. Takım çalışmaları ve uygulamalı projelerin yanı sıra kültürel etkinlikler ve gezilerle Dublin'i tanıyın.",
+    "description_full": "Explore science, technology, engineering and maths with Trinity Walton Club at Trinity College Dublin, alongside English for STEM. Work in teams on practical challenges and experience Dublin through cultural activities and excursions.\n\nMathematics & modelling: Use mathematical functions to investigate problems and develop logical thinking with STEM specialists.\n\nEngineering & physics: Explore forces and Newton's laws through hands-on challenges. The sample timetable includes bridges, waves and aerodynamics.\n\nTechnology & teamwork: Build microcontroller-based projects and practise collaborative problem-solving. The sample timetable includes coding and robot design.\n\nEnglish for STEM: Develop scientific vocabulary and explain your ideas in English during 10 hours of language teaching each week.\n\nDublin & Irish culture: Join organised afternoon and evening activities, a guided Dublin tour and a full-day excursion each weekend. Specific visits are illustrative and can change.",
+    "description_full_tr": "Trinity College Dublin'deki Trinity Walton Club ile fen, teknoloji, mühendislik ve matematiği keşfederken STEM için İngilizcenizi geliştirin. Takım çalışmaları ve uygulamalı projelerin yanı sıra kültürel etkinlikler ve gezilerle Dublin'i tanıyın.\n\nMatematik ve modelleme: STEM uzmanlarıyla matematiksel fonksiyonları kullanarak problemleri araştırın ve mantıksal düşünme becerinizi geliştirin.\n\nMühendislik ve fizik: Uygulamalı çalışmalarla kuvvetleri ve Newton yasalarını keşfedin. Örnek programda köprüler, dalgalar ve aerodinamik yer alır.\n\nTeknoloji ve takım çalışması: Mikrodenetleyici tabanlı projeler geliştirin ve birlikte problem çözün. Örnek programda kodlama ve robot tasarımı bulunur.\n\nSTEM için İngilizce: Haftada 10 saat dil eğitimiyle bilimsel kelime dağarcığınızı geliştirin ve fikirlerinizi İngilizce açıklamayı öğrenin.\n\nDublin ve İrlanda kültürü: Öğleden sonra ve akşam etkinliklerine, rehberli Dublin turuna ve her hafta sonu tam günlük geziye katılın. Örnek ziyaretler değişebilir.",
+    "curriculum_sections": [
+      {
+        "title": "Mathematics & modelling",
+        "body": "Use mathematical functions to investigate problems and develop logical thinking with STEM specialists."
+      },
+      {
+        "title": "Engineering & physics",
+        "body": "Explore forces and Newton's laws through hands-on challenges. The sample timetable includes bridges, waves and aerodynamics."
+      },
+      {
+        "title": "Technology & teamwork",
+        "body": "Build microcontroller-based projects and practise collaborative problem-solving. The sample timetable includes coding and robot design."
+      },
+      {
+        "title": "English for STEM",
+        "body": "Develop scientific vocabulary and explain your ideas in English during 10 hours of language teaching each week."
+      },
+      {
+        "title": "Dublin & Irish culture",
+        "body": "Join organised afternoon and evening activities, a guided Dublin tour and a full-day excursion each weekend. Specific visits are illustrative and can change."
+      }
+    ],
+    "curriculum_sections_tr": [
+      {
+        "title": "Matematik ve modelleme",
+        "body": "STEM uzmanlarıyla matematiksel fonksiyonları kullanarak problemleri araştırın ve mantıksal düşünme becerinizi geliştirin."
+      },
+      {
+        "title": "Mühendislik ve fizik",
+        "body": "Uygulamalı çalışmalarla kuvvetleri ve Newton yasalarını keşfedin. Örnek programda köprüler, dalgalar ve aerodinamik yer alır."
+      },
+      {
+        "title": "Teknoloji ve takım çalışması",
+        "body": "Mikrodenetleyici tabanlı projeler geliştirin ve birlikte problem çözün. Örnek programda kodlama ve robot tasarımı bulunur."
+      },
+      {
+        "title": "STEM için İngilizce",
+        "body": "Haftada 10 saat dil eğitimiyle bilimsel kelime dağarcığınızı geliştirin ve fikirlerinizi İngilizce açıklamayı öğrenin."
+      },
+      {
+        "title": "Dublin ve İrlanda kültürü",
+        "body": "Öğleden sonra ve akşam etkinliklerine, rehberli Dublin turuna ve her hafta sonu tam günlük geziye katılın. Örnek ziyaretler değişebilir."
+      }
+    ],
+    "learning_outcomes": [
+      "Practise critical thinking and practical STEM problem-solving.",
+      "Build confidence using scientific English and working in a team.",
+      "Receive Emerald and Trinity Walton completion diplomas."
+    ],
+    "learning_outcomes_tr": [
+      "Eleştirel düşünme ve uygulamalı STEM problemlerini çözme becerilerini kullanın.",
+      "Bilimsel İngilizceyi kullanırken ve takım içinde çalışırken özgüven kazanın.",
+      "Program sonunda Emerald ve Trinity Walton bitirme diplomaları alın."
+    ],
+    "image_url": "/assets/program-images/emerald/trinity-walton.jpg",
+    "image_credit": "Emerald Cultural Institute",
+    "detail_url": "https://www.eci.ie/courses/trinity-walton-stem-programme/",
+    "source_url": "https://www.eci.ie/courses/trinity-walton-stem-programme/",
+    "source_files": [
+      "ireland/Trinity-Walton-STEM-Programme-2026.pdf",
+      "ireland/Trinity Walton STEM Programme - Emerald Cultural Institute.html",
+      "2026-Junior-Price-List.pdf"
+    ],
+    "source_reviewed": "2026-10-05",
+    "flags": [
+      "Dates and fees are historical 2026 references; confirm the next season with Emerald.",
+      "STEM teaching is at Trinity College Dublin; Trinity Hall is the residence, not the same campus."
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "emerald-young-adult",
+    "provider": "emerald",
+    "provider_label": "Emerald Cultural Institute",
+    "program_type": "summer_school",
+    "title": "Young Adult Programme",
+    "raw_title": "Young Adult Programme",
+    "title_tr": "Genç Yetişkin İngilizce Programı",
+    "subject": "English & Leadership",
+    "subject_tr": "İngilizce ve Liderlik",
+    "categories": [
+      "General English",
+      "Communication",
+      "Leadership",
+      "Irish culture"
+    ],
+    "location": "Dublin",
+    "location_tr": "Dublin",
+    "location_type": "city",
+    "location_id": "dublin",
+    "location_name": "Dublin",
+    "city": "Dublin",
+    "country": "Ireland",
+    "age_ranges": [
+      "16-19"
+    ],
+    "duration": "2+ weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "price": {
+      "currency": "EUR",
+      "min_amount": 2200,
+      "max_amount": 5740,
+      "display": "2026 · €2,200–€5,740",
+      "tiers": [
+        {
+          "label": "Homestay · 2 weeks",
+          "currency": "EUR",
+          "amount": 2200,
+          "display": "€2,200"
+        },
+        {
+          "label": "Homestay · 3 weeks",
+          "currency": "EUR",
+          "amount": 3250,
+          "display": "€3,250"
+        },
+        {
+          "label": "Homestay · 4 weeks",
+          "currency": "EUR",
+          "amount": 4240,
+          "display": "€4,240"
+        },
+        {
+          "label": "Residential · 2 weeks",
+          "currency": "EUR",
+          "amount": 2950,
+          "display": "€2,950"
+        },
+        {
+          "label": "Residential · 3 weeks",
+          "currency": "EUR",
+          "amount": 4375,
+          "display": "€4,375"
+        },
+        {
+          "label": "Residential · 4 weeks",
+          "currency": "EUR",
+          "amount": 5740,
+          "display": "€5,740"
+        }
+      ]
+    },
+    "price_status": "historical",
+    "price_year": 2026,
+    "dates_year": 2026,
+    "price_supplements": {
+      "homestay_extra_week_eur": 990,
+      "residential_extra_week_eur": 1365
+    },
+    "dates": [
+      "2026-06-28/2026-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "language_requirement": "CEFR B1-C1; minimum B1 for workshop modules; placement test",
+    "course_codes": [
+      "SUM8",
+      "SUM8R"
+    ],
+    "description_short": "Improve your English in Dublin through language lessons, communication and leadership workshops, and Irish cultural activities. Designed for young adults, the programme combines classroom learning with time to explore the city and meet international peers.",
+    "description_short_tr": "Dublin'de dil dersleri, iletişim ve liderlik atölyeleri ile İrlanda kültürünü tanıtan etkinliklerle İngilizcenizi geliştirin. Genç yetişkinler için hazırlanan program, sınıf içi öğrenmeyi şehri keşfetme ve uluslararası arkadaşlıklar kurma fırsatıyla birleştirir.",
+    "description_full": "Improve your English in Dublin through language lessons, communication and leadership workshops, and Irish cultural activities. Designed for young adults, the programme combines classroom learning with time to explore the city and meet international peers.\n\nEnglish & writing: Build fluency in speaking and writing through discussion, creative writing, reviews and language lessons. Classes run for four hours a day, in mornings or afternoons.\n\nLeadership & communication: Explore teamwork, active listening, public speaking, debate and conflict resolution through workshops and seminars.\n\nStudy & workplace skills: Practise presentations, networking and workplace English, including CVs and cover letters, while reflecting on goals and learning styles.\n\nDublin & Irish culture: Learn about Irish music, myths, history and Gaelic sports. Join a guided Dublin tour, two cultural activities per week and a weekly full-day excursion.",
+    "description_full_tr": "Dublin'de dil dersleri, iletişim ve liderlik atölyeleri ile İrlanda kültürünü tanıtan etkinliklerle İngilizcenizi geliştirin. Genç yetişkinler için hazırlanan program, sınıf içi öğrenmeyi şehri keşfetme ve uluslararası arkadaşlıklar kurma fırsatıyla birleştirir.\n\nİngilizce ve yazma: Tartışmalar, yaratıcı yazma, değerlendirme yazıları ve dil dersleriyle konuşma ve yazma becerilerinizi geliştirin. Dersler sabah veya öğleden sonra günde dört saat sürer.\n\nLiderlik ve iletişim: Atölye ve seminerlerde takım çalışması, etkin dinleme, topluluk önünde konuşma, münazara ve çatışma çözümü üzerine çalışın.\n\nEğitim ve iş yaşamı becerileri: Hedeflerinizi ve öğrenme biçiminizi değerlendirirken sunum, yeni bağlantılar kurma ve iş İngilizcesi çalışın; özgeçmiş ve ön yazı hazırlamayı deneyin.\n\nDublin ve İrlanda kültürü: İrlanda müziğini, efsanelerini, tarihini ve Gal sporlarını tanıyın. Rehberli Dublin turuna, haftada iki kültürel etkinliğe ve bir tam günlük geziye katılın.",
+    "curriculum_sections": [
+      {
+        "title": "English & writing",
+        "body": "Build fluency in speaking and writing through discussion, creative writing, reviews and language lessons. Classes run for four hours a day, in mornings or afternoons."
+      },
+      {
+        "title": "Leadership & communication",
+        "body": "Explore teamwork, active listening, public speaking, debate and conflict resolution through workshops and seminars."
+      },
+      {
+        "title": "Study & workplace skills",
+        "body": "Practise presentations, networking and workplace English, including CVs and cover letters, while reflecting on goals and learning styles."
+      },
+      {
+        "title": "Dublin & Irish culture",
+        "body": "Learn about Irish music, myths, history and Gaelic sports. Join a guided Dublin tour, two cultural activities per week and a weekly full-day excursion."
+      }
+    ],
+    "curriculum_sections_tr": [
+      {
+        "title": "İngilizce ve yazma",
+        "body": "Tartışmalar, yaratıcı yazma, değerlendirme yazıları ve dil dersleriyle konuşma ve yazma becerilerinizi geliştirin. Dersler sabah veya öğleden sonra günde dört saat sürer."
+      },
+      {
+        "title": "Liderlik ve iletişim",
+        "body": "Atölye ve seminerlerde takım çalışması, etkin dinleme, topluluk önünde konuşma, münazara ve çatışma çözümü üzerine çalışın."
+      },
+      {
+        "title": "Eğitim ve iş yaşamı becerileri",
+        "body": "Hedeflerinizi ve öğrenme biçiminizi değerlendirirken sunum, yeni bağlantılar kurma ve iş İngilizcesi çalışın; özgeçmiş ve ön yazı hazırlamayı deneyin."
+      },
+      {
+        "title": "Dublin ve İrlanda kültürü",
+        "body": "İrlanda müziğini, efsanelerini, tarihini ve Gal sporlarını tanıyın. Rehberli Dublin turuna, haftada iki kültürel etkinliğe ve bir tam günlük geziye katılın."
+      }
+    ],
+    "learning_outcomes": [
+      "Develop practical English for social, study and workplace situations.",
+      "Practise presentation, teamwork and intercultural communication skills.",
+      "Receive an Emerald completion diploma."
+    ],
+    "learning_outcomes_tr": [
+      "Sosyal yaşam, eğitim ve iş ortamları için günlük İngilizcenizi geliştirin.",
+      "Sunum, takım çalışması ve kültürler arası iletişim becerilerini kullanın.",
+      "Program sonunda Emerald bitirme diploması alın."
+    ],
+    "image_url": "/assets/program-images/emerald/young-adult.jpg",
+    "image_credit": "Emerald Cultural Institute",
+    "detail_url": "https://www.eci.ie/courses/young-adult-programme/",
+    "source_url": "https://www.eci.ie/courses/young-adult-programme/",
+    "source_files": [
+      "ireland/Young-Adult-Programme-SUM8.pdf",
+      "2026-Junior-Price-List.pdf"
+    ],
+    "source_reviewed": "2026-10-05",
+    "flags": [
+      "Dates and fees are historical 2026 references; confirm the next season with Emerald.",
+      "Brochure says ages 16-20; dated 2026 tariff and official course page say 16-19. Catalogue follows 16-19.",
+      "Brochure transfer supplement is EUR190 return; dated 2026 tariff is EUR105 each way (EUR210 return). Catalogue follows the dated tariff.",
+      "Dates are the operating window, not a six-week fixed course. Arrival Sundays; minimum stay two weeks."
+    ],
+    "publish_status": "needs_review"
   }
 ]

@@ -14,18 +14,18 @@ Ana kaynak `data/programs.normalized.json` dosyasıdır.
 
 | Gösterge | Mevcut değer |
 | --- | ---: |
-| Program kaydı | 474 |
-| Benzersiz program kimliği | 474 |
-| Sağlayıcı | 10 |
-| Dolu ülke alanlarında farklı ülke | 5 |
+| Program kaydı | 476 |
+| Benzersiz program kimliği | 476 |
+| Sağlayıcı | 11 |
+| Dolu ülke alanlarında farklı ülke | 6 |
 | `ready` durumundaki kayıt | 193 |
-| `needs_review` durumundaki kayıt | 281 |
-| Yeni özetli detay sayfası bulunan program | 473 |
-| Görsel adayı tanımlanan program | 474 |
-| Türkçe katalog alanları eksiksiz program | 474 |
+| `needs_review` durumundaki kayıt | 283 |
+| Yeni özetli detay sayfası bulunan program | 475 |
+| Görsel adayı tanımlanan program | 476 |
+| Türkçe katalog alanları eksiksiz program | 476 |
 | Editörün program/içerik değişikliği kayıtları | 0 / 0 |
 
-Ülkeler Almanya, Amerika Birleşik Devletleri, Birleşik Krallık, İtalya ve Kanada'dır. Bazı çevrimiçi kayıtların ülke alanı boştur; boş değer ayrı bir ülke olarak sayılmamıştır.
+Ülkeler Almanya, Amerika Birleşik Devletleri, Birleşik Krallık, İrlanda, İtalya ve Kanada'dır. Bazı çevrimiçi kayıtların ülke alanı boştur; boş değer ayrı bir ülke olarak sayılmamıştır.
 
 | Sağlayıcı | Program | `ready` | `needs_review` |
 | --- | ---: | ---: | ---: |
@@ -39,6 +39,7 @@ Ana kaynak `data/programs.normalized.json` dosyasıdır.
 | Bucksmore | 8 | 8 | 0 |
 | MPW Summer School | 8 | 0 | 8 |
 | Edconic | 7 | 4 | 3 |
+| Emerald Cultural Institute | 2 | 0 | 2 |
 
 `needs_review`, kaydın bazı bilgileri için kaynak kontrolü gerektiğini belirtir. Mevcut katalog kodu bu durumu yayın engeli olarak kullanmaz; bu kayıtlar da listelenir. Eksiksiz Türkçe katalog alanları, `title_tr`, `subject_tr`, `location_tr` ve `description_short_tr` alanlarının dolu olduğu anlamına gelir.
 
@@ -93,13 +94,13 @@ Programın `id` alanı, katalog, özet, görsel ve editör verilerini birbirine 
 
 ## Özetli program detayları ve bilgi formu
 
-`program-page.js`, 473 program için büyük görsel, temel bilgiler, konu etiketleri, etkinlikler, kazanımlar, uygun katılımcı profili ve ek olanaklardan oluşan detay sayfası sunar. Ücret, tarih, süre ve konum temel program kaydından okunur. Yaş alanı boş olan Summer Discovery kayıtlarında özetin sınıf bilgisi gösterilebilir; sınıf aralığı yaşa dönüştürülmez.
+`program-page.js`, 475 program için büyük görsel, temel bilgiler, konu etiketleri, etkinlikler, kazanımlar, uygun katılımcı profili ve ek olanaklardan oluşan detay sayfası sunar. Ücret, tarih, süre ve konum temel program kaydından okunur. Yaş alanı boş olan Summer Discovery kayıtlarında özetin sınıf bilgisi gösterilebilir; sınıf aralığı yaşa dönüştürülmez.
 
 Detay görsellerinde yerel adaylar kullanılır; `/campuses/` yolundaki görsele başlık alanında öncelik verilir. Kalan uygun yerel görsellerden en fazla üçü galeride gösterilir. Kaynak kaydıyla eşleşen kampüs görsellerinin atıf bilgisi ekrana eklenir. Katalog kartları ise aday listesindeki ilk görseli kullanır; aday yoksa programın `image_url` alanına başvurur, yüklenemeyen görseller için yer tutucu gösterir.
 
 `immerse-online-research-programme`, özet katmanının bilinçli olarak dışında tutulur. Özgün React detay sayfasını ve özel araştırma seçeneklerini kullanır. `online-research-options.js`, seçenekleri doğrudan ana JSON dosyasından okur; editör değişiklikleri dosyasını ayrıca birleştirmez.
 
-Birden fazla farklı ücret bulunan 82 özetli program sayfasında paket karşılaştırması vardır. InvestIN seçenekleri bir hafta, iki hafta ve Enhanced olarak ayrılır; konaklamalı ücretler toplam paket fiyatı olarak açıklanır. Bu eşlemeler doğrulanmış ücret ve para birimiyle eşleşir; editörde tanınmayan bir ücret girilirse süre tahmin edilmez. Aynı ücretin tekrar eden kayıtları ayrı paket oluşturmaz. 259 programın kampüs geneli ücret aralığı, bu dersin kesin fiyatı veya iki ayrı paket gibi sunulmaz. Bilinmeyen yemek/ek hizmet kapsamları açıkça belirtilir. Paket açıklamaları temel JSON yeniden üretilse de ayrı dosyada korunur.
+Birden fazla farklı ücret bulunan 84 özetli program sayfasında paket karşılaştırması vardır. InvestIN seçenekleri bir hafta, iki hafta ve Enhanced olarak ayrılır; konaklamalı ücretler toplam paket fiyatı olarak açıklanır. Bu eşlemeler doğrulanmış ücret ve para birimiyle eşleşir; editörde tanınmayan bir ücret girilirse süre tahmin edilmez. Aynı ücretin tekrar eden kayıtları ayrı paket oluşturmaz. 259 programın kampüs geneli ücret aralığı, bu dersin kesin fiyatı veya iki ayrı paket gibi sunulmaz. Bilinmeyen yemek/ek hizmet kapsamları açıkça belirtilir. Paket açıklamaları temel JSON yeniden üretilse de ayrı dosyada korunur.
 
 Bilgi formu ad, telefon, e-posta, katılımcı yaşı ve il bilgilerini doğrular. Yaşı program aralığıyla karşılaştırıp uygunluk bilgisi gösterir. Ancak `FORM_ENDPOINT` ve `WHATSAPP_NUMBER` şu anda boştur: form verisi bir alıcıya gönderilmez, gönderilmediğini belirten mesaj gösterilir ve hazırlanan veri tarayıcı konsoluna yazılır.
 
@@ -160,10 +161,16 @@ Bakım sırasında mevcut yapının şu özellikleri önemlidir:
 - `app-loader.js`, küçültülmüş paketteki tam metin eşleşmelerine bağlıdır. Eşleşme kaybolur veya birden fazla kez bulunursa uygulama yüklemesi hata verir. Yeni sağlayıcı, ülke ve konu eklenirken veriyle birlikte filtre listeleri ve konu eşlemeleri de kontrol edilmelidir.
 - `MutationObserver` kullanan ek betikler, özgün React sayfasının metinlerine ve DOM yapısına bağlıdır. Paket değişiklikleri bu davranışları etkileyebilir.
 - Parola tarayıcı kodunda bulunur; kontrol yalnızca arayüz erişimini sınırlar. JSON verileri ve dosyalar sunucudan ayrıca erişilebilir.
-- Ana sayfadaki 474 program ve 5 ülke sayıları `index.html` içinde sabittir, veri değişince kendiliğinden yenilenmez.
-- Güncel inceleme durumu toplamı **281**'dir. Eski belgelerdeki 287 değeri mevcut ana JSON ile uyuşmaz; veri sayıları için ana dosya esas alınmalıdır.
+- Ana sayfadaki 476 program ve 6 ülke sayıları `index.html` içinde sabittir, veri değişince kendiliğinden yenilenmez.
+- Güncel inceleme durumu toplamı **283**'dir. Eski belgelerdeki 287 değeri mevcut ana JSON ile uyuşmaz; veri sayıları için ana dosya esas alınmalıdır.
 - Bazı ücretler geçmiş dönem bilgisi veya kampüs geneli aralıktır. Bu ayrımlar `flags`, fiyat notları, tarihsel alanlar ve özet kontrol notlarında korunur.
 - Görsel adayının bulunması, görselin yüklenebilir veya açık lisanslı olduğunu tek başına göstermez. Commons ve sağlayıcı kaynak kayıtları ayrıdır; Bremen görselinin kaynak/lisans doğrulaması belgelere göre tamamlanmamıştır.
 - `tests/program-pricing.test.mjs`, fiyat eşlemelerini, konaklama ayrımını, geçmiş ücretleri, tekrarların birleştirilmesini, metin güvenliğini ve iki dilde tüm katalog kapsamını kontrol eder. `node --test tests/program-pricing.test.mjs` ile çalıştırılır. Lint yapılandırması veya görünür CI iş akışı bulunmaz. Özet üreticisindeki içerik kontrolleri ve yerel arayüz önizlemeleri de kullanılabilir.
 
 Bu belge için kod ve veri dosyaları okunmuş, JSON sayıları ve eşleşmeler kontrol edilmiştir. Fiyat kapsamları eklendikten sonra ilgili otomatik testler ve yerel tarayıcı kontrolleri yapılmıştır. Üretim derlemesi ve içerik üretim betikleri bu incelemede yürütülmemiştir.
+
+## İrlanda programları (5 Ekim 2026)
+
+`normalized_ireland/normalize_ireland.mjs`, gözden geçirilmiş kaynaklardan Emerald Cultural Institute için Trinity Walton STEM ve Young Adult kayıtlarını üretir. İngilizce ve Türkçe özetler, görsel adayları ve ana katalog birlikte güncellenir; diğer sağlayıcılara dokunulmaz. Kaynak kararları ve yeniden üretim adımları `normalized_ireland/README.md` içindedir.
+
+İrlanda ülke filtresi ve Emerald sağlayıcı filtresi eklenmiştir. Aile yanı ve yurt paketleri, tam pansiyon kapsamı, süre seçenekleri ve ek ücretler program sayfalarında açıklanır. Kaynakların 2026 tarih/ücretleri geçmiş dönem olarak görünür; gelecek sezon varsayılmaz. Young Adult broşüründeki yaş/transfer çelişkileri açıklanır; tarihli tarife ve resmî kurs sayfası esas alınır.

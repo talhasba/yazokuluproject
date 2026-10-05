@@ -24,6 +24,8 @@ window.__PROGRAM_EDITOR_PROGRAMS__ = basePrograms.map((program) =>
 );
 
 const additionalSubjectBuckets = {
+  "STEM & English": "Science & Mathematics",
+  "English & Leadership": "Language",
   "Academic Research": "Online Research Program",
   "Art Business & Art History": "Arts & Design",
   "Art and Design": "Arts & Design",
@@ -110,7 +112,7 @@ replaceOnce(
 
 replaceOnce(
   '_0=["Bucksmore","Immerse Education","InvestIN Education","Oxford Royale","St Clare\'s, Oxford"]',
-  '_0=["Bucksmore","Constructor University Summer Camp","Edconic","Immerse Education","InvestIN Education","MPW Summer School","Oxford Royale","Sportech Academy","St Clare\'s, Oxford","Summer Discovery"]',
+  '_0=["Bucksmore","Constructor University Summer Camp","Edconic","Emerald Cultural Institute","Immerse Education","InvestIN Education","MPW Summer School","Oxford Royale","Sportech Academy","St Clare\'s, Oxford","Summer Discovery"]',
   "complete provider filter options"
 );
 
@@ -140,7 +142,7 @@ replaceOnce(
 
 replaceOnce(
   'O0=["Cambridge","London","New Haven","New Haven / New York","New York","Online","Oxford","San Francisco","Toronto"],U0={Cambridge:{en:"Cambridge",tr:"Cambridge"},London:{en:"London",tr:"Londra"},"New Haven":{en:"New Haven",tr:"New Haven"},"New Haven / New York":{en:"New Haven / New York",tr:"New Haven / New York"},"New York":{en:"New York",tr:"New York"},Online:{en:"Online",tr:"Çevrimiçi"},Oxford:{en:"Oxford",tr:"Oxford"},"San Francisco":{en:"San Francisco",tr:"San Francisco"},Toronto:{en:"Toronto",tr:"Toronto"}}',
-  'O0=["Canada","Germany","Italy","United Kingdom","United States"],U0={Canada:{en:"Canada",tr:"Kanada"},Germany:{en:"Germany",tr:"Almanya"},Italy:{en:"Italy",tr:"İtalya"},"United Kingdom":{en:"United Kingdom",tr:"Birleşik Krallık"},"United States":{en:"United States",tr:"Amerika Birleşik Devletleri"}}',
+  'O0=["Canada","Germany","Ireland","Italy","United Kingdom","United States"],U0={Canada:{en:"Canada",tr:"Kanada"},Germany:{en:"Germany",tr:"Almanya"},Ireland:{en:"Ireland",tr:"İrlanda"},Italy:{en:"Italy",tr:"İtalya"},"United Kingdom":{en:"United Kingdom",tr:"Birleşik Krallık"},"United States":{en:"United States",tr:"Amerika Birleşik Devletleri"}}',
   "country filter options"
 );
 
@@ -166,7 +168,7 @@ replaceOnce(
   'function Xh(m){return{...m,providerLabel:m.provider_label||m.provider||"Unknown",subjectBucket:Uh[m.subject]||"Other"}}',
   String.raw`
 function codexEscapeRegExp(m){return String(m||"").replace(/[|\\{}()[\]^$+*?.-]/g,function(x){return "\\"+x})}
-function codexStripCountry(m,x,O){let d=String(m||"").trim();const _={Canada:"Kanada",Germany:"Almanya","United Kingdom":"Birleşik Krallık","United States":"Amerika Birleşik Devletleri",Italy:"İtalya"},N=[x,O?_[x]:x].filter(Boolean);return N.forEach(X=>{d=d.replace(new RegExp("\\s*,\\s*"+codexEscapeRegExp(X)+"\\s*$","i"),"")}),d.trim()}
+function codexStripCountry(m,x,O){let d=String(m||"").trim();const _={Canada:"Kanada",Germany:"Almanya",Ireland:"İrlanda","United Kingdom":"Birleşik Krallık","United States":"Amerika Birleşik Devletleri",Italy:"İtalya"},N=[x,O?_[x]:x].filter(Boolean);return N.forEach(X=>{d=d.replace(new RegExp("\\s*,\\s*"+codexEscapeRegExp(X)+"\\s*$","i"),"")}),d.trim()}
 function codexCityName(m,x){const O={London:"Londra","New York City":"New York",Oxford:"Oxford",Cambridge:"Cambridge",Toronto:"Toronto","San Francisco":"San Francisco","New Haven":"New Haven","New Haven / New York":"New Haven ve New York","London & Cambridge":"Londra ve Cambridge","Cambridge & London":"Cambridge ve Londra",Milan:"Milano",Rome:"Roma",Venice:"Venedik",Online:"Çevrimiçi"};return x&&O[m.city]||m.city||""}
 function codexSamePlace(m){if(["city","virtual","multi_city"].includes(m.location_type))return!0;const x=codexStripCountry(m.location,m.country,!1).toLowerCase().replace(/[^a-z0-9]+/g,""),O=String(m.city||"").toLowerCase().replace(/[^a-z0-9]+/g,"");return!!x&&x===O}
 function codexPlaceName(m,x){const O=codexCityName(m,x),d=x?codexStripCountry(m.location_tr||m.location,m.country,!0):codexStripCountry(m.location,m.country,!1);return codexSamePlace(m)?O||d:d||O}
@@ -187,7 +189,7 @@ replaceOnce(
 
 replaceOnce(
   'fetch("data/image-candidates.json")',
-  'fetch("data/image-candidates.json?v=20261001-2")',
+  'fetch("data/image-candidates.json?v=20261005-2")',
   "program thumbnail cache version"
 );
 

@@ -3,7 +3,7 @@
 const COPY = {
   en: {
     title: "Price options & what's included", why: "Why prices differ", included: "Includes",
-    excluded: "Not included", residential: "Residential", day: "Day / non-residential",
+    excluded: "Not included / extra charges", residential: "Residential", homestay: "Homestay", day: "Day / non-residential",
     historical: "2026 fees · historical reference", historicalNote: "These are previous-season prices, not a current quote. Fees differ by campus and accommodation; current fees are available on request.",
     campus: "Campus tuition range", campusNote: "This is a campus-wide tuition range, not two bookable packages or a confirmed fee for this course. The catalogue does not specify which duration or inclusions correspond to each end of the range.",
     unknown: "The provider lists different prices, but the catalogue does not specify what distinguishes these options.",
@@ -14,7 +14,7 @@ const COPY = {
   },
   tr: {
     title: "Fiyat seçenekleri ve kapsamları", why: "Fiyatlar neden farklı?", included: "Dahil olanlar",
-    excluded: "Dahil olmayanlar", residential: "Konaklamalı", day: "Gündüzlü / konaklamasız",
+    excluded: "Dahil olmayanlar / ek ücretler", residential: "Konaklamalı", homestay: "Aile yanı", day: "Gündüzlü / konaklamasız",
     historical: "2026 ücretleri · geçmiş dönem", historicalNote: "Bunlar geçmiş dönem ücretleridir; güncel fiyat teklifi değildir. Ücretler kampüse ve konaklamaya göre değişir; güncel ücretler talep üzerine öğrenilebilir.",
     campus: "Kampüs genelindeki ücret aralığı", campusNote: "Bu aralık kampüs genelindeki eğitim ücretlerini gösterir; satın alınabilir iki paket veya bu ders için kesin ücret değildir. Aralığın alt ve üst sınırlarının hangi süre ve olanakları içerdiği katalogda belirtilmemiştir.",
     unknown: "Sağlayıcı farklı ücretler listeliyor; ancak bu seçenekler arasındaki fark katalogda belirtilmemiştir.",
@@ -45,18 +45,20 @@ function money(tier, currency) {
 function option(tier, rec, lang, profile, historical = false) {
   const L = COPY[lang];
   const isResidential = residential(tier.label);
+  const isHomestay = /\bhomestay\b/i.test(tier.label || "");
   const isDay = day(tier.label);
   let title = String(tier.label || L.title).trim();
   let includes = [];
   let excludes = [];
   let note = "";
-  if (isResidential || isDay) {
-    title = isResidential ? L.residential : L.day;
+  if (isResidential || isHomestay || isDay) {
+    const kind = isResidential ? "residential" : isHomestay ? "homestay" : "day";
+    title = localized(profile[`${kind}Title`], lang, L[kind]);
     const weeks = /\b(\d+)\s*weeks?\b/i.exec(tier.label || "");
     if (weeks) title += ` · ${weeks[1]} ${Number(weeks[1]) === 1 ? L.week : L.weeks}`;
-    includes = localized(profile[isResidential ? "residential" : "day"], lang, [L.teaching, ...(isResidential ? [L.room] : [])]);
-    excludes = isDay ? localized(profile.dayExcluded, lang, [L.room]) : [];
-    note = isDay ? localized(profile.dayNote, lang, "") : "";
+    includes = localized(profile[kind], lang, [L.teaching, ...(!isDay ? [L.room] : [])]);
+    excludes = localized(profile[`${kind}Excluded`], lang, isDay ? [L.room] : []);
+    note = localized(profile[`${kind}Note`], lang, "");
   } else {
     note = L.unknownOption;
   }
@@ -95,8 +97,8 @@ export function priceDetails(rec, language = "en", details = {}) {
     const key = JSON.stringify([norm(tier.label), tier.currency || rec.price?.currency || "", hasAmount(tier.amount) ? Number(tier.amount) : money(tier, rec.price?.currency)]);
     if (!seen.has(key)) { seen.add(key); unique.push(tier); }
   }
-  let options = unique.map((tier) => option(tier, rec, lang, profile));
-  let historical = false;
+  let historical = rec.price_status === "historical";
+  let options = unique.map((tier) => option(tier, rec, lang, profile, historical));
   if (!options.length && rec.historical_2026_fees_gbp && !rec.price?.display && !hasAmount(rec.price?.min_amount) && !hasAmount(rec.price?.max_amount)) {
     const cities = { London: "Londra", Cambridge: "Cambridge" };
     for (const [city, prices] of Object.entries(rec.historical_2026_fees_gbp)) {
@@ -113,9 +115,10 @@ export function priceDetails(rec, language = "en", details = {}) {
   if (options.length < 2) return { lang, options: [], explanation: "", note: "", historical: false, range: false };
   const hasAccommodationChoice = unique.some((t) => residential(t.label)) && unique.some((t) => day(t.label));
   return {
-    lang, title: historical ? L.historical : L.title, options, historical, range: false,
-    explanation: historical ? L.historicalNote : localized(profile.explanation, lang, hasAccommodationChoice ? L.accommodation : L.unknown),
-    note: historical ? "" : localized(profile.note, lang, "")
+    lang, title: historical ? L.historical.replace("2026", String(rec.price_year || 2026)) : L.title, options, historical, range: false,
+    commonExcludes: localized(profile.excluded, lang, []),
+    explanation: localized(profile.explanation, lang, historical ? L.historicalNote : hasAccommodationChoice ? L.accommodation : L.unknown),
+    note: localized(profile.note, lang, "")
   };
 }
 
@@ -142,6 +145,7 @@ export function renderPriceDetails(rec, language, details) {
       ${o.excludes.length ? `<div class="pp-pricing-label">${esc(L.excluded)}</div>${items(o.excludes)}` : ""}
       ${o.note ? `<p class="pp-pricing-caveat">${esc(o.note)}</p>` : ""}
     </article>`).join("")}</div>
+    ${model.commonExcludes?.length ? `<div class="pp-pricing-label">${esc(L.excluded)}</div>${items(model.commonExcludes)}` : ""}
     ${model.note ? `<p class="pp-pricing-caveat">${esc(model.note)}</p>` : ""}
   </section>`;
   return { summary, section };

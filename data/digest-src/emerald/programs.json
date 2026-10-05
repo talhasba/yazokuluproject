@@ -1,0 +1,302 @@
+{
+  "trinity-walton-stem": {
+    "en": {
+      "focus": "Explore science, technology, engineering and maths with Trinity Walton Club at Trinity College Dublin, alongside English for STEM. Work in teams on practical challenges and experience Dublin through cultural activities and excursions.",
+      "tags": [
+        "STEM",
+        "English for STEM",
+        "Team projects",
+        "Dublin"
+      ],
+      "hl": [
+        "10 hours STEM + 10 hours English each week",
+        "Two-week programme for ages 14–17",
+        "B2 minimum; entry test required",
+        "Homestay or Trinity Hall residence"
+      ],
+      "doTitle": "What you'll explore",
+      "do": [
+        [
+          "Mathematics & modelling",
+          "Use mathematical functions to investigate problems and develop logical thinking with STEM specialists."
+        ],
+        [
+          "Engineering & physics",
+          "Explore forces and Newton's laws through hands-on challenges. The sample timetable includes bridges, waves and aerodynamics."
+        ],
+        [
+          "Technology & teamwork",
+          "Build microcontroller-based projects and practise collaborative problem-solving. The sample timetable includes coding and robot design."
+        ],
+        [
+          "English for STEM",
+          "Develop scientific vocabulary and explain your ideas in English during 10 hours of language teaching each week."
+        ],
+        [
+          "Dublin & Irish culture",
+          "Join organised afternoon and evening activities, a guided Dublin tour and a full-day excursion each weekend. Specific visits are illustrative and can change."
+        ]
+      ],
+      "outcomes": [
+        "Practise critical thinking and practical STEM problem-solving.",
+        "Build confidence using scientific English and working in a team.",
+        "Receive Emerald and Trinity Walton completion diplomas."
+      ],
+      "fit": [
+        "Students aged 14–17 interested in combining practical STEM with English.",
+        "Minimum CEFR B2 English. An entry test is required before confirmation; students below the required level are redirected to another course."
+      ],
+      "extras": [
+        "STEM sessions: Trinity College Dublin city-centre campus.",
+        "Residence: Trinity Hall, Dartry Road, with single or twin en-suite rooms.",
+        "School and organised activity transport is included.",
+        "2026 session: 19 July–2 August. Future dates and fees require confirmation."
+      ],
+      "schedule": {
+        "title": "Illustrative weekly rhythm",
+        "items": [
+          [
+            "Mornings",
+            "10 hours of STEM and 10 hours of English across the week."
+          ],
+          [
+            "Afternoons / evenings",
+            "Cultural visits and organised activities; homestay includes two evening activities per week."
+          ],
+          [
+            "Weekend",
+            "One full-day excursion each weekend."
+          ]
+        ],
+        "note": "Based on the brochure's sample timetable; specific projects and visits may change."
+      }
+    },
+    "tr": {
+      "focus": "Trinity College Dublin'deki Trinity Walton Club ile fen, teknoloji, mühendislik ve matematiği keşfederken STEM için İngilizcenizi geliştirin. Takım çalışmaları ve uygulamalı projelerin yanı sıra kültürel etkinlikler ve gezilerle Dublin'i tanıyın.",
+      "tags": [
+        "STEM",
+        "STEM için İngilizce",
+        "Takım projeleri",
+        "Dublin"
+      ],
+      "hl": [
+        "Haftada 10 saat STEM + 10 saat İngilizce",
+        "14–17 yaş için iki haftalık program",
+        "En az B2 İngilizce; giriş testi zorunlu",
+        "Aile yanı veya Trinity Hall konaklaması"
+      ],
+      "doTitle": "Neler keşfedeceksiniz?",
+      "do": [
+        [
+          "Matematik ve modelleme",
+          "STEM uzmanlarıyla matematiksel fonksiyonları kullanarak problemleri araştırın ve mantıksal düşünme becerinizi geliştirin."
+        ],
+        [
+          "Mühendislik ve fizik",
+          "Uygulamalı çalışmalarla kuvvetleri ve Newton yasalarını keşfedin. Örnek programda köprüler, dalgalar ve aerodinamik yer alır."
+        ],
+        [
+          "Teknoloji ve takım çalışması",
+          "Mikrodenetleyici tabanlı projeler geliştirin ve birlikte problem çözün. Örnek programda kodlama ve robot tasarımı bulunur."
+        ],
+        [
+          "STEM için İngilizce",
+          "Haftada 10 saat dil eğitimiyle bilimsel kelime dağarcığınızı geliştirin ve fikirlerinizi İngilizce açıklamayı öğrenin."
+        ],
+        [
+          "Dublin ve İrlanda kültürü",
+          "Öğleden sonra ve akşam etkinliklerine, rehberli Dublin turuna ve her hafta sonu tam günlük geziye katılın. Örnek ziyaretler değişebilir."
+        ]
+      ],
+      "outcomes": [
+        "Eleştirel düşünme ve uygulamalı STEM problemlerini çözme becerilerini kullanın.",
+        "Bilimsel İngilizceyi kullanırken ve takım içinde çalışırken özgüven kazanın.",
+        "Program sonunda Emerald ve Trinity Walton bitirme diplomaları alın."
+      ],
+      "fit": [
+        "Uygulamalı STEM çalışmalarını İngilizce eğitimiyle birleştirmek isteyen 14–17 yaşındaki öğrenciler.",
+        "En az CEFR B2 İngilizce gerekir. Kayıt onayından önce giriş testi uygulanır; seviyesi yeterli olmayan öğrenciler başka bir kursa yönlendirilir."
+      ],
+      "extras": [
+        "STEM dersleri: Trinity College Dublin'in şehir merkezindeki kampüsü.",
+        "Yurt: Dartry Road'daki Trinity Hall; tek veya iki kişilik, özel banyolu odalar.",
+        "Okula ve düzenlenen etkinliklere ulaşım dahildir.",
+        "2026 dönemi: 19 Temmuz–2 Ağustos. Yeni dönem tarih ve ücretleri teyit edilmelidir."
+      ],
+      "schedule": {
+        "title": "Örnek haftalık düzen",
+        "items": [
+          [
+            "Sabahları",
+            "Hafta boyunca toplam 10 saat STEM ve 10 saat İngilizce."
+          ],
+          [
+            "Öğleden sonra / akşam",
+            "Kültürel geziler ve etkinlikler; aile yanı seçeneğinde haftada iki akşam etkinliği."
+          ],
+          [
+            "Hafta sonu",
+            "Her hafta sonu bir tam günlük gezi."
+          ]
+        ],
+        "note": "Broşürdeki örnek programa dayanır; projeler ve ziyaret yerleri değişebilir."
+      }
+    },
+    "flags": [
+      "Dates and fees are historical 2026 references; confirm the next season with Emerald.",
+      "STEM teaching is at Trinity College Dublin; Trinity Hall is the residence, not the same campus."
+    ]
+  },
+  "young-adult": {
+    "en": {
+      "focus": "Improve your English in Dublin through language lessons, communication and leadership workshops, and Irish cultural activities. Designed for young adults, the programme combines classroom learning with time to explore the city and meet international peers.",
+      "tags": [
+        "General English",
+        "Communication",
+        "Leadership",
+        "Irish culture"
+      ],
+      "hl": [
+        "20 hours of English each week",
+        "Minimum two-week stay",
+        "B1–C1; placement test on arrival",
+        "Average 10 students; maximum 15",
+        "Homestay or Trinity Hall residence"
+      ],
+      "doTitle": "What you'll practise",
+      "do": [
+        [
+          "English & writing",
+          "Build fluency in speaking and writing through discussion, creative writing, reviews and language lessons. Classes run for four hours a day, in mornings or afternoons."
+        ],
+        [
+          "Leadership & communication",
+          "Explore teamwork, active listening, public speaking, debate and conflict resolution through workshops and seminars."
+        ],
+        [
+          "Study & workplace skills",
+          "Practise presentations, networking and workplace English, including CVs and cover letters, while reflecting on goals and learning styles."
+        ],
+        [
+          "Dublin & Irish culture",
+          "Learn about Irish music, myths, history and Gaelic sports. Join a guided Dublin tour, two cultural activities per week and a weekly full-day excursion."
+        ]
+      ],
+      "outcomes": [
+        "Develop practical English for social, study and workplace situations.",
+        "Practise presentation, teamwork and intercultural communication skills.",
+        "Receive an Emerald completion diploma."
+      ],
+      "fit": [
+        "Students aged 16–19 seeking English study with communication workshops and cultural experiences.",
+        "Intermediate to advanced English (B1–C1); some workshop modules require at least B1. A written and oral placement test is given on arrival."
+      ],
+      "extras": [
+        "Homestay teaching centre: Sandford Park School; accommodation in twin rooms with host families.",
+        "Residential centre: Trinity Hall; single or twin rooms.",
+        "2026 operating window: 28 June–9 August; Sunday arrivals and a minimum two-week stay.",
+        "Age follows the 2026 tariff and course page (16–19); the brochure states 16–20. Confirm eligibility."
+      ],
+      "schedule": {
+        "title": "Illustrative weekly rhythm",
+        "items": [
+          [
+            "Lessons",
+            "20 hours per week, with four hours each weekday in mornings or afternoons."
+          ],
+          [
+            "Free periods",
+            "Cultural activities and time to explore Dublin. Two organised cultural activities each week."
+          ],
+          [
+            "Evenings",
+            "Daily residence activities; two organised evenings per week for homestay students."
+          ],
+          [
+            "Weekend",
+            "One full-day excursion each week."
+          ]
+        ],
+        "note": "The 2026 dates show the operating season, not a fixed six-week package."
+      }
+    },
+    "tr": {
+      "focus": "Dublin'de dil dersleri, iletişim ve liderlik atölyeleri ile İrlanda kültürünü tanıtan etkinliklerle İngilizcenizi geliştirin. Genç yetişkinler için hazırlanan program, sınıf içi öğrenmeyi şehri keşfetme ve uluslararası arkadaşlıklar kurma fırsatıyla birleştirir.",
+      "tags": [
+        "Genel İngilizce",
+        "İletişim",
+        "Liderlik",
+        "İrlanda kültürü"
+      ],
+      "hl": [
+        "Haftada 20 saat İngilizce",
+        "En az iki haftalık katılım",
+        "B1–C1; varışta seviye belirleme testi",
+        "Sınıflar ortalama 10, en fazla 15 kişi",
+        "Aile yanı veya Trinity Hall konaklaması"
+      ],
+      "doTitle": "Neler çalışacaksınız?",
+      "do": [
+        [
+          "İngilizce ve yazma",
+          "Tartışmalar, yaratıcı yazma, değerlendirme yazıları ve dil dersleriyle konuşma ve yazma becerilerinizi geliştirin. Dersler sabah veya öğleden sonra günde dört saat sürer."
+        ],
+        [
+          "Liderlik ve iletişim",
+          "Atölye ve seminerlerde takım çalışması, etkin dinleme, topluluk önünde konuşma, münazara ve çatışma çözümü üzerine çalışın."
+        ],
+        [
+          "Eğitim ve iş yaşamı becerileri",
+          "Hedeflerinizi ve öğrenme biçiminizi değerlendirirken sunum, yeni bağlantılar kurma ve iş İngilizcesi çalışın; özgeçmiş ve ön yazı hazırlamayı deneyin."
+        ],
+        [
+          "Dublin ve İrlanda kültürü",
+          "İrlanda müziğini, efsanelerini, tarihini ve Gal sporlarını tanıyın. Rehberli Dublin turuna, haftada iki kültürel etkinliğe ve bir tam günlük geziye katılın."
+        ]
+      ],
+      "outcomes": [
+        "Sosyal yaşam, eğitim ve iş ortamları için günlük İngilizcenizi geliştirin.",
+        "Sunum, takım çalışması ve kültürler arası iletişim becerilerini kullanın.",
+        "Program sonunda Emerald bitirme diploması alın."
+      ],
+      "fit": [
+        "İngilizce eğitimini iletişim atölyeleri ve kültürel deneyimlerle birleştirmek isteyen 16–19 yaşındaki öğrenciler.",
+        "Orta ile ileri düzey İngilizce (B1–C1); bazı atölyeler için en az B1 gerekir. Varışta yazılı ve sözlü seviye belirleme testi uygulanır."
+      ],
+      "extras": [
+        "Aile yanı ders merkezi: Sandford Park School; ailelerde iki kişilik odalarda konaklama.",
+        "Yurt merkezi: Trinity Hall; tek veya iki kişilik odalar.",
+        "2026 dönem aralığı: 28 Haziran–9 Ağustos; pazar varışları ve en az iki haftalık katılım.",
+        "Yaş, 2026 tarifesi ve kurs sayfasına göre 16–19'dur; broşürde 16–20 yazmaktadır. Uygunluğu teyit edin."
+      ],
+      "schedule": {
+        "title": "Örnek haftalık düzen",
+        "items": [
+          [
+            "Dersler",
+            "Haftada 20 saat; hafta içi sabah veya öğleden sonra günde dört saat."
+          ],
+          [
+            "Serbest zaman",
+            "Kültürel etkinlikler ve Dublin'i keşfetme zamanı. Haftada iki düzenlenen kültürel etkinlik."
+          ],
+          [
+            "Akşamlar",
+            "Yurtta her gün etkinlik; aile yanı öğrencileri için haftada iki düzenlenen akşam etkinliği."
+          ],
+          [
+            "Hafta sonu",
+            "Haftada bir tam günlük gezi."
+          ]
+        ],
+        "note": "2026 tarihleri çalışma dönemini gösterir; altı haftalık sabit bir paket değildir."
+      }
+    },
+    "flags": [
+      "Dates and fees are historical 2026 references; confirm the next season with Emerald.",
+      "Brochure says ages 16-20; dated 2026 tariff and official course page say 16-19. Catalogue follows 16-19.",
+      "Brochure transfer supplement is EUR190 return; dated 2026 tariff is EUR105 each way (EUR210 return). Catalogue follows the dated tariff.",
+      "Dates are the operating window, not a six-week fixed course. Arrival Sundays; minimum stay two weeks."
+    ]
+  }
+}
