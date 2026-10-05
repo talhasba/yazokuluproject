@@ -93,6 +93,22 @@
 .pp-price-option span { color: #eef2ff; font-size: 12.5px; line-height: 1.3; }
 .pp-price-option b { color: #fff; font-size: 13px; line-height: 1.3; text-align: right; font-variant-numeric: tabular-nums; }
 .pp-price-history .pp-price-options-title { color: #ffedb5; }
+.pp-price-note { color: #eef2ff; font-size: 12px; line-height: 1.5; }
+.pp-price-details-link { font-size: 13px; font-weight: 650; text-underline-offset: 3px; }
+
+/* Price comparisons belong in the main column, with a compact summary in the sidebar. */
+.pp-pricing-detail { scroll-margin-top: 92px; min-width: 0; }
+.pp-pricing-why { color: #475467; font-size: 14px; margin-bottom: 14px !important; }
+.pp-pricing-why strong { color: var(--pp-ink); }
+.pp-pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 12px; }
+.pp-pricing-package { min-width: 0; padding: 16px; border: 1px solid var(--pp-line); border-radius: 14px; background: #fff; }
+.pp-pricing-heading { display: grid; gap: 5px; margin-bottom: 12px; }
+.pp-pricing-heading h4 { margin: 0; font-size: 14px; font-weight: 700; line-height: 1.4; }
+.pp-pricing-heading b { color: var(--pp-brand-dark); font-size: 22px; font-variant-numeric: tabular-nums; }
+.pp-pricing-label { font-size: 11px; font-weight: 750; color: var(--pp-brand-dark); margin: 12px 0 5px; }
+.pp-pricing-package ul { list-style: disc; padding-left: 18px; color: #475467; font-size: 13px; display: grid; gap: 5px; }
+.pp-pricing-caveat { color: var(--pp-muted); font-size: 12px; line-height: 1.5; margin-top: 12px !important; }
+.pp-pricing-package, .pp-price-option { overflow-wrap: anywhere; }
 .pp-sm { color: #dfe7ff; font-size: 13.5px; margin-top: 6px; }
 .pp-hl { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); }
 .pp-hl .pp-list li { color: #eef2ff; }

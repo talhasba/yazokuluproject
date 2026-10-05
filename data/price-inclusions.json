@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "reviewed": "2026-10-05",
+    "note": "Editorial descriptions only. Amounts always come from program data. Exact InvestIN price matches identify otherwise unlabelled packages; unmatched prices keep their original labels. Sources describe inclusions, not confirmation of a catalogue price for a new season."
+  },
+  "providers": {
+    "investin": {
+      "sources": ["https://investin.org/products/the-ai-software-summer-experience", "https://investin.org/pages/faq"],
+      "explanation": {"en": "Prices vary by length, Enhanced benefits and whether you add accommodation. Residential prices are the complete programme-and-accommodation total.", "tr": "Ücretler süreye, Enhanced ek olanaklarına ve konaklama seçimine göre değişir. Konaklamalı ücretler, eğitim ve konaklama paketinin toplamıdır."},
+      "day": {"en": ["Programme sessions, career activities and learning materials"], "tr": ["Program dersleri, kariyer etkinlikleri ve eğitim materyalleri"]},
+      "residential": {"en": ["Programme sessions, career activities and learning materials", "Private en-suite room, breakfast and dinner", "Evening/weekend activities and 24-hour pastoral support"], "tr": ["Program dersleri, kariyer etkinlikleri ve eğitim materyalleri", "Özel banyolu tek kişilik oda, kahvaltı ve akşam yemeği", "Akşam/hafta sonu etkinlikleri ve 24 saat öğrenci desteği"]},
+      "dayExcluded": {"en": ["Accommodation and the daily meal plan"], "tr": ["Konaklama ve günlük yemek planı"]},
+      "note": {"en": "Airport transfers are an optional extra. Lunch arrangements should be confirmed for your intake.", "tr": "Havalimanı transferleri ek ücrete tabidir. Öğle yemeği düzenini seçtiğiniz dönem için teyit edin."},
+      "packages": [
+        {"dayAmount": 2290, "residentialAmount": 3865, "currency": "GBP", "duration": {"en": "1 week", "tr": "1 hafta"}, "includes": {"en": ["25 hours with professionals; up to two workplace visits"], "tr": ["Profesyonellerle 25 saat; en fazla iki iş yeri ziyareti"]}, "stay": {"en": "6 nights", "tr": "6 gece"}},
+        {"dayAmount": 3685, "residentialAmount": 6995, "currency": "GBP", "duration": {"en": "2 weeks", "tr": "2 hafta"}, "includes": {"en": ["50 hours with professionals; up to five workplace visits"], "tr": ["Profesyonellerle 50 saat; en fazla beş iş yeri ziyareti"]}, "stay": {"en": "13 nights", "tr": "13 gece"}},
+        {"dayAmount": 4620, "residentialAmount": 7930, "currency": "GBP", "duration": {"en": "2 weeks · Enhanced", "tr": "2 hafta · Enhanced"}, "includes": {"en": ["65 professional contact hours, career coaching and a Gala networking dinner", "Work-experience award assessment and UCAS assessment included"], "tr": ["Profesyonellerle 65 saat, kariyer danışmanlığı ve Gala tanışma yemeği", "İş deneyimi yeterlilik ve UCAS değerlendirmesi dahil"]}, "stay": {"en": "13 nights", "tr": "13 gece"}}
+      ]
+    },
+    "oxford_royale": {
+      "sources": ["https://www.oxford-royale.com/oxford-summer-school/explore-engineering-12-15", "https://www.oxford-royale.com/cambridge-summer-school/experimental-psychology-16-18"],
+      "explanation": {"en": "The residential option adds on-campus accommodation and meals to the taught programme. Non-residential students arrange their own overnight stay.", "tr": "Konaklamalı seçenek, eğitim programına kampüste konaklama ve yemekleri ekler. Konaklamasız katılımcılar kalacakları yeri kendileri ayarlar."},
+      "day": {"en": ["Teaching and course activities"], "tr": ["Dersler ve program etkinlikleri"]},
+      "residential": {"en": ["Teaching and course activities", "Campus accommodation and meals", "Round-the-clock staff support"], "tr": ["Dersler ve program etkinlikleri", "Kampüste konaklama ve yemekler", "Gün boyunca ve gece personel desteği"]},
+      "dayExcluded": {"en": ["Overnight accommodation"], "tr": ["Gece konaklaması"]},
+      "dayNote": {"en": "Meal arrangements for non-residential students are not specified in the catalogue.", "tr": "Konaklamasız katılımcıların yemek düzeni katalogda belirtilmemiştir."}
+    },
+    "sportech": {
+      "sources": ["https://sportechacademy.com/architecture-urban-design/", "https://sportechacademy.com/football/", "https://sportechacademy.com/medicine/", "https://sportechacademy.com/automotive-design/"],
+      "explanation": {"en": "The residential price includes a supervised stay and meals; the day price covers attendance without overnight accommodation. Where listed, one- and two-week options also differ in length.", "tr": "Konaklamalı ücret, gözetimli konaklama ve yemekleri içerir; gündüzlü ücret gece konaklaması olmadan katılım içindir. Listelenen bir ve iki haftalık seçeneklerde süre de farklıdır."},
+      "day": {"en": ["Teaching, workshops and programme activities"], "tr": ["Dersler, atölyeler ve program etkinlikleri"]},
+      "residential": {"en": ["Teaching, workshops and programme activities", "Accommodation with breakfast, lunch and dinner", "Supervised evening/weekend activities and 24-hour support"], "tr": ["Dersler, atölyeler ve program etkinlikleri", "Konaklama, kahvaltı, öğle ve akşam yemeği", "Gözetimli akşam/hafta sonu etkinlikleri ve 24 saat destek"]},
+      "dayExcluded": {"en": ["Overnight accommodation"], "tr": ["Gece konaklaması"]},
+      "dayNote": {"en": "Meal inclusions for this day option are not specified in the catalogue.", "tr": "Bu gündüzlü seçenekte hangi yemeklerin dahil olduğu katalogda belirtilmemiştir."}
+    },
+    "edconic": {
+      "explanation": {"en": "Day students attend the taught programme and arrange their own overnight stay. The residential option adds accommodation; meal and material inclusions depend on the individual programme.", "tr": "Gündüzlü katılımcılar eğitim programına katılır ve kalacakları yeri kendileri ayarlar. Konaklamalı seçenek konaklama ekler; yemek ve materyal kapsamı programa göre değişir."},
+      "day": {"en": ["Teaching and course activities"], "tr": ["Dersler ve program etkinlikleri"]},
+      "residential": {"en": ["Teaching and course activities", "Overnight accommodation"], "tr": ["Dersler ve program etkinlikleri", "Gece konaklaması"]},
+      "dayExcluded": {"en": ["Overnight accommodation"], "tr": ["Gece konaklaması"]},
+      "note": {"en": "The catalogue does not specify the meal plan or other extras for this programme.", "tr": "Bu programın yemek planı ve diğer ek olanakları katalogda belirtilmemiştir."}
+    }
+  },
+  "programs": {
+    "sportech-football": {
+      "sources": ["https://sportechacademy.com/football/"],
+      "residential": {"en": ["Football training and programme activities", "Accommodation with breakfast, lunch and dinner", "Supervised evening/weekend activities and 24-hour support"], "tr": ["Futbol antrenmanları ve program etkinlikleri", "Konaklama, kahvaltı, öğle ve akşam yemeği", "Gözetimli akşam/hafta sonu etkinlikleri ve 24 saat destek"]},
+      "day": {"en": ["Football training and programme activities", "Lunch and a coaching kit"], "tr": ["Futbol antrenmanları ve program etkinlikleri", "Öğle yemeği ve antrenman kiti"]},
+      "dayNote": {"en": "", "tr": ""}
+    },
+    "edconic-pre-college-summer-institute-summer-institute-nyc": {
+      "sources": ["https://sothebysinstitute.com/admissions/summer-institute/", "https://sothebysinstitute.com/pre-college/summer-institute/faq/"],
+      "day": {"en": ["Teaching, activities and materials", "Lunch on class days"], "tr": ["Dersler, etkinlikler ve materyaller", "Ders günlerinde öğle yemeği"]},
+      "residential": {"en": ["Teaching, activities and materials", "Student accommodation", "Three meals on weekdays; breakfast and dinner on weekends"], "tr": ["Dersler, etkinlikler ve materyaller", "Öğrenci konaklaması", "Hafta içi üç öğün; hafta sonu kahvaltı ve akşam yemeği"]},
+      "note": {"en": "Health insurance and personal travel costs are not included.", "tr": "Sağlık sigortası ve kişisel ulaşım giderleri dahil değildir."}
+    },
+    "edconic-vogue-summer-school-vogue-summer-school-nyc": {
+      "sources": ["https://www.voguecollege.com/wp-content/uploads/2025/10/VCF-Vogue-Summer-School-Program-Terms-and-Conditions-2026.pdf"],
+      "day": {"en": ["Teaching, practical activities and materials", "Lunch on class days"], "tr": ["Dersler, uygulamalı etkinlikler ve materyaller", "Ders günlerinde öğle yemeği"]},
+      "residential": {"en": ["Teaching, practical activities and materials", "Accommodation and the residential meal plan"], "tr": ["Dersler, uygulamalı etkinlikler ve materyaller", "Konaklama ve konaklamalı yemek planı"]},
+      "note": {"en": "These inclusions describe the published 2026 package; confirm the terms for your chosen intake.", "tr": "Bu kapsam yayımlanan 2026 paketini açıklar; seçtiğiniz dönemin koşullarını teyit edin."}
+    }
+  }
+}

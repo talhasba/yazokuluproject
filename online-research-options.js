@@ -77,12 +77,12 @@
     const copy = language === "tr"
       ? {
           title: "Çevrimiçi Araştırma Yolu seçenekleri",
-          intro: "Classic, akrediteli, grup ve yayın odaklı seçenekler arasından çalışma biçiminize ve hedeflerinize uygun yolu seçin. Eğitim, seçilen programa göre 10 veya 15 görüşme saati üzerinden yürütülür.",
+          intro: "Fiyatlar ders saatine ve akreditasyona göre değişir: Classic seçeneği 10 saat, Birleşik Krallık ve ABD akrediteli seçenekler 15 saat eğitim içerir. Her kartta dahil olan çalışma, değerlendirme ve akreditasyon olanaklarını karşılaştırabilirsiniz.",
           note: "Not: UCAS puanı yalnızca 14 yaş ve üzerindeki katılımcılara verilebilir. 14 yaşın altındaki öğrenciler için Classic Çevrimiçi Araştırma Yolu önerilir."
         }
       : {
           title: "Online Research Pathway options",
-          intro: "Choose the pathway that best fits your study style and goals, from Classic and accredited routes to group learning and publication support. Tuition is delivered through 10 or 15 contact hours depending on the option.",
+          intro: "Prices vary by tuition hours and accreditation: Classic includes 10 contact hours, while the UK and USA accredited options include 15. Compare the research, assessment and accreditation inclusions in each card below.",
           note: "Note: UCAS points can only be awarded to participants aged 14 or over. Students under 14 are advised to choose the Classic Online Research Pathway."
         };
 
@@ -112,19 +112,25 @@
     const language = localStorage.getItem("lang") === "tr" ? "tr" : "en";
     if (existing?.dataset.language === language) return;
 
-    const headings = document.querySelectorAll("h1");
-    const heading = headings[headings.length - 1];
-    if (!heading) return;
-    const contentColumn = heading.parentElement;
-    const firstDetailSection = Array.from(contentColumn.children)
-      .find((child) => child.tagName === "SECTION" && child.id !== SECTION_ID);
-    if (!firstDetailSection) return;
-
     try {
       const program = await getProgram();
       if (!program?.pricing_options?.length) return;
+      // React mutations can schedule several renders while the data request is pending.
+      // Recheck the live route and section after awaiting so only one render inserts cards.
+      if (window.location.hash !== `#/programs/${PROGRAM_ID}`) return;
+      const currentLanguage = localStorage.getItem("lang") === "tr" ? "tr" : "en";
+      if (currentLanguage !== language) { scheduleRender(); return; }
+      const currentSection = document.getElementById(SECTION_ID);
+      if (currentSection?.dataset.language === language) return;
+      const headings = document.querySelectorAll("#root h1");
+      const heading = headings[headings.length - 1];
+      if (!heading) return;
+      const contentColumn = heading.parentElement;
+      const firstDetailSection = Array.from(contentColumn.children)
+        .find((child) => child.tagName === "SECTION" && child.id !== SECTION_ID);
+      if (!firstDetailSection) return;
       const section = buildSection(program, language);
-      existing?.remove();
+      currentSection?.remove();
       contentColumn.insertBefore(section, firstDetailSection);
     } catch (error) {
       console.error(error);

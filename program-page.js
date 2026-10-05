@@ -181,14 +181,16 @@
         json("./data/program-digests.json", {}),
         json("./data/image-candidates.json?v=20261001-2", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
-        json("./data/program-editor-overrides.json", { programs: {}, digests: {} })
-      ]).then(([programs, digests, images, sources, overrides]) => {
+        json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
+        json("./data/price-inclusions.json", {}),
+        import("./program-pricing.js?v=20261005-1")
+      ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
         Object.entries(overrides.digests || {}).forEach(([id, override]) => {
           if (mergedDigests[id]) mergedDigests[id] = mergeEditorOverride(mergedDigests[id], override);
         });
-        data = { programs: new Map(mergedPrograms.map((p) => [p.id, p])), digests: mergedDigests, images, sources: sources.images || {} };
+        data = { programs: new Map(mergedPrograms.map((p) => [p.id, p])), digests: mergedDigests, images, sources: sources.images || {}, priceInclusions, pricing };
         return data;
       });
     }
@@ -259,73 +261,6 @@
     ];
   }
 
-  const accommodationTier = (label) => /residential|non-residential|\bday\b|accommodation|boarding/i.test(label || "");
-
-  function translatedPriceLabel(label, lang) {
-    if (lang !== "tr") return label;
-    const exact = {
-      "Residential": "Konaklamalı",
-      "Non-Residential": "Konaklamasız",
-      "Day": "Gündüzlü",
-      "Programme fee": "Program ücreti",
-      "Program fee": "Program ücreti",
-      "Programme fee + residential package total": "Program ücreti + konaklama paketi toplamı",
-      "Programme fee + Residential package": "Program ücreti + konaklama paketi",
-      "Residential - 1 week": "Konaklamalı - 1 hafta",
-      "Residential - 2 weeks": "Konaklamalı - 2 hafta",
-      "Day - 1 week": "Gündüzlü - 1 hafta",
-      "Day - 2 weeks": "Gündüzlü - 2 hafta"
-    };
-    return exact[label] || label;
-  }
-
-  function priceOptionHTML(rec, lang) {
-    const tiers = Array.isArray(rec.price?.tiers) ? rec.price.tiers : [];
-    if (!tiers.some((tier) => accommodationTier(tier.label))) return "";
-
-    const groups = [];
-    tiers.forEach((tier) => {
-      const label = String(tier.label || T[lang].price).trim();
-      const key = label.toLocaleLowerCase("en");
-      let group = groups.find((item) => item.key === key);
-      if (!group) {
-        group = { key, label, values: [] };
-        groups.push(group);
-      }
-      const value = String(tier.display || "").trim();
-      if (value && !group.values.includes(value)) group.values.push(value);
-    });
-
-    const rows = groups.filter((group) => group.values.length).map((group) => `
-      <div class="pp-price-option">
-        <span>${esc(translatedPriceLabel(group.label, lang))}</span>
-        <b>${group.values.map(esc).join(" · ")}</b>
-      </div>`).join("");
-    return rows ? `<div class="pp-price-options"><div class="pp-price-options-title">${esc(T[lang].priceOptions)}</div>${rows}</div>` : "";
-  }
-
-  function historicalPriceHTML(rec, lang) {
-    const fees = rec.historical_2026_fees_gbp;
-    if (!fees || typeof fees !== "object") return "";
-    const money = (amount) => Number.isFinite(Number(amount))
-      ? new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP", maximumFractionDigits: 0 }).format(Number(amount))
-      : "";
-    const cityTr = { London: "Londra", Cambridge: "Cambridge" };
-    const rows = Object.entries(fees).flatMap(([city, options]) => {
-      if (!options || typeof options !== "object") return [];
-      const place = lang === "tr" ? cityTr[city] || city : city;
-      return [
-        [lang === "tr" ? `${place} · Konaklamalı` : `${place} · Residential`, options.residential],
-        [`${place} · ${T[lang].dayStudent}`, options.day_student]
-      ].filter(([, amount]) => Number.isFinite(Number(amount)));
-    }).map(([label, amount]) => `
-      <div class="pp-price-option">
-        <span>${esc(label)}</span>
-        <b>${esc(money(amount))}</b>
-      </div>`).join("");
-    return rows ? `<div class="pp-price-options pp-price-history"><div class="pp-price-options-title">${esc(T[lang].historicalFees)}</div>${rows}</div>` : "";
-  }
-
   const list = (items, cls = "") => `<ul class="pp-list ${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
   const card = (title, body) => `<section class="pp-card"><h3 class="pp-h">${esc(title)}</h3>${body}</section>`;
 
@@ -339,8 +274,7 @@
     const { hero, gallery } = photosFor(rec.id);
     const facts = factRows(rec, lang, digest);
     const dates = fmtDates(rec.dates, lang);
-    const priceOptions = priceOptionHTML(rec, lang);
-    const historicalPrices = priceOptions ? "" : historicalPriceHTML(rec, lang);
+    const pricing = data.pricing.renderPriceDetails(rec, lang, data.priceInclusions);
 
     const tracks = d.tracks?.length
       ? `<section class="pp-block"><h3 class="pp-h">${esc(L.tracks)}</h3><div class="pp-tracks">${d.tracks.map((t) => `<div class="pp-track"><span class="pp-age">${esc(t.age)}</span><p>${esc(t.text)}</p></div>`).join("")}</div></section>`
@@ -380,13 +314,13 @@
           <main class="pp-main">
             <p class="pp-focus">${esc(d.focus)}</p>
             <div class="pp-chips">${(d.tags || []).map((t) => `<span class="pp-chip">${esc(t)}</span>`).join("")}</div>
-            ${tracks}${steps}${schedule}${pair}${extras}${flags}
+            ${pricing.section}${tracks}${steps}${schedule}${pair}${extras}${flags}
           </main>
           <aside class="pp-side">
             <div class="pp-card pp-price">
               <h3 class="pp-h">${esc(L.price)}</h3>
               <div class="pp-big">${esc(rec.price?.display || L.onRequest)}</div>
-              ${priceOptions || historicalPrices}
+              ${pricing.summary}
               ${dates.length ? `<div class="pp-sm">${esc(dates.join(" · "))}</div>` : ""}
               ${d.highlights?.length ? `<div class="pp-hl">${list(d.highlights)}</div>` : ""}
               <a class="pp-cta" href="#" data-goto-form>${esc(L.formPill)} ${ICON.form}</a>
@@ -405,6 +339,10 @@
     page.querySelectorAll("[data-goto-form]").forEach((a) => a.addEventListener("click", (e) => {
       e.preventDefault();
       page.querySelector(".pp-form")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    page.querySelectorAll("[data-goto-pricing]").forEach((a) => a.addEventListener("click", (e) => {
+      e.preventDefault();
+      page.querySelector("#price-options")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }));
     page.querySelectorAll(".pp-gal img").forEach((img) => img.addEventListener("error", () => img.remove()));
     bindForm(rec, lang);
