@@ -2,6 +2,20 @@
 
 This folder contains local images used by program cards and detail pages.
 
+## Unique programme photographs
+
+`unique/` contains one separately downloaded photograph for each of the 476 programmes. Both catalogue cards and detail-page heroes use that programme's imported image first. Files retain their original downloaded bytes.
+
+`data/program-image-sources.json` records the programme, original download URL, source page, photographer/provider, licence, dimensions and fingerprints for every photograph. Provider photographs take priority; when a distinct suitable provider photo is unavailable, a reusable subject photograph from Wikimedia Commons or Openverse is used. Representative photos are explicitly labelled **Illustrative photo / Temsili fotoğraf**. Source and licence links appear on the card and detail page. These photographs illustrate the subject and do not establish the actual participants or facilities of a programme.
+
+`data/program-photo-curation.json` preserves rejected source URLs and reviewed stock-search choices so unsuitable photos are not reintroduced. Reusable photos have CC BY, CC BY-SA, CC0 or public-domain terms recorded individually. Provider photos are identified as provider-owned; an open licence is not asserted.
+
+Use `tools/fetch_unique_program_images.py --stage=all` for a resumable import. `--stage=illustrative` fills only missing records using the reviewed searches. Pages, search responses and downloads are cached under ignored `.local-editor/image-import/`. Pillow is required. Metadata API calls are throttled and public raster images are validated before saving.
+
+After running any earlier image mapper or programme normalizer, run `tools/fetch_unique_program_images.py --stage=apply` to restore the imported images to first position without network access. The importer refuses to apply an incomplete collection.
+
+Run `node --test tests/program-images.test.mjs` to verify coverage, local bytes, provenance and whole-image uniqueness. `tools/audit_program_photos.py` additionally checks shared visual details and pixel agreement for cropped/re-encoded duplicates; it requires Pillow, NumPy and OpenCV. Its output is a review aid, not proof against every possible duplicate. The final human visual review and feature audit are recorded in `data/program-image-audit.json`.
+
 ## Campus images
 
 `campuses/` contains web-optimized campus and destination photographs downloaded from Wikimedia Commons. The original page, creator, license, license URL, download URL, and local path for every image are recorded in `image-sources.json`.

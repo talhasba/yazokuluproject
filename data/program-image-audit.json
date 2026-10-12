@@ -1,0 +1,13 @@
+{
+  "input_photos": 476,
+  "photos_checked": 476,
+  "collection_sha256": "a399cd07077da963639e69463ae2a84a43f573bb2e79722f6e00bd8890f7e7a9",
+  "pairs": [],
+  "reviewed": "2026-10-12",
+  "visually_reviewed_photos": 476,
+  "served_photo_urls_checked": 476,
+  "provider_photos": 231,
+  "illustrative_photos": 245,
+  "method": "SHA-256 file identity, 64-bit dHash with distance >3, ORB feature matching with homography and pixel agreement, and human contact-sheet review.",
+  "note": "No duplicate pairs detected in this collection. Automated similarity matching has practical limits; the collection fingerprint makes this report invalid if a photo changes."
+}

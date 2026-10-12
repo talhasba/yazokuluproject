@@ -12,9 +12,12 @@ Young Adult broşüründeki 16–20 yaş bilgisi ile €190 gidiş-dönüş tran
 ```powershell
 node normalized_ireland/normalize_ireland.mjs
 node tools/build-digests.mjs
+python tools/fetch_unique_program_images.py --stage=apply
 node --test tests/program-pricing.test.mjs tests/ireland-programs.test.mjs
 ```
 
 Normalleştirici yalnızca Emerald kayıtlarını değiştirir; ana katalog, sağlayıcı verisi, özet kaynakları ve görsel adaylarını günceller. Paket kapsamları `data/price-inclusions.json` içinde saklanır. Görseller broşürlerin ikinci sayfasındaki özgün JPEG'lerden çıkarılmıştır; kaynakları `image-provenance.json` içinde kayıtlıdır. Sağlayıcıya ait görseller için açık lisans iddiası bulunmaz.
+
+Young Adult broşürü artık kök dizindeki `Young-Adult-Programme-SUM8.pdf` dosyasındadır; kaynak ve görsel kayıtları bu mevcut yolu kullanır. Program başına ayrı fotoğraf koleksiyonu `data/program-image-sources.json` içindedir. Yukarıdaki `--stage=apply` adımı, normalleştirmeden sonra bu fotoğrafların katalog ve detay sayfasında öncelikli kalmasını sağlar.
 
 Yeni bir sezonun kaynağı geldiğinde tarih/ücret, yaş ve transfer çelişkileri yeniden kontrol edilmeli; `price_status`, yıl alanları, inceleme notları ve paket kapsamları birlikte güncellenmelidir.

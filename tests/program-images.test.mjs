@@ -54,3 +54,14 @@ test("different programmes do not reuse perceptually near-identical photo varian
     }
   }
 });
+
+test("the crop and visual review applies to the current photo collection", () => {
+  const audit = read("../data/program-image-audit.json");
+  const collection = Object.entries(sources.images).sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
+    .map(([id, image]) => `${id}:${image.sha256}\n`).join("");
+  assert.equal(audit.collection_sha256, createHash("sha256").update(collection).digest("hex"));
+  assert.equal(audit.input_photos, programmes.length);
+  assert.equal(audit.visually_reviewed_photos, programmes.length);
+  assert.equal(audit.served_photo_urls_checked, programmes.length);
+  assert.deepEqual(audit.pairs, []);
+});

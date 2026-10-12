@@ -179,12 +179,12 @@
       loading = Promise.all([
         json("./data/programs.normalized.json", []),
         json("./data/program-digests.json", {}),
-        json("./data/image-candidates.json?v=20261012-3", {}),
+        json("./data/image-candidates.json?v=20261012-5", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
         json("./data/price-inclusions.json", {}),
         import("./program-pricing.js?v=20261005-2"),
-        json("./data/program-image-sources.json?v=20261012-3", { images: {} })
+        json("./data/program-image-sources.json?v=20261012-5", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
@@ -236,7 +236,7 @@
     const source = data.photoSources[rec.id];
     if (!source || hero !== "." + source.local_path) return "";
     const label = source.source_kind === "illustrative"
-      ? (lang === "tr" ? "Temsili konu fotoğrafı" : "Illustrative subject photo")
+      ? (lang === "tr" ? "Temsili fotoğraf" : "Illustrative photo")
       : T[lang].photo;
     return `<div class="pp-photo-source">${esc(label)}: <a href="${esc(source.source_page)}" target="_blank" rel="noopener">${esc(source.artist || rec.provider_label)}</a>${source.source_kind === "illustrative" ? ` · <a href="${esc(source.license_url || source.source_page)}" target="_blank" rel="noopener">${esc(source.license)}</a>` : ""}</div>`;
   }

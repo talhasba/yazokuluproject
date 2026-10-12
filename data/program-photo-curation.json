@@ -1,0 +1,593 @@
+{
+  "reviewed": "2026-10-12",
+  "note": "Human visual review rejected unrelated, historical, military and non-photographic results. These programmes use licensed subject stock photography, explicitly labelled illustrative. Rejected sources must not be reintroduced.",
+  "blocked_urls": [
+    "https://assets.summerdiscovery.com/dynamicPage/course/course/banner/1723616770683_71.jpg",
+    "https://assets.summerdiscovery.com/dynamicPage/course/course/banner/1723629143440_4.jpg",
+    "https://assets.summerdiscovery.com/dynamicPage/course/course/banner/1724049018927_54.jpg",
+    "https://assets.summerdiscovery.com/dynamicPage/course/course/banner/1724387767641_96.jpg",
+    "https://assets.summerdiscovery.com/dynamicPage/course/course/banner/1736785111173_34.jpg",
+    "https://assets.summerdiscovery.com/dynamicPage/course/course/banner/1788437332792_38.jpg",
+    "https://assets.summerdiscovery.com/dynamicPage/course/course/banner/1788440019552_87.jpg",
+    "https://cdn.prod.website-files.com/689f009387b6b6b947c8a835/691dbaeb0e02b4faaff3cbe2_Programme_-1-Entrepreneurship-.jpg.avif",
+    "https://cdn.stocksnap.io/img-thumbs/960w/3J10QN5PTS.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/5NLKT00MVB.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/7NWB2A8I0R.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/AKZHNNNFBG.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/BG5ITY3BNT.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/FFOHHTZPWQ.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/H0O97B44CT.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/KBBOYMO4JH.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/MIBMHZB7QN.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/N79O15BH30.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/OGLUHZAPGF.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/PN7RVGLUUD.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/PVOZBIDHGL.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/SQBE2C5NWT.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/XFOCYIPVGL.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/YWGBUF1QKI.jpg",
+    "https://live.staticflickr.com/1003/4732595697_07223703b3_b.jpg",
+    "https://live.staticflickr.com/1019/4733234792_94e5688229_b.jpg",
+    "https://live.staticflickr.com/1021/4733213246_a74f7d4935_b.jpg",
+    "https://live.staticflickr.com/1048/4733214324_bb5c868329_b.jpg",
+    "https://live.staticflickr.com/1065/4732554723_3dd8fa02fa_b.jpg",
+    "https://live.staticflickr.com/1119/4732597117_a3335dd2cc_b.jpg",
+    "https://live.staticflickr.com/1137/4733203980_b414dceb0c_b.jpg",
+    "https://live.staticflickr.com/1148/621468533_0e2ed1eee1_b.jpg",
+    "https://live.staticflickr.com/1182/4732559485_c8a599256d_b.jpg",
+    "https://live.staticflickr.com/1191/4733212016_2d517a2f48_b.jpg",
+    "https://live.staticflickr.com/1225/4733180188_227e36bb94_b.jpg",
+    "https://live.staticflickr.com/1250/4733238552_c871c17ec3_b.jpg",
+    "https://live.staticflickr.com/1263/4732562247_b2754a0bd4_b.jpg",
+    "https://live.staticflickr.com/1319/621468569_a2ae8fc6ec_b.jpg",
+    "https://live.staticflickr.com/136/322161123_8c8aff4c9a_b.jpg",
+    "https://live.staticflickr.com/1376/4733205728_f3b7e894b0_b.jpg",
+    "https://live.staticflickr.com/1402/4599777092_106426ef79_b.jpg",
+    "https://live.staticflickr.com/184/471615679_aac2df3158_b.jpg",
+    "https://live.staticflickr.com/2168/2267915412_fda45c702b_b.jpg",
+    "https://live.staticflickr.com/2192/2097753744_184f05d463_b.jpg",
+    "https://live.staticflickr.com/222/483475990_9240dccb82_b.jpg",
+    "https://live.staticflickr.com/2261/2073140320_4cbc63ca27_b.jpg",
+    "https://live.staticflickr.com/2314/2302808230_82378869c4_b.jpg",
+    "https://live.staticflickr.com/2430/3820497692_7f05764508_b.jpg",
+    "https://live.staticflickr.com/2464/3819689891_4628f6ef52_b.jpg",
+    "https://live.staticflickr.com/2494/3963147376_8b16d14ee3_b.jpg",
+    "https://live.staticflickr.com/2499/3819691885_97fa24a954_b.jpg",
+    "https://live.staticflickr.com/2546/3819692167_6f3c9c56db_b.jpg",
+    "https://live.staticflickr.com/2635/3848315549_196659e141_b.jpg",
+    "https://live.staticflickr.com/2812/33364039741_0cc00f95e7_b.jpg",
+    "https://live.staticflickr.com/2852/10576533523_df37822e19_b.jpg",
+    "https://live.staticflickr.com/2875/11322962193_288cc4c65f_b.jpg",
+    "https://live.staticflickr.com/2927/14516438274_201d89d8a9_b.jpg",
+    "https://live.staticflickr.com/3013/4556427363_2320849174_b.jpg",
+    "https://live.staticflickr.com/3120/2489690363_5701edd7c0_b.jpg",
+    "https://live.staticflickr.com/3197/3008762362_43602d4c68_b.jpg",
+    "https://live.staticflickr.com/3369/3443676678_a2c4140963_b.jpg",
+    "https://live.staticflickr.com/3451/3963147436_ffa37bf25e_b.jpg",
+    "https://live.staticflickr.com/3571/3819689757_20c0e67c19_b.jpg",
+    "https://live.staticflickr.com/3573/3820494496_ae45fa8dcd_b.jpg",
+    "https://live.staticflickr.com/3697/9379780683_2be07369e0_b.jpg",
+    "https://live.staticflickr.com/3715/12347475634_bfa94e1123_b.jpg",
+    "https://live.staticflickr.com/3734/18993984799_35d900ea1f_b.jpg",
+    "https://live.staticflickr.com/3776/32648884734_966125a886_b.jpg",
+    "https://live.staticflickr.com/3805/14287969065_155dd6c015_b.jpg",
+    "https://live.staticflickr.com/3941/33336469412_d498f0e1a6_b.jpg",
+    "https://live.staticflickr.com/4010/4317735571_863e664167_b.jpg",
+    "https://live.staticflickr.com/4012/4567209763_e2570b8b4a_b.jpg",
+    "https://live.staticflickr.com/4029/4567841324_b52802a984_b.jpg",
+    "https://live.staticflickr.com/4032/4567840952_f3f922fd0b_b.jpg",
+    "https://live.staticflickr.com/4043/4567209649_63f3dfcb1a_b.jpg",
+    "https://live.staticflickr.com/4045/4551398334_3311463511_b.jpg",
+    "https://live.staticflickr.com/4045/4567209019_29487c8472_b.jpg",
+    "https://live.staticflickr.com/4045/4567840564_2185412ed0_b.jpg",
+    "https://live.staticflickr.com/4067/4567840776_aafda16d10_b.jpg",
+    "https://live.staticflickr.com/4068/4567841180_994a7ec6bb_b.jpg",
+    "https://live.staticflickr.com/4097/4918373566_f08bcc9251_b.jpg",
+    "https://live.staticflickr.com/4119/4772318155_635812fed5_b.jpg",
+    "https://live.staticflickr.com/4119/4772318165_1e079ce017_b.jpg",
+    "https://live.staticflickr.com/4738/27142589019_9599243a5c_b.jpg",
+    "https://live.staticflickr.com/4860/45565278954_6186374760_b.jpg",
+    "https://live.staticflickr.com/4892/45565289064_68048c2f58_b.jpg",
+    "https://live.staticflickr.com/5081/5279014563_39c525f1f4_b.jpg",
+    "https://live.staticflickr.com/5186/5731618209_aeaecd2809_b.jpg",
+    "https://live.staticflickr.com/5242/5371917031_a7346b20db_b.jpg",
+    "https://live.staticflickr.com/5302/5609903970_9b1bb483a7_b.jpg",
+    "https://live.staticflickr.com/5670/23654633206_ca2631da17_b.jpg",
+    "https://live.staticflickr.com/5751/22375211988_753a7e2c2c_b.jpg",
+    "https://live.staticflickr.com/6054/6359313595_5c8bd60f1a_b.jpg",
+    "https://live.staticflickr.com/6087/6120323573_554aab0fde_b.jpg",
+    "https://live.staticflickr.com/6204/6153433228_f11c3fbb1e_b.jpg",
+    "https://live.staticflickr.com/65535/52185068605_09ffca1df5_b.jpg",
+    "https://live.staticflickr.com/7002/6660083003_50d7b66c95_b.jpg",
+    "https://live.staticflickr.com/7008/6660141777_f3c5978a8e_b.jpg",
+    "https://live.staticflickr.com/7021/6660091109_de39ce78aa_b.jpg",
+    "https://live.staticflickr.com/7027/6660064021_3e2aeee87c_b.jpg",
+    "https://live.staticflickr.com/7159/6660127471_81dc671a86_b.jpg",
+    "https://live.staticflickr.com/7166/6677153173_b82916ab64_b.jpg",
+    "https://live.staticflickr.com/7292/8719815548_6c8439e049_b.jpg",
+    "https://live.staticflickr.com/7324/8719821908_db25fed3f9_b.jpg",
+    "https://live.staticflickr.com/7446/12347024763_5f4c72d33b_b.jpg",
+    "https://live.staticflickr.com/7561/15607412044_a2c1b14381_b.jpg",
+    "https://live.staticflickr.com/7563/15422785493_b8552f0846_b.jpg",
+    "https://live.staticflickr.com/7621/17255272595_0ee88c2997_b.jpg",
+    "https://live.staticflickr.com/7886/31836929927_ff4fc2e0bd_b.jpg",
+    "https://live.staticflickr.com/8090/8366739911_d10f7e0d16_b.jpg",
+    "https://live.staticflickr.com/818/39670606040_80dce12c3a_b.jpg",
+    "https://live.staticflickr.com/8385/8482316842_3ac9faba02_b.jpg",
+    "https://live.staticflickr.com/8467/8428674546_daf3ed2649_b.jpg",
+    "https://live.staticflickr.com/8646/16499589557_896972356d_b.jpg",
+    "https://live.staticflickr.com/912/27243686087_050e162788_b.jpg",
+    "https://live.staticflickr.com/956/28241325288_0a65826344_b.jpg",
+    "https://live.staticflickr.com/981/41213104445_2a97267dfa_b.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/06/Engineering_Fabrication_Laboratory_%28Student_Shop%29_%2811422730545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "https://upload.wikimedia.org/wikipedia/commons/3/30/Engineering_Fabrication_Laboratory_%28Student_Shop%29_%2811422753634%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "https://upload.wikimedia.org/wikipedia/commons/3/33/Engineering_Fabrication_Laboratory_%28Student_Shop%29_%2811422733915%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "https://upload.wikimedia.org/wikipedia/commons/7/70/Cross-training_between_U_S_Army_Soldiers_and_Medical_Students_%287047838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "https://upload.wikimedia.org/wikipedia/commons/7/7d/A_medical_student_performs_eye_examination.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "https://upload.wikimedia.org/wikipedia/commons/9/93/Engineering_Fabrication_Laboratory_%28Student_Shop%29_%2811422756894%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "https://upload.wikimedia.org/wikipedia/commons/9/96/Engineering_Fabrication_Laboratory_%28Student_Shop%29_%2811422735215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "https://upload.wikimedia.org/wikipedia/commons/a/aa/Cross-training_between_U_S_Army_Soldiers_and_Medical_Students_%287047833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-art-design-tt-1024x724.jpg",
+    "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-business-finance-economics-tt-1024x724.jpg",
+    "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-computing-robotics-ai-tt-1024x724.jpg",
+    "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-medicine-sciences-tt-1024x724.jpg",
+    "https://www.mpw.ac.uk/wp-content/uploads/2025/10/mpw-summer-school-26-architecture-tt-1024x724.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/5YUFL6LC0E.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/6C4YTOELUE.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/JG8AXYUVU3.jpg"
+  ],
+  "searches": {
+    "immerse-global-leadership-summer-school-cambridge": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "oxford-royale-oxford-summer-school-business-innovation-entrepreneurship-16-18": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "oxford-royale-oxford-summer-school-explore-business-12-15": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "oxford-royale-oxford-summer-school-marketing-16-18": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "oxford-royale-oxford-summer-school-penn-entrepreneurship-academy": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "oxford-royale-summer-courses-yale-business-innovation-entrepreneurship-16-18": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "oxford-royale-summer-courses-yale-explore-business-13-15": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-georgetown-university-build-your-business-exploring-entrepreneurship-s2": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-georgetown-university-business-entrepreneurship-s1": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-georgetown-university-fundamentals-of-entrepreneurship-s1-1": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-georgetown-university-economics-s1-1": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-ucla-advertising-marketing-public-relations-s2": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-georgetown-university-money-matters-smart-investing-for-your-future-s2": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-ucla-future-founders-the-entrepreneurship-experience-s1": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-ucla-future-founders-the-entrepreneurship-experience-s2": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-university-of-michigan-day-trading-masterclass-s3": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-university-of-michigan-personal-finance-investment-strategy-s3": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "summer-discovery-2027-yale-university-money-matters-stocks-bonds-your-financial-future-s1": [
+      "business",
+      "office",
+      "meeting"
+    ],
+    "immerse-medicine-summer-school-medicine-summer-programme-in-oxford": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "investin-products-the-doctor-summer-experience": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "oxford-royale-summer-courses-yale-explore-medicine-13-15": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "oxford-royale-summer-courses-yale-medicine-16-18": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-georgetown-university-careers-in-medicine-s1": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-georgetown-university-introduction-to-medicine-exploring-the-world-of-healthcare-s2": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-georgetown-university-introduction-to-medicine-s1": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-uc-berkeley-psychiatry-neuroscience-academy-clinical-application-s1": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-ucla-research-in-medicine-from-hypothesis-to-healthcare-breakthrough-s1": [
+      "doctor",
+      "medical",
+      "hospital"
+    ],
+    "summer-discovery-2027-university-of-michigan-careers-in-medicine-s1": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-university-of-michigan-careers-in-medicine-s2": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-university-of-michigan-medical-research-scientific-investigation-the-research-process-s1": [
+      "doctor",
+      "medical",
+      "hospital"
+    ],
+    "summer-discovery-2027-university-of-michigan-medical-research-scientific-investigation-the-research-process-s3": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-yale-university-regenerative-medicine-the-engineered-anatomy-s1": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-yale-university-research-in-medicine-academy-s1": [
+      "doctor",
+      "medical",
+      "hospital"
+    ],
+    "summer-discovery-2027-yale-university-neuroscience-the-brains-physiology-pathology-s1": [
+      "medical",
+      "hospital",
+      "doctor"
+    ],
+    "summer-discovery-2027-bryn-mawr-college-dynamic-dna-the-genetics-of-plant-life-s1": [
+      "plant",
+      "leaf"
+    ],
+    "summer-discovery-2027-yale-university-medical-microbiology-s1": [
+      "doctor",
+      "medical",
+      "hospital"
+    ],
+    "summer-discovery-2027-yale-university-stem-cells-in-action-revolutionary-medicine-s1": [
+      "hospital",
+      "medical"
+    ],
+    "constructor-university-summer-camp-physics-and-research": [
+      "electronics",
+      "computer"
+    ],
+    "investin-products-the-ai-software-summer-experience": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "oxford-royale-oxford-summer-school-explore-artificial-intelligence-12-15": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "summer-discovery-2027-bryn-mawr-college-interactive-robotics-programming-prowess-s1": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "summer-discovery-2027-bryn-mawr-college-young-scientists-coding-superstars-s1": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "summer-discovery-2027-ucla-artificial-intelligence-emerging-applications-s2": [
+      "laptop",
+      "computer"
+    ],
+    "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s1": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "summer-discovery-2027-university-of-michigan-ai-product-studio-vibe-coding-for-social-impact-s2": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s2": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "summer-discovery-2027-university-of-michigan-ai-scholars-build-intelligent-systems-for-social-good-s3": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "summer-discovery-2027-yale-university-ai-scholars-build-intelligent-systems-for-social-good-s1": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "constructor-university-summer-camp-programming-and-algorithms": [
+      "computer",
+      "technology",
+      "laptop"
+    ],
+    "immerse-engineering-summer-school-london": [
+      "laptop",
+      "computer"
+    ],
+    "immerse-engineering-summer-school-oxford": [
+      "technology",
+      "science",
+      "computer"
+    ],
+    "oxford-royale-oxford-summer-school-explore-engineering-12-15": [
+      "laptop",
+      "computer"
+    ],
+    "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s1": [
+      "laptop",
+      "computer"
+    ],
+    "summer-discovery-2027-university-of-michigan-mechanical-engineering-structural-analysis-design-s2": [
+      "technology",
+      "science",
+      "computer"
+    ],
+    "constructor-university-summer-camp-mathematics-and-modeling": [
+      "laptop",
+      "computer"
+    ],
+    "immerse-architecture-summer-school-oxford": [
+      "architecture",
+      "building",
+      "house"
+    ],
+    "investin-products-the-architect-summer-experience": [
+      "architecture",
+      "building",
+      "house"
+    ],
+    "summer-discovery-2027-ucla-introduction-to-real-estate-s2": [
+      "architecture",
+      "building",
+      "house"
+    ],
+    "investin-products-the-vet-summer-experience": [
+      "dog",
+      "animal",
+      "cat"
+    ],
+    "oxford-royale-summer-courses-yale-ivy-league-scholars-programme": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-fairfield-university-big-questions-club-philosophy-for-kids-s1": [
+      "meeting",
+      "study",
+      "library"
+    ],
+    "edconic-pre-college-summer-academy-nyc-nyc-summer-academy": [
+      "meeting",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-georgetown-university-psychology-s1": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-georgetown-university-social-psychology-dynamics-of-group-behavior-s2": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-georgetown-university-sociology-s1": [
+      "meeting",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-ucla-abnormal-psychology-s2": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s1": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s2": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-university-of-michigan-biopsychology-cognition-and-neuroscience-bcn-s3": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-university-of-michigan-build-the-movement-civic-engagement-social-impact-s1": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-university-of-michigan-social-psychology-dynamics-of-group-behavior-s3": [
+      "education",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-georgetown-university-careers-in-law-introduction-to-the-us-legal-system-s2": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-georgetown-university-careers-in-law-s1": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-ucla-criminal-psychology-s1": [
+      "meeting",
+      "study",
+      "library"
+    ],
+    "summer-discovery-2027-ucla-criminal-psychology-the-roots-of-criminal-behavior-s2": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-ucla-hit-the-gavel-mock-trial-and-debate-s1-2": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-ucla-psychology-academy-s1": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-ucla-psychology-academy-s2": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s1": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-university-of-michigan-careers-in-law-introduction-to-the-us-legal-system-s2": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-university-of-michigan-criminal-psychology-s2": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-university-of-michigan-criminal-psychology-s3": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-yale-university-hit-the-gavel-mock-trial-and-debate-s1": [
+      "law",
+      "meeting",
+      "education"
+    ],
+    "summer-discovery-2027-ucla-film-industry-primer-s2-1": [
+      "camera",
+      "photography",
+      "film"
+    ],
+    "summer-discovery-2027-georgetown-university-sports-law-s1": [
+      "sport",
+      "basketball",
+      "football"
+    ],
+    "summer-discovery-2027-georgetown-university-sports-management-s2": [
+      "sport",
+      "basketball",
+      "football"
+    ],
+    "summer-discovery-2027-university-of-michigan-sports-management-strategy-behind-the-game-s3": [
+      "sport",
+      "basketball",
+      "football"
+    ],
+    "summer-discovery-2027-bryn-mawr-college-superhero-storytelling-creative-engineering-s1": [
+      "art",
+      "painting",
+      "design"
+    ],
+    "summer-discovery-2027-fairfield-university-superhero-storytelling-creative-engineering-s1": [
+      "art",
+      "painting",
+      "design"
+    ],
+    "constructor-university-summer-camp-innovation-and-design-thinking": [
+      "art",
+      "painting",
+      "design"
+    ],
+    "summer-discovery-2027-fairfield-university-marine-biology-s1": [
+      "ocean",
+      "marine",
+      "water"
+    ],
+    "summer-discovery-2027-fairfield-university-trowel-treasures-archaeology-for-young-scientists-s1": [
+      "archaeology",
+      "museum",
+      "history"
+    ]
+  }
+}

@@ -3,7 +3,7 @@
     "reviewed": "2026-10-05",
     "provider": "Emerald Cultural Institute",
     "source_policy": "Brochure content reviewed against the supplied 2026 tariff (pages 2-3, 6-7) and official course pages. All dates and fees remain historical 2026 references. No 2027 availability inferred.",
-    "sources": ["2026-Junior-Price-List.pdf", "ireland/Trinity-Walton-STEM-Programme-2026.pdf", "ireland/Young-Adult-Programme-SUM8.pdf", "ireland/Trinity Walton STEM Programme - Emerald Cultural Institute.html"]
+    "sources": ["2026-Junior-Price-List.pdf", "ireland/Trinity-Walton-STEM-Programme-2026.pdf", "Young-Adult-Programme-SUM8.pdf", "ireland/Trinity Walton STEM Programme - Emerald Cultural Institute.html"]
   },
   "programs": [
     {
@@ -81,9 +81,9 @@
       "price_supplements": {"homestay_extra_week_eur": 990, "residential_extra_week_eur": 1365},
       "codes": ["SUM8", "SUM8R"],
       "source_url": "https://www.eci.ie/courses/young-adult-programme/",
-      "source_files": ["ireland/Young-Adult-Programme-SUM8.pdf", "2026-Junior-Price-List.pdf"],
+      "source_files": ["Young-Adult-Programme-SUM8.pdf", "2026-Junior-Price-List.pdf"],
       "image": "/assets/program-images/emerald/young-adult.jpg",
-      "image_source": "ireland/Young-Adult-Programme-SUM8.pdf",
+      "image_source": "Young-Adult-Programme-SUM8.pdf",
       "image_page": 2,
       "flags": ["Dates and fees are historical 2026 references; confirm the next season with Emerald.", "Brochure says ages 16-20; dated 2026 tariff and official course page say 16-19. Catalogue follows 16-19.", "Brochure transfer supplement is EUR190 return; dated 2026 tariff is EUR105 each way (EUR210 return). Catalogue follows the dated tariff.", "Dates are the operating window, not a six-week fixed course. Arrival Sundays; minimum stay two weeks."],
       "en": {

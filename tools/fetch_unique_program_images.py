@@ -224,12 +224,16 @@ def commons_pool(query: str) -> list[dict]:
     write(cache, results)
     return results
 
-def openverse_pool(query: str, page: int = 1) -> list[dict]:
+def openverse_pool(query: str, page: int = 1, stock: bool = False) -> list[dict]:
     key = query if page == 1 else query + f"|page={page}"
+    if stock:
+        key += "|stocksnap-cc0"
     cache = CACHE / "openverse" / (hashlib.sha256(key.encode()).hexdigest() + ".json")
     if cache.exists():
         return read(cache)
     params = {"q":query, "license_type":"commercial", "extension":"jpg", "page_size":20, "page":page, "mature":"false"}
+    if stock:
+        params.update(source="stocksnap", license="cc0")
     payload, _ = get(OPENVERSE + "?" + urllib.parse.urlencode(params), 5 * 1024 * 1024)
     results = []
     for image in json.loads(payload).get("results", []):
@@ -314,7 +318,7 @@ def main():
             raise SystemExit("Image import is incomplete")
         mapping = read(ROOT / "data/image-candidates.json")
         for program_id, image in manifest["images"].items():
-            mapping[program_id] = [image["local_path"], *[x for x in mapping.get(program_id, []) if x != image["local_path"]]]
+            mapping[program_id] = [image["local_path"], *[x for x in mapping.get(program_id, []) if "/program-images/unique/" not in x]]
         write(ROOT / "data/image-candidates.json", mapping)
         print("Reapplied imported programme images without network requests.")
         return
@@ -362,11 +366,12 @@ def main():
             if index % 30 == 0:
                 print(f"Provider downloads cached: {index}/{len(first_choices)}", flush=True)
     manifest = read(MANIFEST, {"_meta":{}, "images":{}, "failures":{}})
+    curation = read(ROOT / "data/program-photo-curation.json", {"blocked_urls":[], "searches":{}})
     images = manifest["images"]
     used_urls = {x.get("canonical_url") for x in images.values()}
     used_hashes = {x.get("sha256") for x in images.values()}
     used_phashes = {int(x["dhash"],16) for x in images.values() if x.get("dhash")}
-    rejected_urls = set()
+    rejected_urls = set(curation["blocked_urls"])
     def accept(record, item, local_payload=None):
         key = item["canonical_url"]
         if BLOCKED.search(urllib.parse.unquote(key)):
@@ -415,10 +420,12 @@ def main():
     for index, record in enumerate(pending, 1):
         found = False
         attempted = []
-        for query in queries(record):
+        stock_queries = curation["searches"].get(record["id"])
+        for query in stock_queries or queries(record):
             attempted.append(query)
             try:
-                for search in (lambda q: openverse_pool(q, 1), lambda q: openverse_pool(q, 2), lambda q: openverse_pool(q, 3), commons_pool):
+                searches = ((lambda q: openverse_pool(q, 1, True)), (lambda q: openverse_pool(q, 2, True)), (lambda q: openverse_pool(q, 3, True))) if stock_queries else ((lambda q: openverse_pool(q, 1)), (lambda q: openverse_pool(q, 2)), (lambda q: openverse_pool(q, 3)), commons_pool)
+                for search in searches:
                     pool = search(query)
                     for item in pool:
                         if accept(record, item):
@@ -443,7 +450,7 @@ def main():
         raise SystemExit(2)
     mapping = read(ROOT / "data/image-candidates.json")
     for program_id, image in images.items():
-        mapping[program_id] = [image["local_path"], *[x for x in mapping.get(program_id, []) if x != image["local_path"]]]
+        mapping[program_id] = [image["local_path"], *[x for x in mapping.get(program_id, []) if "/program-images/unique/" not in x]]
     write(ROOT / "data/image-candidates.json", mapping)
 
 if __name__ == "__main__":

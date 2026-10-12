@@ -84,6 +84,9 @@ Katalog, konu grubu, sağlayıcı ve ülke filtrelerini birlikte uygular. Masaü
 | `data/digest-src/` | Özetlerin hazırlanmasında kullanılan içerikler, ortak şablonlar ve çeviriler |
 | `data/tr-translations.json` | Bazı sağlayıcıların Türkçe başlık, konu ve konum karşılıkları |
 | `data/image-candidates.json` | Her program için sıralı görsel adayları |
+| `data/program-image-sources.json` | 476 programın ayrı indirilen fotoğrafı, kaynak, fotoğrafçı, lisans ve dosya doğrulama bilgileri |
+| `data/program-photo-curation.json` | Görsel incelemede reddedilen kaynaklar ve programa özel temsili fotoğraf aramaları |
+| `data/program-image-audit.json` | Son fotoğraf koleksiyonunun görsel inceleme ve tekrar kontrolü kaydı |
 | `data/price-inclusions.json` | İngilizce/Türkçe paket kapsamları, sağlayıcı kaynakları ve programa özel istisnalar |
 | `data/program-editor-overrides.json` | Yerel editörün ürettiği son içerik değişiklikleri |
 | `assets/program-images/` | Kampüs, konu ve sağlayıcı görselleri ile kaynak/lisans kayıtları |
@@ -96,7 +99,7 @@ Programın `id` alanı, katalog, özet, görsel ve editör verilerini birbirine 
 
 `program-page.js`, 475 program için büyük görsel, temel bilgiler, konu etiketleri, etkinlikler, kazanımlar, uygun katılımcı profili ve ek olanaklardan oluşan detay sayfası sunar. Ücret, tarih, süre ve konum temel program kaydından okunur. Yaş alanı boş olan Summer Discovery kayıtlarında özetin sınıf bilgisi gösterilebilir; sınıf aralığı yaşa dönüştürülmez.
 
-Detay görsellerinde yerel adaylar kullanılır; `/campuses/` yolundaki görsele başlık alanında öncelik verilir. Kalan uygun yerel görsellerden en fazla üçü galeride gösterilir. Kaynak kaydıyla eşleşen kampüs görsellerinin atıf bilgisi ekrana eklenir. Katalog kartları ise aday listesindeki ilk görseli kullanır; aday yoksa programın `image_url` alanına başvurur, yüklenemeyen görseller için yer tutucu gösterir.
+Her programın `/unique/` klasörüne indirilen ayrı fotoğrafı hem katalog kartında hem detay sayfasının başlığında önceliklidir. Sağlayıcı fotoğrafları kullanılır; uygun ve benzersiz bir sağlayıcı görseli bulunamadığında açık lisanslı temsili konu fotoğrafı seçilir. Temsili fotoğraflar ekranda belirtilir; kaynak, fotoğrafçı ve lisans bağlantıları kartta ve detay sayfasında gösterilir. Fotoğrafların indirilen özgün dosyaları korunur. Diğer uygun yerel adaylardan en fazla üçü detay galerisinde gösterilir; kampüs görsellerinin mevcut atıfları korunur. Görsel yüklenemezse yer tutucu gösterilir.
 
 `immerse-online-research-programme`, özet katmanının bilinçli olarak dışında tutulur. Özgün React detay sayfasını ve özel araştırma seçeneklerini kullanır. `online-research-options.js`, seçenekleri doğrudan ana JSON dosyasından okur; editör değişiklikleri dosyasını ayrıca birleştirmez.
 
@@ -115,6 +118,8 @@ URL'de `#` öncesine `?review` eklenirse özet sayfalarında iç veri kontrol no
 - **`normalized_constructor/normalize_constructor.mjs`:** Betikte gömülü ders açıklamalarından Constructor için dokuz kayıt üretir ve eski Constructor kayıtlarını değiştirerek ana kataloğa birleştirir. Kamp tek bir 12 günlük programdır; dersler ayrı katalog kayıtları olarak modellenmiştir. Ortak ücret ve tarihler betikte sabittir.
 - **`normalized_constructor/add_image_candidates.mjs`:** Constructor dersleri için konu ve Bremen kampüs görsellerini aday listesine ekler.
 - **`tools/fetch_program_images.py` / `tools/fetch_provider_thumbnails.py`:** Kampüs ve seçili sağlayıcı görsellerini indirir, yerel kopyaları ve kaynak kayıtlarını yeniler.
+- **`tools/fetch_unique_program_images.py`:** Program başına ayrı sağlayıcı veya açık lisanslı temsili fotoğraf indirir; kaynak kayıtlarını ve aday önceliğini günceller. Önceki eşleyiciler çalıştırıldıktan sonra `--stage=apply` ile indirilen fotoğraf önceliği yeniden uygulanmalıdır.
+- **`tools/audit_program_photos.py`:** Fotoğrafları değiştirmeden ortak görsel ayrıntıları ve piksel uyumunu karşılaştırarak farklı kırpılmış/kodlanmış tekrarları inceleme için raporlar. Otomatik dosya, kaynak ve benzerlik kontrolleri `tests/program-images.test.mjs` içindedir.
 
 Özetler ile Türkçe alanları yeniden üretmek için proje kökünde şu komutlar kullanılır:
 

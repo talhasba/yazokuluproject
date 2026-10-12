@@ -12,11 +12,13 @@ import cv2
 import numpy as np
 from PIL import Image
 import json
+import hashlib
 from collections import defaultdict
 
 def main():
     manifest = json.loads((ROOT / "data/program-image-sources.json").read_text(encoding="utf8"))
     entries = list(manifest["images"].items())
+    collection = hashlib.sha256("".join(f"{pid}:{record['sha256']}\n" for pid, record in sorted(entries)).encode()).hexdigest()
     orb = cv2.ORB_create(nfeatures=700, fastThreshold=10)
     features, rasters, points, records = [], [], [], []
     for pid, record in entries:
@@ -69,7 +71,7 @@ def main():
         if (i+1)%50 == 0:
             print(f"Compared {i+1}/{len(features)} photos; {len(pairs)} crop/re-encoding duplicates flagged", flush=True)
     out = ROOT / ".local-editor/image-import/crop-duplicates.json"
-    out.write_text(json.dumps({"photos_checked":len(records), "pairs":pairs}, indent=2)+"\n", encoding="utf8")
+    out.write_text(json.dumps({"input_photos":len(entries), "photos_checked":len(records), "collection_sha256":collection, "pairs":pairs}, indent=2)+"\n", encoding="utf8")
     print(f"Flagged {len(pairs)} matching photograph pairs. Review: {out}", flush=True)
 
 if __name__ == "__main__":
