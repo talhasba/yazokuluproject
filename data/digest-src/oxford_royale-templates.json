@@ -20,6 +20,10 @@
       "en": { "extras": ["Punting on the Cherwell, creative workshops, debate evenings, karaoke and talent shows", "Visits to museums, galleries, the Covered Market and Westgate", "Welcome activities to help everyone settle in quickly"] },
       "tr": { "extras": ["Cherwell nehrinde kayıkla gezinti (punting), yaratıcı atölyeler, münazara akşamları, karaoke ve yetenek gösterileri", "Müze, galeri, Covered Market ve Westgate ziyaretleri", "Herkesin çabuk uyum sağlaması için karşılama etkinlikleri"] }
     },
+    "marlborough": {
+      "en": { "extras": ["Residential life and supervised activities at Marlborough College", "Sports, creative activities and cultural excursions with an international student community", "A graduation celebration marking each student's progress"] },
+      "tr": { "extras": ["Marlborough College'da konaklamalı yaşam ve gözetimli etkinlikler", "Uluslararası öğrenci topluluğuyla spor, yaratıcı etkinlikler ve kültürel geziler", "Her öğrencinin gelişimini kutlayan mezuniyet etkinliği"] }
+    },
     "london": {
       "en": { "extras": ["Creative workshops and group outings to museums, galleries and riverside destinations", "Welcome activities, a debate society and a grand final"] },
       "tr": { "extras": ["Yaratıcı atölyeler ile müze, galeri ve nehir kıyısı grup gezileri", "Karşılama etkinlikleri, münazara topluluğu ve büyük final"] }

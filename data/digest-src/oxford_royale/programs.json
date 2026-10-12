@@ -1,0 +1,2066 @@
+{
+  "oxford-summer-school-business-innovation-entrepreneurship-16-18": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Business, Innovation & Entrepreneurship Summer School for ambitious students (16–18), combining strategy, pitching, and sales at Oxford or Cambridge.",
+      "tags": [
+        "Entrepreneurship",
+        "Strategy",
+        "Marketing",
+        "Leadership"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in business through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in business"
+      ]
+    },
+    "tr": {
+      "focus": "Strateji, pazarlama, finans, liderlik ve girişimcilik üzerinden bir fikri uygulanabilir bir işletmeye dönüştürmenin aşamalarını keşfedin.",
+      "tags": [
+        "Girişimcilik",
+        "Strateji",
+        "Pazarlama",
+        "Liderlik"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "İşletme alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "İşletme alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-business-innovation-entrepreneurship-16-18": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Business, Innovation & Entrepreneurship Summer School for ambitious students (16–18), combining strategy, pitching, and sales at Oxford or Cambridge.",
+      "tags": [
+        "Entrepreneurship",
+        "Strategy",
+        "Marketing",
+        "Leadership"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in business through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in business"
+      ]
+    },
+    "tr": {
+      "focus": "Strateji, pazarlama, finans, liderlik ve girişimcilik üzerinden bir fikri uygulanabilir bir işletmeye dönüştürmenin aşamalarını keşfedin.",
+      "tags": [
+        "Girişimcilik",
+        "Strateji",
+        "Pazarlama",
+        "Liderlik"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "İşletme alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "İşletme alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-medicine-modern-healthcare-12-15": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Medicine Summer School for ambitious students aged 12–15, combining academic teaching and clinical skills in Oxford or Cambridge.",
+      "tags": [
+        "Anatomy",
+        "Clinical skills",
+        "Healthcare",
+        "Medical ethics"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in medicine through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in medicine"
+      ]
+    },
+    "tr": {
+      "focus": "Anatomi, klinik düşünme ve modern sağlık teknolojileri üzerinden tıp dünyasını uygulamalı çalışmalarla keşfedin.",
+      "tags": [
+        "Anatomi",
+        "Klinik beceriler",
+        "Sağlık hizmetleri",
+        "Tıp etiği"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Tıp alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Tıp alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-medicine-modern-healthcare-12-15": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Medicine Summer School for ambitious students aged 12–15, combining academic teaching and clinical skills in Oxford or Cambridge.",
+      "tags": [
+        "Anatomy",
+        "Clinical skills",
+        "Healthcare",
+        "Medical ethics"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in medicine through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in medicine"
+      ]
+    },
+    "tr": {
+      "focus": "Anatomi, klinik düşünme ve modern sağlık teknolojileri üzerinden tıp dünyasını uygulamalı çalışmalarla keşfedin.",
+      "tags": [
+        "Anatomi",
+        "Klinik beceriler",
+        "Sağlık hizmetleri",
+        "Tıp etiği"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Tıp alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Tıp alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "marlborough-college-summer-school-academic-discovery-10-12": {
+    "city": "marlborough",
+    "flags": [],
+    "en": {
+      "focus": "A one-to-four week project-based summer school for curious students aged 10–12, exploring big questions across STEM, humanities and the arts at Marlborough College.",
+      "tags": [
+        "STEM",
+        "Humanities",
+        "Creative projects",
+        "Critical thinking"
+      ],
+      "hl": [
+        "1–4 weeks residential programme in Marlborough College",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in interdisciplinary studies through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in interdisciplinary studies"
+      ]
+    },
+    "tr": {
+      "focus": "Beşerî bilimler, sanat ve STEM alanlarını gerçek dünya soruları etrafında birleştirerek araştırma, ekip çalışması ve sunum becerileri geliştirin.",
+      "tags": [
+        "STEM",
+        "Beşerî bilimler",
+        "Yaratıcı projeler",
+        "Eleştirel düşünme"
+      ],
+      "hl": [
+        "Marlborough College, Birleşik Krallık konumunda 1–4 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Disiplinlerarası Çalışmalar alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Disiplinlerarası Çalışmalar alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-architecture-design-16-18": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Architecture & Design Summer School for students aged 16-18, combining design thinking and architectural theory in Oxford or Cambridge.",
+      "tags": [
+        "Design thinking",
+        "Technical drawing",
+        "Model-making",
+        "Architecture theory"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in architecture through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in architecture"
+      ]
+    },
+    "tr": {
+      "focus": "Tasarım düşüncesini mimarlık kuramıyla birleştirin; teknik çizim, model yapımı ve yaratıcı projelerle fikirlerinizi hayata geçirin.",
+      "tags": [
+        "Tasarım düşüncesi",
+        "Teknik çizim",
+        "Maket yapımı",
+        "Mimarlık kuramı"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Mimarlık alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Mimarlık alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-architecture-design-16-18": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Architecture & Design Summer School for students aged 16-18, combining design thinking and architectural theory in Oxford or Cambridge.",
+      "tags": [
+        "Design thinking",
+        "Technical drawing",
+        "Model-making",
+        "Architecture theory"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in architecture through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in architecture"
+      ]
+    },
+    "tr": {
+      "focus": "Tasarım düşüncesini mimarlık kuramıyla birleştirin; teknik çizim, model yapımı ve yaratıcı projelerle fikirlerinizi hayata geçirin.",
+      "tags": [
+        "Tasarım düşüncesi",
+        "Teknik çizim",
+        "Maket yapımı",
+        "Mimarlık kuramı"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Mimarlık alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Mimarlık alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-explore-artificial-intelligence-12-15": {
+    "city": "oxford",
+    "flags": [],
+    "en": {
+      "focus": "A two-week Artificial Intelligence Summer School\nfor ambitious students aged 12–15 in Oxford or Cambridge.",
+      "tags": [
+        "Machine learning",
+        "Coding",
+        "Data",
+        "AI ethics"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in artificial intelligence through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in artificial intelligence"
+      ]
+    },
+    "tr": {
+      "focus": "Yapay zekânın nasıl çalıştığını keşfedin; kodlama, veri, makine öğrenmesi ve etik konularını uygulamalı projelerle inceleyin.",
+      "tags": [
+        "Makine öğrenmesi",
+        "Kodlama",
+        "Veri",
+        "Yapay zekâ etiği"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Yapay Zekâ alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Yapay Zekâ alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-broadening-horizons-16-18": {
+    "city": "oxford",
+    "flags": [],
+    "en": {
+      "focus": "Choose two academic subjects and a Power Skills workshop from 38 options. A two-week Oxford or Cambridge summer programme for ambitious students aged 16–18.",
+      "tags": [
+        "Two subjects",
+        "Power Skills",
+        "University pathways",
+        "Independent thinking"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in interdisciplinary studies through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in interdisciplinary studies"
+      ]
+    },
+    "tr": {
+      "focus": "İki akademik alanı ve bir Power Skills atölyesini birleştirerek üniversite öncesinde ilgi alanlarınızı sınayın ve gelecekteki yönünüzü netleştirin.",
+      "tags": [
+        "İki ders",
+        "Power Skills",
+        "Üniversite yolları",
+        "Bağımsız düşünme"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Disiplinlerarası Çalışmalar alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Disiplinlerarası Çalışmalar alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-explore-business-12-15": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Business Summer School for ambitious students aged 12–15, combining academic teaching and business skills in Oxford or Cambridge.",
+      "tags": [
+        "Entrepreneurship",
+        "Marketing",
+        "Finance",
+        "Teamwork"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in business through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in business"
+      ]
+    },
+    "tr": {
+      "focus": "Bir iş fikrinin nasıl geliştirildiğini öğrenin; girişimcilik, pazarlama, finans ve ekip çalışmasını uygulamalı görevlerle deneyin.",
+      "tags": [
+        "Girişimcilik",
+        "Pazarlama",
+        "Finans",
+        "Ekip çalışması"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "İşletme alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "İşletme alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-explore-business-12-15": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Business Summer School for ambitious students aged 12–15, combining academic teaching and business skills in Oxford or Cambridge.",
+      "tags": [
+        "Entrepreneurship",
+        "Marketing",
+        "Finance",
+        "Teamwork"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in business through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in business"
+      ]
+    },
+    "tr": {
+      "focus": "Bir iş fikrinin nasıl geliştirildiğini öğrenin; girişimcilik, pazarlama, finans ve ekip çalışmasını uygulamalı görevlerle deneyin.",
+      "tags": [
+        "Girişimcilik",
+        "Pazarlama",
+        "Finans",
+        "Ekip çalışması"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "İşletme alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "İşletme alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-cybersecurity-artificial-intelligence-16-18": {
+    "city": "oxford",
+    "flags": [],
+    "en": {
+      "focus": "A two-week Cyber Security Summer School for ambitious students aged 16–18, exploring ethical hacking, digital defence and AI challenges in Oxford or Cambridge.",
+      "tags": [
+        "Cybersecurity",
+        "Artificial intelligence",
+        "Cryptography",
+        "Coding"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in cybersecurity & ai through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in cybersecurity & ai"
+      ]
+    },
+    "tr": {
+      "focus": "Siber tehditleri, kriptografiyi ve yapay zekâyı birlikte inceleyin; güvenli dijital sistemler tasarlamak için kodlama ve problem çözme becerileri geliştirin.",
+      "tags": [
+        "Siber güvenlik",
+        "Yapay zekâ",
+        "Kriptografi",
+        "Kodlama"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Siber Güvenlik ve Yapay Zekâ alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Siber Güvenlik ve Yapay Zekâ alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-economics-finance-16-18": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Economics & Finance Summer School for students aged 16-18, exploring financial theory, global markets and economic thinking in Oxford or Cambridge.",
+      "tags": [
+        "Economics",
+        "Finance",
+        "Markets",
+        "Data analysis"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in economics & finance through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in economics & finance"
+      ]
+    },
+    "tr": {
+      "focus": "Piyasaların, işletmelerin ve finansal kararların nasıl işlediğini; ekonomi kuramı, veri analizi ve uygulamalı simülasyonlarla keşfedin.",
+      "tags": [
+        "Ekonomi",
+        "Finans",
+        "Piyasalar",
+        "Veri analizi"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Ekonomi ve Finans alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Ekonomi ve Finans alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-economics-finance-16-18": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Economics & Finance Summer School for students aged 16-18, exploring financial theory, global markets and economic thinking in Oxford or Cambridge.",
+      "tags": [
+        "Economics",
+        "Finance",
+        "Markets",
+        "Data analysis"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in economics & finance through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in economics & finance"
+      ]
+    },
+    "tr": {
+      "focus": "Piyasaların, işletmelerin ve finansal kararların nasıl işlediğini; ekonomi kuramı, veri analizi ve uygulamalı simülasyonlarla keşfedin.",
+      "tags": [
+        "Ekonomi",
+        "Finans",
+        "Piyasalar",
+        "Veri analizi"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Ekonomi ve Finans alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Ekonomi ve Finans alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-engineering-civil-mechanical-electrical-16-18": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Engineering Summer School for ambitious students aged 16–18, combining design, problem-solving and hands-on engineering principles in Oxford, Cambridge or London.",
+      "tags": [
+        "Civil engineering",
+        "Mechanical engineering",
+        "Electrical engineering",
+        "Design"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in engineering through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in engineering"
+      ]
+    },
+    "tr": {
+      "focus": "İnşaat, makine ve elektrik mühendisliğinin temellerini gerçek dünya problemleri, tasarım görevleri ve uygulamalı çalışmalarla öğrenin.",
+      "tags": [
+        "İnşaat mühendisliği",
+        "Makine mühendisliği",
+        "Elektrik mühendisliği",
+        "Tasarım"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Mühendislik alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Mühendislik alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-engineering-civil-mechanical-electrical-16-18": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Engineering Summer School for ambitious students aged 16–18, combining design, problem-solving and hands-on engineering principles in Oxford, Cambridge or London.",
+      "tags": [
+        "Civil engineering",
+        "Mechanical engineering",
+        "Electrical engineering",
+        "Design"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in engineering through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in engineering"
+      ]
+    },
+    "tr": {
+      "focus": "İnşaat, makine ve elektrik mühendisliğinin temellerini gerçek dünya problemleri, tasarım görevleri ve uygulamalı çalışmalarla öğrenin.",
+      "tags": [
+        "İnşaat mühendisliği",
+        "Makine mühendisliği",
+        "Elektrik mühendisliği",
+        "Tasarım"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Mühendislik alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Mühendislik alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-explore-engineering-12-15": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A one-week introduction to engineering for curious students aged 12-15, built around hands-on design challenges in Oxford.",
+      "tags": [
+        "Engineering design",
+        "Robotics",
+        "Structures",
+        "Sustainability"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in engineering & design through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in engineering & design"
+      ]
+    },
+    "tr": {
+      "focus": "Mühendislerin fikirleri nasıl çalışan çözümlere dönüştürdüğünü tasarım, yapı, robotik ve sürdürülebilirlik görevleriyle keşfedin.",
+      "tags": [
+        "Mühendislik tasarımı",
+        "Robotik",
+        "Yapılar",
+        "Sürdürülebilirlik"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Mühendislik ve Tasarım alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Mühendislik ve Tasarım alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-explore-engineering-12-15": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A one-week introduction to engineering for curious students aged 12-15, built around hands-on design challenges in Oxford.",
+      "tags": [
+        "Engineering design",
+        "Robotics",
+        "Structures",
+        "Sustainability"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in engineering & design through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in engineering & design"
+      ]
+    },
+    "tr": {
+      "focus": "Mühendislerin fikirleri nasıl çalışan çözümlere dönüştürdüğünü tasarım, yapı, robotik ve sürdürülebilirlik görevleriyle keşfedin.",
+      "tags": [
+        "Mühendislik tasarımı",
+        "Robotik",
+        "Yapılar",
+        "Sürdürülebilirlik"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Mühendislik ve Tasarım alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Mühendislik ve Tasarım alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "marlborough-college-summer-school-english-discovery-10-12": {
+    "city": "marlborough",
+    "flags": [],
+    "en": {
+      "focus": "A one-to-four week English immersion programme for ambitious students aged 10–12, combining immersive lessons, personalised electives and exciting excursions at Marlborough College.",
+      "tags": [
+        "English communication",
+        "Vocabulary",
+        "Creative learning",
+        "Confidence"
+      ],
+      "hl": [
+        "1–4 weeks residential programme in Marlborough College",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in english language through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in english language"
+      ]
+    },
+    "tr": {
+      "focus": "İngilizce iletişim becerilerinizi küçük sınıflar, yaratıcı görevler, etkinlikler ve uluslararası arkadaşlıklarla güven içinde geliştirin.",
+      "tags": [
+        "İngilizce iletişim",
+        "Kelime bilgisi",
+        "Yaratıcı öğrenme",
+        "Özgüven"
+      ],
+      "hl": [
+        "Marlborough College, Birleşik Krallık konumunda 1–4 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "İngilizce alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "İngilizce alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "marlborough-college-summer-school-english-explorer-13-18": {
+    "city": "marlborough",
+    "flags": [],
+    "en": {
+      "focus": "A one-to-four week English immersion programme for ambitious teenagers aged 13–18, combining immersive lessons, personalised electives and exciting excursions at Marlborough College.",
+      "tags": [
+        "English fluency",
+        "Speaking",
+        "Academic English",
+        "Culture"
+      ],
+      "hl": [
+        "1–4 weeks residential programme in Marlborough College",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in english language through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in english language"
+      ]
+    },
+    "tr": {
+      "focus": "Akademik ve günlük İngilizcenizi tartışmalar, projeler ve kültürel etkinliklerle geliştirerek daha akıcı ve özgüvenli iletişim kurun.",
+      "tags": [
+        "İngilizce akıcılığı",
+        "Konuşma",
+        "Akademik İngilizce",
+        "Kültür"
+      ],
+      "hl": [
+        "Marlborough College, Birleşik Krallık konumunda 1–4 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "İngilizce alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "İngilizce alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-film-academy-12-15": {
+    "city": "oxford",
+    "flags": [],
+    "en": {
+      "focus": "A two-week Film Academy Summer School for creative students aged 12–15, learning screenwriting, directing and the craft of filmmaking in Oxford or Cambridge.",
+      "tags": [
+        "Filmmaking",
+        "Storytelling",
+        "Directing",
+        "Editing"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in film through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in film"
+      ]
+    },
+    "tr": {
+      "focus": "Hikâye geliştirmeden çekim ve kurguya kadar film yapım sürecini öğrenin ve yaratıcı fikirlerinizi ekip çalışmasıyla ekrana taşıyın.",
+      "tags": [
+        "Film yapımı",
+        "Hikâye anlatımı",
+        "Yönetmenlik",
+        "Kurgu"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Film alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Film alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "marlborough-college-summer-school-iconic-britain-14-18": {
+    "city": "marlborough",
+    "flags": [],
+    "en": {
+      "focus": "A two-week English immersion programme for students aged 14–18, exploring Britain's most iconic destinations — from Stonehenge to Shakespeare's Globe — based at Marlborough College.",
+      "tags": [
+        "English language",
+        "British culture",
+        "Excursions",
+        "Communication"
+      ],
+      "hl": [
+        "2 weeks residential programme in Marlborough College",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in english language & culture through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in english language & culture"
+      ]
+    },
+    "tr": {
+      "focus": "İngilizcenizi gerçek yaşam bağlamlarında geliştirirken Britanya'nın kültürünü, tarihini ve simgesel yerlerini geziler ve projelerle keşfedin.",
+      "tags": [
+        "İngilizce",
+        "Britanya kültürü",
+        "Geziler",
+        "İletişim"
+      ],
+      "hl": [
+        "Marlborough College, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "İngilizce ve Kültür alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "İngilizce ve Kültür alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "marlborough-college-summer-school-ielts-preparation-13-18": {
+    "city": "marlborough",
+    "flags": [],
+    "en": {
+      "focus": "A one-to-four week IELTS Preparation programme for students aged 14–18, combining intensive exam-focused lessons, real-world excursions and personalised feedback at Marlborough College.",
+      "tags": [
+        "IELTS",
+        "Academic English",
+        "Exam strategy",
+        "Practice"
+      ],
+      "hl": [
+        "1–4 weeks residential programme in Marlborough College",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in ielts preparation through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in ielts preparation"
+      ]
+    },
+    "tr": {
+      "focus": "IELTS'in dört bölümünde sınav stratejileri, akademik dil ve zaman yönetimi çalışarak hedef puanınıza daha hazırlıklı ilerleyin.",
+      "tags": [
+        "IELTS",
+        "Akademik İngilizce",
+        "Sınav stratejisi",
+        "Uygulama"
+      ],
+      "hl": [
+        "Marlborough College, Birleşik Krallık konumunda 1–4 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "IELTS Hazırlık alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "IELTS Hazırlık alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-international-relations-diplomacy-16-18": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week International Relations & Global Diplomacy Summer School for students aged 16-18, exploring geopolitics and global affairs in Oxford or Cambridge.",
+      "tags": [
+        "Diplomacy",
+        "Global politics",
+        "Negotiation",
+        "International security"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in international relations through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in international relations"
+      ]
+    },
+    "tr": {
+      "focus": "Küresel güç, diplomasi, çatışma ve iş birliği konularını vaka çalışmaları, müzakereler ve güncel dünya meseleleri üzerinden inceleyin.",
+      "tags": [
+        "Diplomasi",
+        "Küresel siyaset",
+        "Müzakere",
+        "Uluslararası güvenlik"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Uluslararası İlişkiler alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Uluslararası İlişkiler alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-international-relations-diplomacy-16-18": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week International Relations & Global Diplomacy Summer School for students aged 16-18, exploring geopolitics and global affairs in Oxford or Cambridge.",
+      "tags": [
+        "Diplomacy",
+        "Global politics",
+        "Negotiation",
+        "International security"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in international relations through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in international relations"
+      ]
+    },
+    "tr": {
+      "focus": "Küresel güç, diplomasi, çatışma ve iş birliği konularını vaka çalışmaları, müzakereler ve güncel dünya meseleleri üzerinden inceleyin.",
+      "tags": [
+        "Diplomasi",
+        "Küresel siyaset",
+        "Müzakere",
+        "Uluslararası güvenlik"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Uluslararası İlişkiler alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Uluslararası İlişkiler alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-law-justice-16-18": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Law & Politics Summer School for students aged 16-18, exploring legal theory, debate skills and real-world case analysis in Oxford or Cambridge.",
+      "tags": [
+        "Legal reasoning",
+        "Case analysis",
+        "Justice",
+        "Advocacy"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in law through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in law"
+      ]
+    },
+    "tr": {
+      "focus": "Hukuki düşünmeyi, dava analizini ve adaletin temel ilkelerini tartışmalar, vaka çalışmaları ve duruşma canlandırmalarıyla keşfedin.",
+      "tags": [
+        "Hukuki muhakeme",
+        "Dava analizi",
+        "Adalet",
+        "Savunuculuk"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Hukuk alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Hukuk alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-law-justice-16-18": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Law & Politics Summer School for students aged 16-18, exploring legal theory, debate skills and real-world case analysis in Oxford or Cambridge.",
+      "tags": [
+        "Legal reasoning",
+        "Case analysis",
+        "Justice",
+        "Advocacy"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in law through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in law"
+      ]
+    },
+    "tr": {
+      "focus": "Hukuki düşünmeyi, dava analizini ve adaletin temel ilkelerini tartışmalar, vaka çalışmaları ve duruşma canlandırmalarıyla keşfedin.",
+      "tags": [
+        "Hukuki muhakeme",
+        "Dava analizi",
+        "Adalet",
+        "Savunuculuk"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Hukuk alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Hukuk alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-law-justice-12-15": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Explore Law Summer School for students aged 12–15, combining mock trials, courtroom skills and legal theory in Oxford or Cambridge.",
+      "tags": [
+        "Law",
+        "Justice",
+        "Debate",
+        "Mock trial"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in law through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in law"
+      ]
+    },
+    "tr": {
+      "focus": "Hukukun toplumu nasıl şekillendirdiğini vaka çalışmaları, tartışmalar ve duruşma canlandırmalarıyla keşfedin.",
+      "tags": [
+        "Hukuk",
+        "Adalet",
+        "Münazara",
+        "Duruşma canlandırması"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Hukuk alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Hukuk alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-law-justice-12-15": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Explore Law Summer School for students aged 12–15, combining mock trials, courtroom skills and legal theory in Oxford or Cambridge.",
+      "tags": [
+        "Law",
+        "Justice",
+        "Debate",
+        "Mock trial"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in law through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in law"
+      ]
+    },
+    "tr": {
+      "focus": "Hukukun toplumu nasıl şekillendirdiğini vaka çalışmaları, tartışmalar ve duruşma canlandırmalarıyla keşfedin.",
+      "tags": [
+        "Hukuk",
+        "Adalet",
+        "Münazara",
+        "Duruşma canlandırması"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Hukuk alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Hukuk alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-medicine-16-18": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Medicine Summer School for ambitious students aged 16–18, discovering hands-on clinical skills and future career paths in Oxford or Cambridge.",
+      "tags": [
+        "Anatomy",
+        "Clinical skills",
+        "Diagnosis",
+        "Medical ethics"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in medicine through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in medicine"
+      ]
+    },
+    "tr": {
+      "focus": "Anatomi, tanı, klinik beceriler ve tıp etiğini üniversite tarzı dersler, uygulamalar ve simülasyonlarla inceleyin.",
+      "tags": [
+        "Anatomi",
+        "Klinik beceriler",
+        "Tanı",
+        "Tıp etiği"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Tıp alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Tıp alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-medicine-16-18": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Medicine Summer School for ambitious students aged 16–18, discovering hands-on clinical skills and future career paths in Oxford or Cambridge.",
+      "tags": [
+        "Anatomy",
+        "Clinical skills",
+        "Diagnosis",
+        "Medical ethics"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in medicine through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in medicine"
+      ]
+    },
+    "tr": {
+      "focus": "Anatomi, tanı, klinik beceriler ve tıp etiğini üniversite tarzı dersler, uygulamalar ve simülasyonlarla inceleyin.",
+      "tags": [
+        "Anatomi",
+        "Klinik beceriler",
+        "Tanı",
+        "Tıp etiği"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Tıp alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Tıp alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-new-perspectives-12-15": {
+    "city": "oxford",
+    "flags": [],
+    "en": {
+      "focus": "Build your own two-week summer programme from 14 subjects and workshops. A summer school designed for curious, independent-minded students aged 12–15.",
+      "tags": [
+        "Two subjects",
+        "Power Skills",
+        "Creative thinking",
+        "Confidence"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in interdisciplinary studies through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in interdisciplinary studies"
+      ]
+    },
+    "tr": {
+      "focus": "İki akademik alanı ve bir Power Skills atölyesini birleştirerek yeni ilgi alanları keşfedin, bağımsız düşünün ve fikirlerinizi özgüvenle ifade edin.",
+      "tags": [
+        "İki ders",
+        "Power Skills",
+        "Yaratıcı düşünme",
+        "Özgüven"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Disiplinlerarası Çalışmalar alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Disiplinlerarası Çalışmalar alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "oxford-summer-school-psychology-neuroscience-16-18": {
+    "city": "oxford",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Psychology Summer School for curious students aged 16–18, exploring human behaviour, cognitive science and research methods in Oxford or Cambridge.",
+      "tags": [
+        "Psychology",
+        "Neuroscience",
+        "Behaviour",
+        "Research methods"
+      ],
+      "hl": [
+        "2 weeks residential programme in Oxford",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in psychology & neuroscience through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in psychology & neuroscience"
+      ]
+    },
+    "tr": {
+      "focus": "Davranış, biliş ve beynin işleyişini psikolojik araştırmalar, deney tasarımı ve nörobilim bulguları üzerinden keşfedin.",
+      "tags": [
+        "Psikoloji",
+        "Nörobilim",
+        "Davranış",
+        "Araştırma yöntemleri"
+      ],
+      "hl": [
+        "Oxford, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Psikoloji ve Nörobilim alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Psikoloji ve Nörobilim alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-psychology-neuroscience-16-18": {
+    "city": "cambridge",
+    "flags": [
+      "The official page covers both Oxford and Cambridge; this normalized record represents one campus."
+    ],
+    "en": {
+      "focus": "A two-week Psychology Summer School for curious students aged 16–18, exploring human behaviour, cognitive science and research methods in Oxford or Cambridge.",
+      "tags": [
+        "Psychology",
+        "Neuroscience",
+        "Behaviour",
+        "Research methods"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in psychology & neuroscience through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in psychology & neuroscience"
+      ]
+    },
+    "tr": {
+      "focus": "Davranış, biliş ve beynin işleyişini psikolojik araştırmalar, deney tasarımı ve nörobilim bulguları üzerinden keşfedin.",
+      "tags": [
+        "Psikoloji",
+        "Nörobilim",
+        "Davranış",
+        "Araştırma yöntemleri"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Psikoloji ve Nörobilim alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Psikoloji ve Nörobilim alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "cambridge-summer-school-psychology-human-mind-12-15": {
+    "city": "cambridge",
+    "flags": [],
+    "en": {
+      "focus": "A two-week Psychology & The Human Mind Summer School for curious students aged 12–15, exploring behaviour, emotion and how the brain shapes the way we think in Cambridge.",
+      "tags": [
+        "Human mind",
+        "Behaviour",
+        "Experiments",
+        "Cognition"
+      ],
+      "hl": [
+        "2 weeks residential programme in Cambridge",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in psychology through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in psychology"
+      ]
+    },
+    "tr": {
+      "focus": "İnsanların nasıl düşündüğünü, hissettiğini ve davrandığını deneyler, tartışmalar ve gerçek yaşam örnekleriyle araştırın.",
+      "tags": [
+        "İnsan zihni",
+        "Davranış",
+        "Deneyler",
+        "Biliş"
+      ],
+      "hl": [
+        "Cambridge, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Psikoloji alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Psikoloji alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  },
+  "marlborough-college-summer-school-young-game-creators-10-12": {
+    "city": "marlborough",
+    "flags": [],
+    "en": {
+      "focus": "A two-week game design summer school for curious students aged 10–12, learning to code, build and launch their own games at Marlborough College.",
+      "tags": [
+        "Game design",
+        "Storytelling",
+        "Coding",
+        "Creative technology"
+      ],
+      "hl": [
+        "2 weeks residential programme in Marlborough College",
+        "Project-based learning in small international classes"
+      ],
+      "do": [
+        [
+          "Explore the subject",
+          "Build a foundation in game design through seminars, discussions and guided activities."
+        ],
+        [
+          "Apply your learning",
+          "Work independently and with an international group on practical challenges, projects and presentations."
+        ]
+      ],
+      "outcomes": [
+        "Stronger subject knowledge, critical thinking and confidence in game design"
+      ]
+    },
+    "tr": {
+      "focus": "Oyun mekaniği, hikâye, karakter ve temel kodlama fikirlerini öğrenerek kendi oyun konseptinizi tasarlayın ve geliştirin.",
+      "tags": [
+        "Oyun tasarımı",
+        "Hikâye anlatımı",
+        "Kodlama",
+        "Yaratıcı teknoloji"
+      ],
+      "hl": [
+        "Marlborough College, Birleşik Krallık konumunda 2 hafta konaklamalı program",
+        "Küçük ve uluslararası sınıflarda proje temelli öğrenme"
+      ],
+      "do": [
+        [
+          "Alanı keşfedin",
+          "Oyun Tasarımı alanında seminerler, tartışmalar ve rehberli etkinliklerle sağlam bir temel oluşturun."
+        ],
+        [
+          "Öğrendiklerinizi uygulayın",
+          "Uygulamalı görevler, projeler ve sunumlarda bağımsız ve uluslararası bir grupla birlikte çalışın."
+        ]
+      ],
+      "outcomes": [
+        "Oyun Tasarımı alanında daha güçlü bilgi, eleştirel düşünme ve özgüven"
+      ]
+    }
+  }
+}

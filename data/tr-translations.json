@@ -315,7 +315,27 @@
     "Vogue Winter Break - NYC": "Vogue Kış Programı - NYC",
     "Wormholes & Time Warps: A Physics Adventure": "Solucan Delikleri ve Zaman Bükülmeleri: Bir Fizik Macerası",
     "Young Entrepreneurs: Build Your Business with NFTE": "Genç Girişimciler: NFTE ile İşini Kur",
-    "Young Leaders": "Genç Liderler"
+    "Young Leaders": "Genç Liderler",
+    "Business, Innovation & Entrepreneurship": "İşletme, İnovasyon ve Girişimcilik",
+    "Medicine & Modern Healthcare": "Tıp ve Modern Sağlık Hizmetleri",
+    "Academic Discovery": "Akademik Keşif",
+    "Artificial Intelligence": "Yapay Zekâ",
+    "Broadening Horizons": "Ufukları Genişletme",
+    "Cyber Security & AI": "Siber Güvenlik ve Yapay Zekâ",
+    "Economics & Finance": "Ekonomi ve Finans",
+    "Engineering": "Mühendislik",
+    "Engineering and Design": "Mühendislik ve Tasarım",
+    "English Discovery": "İngilizce Keşif",
+    "English Explorer": "İngilizce Kâşifi",
+    "Iconic Britain": "İkonik Britanya",
+    "IELTS Preparation": "IELTS Hazırlık",
+    "International Relations & Diplomacy": "Uluslararası İlişkiler ve Diplomasi",
+    "Law & Justice": "Hukuk ve Adalet",
+    "Law and Justice": "Hukuk ve Adalet",
+    "New Perspectives": "Yeni Perspektifler",
+    "Psychology & Neuroscience": "Psikoloji ve Nörobilim",
+    "Psychology & The Human Mind": "Psikoloji ve İnsan Zihni",
+    "Young Game Creators": "Genç Oyun Tasarımcıları"
   },
   "subjects": {
     "Academic Research": "Akademik Araştırma",
@@ -424,7 +444,16 @@
     "Transportation Design": "Ulaşım Tasarımı",
     "Vet": "Veterinerlik",
     "Visual Arts & Graphic Design": "Görsel Sanatlar ve Grafik Tasarım",
-    "Young Leaders": "Genç Liderler"
+    "Young Leaders": "Genç Liderler",
+    "Interdisciplinary Studies": "Disiplinlerarası Çalışmalar",
+    "Cybersecurity & AI": "Siber Güvenlik ve Yapay Zekâ",
+    "Economics & Finance": "Ekonomi ve Finans",
+    "Engineering & Design": "Mühendislik ve Tasarım",
+    "English Language": "İngilizce",
+    "English Language & Culture": "İngilizce ve Kültür",
+    "IELTS Preparation": "IELTS Hazırlık",
+    "Psychology & Neuroscience": "Psikoloji ve Nörobilim",
+    "Game Design": "Oyun Tasarımı"
   },
   "locations": {
     "Bremen, Germany": "Bremen, Almanya",
@@ -451,6 +480,9 @@
     "University of Michigan": "Michigan Üniversitesi",
     "University of Texas at Austin": "Austin'deki Teksas Üniversitesi",
     "Venice": "Venedik",
-    "Yale University": "Yale Üniversitesi"
+    "Yale University": "Yale Üniversitesi",
+    "Oxford": "Oxford, Birleşik Krallık",
+    "Cambridge": "Cambridge, Birleşik Krallık",
+    "Marlborough College": "Marlborough College, Birleşik Krallık"
   }
 }

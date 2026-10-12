@@ -1,13 +1,13 @@
 {
-  "input_photos": 480,
-  "photos_checked": 480,
-  "collection_sha256": "867054bb760e87a1d868ef8777925150d6e2d0fdf5804d5d45064afbfca351b8",
+  "input_photos": 463,
+  "photos_checked": 463,
+  "collection_sha256": "670b58c33d7340a559d0126740542703647041d9b968309ff698ea3ed1add517",
   "pairs": [],
   "reviewed": "2026-10-12",
-  "visually_reviewed_photos": 480,
-  "served_photo_urls_checked": 480,
-  "provider_photos": 233,
-  "illustrative_photos": 247,
+  "visually_reviewed_photos": 463,
+  "served_photo_urls_checked": 463,
+  "provider_photos": 229,
+  "illustrative_photos": 234,
   "method": "SHA-256 file identity, 64-bit dHash with distance >3, ORB feature matching with homography and pixel agreement, and human contact-sheet review.",
   "note": "No duplicate pairs detected in this collection. Automated similarity matching has practical limits; the collection fingerprint makes this report invalid if a photo changes."
 }

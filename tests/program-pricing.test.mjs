@@ -33,15 +33,16 @@ test("an edited, unmatched InvestIN fee cannot inherit a guessed package length"
   assert(!model.options[0].includes.some((s) => /25 hours|6 nights/.test(s)));
 });
 
-test("non-residential fees never inherit residential room or meal inclusions", () => {
-  const p = programs.find((p) => p.provider === "oxford_royale" && p.price.tiers.length > 1);
-  for (const lang of ["en", "tr"]) {
-    const model = priceDetails(p, lang, details);
-    assert.equal(model.options.length, 2);
-    assert.equal(model.options[0].includes.length, 3);
-    assert.equal(model.options[1].includes.length, 1);
-    assert.equal(model.options[1].excludes.length, 1);
-    assert(model.options[1].note);
+test("Academy Royale uses the current provider-published course fee without retired day/residential tiers", () => {
+  const records = programs.filter((p) => p.provider === "oxford_royale");
+  assert.equal(records.length, 36);
+  assert(records.every((p) => p.price.tiers.length === 1));
+  assert(records.every((p) => !/Residential|Non-Residential/.test(p.price.tiers[0].label)));
+  for (const p of records) {
+    for (const lang of ["en", "tr"]) {
+      const model = priceDetails(p, lang, details);
+      assert.equal(model.options.length, 0);
+    }
   }
 });
 
