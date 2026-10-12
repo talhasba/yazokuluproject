@@ -73,7 +73,7 @@
     "title_tr": "Vogue Yaz Okulu - Londra",
     "subject_tr": "Moda İşletmeciliği ve Medya",
     "location_tr": "Londra",
-    "description_short_tr": "Modayı İngiliz mirası ve yıkıcı markalar üzerinden keşfedin; markalaşma, pazarlama, halkla ilişkiler, perakende, sürdürülebilirlik ve yaratıcı hizmetlerde projeler ve ziyaretler."
+    "description_short_tr": "Moda işletmeciliğini İngiliz mirası ve sektörü dönüştüren markalar üzerinden keşfedin; markalaşma, pazarlama, halkla ilişkiler, perakende, sürdürülebilirlik ve yaratıcı hizmetler alanlarında projeler ve ziyaretlerle."
   },
   {
     "id": "edconic-pre-college-summer-academy-nyc-nyc-summer-academy",
@@ -152,7 +152,7 @@
     "title_tr": "NYC Yaz Akademisi",
     "subject_tr": "Gazetecilik ve Yazarlık",
     "location_tr": "New York",
-    "description_short_tr": "Gazeteciler ve editörlerle gazetecilik ve medyayı (kültür, spor, moda, iş ve hukuk) keşfedin; New York City'yi uzatılmış bir sınıf olarak kullanın."
+    "description_short_tr": "Gazeteciler ve editörlerle gazetecilik ve medyayı (kültür, spor, moda, iş ve hukuk) keşfedin; New York City'yi sınıfınızın uzantısı olarak kullanın."
   },
   {
     "id": "edconic-pre-college-summer-institute-summer-institute-nyc",
@@ -523,6 +523,6 @@
     "title_tr": "Üniversite Öncesi Sağlık Akademisi",
     "subject_tr": "Tıp ve Sağlık",
     "location_tr": "Rochester, Minnesota",
-    "description_short_tr": "Mayo Clinic'in öğrenme ortamında iki haftalık yatılı tıp ve sağlık hizmetlerine giriş; interaktif atölyeler ve uygulamalı öğrenmeyle."
+    "description_short_tr": "Mayo Clinic'in öğrenme ortamında iki haftalık yatılı tıp ve sağlık hizmetlerine giriş programı; etkileşimli atölyeler ve uygulamalı öğrenmeyle."
   }
 ]

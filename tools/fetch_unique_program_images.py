@@ -401,7 +401,9 @@ def main():
     for index, record in enumerate([] if args.stage == "illustrative" else programs, 1):
         if record["id"] in images:
             continue
-        choices = candidates.get(record["id"], {}).get("choices", [])
+        if record["id"] in curation["searches"] and record["id"] not in curation.get("provider_choices", {}):
+            continue
+        choices = curation.get("provider_choices", {}).get(record["id"]) or candidates.get(record["id"], {}).get("choices", [])
         if record.get("image_url", "").startswith("https:") and record["provider"] != "mpw":
             direct = record["image_url"]
             choices = [{"download_url":direct, "canonical_url":canonical(direct), "source_page":record["detail_url"], "description":record["title"]}, *choices]

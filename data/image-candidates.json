@@ -2716,5 +2716,17 @@
   "emerald-young-adult": [
     "/assets/program-images/unique/emerald-young-adult.jpg",
     "/assets/program-images/emerald/young-adult.jpg"
+  ],
+  "schiller-madrid-international-relations-diplomacy-2027": [
+    "/assets/program-images/unique/schiller-madrid-international-relations-diplomacy-2027.webp"
+  ],
+  "schiller-madrid-entrepreneurship-innovation-2027": [
+    "/assets/program-images/unique/schiller-madrid-entrepreneurship-innovation-2027.webp"
+  ],
+  "schiller-heidelberg-artificial-intelligence-business-2027": [
+    "/assets/program-images/unique/schiller-heidelberg-artificial-intelligence-business-2027.jpg"
+  ],
+  "schiller-heidelberg-computer-science-2027": [
+    "/assets/program-images/unique/schiller-heidelberg-computer-science-2027.jpg"
   ]
 }

@@ -39,7 +39,7 @@
   const escapeRegExp = (s) => String(s ?? "").replace(/[|\\{}()[\]^$+*?.-]/g, "\\$&");
   const cityName = (rec, lang) => {
     const tr = {
-      London: "Londra", "New York City": "New York", Oxford: "Oxford", Cambridge: "Cambridge",
+      London: "Londra", "New York City": "New York", Oxford: "Oxford", Cambridge: "Cambridge", Madrid: "Madrid", Heidelberg: "Heidelberg",
       Toronto: "Toronto", "San Francisco": "San Francisco", "New Haven": "New Haven",
       "New Haven / New York": "New Haven ve New York", "London & Cambridge": "Londra ve Cambridge",
       "Cambridge & London": "Cambridge ve Londra", Milan: "Milano", Rome: "Roma",
@@ -48,7 +48,7 @@
     return (lang === "tr" && tr[rec.city]) || rec.city || "";
   };
   const stripCountry = (value, country, lang) => {
-    const tr = { Canada: "Kanada", Germany: "Almanya", Ireland: "İrlanda", "United Kingdom": "Birleşik Krallık", "United States": "Amerika Birleşik Devletleri", Italy: "İtalya" };
+    const tr = { Canada: "Kanada", Germany: "Almanya", Ireland: "İrlanda", Spain: "İspanya", "United Kingdom": "Birleşik Krallık", "United States": "Amerika Birleşik Devletleri", Italy: "İtalya" };
     let result = String(value || "").trim();
     [country, lang === "tr" && tr[country]].filter(Boolean).forEach((suffix) => {
       result = result.replace(new RegExp(`\\s*,\\s*${escapeRegExp(suffix)}\\s*$`, "i"), "");
@@ -177,14 +177,14 @@
     if (!loading) {
       const json = (url, fallback) => fetch(url).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
       loading = Promise.all([
-        json("./data/programs.normalized.json", []),
-        json("./data/program-digests.json", {}),
-        json("./data/image-candidates.json?v=20261012-6", {}),
+        json("./data/programs.normalized.json?v=20261012-7", []),
+        json("./data/program-digests.json?v=20261012-7", {}),
+        json("./data/image-candidates.json?v=20261012-7", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
-        json("./data/price-inclusions.json", {}),
-        import("./program-pricing.js?v=20261005-2"),
-        json("./data/program-image-sources.json?v=20261012-6", { images: {} })
+        json("./data/price-inclusions.json?v=20261012-7", {}),
+        import("./program-pricing.js?v=20261012-7"),
+        json("./data/program-image-sources.json?v=20261012-7", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };

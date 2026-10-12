@@ -4,7 +4,7 @@ This folder contains local images used by program cards and detail pages.
 
 ## Unique programme photographs
 
-`unique/` contains one separately downloaded photograph for each of the 476 programmes. Both catalogue cards and detail-page heroes use that programme's imported image first. Files retain their original downloaded bytes.
+`unique/` contains one separately downloaded photograph for each of the 480 programmes. Both catalogue cards and detail-page heroes use that programme's imported image first. Files retain their original downloaded bytes.
 
 `data/program-image-sources.json` records the programme, original download URL, source page, photographer/provider, licence, dimensions and fingerprints for every photograph. Provider photographs take priority; when a distinct suitable provider photo is unavailable, a reusable subject photograph from Wikimedia Commons or Openverse is used. Representative photos are explicitly labelled **Illustrative photo / Temsili fotoğraf**. Source and licence links appear on the card and detail page. These photographs illustrate the subject and do not establish the actual participants or facilities of a programme.
 

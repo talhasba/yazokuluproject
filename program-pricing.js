@@ -78,6 +78,10 @@ function option(tier, rec, lang, profile, historical = false) {
       note = L.unknownOption;
     }
   }
+  // Explicit bilingual offer labels and conditions keep discounts distinct from
+  // accommodation choices while sharing the verified package inclusions.
+  title = localized(tier.title, lang, title);
+  note = localized(tier.note, lang, note);
   return { title, price: money(tier, rec.price?.currency), includes, excludes, note };
 }
 

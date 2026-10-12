@@ -67,7 +67,7 @@
     "title_tr": "Biyoloji ve Araştırma",
     "subject_tr": "Biyoloji ve Araştırma",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Hücre yapısından ve DNA'dan evrime, beyin işlevine ve ekosistemlere kadar biyolojiyi keşfedin; genetik, tıp ve koruma alanlarındaki gerçek uygulamalarla."
+    "description_short_tr": "Hücre yapısından ve DNA'dan evrime, beyin işlevine ve ekosistemlere kadar biyolojiyi keşfedin; genetik, tıp ve doğa koruma alanlarındaki gerçek uygulamalarla."
   },
   {
     "id": "constructor-university-summer-camp-business-and-entrepreneurship",
@@ -207,7 +207,7 @@
     "title_tr": "Kimya ve Araştırma",
     "subject_tr": "Kimya ve Araştırma",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Temel kimyayı — atomik yapı, reaksiyonlar, asitler ve bazlar — ileri malzemelere, biyokimyaya ve günlük hayata bağlayın."
+    "description_short_tr": "Temel kimyayı — atomik yapı, tepkimeler, asitler ve bazlar — ileri malzemelere, biyokimyaya ve günlük hayata bağlayın."
   },
   {
     "id": "constructor-university-summer-camp-human-behavior-and-society",
@@ -277,7 +277,7 @@
     "title_tr": "İnsan Davranışı ve Toplum",
     "subject_tr": "İnsan Davranışı ve Toplum",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "İnsanların neden öyle düşündüğünü, hissettiğini ve davrandığını bio-psiko-sosyal bakış açılarıyla, karar verme, sosyal etki ve medya okuryazarlığıyla keşfedin."
+    "description_short_tr": "İnsanların neden öyle düşündüğünü, hissettiğini ve davrandığını biyo-psiko-sosyal bakış açılarıyla, karar verme, sosyal etki ve medya okuryazarlığıyla keşfedin."
   },
   {
     "id": "constructor-university-summer-camp-innovation-and-design-thinking",
@@ -347,7 +347,7 @@
     "title_tr": "İnovasyon ve Tasarım Odaklı Düşünme",
     "subject_tr": "İnovasyon ve Tasarım Odaklı Düşünme",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Empati kurma, tanımlama, fikir üretme, prototipleme ve test etmeyi kapsayan tam insan odaklı tasarım döngüsünü uygulayın; yapay zeka destekli ve veriye dayalı tasarım dahil."
+    "description_short_tr": "Empati kurma, tanımlama, fikir üretme, prototipleme ve test etmeyi kapsayan tam insan odaklı tasarım döngüsünü uygulayın; yapay zekâ destekli ve veriye dayalı tasarım dahil."
   },
   {
     "id": "constructor-university-summer-camp-mathematics-and-modeling",
@@ -487,7 +487,7 @@
     "title_tr": "Sinir Ağları ve Robotik",
     "subject_tr": "Sinir Ağları ve Robotik",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Donanım montajından pekiştirmeli öğrenmeye, sensör kalibrasyonuna ve otonom navigasyona kadar gerçek bir yapay zeka destekli robot inşa edip eğitin."
+    "description_short_tr": "Donanım montajından pekiştirmeli öğrenmeye, sensör kalibrasyonuna ve otonom navigasyona kadar gerçek bir yapay zekâ destekli robot inşa edip eğitin."
   },
   {
     "id": "constructor-university-summer-camp-physics-and-research",
@@ -557,7 +557,7 @@
     "title_tr": "Fizik ve Araştırma",
     "subject_tr": "Fizik ve Araştırma",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Hareket, enerji, dalgalar ve elektromanyetizmayı inceleyin; bunları modern hesaplama, yapay zeka ve uzay keşfiyle ilişkilendirin."
+    "description_short_tr": "Hareket, enerji, dalgalar ve elektromanyetizmayı inceleyin; bunları modern hesaplama, yapay zekâ ve uzay keşfiyle ilişkilendirin."
   },
   {
     "id": "constructor-university-summer-camp-programming-and-algorithms",

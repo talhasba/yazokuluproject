@@ -1,6 +1,6 @@
 # Providers and Locations Overview
 
-Source: `data/programs.normalized.json` (474 programs, 10 providers, 5 countries: UK, US, Canada, Germany, Italy). Locations come from each record's `location` field; programs spanning two places are listed with both.
+Source: `data/programs.normalized.json` (480 programs, 12 providers, 7 countries: UK, US, Canada, Germany, Ireland, Italy, Spain). Locations come from each record's `location` field; programs spanning two places are listed with both.
 
 | Provider | Programs | Countries | Locations |
 |---|---|---|---|
@@ -14,9 +14,11 @@ Source: `data/programs.normalized.json` (474 programs, 10 providers, 5 countries
 | Bucksmore | 8 | UK | King's College London |
 | MPW Summer School | 8 | UK | London and Cambridge |
 | Edconic | 7 | UK, US, online | London, New York City, Rochester MN, Online |
+| Emerald Cultural Institute | 2 | Ireland | Trinity College Dublin / Trinity Hall, Sandford Park School, Dublin |
+| Schiller International University | 4 | Spain, Germany | Madrid, Heidelberg |
 
 ## Notes
 
 - Roughly 30 distinct places if each Sportech city and each Summer Discovery campus is counted separately.
-- 473 of 474 programs have a bullet-style digest page; `immerse-online-research-programme` keeps its dedicated pricing page.
+- 479 of 480 programs have a bullet-style digest page; `immerse-online-research-programme` keeps its dedicated pricing page.
 - Counts can change when providers are added or records are edited; regenerate from the JSON.

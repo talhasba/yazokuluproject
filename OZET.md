@@ -1,6 +1,6 @@
 # Kod Tabanı Özeti
 
-Bu belge, 5 Ekim 2026 tarihinde depodaki uygulama kodu ve JSON verileri incelenerek hazırlanmıştır. Sayısal bilgiler, eski açıklama dosyalarından aktarılmak yerine mevcut veri dosyalarından doğrulanmıştır.
+Bu belge, 5 Ekim 2026 tarihinde yapılan kod incelemesinden sonra 12 Ekim 2026 tarihindeki Schiller ve görsel güncellemeleriyle yenilenmiştir. Sayısal bilgiler mevcut veri dosyalarından doğrulanmıştır.
 
 ## Projenin amacı
 
@@ -14,18 +14,18 @@ Ana kaynak `data/programs.normalized.json` dosyasıdır.
 
 | Gösterge | Mevcut değer |
 | --- | ---: |
-| Program kaydı | 476 |
-| Benzersiz program kimliği | 476 |
-| Sağlayıcı | 11 |
-| Dolu ülke alanlarında farklı ülke | 6 |
+| Program kaydı | 480 |
+| Benzersiz program kimliği | 480 |
+| Sağlayıcı | 12 |
+| Dolu ülke alanlarında farklı ülke | 7 |
 | `ready` durumundaki kayıt | 193 |
-| `needs_review` durumundaki kayıt | 283 |
-| Yeni özetli detay sayfası bulunan program | 475 |
-| Görsel adayı tanımlanan program | 476 |
-| Türkçe katalog alanları eksiksiz program | 476 |
+| `needs_review` durumundaki kayıt | 287 |
+| Yeni özetli detay sayfası bulunan program | 479 |
+| Görsel adayı tanımlanan program | 480 |
+| Türkçe katalog alanları eksiksiz program | 480 |
 | Editörün program/içerik değişikliği kayıtları | 0 / 0 |
 
-Ülkeler Almanya, Amerika Birleşik Devletleri, Birleşik Krallık, İrlanda, İtalya ve Kanada'dır. Bazı çevrimiçi kayıtların ülke alanı boştur; boş değer ayrı bir ülke olarak sayılmamıştır.
+Ülkeler Almanya, Amerika Birleşik Devletleri, Birleşik Krallık, İrlanda, İspanya, İtalya ve Kanada'dır. Bazı çevrimiçi kayıtların ülke alanı boştur; boş değer ayrı bir ülke olarak sayılmamıştır.
 
 | Sağlayıcı | Program | `ready` | `needs_review` |
 | --- | ---: | ---: | ---: |
@@ -40,6 +40,7 @@ Ana kaynak `data/programs.normalized.json` dosyasıdır.
 | MPW Summer School | 8 | 0 | 8 |
 | Edconic | 7 | 4 | 3 |
 | Emerald Cultural Institute | 2 | 0 | 2 |
+| Schiller International University | 4 | 0 | 4 |
 
 Academy Royale International, Oxford Royale'ın yeni sağlayıcı adıdır; [resmî açıklama](https://www.academyroyaleinternational.com/about-us) marka değişikliğini Eylül 2026 olarak belirtir. Katalog etiketleri, iki dildeki içerik ve fotoğraf atıfları yeni adı kullanır. Mevcut program bağlantıları ve veri eşleşmelerini korumak için `oxford_royale` sağlayıcı anahtarı ile `oxford-royale-` program kimlikleri korunmuştur.
 
@@ -86,7 +87,7 @@ Katalog, konu grubu, sağlayıcı ve ülke filtrelerini birlikte uygular. Masaü
 | `data/digest-src/` | Özetlerin hazırlanmasında kullanılan içerikler, ortak şablonlar ve çeviriler |
 | `data/tr-translations.json` | Bazı sağlayıcıların Türkçe başlık, konu ve konum karşılıkları |
 | `data/image-candidates.json` | Her program için sıralı görsel adayları |
-| `data/program-image-sources.json` | 476 programın ayrı indirilen fotoğrafı, kaynak, fotoğrafçı, lisans ve dosya doğrulama bilgileri |
+| `data/program-image-sources.json` | 480 programın ayrı indirilen fotoğrafı, kaynak, fotoğrafçı, lisans ve dosya doğrulama bilgileri |
 | `data/program-photo-curation.json` | Görsel incelemede reddedilen kaynaklar ve programa özel temsili fotoğraf aramaları |
 | `data/program-image-audit.json` | Son fotoğraf koleksiyonunun görsel inceleme ve tekrar kontrolü kaydı |
 | `data/price-inclusions.json` | İngilizce/Türkçe paket kapsamları, sağlayıcı kaynakları ve programa özel istisnalar |
@@ -99,7 +100,7 @@ Programın `id` alanı, katalog, özet, görsel ve editör verilerini birbirine 
 
 ## Özetli program detayları ve bilgi formu
 
-`program-page.js`, 475 program için büyük görsel, temel bilgiler, konu etiketleri, etkinlikler, kazanımlar, uygun katılımcı profili ve ek olanaklardan oluşan detay sayfası sunar. Ücret, tarih, süre ve konum temel program kaydından okunur. Yaş alanı boş olan Summer Discovery kayıtlarında özetin sınıf bilgisi gösterilebilir; sınıf aralığı yaşa dönüştürülmez.
+`program-page.js`, 479 program için büyük görsel, temel bilgiler, konu etiketleri, etkinlikler, kazanımlar, uygun katılımcı profili ve ek olanaklardan oluşan detay sayfası sunar. Ücret, tarih, süre ve konum temel program kaydından okunur. Yaş alanı boş olan Summer Discovery kayıtlarında özetin sınıf bilgisi gösterilebilir; sınıf aralığı yaşa dönüştürülmez.
 
 Her programın `/unique/` klasörüne indirilen ayrı fotoğrafı hem katalog kartında hem detay sayfasının başlığında önceliklidir. Sağlayıcı fotoğrafları kullanılır; uygun ve benzersiz bir sağlayıcı görseli bulunamadığında açık lisanslı temsili konu fotoğrafı seçilir. Temsili fotoğraflar ekranda belirtilir; kaynak, fotoğrafçı ve lisans bağlantıları kartta ve detay sayfasında gösterilir. Fotoğrafların indirilen özgün dosyaları korunur. Diğer uygun yerel adaylardan en fazla üçü detay galerisinde gösterilir; kampüs görsellerinin mevcut atıfları korunur. Görsel yüklenemezse yer tutucu gösterilir.
 
@@ -168,8 +169,8 @@ Bakım sırasında mevcut yapının şu özellikleri önemlidir:
 - `app-loader.js`, küçültülmüş paketteki tam metin eşleşmelerine bağlıdır. Eşleşme kaybolur veya birden fazla kez bulunursa uygulama yüklemesi hata verir. Yeni sağlayıcı, ülke ve konu eklenirken veriyle birlikte filtre listeleri ve konu eşlemeleri de kontrol edilmelidir.
 - `MutationObserver` kullanan ek betikler, özgün React sayfasının metinlerine ve DOM yapısına bağlıdır. Paket değişiklikleri bu davranışları etkileyebilir.
 - Parola tarayıcı kodunda bulunur; kontrol yalnızca arayüz erişimini sınırlar. JSON verileri ve dosyalar sunucudan ayrıca erişilebilir.
-- Ana sayfadaki 476 program ve 6 ülke sayıları `index.html` içinde sabittir, veri değişince kendiliğinden yenilenmez.
-- Güncel inceleme durumu toplamı **283**'dir. Eski belgelerdeki 287 değeri mevcut ana JSON ile uyuşmaz; veri sayıları için ana dosya esas alınmalıdır.
+- Ana sayfadaki 480 program ve 7 ülke sayıları `index.html` içinde sabittir, veri değişince kendiliğinden yenilenmez.
+- Güncel inceleme durumu toplamı **287**'dir; buna Schiller'ın duyuruya dayanan dört kaydı dahildir. Veri sayıları için ana dosya esas alınmalıdır.
 - Bazı ücretler geçmiş dönem bilgisi veya kampüs geneli aralıktır. Bu ayrımlar `flags`, fiyat notları, tarihsel alanlar ve özet kontrol notlarında korunur.
 - Görsel adayının bulunması, görselin yüklenebilir veya açık lisanslı olduğunu tek başına göstermez. Commons ve sağlayıcı kaynak kayıtları ayrıdır; Bremen görselinin kaynak/lisans doğrulaması belgelere göre tamamlanmamıştır.
 - `tests/program-pricing.test.mjs`, fiyat eşlemelerini, konaklama ayrımını, geçmiş ücretleri, tekrarların birleştirilmesini, metin güvenliğini ve iki dilde tüm katalog kapsamını kontrol eder. `node --test tests/program-pricing.test.mjs` ile çalıştırılır. Lint yapılandırması veya görünür CI iş akışı bulunmaz. Özet üreticisindeki içerik kontrolleri ve yerel arayüz önizlemeleri de kullanılabilir.
@@ -181,3 +182,11 @@ Bu belge için kod ve veri dosyaları okunmuş, JSON sayıları ve eşleşmeler 
 `normalized_ireland/normalize_ireland.mjs`, gözden geçirilmiş kaynaklardan Emerald Cultural Institute için Trinity Walton STEM ve Young Adult kayıtlarını üretir. İngilizce ve Türkçe özetler, görsel adayları ve ana katalog birlikte güncellenir; diğer sağlayıcılara dokunulmaz. Kaynak kararları ve yeniden üretim adımları `normalized_ireland/README.md` içindedir.
 
 İrlanda ülke filtresi ve Emerald sağlayıcı filtresi eklenmiştir. Aile yanı ve yurt paketleri, tam pansiyon kapsamı, süre seçenekleri ve ek ücretler program sayfalarında açıklanır. Kaynakların 2026 tarih/ücretleri geçmiş dönem olarak görünür; gelecek sezon varsayılmaz. Young Adult broşüründeki yaş/transfer çelişkileri açıklanır; tarihli tarife ve resmî kurs sayfası esas alınır.
+
+## Schiller programları (12 Ekim 2026)
+
+`normalized_schiller/normalize_schiller.mjs`, `Schiller/` klasöründeki 2027 duyurusundan dört ayrı akademik seçim üretir: Madrid'de Uluslararası İlişkiler ve Diplomasi ile Girişimcilik ve İnovasyon; Heidelberg'de İş Dünyası için Yapay Zekâ ile Bilgisayar Bilimleri. Madrid 4–17 Temmuz, Heidelberg 18–31 Temmuz 2027; yaş 15–18, süre iki hafta, İngilizce en az B1'dir. Sağlayıcı filtresi ve İspanya ülke filtresi eklenmiştir.
+
+€3.500 standart ücret ile 1 Nisan 2027'ye kadar kayıt için €150 indirimden hesaplanan €3.350 ücret, aynı paket kapsamıyla karşılaştırılır; indirim konaklama veya eğitim farkı değildir. Son başvuru 1 Mayıs 2027'dir. Kahvaltı, ders günlerinde öğle yemeği ve beş akşam yemeği dahil olup tam pansiyon varsayılmaz. Dahil/hariç kalemler iki dilde gösterilir.
+
+Madrid için önceki Schiller yaz programından iki gerçek fotoğraf; Heidelberg için açık lisanslı, temsili olarak etiketlenmiş iki bilgisayar fotoğrafı kullanılır. Ayrıntılı broşür ekleri klasörde bulunmadığından bunlardan bilgi türetilmez. Sağlayıcının açık Madrid sayfasındaki dönem/konu/yemek/gezi farkları nedeniyle duyuru esas alınır ve kaynak kontrol notları korunur. Yeniden üretim ve kaynak kararları `normalized_schiller/README.md` içindedir.

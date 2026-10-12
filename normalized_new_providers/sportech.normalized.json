@@ -73,7 +73,7 @@
     "title_tr": "Motor Sporlarında Espor",
     "subject_tr": "Mühendislik",
     "location_tr": "Indianapolis",
-    "description_short_tr": "Dallara ve AK Esports ile bir hafta: simülatörden, Amerikan motor sporlarının merkezindeki gerçek pistte."
+    "description_short_tr": "Dallara ve AK Esports ile bir hafta: simülatörden Amerikan motor sporlarının merkezindeki gerçek piste."
   },
   {
     "id": "sportech-architecture-urban-design",
@@ -390,7 +390,7 @@
     "title_tr": "İşletme",
     "subject_tr": "İşletme",
     "location_tr": "Milano",
-    "description_short_tr": "İtalyan lüksünün ardındaki iş dünyası; onu kuran moda evlerinde, showroomlarda ve tersanelerde öğretilir."
+    "description_short_tr": "İtalyan lüksünün ardındaki işletmecilik; onu var eden moda evlerinde, sergi salonlarında ve tersanelerde öğretilir."
   },
   {
     "id": "sportech-business-university",
@@ -464,7 +464,7 @@
     "title_tr": "İşletme",
     "subject_tr": "İşletme",
     "location_tr": "Milano",
-    "description_short_tr": "Bir iş modeli olarak İtalyan mükemmelliği; Milano'da IBEM ve iş ortağı şirketlerle."
+    "description_short_tr": "Bir iş modeli olarak İtalyan mükemmelliği; Milano'da IBEM ve iş ortağı şirketlerle birlikte işlenir."
   },
   {
     "id": "sportech-cosmetic-sciences",
@@ -1185,7 +1185,7 @@
     "title_tr": "Motor Sporları Mühendisliği",
     "subject_tr": "Mühendislik",
     "location_tr": "Motor Valley",
-    "description_short_tr": "Dallara'nın mühendislik tesisinin içinde üniversite düzeyinde bir dönem; isteğe bağlı müfredat stajıyla."
+    "description_short_tr": "Dallara'nın mühendislik tesisinde üniversite düzeyinde bir dönem; isteğe bağlı müfredat stajıyla birlikte."
   },
   {
     "id": "sportech-engineering-motorsport",
@@ -1334,7 +1334,7 @@
     "title_tr": "Havacılık ve Uzay Mühendisliği",
     "subject_tr": "Mühendislik",
     "location_tr": "Roma",
-    "description_short_tr": "Sapienza'da havacılık ve uzay tasarımı ile itki; gerçek bir roket fırlatma ve uçuş hazırlık incelemesiyle biter."
+    "description_short_tr": "Sapienza'da havacılık ve uzay tasarımı ile itki sistemleri; gerçek bir roket fırlatma ve uçuş hazırlık incelemesiyle sona erer."
   },
   {
     "id": "sportech-aerospace-engineering-university",
@@ -1408,7 +1408,7 @@
     "title_tr": "Havacılık ve Uzay Mühendisliği",
     "subject_tr": "Mühendislik",
     "location_tr": "Roma",
-    "description_short_tr": "Sapienza Havacılık ve Uzay Mühendisliği Okulu'nda gerçek bir sondaj roketinin aviyonik yığınını yapın ve fırlatın."
+    "description_short_tr": "Sapienza Havacılık ve Uzay Mühendisliği Okulu'nda gerçek bir sonda roketinin aviyonik sistem paketini yapın ve fırlatın."
   },
   {
     "id": "sportech-music-innovation",
@@ -1480,6 +1480,6 @@
     "title_tr": "Müzik İnovasyonu",
     "subject_tr": "Müzik",
     "location_tr": "Venedik",
-    "description_short_tr": "İtalyan müziğinin yazıldığı bölgede Art Voice Academy ile ses ve orkestra."
+    "description_short_tr": "İtalyan müziğinin doğduğu bölgede Art Voice Academy ile ses ve orkestra çalışması."
   }
 ]

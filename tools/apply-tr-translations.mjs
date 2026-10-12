@@ -24,15 +24,26 @@ const translatedProviders = new Set([
   "sportech",
   "summer_discovery",
   "constructor_university",
+  // older providers: their original title_tr/subject_tr came from a word-by-word substitution
+  // (half English titles) and their description was a generic template.
+  "bucksmore",
+  "immerse",
+  "investin",
+  "oxford_royale",
+  "stclares",
 ]);
+
+const olderProviders = new Set(["bucksmore", "immerse", "investin", "oxford_royale", "stclares"]);
 
 function translateRecord(record) {
   if (!translatedProviders.has(record.provider)) return record;
 
   const title = translations.titles[record.title];
   const subject = translations.subjects[record.subject];
-  const location = translations.locations[record.location];
-  const description = digests[record.id]?.tr?.focus;
+  // Older records already carry a usable location_tr; keep it when the lookup table has no entry.
+  const location = translations.locations[record.location] ?? record.location_tr;
+  // Records without a digest (e.g. the online research programme) keep their existing description.
+  const description = digests[record.id]?.tr?.focus ?? record.description_short_tr;
 
   const missing = [
     !title && `title: ${record.title}`,
@@ -42,13 +53,30 @@ function translateRecord(record) {
   ].filter(Boolean);
   if (missing.length) throw new Error(`${record.id} — missing ${missing.join(", ")}`);
 
-  return {
+  const result = {
     ...record,
     title_tr: title,
     subject_tr: subject,
     location_tr: location,
     description_short_tr: description,
   };
+
+  // Keep the legacy detail-page fields in step with the new title/subject/description.
+  if (olderProviders.has(record.provider) && digests[record.id]) {
+    const oldSubject = record.subject_tr;
+    result.detail_intro_tr = description;
+    if (Array.isArray(record.detail_sections_tr)) {
+      result.detail_sections_tr = record.detail_sections_tr.map((section) => {
+        if (section.title === "Genel Bakış") return { ...section, body: description };
+        if (oldSubject && subject !== oldSubject) {
+          return { ...section, body: section.body.replace(`${oldSubject} alanındaki`, `${subject} alanındaki`) };
+        }
+        return section;
+      });
+    }
+    if (record.detail_facts_tr) result.detail_facts_tr = { ...record.detail_facts_tr, subject };
+  }
+  return result;
 }
 
 let updated = 0;

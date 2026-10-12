@@ -1,0 +1,561 @@
+[
+  {
+    "id": "schiller-madrid-international-relations-diplomacy-2027",
+    "provider": "schiller",
+    "provider_label": "Schiller International University",
+    "program_type": "summer_school",
+    "title": "International Relations & Diplomacy Summer Programme",
+    "raw_title": "International Relations & Diplomacy Summer Programme",
+    "title_tr": "Uluslararası İlişkiler ve Diplomasi Yaz Programı",
+    "subject": "Law & Government",
+    "subject_tr": "Uluslararası İlişkiler ve Diplomasi",
+    "categories": [
+      "International relations",
+      "Diplomacy",
+      "Global developments",
+      "Simulations"
+    ],
+    "location": "Madrid Campus",
+    "location_tr": "Madrid Kampüsü",
+    "location_type": "campus",
+    "location_id": "schiller-madrid",
+    "location_name": "Madrid Campus",
+    "city": "Madrid",
+    "country": "Spain",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "language_requirement": "CEFR B1 minimum, assessed by an English test or interview",
+    "language_requirement_tr": "İngilizce sınavı veya mülakat ile değerlendirilen en az B1 İngilizce",
+    "price": {
+      "currency": "EUR",
+      "min_amount": 3350,
+      "max_amount": 3500,
+      "display": "€3,350–€3,500",
+      "tiers": [
+        {
+          "label": "Residential · 2 weeks · Standard",
+          "title": {
+            "en": "Standard · 2 weeks",
+            "tr": "Standart · 2 hafta"
+          },
+          "amount": 3500,
+          "currency": "EUR",
+          "display": "€3,500"
+        },
+        {
+          "label": "Residential · 2 weeks · Early booking",
+          "title": {
+            "en": "Early booking · 2 weeks",
+            "tr": "Erken kayıt · 2 hafta"
+          },
+          "amount": 3350,
+          "currency": "EUR",
+          "display": "€3,350",
+          "amount_basis": "calculated_from_announced_discount",
+          "note": {
+            "en": "Register by 1 April 2027. €3,350 is calculated from the €3,500 fee less the announced €150 discount.",
+            "tr": "1 Nisan 2027'ye kadar kayıt yaptırın. €3.350, €3.500 ücretinden duyurulan €150 indirim düşülerek hesaplanmıştır."
+          }
+        }
+      ]
+    },
+    "price_status": "announced",
+    "price_year": 2027,
+    "dates_year": 2027,
+    "dates": [
+      "2027-07-04/2027-07-17"
+    ],
+    "date_months": [
+      "July"
+    ],
+    "early_booking": {
+      "discount_amount": 150,
+      "currency": "EUR",
+      "deadline": "2027-04-01"
+    },
+    "application_deadline": "2027-05-01",
+    "description_short": "Explore international relations, diplomacy and global developments through simulations at Schiller's Madrid summer camp. Choose this academic subject for your two-week pre-university experience, alongside cultural activities and a Toledo excursion.",
+    "description_short_tr": "Schiller'ın Madrid yaz kampında simülasyonlarla uluslararası ilişkileri, diplomasiyi ve küresel gelişmeleri keşfedin. İki haftalık üniversiteye hazırlık deneyiminiz için bu akademik alanı seçin; kültürel etkinliklere ve Toledo gezisine katılın.",
+    "description_full": "Explore international relations, diplomacy and global developments through simulations at Schiller's Madrid summer camp. Choose this academic subject for your two-week pre-university experience, alongside cultural activities and a Toledo excursion.\n\nInternational relations: Explore relations between countries and current global developments.\n\nDiplomacy: Discover diplomatic approaches to international issues.\n\nSimulation activities: Put ideas into practice through the simulation work described in the programme announcement.",
+    "description_full_tr": "Schiller'ın Madrid yaz kampında simülasyonlarla uluslararası ilişkileri, diplomasiyi ve küresel gelişmeleri keşfedin. İki haftalık üniversiteye hazırlık deneyiminiz için bu akademik alanı seçin; kültürel etkinliklere ve Toledo gezisine katılın.\n\nUluslararası ilişkiler: Ülkeler arasındaki ilişkileri ve güncel küresel gelişmeleri keşfedin.\n\nDiplomasi: Uluslararası konulara diplomatik yaklaşımları tanıyın.\n\nSimülasyon çalışmaları: Program duyurusunda belirtilen simülasyon çalışmalarıyla fikirlerinizi uygulamaya aktarın.",
+    "curriculum_sections": [
+      {
+        "title": "International relations",
+        "body": "Explore relations between countries and current global developments."
+      },
+      {
+        "title": "Diplomacy",
+        "body": "Discover diplomatic approaches to international issues."
+      },
+      {
+        "title": "Simulation activities",
+        "body": "Put ideas into practice through the simulation work described in the programme announcement."
+      }
+    ],
+    "curriculum_sections_tr": [
+      {
+        "title": "Uluslararası ilişkiler",
+        "body": "Ülkeler arasındaki ilişkileri ve güncel küresel gelişmeleri keşfedin."
+      },
+      {
+        "title": "Diplomasi",
+        "body": "Uluslararası konulara diplomatik yaklaşımları tanıyın."
+      },
+      {
+        "title": "Simülasyon çalışmaları",
+        "body": "Program duyurusunda belirtilen simülasyon çalışmalarıyla fikirlerinizi uygulamaya aktarın."
+      }
+    ],
+    "learning_outcomes": [
+      "Practise discussing international affairs and diplomatic issues in English.",
+      "Experience university life with students from different cultures.",
+      "Receive an official participation certificate."
+    ],
+    "learning_outcomes_tr": [
+      "Uluslararası ilişkiler ve diplomasi konularını İngilizce tartışma pratiği yapın.",
+      "Farklı kültürlerden öğrencilerle üniversite hayatını deneyimleyin.",
+      "Resmî katılım sertifikası alın."
+    ],
+    "image_url": "",
+    "detail_url": "https://www.schiller.edu/study-with-us/summer-at-schiller-madrid-program/",
+    "source_url": "https://www.schiller.edu/study-with-us/summer-at-schiller-madrid-program/",
+    "source_files": [
+      "Schiller/Google Workspace Posta - Fwd_ 2027 Yaz Kampları_ Madrid & Heidelberg _ Schiller International University.pdf"
+    ],
+    "source_pages": [
+      1,
+      2
+    ],
+    "source_reviewed": "2026-10-12",
+    "flags": [
+      "2027 dates, fees and subject choices follow the supplied provider announcement. Confirm availability before booking.",
+      "The two detailed flyers referenced by the announcement were not supplied as separate files.",
+      "The public Madrid page retains provisional dates, 2026 deadlines and a different selection/meal/excursion description; the 2027 announcement is used instead."
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "schiller-madrid-entrepreneurship-innovation-2027",
+    "provider": "schiller",
+    "provider_label": "Schiller International University",
+    "program_type": "summer_school",
+    "title": "Entrepreneurship & Innovation Summer Programme",
+    "raw_title": "Entrepreneurship & Innovation Summer Programme",
+    "title_tr": "Girişimcilik ve İnovasyon Yaz Programı",
+    "subject": "Business, Leadership & Entrepreneurship",
+    "subject_tr": "Girişimcilik ve İnovasyon",
+    "categories": [
+      "Entrepreneurship",
+      "Innovation",
+      "Business models",
+      "Team projects",
+      "Presentations"
+    ],
+    "location": "Madrid Campus",
+    "location_tr": "Madrid Kampüsü",
+    "location_type": "campus",
+    "location_id": "schiller-madrid",
+    "location_name": "Madrid Campus",
+    "city": "Madrid",
+    "country": "Spain",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "language_requirement": "CEFR B1 minimum, assessed by an English test or interview",
+    "language_requirement_tr": "İngilizce sınavı veya mülakat ile değerlendirilen en az B1 İngilizce",
+    "price": {
+      "currency": "EUR",
+      "min_amount": 3350,
+      "max_amount": 3500,
+      "display": "€3,350–€3,500",
+      "tiers": [
+        {
+          "label": "Residential · 2 weeks · Standard",
+          "title": {
+            "en": "Standard · 2 weeks",
+            "tr": "Standart · 2 hafta"
+          },
+          "amount": 3500,
+          "currency": "EUR",
+          "display": "€3,500"
+        },
+        {
+          "label": "Residential · 2 weeks · Early booking",
+          "title": {
+            "en": "Early booking · 2 weeks",
+            "tr": "Erken kayıt · 2 hafta"
+          },
+          "amount": 3350,
+          "currency": "EUR",
+          "display": "€3,350",
+          "amount_basis": "calculated_from_announced_discount",
+          "note": {
+            "en": "Register by 1 April 2027. €3,350 is calculated from the €3,500 fee less the announced €150 discount.",
+            "tr": "1 Nisan 2027'ye kadar kayıt yaptırın. €3.350, €3.500 ücretinden duyurulan €150 indirim düşülerek hesaplanmıştır."
+          }
+        }
+      ]
+    },
+    "price_status": "announced",
+    "price_year": 2027,
+    "dates_year": 2027,
+    "dates": [
+      "2027-07-04/2027-07-17"
+    ],
+    "date_months": [
+      "July"
+    ],
+    "early_booking": {
+      "discount_amount": 150,
+      "currency": "EUR",
+      "deadline": "2027-04-01"
+    },
+    "application_deadline": "2027-05-01",
+    "description_short": "Explore entrepreneurship and innovation at Schiller's Madrid summer camp. Develop business models, work on team projects and practise presenting ideas during a two-week pre-university experience with cultural activities and a Toledo excursion.",
+    "description_short_tr": "Schiller'ın Madrid yaz kampında girişimcilik ve inovasyonu keşfedin. İş modelleri geliştirin, takım projelerinde çalışın ve fikir sunma becerilerinizi geliştirin. İki haftalık üniversiteye hazırlık deneyimine kültürel etkinlikler ve Toledo gezisi de dahildir.",
+    "description_full": "Explore entrepreneurship and innovation at Schiller's Madrid summer camp. Develop business models, work on team projects and practise presenting ideas during a two-week pre-university experience with cultural activities and a Toledo excursion.\n\nEntrepreneurship: Discover entrepreneurial thinking and the process of developing business ideas.\n\nBusiness models & team projects: Explore business-model development and work collaboratively on programme projects.\n\nPresentation skills: Practise communicating and presenting your ideas.",
+    "description_full_tr": "Schiller'ın Madrid yaz kampında girişimcilik ve inovasyonu keşfedin. İş modelleri geliştirin, takım projelerinde çalışın ve fikir sunma becerilerinizi geliştirin. İki haftalık üniversiteye hazırlık deneyimine kültürel etkinlikler ve Toledo gezisi de dahildir.\n\nGirişimcilik: Girişimci düşünceyi ve iş fikri geliştirme sürecini tanıyın.\n\nİş modelleri ve takım projeleri: İş modeli geliştirmeyi keşfedin ve program projelerinde birlikte çalışın.\n\nSunum becerileri: Fikirlerinizi anlatma ve sunma pratiği yapın.",
+    "curriculum_sections": [
+      {
+        "title": "Entrepreneurship",
+        "body": "Discover entrepreneurial thinking and the process of developing business ideas."
+      },
+      {
+        "title": "Business models & team projects",
+        "body": "Explore business-model development and work collaboratively on programme projects."
+      },
+      {
+        "title": "Presentation skills",
+        "body": "Practise communicating and presenting your ideas."
+      }
+    ],
+    "curriculum_sections_tr": [
+      {
+        "title": "Girişimcilik",
+        "body": "Girişimci düşünceyi ve iş fikri geliştirme sürecini tanıyın."
+      },
+      {
+        "title": "İş modelleri ve takım projeleri",
+        "body": "İş modeli geliştirmeyi keşfedin ve program projelerinde birlikte çalışın."
+      },
+      {
+        "title": "Sunum becerileri",
+        "body": "Fikirlerinizi anlatma ve sunma pratiği yapın."
+      }
+    ],
+    "learning_outcomes": [
+      "Practise developing business ideas and working in a team.",
+      "Build confidence presenting ideas in English.",
+      "Receive an official participation certificate."
+    ],
+    "learning_outcomes_tr": [
+      "İş fikri geliştirme ve takım çalışması pratiği yapın.",
+      "İngilizce fikir sunma konusunda özgüven kazanın.",
+      "Resmî katılım sertifikası alın."
+    ],
+    "image_url": "",
+    "detail_url": "https://www.schiller.edu/study-with-us/summer-at-schiller-madrid-program/",
+    "source_url": "https://www.schiller.edu/study-with-us/summer-at-schiller-madrid-program/",
+    "source_files": [
+      "Schiller/Google Workspace Posta - Fwd_ 2027 Yaz Kampları_ Madrid & Heidelberg _ Schiller International University.pdf"
+    ],
+    "source_pages": [
+      1,
+      2
+    ],
+    "source_reviewed": "2026-10-12",
+    "flags": [
+      "2027 dates, fees and subject choices follow the supplied provider announcement. Confirm availability before booking.",
+      "The two detailed flyers referenced by the announcement were not supplied as separate files.",
+      "The public Madrid page retains provisional dates, 2026 deadlines and a different selection/meal/excursion description; the 2027 announcement is used instead."
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "schiller-heidelberg-artificial-intelligence-business-2027",
+    "provider": "schiller",
+    "provider_label": "Schiller International University",
+    "program_type": "summer_school",
+    "title": "Artificial Intelligence for Business Summer Programme",
+    "raw_title": "Artificial Intelligence for Business Summer Programme",
+    "title_tr": "İş Dünyası için Yapay Zekâ Yaz Programı",
+    "subject": "Computing, Robotics and AI",
+    "subject_tr": "İş Dünyası için Yapay Zekâ",
+    "categories": [
+      "Artificial intelligence",
+      "Business applications",
+      "Automation",
+      "Data analysis"
+    ],
+    "location": "Heidelberg Campus",
+    "location_tr": "Heidelberg Kampüsü",
+    "location_type": "campus",
+    "location_id": "schiller-heidelberg",
+    "location_name": "Heidelberg Campus",
+    "city": "Heidelberg",
+    "country": "Germany",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "language_requirement": "CEFR B1 minimum, assessed by an English test or interview",
+    "language_requirement_tr": "İngilizce sınavı veya mülakat ile değerlendirilen en az B1 İngilizce",
+    "price": {
+      "currency": "EUR",
+      "min_amount": 3350,
+      "max_amount": 3500,
+      "display": "€3,350–€3,500",
+      "tiers": [
+        {
+          "label": "Residential · 2 weeks · Standard",
+          "title": {
+            "en": "Standard · 2 weeks",
+            "tr": "Standart · 2 hafta"
+          },
+          "amount": 3500,
+          "currency": "EUR",
+          "display": "€3,500"
+        },
+        {
+          "label": "Residential · 2 weeks · Early booking",
+          "title": {
+            "en": "Early booking · 2 weeks",
+            "tr": "Erken kayıt · 2 hafta"
+          },
+          "amount": 3350,
+          "currency": "EUR",
+          "display": "€3,350",
+          "amount_basis": "calculated_from_announced_discount",
+          "note": {
+            "en": "Register by 1 April 2027. €3,350 is calculated from the €3,500 fee less the announced €150 discount.",
+            "tr": "1 Nisan 2027'ye kadar kayıt yaptırın. €3.350, €3.500 ücretinden duyurulan €150 indirim düşülerek hesaplanmıştır."
+          }
+        }
+      ]
+    },
+    "price_status": "announced",
+    "price_year": 2027,
+    "dates_year": 2027,
+    "dates": [
+      "2027-07-18/2027-07-31"
+    ],
+    "date_months": [
+      "July"
+    ],
+    "early_booking": {
+      "discount_amount": 150,
+      "currency": "EUR",
+      "deadline": "2027-04-01"
+    },
+    "application_deadline": "2027-05-01",
+    "description_short": "Discover how artificial intelligence is used in business at Schiller's Heidelberg summer camp. Explore automation and data analysis during a two-week pre-university experience with international students, cultural activities and a Black Forest excursion.",
+    "description_short_tr": "Schiller'ın Heidelberg yaz kampında yapay zekânın iş dünyasındaki kullanımını keşfedin. Uluslararası öğrencilerle iki haftalık üniversiteye hazırlık deneyiminde otomasyon ve veri analizini tanıyın; kültürel etkinliklere ve Black Forest gezisine katılın.",
+    "description_full": "Discover how artificial intelligence is used in business at Schiller's Heidelberg summer camp. Explore automation and data analysis during a two-week pre-university experience with international students, cultural activities and a Black Forest excursion.\n\nAI in business: Explore the use of artificial intelligence in the business world.\n\nAutomation: Discover how automation relates to business tasks and processes.\n\nData analysis: Explore the data-analysis topics announced for this academic choice.",
+    "description_full_tr": "Schiller'ın Heidelberg yaz kampında yapay zekânın iş dünyasındaki kullanımını keşfedin. Uluslararası öğrencilerle iki haftalık üniversiteye hazırlık deneyiminde otomasyon ve veri analizini tanıyın; kültürel etkinliklere ve Black Forest gezisine katılın.\n\nİş dünyasında yapay zekâ: Yapay zekânın iş dünyasındaki kullanımını keşfedin.\n\nOtomasyon: Otomasyonun iş süreçleri ve görevleriyle ilişkisini tanıyın.\n\nVeri analizi: Bu akademik alan için duyurulan veri analizi konularını keşfedin.",
+    "curriculum_sections": [
+      {
+        "title": "AI in business",
+        "body": "Explore the use of artificial intelligence in the business world."
+      },
+      {
+        "title": "Automation",
+        "body": "Discover how automation relates to business tasks and processes."
+      },
+      {
+        "title": "Data analysis",
+        "body": "Explore the data-analysis topics announced for this academic choice."
+      }
+    ],
+    "curriculum_sections_tr": [
+      {
+        "title": "İş dünyasında yapay zekâ",
+        "body": "Yapay zekânın iş dünyasındaki kullanımını keşfedin."
+      },
+      {
+        "title": "Otomasyon",
+        "body": "Otomasyonun iş süreçleri ve görevleriyle ilişkisini tanıyın."
+      },
+      {
+        "title": "Veri analizi",
+        "body": "Bu akademik alan için duyurulan veri analizi konularını keşfedin."
+      }
+    ],
+    "learning_outcomes": [
+      "Develop an introductory understanding of AI, automation and data analysis in business.",
+      "Experience English-language university learning in Heidelberg.",
+      "Receive an official participation certificate."
+    ],
+    "learning_outcomes_tr": [
+      "İş dünyasında yapay zekâ, otomasyon ve veri analizi hakkında başlangıç düzeyinde anlayış geliştirin.",
+      "Heidelberg'de İngilizce üniversite eğitimi deneyimi kazanın.",
+      "Resmî katılım sertifikası alın."
+    ],
+    "image_url": "",
+    "detail_url": "https://www.schiller.edu/campuses/heidelberg/",
+    "source_url": "https://www.schiller.edu/campuses/heidelberg/",
+    "source_files": [
+      "Schiller/Google Workspace Posta - Fwd_ 2027 Yaz Kampları_ Madrid & Heidelberg _ Schiller International University.pdf"
+    ],
+    "source_pages": [
+      1,
+      2
+    ],
+    "source_reviewed": "2026-10-12",
+    "flags": [
+      "2027 dates, fees and subject choices follow the supplied provider announcement. Confirm availability before booking.",
+      "The two detailed flyers referenced by the announcement were not supplied as separate files."
+    ],
+    "publish_status": "needs_review"
+  },
+  {
+    "id": "schiller-heidelberg-computer-science-2027",
+    "provider": "schiller",
+    "provider_label": "Schiller International University",
+    "program_type": "summer_school",
+    "title": "Computer Science Summer Programme",
+    "raw_title": "Computer Science Summer Programme",
+    "title_tr": "Bilgisayar Bilimleri Yaz Programı",
+    "subject": "Computer Science & Technology",
+    "subject_tr": "Bilgisayar Bilimleri",
+    "categories": [
+      "Programming",
+      "Machine learning",
+      "Data structures",
+      "Cybersecurity"
+    ],
+    "location": "Heidelberg Campus",
+    "location_tr": "Heidelberg Kampüsü",
+    "location_type": "campus",
+    "location_id": "schiller-heidelberg",
+    "location_name": "Heidelberg Campus",
+    "city": "Heidelberg",
+    "country": "Germany",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "language_requirement": "CEFR B1 minimum, assessed by an English test or interview",
+    "language_requirement_tr": "İngilizce sınavı veya mülakat ile değerlendirilen en az B1 İngilizce",
+    "price": {
+      "currency": "EUR",
+      "min_amount": 3350,
+      "max_amount": 3500,
+      "display": "€3,350–€3,500",
+      "tiers": [
+        {
+          "label": "Residential · 2 weeks · Standard",
+          "title": {
+            "en": "Standard · 2 weeks",
+            "tr": "Standart · 2 hafta"
+          },
+          "amount": 3500,
+          "currency": "EUR",
+          "display": "€3,500"
+        },
+        {
+          "label": "Residential · 2 weeks · Early booking",
+          "title": {
+            "en": "Early booking · 2 weeks",
+            "tr": "Erken kayıt · 2 hafta"
+          },
+          "amount": 3350,
+          "currency": "EUR",
+          "display": "€3,350",
+          "amount_basis": "calculated_from_announced_discount",
+          "note": {
+            "en": "Register by 1 April 2027. €3,350 is calculated from the €3,500 fee less the announced €150 discount.",
+            "tr": "1 Nisan 2027'ye kadar kayıt yaptırın. €3.350, €3.500 ücretinden duyurulan €150 indirim düşülerek hesaplanmıştır."
+          }
+        }
+      ]
+    },
+    "price_status": "announced",
+    "price_year": 2027,
+    "dates_year": 2027,
+    "dates": [
+      "2027-07-18/2027-07-31"
+    ],
+    "date_months": [
+      "July"
+    ],
+    "early_booking": {
+      "discount_amount": 150,
+      "currency": "EUR",
+      "deadline": "2027-04-01"
+    },
+    "application_deadline": "2027-05-01",
+    "description_short": "Explore programming, introductory machine learning, data structures and cybersecurity at Schiller's Heidelberg summer camp. Choose computer science for a two-week pre-university experience with cultural activities and a Black Forest excursion.",
+    "description_short_tr": "Schiller'ın Heidelberg yaz kampında programlama, makine öğrenmesine giriş, veri yapıları ve siber güvenliği keşfedin. Kültürel etkinlikler ve Black Forest gezisiyle zenginleşen iki haftalık üniversiteye hazırlık deneyiminiz için bilgisayar bilimlerini seçin.",
+    "description_full": "Explore programming, introductory machine learning, data structures and cybersecurity at Schiller's Heidelberg summer camp. Choose computer science for a two-week pre-university experience with cultural activities and a Black Forest excursion.\n\nProgramming: Explore the programming topics included in this summer programme.\n\nMachine learning & data structures: Discover introductory machine learning and data structures.\n\nCybersecurity: Explore cybersecurity as part of the announced computer-science curriculum.",
+    "description_full_tr": "Schiller'ın Heidelberg yaz kampında programlama, makine öğrenmesine giriş, veri yapıları ve siber güvenliği keşfedin. Kültürel etkinlikler ve Black Forest gezisiyle zenginleşen iki haftalık üniversiteye hazırlık deneyiminiz için bilgisayar bilimlerini seçin.\n\nProgramlama: Yaz programında yer alan programlama konularını keşfedin.\n\nMakine öğrenmesi ve veri yapıları: Makine öğrenmesine giriş konularını ve veri yapılarını tanıyın.\n\nSiber güvenlik: Duyurulan bilgisayar bilimleri içeriğinin bir parçası olarak siber güvenliği keşfedin.",
+    "curriculum_sections": [
+      {
+        "title": "Programming",
+        "body": "Explore the programming topics included in this summer programme."
+      },
+      {
+        "title": "Machine learning & data structures",
+        "body": "Discover introductory machine learning and data structures."
+      },
+      {
+        "title": "Cybersecurity",
+        "body": "Explore cybersecurity as part of the announced computer-science curriculum."
+      }
+    ],
+    "curriculum_sections_tr": [
+      {
+        "title": "Programlama",
+        "body": "Yaz programında yer alan programlama konularını keşfedin."
+      },
+      {
+        "title": "Makine öğrenmesi ve veri yapıları",
+        "body": "Makine öğrenmesine giriş konularını ve veri yapılarını tanıyın."
+      },
+      {
+        "title": "Siber güvenlik",
+        "body": "Duyurulan bilgisayar bilimleri içeriğinin bir parçası olarak siber güvenliği keşfedin."
+      }
+    ],
+    "learning_outcomes": [
+      "Explore four introductory areas of computer science before choosing future studies.",
+      "Experience English-language learning with an international student group.",
+      "Receive an official participation certificate."
+    ],
+    "learning_outcomes_tr": [
+      "Gelecekteki eğitiminizi seçmeden önce bilgisayar bilimlerinin dört temel alanını tanıyın.",
+      "Uluslararası bir öğrenci grubuyla İngilizce eğitim deneyimi kazanın.",
+      "Resmî katılım sertifikası alın."
+    ],
+    "image_url": "",
+    "detail_url": "https://www.schiller.edu/campuses/heidelberg/",
+    "source_url": "https://www.schiller.edu/campuses/heidelberg/",
+    "source_files": [
+      "Schiller/Google Workspace Posta - Fwd_ 2027 Yaz Kampları_ Madrid & Heidelberg _ Schiller International University.pdf"
+    ],
+    "source_pages": [
+      1,
+      2
+    ],
+    "source_reviewed": "2026-10-12",
+    "flags": [
+      "2027 dates, fees and subject choices follow the supplied provider announcement. Confirm availability before booking.",
+      "The two detailed flyers referenced by the announcement were not supplied as separate files."
+    ],
+    "publish_status": "needs_review"
+  }
+]

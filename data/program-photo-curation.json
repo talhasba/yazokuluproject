@@ -12,11 +12,14 @@
     "https://cdn.prod.website-files.com/689f009387b6b6b947c8a835/691dbaeb0e02b4faaff3cbe2_Programme_-1-Entrepreneurship-.jpg.avif",
     "https://cdn.stocksnap.io/img-thumbs/960w/3J10QN5PTS.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/5NLKT00MVB.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/5YUFL6LC0E.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/6C4YTOELUE.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/7NWB2A8I0R.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/AKZHNNNFBG.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/BG5ITY3BNT.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/FFOHHTZPWQ.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/H0O97B44CT.jpg",
+    "https://cdn.stocksnap.io/img-thumbs/960w/JG8AXYUVU3.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/KBBOYMO4JH.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/MIBMHZB7QN.jpg",
     "https://cdn.stocksnap.io/img-thumbs/960w/N79O15BH30.jpg",
@@ -132,9 +135,10 @@
     "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-computing-robotics-ai-tt-1024x724.jpg",
     "https://www.mpw.ac.uk/wp-content/uploads/2021/10/mpw-summer-school-26-medicine-sciences-tt-1024x724.jpg",
     "https://www.mpw.ac.uk/wp-content/uploads/2025/10/mpw-summer-school-26-architecture-tt-1024x724.jpg",
-    "https://cdn.stocksnap.io/img-thumbs/960w/5YUFL6LC0E.jpg",
-    "https://cdn.stocksnap.io/img-thumbs/960w/6C4YTOELUE.jpg",
-    "https://cdn.stocksnap.io/img-thumbs/960w/JG8AXYUVU3.jpg"
+    "https://www.schiller.edu/media/jskaoncp/imagen-6.png",
+    "https://www.schiller.edu/media/jypdxtcn/female-latin-american-student-in-europe.webp",
+    "https://www.schiller.edu/media/rxhg4jy4/heidelberg-thumbnail.webp",
+    "https://www.schiller.edu/media/ve0eieam/schiller-60yrs-color.png"
   ],
   "searches": {
     "immerse-global-leadership-summer-school-cambridge": [
@@ -588,6 +592,34 @@
       "archaeology",
       "museum",
       "history"
+    ],
+    "schiller-heidelberg-artificial-intelligence-business-2027": [
+      "coding",
+      "computer",
+      "laptop"
+    ],
+    "schiller-heidelberg-computer-science-2027": [
+      "coding",
+      "computer",
+      "laptop"
+    ]
+  },
+  "provider_choices": {
+    "schiller-madrid-international-relations-diplomacy-2027": [
+      {
+        "download_url": "https://www.schiller.edu/media/uuwbbea0/schiller-madrid-first-cohart-of-its-summer-program.webp?width=1320&height=591&format=webp&v=1dd18d898c98890",
+        "canonical_url": "https://www.schiller.edu/media/uuwbbea0/schiller-madrid-first-cohart-of-its-summer-program.webp",
+        "source_page": "https://www.schiller.edu/news/schiller-madrid-international-students-for-first-edition-of-summer-program/",
+        "description": "Schiller Madrid First Cohort Of Its Summer Program (earlier Madrid summer cohort; not a photograph of the forthcoming 2027 intake)"
+      }
+    ],
+    "schiller-madrid-entrepreneurship-innovation-2027": [
+      {
+        "download_url": "https://www.schiller.edu/media/eykoqsa3/schiller-madrid-summer-program-international-students.webp",
+        "canonical_url": "https://www.schiller.edu/media/eykoqsa3/schiller-madrid-summer-program-international-students.webp",
+        "source_page": "https://www.schiller.edu/news/schiller-madrid-international-students-for-first-edition-of-summer-program/",
+        "description": "Schiller Madrid Summer Program International Students (earlier Madrid summer cohort; not a photograph of the forthcoming 2027 intake)"
+      }
     ]
   }
 }
