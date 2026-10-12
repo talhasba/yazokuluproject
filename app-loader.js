@@ -150,7 +150,7 @@ function Nh({lang:m,onToggleLang:x,onToggleMobileMenu:O,mobileMenuOpen:d,t:_}) {
           b.jsx("h1", {children:_.siteTitle}),
           b.jsx("p", {children:_.siteSubtitle})
         ]}),
-        b.jsxs("div", {className:"parent-brand",children:[
+        b.jsxs("a", {className:"parent-brand",href:"https://asba.com.tr",children:[
           b.jsx("span", {className:"parent-brand-label",children:m==="tr"?"Bir ASBA projesi":"An ASBA project"}),
           b.jsx("img", {src:"./assets/asba-logo.png",alt:"ASBA Yurtdışı Eğitim Danışmanlık",width:738,height:237})
         ]})

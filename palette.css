@@ -208,6 +208,7 @@
 
 /* Parent-company branding, shared by the home, catalogue and programme headers. */
 .parent-brand {
+  text-decoration: none;
   flex: none;
   display: flex;
   flex-direction: column;
@@ -215,6 +216,12 @@
   gap: 4px;
   padding-left: 16px;
   border-left: 1px solid #e4e8f0;
+}
+.site-brand-link { display: block; flex: none; }
+.site-brand-link:focus-visible, .parent-brand:focus-visible {
+  outline: 2px solid var(--site-primary);
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 .parent-brand .parent-brand-label {
   color: #667085;
@@ -261,7 +268,7 @@
 }
 @media (max-width: 600px) {
   .home-brand, .pp-brand { gap: 8px; }
-  .home-brand > img, .pp-brand > img { width: clamp(125px, 38vw, 150px); height: auto; }
+  .home-brand .site-brand-link img, .pp-brand .site-brand-link img { width: clamp(125px, 38vw, 150px); height: auto; }
   .parent-brand { padding-left: 8px; }
   .parent-brand .parent-brand-label { display: none; }
   .home-brand .parent-brand img,

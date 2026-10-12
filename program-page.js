@@ -298,7 +298,7 @@
 
     page.innerHTML = `
       <header class="pp-top">
-        <a class="pp-brand" href="#/"><img src="./summerbutwhere-logo.png" alt="SummerButWhere"><div class="parent-brand"><span class="parent-brand-label">${esc(L.brand)}</span><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></div></a>
+        <div class="pp-brand"><a class="site-brand-link" href="#/"><img src="./summerbutwhere-logo.png" alt="SummerButWhere"></a><a class="parent-brand" href="https://asba.com.tr"><span class="parent-brand-label">${esc(L.brand)}</span><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
         <nav><a class="pp-back" href="#/programs">← ${esc(L.back)}</a>
         <button class="pp-lang" type="button" aria-label="${esc(L.langLabel)}">${L.langBtn}</button></nav>
       </header>
