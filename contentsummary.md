@@ -21,7 +21,7 @@ The website currently contains **474 programs from ten providers**:
 4. Immerse Education
 5. InvestIN Education
 6. MPW Summer School
-7. Oxford Royale
+7. Academy Royale International
 8. Sportech Academy
 9. St Clare's, Oxford
 10. Summer Discovery

@@ -31,7 +31,7 @@ Ana kaynak `data/programs.normalized.json` dosyasıdır.
 | --- | ---: | ---: | ---: |
 | Summer Discovery | 265 | 0 | 265 |
 | Immerse Education | 79 | 79 | 0 |
-| Oxford Royale | 53 | 52 | 1 |
+| Academy Royale International | 53 | 52 | 1 |
 | Sportech Academy | 19 | 15 | 4 |
 | InvestIN Education | 16 | 16 | 0 |
 | St Clare's, Oxford | 10 | 10 | 0 |
@@ -40,6 +40,8 @@ Ana kaynak `data/programs.normalized.json` dosyasıdır.
 | MPW Summer School | 8 | 0 | 8 |
 | Edconic | 7 | 4 | 3 |
 | Emerald Cultural Institute | 2 | 0 | 2 |
+
+Academy Royale International, Oxford Royale'ın yeni sağlayıcı adıdır; [resmî açıklama](https://www.academyroyaleinternational.com/about-us) marka değişikliğini Eylül 2026 olarak belirtir. Katalog etiketleri, iki dildeki içerik ve fotoğraf atıfları yeni adı kullanır. Mevcut program bağlantıları ve veri eşleşmelerini korumak için `oxford_royale` sağlayıcı anahtarı ile `oxford-royale-` program kimlikleri korunmuştur.
 
 `needs_review`, kaydın bazı bilgileri için kaynak kontrolü gerektiğini belirtir. Mevcut katalog kodu bu durumu yayın engeli olarak kullanmaz; bu kayıtlar da listelenir. Eksiksiz Türkçe katalog alanları, `title_tr`, `subject_tr`, `location_tr` ve `description_short_tr` alanlarının dolu olduğu anlamına gelir.
 

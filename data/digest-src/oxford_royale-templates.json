@@ -3,12 +3,12 @@
     "en": {
       "doTitle": "What you'll do",
       "doAppend": [{ "lead": "Interactive lessons & debates", "text": "Immersive, hands-on teaching plus debates that build reasoning and public speaking." }],
-      "outcomes": ["Oxford Royale certificate of completion (course, dates and campus)"]
+      "outcomes": ["Academy Royale International certificate of completion (course, dates and campus)"]
     },
     "tr": {
       "doTitle": "Neler yapacaksınız",
       "doAppend": [{ "lead": "İnteraktif dersler ve münazaralar", "text": "Sürükleyici, uygulamalı öğretim ile muhakeme ve topluluk önünde konuşma becerisini geliştiren münazaralar." }],
-      "outcomes": ["Oxford Royale tamamlama sertifikası (ders, tarihler ve kampüs)"]
+      "outcomes": ["Academy Royale International tamamlama sertifikası (ders, tarihler ve kampüs)"]
     }
   },
   "cities": {

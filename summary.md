@@ -71,7 +71,7 @@ The original bundle groups many raw subjects into broader display buckets such a
 
 `data/program-digests.json` (one entry per program, keyed by program id) is generated — not hand-edited — by `node tools/build-digests.mjs`, which reads hand-authored source files under `data/digest-src/` and validates every field (length limits, no placeholder text, no duplicate bullets) before writing output. Two authoring styles are used:
 
-- **Per-provider files** (`data/digest-src/<provider>/*.json`, optional `data/digest-src/<provider>-templates.json` for shared blocks like a certificate note or a campus's excursion list): used for Immerse, Oxford Royale, InvestIN, St Clare's, Bucksmore, MPW, Edconic, Sportech, and Constructor University. Immerse additionally reuses one of two shared curriculum templates ("academic" or "career") matched by the program's curriculum-section titles.
+- **Per-provider files** (`data/digest-src/<provider>/*.json`, optional `data/digest-src/<provider>-templates.json` for shared blocks like a certificate note or a campus's excursion list): used for Immerse, Academy Royale International, InvestIN, St Clare's, Bucksmore, MPW, Edconic, Sportech, and Constructor University. Immerse additionally reuses one of two shared curriculum templates ("academic" or "career") matched by the program's curriculum-section titles.
 - **Summer Discovery** (265 of the 474 programs) is handled differently because its source text is already bulleted and highly repetitive: `tools/extract-sd.mjs` auto-extracts the English structure from `programs.normalized.json` into `data/digest-src/summer_discovery-units.json`, de-duplicating 265 records down to 171 unique course "units" by content hash. Turkish translations are hand-written per unit (not per program) in `data/digest-src/summer_discovery-tr/part*.json`; the build fails if a translated list doesn't match its English counterpart item-for-item.
 
 Turkish catalogue metadata for Edconic, MPW, Sportech, Summer Discovery, and Constructor University is maintained in `data/tr-translations.json`. Run `node tools/apply-tr-translations.mjs` after rebuilding normalized data and digests. The script adds the reviewed Turkish title, subject, and location labels, reuses each program's reviewed Turkish digest focus as `description_short_tr`, updates the main and provider-level normalized files, and fails if any catalogue record remains incomplete.
@@ -109,7 +109,7 @@ The main data file is an array of 474 normalized program records. The original c
 - Turkish content: translated title, subject/location labels, summaries, intro, sections, and key facts.
 - Location metadata: location ID, name, and type.
 
-The represented providers are Bucksmore, Constructor University, Edconic, Immerse Education, InvestIN Education, MPW Summer School, Oxford Royale, Sportech Academy, St Clare's, Oxford, and Summer Discovery. New-provider records also retain provider-specific fields where applicable, including grade ranges, historical age/fee evidence, operating institution, and price scope/notes.
+The represented providers are Bucksmore, Constructor University, Edconic, Immerse Education, InvestIN Education, MPW Summer School, Academy Royale International, Sportech Academy, St Clare's, Oxford, and Summer Discovery. New-provider records also retain provider-specific fields where applicable, including grade ranges, historical age/fee evidence, operating institution, and price scope/notes.
 
 ### `data/program-digests.json`
 

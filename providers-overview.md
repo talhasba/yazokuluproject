@@ -6,7 +6,7 @@ Source: `data/programs.normalized.json` (474 programs, 10 providers, 5 countries
 |---|---|---|---|
 | Summer Discovery | 265 | US | 10 campuses: Bryn Mawr College, Dartmouth, Fairfield University, Georgetown University, UC Berkeley, UCLA, UCLA Anderson School of Management, University of Michigan, University of Texas at Austin, Yale University |
 | Immerse Education | 79 | UK, US, Canada, online | Cambridge, London, Oxford, New York, San Francisco, Toronto, Online |
-| Oxford Royale | 53 | UK, US | Oxford, Cambridge, London, New York, Yale, Yale & New York (combined) |
+| Academy Royale International | 53 | UK, US | Oxford, Cambridge, London, New York, Yale, Yale & New York (combined) |
 | Sportech Academy | 19 | US, Italy | Indianapolis, Milan, Rome, Venice, Parma, Motor Valley, Milan & Motor Valley, Milan/Piacenza/Turin |
 | InvestIN Education | 16 | UK | London |
 | St Clare's, Oxford | 10 | UK | Oxford |

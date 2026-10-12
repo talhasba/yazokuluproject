@@ -179,12 +179,12 @@
       loading = Promise.all([
         json("./data/programs.normalized.json", []),
         json("./data/program-digests.json", {}),
-        json("./data/image-candidates.json?v=20261012-5", {}),
+        json("./data/image-candidates.json?v=20261012-6", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
         json("./data/price-inclusions.json", {}),
         import("./program-pricing.js?v=20261005-2"),
-        json("./data/program-image-sources.json?v=20261012-5", { images: {} })
+        json("./data/program-image-sources.json?v=20261012-6", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
