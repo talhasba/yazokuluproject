@@ -84,6 +84,10 @@ Academy Royale International's current 2027 source set lives under `royale inter
 
 The 24 pages produce 36 catalogue records because the twelve pages offered in both Oxford and Cambridge are split into campus-specific entries. Current offerings are limited to Oxford, Cambridge and Marlborough College; retired London, Yale and New York records are removed. The normalizer also refreshes Academy Royale digest sources, Turkish lookup values, image candidates, the reviewed photo manifest and its collection fingerprint. Run it before `node tools/build-digests.mjs` and `node tools/apply-tr-translations.mjs`.
 
+### Logo options (temporary)
+
+Two candidate SummerButWhere logos are being compared: `assets/logo-option-1.png` (sun + "Yaz Okulları ve Danışmanlık") and `assets/logo-option-2.png` (sticker-style "Yurtdışı Yaz Okulları"). `logo-options.js` / `logo-options.css` (loaded last in `index.html`) swap every `summerbutwhere-logo.png` image — password screen, home header, catalogue header, digest page header — and show a floating "Logo: Seçenek 1 / Seçenek 2" toggle. The choice is kept in `localStorage` (`sbw-logo-option`) and can be forced with `?logo=1` / `?logo=2`. Once one is chosen, point the `<img>` tags in `index.html`, `program-page.js` and `app-loader.js` at it, then delete `logo-options.js`, `logo-options.css` and their two tags in `index.html`. The original `summerbutwhere-logo.png` is untouched.
+
 ### Testing without the password gate
 
 `prototypes/layer-test.html` loads a minimal page shell (`#root` + `#program-page`, no password lock) and includes `program-page.js`/`.css`, for exercising the digest layer directly during development, e.g. `http://localhost:5173/prototypes/layer-test.html?review#/programs/<id>`. `prototypes/index.html` is an earlier, self-contained mockup of the same visual design used to choose the layout before the real integration existed.
