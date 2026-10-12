@@ -179,18 +179,19 @@
       loading = Promise.all([
         json("./data/programs.normalized.json", []),
         json("./data/program-digests.json", {}),
-        json("./data/image-candidates.json?v=20261005-2", {}),
+        json("./data/image-candidates.json?v=20261012-3", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
         json("./data/price-inclusions.json", {}),
-        import("./program-pricing.js?v=20261005-2")
-      ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing]) => {
+        import("./program-pricing.js?v=20261005-2"),
+        json("./data/program-image-sources.json?v=20261012-3", { images: {} })
+      ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
         Object.entries(overrides.digests || {}).forEach(([id, override]) => {
           if (mergedDigests[id]) mergedDigests[id] = mergeEditorOverride(mergedDigests[id], override);
         });
-        data = { programs: new Map(mergedPrograms.map((p) => [p.id, p])), digests: mergedDigests, images, sources: sources.images || {}, priceInclusions, pricing };
+        data = { programs: new Map(mergedPrograms.map((p) => [p.id, p])), digests: mergedDigests, images, sources: sources.images || {}, photoSources: photoSources.images || {}, priceInclusions, pricing };
         return data;
       });
     }
@@ -217,9 +218,9 @@
 
   function photosFor(id) {
     const local = (data.images[id] || [])
-      .filter((u) => u.startsWith("/") && !/\.(svg|png)(\?|$)/i.test(u) && !/-300x\d+/.test(u))
+      .filter((u) => u.startsWith("/") && (!/\.(svg|png)(\?|$)/i.test(u) || u.includes("/unique/")) && !/-300x\d+/.test(u))
       .map((u) => "." + u);
-    const hero = local.find((u) => u.includes("/campuses/")) || local[0] || "";
+    const hero = local.find((u) => u.includes("/unique/")) || local.find((u) => u.includes("/campuses/")) || local[0] || "";
     return { hero, gallery: local.filter((u) => u !== hero).slice(0, 3) };
   }
 
@@ -229,6 +230,15 @@
     if (!s) return "";
     const artist = stripTags(s.artist) || stripTags(s.credit) || "Wikimedia Commons";
     return `<a class="pp-credit" href="${esc(s.commons_page)}" target="_blank" rel="noopener">${esc(T[getLang()].photo)}: ${esc(artist)} · ${esc(s.license || "")}</a>`;
+  }
+
+  function photoSource(hero, rec, lang) {
+    const source = data.photoSources[rec.id];
+    if (!source || hero !== "." + source.local_path) return "";
+    const label = source.source_kind === "illustrative"
+      ? (lang === "tr" ? "Temsili konu fotoğrafı" : "Illustrative subject photo")
+      : T[lang].photo;
+    return `<div class="pp-photo-source">${esc(label)}: <a href="${esc(source.source_page)}" target="_blank" rel="noopener">${esc(source.artist || rec.provider_label)}</a>${source.source_kind === "illustrative" ? ` · <a href="${esc(source.license_url || source.source_page)}" target="_blank" rel="noopener">${esc(source.license)}</a>` : ""}</div>`;
   }
 
   function factRows(rec, lang, digest) {
@@ -272,6 +282,7 @@
     const d = digest[lang] || digest.en;
     const title = programTitle(rec, lang);
     const { hero, gallery } = photosFor(rec.id);
+    const photoAttribution = photoSource(hero, rec, lang);
     const facts = factRows(rec, lang, digest);
     const dates = fmtDates(rec.dates, lang);
     const pricing = data.pricing.renderPriceDetails(rec, lang, data.priceInclusions);
@@ -309,10 +320,11 @@
             <h1 class="pp-title">${esc(title)}</h1>
             <div class="pp-sub">${ICON.location}<span>${esc(facts[4][2])}</span></div>
           </div>
-          ${hero ? (credit(hero) || (rec.image_credit ? `<span class="pp-credit">${esc(L.photo)}: ${esc(rec.image_credit)}</span>` : "")) : ""}
+          ${hero && !photoAttribution ? (credit(hero) || (rec.image_credit ? `<span class="pp-credit">${esc(L.photo)}: ${esc(rec.image_credit)}</span>` : "")) : ""}
         </div>
         <div class="pp-facts">${facts.map(([k, label, value]) => `<div class="pp-fact"><div class="pp-ic">${ICON[k]}</div><div><small>${esc(label)}</small><span>${esc(value)}</span></div></div>`).join("")}</div>
         <div class="pp-grid">
+          ${photoAttribution}
           <main class="pp-main">
             ${season}
             <p class="pp-focus">${esc(d.focus)}</p>

@@ -36,6 +36,8 @@
 .pp-sub svg { width: 16px; height: 16px; flex: none; }
 .pp-credit { position: absolute; right: 12px; bottom: 8px; font-size: 11px; color: rgba(255,255,255,.75); text-decoration: none; background: rgba(15,23,52,.35); padding: 2px 8px; border-radius: 999px; max-width: calc(100% - 24px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pp-credit:hover { color: #fff; text-decoration: underline; }
+.pp-photo-source { grid-column: 1 / -1; font-size: 11px; color: var(--pp-muted); line-height: 1.6; overflow-wrap: anywhere; }
+.pp-photo-source a { color: inherit; text-decoration: underline; }
 
 .pp-facts { position: relative; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin: -44px 22px 28px; background: #fff; border: 1px solid var(--pp-line); border-radius: 16px; box-shadow: 0 10px 30px rgba(23,33,59,.12); overflow: hidden; }
 .pp-fact { display: flex; gap: 11px; align-items: flex-start; padding: 14px 16px; border-right: 1px solid var(--pp-line); min-width: 0; }

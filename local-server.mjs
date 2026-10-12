@@ -28,6 +28,7 @@ const backupDir = join(root, ".local-editor", "backups");
 
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
+  ".avif": "image/avif",
   ".gif": "image/gif",
   ".html": "text/html; charset=utf-8",
   ".ico": "image/x-icon",

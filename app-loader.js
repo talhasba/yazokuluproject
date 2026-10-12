@@ -14,13 +14,14 @@ function mergeEditorOverride(base, override) {
   return result;
 }
 
-const [basePrograms, editorOverrides] = await Promise.all([
+const [basePrograms, editorOverrides, photoSources] = await Promise.all([
   fetch("./data/programs.normalized.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : []),
-  fetch("./data/program-editor-overrides.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : { programs: {} }).catch(() => ({ programs: {} }))
+  fetch("./data/program-editor-overrides.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : { programs: {} }).catch(() => ({ programs: {} })),
+  fetch("./data/program-image-sources.json?v=20261012-3").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
 ]);
 
 window.__PROGRAM_EDITOR_PROGRAMS__ = basePrograms.map((program) =>
-  mergeEditorOverride(program, editorOverrides.programs?.[program.id])
+  ({ ...mergeEditorOverride(program, editorOverrides.programs?.[program.id]), photo_source: photoSources.images?.[program.id] })
 );
 
 const additionalSubjectBuckets = {
@@ -215,7 +216,7 @@ replaceOnce(
 
 replaceOnce(
   'fetch("data/image-candidates.json")',
-  'fetch("data/image-candidates.json?v=20261005-2")',
+  'fetch("data/image-candidates.json?v=20261012-3")',
   "program thumbnail cache version"
 );
 
@@ -236,6 +237,27 @@ replaceOnce(
   'className:"mb-2 line-clamp-3 text-sm font-bold text-surface-800 leading-snug"',
   "three-line program card titles"
 );
+
+// Put attribution outside the clickable programme button: links remain valid
+// independent controls and never trigger course navigation.
+const cardStart = source.indexOf("function Bh({program:m");
+const cardEnd = source.indexOf("function qh(", cardStart);
+if (cardStart < 0 || cardEnd < 0) throw new Error("Programme photo-credit patch target not found");
+const cardSource = source.slice(cardStart, cardEnd);
+const cardReturn = cardSource.indexOf('return b.jsxs("button"');
+if (cardReturn < 0) throw new Error("Programme card return not found");
+const cardExpression = cardSource.slice(cardReturn + 7, -1);
+replaceOnce(cardSource, `${cardSource.slice(0, cardReturn)}
+  const photo = m.photo_source && _ === codexAssetUrl(m.photo_source.local_path) ? m.photo_source : null;
+  return b.jsxs("div", {className:"programme-photo-card", children:[
+    ${cardExpression},
+    photo ? b.jsxs("p", {className:"programme-photo-credit",children:[
+      b.jsx("span", {children:photo.source_kind==="illustrative"?(x==="tr"?"Temsili fotoğraf: ":"Illustrative photo: "):(x==="tr"?"Fotoğraf: ":"Photo: ")}),
+      b.jsx("a", {href:photo.source_page,target:"_blank",rel:"noopener noreferrer",title:photo.description||photo.title,children:photo.artist||m.provider_label}),
+      photo.source_kind==="illustrative" ? b.jsxs("span", {children:[" · ",b.jsx("a", {href:photo.license_url||photo.source_page,target:"_blank",rel:"noopener noreferrer",children:photo.license})]}) : null
+    ]}) : null
+  ]});
+}`, "programme photograph attribution");
 
 const blob = new Blob([source], { type: "text/javascript" });
 const bundleUrl = URL.createObjectURL(blob);
