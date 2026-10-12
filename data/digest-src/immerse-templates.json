@@ -21,11 +21,11 @@
       "do": [
         { "lead": "Derinlemesine akademik oturumlar", "text": "Saygın üniversitelerden uzman eğitmenlerle yürütülen, karmaşık kavramlara ve eleştirel analize odaklanan üniversite tarzı dersler." },
         { "lead": "Kişisel araştırma projesi", "text": "Seçtiğiniz konuda kendi kendine yürüttüğünüz proje: eğitmen desteğiyle özgün bir araştırma sorusu oluşturur ve üniversite düzeyinde yöntemler uygularsınız." },
-        { "lead": "Birebir mentorluk", "text": "Öğrenme tarzınıza ve hedeflerinize göre uyarlanmış bireysel oturumlar ve odaklı geri bildirim." },
-        { "lead": "Başarı sertifikası", "text": "Başarılarınızı belgeler ve üniversite başvurusunda destekleyici olabilir." }
+        { "lead": "Birebir eğitmen desteği", "text": "Öğrenme tarzınıza ve hedeflerinize göre uyarlanmış bireysel oturumlar ve odaklı geri bildirim." },
+        { "lead": "Başarı sertifikası", "text": "Başarılarınızı belgelendirir ve üniversite başvurunuzu destekleyebilir." }
       ],
       "outcomes": [
-        "Kabul ofislerine merakınızı gösteren özgün bir araştırma projesi",
+        "Üniversite kabul ekiplerine merakınızı gösteren özgün bir araştırma projesi",
         "Standart müfredatın ötesinde daha derin ve eleştirel bir anlayış",
         "Başarı sertifikası"
       ]

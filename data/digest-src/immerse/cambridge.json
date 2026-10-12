@@ -7,7 +7,7 @@
   "artificial-intelligence-summer-school-ci-cambridge": {
     "flags": [],
     "en": { "focus": "Explore machine learning, ethics and real-world AI in Cambridge's startup-rich setting, through projects, simulations and expert-led discussion.", "tags": ["Machine learning", "Robotics", "Algorithmic thinking", "AI ethics"], "hl": ["Hands-on projects and practical simulations", "Discussions led by expert mentors and local experts", "Set among Cambridge's thriving startup landscape"] },
-    "tr": { "focus": "Cambridge'in girişimlerle dolu ortamında makine öğrenmesini, etiği ve gerçek hayat uygulamalarını projeler, simülasyonlar ve uzman liderliğindeki tartışmalarla keşfedin.", "tags": ["Makine öğrenmesi", "Robotik", "Algoritmik düşünme", "YZ etiği"], "hl": ["Uygulamalı projeler ve pratik simülasyonlar", "Uzman mentorlar ve yerel uzmanlar eşliğinde tartışmalar", "Cambridge'in canlı girişim ortamında"] }
+    "tr": { "focus": "Cambridge'in girişimlerle dolu ortamında makine öğrenmesini, etiği ve gerçek hayat uygulamalarını projeler, simülasyonlar ve uzmanların yönettiği tartışmalarla keşfedin.", "tags": ["Makine öğrenmesi", "Robotik", "Algoritmik düşünme", "Yapay zekâ etiği"], "hl": ["Uygulamalı projeler ve pratik simülasyonlar", "Uzman mentorlar ve yerel uzmanlar eşliğinde tartışmalar", "Cambridge'in canlı girişim ortamında"] }
   },
   "biology-summer-school-cambridge": {
     "flags": [],
@@ -37,12 +37,12 @@
   "coding-summer-school-cambridge": {
     "flags": [],
     "en": { "focus": "Learn key programming languages and computational thinking by solving real-world problems through programming projects.", "tags": ["Programming languages", "Computational thinking", "Software development", "Projects"], "hl": ["Hands-on software development experience", "Prepares for computer science or software engineering"] },
-    "tr": { "focus": "Programlama projeleriyle gerçek dünya problemlerini çözerek temel programlama dillerini ve algoritmik düşünmeyi öğrenin.", "tags": ["Programlama dilleri", "Algoritmik düşünme", "Yazılım geliştirme", "Projeler"], "hl": ["Uygulamalı yazılım geliştirme deneyimi", "Bilgisayar bilimi veya yazılım mühendisliğine hazırlar"] }
+    "tr": { "focus": "Programlama projeleriyle gerçek dünya problemlerini çözerek temel programlama dillerini ve bilgi işlemsel düşünmeyi öğrenin.", "tags": ["Programlama dilleri", "Bilgi işlemsel düşünme", "Yazılım geliştirme", "Projeler"], "hl": ["Uygulamalı yazılım geliştirme deneyimi", "Bilgisayar bilimi veya yazılım mühendisliğine hazırlar"] }
   },
   "computer-science-summer-school-cambridge": {
     "flags": [],
     "en": { "focus": "Build a foundation in computer science in a global centre for tech innovation, with a course pitched at each age group.", "tags": ["Algorithms", "Data structures", "Programming", "AI & machine learning"], "hl": ["Practical skills for future computer science study"], "tracks": [["13–15", "Computational thinking, fundamental concepts and how key algorithms work."], ["16–18", "Data structures, algorithmic complexity, software engineering principles and introductory AI and machine learning through hands-on projects."]] },
-    "tr": { "focus": "Teknoloji yeniliğinin küresel merkezlerinden birinde bilgisayar bilimi temeli oluşturun; her yaş grubuna uygun ayrı bir ders.", "tags": ["Algoritmalar", "Veri yapıları", "Programlama", "YZ ve makine öğrenmesi"], "hl": ["Bilgisayar bilimi eğitimi için pratik beceriler"], "tracks": [["13–15", "Algoritmik düşünme, temel kavramlar ve önemli algoritmaların nasıl çalıştığı."], ["16–18", "Veri yapıları, algoritmik karmaşıklık, yazılım mühendisliği ilkeleri ve uygulamalı projelerle yapay zekâ ve makine öğrenmesine giriş."]] }
+    "tr": { "focus": "Teknoloji yeniliğinin küresel merkezlerinden birinde bilgisayar bilimi temeli oluşturun; her yaş grubuna uygun ayrı bir ders.", "tags": ["Algoritmalar", "Veri yapıları", "Programlama", "Yapay zekâ ve makine öğrenmesi"], "hl": ["Bilgisayar bilimi eğitimi için pratik beceriler"], "tracks": [["13–15", "Bilgi işlemsel düşünme, temel kavramlar ve önemli algoritmaların nasıl çalıştığı."], ["16–18", "Veri yapıları, algoritmik karmaşıklık, yazılım mühendisliği ilkeleri ve uygulamalı projelerle yapay zekâ ve makine öğrenmesine giriş."]] }
   },
   "creative-industries-summer-school-ci-cambridge": {
     "flags": [],
@@ -52,7 +52,7 @@
   "criminology-summer-school-cambridge": {
     "flags": [],
     "en": { "focus": "Explore crime, justice and the criminal mind through case studies and expert-led discussion.", "tags": ["Criminological theory", "Case studies", "Justice", "Critical thinking"], "hl": ["Builds critical thinking and analytical skills", "Prepares for criminology, law or social sciences"] },
-    "tr": { "focus": "Suçu, adaleti ve suçlu zihnini vaka çalışmaları ve uzman liderliğindeki tartışmalarla keşfedin.", "tags": ["Kriminoloji kuramı", "Vaka çalışmaları", "Adalet", "Eleştirel düşünme"], "hl": ["Eleştirel düşünme ve analitik becerileri geliştirir", "Kriminoloji, hukuk veya sosyal bilimlere hazırlar"] }
+    "tr": { "focus": "Suçu, adaleti ve suçlu zihnini vaka çalışmaları ve uzmanların yönettiği tartışmalarla keşfedin.", "tags": ["Kriminoloji kuramı", "Vaka çalışmaları", "Adalet", "Eleştirel düşünme"], "hl": ["Eleştirel düşünme ve analitik becerileri geliştirir", "Kriminoloji, hukuk veya sosyal bilimlere hazırlar"] }
   },
   "economics-summer-school-cambridge": {
     "flags": ["Listed ages are 16–18, but the page text also describes a 13–15 group"],
@@ -72,7 +72,7 @@
   "female-future-leaders-summer-school-cambridge": {
     "flags": [],
     "en": { "focus": "A leadership programme for young women aged 16–18, built on interactive workshops, discussions and case studies.", "tags": ["Leadership", "Confidence", "Resilience", "Strategic thinking"], "hl": ["Interactive workshops and case studies", "Prepares for leadership roles in study and careers"] },
-    "tr": { "focus": "16–18 yaşındaki genç kadınlar için; interaktif atölyeler, tartışmalar ve vaka çalışmalarına dayanan bir liderlik programı.", "tags": ["Liderlik", "Özgüven", "Dayanıklılık", "Stratejik düşünme"], "hl": ["İnteraktif atölyeler ve vaka çalışmaları", "Eğitim ve kariyerde liderlik rollerine hazırlar"] }
+    "tr": { "focus": "16–18 yaşındaki genç kadınlar için; etkileşimli atölyeler, tartışmalar ve vaka çalışmalarına dayanan bir liderlik programı.", "tags": ["Liderlik", "Özgüven", "Dayanıklılık", "Stratejik düşünme"], "hl": ["Etkileşimli atölyeler ve vaka çalışmaları", "Eğitim ve kariyerde liderlik rollerine hazırlar"] }
   },
   "global-leadership-summer-school-cambridge": {
     "flags": ["Source text is cut off before listing the personal and interpersonal skills workshops"],
@@ -92,7 +92,7 @@
   "law-summer-school-ci-cambridge": {
     "flags": [],
     "en": { "focus": "Learn criminal law, human rights and international law through mock courtrooms, law-firm visits and ethical debates.", "tags": ["Criminal law", "Human rights", "Advocacy", "Mock trials"], "hl": ["Law firm visits, case analysis, debate and simulated proceedings", "Workshops led by legal scholars and practitioners", "Insight into careers from government bodies to commercial firms"] },
-    "tr": { "focus": "Ceza hukuku, insan hakları ve uluslararası hukuku sahte mahkeme salonları, hukuk bürosu ziyaretleri ve etik tartışmalarla öğrenin.", "tags": ["Ceza hukuku", "İnsan hakları", "Savunuculuk", "Sahte duruşmalar"], "hl": ["Hukuk bürosu ziyaretleri, vaka analizi, tartışma ve simüle edilmiş yargılamalar", "Hukuk akademisyenleri ve uygulayıcıların yürüttüğü atölyeler", "Devlet kurumlarından ticari firmalara uzanan kariyerlere bakış"] }
+    "tr": { "focus": "Ceza hukuku, insan hakları ve uluslararası hukuku mahkeme canlandırmaları, hukuk bürosu ziyaretleri ve etik tartışmalarla öğrenin.", "tags": ["Ceza hukuku", "İnsan hakları", "Savunuculuk", "Duruşma canlandırmaları"], "hl": ["Hukuk bürosu ziyaretleri, vaka analizi, tartışma ve simüle edilmiş yargılamalar", "Hukuk akademisyenleri ve uygulayıcıların yürüttüğü atölyeler", "Devlet kurumlarından ticari firmalara uzanan kariyerlere bakış"] }
   },
   "mathematics-summer-school-cambridge": {
     "flags": [],

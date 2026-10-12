@@ -7,18 +7,18 @@
     },
     "tr": {
       "doTitle": "Neler yapacaksınız",
-      "doAppend": [{ "lead": "İnteraktif dersler ve münazaralar", "text": "Sürükleyici, uygulamalı öğretim ile muhakeme ve topluluk önünde konuşma becerisini geliştiren münazaralar." }],
+      "doAppend": [{ "lead": "Etkileşimli dersler ve münazaralar", "text": "Sürükleyici, uygulamalı öğretim ile muhakeme ve topluluk önünde konuşma becerisini geliştiren münazaralar." }],
       "outcomes": ["Academy Royale International tamamlama sertifikası (ders, tarihler ve kampüs)"]
     }
   },
   "cities": {
     "cambridge": {
       "en": { "extras": ["Guided walking tours, college visits and riverside highlights, plus an optional full-day London trip", "Punting on the Cam, creative workshops, debate evenings and museum and gallery visits", "Graduation ceremony, formal dinner and party in a Cambridge venue"] },
-      "tr": { "extras": ["Rehberli yürüyüş turları, kolej ziyaretleri ve nehir kıyısı gezileri; isteğe bağlı tam gün Londra gezisi", "Cam nehrinde kayık gezisi, yaratıcı atölyeler, münazara akşamları ve müze ile galeri ziyaretleri", "Cambridge'de mezuniyet töreni, resmi akşam yemeği ve parti"] }
+      "tr": { "extras": ["Rehberli yürüyüş turları, kolej ziyaretleri ve nehir kıyısı gezileri; isteğe bağlı tam gün Londra gezisi", "Cam nehrinde kayıkla gezinti (punting), yaratıcı atölyeler, münazara akşamları ve müze ile galeri ziyaretleri", "Cambridge'de mezuniyet töreni, resmi akşam yemeği ve parti"] }
     },
     "oxford": {
       "en": { "extras": ["Punting on the Cherwell, creative workshops, debate evenings, karaoke and talent shows", "Visits to museums, galleries, the Covered Market and Westgate", "Welcome activities to help everyone settle in quickly"] },
-      "tr": { "extras": ["Cherwell nehrinde kayık gezisi, yaratıcı atölyeler, münazara akşamları, karaoke ve yetenek gösterileri", "Müze, galeri, Covered Market ve Westgate ziyaretleri", "Herkesin çabuk uyum sağlaması için karşılama etkinlikleri"] }
+      "tr": { "extras": ["Cherwell nehrinde kayıkla gezinti (punting), yaratıcı atölyeler, münazara akşamları, karaoke ve yetenek gösterileri", "Müze, galeri, Covered Market ve Westgate ziyaretleri", "Herkesin çabuk uyum sağlaması için karşılama etkinlikleri"] }
     },
     "london": {
       "en": { "extras": ["Creative workshops and group outings to museums, galleries and riverside destinations", "Welcome activities, a debate society and a grand final"] },

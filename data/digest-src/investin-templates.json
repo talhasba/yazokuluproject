@@ -15,7 +15,7 @@
   "cities": {
     "ucl": {
       "en": { "extras": ["Based at UCL and the University of London campus, with some days at industry locations across London", "Students live in University of London halls: single en-suite rooms", "2-Week Enhanced option: 15 extra hours with professionals, a portfolio, a career weekend and a Gala dinner", "Enhanced also includes assessment for a Level 3 Award in Work Experience and UCAS points"] },
-      "tr": { "extras": ["UCL ve Londra Üniversitesi kampüsünde; bazı günler Londra'daki sektör mekânlarında", "Öğrenciler Londra Üniversitesi yurtlarında kalır: tek kişilik, banyolu odalar", "2 Haftalık Enhanced seçeneği: profesyonellerle 15 ek saat, portföy, kariyer hafta sonu ve Gala yemeği", "Enhanced ayrıca Level 3 İş Deneyimi Ödülü ve UCAS puanı değerlendirmesini içerir"] }
+      "tr": { "extras": ["UCL ve Londra Üniversitesi kampüsünde; bazı günler Londra'daki sektör mekânlarında", "Öğrenciler Londra Üniversitesi yurtlarında kalır: tek kişilik, banyolu odalar", "2 Haftalık Enhanced seçeneği: profesyonellerle 15 ek saat, portfolyo, kariyer hafta sonu ve Gala yemeği", "Enhanced ayrıca Level 3 İş Deneyimi Ödülü ve UCAS puanı değerlendirmesini içerir"] }
     }
   }
 }

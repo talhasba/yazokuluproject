@@ -17,7 +17,7 @@
     "tr": {
       "focus": "Kalkülüs ve matematiksel modellemenin temellerini öğrenin — fonksiyonlar, türevler, integraller ve veri analizi — ve bunları gerçek dünyadaki doğa, toplum ve teknik problemlere uygulayın.",
       "tags": ["Kalkülüs", "Veri analizi", "Optimizasyon", "Modelleme"],
-      "hl": ["Lojistik büyümeden tahmine gerçek matematiksel modeller kurun ve analiz edin", "İstatistik ve regresyonu gerçek veri setlerinde kullanın"],
+      "hl": ["Lojistik büyümeden tahmin modellerine kadar gerçek matematiksel modeller kurun ve analiz edin", "İstatistik ve regresyonu gerçek veri setlerinde kullanın"],
       "do": [
         ["Türevler ve değişim", "Türevlerin değişimi nasıl ölçtüğünü görün ve temel optimizasyon problemlerini çözmek için kullanın."],
         ["İntegraller ve diferansiyel denklemler", "Değişim oranlarından, gerçek süreçleri tanımlayan integrallere ve diferansiyel denklemlere geçin."],
@@ -74,18 +74,18 @@
       "fit": ["Wants hands-on experience with AI and robotics hardware", "Ages 16–18 with at least B2 English"]
     },
     "tr": {
-      "focus": "Donanım montajından pekiştirmeli öğrenmeye, sensör kalibrasyonuna ve otonom navigasyona kadar gerçek bir yapay zeka destekli robot inşa edip eğitin.",
-      "tags": ["Robotik", "Pekiştirmeli öğrenme", "Yapay zeka", "Sensörler", "Donanım"],
+      "focus": "Donanım montajından pekiştirmeli öğrenmeye, sensör kalibrasyonuna ve otonom navigasyona kadar gerçek bir yapay zekâ destekli robot inşa edip eğitin.",
+      "tags": ["Robotik", "Pekiştirmeli öğrenme", "Yapay zekâ", "Sensörler", "Donanım"],
       "hl": ["Motor, sensör ve kameradan tam işlevli bir robot monte edin", "Kendi pekiştirmeli öğrenme politikanızı eğitip devreye alın", "Eğittiğiniz robotu engelli minyatür bir ray hattında yarıştırın"],
       "do": [
-        ["Robot donanımı", "Robotu monte edin: motorları takın, kamera ve sensörleri bağlayın, acil durdurmayı kablolandırın ve ilk kez çalıştırın."],
+        ["Robot donanımı", "Robotu monte edin: motorları takın, kamera ve sensörleri bağlayın, acil durdurma düğmesinin kablolarını bağlayın ve ilk kez çalıştırın."],
         ["Algılama ve kalibrasyon", "Ham sensör sinyallerini analiz edin; kamera, mesafe sensörü ve mıknatıs dedektörünü uygulamalı deneylerle kalibre edin."],
-        ["Pekiştirmeli öğrenme", "Hazır RL modellerini çalıştırıp ayarlayın, ardından robotun navigasyon tarzını şekillendirmek için ödül parametrelerini değiştirin."],
+        ["Pekiştirmeli öğrenme", "Hazır pekiştirmeli öğrenme (RL) modellerini çalıştırıp ayarlayın, ardından robotun navigasyon tarzını şekillendirmek için ödül parametrelerini değiştirin."],
         ["Eğitim ve devreye alma", "Bir eğitim döngüsü başlatın, elde edilen politikayı dışa aktarın ve robota yükleyerek gerçek dünya performansını test edin."],
         ["Botun yolculuğu", "Eğittiğiniz robotu engeller ve mıknatıslı istasyonlar içeren tam bir minyatür ray hattında çalıştırın."]
       ],
       "outcomes": ["Çalışan bir robotik platformu monte edip kalibre edebilme", "Gerçek donanımda bir pekiştirmeli öğrenme politikası eğitip devreye alabilme"],
-      "fit": ["Yapay zeka ve robotik donanımıyla uygulamalı deneyim isteyenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
+      "fit": ["Yapay zekâ ve robotik donanımıyla uygulamalı deneyim isteyenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
     }
   },
   "chemistry-and-research": {
@@ -104,12 +104,12 @@
       "fit": ["Curious about how chemistry powers living systems and technology", "Ages 16–18 with at least B2 English"]
     },
     "tr": {
-      "focus": "Temel kimyayı — atomik yapı, reaksiyonlar, asitler ve bazlar — ileri malzemelere, biyokimyaya ve günlük hayata bağlayın.",
-      "tags": ["Kimyasal bağlar", "Reaksiyonlar", "Biyokimya", "Malzemeler", "Sürdürülebilirlik"],
-      "hl": ["Periyodik tablo boyunca uygulamalı etkinlikler ve gösterimler", "Yapay zekanın moleküler keşfi nasıl değiştirdiğini görün"],
+      "focus": "Temel kimyayı — atomik yapı, tepkimeler, asitler ve bazlar — ileri malzemelere, biyokimyaya ve günlük hayata bağlayın.",
+      "tags": ["Kimyasal bağlar", "Tepkimeler", "Biyokimya", "Malzemeler", "Sürdürülebilirlik"],
+      "hl": ["Periyodik tablo boyunca uygulamalı etkinlikler ve deney gösterileri", "Yapay zekânın moleküler keşfi nasıl değiştirdiğini görün"],
       "do": [
         ["Atomik yapı ve bağlar", "Periyodik tablonun elementleri nasıl organize ettiğini ve kimyasal bağların çeşitli maddeleri nasıl oluşturduğunu keşfedin."],
-        ["Reaksiyonlar, asitler ve bazlar", "Maddelerin nasıl dönüştüğünü ve kimyagerlerin bunları tanımlamak için kullandığı analitik teknikleri inceleyin."],
+        ["Tepkimeler, asitler ve bazlar", "Maddelerin nasıl dönüştüğünü ve kimyagerlerin bunları tanımlamak için kullandığı analitik teknikleri inceleyin."],
         ["Yaşamın biyokimyası", "Karbonun bağ çeşitliliğinin proteinleri, karbonhidratları, lipitleri ve nükleik asitleri nasıl inşa ettiğini görün."],
         ["Malzemeler, tıp ve sürdürülebilirlik", "Nanomalzemelere, ilaç keşfine ve kirlilik, plastikler ile yeşil enerjinin arkasındaki kimyaya bakın."]
       ],
@@ -133,16 +133,16 @@
       "fit": ["Curious about genetics, the brain, or how living systems work", "Ages 16–18 with at least B2 English"]
     },
     "tr": {
-      "focus": "Hücre yapısından ve DNA'dan evrime, beyin işlevine ve ekosistemlere kadar biyolojiyi keşfedin; genetik, tıp ve koruma alanlarındaki gerçek uygulamalarla.",
+      "focus": "Hücre yapısından ve DNA'dan evrime, beyin işlevine ve ekosistemlere kadar biyolojiyi keşfedin; genetik, tıp ve doğa koruma alanlarındaki gerçek uygulamalarla.",
       "tags": ["Hücre biyolojisi", "Genetik", "Evrim", "Ekoloji", "Biyomühendislik"],
-      "hl": ["Klasik genetiği modern gen düzenlemeye bağlayın", "Sıra dışı yaşam formlarını ve adaptasyonları keşfedin"],
+      "hl": ["Klasik genetiği modern gen düzenlemeye bağlayın", "Uç koşullarda yaşayan alışılmadık canlıları ve adaptasyonlarını keşfedin"],
       "do": [
         ["Hücreler ve genetik", "Hücre yapısını ve iletişimini inceleyin, ardından gen ifadesini klasik kalıtımdan modern gen düzenlemeye kadar izleyin."],
         ["Evrim ve beyin", "Doğal seçilimi ve fosil kanıtlarını inceleyin, ardından nöroplastisitenin davranışı nasıl şekillendirdiğini keşfedin."],
         ["Ekoloji ve bağışıklık", "Ekosistemlerde enerji akışını izleyin ve bağışıklık sisteminin patojenlere ve aşılara nasıl tepki verdiğini görün."],
         ["Biyomühendislik", "Genetik mühendisliğine, rejeneratif teknolojilere ve biyolojik müdahalenin etiğine bakın."]
       ],
-      "outcomes": ["Hücrelerin, genlerin ve evrimin canlı sistemleri nasıl şekillendirdiğini açıklayabilme", "Biyolojiyi genetik mühendisliği, tıp ve korumaya bağlayabilme"],
+      "outcomes": ["Hücrelerin, genlerin ve evrimin canlı sistemleri nasıl şekillendirdiğini açıklayabilme", "Biyolojiyi genetik mühendisliği, tıp ve doğa korumaya bağlayabilme"],
       "fit": ["Genetiği, beyni veya canlı sistemlerin nasıl çalıştığını merak edenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
     }
   },
@@ -162,16 +162,16 @@
       "fit": ["Enjoys connecting physics principles to real-world technology", "Ages 16–18 with at least B2 English"]
     },
     "tr": {
-      "focus": "Hareket, enerji, dalgalar ve elektromanyetizmayı inceleyin; bunları modern hesaplama, yapay zeka ve uzay keşfiyle ilişkilendirin.",
-      "tags": ["Mekanik", "Elektromanyetizma", "Optik", "Hesaplama ve YZ"],
-      "hl": ["Klasik fiziği yapay zekayı güçlendiren yarı iletkenlere bağlayın", "Uydu fırlatmalarının arkasındaki yörünge ve kaçış hızlarını türetin"],
+      "focus": "Hareket, enerji, dalgalar ve elektromanyetizmayı inceleyin; bunları modern hesaplama, yapay zekâ ve uzay keşfiyle ilişkilendirin.",
+      "tags": ["Mekanik", "Elektromanyetizma", "Optik", "Hesaplama ve yapay zekâ"],
+      "hl": ["Klasik fiziği yapay zekâyı güçlendiren yarı iletkenlere bağlayın", "Uydu fırlatmalarının arkasındaki yörünge ve kaçış hızlarını türetin"],
       "do": [
         ["Kuvvetler, dalgalar ve ısı", "Hareketi, Newton yasalarını, dalga davranışını ve gerçek motorların neden Carnot verimliliğinin gerisinde kaldığını işleyin."],
         ["Elektrik ve manyetizma", "Ohm ve Kirchhoff yasalarını uygulayın, ardından jeneratörler ve indüksiyon ocakları üzerinden indüksiyonu keşfedin."],
         ["Optik ve uzay", "Yansıma, kırılma ve mercekleri inceleyin, ardından uzay yolculuğunun arkasındaki yörünge ve kaçış hızlarını türetin."],
-        ["Hesaplama ve yapay zekanın fiziği", "Dijital devrelerin ve yapay zeka donanımının temelindeki yarı iletken bant teorisi ve transistör anahtarlamasına dalın."]
+        ["Hesaplama ve yapay zekânın fiziği", "Dijital devrelerin ve yapay zekâ donanımının temelindeki yarı iletken bant teorisi ve transistör anahtarlamasına dalın."]
       ],
-      "outcomes": ["Temel fizik ilkelerini gerçek mekanik, elektrik ve optik sistemlere uygulayabilme", "Fiziği modern hesaplama, yapay zeka donanımı ve uzay keşfine bağlayabilme"],
+      "outcomes": ["Temel fizik ilkelerini gerçek mekanik, elektrik ve optik sistemlere uygulayabilme", "Fiziği modern hesaplama, yapay zekâ donanımı ve uzay keşfine bağlayabilme"],
       "fit": ["Fizik ilkelerini gerçek dünya teknolojisine bağlamayı sevenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
     }
   },
@@ -191,16 +191,16 @@
       "fit": ["Curious about psychology, society, or how media and technology shape behavior", "Ages 16–18 with at least B2 English"]
     },
     "tr": {
-      "focus": "İnsanların neden öyle düşündüğünü, hissettiğini ve davrandığını bio-psiko-sosyal bakış açılarıyla, karar verme, sosyal etki ve medya okuryazarlığıyla keşfedin.",
+      "focus": "İnsanların neden öyle düşündüğünü, hissettiğini ve davrandığını biyo-psiko-sosyal bakış açılarıyla, karar verme, sosyal etki ve medya okuryazarlığıyla keşfedin.",
       "tags": ["Psikoloji", "Karar verme", "Sosyal etki", "Medya okuryazarlığı", "Toplum"],
-      "hl": ["İkna edici teknolojinin ve yapay zekanın günlük seçimleri nasıl şekillendirdiğini keşfedin", "Kanıta dayalı, yönlendirici olmayan araştırma yöntemlerini uygulayın"],
+      "hl": ["İkna edici teknolojinin ve yapay zekânın günlük seçimleri nasıl şekillendirdiğini keşfedin", "Kanıta dayalı, yönlendirici olmayan araştırma yöntemlerini uygulayın"],
       "do": [
         ["Davranışın temelleri", "Bio-psiko-sosyal modeli ve bir davranışın birden fazla bakış açısıyla nasıl açıklanabileceğini keşfedin."],
         ["Karar verme ve önyargı", "Yaygın sezgisel kısayolları ve önyargıları, ayrıca seçim mimarisinin daha iyi kararları nasıl desteklediğini inceleyin."],
-        ["Sosyal etki", "Sosyal kanıtın, normatif baskının ve otoritenin nasıl işlediğini; işbirliğini ve yardımlaşmayı neyin arttırdığını inceleyin."],
-        ["Medya, teknoloji ve sivil yaşam", "Kaynak değerlendirme ve medya okuryazarlığı uygulayın, ardından kurumları ve sivil eylemi ikna edici teknoloji ve yapay zekaya bağlayın."]
+        ["Sosyal etki", "Sosyal kanıtın, normatif baskının ve otoritenin nasıl işlediğini; işbirliğini ve yardımlaşmayı neyin artırdığını inceleyin."],
+        ["Medya, teknoloji ve sivil yaşam", "Kaynak değerlendirme ve medya okuryazarlığı üzerine çalışın, ardından kurumları ve sivil eylemi ikna edici teknoloji ve yapay zekâya bağlayın."]
       ],
-      "outcomes": ["İnsan davranışını bio-psiko-sosyal bakış açılarıyla açıklayabilme", "Medyayı, teknolojiyi ve sivil sistemleri eleştirel biçimde değerlendirebilme"],
+      "outcomes": ["İnsan davranışını biyo-psiko-sosyal bakış açılarıyla açıklayabilme", "Medyayı, teknolojiyi ve sivil sistemleri eleştirel biçimde değerlendirebilme"],
       "fit": ["Psikolojiyi, toplumu veya medya ile teknolojinin davranışı nasıl şekillendirdiğini merak edenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
     }
   },
@@ -220,16 +220,16 @@
       "fit": ["Enjoys creative problem-solving and building things users actually need", "Ages 16–18 with at least B2 English"]
     },
     "tr": {
-      "focus": "Empati kurma, tanımlama, fikir üretme, prototipleme ve test etmeyi kapsayan tam insan odaklı tasarım döngüsünü uygulayın; yapay zeka destekli ve veriye dayalı tasarım dahil.",
-      "tags": ["Tasarım odaklı düşünme", "Prototipleme", "Kullanıcı araştırması", "YZ destekli tasarım"],
-      "hl": ["Kullanıcı araştırmasından test edilmiş bir prototipe kadar tam tasarım döngüsünü uygulayın", "Yapay zeka destekli tasarım iş akışlarını, kalite kontrolünü ve etiği keşfedin"],
+      "focus": "Empati kurma, tanımlama, fikir üretme, prototipleme ve test etmeyi kapsayan tam insan odaklı tasarım döngüsünü uygulayın; yapay zekâ destekli ve veriye dayalı tasarım dahil.",
+      "tags": ["Tasarım odaklı düşünme", "Prototipleme", "Kullanıcı araştırması", "Yapay zekâ destekli tasarım"],
+      "hl": ["Kullanıcı araştırmasından test edilmiş bir prototipe kadar tam tasarım döngüsünü uygulayın", "Yapay zekâ destekli tasarım iş akışlarını, kalite kontrolünü ve etiği keşfedin"],
       "do": [
         ["Problemi çerçeveleme", "Tasarım odaklı düşünme aşamalarını öğrenin ve gerçek bir problemi kapsamak için güçlü “Nasıl Yapabiliriz” ifadeleri yazın."],
-        ["Kullanıcıları anlama", "Kullanıcılarla görüşün ve onları gözlemleyin, ardından içgörüleri kişiliklere ve yolculuk haritalarına dönüştürün."],
-        ["Fikir üretme ve prototipleme", "SCAMPER ve diğer tekniklerle beyin fırtınası yapın, ardından düşük ve yüksek çözünürlüklü prototipler oluşturup test edin."],
-        ["Hikaye anlatımı ve YZ destekli tasarım", "Fikirleri hikaye anlatımı ve görsel düşünmeyle sunun, ardından yapay zeka araçlarını, prompt yazımını ve sorumlu YZ tasarımını keşfedin."]
+        ["Kullanıcıları anlama", "Kullanıcılarla görüşün ve onları gözlemleyin, ardından içgörüleri personalara ve kullanıcı yolculuğu haritalarına dönüştürün."],
+        ["Fikir üretme ve prototipleme", "SCAMPER ve diğer tekniklerle beyin fırtınası yapın, ardından düşük ve yüksek sadakatli prototipler oluşturup test edin."],
+        ["Hikâye anlatımı ve yapay zekâ destekli tasarım", "Fikirleri hikâye anlatımı ve görsel düşünmeyle sunun, ardından yapay zekâ araçlarını, istem (prompt) yazımını ve sorumlu yapay zekâ tasarımını keşfedin."]
       ],
-      "outcomes": ["Araştırmadan test edilmiş bir prototipe kadar tam bir insan odaklı tasarım döngüsü yürütebilme", "Tasarım çalışmasında yapay zeka destekli ve veriye dayalı yöntemleri sorumlu biçimde uygulayabilme"],
+      "outcomes": ["Araştırmadan test edilmiş bir prototipe kadar tam bir insan odaklı tasarım döngüsü yürütebilme", "Tasarım çalışmasında yapay zekâ destekli ve veriye dayalı yöntemleri sorumlu biçimde uygulayabilme"],
       "fit": ["Yaratıcı problem çözmeyi ve kullanıcıların gerçekten ihtiyaç duyduğu şeyleri inşa etmeyi sevenler", "16–18 yaş, en az B2 seviyesinde İngilizce"]
     }
   },
@@ -251,13 +251,13 @@
     },
     "tr": {
       "focus": "Piyasaların nasıl işlediğini ve girişimlerin nasıl kurulduğunu öğrenin — arz-talep, maliyet sınıflandırması, girişim yatırımı, sunum yapma ve bütçeleme.",
-      "tags": ["Arz ve talep", "Girişimcilik", "Sunum yapma", "Bütçeleme", "Girişimler"],
+      "tags": ["Arz ve talep", "Girişimcilik", "Yatırımcı sunumu", "Bütçeleme", "Girişimler"],
       "hl": ["Gerçek yatırımcıların beklediği yapıyla bir girişim sunumu yapın", "İş Modeli Kanvası, SWOT ve diğer karar araçlarını uygulayın"],
       "do": [
         ["Arz, talep ve piyasalar", "Arz ve talep eğrilerini çizin; piyasa yapısının fiyatlandırmayı ve rekabeti nasıl etkilediğini görün."],
         ["Maliyet sınıflandırması", "Ürünleri fiyatlandırmak ve kaynakları akıllıca yönetmek için sabit, değişken ve marjinal maliyetleri ayırın."],
-        ["Bir girişimi planlama", "Bir iş fikrine İş Modeli Kanvası, müşteri kişilikleri, karar ağaçları ve SWOT analizini uygulayın."],
-        ["Sunum yapma ve finansman", "Problemden talebe bir sunum yapılandırın; girişim finansman turlarının ve yatırımcı beklentilerinin nasıl işlediğini öğrenin."],
+        ["Bir girişimi planlama", "Bir iş fikrine İş Modeli Kanvası, müşteri personaları, karar ağaçları ve SWOT analizini uygulayın."],
+        ["Yatırımcı sunumu ve finansman", "Problemden yatırım talebine uzanan bir sunum kurgulayın; girişim finansman turlarının ve yatırımcı beklentilerinin nasıl işlediğini öğrenin."],
         ["Gelir ve bütçeleme", "Basit bir bütçe oluşturun, bir gelir modeli seçin ve başabaş noktasını hesaplayın."]
       ],
       "outcomes": ["Arz, talep ve maliyet sınıflandırmasının iş kararlarını nasıl yönlendirdiğini açıklayabilme", "Gerçek yatırımcı çerçeveleriyle bir girişim planı, sunum ve bütçe oluşturabilme"],

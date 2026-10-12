@@ -2,7 +2,7 @@
   "banking-finance-summer-school-new-york": {
     "flags": [],
     "en": { "focus": "Explore investment banking, financial markets and global economics in the home of Wall Street.", "tags": ["Investment banking", "Financial markets", "Global economics"], "hl": ["A New York perspective on fast-paced finance", "Builds analytical skills and financial knowledge"] },
-    "tr": { "focus": "Wall Street'in evi New York'ta yatırım bankacılığını, finansal piyasaları ve küresel ekonomiyi keşfedin.", "tags": ["Yatırım bankacılığı", "Finansal piyasalar", "Küresel ekonomi"], "hl": ["Hızlı tempolu finansa New York perspektifinden bakış", "Analitik becerileri ve finansal bilgiyi geliştirir"] }
+    "tr": { "focus": "Wall Street'in kalbi New York'ta yatırım bankacılığını, finansal piyasaları ve küresel ekonomiyi keşfedin.", "tags": ["Yatırım bankacılığı", "Finansal piyasalar", "Küresel ekonomi"], "hl": ["Hızlı tempolu finansa New York perspektifinden bakış", "Analitik becerileri ve finansal bilgiyi geliştirir"] }
   },
   "business-management-summer-school-new-york": {
     "flags": [],
@@ -12,7 +12,7 @@
   "fashion-design-summer-school-new-york": {
     "flags": [],
     "en": { "focus": "Cover fashion design fundamentals, trend analysis and the business of fashion, with visits to studios and showrooms.", "tags": ["Fashion design", "Trend analysis", "Business of fashion", "Studio and showroom visits"], "hl": ["Hands-on experience and creative insight", "Preparation for careers in fashion"] },
-    "tr": { "focus": "Moda tasarımının temellerini, trend analizini ve modanın iş tarafını stüdyo ve showroom ziyaretleriyle işleyin.", "tags": ["Moda tasarımı", "Trend analizi", "Moda işletmeciliği", "Stüdyo ve showroom ziyaretleri"], "hl": ["Uygulamalı deneyim ve yaratıcı içgörü", "Moda kariyerlerine hazırlık"] }
+    "tr": { "focus": "Moda tasarımının temellerini, trend analizini ve moda işletmeciliğini stüdyo ve showroom ziyaretleriyle işleyin.", "tags": ["Moda tasarımı", "Trend analizi", "Moda işletmeciliği", "Stüdyo ve showroom ziyaretleri"], "hl": ["Uygulamalı deneyim ve yaratıcı içgörü", "Moda kariyerlerine hazırlık"] }
   },
   "marketing-entertainment-summer-school-new-york": {
     "flags": [],
@@ -32,7 +32,7 @@
   "software-development-ai-summer-school-san-francisco": {
     "flags": [],
     "en": { "focus": "Cover programming, game design and software development through hands-on coding projects and insights from Silicon Valley developers.", "tags": ["Programming", "Game design", "Software development"], "hl": ["Insights from leading developers in Silicon Valley", "Preparation for careers in software engineering and gaming"] },
-    "tr": { "focus": "Programlama, oyun tasarımı ve yazılım geliştirmeyi uygulamalı kodlama projeleri ve Silikon Vadisi geliştiricilerinden içgörülerle işleyin.", "tags": ["Programlama", "Oyun tasarımı", "Yazılım geliştirme"], "hl": ["Silikon Vadisi'nin önde gelen geliştiricilerinden içgörüler", "Yazılım mühendisliği ve oyun kariyerlerine hazırlık"] }
+    "tr": { "focus": "Programlama, oyun tasarımı ve yazılım geliştirmeyi uygulamalı kodlama projeleri ve Silikon Vadisi geliştiricilerinden içgörülerle işleyin.", "tags": ["Programlama", "Oyun tasarımı", "Yazılım geliştirme"], "hl": ["Silikon Vadisi'nin önde gelen geliştiricilerinden içgörüler", "Yazılım mühendisliği ve oyun sektörü kariyerlerine hazırlık"] }
   },
   "business-management-summer-school-toronto": {
     "flags": [],
@@ -57,7 +57,7 @@
   "law-summer-school-toronto": {
     "flags": ["Listed ages are 15–18, but part of the page text says 16–18"],
     "en": { "focus": "Study legal systems, constitutional principles and human rights through lectures, case analysis and mock courtroom sessions.", "tags": ["Constitutional principles", "Human rights", "Mock courtroom", "Persuasive argument"], "hl": ["Builds public speaking, critical thinking and written expression"] },
-    "tr": { "focus": "Hukuk sistemlerini, anayasal ilkeleri ve insan haklarını dersler, vaka analizi ve sahte mahkeme oturumlarıyla inceleyin.", "tags": ["Anayasal ilkeler", "İnsan hakları", "Sahte mahkeme", "İkna edici argüman"], "hl": ["Topluluk önünde konuşmayı, eleştirel düşünmeyi ve yazılı anlatımı geliştirir"] }
+    "tr": { "focus": "Hukuk sistemlerini, anayasal ilkeleri ve insan haklarını dersler, vaka analizi ve mahkeme canlandırması oturumlarıyla inceleyin.", "tags": ["Anayasal ilkeler", "İnsan hakları", "Mahkeme canlandırması", "İkna edici argüman"], "hl": ["Topluluk önünde konuşmayı, eleştirel düşünmeyi ve yazılı anlatımı geliştirir"] }
   },
   "medicine-summer-school-toronto": {
     "flags": [],

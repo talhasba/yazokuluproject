@@ -2,7 +2,7 @@
   "architecture-design-summer-school-london": {
     "flags": [],
     "en": { "focus": "Explore design principles, urban planning and sustainable architecture, with workshops and site visits to iconic London landmarks.", "tags": ["Design principles", "Urban planning", "Sustainable architecture", "Site visits"], "hl": ["Interactive workshops", "Practical skills and insight into the architectural profession"] },
-    "tr": { "focus": "Tasarım ilkelerini, kent planlamayı ve sürdürülebilir mimariyi keşfedin; atölyeler ve Londra'nın simge yapılarına saha ziyaretleriyle.", "tags": ["Tasarım ilkeleri", "Kent planlama", "Sürdürülebilir mimari", "Saha ziyaretleri"], "hl": ["İnteraktif atölyeler", "Mimarlık mesleğine dair pratik beceriler ve içgörü"] }
+    "tr": { "focus": "Tasarım ilkelerini, kent planlamayı ve sürdürülebilir mimariyi keşfedin; atölyeler ve Londra'nın simge yapılarına saha ziyaretleriyle.", "tags": ["Tasarım ilkeleri", "Kent planlama", "Sürdürülebilir mimari", "Saha ziyaretleri"], "hl": ["Etkileşimli atölyeler", "Mimarlık mesleğine dair pratik beceriler ve içgörü"] }
   },
   "banking-finance-summer-school-london": {
     "flags": [],
@@ -17,7 +17,7 @@
   "creative-industries-summer-school-london": {
     "flags": [],
     "en": { "focus": "Get an insider's look at creative industries through practical briefs and visits to studios and agencies, from branding to visual storytelling.", "tags": ["Brand development", "Digital campaigns", "Visual storytelling", "User experience"], "hl": ["Visits to industry-leading creative firms", "Learn from industry insiders", "Relevant to marketing, design, film or creative direction"] },
-    "tr": { "focus": "Yaratıcı sektörlere içeriden bakın: markalaşmadan görsel hikâye anlatımına, pratik görevler ve stüdyo ile ajans ziyaretleriyle.", "tags": ["Marka geliştirme", "Dijital kampanyalar", "Görsel hikâye anlatımı", "Kullanıcı deneyimi"], "hl": ["Sektörün önde gelen yaratıcı firmalarına ziyaretler", "Sektör insiderlarından öğrenin", "Pazarlama, tasarım, sinema veya yaratıcı yönetmenlik için ilgili"] }
+    "tr": { "focus": "Yaratıcı sektörlere içeriden bakın: markalaşmadan görsel hikâye anlatımına, pratik görevler ve stüdyo ile ajans ziyaretleriyle.", "tags": ["Marka geliştirme", "Dijital kampanyalar", "Görsel hikâye anlatımı", "Kullanıcı deneyimi"], "hl": ["Sektörün önde gelen yaratıcı firmalarına ziyaretler", "Sektörün içinden isimlerden öğrenin", "Pazarlama, tasarım, sinema veya yaratıcı yönetmenlik alanlarıyla ilgili"] }
   },
   "economics-summer-school-ai-london": {
     "flags": [],
@@ -47,7 +47,7 @@
   "law-summer-school-ai-london": {
     "flags": ["Listed ages are 15–18, but part of the page text says 16–18"],
     "en": { "focus": "Study criminal and civil law, ethical debates and landmark cases through seminars, workshops and mock courtroom experiences.", "tags": ["Criminal law", "Civil law", "Legal ethics", "Advocacy", "Mock courtroom"], "hl": ["Build persuasive arguments and evaluate legislation", "Guided by academic mentors", "Preparation for law, politics or related study"] },
-    "tr": { "focus": "Ceza ve medeni hukuku, etik tartışmaları ve dönüm noktası davaları seminerler, atölyeler ve sahte mahkeme deneyimleriyle inceleyin.", "tags": ["Ceza hukuku", "Medeni hukuk", "Hukuk etiği", "Savunuculuk", "Sahte mahkeme"], "hl": ["İkna edici argümanlar kurun ve mevzuatı değerlendirin", "Akademik mentor rehberliği", "Hukuk, siyaset veya ilgili alanlara hazırlık"] }
+    "tr": { "focus": "Ceza ve medeni hukuku, etik tartışmaları ve dönüm noktası davaları seminerler, atölyeler ve mahkeme canlandırması deneyimleriyle inceleyin.", "tags": ["Ceza hukuku", "Medeni hukuk", "Hukuk etiği", "Savunuculuk", "Mahkeme canlandırması"], "hl": ["İkna edici argümanlar kurun ve mevzuatı değerlendirin", "Akademik mentor rehberliği", "Hukuk, siyaset veya ilgili alanlara hazırlık"] }
   },
   "law-summer-school-london": {
     "flags": [],

@@ -7,7 +7,7 @@
   "artificial-intelligence-summer-school-oxford": {
     "flags": ["Page text gives both 16–18 and 15–18 as the target age"],
     "en": { "focus": "Learn how AI works, from algorithms to machine learning, and how it is changing industries, through coding activities and group discussion.", "tags": ["Algorithms", "Machine learning", "Coding", "AI and society"], "hl": ["A starting point for computer science or your own tech ideas", "Explores AI's impact on society and industries"] },
-    "tr": { "focus": "Algoritmalardan makine öğrenmesine yapay zekânın nasıl çalıştığını ve sektörleri nasıl değiştirdiğini kodlama etkinlikleri ve grup tartışmalarıyla öğrenin.", "tags": ["Algoritmalar", "Makine öğrenmesi", "Kodlama", "YZ ve toplum"], "hl": ["Bilgisayar bilimi veya kendi teknoloji fikirleriniz için bir başlangıç", "Yapay zekânın toplum ve sektörler üzerindeki etkisini inceler"] }
+    "tr": { "focus": "Algoritmalardan makine öğrenmesine yapay zekânın nasıl çalıştığını ve sektörleri nasıl değiştirdiğini kodlama etkinlikleri ve grup tartışmalarıyla öğrenin.", "tags": ["Algoritmalar", "Makine öğrenmesi", "Kodlama", "Yapay zekâ ve toplum"], "hl": ["Bilgisayar bilimi veya kendi teknoloji fikirleriniz için bir başlangıç", "Yapay zekânın toplum ve sektörler üzerindeki etkisini inceler"] }
   },
   "biology-summer-school-oxford": {
     "flags": [],
@@ -27,7 +27,7 @@
   "computer-science-summer-school-oxford": {
     "flags": ["Listed ages are 13–15 and 16–18, but the page text only describes the 13–15 course"],
     "en": { "focus": "Introduces computational thinking, programming languages and problem-solving through code, in a city with a growing tech reputation.", "tags": ["Computational thinking", "Programming", "Problem-solving"], "hl": ["Builds practical skills and confidence for younger students"], "tracks": [["13–15", "Foundational concepts: computational thinking, programming languages and problem-solving through code."]] },
-    "tr": { "focus": "Teknolojik yenilik konusunda itibarı artan bir şehirde algoritmik düşünme, programlama dilleri ve kodla problem çözmeyi tanıtır.", "tags": ["Algoritmik düşünme", "Programlama", "Problem çözme"], "hl": ["Genç öğrenciler için pratik beceri ve özgüven kazandırır"], "tracks": [["13–15", "Temel kavramlar: algoritmik düşünme, programlama dilleri ve kodla problem çözme."]] }
+    "tr": { "focus": "Teknolojik yenilik konusunda itibarı artan bir şehirde bilgi işlemsel düşünmeyi, programlama dillerini ve kodla problem çözmeyi tanıtır.", "tags": ["Bilgi işlemsel düşünme", "Programlama", "Problem çözme"], "hl": ["Genç öğrenciler için pratik beceri ve özgüven kazandırır"], "tracks": [["13–15", "Temel kavramlar: bilgi işlemsel düşünme, programlama dilleri ve kodla problem çözme."]] }
   },
   "creative-writing-summer-school-oxford": {
     "flags": [],
@@ -52,12 +52,12 @@
   "english-literature-summer-school-oxford": {
     "flags": [],
     "en": { "focus": "Study poetry, prose and drama from Chaucer to contemporary fiction, and develop your own critical voice.", "tags": ["Poetry", "Prose", "Drama", "Literary theory", "Essay writing"], "hl": ["Essay writing, discussion and text-based workshops", "Based at Oxford University"] },
-    "tr": { "focus": "Chaucer'dan çağdaş kurguya şiir, düzyazı ve tiyatro eserlerini inceleyin ve kendi eleştirel sesinizi geliştirin.", "tags": ["Şiir", "Düzyazı", "Tiyatro", "Edebiyat kuramı", "Deneme yazımı"], "hl": ["Deneme yazımı, tartışma ve metin odaklı atölyeler", "Oxford Üniversitesi'nde"] }
+    "tr": { "focus": "Chaucer'dan çağdaş kurguya şiir, düzyazı ve tiyatro eserlerini inceleyin ve kendi eleştirel sesinizi geliştirin.", "tags": ["Şiir", "Düzyazı", "Tiyatro", "Edebiyat kuramı", "Deneme yazımı"], "hl": ["Deneme yazımı, tartışma ve metin odaklı atölyeler", "Oxford Üniversitesi'nde gerçekleşir"] }
   },
   "film-studies-summer-school-oxford": {
     "flags": ["Listed ages are 16–18, but part of the page text says 15–18"],
     "en": { "focus": "Watch classic and modern films to learn how directors create stories, and how cameras and technique shape the way we experience cinema.", "tags": ["Direction", "Cinematography", "Narrative techniques"], "hl": ["A good fit if you are thinking about studying film or love creative storytelling"] },
-    "tr": { "focus": "Yönetmenlerin hikâye anlatımını ve kamera ile tekniğin sinema deneyimini nasıl şekillendirdiğini klasik ve modern filmler izleyerek öğrenin.", "tags": ["Yönetmenlik", "Görüntü yönetimi", "Anlatı teknikleri"], "hl": ["Film okumayı düşünenler veya yaratıcı hikâye anlatımını sevenler için uygun"] }
+    "tr": { "focus": "Yönetmenlerin hikâye anlatımını ve kamera ile tekniğin sinema deneyimini nasıl şekillendirdiğini klasik ve modern filmler izleyerek öğrenin.", "tags": ["Yönetmenlik", "Görüntü yönetimi", "Anlatı teknikleri"], "hl": ["Film eğitimi almayı düşünenler veya yaratıcı hikâye anlatımını sevenler için uygun"] }
   },
   "history-summer-school-oxford": {
     "flags": [],

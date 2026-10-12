@@ -134,7 +134,7 @@
       misfit: (a, r) => `Bu program ${r} yaş için listelenmiş. ${a} yaş bu aralığın dışında; danışmanımız uygun alternatifleri önerecek.`,
       noRange: "Bu programın yaş aralığı belirtilmemiş; danışmanımız yaşı kontrol edecek.",
       done: "Talebiniz alındı. En kısa sürede size dönüş yapacağız.", notConnected: "Form henüz bir e-posta adresine bağlı değil; bilgileriniz gönderilmedi.",
-      failed: "Gönderilemedi. Lütfen daha sonra tekrar deneyin veya WhatsApp ile yazın.", sending: "Gönderiliyor…", wa: "Whatsapp'tan Bilgi Al"
+      failed: "Gönderilemedi. Lütfen daha sonra tekrar deneyin veya WhatsApp ile yazın.", sending: "Gönderiliyor…", wa: "WhatsApp'tan Bilgi Al"
     },
     en: {
       title: "Information form", intro: "Fill in the form to get detailed information and a price quote for the programs you are interested in.",
