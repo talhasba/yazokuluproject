@@ -9,10 +9,10 @@
     <title>Summer Programs</title>
     <script>document.documentElement.classList.add('site-locked');</script>
     <script defer src="./password-lock.js"></script>
-    <script type="module" crossorigin src="./app-loader.js?v=20261005-2"></script>
+    <script type="module" crossorigin src="./app-loader.js?v=20261012-1"></script>
     <script defer src="./online-research-options.js?v=20261005-1"></script>
     <script defer src="./home-page.js"></script>
-    <script defer src="./program-page.js?v=20261005-2"></script>
+    <script defer src="./program-page.js?v=20261012-1"></script>
     <script defer src="./catalogue-cleanup.js"></script>
     <link rel="stylesheet" crossorigin href="./style.css">
     <link rel="stylesheet" href="./online-research-options.css">
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./catalogue-cleanup.css">
     <link rel="stylesheet" href="./program-page.css?v=20261005-2">
     <link rel="stylesheet" href="./password-lock.css">
-    <link rel="stylesheet" href="./palette.css?v=20261001-2">
+    <link rel="stylesheet" href="./palette.css?v=20261012-1">
   </head>
   <body>
     <div id="site-lock" class="site-lock" role="dialog" aria-modal="true" aria-labelledby="site-lock-title">
@@ -52,7 +52,10 @@
       <header class="home-header">
         <a class="home-brand" href="#/" aria-label="Ana sayfa">
           <img src="./summerbutwhere-logo.png" alt="SummerButWhere" />
-          <span data-home-en="An ASBA project" data-home-tr="Bir ASBA projesi">Bir ASBA projesi</span>
+          <div class="parent-brand">
+            <span class="parent-brand-label" data-home-en="An ASBA project" data-home-tr="Bir ASBA projesi">Bir ASBA projesi</span>
+            <img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237" />
+          </div>
         </a>
         <button id="home-language" class="home-language" type="button" aria-label="Change language">EN</button>
       </header>

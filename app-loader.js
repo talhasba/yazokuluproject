@@ -124,15 +124,41 @@ replaceOnce(
 
 replaceOnce(
   'siteSubtitle:"Discover summer programs, camps and schools worldwide"',
-  'siteSubtitle:"An ASBA project · Discover summer programs worldwide"',
-  "English parent-brand label"
+  'siteSubtitle:"Discover summer programs worldwide"',
+  "English catalogue subtitle"
 );
 
 replaceOnce(
   'siteSubtitle:"Dünya genelinde yaz programlarını, kampları ve okulları keşfedin"',
-  'siteSubtitle:"Bir ASBA projesi · Dünyadaki yaz programlarını keşfedin"',
-  "Turkish parent-brand label"
+  'siteSubtitle:"Dünyadaki yaz programlarını keşfedin"',
+  "Turkish catalogue subtitle"
 );
+
+// Keep the catalogue header aligned with the authored home and programme headers.
+// Patch only the compiled header; all filter and language callbacks remain intact.
+const headerStart = source.indexOf("function Nh(");
+const headerEnd = source.indexOf("function jh(", headerStart);
+if (headerStart < 0 || headerEnd < 0) throw new Error("Application header patch target not found");
+replaceOnce(source.slice(headerStart, headerEnd), `
+function Nh({lang:m,onToggleLang:x,onToggleMobileMenu:O,mobileMenuOpen:d,t:_}) {
+  return b.jsx("header", {className:"catalogue-header", children:b.jsxs("div", {
+    className:"catalogue-header-inner", children:[
+      b.jsxs("div", {className:"catalogue-brand", children:[
+        b.jsx("button", {onClick:O,className:"catalogue-menu rounded-lg p-2 text-surface-600 hover:bg-surface-100 lg:hidden","aria-label":"Toggle menu",children:d?b.jsx(j0,{size:22}):b.jsx(Oh,{size:22})}),
+        b.jsx("img", {src:"./summerbutwhere-logo.png",alt:"SummerButWhere",className:"catalogue-site-logo"}),
+        b.jsxs("div", {className:"catalogue-title",children:[
+          b.jsx("h1", {children:_.siteTitle}),
+          b.jsx("p", {children:_.siteSubtitle})
+        ]}),
+        b.jsxs("div", {className:"parent-brand",children:[
+          b.jsx("span", {className:"parent-brand-label",children:m==="tr"?"Bir ASBA projesi":"An ASBA project"}),
+          b.jsx("img", {src:"./assets/asba-logo.png",alt:"ASBA Yurtdışı Eğitim Danışmanlık",width:738,height:237})
+        ]})
+      ]}),
+      b.jsxs("button", {onClick:x,className:"catalogue-language flex items-center gap-1.5 rounded-lg border border-surface-200 px-3 py-1.5 text-sm font-medium text-surface-600 hover:bg-surface-100 transition-colors",children:[b.jsx(Mh,{size:16}),m==="en"?"EN":"TR"]})
+    ]
+  })});
+}`, "ASBA catalogue header logo");
 
 replaceOnce(
   'function C0(m,x){const O=x.get(m.id);return O&&O.length>0?O[0]:m.image_url?m.image_url:null}',
