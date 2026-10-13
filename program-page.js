@@ -177,14 +177,14 @@
     if (!loading) {
       const json = (url, fallback) => fetch(url).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
       loading = Promise.all([
-        json("./data/programs.normalized.json?v=20261012-7", []),
-        json("./data/program-digests.json?v=20261012-7", {}),
-        json("./data/image-candidates.json?v=20261012-7", {}),
+        json("./data/programs.normalized.json?v=20261013-1", []),
+        json("./data/program-digests.json?v=20261013-1", {}),
+        json("./data/image-candidates.json?v=20261013-1", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
-        json("./data/price-inclusions.json?v=20261012-7", {}),
-        import("./program-pricing.js?v=20261012-7"),
-        json("./data/program-image-sources.json?v=20261012-7", { images: {} })
+        json("./data/price-inclusions.json?v=20261013-1", {}),
+        import("./program-pricing.js?v=20261013-1"),
+        json("./data/program-image-sources.json?v=20261013-1", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
@@ -249,6 +249,7 @@
     const durationTr = {
       "1 Week": "1 hafta",
       "1 or 2 weeks": "1 veya 2 hafta",
+      "1-3 weeks": "1-3 hafta",
       "1 week": "1 hafta",
       "1 week – can be added to selected courses": "1 hafta – seçilen derslere eklenebilir",
       "10-15 contact hours": "10-15 ders saati",

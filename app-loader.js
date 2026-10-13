@@ -17,7 +17,7 @@ function mergeEditorOverride(base, override) {
 const [basePrograms, editorOverrides, photoSources] = await Promise.all([
   fetch("./data/programs.normalized.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : []),
   fetch("./data/program-editor-overrides.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : { programs: {} }).catch(() => ({ programs: {} })),
-  fetch("./data/program-image-sources.json?v=20261012-7").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
+  fetch("./data/program-image-sources.json?v=20261013-1").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
 ]);
 
 window.__PROGRAM_EDITOR_PROGRAMS__ = basePrograms.map((program) =>
@@ -33,6 +33,8 @@ const additionalSubjectBuckets = {
   "Biology & Research": "Medicine & Life Sciences",
   "Business, Finance and Economics": "Business",
   "Business, Leadership & Entrepreneurship": "Business",
+  "Careers & Life Skills": "Career",
+  "Chemical Engineering": "Engineering",
   "Chemistry & Research": "Medicine & Life Sciences",
   "Computer Science & Technology": "Computer Science",
   "Computing, Robotics and AI": "Computer Science",
@@ -121,7 +123,7 @@ replaceOnce(
 
 replaceOnce(
   '_0=["Bucksmore","Immerse Education","InvestIN Education","Oxford Royale","St Clare\'s, Oxford"]',
-  '_0=["Bucksmore","Constructor University Summer Camp","Edconic","Emerald Cultural Institute","Immerse Education","InvestIN Education","MPW Summer School","Academy Royale International","Schiller International University","Sportech Academy","St Clare\'s, Oxford","Summer Discovery"]',
+  '_0=["Bucksmore","Constructor University Summer Camp","Edconic","Emerald Cultural Institute","Immerse Education","InvestIN Education","MPW Summer School","Academy Royale International","Schiller International University","Sportech Academy","St Clare\'s, Oxford","Study Mind","Summer Discovery"]',
   "complete provider filter options"
 );
 
@@ -224,7 +226,7 @@ replaceOnce(
 
 replaceOnce(
   'fetch("data/image-candidates.json")',
-  'fetch("data/image-candidates.json?v=20261012-7")',
+  'fetch("data/image-candidates.json?v=20261013-1")',
   "program thumbnail cache version"
 );
 

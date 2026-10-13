@@ -1,13 +1,19 @@
 {
-  "input_photos": 463,
-  "photos_checked": 463,
-  "collection_sha256": "670b58c33d7340a559d0126740542703647041d9b968309ff698ea3ed1add517",
+  "input_photos": 478,
+  "photos_checked": 478,
+  "collection_sha256": "2194b7e7c75e60231402bcdd4f4f6df85ce11d4e7f6cd57d6816cd8038e27447",
   "pairs": [],
-  "reviewed": "2026-10-12",
-  "visually_reviewed_photos": 463,
-  "served_photo_urls_checked": 463,
-  "provider_photos": 229,
-  "illustrative_photos": 234,
+  "reviewed": "2026-10-13",
+  "visually_reviewed_photos": 478,
+  "served_photo_urls_checked": 478,
+  "provider_photos": 243,
+  "illustrative_photos": 235,
   "method": "SHA-256 file identity, 64-bit dHash with distance >3, ORB feature matching with homography and pixel agreement, and human contact-sheet review.",
-  "note": "No duplicate pairs detected in this collection. Automated similarity matching has practical limits; the collection fingerprint makes this report invalid if a photo changes."
+  "note": "No duplicate pairs detected in this collection. Automated similarity matching has practical limits; the collection fingerprint makes this report invalid if a photo changes.",
+  "additions_2026_10_13": {
+    "programmes": 15,
+    "provider": "Study Mind",
+    "checks": "SHA-256 identity and 64-bit dHash distance >3 against the whole collection at import; human contact-sheet review of all 15 photographs. ORB feature matching was not re-run for this addition.",
+    "note": "Careers and Life Skills shares Creative Writing's photograph on the provider site, so it uses a distinct CC0 illustrative photograph; a first candidate (an unrelated gift photo) was rejected on visual review."
+  }
 }

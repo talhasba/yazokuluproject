@@ -1,0 +1,1 @@
+(function(){var t=/(trident|msie)/i.test(navigator.userAgent);if(t&&document.getElementById&&window.addEventListener){window.addEventListener("hashchange",function(){var t=location.hash.substring(1),e;if(!/^[A-z0-9_-]+$/.test(t)){return}e=document.getElementById(t);if(e){if(!/^(?:a|select|input|button|textarea)$/i.test(e.tagName)){e.tabIndex=-1}e.focus()}},false)}})();

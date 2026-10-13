@@ -17,6 +17,7 @@ const files = [
   "normalized_new_providers/summer_discovery.normalized.json",
   "normalized_constructor/constructor.normalized.json",
   "normalized_academy_royale/academy-royale.normalized.json",
+  "normalized_studymind/studymind.normalized.json",
 ];
 
 const translatedProviders = new Set([
@@ -25,6 +26,7 @@ const translatedProviders = new Set([
   "sportech",
   "summer_discovery",
   "constructor_university",
+  "studymind",
   // older providers: their original title_tr/subject_tr came from a word-by-word substitution
   // (half English titles) and their description was a generic template.
   "bucksmore",

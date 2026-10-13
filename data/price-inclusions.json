@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "reviewed": "2026-10-05",
+    "reviewed": "2026-10-13",
     "note": "Editorial descriptions only. Amounts always come from program data. Exact InvestIN price matches identify otherwise unlabelled packages; unmatched prices keep their original labels. Sources describe inclusions, not confirmation of a catalogue price for a new season."
   },
   "providers": {
@@ -314,6 +314,19 @@
         "en": "Application deadline: 1 May 2027. The €3,350 early fee is calculated from €3,500 minus €150; confirm the discount and availability when booking.",
         "tr": "Son başvuru: 1 Mayıs 2027. Erken kayıt ücreti €3.500 eksi €150 olarak hesaplanmıştır; kayıt sırasında indirim ve kontenjan teyit edilmelidir."
       }
+    },
+    "studymind": {
+      "explanation": {
+        "en": "The fee depends on how many weeks you attend (1, 2 or 3). Longer plans add further programme weeks, and some add a Career & Life Skills or related career week; the subject, location and group size stay the same.",
+        "tr": "Ücret, katıldığınız hafta sayısına (1, 2 veya 3) göre değişir. Daha uzun planlar ek program haftaları ekler; bazılarında Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası da bulunur. Konu, konum ve grup büyüklüğü aynı kalır."
+      },
+      "note": {
+        "en": "The provider’s course page lists one fee per programme length. It offers residential (UCL Ramsay Hall) and non-residential options but does not say whether accommodation is included or what it costs; confirm this when enquiring.",
+        "tr": "Sağlayıcının ders sayfası her program süresi için tek ücret listeler. Konaklamalı (UCL Ramsay Hall) ve konaklamasız seçenekler sunulur; ancak konaklamanın ücrete dahil olup olmadığı veya maliyeti belirtilmez. Başvuru sırasında teyit edin."
+      },
+      "sources": [
+        "studymind/studymind-pages/ (saved course pages, reviewed 2026-10-13)"
+      ]
     }
   },
   "programs": {

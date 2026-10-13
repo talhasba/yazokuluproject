@@ -335,7 +335,22 @@
     "New Perspectives": "Yeni Perspektifler",
     "Psychology & Neuroscience": "Psikoloji ve Nörobilim",
     "Psychology & The Human Mind": "Psikoloji ve İnsan Zihni",
-    "Young Game Creators": "Genç Oyun Tasarımcıları"
+    "Young Game Creators": "Genç Oyun Tasarımcıları",
+    "Computer Science & Technology Work Experience": "Bilgisayar Bilimi ve Teknoloji İş Deneyimi Programı",
+    "Economics Work Experience": "Ekonomi İş Deneyimi Programı",
+    "Careers and Life Skills Work Experience": "Kariyer ve Yaşam Becerileri İş Deneyimi Programı",
+    "Psychology Work Experience": "Psikoloji İş Deneyimi Programı",
+    "International Relations Work Experience": "Uluslararası İlişkiler İş Deneyimi Programı",
+    "Maths Work Experience": "Matematik İş Deneyimi Programı",
+    "Media & Journalism Work Experience": "Medya ve Gazetecilik İş Deneyimi Programı",
+    "Criminology Work Experience": "Kriminoloji İş Deneyimi Programı",
+    "Creative Writing Work Experience": "Yaratıcı Yazarlık İş Deneyimi Programı",
+    "Chemical Engineering Work Experience": "Kimya Mühendisliği İş Deneyimi Programı",
+    "Chemistry Work Experience": "Kimya İş Deneyimi Programı",
+    "Business & Entrepreneurship Work Experience": "İşletme ve Girişimcilik İş Deneyimi Programı",
+    "Law Work Experience": "Hukuk İş Deneyimi Programı",
+    "Physics Work Experience": "Fizik İş Deneyimi Programı",
+    "Engineering Work Experience": "Mühendislik İş Deneyimi Programı"
   },
   "subjects": {
     "Academic Research": "Akademik Araştırma",
@@ -453,7 +468,9 @@
     "English Language & Culture": "İngilizce ve Kültür",
     "IELTS Preparation": "IELTS Hazırlık",
     "Psychology & Neuroscience": "Psikoloji ve Nörobilim",
-    "Game Design": "Oyun Tasarımı"
+    "Game Design": "Oyun Tasarımı",
+    "Careers & Life Skills": "Kariyer ve Yaşam Becerileri",
+    "Chemical Engineering": "Kimya Mühendisliği"
   },
   "locations": {
     "Bremen, Germany": "Bremen, Almanya",
@@ -483,6 +500,7 @@
     "Yale University": "Yale Üniversitesi",
     "Oxford": "Oxford, Birleşik Krallık",
     "Cambridge": "Cambridge, Birleşik Krallık",
-    "Marlborough College": "Marlborough College, Birleşik Krallık"
+    "Marlborough College": "Marlborough College, Birleşik Krallık",
+    "Central London": "Londra Merkezi"
   }
 }
