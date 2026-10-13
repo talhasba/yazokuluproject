@@ -11,21 +11,27 @@ const inclusions = read("../data/price-inclusions.json");
 const photos = read("../data/program-image-sources.json");
 const cards = read("../studymind/studymind-pages/index.json");
 
+// Camps the provider lists as "coming soon" (no fee, no 2027 dates) are not catalogued.
+const COMING_SOON_PAGES = new Set([
+  "business-entrepreneurship-work-experience.html",
+  "chemistry-work-experience.html",
+  "journalism-work-experience.html",
+]);
 const COMING_SOON = new Set([
   "studymind-business-and-entrepreneurship-work-experience",
   "studymind-chemistry-work-experience",
   "studymind-media-and-journalism-work-experience",
 ]);
-const live = records.filter((p) => !COMING_SOON.has(p.id));
-const soon = records.filter((p) => COMING_SOON.has(p.id));
+const live = records;
 
-test("Study Mind has one record for each of the 15 course cards, traceable to saved pages", () => {
+test("Study Mind catalogues the 12 open courses from the 15 course cards, traceable to saved pages", () => {
   assert.equal(cards.length, 15);
-  assert.equal(records.length, 15);
+  assert.equal(records.length, 12);
   assert.equal(new Set(all.map((p) => p.id)).size, all.length);
+  const open = cards.filter((c) => !COMING_SOON_PAGES.has(c.file));
   assert.deepEqual(
     records.map((p) => p.detail_url).sort(),
-    cards.map((c) => c.link).sort(),
+    open.map((c) => c.link).sort(),
   );
   for (const p of records) {
     assert.equal(p.provider_label, "Study Mind");
@@ -39,7 +45,7 @@ test("Study Mind has one record for each of the 15 course cards, traceable to sa
   }
 });
 
-test("live courses carry the weekly 2027 start dates and one fee per programme length", () => {
+test("open courses carry the weekly 2027 start dates and one fee per programme length", () => {
   assert.equal(live.length, 12);
   for (const p of live) {
     assert.equal(p.publish_status, "ready", p.id);
@@ -59,17 +65,16 @@ test("live courses carry the weekly 2027 start dates and one fee per programme l
   }
 });
 
-test("coming-soon camps publish no price or dates and say so in both languages", () => {
-  assert.equal(soon.length, 3);
-  for (const p of soon) {
-    assert.equal(p.publish_status, "needs_review");
-    assert.deepEqual(p.dates, []);
-    assert.deepEqual(p.price.tiers, []);
-    assert.equal(p.price.display, "");
-    assert.match(p.description_short, /^Coming soon/);
-    assert.match(digests[p.id].en.focus, /^Coming soon/);
-    assert.match(digests[p.id].tr.focus, /^Yakında/);
-    assert(p.flags.some((f) => /coming soon/i.test(f)));
+test("coming-soon camps are not catalogued and leave no records, digests or photos behind", () => {
+  for (const id of COMING_SOON) {
+    assert(!all.some((p) => p.id === id), id);
+    assert(!digests[id], id);
+    assert(!photos.images[id], id);
+    assert(!existsSync(new URL(`../assets/program-images/unique/${id}.png`, import.meta.url)), id);
+  }
+  // Their saved pages stay available as source material.
+  for (const file of COMING_SOON_PAGES) {
+    assert(existsSync(new URL(`../studymind/studymind-pages/${file}`, import.meta.url)), file);
   }
 });
 
@@ -88,12 +93,9 @@ test("price comparison explains duration, not accommodation, in both languages",
       assert(!/undefined|NaN/.test(html.section + html.summary));
     }
   }
-  for (const p of soon) {
-    assert.equal(priceDetails(p, "en", inclusions).options.length, 0);
-  }
 });
 
-test("every Study Mind course has bilingual digest copy; live ones list their programme weeks", () => {
+test("every Study Mind course has bilingual digest copy listing its programme weeks", () => {
   for (const p of records) {
     const d = digests[p.id];
     assert(d, p.id);
@@ -101,9 +103,7 @@ test("every Study Mind course has bilingual digest copy; live ones list their pr
       const x = d[lang];
       assert(x.focus && x.tags.length >= 3 && x.do.length >= 4 && x.outcomes.length >= 2 && x.fit.length >= 2, `${p.id} ${lang}`);
       assert(x.extras.some((e) => /Ramsay/.test(e)), `${p.id} ${lang}`);
-      if (!COMING_SOON.has(p.id)) {
-        assert.equal(x.schedule.items.length, p.price.tiers.length, `${p.id} ${lang}`);
-      }
+      assert.equal(x.schedule.items.length, p.price.tiers.length, `${p.id} ${lang}`);
     }
     assert.equal(d.en.do.length, d.tr.do.length, p.id);
   }

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "reviewed": "2026-10-13",
-    "programmes": 478,
-    "images": 478,
-    "provider_photos": 243,
+    "programmes": 475,
+    "images": 475,
+    "provider_photos": 240,
     "illustrative_photos": 235,
     "note": "Photographs sourced from programme providers, Wikimedia Commons or Openverse. Representative subject photographs do not depict the actual programme. Import rejects identical bytes and near-identical whole-image fingerprints; crop variants require the separate visual/feature audit."
   },
@@ -9902,24 +9902,6 @@
       "provider": "Academy Royale International",
       "changes": "None; original downloaded bytes"
     },
-    "studymind-business-and-entrepreneurship-work-experience": {
-      "download_url": "https://studymind.co.uk/wp-content/uploads/2025/05/Business-Management-1280x854.png",
-      "canonical_url": "https://studymind.co.uk/wp-content/uploads/2025/05/Business-Management-1280x854.png",
-      "source_page": "https://studymind.co.uk/business-entrepreneurship-work-experience/",
-      "description": "Business & Entrepreneurship Work Experience",
-      "source_kind": "provider",
-      "artist": "Study Mind",
-      "license": "Provider-owned; no open licence asserted",
-      "license_url": "",
-      "width": 1280,
-      "height": 854,
-      "sha256": "6c974ddae352bd93fdf2b58ca3d78351d33d6d05971e47aaab9adaf30c68a723",
-      "dhash": "6013d8d8511d1918",
-      "local_path": "/assets/program-images/unique/studymind-business-and-entrepreneurship-work-experience.png",
-      "program_title": "Business & Entrepreneurship Work Experience",
-      "provider": "Study Mind",
-      "changes": "None; original downloaded bytes"
-    },
     "studymind-chemical-engineering-work-experience": {
       "download_url": "https://studymind.co.uk/wp-content/uploads/2025/05/Chemical-Engineering-1280x854.png",
       "canonical_url": "https://studymind.co.uk/wp-content/uploads/2025/05/Chemical-Engineering-1280x854.png",
@@ -9935,24 +9917,6 @@
       "dhash": "e9afe250d6d0c0e6",
       "local_path": "/assets/program-images/unique/studymind-chemical-engineering-work-experience.png",
       "program_title": "Chemical Engineering Work Experience",
-      "provider": "Study Mind",
-      "changes": "None; original downloaded bytes"
-    },
-    "studymind-chemistry-work-experience": {
-      "download_url": "https://studymind.co.uk/wp-content/uploads/2025/05/chemistry-WEx-original-image-1280x986.png",
-      "canonical_url": "https://studymind.co.uk/wp-content/uploads/2025/05/chemistry-WEx-original-image-1280x986.png",
-      "source_page": "https://studymind.co.uk/chemistry-work-experience/",
-      "description": "Chemistry Work Experience",
-      "source_kind": "provider",
-      "artist": "Study Mind",
-      "license": "Provider-owned; no open licence asserted",
-      "license_url": "",
-      "width": 1280,
-      "height": 986,
-      "sha256": "3bee525086de747cd5bf71b087654275e0db8678439a5d0cfb4286d6ab6553c8",
-      "dhash": "ecada593913344e0",
-      "local_path": "/assets/program-images/unique/studymind-chemistry-work-experience.png",
-      "program_title": "Chemistry Work Experience",
       "provider": "Study Mind",
       "changes": "None; original downloaded bytes"
     },
@@ -10079,24 +10043,6 @@
       "dhash": "069490c9c1c3c3a3",
       "local_path": "/assets/program-images/unique/studymind-maths-work-experience.png",
       "program_title": "Maths Work Experience",
-      "provider": "Study Mind",
-      "changes": "None; original downloaded bytes"
-    },
-    "studymind-media-and-journalism-work-experience": {
-      "download_url": "https://studymind.co.uk/wp-content/uploads/2025/05/New-media-and-journalism-1280x854.png",
-      "canonical_url": "https://studymind.co.uk/wp-content/uploads/2025/05/New-media-and-journalism-1280x854.png",
-      "source_page": "https://studymind.co.uk/journalism-work-experience/",
-      "description": "Media & Journalism Work Experience",
-      "source_kind": "provider",
-      "artist": "Study Mind",
-      "license": "Provider-owned; no open licence asserted",
-      "license_url": "",
-      "width": 1280,
-      "height": 854,
-      "sha256": "55287603f2b78489897170f06f0512834846009307282331e8e764382de42cf3",
-      "dhash": "9dfdfddad8dc356c",
-      "local_path": "/assets/program-images/unique/studymind-media-and-journalism-work-experience.png",
-      "program_title": "Media & Journalism Work Experience",
       "provider": "Study Mind",
       "changes": "None; original downloaded bytes"
     },

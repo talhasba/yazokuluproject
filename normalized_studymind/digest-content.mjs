@@ -6,7 +6,8 @@
 // Shape per programme (key = program id without the "studymind-" prefix):
 //   en / tr: { focus, tags[], hl[], do[[lead,text]], schedule[[label,text]], outcomes[], fit[] }
 //   flags[]: internal data-quality notes shown with ?review
-// `soon: true` marks the three camps the provider lists as "coming soon" (no price/dates).
+// `soon: true` marks the three camps the provider lists as "coming soon" (no price/dates). They are
+// kept here but are NOT catalogued (see PARKED_PROGRAMS at the end of this file).
 
 const AGES_EN = "Ages 15–18 · groups of 10–12 students";
 const AGES_TR = "15–18 yaş · 10–12 kişilik gruplar";
@@ -15,7 +16,7 @@ const WEEKS_TR = "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 A�
 const SOON_EN = "Coming soon: register your interest and the provider will confirm dates and fees";
 const SOON_TR = "Yakında: ilginizi kaydedin; tarih ve ücretleri sağlayıcı bildirecek";
 
-export const PROGRAMS = {
+const ALL_PROGRAMS = {
   "technology-work-experience": {
     en: {
       focus: "Hands-on coding, AI, cybersecurity and web-development workshops in London for ages 15–18, built around real-world projects, small groups and UCAS guidance for computer science and technology degrees.",
@@ -609,3 +610,12 @@ export const PROGRAMS = {
     flags: ["The page spells “Brookland Museum” (read here as Brooklands Museum). The catalogue card describes electrical fields, autonomous systems and automotive engineering, which the course page does not detail."]
   }
 };
+
+// Courses the provider has opened for booking: these become catalogue records.
+export const PROGRAMS = Object.fromEntries(Object.entries(ALL_PROGRAMS).filter(([, p]) => !p.soon));
+
+// Authored copy for the "coming soon" camps (Business & Entrepreneurship, Chemistry, Media &
+// Journalism). They are left out of the catalogue until the provider publishes fees and 2027
+// dates; once a saved page is no longer "coming soon" and has pricing plans, move its entry
+// out of PARKED_PROGRAMS by deleting `soon: true` and re-run normalize_studymind.mjs.
+export const PARKED_PROGRAMS = Object.fromEntries(Object.entries(ALL_PROGRAMS).filter(([, p]) => p.soon));

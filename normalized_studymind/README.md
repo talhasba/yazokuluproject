@@ -1,7 +1,8 @@
 # Study Mind normalization
 
-Normalizes the 15 Study Mind work-experience programmes (central London, ages 15–18) into the
-catalogue schema. See "Study Mind work-experience normalization" in `summary.md` for the decisions.
+Normalizes the Study Mind work-experience programmes (central London, ages 15–18) into the
+catalogue schema: 12 open courses are catalogued; the 3 "coming soon" camps are skipped
+(their copy is parked in `digest-content.mjs`). See "Study Mind work-experience normalization" in `summary.md` for the decisions.
 
 Inputs (read-only): `studymind/Study Mind Work Experience _ Career Programmes 2026.html` and the
 saved pages in `studymind/studymind-pages/` (re-download with `node studymind/download-courses.mjs`).

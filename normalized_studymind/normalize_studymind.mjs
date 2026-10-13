@@ -7,7 +7,7 @@
 //                                                                         from studymind/download-courses.mjs)
 //
 // Facts come from each page's structured data and visible text (see extract_studymind.mjs).
-// Bilingual digest copy lives in digest-content.mjs; this script writes it to
+// Camps the provider lists as "coming soon" are skipped. Bilingual digest copy lives in digest-content.mjs; this script writes it to
 // data/digest-src/studymind/programs.json and data/digest-src/studymind-templates.json.
 //
 // Run from the project root, then rebuild the derived files:
@@ -135,7 +135,7 @@ function durationFor(page, plans) {
 }
 
 function startDates(page) {
-  // Instances still dated in the past (the two coming-soon pages carry only 2026 sessions) are not offered.
+  // Sessions dated before 2027 are past and are not offered.
   const starts = [...new Set(page.instances.map((i) => i.start))].filter((d) => d >= "2027-01-01").sort();
   return starts;
 }
@@ -150,22 +150,16 @@ function buildRecord(page, card) {
   if (!meta) throw new Error(`No catalogue metadata for ${page.file}`);
   const digest = PROGRAMS[`${meta.key}-work-experience`];
   if (!digest) throw new Error(`No digest copy for ${meta.key}`);
-  const soon = Boolean(digest.soon) || page.coming_soon;
-  if (soon !== Boolean(digest.soon)) throw new Error(`${meta.key}: coming-soon status differs between page and digest copy`);
-
-  const plans = soon ? [] : page.plans;
-  if (!soon && !plans.length) throw new Error(`${meta.key}: no pricing plans found`);
-  const dates = soon ? [] : startDates(page);
-  if (!soon && !dates.length) throw new Error(`${meta.key}: no 2027 start dates found`);
+  const plans = page.plans;
+  if (!plans.length) throw new Error(`${meta.key}: no pricing plans found`);
+  const dates = startDates(page);
+  if (!dates.length) throw new Error(`${meta.key}: no 2027 start dates found`);
 
   const highlights = dedupe(page.highlights.filter((h) => h.body), "title");
   const description = [...new Set([page.hero.at(-1), ...page.about])]
     .map((p) => (p || "").replace(/\s*Scroll down[^.!]*[.!]?/gi, "").trim())
     .filter((p) => p.length > 40);
   const flags = [...COMMON_FLAGS, ...(digest.flags || [])];
-  if (soon) {
-    flags.unshift("Coming soon: the provider publishes no fee or 2027 dates for this camp, only enquiry links. It is catalogued so it is not missed.");
-  }
 
   const record = {
     id: `${ID_PREFIX}${meta.key}-work-experience`,
@@ -189,17 +183,13 @@ function buildRecord(page, card) {
     class_size: "10-12 students",
     accommodation: "Optional residential stay at UCL Ramsay Hall, central London",
     price: priceFor(plans),
-    price_scope: soon ? "not_published" : "course_fee_by_duration",
-    price_note: soon
-      ? "Coming soon: no fees are published yet."
-      : "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
-    price_note_tr: soon
-      ? "Yakında: henüz ücret açıklanmadı."
-      : "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    price_scope: "course_fee_by_duration",
+    price_note: "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    price_note_tr: "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
     dates,
     date_months: [...new Set(dates.map((d) => MONTHS[Number(d.slice(5, 7)) - 1]))],
     ...(dates.length ? { dates_year: 2027 } : {}),
-    description_short: soon ? `Coming soon: ${card.text.charAt(0).toLowerCase()}${card.text.slice(1)}` : card.text,
+    description_short: card.text,
     description_full: description.join("\n\n"),
     curriculum_sections: [
       ...highlights.map((h) => ({ title: h.title, body: h.body })),
@@ -330,7 +320,12 @@ function main() {
     throw new Error(`Expected ${Object.keys(COURSES).length} pages, found ${pages.length}`);
   }
 
-  const records = pages.map((page) => {
+  // "Coming soon" camps publish no fee or 2027 dates, so they are not catalogued (their authored
+  // copy is parked in digest-content.mjs). A page that opens for booking is picked up on rerun.
+  const open = pages.filter((page) => !page.coming_soon);
+  const skipped = pages.filter((page) => page.coming_soon).map((page) => page.file);
+
+  const records = open.map((page) => {
     const card = cardByFile.get(page.file);
     if (!card) throw new Error(`${page.file} is not in index.json`);
     return buildRecord(page, card);
@@ -347,7 +342,7 @@ function main() {
   writeDigestSources();
   const mergeStats = mergeIntoMain(records);
   const statusCounts = records.reduce((acc, r) => ((acc[r.publish_status] = (acc[r.publish_status] || 0) + 1), acc), {});
-  console.log(JSON.stringify({ total_studymind_records: records.length, publish_status: statusCounts, merge: mergeStats }));
+  console.log(JSON.stringify({ total_studymind_records: records.length, publish_status: statusCounts, skipped_coming_soon: skipped, merge: mergeStats }));
 }
 
 main();
