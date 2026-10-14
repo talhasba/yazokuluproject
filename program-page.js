@@ -178,14 +178,14 @@
     if (!loading) {
       const json = (url, fallback) => fetch(url).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
       loading = Promise.all([
-        json("./data/programs.normalized.json?v=20261014-1", []),
-        json("./data/program-digests.json?v=20261014-1", {}),
-        json("./data/image-candidates.json?v=20261014-1", {}),
+        json("./data/programs.normalized.json?v=20261014-2", []),
+        json("./data/program-digests.json?v=20261014-2", {}),
+        json("./data/image-candidates.json?v=20261014-2", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
-        json("./data/price-inclusions.json?v=20261014-1", {}),
-        import("./program-pricing.js?v=20261014-1"),
-        json("./data/program-image-sources.json?v=20261014-1", { images: {} })
+        json("./data/price-inclusions.json?v=20261014-2", {}),
+        import("./program-pricing.js?v=20261014-2"),
+        json("./data/program-image-sources.json?v=20261014-2", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };

@@ -48,8 +48,8 @@ const byLocation = {
   },
   investin: {
     London: a(
-      "UCL student halls, central London (residential or non-residential option)",
-      "UCL öğrenci yurtları, Londra merkezi (yurtta kalarak veya gündüzlü katılım seçeneği)"
+      "University of London halls of residence in central London, used by UCL and LSE students (private en-suite rooms; non-residential option)",
+      "Londra merkezinde UCL ve LSE öğrencilerinin de kullandığı Londra Üniversitesi yurtları (özel banyolu tek kişilik odalar; gündüzlü katılım seçeneği)"
     )
   },
   bucksmore: {
@@ -102,8 +102,8 @@ const byLocation = {
 const byId = {
   // InvestIN Career Discovery runs at Dulwich College.
   "investin-products-career-discovery-summer-experience": a(
-    "Dulwich College, London (single en-suite or shared room; non-residential option)",
-    "Dulwich College, Londra (tek kişilik özel banyolu veya paylaşımlı oda; gündüzlü katılım seçeneği)"
+    "Dulwich College boarding houses, London (single en-suite or shared room; non-residential option)",
+    "Dulwich College yatılı evleri, Londra (tek kişilik özel banyolu veya paylaşımlı oda; gündüzlü katılım seçeneği)"
   ),
 
   // Emerald Cultural Institute
@@ -145,8 +145,8 @@ const byId = {
   "sportech-fashion": a("Residential accommodation in Milan, full board", "Milano'da yurt konaklaması, tam pansiyon"),
   "sportech-football": a("4★ Quark Hotel Milano, close to the training facility", "4★ Quark Hotel Milano, antrenman tesisine yakın"),
   "sportech-medicine": a("University residence in Milan, single en-suite rooms", "Milano'da üniversite yurdu, özel banyolu tek kişilik odalar"),
-  "sportech-motorsport-management-university": a("Optional accommodation arranged by Sportech Academy", "İsteğe bağlı konaklama, Sportech Academy aracılığıyla"),
-  "sportech-motorsport-engineering-university": a("Optional accommodation arranged by Sportech Academy", "İsteğe bağlı konaklama, Sportech Academy aracılığıyla"),
+  "sportech-motorsport-management-university": a("Optional: university residence, arranged by Sportech Academy", "İsteğe bağlı: üniversite yurdu, Sportech Academy aracılığıyla"),
+  "sportech-motorsport-engineering-university": a("Optional: 4★ Daytona Hotel & Residence, with daily shuttle to classes", "İsteğe bağlı: 4★ Daytona Hotel & Residence, derslere günlük servis"),
   "sportech-music-innovation": a("4★ Hotel Alla Torre, centre of Castelfranco Veneto", "4★ Hotel Alla Torre, Castelfranco Veneto merkezi"),
   "sportech-pet-design": a("Residential accommodation in Milan, full board", "Milano'da yurt konaklaması, tam pansiyon"),
   "sportech-sports-management": a("University residence in Milan, full board", "Milano'da üniversite yurdu, tam pansiyon")
@@ -182,9 +182,11 @@ function rule(p) {
         `UCLA, Hedrick Summit yurdu (yalnızca Summer Discovery öğrencilerine ayrılmış)${commuter ? "; gündüzlü katılım seçeneği mevcut" : ""}`
       );
     }
+    // The saved Summer Discovery pages only describe a residential programme on
+    // each campus (and UCLA's named hall above); no residence names are published.
     return a(
-      `${campus} campus residence halls${commuter ? " (commuter option available)" : ""}`,
-      `${campus} kampüsündeki yurtlar${commuter ? " (gündüzlü katılım seçeneği mevcut)" : ""}`
+      `Residential programme on the ${campus} campus${commuter ? " (commuter option available)" : ""}`,
+      `${campus} kampüsünde konaklamalı program${commuter ? " (gündüzlü katılım seçeneği mevcut)" : ""}`
     );
   }
 

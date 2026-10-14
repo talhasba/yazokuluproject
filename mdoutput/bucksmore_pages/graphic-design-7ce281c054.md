@@ -1,0 +1,559 @@
+---
+source_html: "bucksmore_pages/graphic-design-7ce281c054.html"
+title: "Graphic Design & Visual Art Summer Camp in the UK | Bucksmore"
+---
+
+# Graphic Design & Visual Art Summer Camp in the UK | Bucksmore
+
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
+
+ Customize Consent Preferences
+
+We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.
+
+The cookies that are categorized as "Necessary" are stored on your browser as they are essential for enabling the basic functionalities of the site....
+
+**
+
+Always Active
+
+Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data.
+
+No cookies to display.
+
+**
+
+Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.
+
+No cookies to display.
+
+**
+
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc.
+
+No cookies to display.
+
+**
+
+Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+
+No cookies to display.
+
+**
+
+Advertisement cookies are used to provide visitors with customized advertisements based on the pages you visited previously and to analyze the effectiveness of the ad campaigns.
+
+No cookies to display.
+
+[![Image](https://www.bucksmore.com/wp-content/uploads/2022/12/Buscksmore-logo-600x200-1-optimized.png)](https://www.bucksmore.com)
+
+- [Home](https://www.bucksmore.com/)
+- [Summer Courses](https://www.bucksmore.com/summer-courses/)
+
+  - [English Foundation](https://www.bucksmore.com/summer-courses/english-courses/)
+  - [Young Professionals](https://www.bucksmore.com/summer-courses/english-summer-camps/)
+  - [Pre-University](https://www.bucksmore.com/summer-courses/pre-university-summer-courses/)
+  - [View all Summer Courses >](https://www.bucksmore.com/summer-courses/)
+
+- [One-to-One Tuition](https://www.bucksmore.com/english-home-tuition/)
+
+  - [Home Tuition](https://www.bucksmore.com/english-home-tuition/)
+  - [Learn Online](https://www.bucksmore.com/tutoring-online/)
+
+- [Locations & Venues](https://www.bucksmore.com/english-learning-locations/)
+
+  - [Brighton](https://www.bucksmore.com/english-learning-locations/brighton/)
+  - [Cambridge](https://www.bucksmore.com/english-learning-locations/cambridge/)
+  - [Oxford](https://www.bucksmore.com/english-learning-locations/oxford/)
+  - [London](https://www.bucksmore.com/english-learning-locations/london/)
+  - [View all Locations & Venues >](https://www.bucksmore.com/english-learning-locations/)
+
+- [About us](https://www.bucksmore.com/about/)
+
+  - [Awards, Accreditations & Partners](https://www.bucksmore.com/awards-accreditations-and-partners/)
+  - [About Us](https://www.bucksmore.com/about/)
+  - [Why Bucksmore](https://www.bucksmore.com/why-us/)
+  - [Careers at Bucksmore](https://www.bucksmore.com/careers-at-bucksmore/)
+  - [English Medium Instruction](https://www.bucksmore.com/clil-2/)
+  - [Teaching & Academic Ethos](https://www.bucksmore.com/teaching-and-academic-ethos/)
+  - [Bucksmore Education News](https://www.bucksmore.com/news/)
+
+- [Useful Information](https://www.bucksmore.com/pre-arrival/)
+
+  - [Pre-arrival Information](https://www.bucksmore.com/pre-arrival/)
+  - [Arrivals & Departures](https://www.bucksmore.com/arrivals-and-departures/)
+  - [Pastoral Care & Safeguarding](https://www.bucksmore.com/pastoral-care-and-safeguarding/)
+  - [Policies](https://www.bucksmore.com/policies/)
+  - [Prices & Dates](https://www.bucksmore.com/prices-and-dates/)
+  - [Terms & Conditions](https://www.bucksmore.com/terms-and-conditions/)
+
+- [Contact](https://www.bucksmore.com/contact/)
+- [Apply Now!](https://www.bucksmore.com/apply-to-bucksmore/)
+
+[![Image](https://www.bucksmore.com/wp-content/uploads/2024/12/bucksmore-education-logo_horizontal-1979-colour-optimized.jpg)](https://www.bucksmore.com)
+
+[Contact](https://www.bucksmore.com/contact/)
+
+# Graphic Design
+Summer Camp in London
+
+Welcome to Bucksmore’s Young Professionals Graphic Design summer course in the UK.
+
+This career-focused programme in London introduces high school students to the world of design and visual arts, combining creative theory, digital practice, and portfolio development while building English language fluency in an artistic and professional context.
+
+Students will explore both the artistic foundations of visual expression and the practical skills needed for careers in design, leaving with a portfolio of original work and preparation for future creative studies or careers.
+
+Outside the classroom, students collaborate on projects, gain inspiration from cultural excursions, and enjoy exploring London’s world-renowned creative hubs—all while building confidence, teamwork, and communication skills.
+
+- Course start datesJune 30, 2026 and
+July 14, 2026 (SOLD OUT)
+- Duration2 weeks
+-  Minimum English level B1 (intermediate)
+-  Ages  13 to 17 years old
+-  Class size  12
+-  Hours per week  25
+- Certificates
+
+  - Personalised report card
+  - Capstone certification
+  - Bucksmore certification
+
+- LocationKing's College London
+-  Fully inclusive price  £3,095 per week
+
+-
+
+The course
+
+-
+
+Our Students
+
+-
+
+Location
+
+-
+
+Safeguarding
+
+-
+
+Teachers
+
+-
+
+Excursions
+
+-
+
+Timetable
+
+-
+
+Your Questions
+
+EnquireApply
+
+## The Bucksmore Young Professionals Graphic Design course experience
+
+The objective of the Young Professionals Graphic Design course is to simultaneously enhance students' subject knowledge and language proficiency, with a primary focus on the development of English language fluency, through meaningful, context-rich learning experiences. This approach fosters critical thinking and communication skills while promoting cultural awareness and the practical application of skills in real-world contexts.
+
+This course teaches graphic design through our hands-on and dynamic subject curriculum and industry workshops. Here’s an overview of what we put into it and what you will get out of it:
+
+-
+
+Vibrant and bustling University accommodation in Central London.
+
+-
+
+An international home-from-home in a nurturing and safe environment.
+
+-
+
+Small international groups and world-class teaching.
+
+-
+
+London travelcard included.
+
+-
+
+Separate male and female accommodation on site.
+
+-
+
+Capstone Industry project with external certification.
+
+-
+
+2 full-day and 1 half-day excursion per week to fun and varied attractions.
+
+## What is a Young Professionals Graphic Design Summer Camp
+
+This programme gives high school students the opportunity to explore creativity through graphic design, fine art, and visual communication, while gaining hands-on experience with professional design tools.
+
+Through practical workshops, you will work on topics such as typography, branding, illustration, digital design, and AI in the creative industries. Students also experiment with traditional artistic techniques, blending visual arts with modern design practices. By working on real-world design briefs, you will develop both technical skill development and artistic voice, supported by English language learning in a meaningful, context-rich environment.
+
+Students live together on campus, collaborating on projects and forging lasting friendships. Cultural excursions across London provide inspiration from renowned design hubs and galleries, offering a unique opportunity to connect classroom learning with the capital’s vibrant creative scene.
+
+This summer camp is ideal for students who are passionate about creativity and want to combine their passion for visual arts with practical design and vocational skills for future studies or careers in design, advertising, or visual communication
+
+Download our [Subject Overview](https://www.bucksmore.com/wp-content/uploads/2025/09/BM-YP_Visual-Arts-and-Graphic-Design_Course-Overview-1.pdf) for more details.
+
+Video Player
+
+00:00
+
+## Subject Overview
+
+This subject introduces graphic design as both an artistic discipline and professional practice. Taught by experienced industry practitioners, sessions cover both theoretical foundations and practical applications.
+
+Course content may include:
+
+- Typography and branding
+- Colour theory and composition
+- Digital illustration and image manipulation
+- Visual storytelling and communication
+- Portfolio development and personal branding
+- Emerging practices such as AI-assisted design
+
+### Learning outcomes
+
+By the end of the course, students will:
+
+- Develop English language fluency through design-focused workshops, critiques, and collaborative projects.
+- Master core principles of design and visual arts, including colour, composition, typography, and visual communication.
+- Analyse and apply key concepts in branding, typography, and digital media to real-world design projects
+- Use industry-standard tools and techniques, building proficiency in digital design and image-making software
+- Engage in real-world design challenges, responding to briefs and presenting creative solutions with professionalism and clarity
+- Consider the ethical complexities of design practices, essential for responsible and culturally sensitive communication in the modern creative industry.
+
+### Capstone Industry Project
+
+The project is developed and delivered by design education experts. You will apply your newly developed language, skills and knowledge by stepping into the role of creative directors in a "design pitch" session, where you will critically evaluate branding concepts and visual identities presented by industry professionals. Drawing on your knowledge from the subject studies programme, you will analyse these designs from both aesthetic and strategic perspectives, using design terminology such as hierarchy, balance, and user experience.
+
+Armed with "client briefs," you will engage in constructive critique and negotiation, deciding which concepts to "approve" while applying your understanding of design principles and branding strategies in a realistic and interactive setting.
+
+Download our [Capstone Overview](https://www.bucksmore.com/wp-content/uploads/2026/01/Visual.GraphicDesign-Capstone-Overview.pdf) for more details.
+
+### Activities and Excursions
+
+The addition of an exciting and varied activity and excursion programmes embedded in the timetable, ensures students will have a well-rounded and powerful two weeks studying on the Young Professionals Graphic Design course.
+
+![Students busy with class activities.](https://www.bucksmore.com/wp-content/uploads/2024/10/LN1A7017-optimized.jpg)
+
+## Example Industry Workshops
+
+![Featured image for “Digital Illustration Workshop”](https://www.bucksmore.com/wp-content/uploads/2024/10/Digital-Illustration-Workshop-scaled-optimized.jpg)
+
+### Digital Illustration Workshop
+
+Students will participate in a workshop focusing on digital illustration techniques using industry-standard software.
+
+The workshop will cover the essentials of creating vector graphics, digital painting, and image
+ manipulation. Students will have the opportunity to work on their own projects, receive feedback from industry experts, and learn how digital tools are used to create compelling visual content in the design industry.
+
+![Featured image for “Visit to a Design Studio”](https://www.bucksmore.com/wp-content/uploads/2024/10/Design-Studio-scaled-optimized.jpg)
+
+### Visit to a Design Studio
+
+You will be immersed in the daily operations of a professional design studio. This hands-on experience will take place in a leading design firm in London.
+
+You will gain insights into the creative process, client interaction, and the role of design in branding and marketing. The workshop will include a Q&A session with junior designers, followed by a tour of the studio to observe live projects in various stages of development.
+
+![Featured image for “Museum of Brands”](https://www.bucksmore.com/wp-content/uploads/2024/09/Museum-of-Brands-optimized.jpg)
+
+### Museum of Brands
+
+![Featured image for “Visit to a Design Studio”](https://www.bucksmore.com/wp-content/uploads/2024/10/Design-Studio-scaled-optimized.jpg)
+
+### Visit to a Design Studio
+
+You will be immersed in the daily operations of a professional design studio. This hands-on experience will take place in a leading design firm in London.
+
+You will gain insights into the creative process, client interaction, and the role of design in branding and marketing. The workshop will include a Q&A session with junior designers, followed by a tour of the studio to observe live projects in various stages of development.
+
+![Featured image for “Museum of Brands”](https://www.bucksmore.com/wp-content/uploads/2024/09/Museum-of-Brands-optimized.jpg)
+
+### Museum of Brands
+
+You will learn about the purpose of packaging and the development of supermarket brands from Victorian times to the present day.
+
+After undertaking research from the Museum’s collection, you will work to improve packaging designs in relation to consumer habits and market trends.
+
+## Our Students
+
+![Image](https://www.bucksmore.com/wp-content/uploads/2024/07/student-info.svg)
+
+![Image](https://www.bucksmore.com/wp-content/uploads/2023/01/Testimonial_0011_Ipek-optimized.png)
+
+Young Professionals has so many different things for you to experience and it allows you to meet new people. There is a strong academic focus which is a great opportunity to learn new things and make a decision about your career path.
+
+**Ipek**, Turkey
+
+![Image](https://www.bucksmore.com/wp-content/uploads/2024/09/silohouette-staff-testimonial-student-placeholder-300x300-optimized.png)
+
+I really enjoyed my time at Bucksmore and I hope to repeat it in the near future. Thank you to the staff and counsellors for taking care of us!
+
+**Saiora**, Kazakhstan
+
+## Your home from home
+
+You'll be staying in King's College London, a vibrant and bustling campus in central London. Accommodation is located in University student residence across Waterloo Bridge and amongst iconic London landmarks such as the London Eye. Flats are equipped with communal kitchens and single, ensuite rooms.
+
+![Front of James Clerk Maxwell Building where Bucksmore students study during their summer course at KCL](https://www.bucksmore.com/wp-content/uploads/2026/06/james-clerk-maxwell-bldg2-optimized.jpg)
+
+![An aerial picture of the London skyline seen at night from the top of King's College London with the London Eye visible in the centre.](https://www.bucksmore.com/wp-content/uploads/2024/09/IMG_5987-optimized.jpg)
+
+## Keeping you safe in London
+
+A summer residential camp in London is an exciting prospect, but you also need to know that you’ll be looked after from the moment you arrive in the UK. Here are just some of the ways that we ensure your time with us is a safe and enjoyable experience.
+
+-
+
+Private airport lounge at Heathrow Airport and a personal welcome when you arrive.
+
+-
+
+All centre staff have completed compulsory safeguarding training and background checks.
+
+-
+
+24-hour security on campus.
+
+-
+
+At least 2 first-aid trained members of staff on site.
+
+-
+
+On-site management team available 24 hours a day.
+
+-
+
+**MyConcern** phone app for staff to report if they have any worries at any time.
+
+## Do you need any help?
+
+If you have any questions, you can send us a message, book a call with us or, if you’re ready to proceed, you can apply now.
+
+[Send Us a Message](https://www.bucksmore.com/contact/)[Book a Call](https://calendly.com/bucksmore/course-consultation)[Apply](https://www.bucksmore.com/apply-to-bucksmore/)
+
+## Our Teachers
+
+Our teachers are selected to replicate the premium educational experiences of top UK universities and boarding schools. They also know how to take learning and teaching outside the classroom and see every input and experience as an opportunity to learn and grow.
+
+Here are some examples of the teachers you might meet on this programme:
+
+![A head and shoulders picture of Daniel, one of the course tutors.](https://www.bucksmore.com/wp-content/uploads/2024/10/Daniel-McDonagh-optimized.jpeg)
+
+### Daniel McDonagh
+
+MA, PGCE, BSc (Hons)
+
+Daniel is the Teaching Development Manager with our industry and education partners, Class of Your Own. Teaching since 2008 in the UK, Daniel has taught DEC (Design, Engineer and Construct!) since 2012 at Levels 1, 2 and 3 in an 11-18 Manchester school. In addition to being awarded the Institution of Civil Engineers “ICE 200 medal” for his outstanding contribution to raising awareness of the sector, Daniel is a qualified teacher, a Specialist Leader of Education and holds a Masters in Education with a focus on creativity.
+
+## Excursions
+
+The Bucksmore Young Professionals course in London includes 1 full-day and 3 half-day excursions per week. You can see a selection of excursions options below and an example two-week programme below.
+
+![Featured image for “London: St Paul’s Cathedral”](https://www.bucksmore.com/wp-content/uploads/2024/09/St-Pauls-Cathedral-scaled-optimized.jpg)
+
+### London: St Paul’s Cathedral
+
+Stand in awe at this Grade I listed English Baroque style building designed by Sir Christopher Wren.
+
+This architectural feat is an icon of London’s skyline!
+
+![Featured image for “Thames River Boat Cruise & Royal Museums Greenwich”](https://www.bucksmore.com/wp-content/uploads/2024/09/thames-river-cruise-optimized.webp)
+
+### Thames River Boat Cruise & Royal Museums Greenwich
+
+Step aboard a cruise to Greenwich via the River Thames, taking in some of London’s world-famous sights along the way.
+
+After lunch, you will explore the Cutty Sark, a historic sailing ship which was the fastest of its time!
+
+![Featured image for “Thorpe Park”](https://www.bucksmore.com/wp-content/uploads/2024/09/thorpe-park-optimized.webp)
+
+### Thorpe Park
+
+Thorpe Park is a theme park located in Surrey, England with over 30 rides, attractions and live events.
+
+You will be able to experience record-breaking roller coasters, water rides, and seasonal events alongside your new friends!
+
+![Featured image for “London Eye”](https://www.bucksmore.com/wp-content/uploads/2024/09/London-Eye-scaled-optimized.jpg)
+
+### London Eye
+
+Get closer views of London’s most spectacular landmarks from Big Ben to The Houses of Parliament, and even Windsor Castle on a clear day!
+
+![Featured image for “London: Buckingham Palace & Politics Walking Tour”](https://www.bucksmore.com/wp-content/uploads/2024/08/buckingham-palace-optimized.webp)
+
+### London: Buckingham Palace & Politics Walking Tour
+
+You will embark on a walking tour of key locations relating to London’s rich political and royal history.
+
+You’ll also visit the historic vibrant market area of Covent Garden. Following lunch you will enjoy a tour of the magnificent State Rooms of Buckingham Palace.
+
+![Featured image for “Cambridge”](https://www.bucksmore.com/wp-content/uploads/2024/08/cam-kings-optimized.jpg)
+
+### Cambridge
+
+Visit Cambridge and experience its historic waterways via a punting trip on the River Cam.
+
+You will also have time to explore one of the 31 Colleges that make up the University of Cambridge – King’s College – founded by King Henry VI in 1441.
+
+## The Young Professionals Graphic Design course timetable
+
+The Buckmore Young Professionals courses are designed as a two week programme to allow you the opportunity to complete the Capstone Industry project. Students wanting to stay for four weeks should choose a different subject option for the remaining two weeks. We will have different and varied excursions each week.
+
+### Example Timetable
+
+#### Week 1
+
+| Times | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | Monday |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Times | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | Monday |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 07:45-08:30 | Breakfast |  |  |  |  |  |  |
+| 08:45-13:00 | Arrivals | Subject Theory | Subject Practical | Industry Workshop : Design Studio visit | Subject Theory | Capstone Industry Project | Subject Practical |
+| 13:00-14:00 | Lunch |  |  |  |  |  |  |
+| 14:00-17:15 | Arrivals Activity | Excursion : London Thameside Walking Tour | Capstone Industry Project | Industry Workshop : Design Studio visit | Capstone Industry Project | Excursion : London Natural History Museum | Excursion : London Covent Garden |
+| 18:00-19:00 | Dinner |  |  |  |  |  |  |
+| 19:00-21:00 | Welcome games | Activity : Battle of the Brains | Activity : Trivia Night | Activity : Chill Club | Activity : Counsellors Court | Activity : Game Show Night | End of Week Party |
+
+#### Week 2
+
+| Times | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | Monday |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Times | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | Monday |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 07:45-08:30 | Breakfast |  |  |  |  |  |  |
+| 08:45-13:00 | Lazy Tuesday | Subject Theory | Subject Practical | Industry Workshop : Digital Illustration Workshop | Subject Theory | Capstone Industry Project | Subject Practical |
+| 13:00-14:00 | Lunch |  |  |  |  |  |  |
+| 14:00-17:15 | Capstone Industry Project | Excursion : London Tate Modern | Capstone Industry Project | Industry Workshop : Digital Illustration Workshop | Excursion : London British Museum | Excursion : London Sealife Aquarium | Activity : Sports, Free Time |
+| 18:00-19:00 | Dinner |  |  |  |  |  |  |
+| 19:00-21:00 | Activity : Capture the Flag | Activity : Quiz Night | Activity : Movie Night | Activity : Mini Olympics | Activity : Trivia Night | Activity : Bowling | Graduation Ceremony and Party |
+
+Do you need more information? Take a look at our Visual Arts & Graphic Design – Full Programme Details.
+
+## Travel and transfers
+
+The moment you touch down in the UK, you’ll be looked after by Bucksmore staff. At the arrivals gate you’ll be met by one of our representatives and be escorted to your complimentary transfer or exclusive airport lounge (Heathrow only) to wait for your transfer.
+
+If you’re using an airline **unaccompanied minor** service, you’ll be accompanied by airport staff to the Bucksmore representative on arrival, and we’ll also assist you on departure and wait with you until handed over to airport staff for your flight home.
+
+See more details about [arrivals and departures](https://www.bucksmore.com/arrivals-and-departures/).
+
+![Photo of Heathrow Airport](https://www.bucksmore.com/wp-content/uploads/2024/10/Heathrow-airport-optimized.webp)
+
+## Got questions? We have answers.
+
+We have selected some of our most commonly asked questions. See if they address what's on your mind.
+
+And if not… [Send Us a Message](https://www.bucksmore.com/contact/) or [Book a Call](https://calendly.com/bucksmore/course-consultation)
+
+## Apply to reserve your place
+
+Our online application process takes around 5 minutes to complete. You will need to enter the details of the student, including their passport number and current school. It's also important that we gather parents and guardians information as well.
+
+To reserve a space on this course, a **£500 reservation fee** is required, payable by credit card or online bank transfer. See our [cancellation and refund policy](https://www.bucksmore.com/wp-content/uploads/2024/02/Bucksmore-Education-Terms-and-Conditions.pdf). Upon completion of your application, we can provide pre-enrolment documents including a visa support letter.
+
+[Apply Now](https://www.bucksmore.com/apply-to-bucksmore/)
+
+## Our other courses for Young Professionals
+
+Not sure **Visual Arts & Graphic Design** is the right course for you? Take a look at our other options for aspiring young professionals.
+
+ Young Professionals
+ [###  Film & Digital Communication Summer Camp in London](https://www.bucksmore.com/summer-courses/english-summer-camps/film-and-digital-communication/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 1 Jan or 14 Jul
+- Location King's College London
+
+ Young Professionals
+ [###  International Relations and Politics Summer Camp in London](https://www.bucksmore.com/summer-courses/english-summer-camps/oxford-international-relations-and-politics/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 30 Jun or 14 Jul
+- Location King's College London
+
+ Young Professionals
+ [###  Psychology English Summer Camp in Oxford](https://www.bucksmore.com/summer-courses/english-summer-camps/oxford-psychology/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 7 or 21 Jul
+- Location D'Overbroeck's
+
+Location D'Overbroeck's
+
+ Young Professionals
+ [###  Theatre & Performing Arts Summer Campin London](https://www.bucksmore.com/summer-courses/english-summer-camps/performing-arts/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 30 Jun or 14 Jul
+- Location King's College London
+
+ Young Professionals
+ [###  Business and Global Finance Summer Camp in London](https://www.bucksmore.com/summer-courses/english-summer-camps/business-finance/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 30 Jun or 14 Jul
+- Location King's College London
+
+ Young Professionals
+ [###  Engineering Summer Camp in Oxford](https://www.bucksmore.com/summer-courses/english-summer-camps/engineering/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 7 or 21 Jul
+- Location D'Overbroeck's
+
+ Young Professionals
+ [###  Architecture Summer Camp in Oxford](https://www.bucksmore.com/summer-courses/english-summer-camps/architecture/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 7 or 21 Jul
+- Location D'Overbroeck's
+
+ Young Professionals
+ [###  AI and Computer Science Summer Camp in Oxford](https://www.bucksmore.com/summer-courses/english-summer-camps/ai-computer-science/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 7 or 21 Jul
+- Location D'Overbroeck's
+
+ Young Professionals
+ [###  Business & Marketing Summer Campin Oxford](https://www.bucksmore.com/summer-courses/english-summer-camps/business-marketing/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 7 or 21 Jul
+- Location D'Overbroeck's
+
+ Young Professionals
+ [###  Medical English Summer Camp in London](https://www.bucksmore.com/summer-courses/english-summer-camps/medical/)
+
+- For ages 13 to 17
+- Duration weeks  2
+- Start date 30 Jun or 14 Jul
+- Location King's College London
+
+ [![A pair of hands typing on a laptop computer](https://www.bucksmore.com/wp-content/uploads/2024/10/course-chooser-optimized.webp)
+
+###  Course Chooser](https://www.bucksmore.com/course-chooser/)
+
+ Use our handy course chooser to filter our course catalogue down to the ones just right for you and your needs.
