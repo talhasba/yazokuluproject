@@ -116,3 +116,55 @@
     flex-direction: column;
   }
 }
+
+/* School filter: provider rows with expandable location lists */
+.codex-school-row,
+.codex-school-location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.codex-school-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.codex-school-toggle {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #667085;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.codex-school-toggle:hover {
+  background: #f2f4f7;
+}
+
+.codex-school-toggle.is-open {
+  transform: rotate(90deg);
+}
+
+.codex-school-locations {
+  margin: 2px 0 6px 18px;
+  padding-left: 10px;
+  border-left: 2px solid #e4e7ec;
+}
+
+.codex-school-count {
+  flex: 0 0 auto;
+  min-width: 22px;
+  padding-right: 6px;
+  color: #98a2b3;
+  font-size: 11px;
+  font-weight: 600;
+  text-align: right;
+}

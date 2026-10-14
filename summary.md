@@ -43,7 +43,7 @@ The React bundle provides:
 - English and Turkish UI copy, with the selected language stored in `localStorage` under `lang`.
 - Responsive program cards with provider, subject, age, location, price, and image information.
 - Filters for subject group, provider, and country.
-- Desktop sidebar filters and a mobile filter drawer.
+- Desktop sidebar filters and a mobile filter drawer. In the School filter, providers with more than one location (e.g. Summer Discovery's campuses, Immerse's cities) get an expandable list of locations with program counts (`codexSchoolFilter` in `app-loader.js`). Provider filter values are `"<provider>"` or `"<provider>||<location>"`; a program matches if either is selected.
 - Pagination with 25, 50, or 100 results per page. The bundle only had prev/next arrows and a "1 / N" label; `app-loader.js` replaces that component (`Gh`) with numbered page buttons (1 2 3 … N, ellipsis, prev/next, scroll-to-top on change), styled by the `.catalogue-pager*` rules in `catalogue-cleanup.css`.
 - Program detail pages with hero imagery, localized descriptions, content sections, and key facts.
 - Loading, data-fetch error, empty-result, and missing-image states.
