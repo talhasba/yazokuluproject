@@ -248,7 +248,9 @@
     "location": "New York City",
     "city": "New York City",
     "country": "United States",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "grade_ranges": [
       "High-school students"
     ],
@@ -326,7 +328,9 @@
     "location": "New York City",
     "city": "New York City",
     "country": "United States",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "grade_ranges": [
       "High-school students"
     ],
@@ -402,7 +406,9 @@
     "location": "Online",
     "city": "Online",
     "country": "",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "grade_ranges": [],
     "duration": "4 Weeks",
     "delivery_modes": [

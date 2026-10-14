@@ -409,7 +409,9 @@
     "location": "Milan",
     "city": "Milan",
     "country": "Italy",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "duration": "2 weeks",
     "delivery_modes": [
       "in_person"
@@ -977,7 +979,9 @@
     "location": "Milan & Motor Valley",
     "city": "Milan & Motor Valley",
     "country": "Italy",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "duration": "2 weeks",
     "delivery_modes": [
       "in_person"
@@ -1130,7 +1134,9 @@
     "location": "Motor Valley",
     "city": "Motor Valley",
     "country": "Italy",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "duration": "2 weeks",
     "delivery_modes": [
       "in_person"
@@ -1353,7 +1359,9 @@
     "location": "Rome",
     "city": "Rome",
     "country": "Italy",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "duration": "2 weeks",
     "delivery_modes": [
       "in_person"

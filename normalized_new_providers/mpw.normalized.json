@@ -14,7 +14,9 @@
     "location": "Cambridge & London",
     "city": "Cambridge & London",
     "country": "United Kingdom",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "historical_age_ranges": [
       "14-17"
     ],
@@ -83,7 +85,9 @@
     "location": "London",
     "city": "London",
     "country": "United Kingdom",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "historical_age_ranges": [
       "14-17"
     ],
@@ -152,7 +156,9 @@
     "location": "London",
     "city": "London",
     "country": "United Kingdom",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "historical_age_ranges": [
       "14-17"
     ],
@@ -221,7 +227,9 @@
     "location": "London & Cambridge",
     "city": "London & Cambridge",
     "country": "United Kingdom",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "historical_age_ranges": [
       "14-17"
     ],
@@ -290,7 +298,9 @@
     "location": "London & Cambridge",
     "city": "London & Cambridge",
     "country": "United Kingdom",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "historical_age_ranges": [
       "14-17"
     ],
@@ -359,7 +369,9 @@
     "location": "London & Cambridge",
     "city": "London & Cambridge",
     "country": "United Kingdom",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "historical_age_ranges": [
       "14-17"
     ],
@@ -428,7 +440,9 @@
     "location": "London & Cambridge",
     "city": "London & Cambridge",
     "country": "United Kingdom",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "historical_age_ranges": [
       "14-17"
     ],
@@ -497,7 +511,9 @@
     "location": "London & Cambridge",
     "city": "London & Cambridge",
     "country": "United Kingdom",
-    "age_ranges": [],
+    "age_ranges": [
+      "13-18"
+    ],
     "historical_age_ranges": [
       "14-17"
     ],
