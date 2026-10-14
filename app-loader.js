@@ -25,6 +25,7 @@ window.__PROGRAM_EDITOR_PROGRAMS__ = basePrograms.map((program) =>
 );
 
 const additionalSubjectBuckets = {
+  "Economics & Finance": "Business",
   "STEM & English": "Science & Mathematics",
   "English & Leadership": "Language",
   "Academic Research": "Online Research Program",
@@ -237,6 +238,14 @@ replaceOnce(
 
 // Provider filter values are either "<provider>" or "<provider>||<location>"
 // (see codexSchoolFilter): a program matches when either one is selected.
+// No catch-all "Other" subject filter: every subject should be mapped to a real
+// category in additionalSubjectBuckets above.
+replaceOnce(
+  "[...new Set(M.map(Ut=>Ut.subjectBucket))].sort()",
+  '[...new Set(M.map(Ut=>Ut.subjectBucket))].filter(Ut=>Ut!=="Other").sort()',
+  "hide the Other subject filter"
+);
+
 replaceOnce(
   "d.includes(H.providerLabel)",
   'd.includes(H.providerFilter)||d.includes(H.providerFilter+"||"+H.codexLocationKey)',
