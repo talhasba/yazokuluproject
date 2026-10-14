@@ -168,3 +168,26 @@
   font-weight: 600;
   text-align: right;
 }
+
+/* Provider checkbox: partial selection (some locations ticked) */
+.codex-school-dash {
+  display: block;
+  width: 8px;
+  height: 2px;
+  border-radius: 1px;
+  background: #fff;
+}
+
+.codex-school-selected {
+  flex: 0 0 auto;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #eef1ff;
+  color: #3451d1;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
