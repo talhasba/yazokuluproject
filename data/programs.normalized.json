@@ -1228,7 +1228,9 @@
       "dates": "26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/architecture-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-artificial-intelligence-summer-school-ci-cambridge",
@@ -1381,7 +1383,9 @@
       "dates": "19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/artificial-intelligence-summer-school/ci-cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-biology-summer-school-cambridge",
@@ -1527,7 +1531,9 @@
       "dates": "26 Temmuz - 8 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/biology-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-biotechnology-summer-school-cambridge",
@@ -1673,7 +1679,9 @@
       "dates": "19 Temmuz - 1 Ağustos, 26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/biotechnology-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-business-management-summer-school-cambridge",
@@ -1827,7 +1835,9 @@
       "dates": "12 Temmuz - 25 Temmuz, 26 Temmuz - 8 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/business-management-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-business-management-summer-school-ci-cambridge",
@@ -1980,7 +1990,9 @@
       "dates": "19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/business-management-summer-school/ci-cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-chemistry-summer-school-cambridge",
@@ -2125,7 +2137,9 @@
       "dates": "26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/chemistry-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-coding-summer-school-cambridge",
@@ -2273,7 +2287,9 @@
       "dates": "12 Temmuz - 25 Temmuz, 19 Temmuz - 1 Ağustos, 26 Temmuz - 8 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/coding-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-computer-science-summer-school-cambridge",
@@ -2427,7 +2443,9 @@
       "dates": "26 Temmuz - 8 Ağustos, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/computer-science-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-creative-industries-summer-school-ci-cambridge",
@@ -2580,7 +2598,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/creative-industries-summer-school/ci-cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-criminology-summer-school-cambridge",
@@ -2725,7 +2745,9 @@
       "dates": "2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/criminology-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-economics-summer-school-cambridge",
@@ -2871,7 +2893,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/economics-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-engineering-summer-school-cambridge",
@@ -3025,7 +3049,9 @@
       "dates": "28 Haziran - 11 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/engineering-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-english-literature-summer-school-cambridge",
@@ -3170,7 +3196,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/english-literature-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-female-future-leaders-summer-school-cambridge",
@@ -3315,7 +3343,9 @@
       "dates": "12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/female-future-leaders-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-global-leadership-summer-school-cambridge",
@@ -3463,7 +3493,9 @@
       "dates": "12 Temmuz - 25 Temmuz, 19 Temmuz - 1 Ağustos, 26 Temmuz - 8 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/global-leadership-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-international-relations-summer-school-cambridge",
@@ -3618,7 +3650,9 @@
       "dates": "28 Haziran - 11 Temmuz, 26 Temmuz - 8 Ağustos, 5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/international-relations-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-law-summer-school-cambridge",
@@ -3771,7 +3805,9 @@
       "dates": "26 Temmuz - 8 Ağustos, 5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/law-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-law-summer-school-ci-cambridge",
@@ -3925,7 +3961,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/law-summer-school/ci-cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-mathematics-summer-school-cambridge",
@@ -4071,7 +4109,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/mathematics-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-medicine-summer-school-cambridge",
@@ -4227,7 +4267,9 @@
       "dates": "28 Haziran - 11 Temmuz, 26 Temmuz - 8 Ağustos, 5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/medicine-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-medicine-summer-school-ci-cambridge",
@@ -4381,7 +4423,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/medicine-summer-school/ci-cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-natural-sciences-summer-school-cambridge",
@@ -4526,7 +4570,9 @@
       "dates": "26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/natural-sciences-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-philosophy-politics-economics-summer-school-cambridge",
@@ -4671,7 +4717,9 @@
       "dates": "26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/philosophy-politics-economics-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-philosophy-summer-school-cambridge",
@@ -4816,7 +4864,9 @@
       "dates": "2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/philosophy-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-physics-summer-school-cambridge",
@@ -4969,7 +5019,9 @@
       "dates": "28 Haziran - 11 Temmuz, 26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/physics-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-psychology-summer-school-cambridge",
@@ -5123,7 +5175,9 @@
       "dates": "28 Haziran - 11 Temmuz, 26 Temmuz - 8 Ağustos, 5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/psychology-summer-school/cambridge/"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "immerse-architecture-design-summer-school-london",
@@ -5277,7 +5331,9 @@
       "dates": "28 Haziran - 11 Temmuz, 12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/architecture-design-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-banking-finance-summer-school-london",
@@ -5431,7 +5487,9 @@
       "dates": "12 Temmuz - 25 Temmuz, 26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/banking-finance-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-business-management-summer-school-london",
@@ -5585,7 +5643,9 @@
       "dates": "12 Temmuz - 25 Temmuz, 26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/business-management-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-creative-industries-summer-school-london",
@@ -5739,7 +5799,9 @@
       "dates": "12 Temmuz - 25 Temmuz, 26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/creative-industries-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-economics-summer-school-ai-london",
@@ -5884,7 +5946,9 @@
       "dates": "12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/economics-summer-school/ai-london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-engineering-summer-school-ai-london",
@@ -6029,7 +6093,9 @@
       "dates": "12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/engineering-summer-school/ai-london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-engineering-summer-school-london",
@@ -6183,7 +6249,9 @@
       "dates": "12 Temmuz - 25 Temmuz, 26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/engineering-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-film-studies-summer-school-london",
@@ -6336,7 +6404,9 @@
       "dates": "28 Haziran - 11 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/film-studies-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-fine-and-digital-art-summer-school-london",
@@ -6490,7 +6560,9 @@
       "dates": "28 Haziran - 11 Temmuz, 12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/fine-and-digital-art-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-law-summer-school-ai-london",
@@ -6635,7 +6707,9 @@
       "dates": "28 Haziran - 11 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/law-summer-school/ai-london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-law-summer-school-london",
@@ -6789,7 +6863,9 @@
       "dates": "12 Temmuz - 25 Temmuz, 26 Temmuz - 8 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/law-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-mathematics-summer-school-ai-london",
@@ -6934,7 +7010,9 @@
       "dates": "12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/mathematics-summer-school/ai-london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-media-journalism-summer-school-london",
@@ -7087,7 +7165,9 @@
       "dates": "12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/media-journalism-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-medicine-summer-school-ai-london",
@@ -7233,7 +7313,9 @@
       "dates": "28 Haziran - 11 Temmuz, 12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/medicine-summer-school/ai-london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-medicine-summer-school-london",
@@ -7386,7 +7468,9 @@
       "dates": "12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/medicine-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-psychology-summer-school-ai-london",
@@ -7531,7 +7615,9 @@
       "dates": "12 Temmuz - 25 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/psychology-summer-school/ai-london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-software-development-gaming-summer-school-london",
@@ -7684,7 +7770,9 @@
       "dates": "28 Haziran - 11 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/software-development-gaming-summer-school/london"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "immerse-banking-finance-summer-school-new-york",
@@ -7837,7 +7925,9 @@
       "dates": "28 Haziran - 11 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/banking-finance-summer-school/new-york"
-    }
+    },
+    "campus": "Barnard College (Columbia University)",
+    "campus_tr": "Barnard College (Columbia Üniversitesi)"
   },
   {
     "id": "immerse-business-management-summer-school-new-york",
@@ -7990,7 +8080,9 @@
       "dates": "28 Haziran - 11 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/business-management-summer-school/new-york"
-    }
+    },
+    "campus": "Barnard College (Columbia University)",
+    "campus_tr": "Barnard College (Columbia Üniversitesi)"
   },
   {
     "id": "immerse-fashion-design-summer-school-new-york",
@@ -8143,7 +8235,9 @@
       "dates": "28 Haziran - 11 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/fashion-design-summer-school/new-york"
-    }
+    },
+    "campus": "Barnard College (Columbia University)",
+    "campus_tr": "Barnard College (Columbia Üniversitesi)"
   },
   {
     "id": "immerse-marketing-entertainment-summer-school-new-york",
@@ -8296,7 +8390,9 @@
       "dates": "28 Haziran - 11 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/marketing-entertainment-summer-school/new-york"
-    }
+    },
+    "campus": "Barnard College (Columbia University)",
+    "campus_tr": "Barnard College (Columbia Üniversitesi)"
   },
   {
     "id": "immerse-medicine-summer-school-new-york",
@@ -8449,7 +8545,9 @@
       "dates": "28 Haziran - 11 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/medicine-summer-school/new-york"
-    }
+    },
+    "campus": "Barnard College (Columbia University)",
+    "campus_tr": "Barnard College (Columbia Üniversitesi)"
   },
   {
     "id": "immerse-architecture-summer-school-oxford",
@@ -8596,7 +8694,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/architecture-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-artificial-intelligence-summer-school-oxford",
@@ -8742,7 +8842,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/artificial-intelligence-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-biology-summer-school-oxford",
@@ -8887,7 +8989,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/biology-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-business-management-summer-school-oxford",
@@ -9041,7 +9145,9 @@
       "dates": "19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos, 5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/business-management-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-chemistry-summer-school-oxford",
@@ -9186,7 +9292,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/chemistry-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-computer-science-summer-school-oxford",
@@ -9333,7 +9441,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/computer-science-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-creative-writing-summer-school-oxford",
@@ -9486,7 +9596,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/creative-writing-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-criminology-summer-school-oxford",
@@ -9631,7 +9743,9 @@
       "dates": "19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/criminology-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-economics-summer-school-oxford",
@@ -9784,7 +9898,9 @@
       "dates": "19 Temmuz - 1 Ağustos, 5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/economics-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-engineering-summer-school-oxford",
@@ -9930,7 +10046,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/engineering-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-english-literature-summer-school-oxford",
@@ -10077,7 +10195,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/english-literature-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-film-studies-summer-school-oxford",
@@ -10224,7 +10344,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/film-studies-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-history-summer-school-oxford",
@@ -10371,7 +10493,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/history-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-international-relations-summer-school-oxford",
@@ -10517,7 +10641,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/international-relations-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-law-summer-school-oxford",
@@ -10671,7 +10797,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/law-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-mathematics-summer-school-oxford",
@@ -10816,7 +10944,9 @@
       "dates": "19 Temmuz - 1 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/mathematics-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-medicine-summer-school-medicine-summer-programme-in-oxford",
@@ -10970,7 +11100,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/medicine-summer-school/medicine-summer-programme-in-oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-philosophy-politics-economics-summer-school-oxford",
@@ -11115,7 +11247,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/philosophy-politics-economics-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-psychology-summer-school-oxford",
@@ -11262,7 +11396,9 @@
       "dates": "5 Temmuz - 18 Temmuz, 19 Temmuz - 1 Ağustos, 2 Ağustos - 15 Ağustos",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/psychology-summer-school/oxford"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "immerse-entrepreneurship-summer-school-san-francisco",
@@ -11415,7 +11551,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/entrepreneurship-summer-school/san-francisco"
-    }
+    },
+    "campus": "UC Berkeley",
+    "campus_tr": "UC Berkeley"
   },
   {
     "id": "immerse-software-development-ai-summer-school-san-francisco",
@@ -11568,7 +11706,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£5,995",
       "source_url": "https://www.immerse.education/software-development-ai-summer-school/san-francisco"
-    }
+    },
+    "campus": "UC Berkeley",
+    "campus_tr": "UC Berkeley"
   },
   {
     "id": "immerse-business-management-summer-school-toronto",
@@ -11713,7 +11853,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£4,495",
       "source_url": "https://www.immerse.education/business-management-summer-school/toronto"
-    }
+    },
+    "campus": "University of Toronto",
+    "campus_tr": "Toronto Üniversitesi"
   },
   {
     "id": "immerse-economics-summer-school-toronto",
@@ -11858,7 +12000,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£4,495",
       "source_url": "https://www.immerse.education/economics-summer-school/toronto"
-    }
+    },
+    "campus": "University of Toronto",
+    "campus_tr": "Toronto Üniversitesi"
   },
   {
     "id": "immerse-engineering-summer-school-ai-toronto",
@@ -12003,7 +12147,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£4,495",
       "source_url": "https://www.immerse.education/engineering-summer-school/ai-toronto"
-    }
+    },
+    "campus": "University of Toronto",
+    "campus_tr": "Toronto Üniversitesi"
   },
   {
     "id": "immerse-international-relations-summer-school-toronto",
@@ -12148,7 +12294,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£4,495",
       "source_url": "https://www.immerse.education/international-relations-summer-school/toronto"
-    }
+    },
+    "campus": "University of Toronto",
+    "campus_tr": "Toronto Üniversitesi"
   },
   {
     "id": "immerse-law-summer-school-toronto",
@@ -12293,7 +12441,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£4,495",
       "source_url": "https://www.immerse.education/law-summer-school/toronto"
-    }
+    },
+    "campus": "University of Toronto",
+    "campus_tr": "Toronto Üniversitesi"
   },
   {
     "id": "immerse-medicine-summer-school-toronto",
@@ -12438,7 +12588,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£4,495",
       "source_url": "https://www.immerse.education/medicine-summer-school/toronto"
-    }
+    },
+    "campus": "University of Toronto",
+    "campus_tr": "Toronto Üniversitesi"
   },
   {
     "id": "immerse-psychology-summer-school-toronto",
@@ -12583,7 +12735,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£4,495",
       "source_url": "https://www.immerse.education/psychology-summer-school/toronto"
-    }
+    },
+    "campus": "University of Toronto",
+    "campus_tr": "Toronto Üniversitesi"
   },
   {
     "id": "immerse-software-development-ai-summer-school-toronto",
@@ -12728,7 +12882,9 @@
       "dates": "5 Temmuz - 18 Temmuz",
       "fees": "£4,495",
       "source_url": "https://www.immerse.education/software-development-ai-summer-school/toronto"
-    }
+    },
+    "campus": "University of Toronto",
+    "campus_tr": "Toronto Üniversitesi"
   },
   {
     "id": "immerse-online-research-programme",
@@ -13385,7 +13541,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-ai-software-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-architect-summer-experience",
@@ -13624,7 +13782,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-architect-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-art-design-summer-experience",
@@ -13871,7 +14031,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-art-design-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-career-discovery-summer-experience",
@@ -14072,7 +14234,9 @@
       "dates": "6–20 Temmuz, 20 Temmuz–3 Ağustos, 7–18 Temmuz, 21 Temmuz–1 Ağustos",
       "fees": "£5,495",
       "source_url": "https://investin.org/products/career-discovery-summer-experience"
-    }
+    },
+    "campus": "Dulwich College",
+    "campus_tr": "Dulwich College"
   },
   {
     "id": "investin-products-the-dentist-summer-experience",
@@ -14316,7 +14480,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-dentist-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-digital-media-summer-experience",
@@ -14553,7 +14719,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-digital-media-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-doctor-summer-experience",
@@ -14795,7 +14963,9 @@
       "dates": "5 Temmuz, 19 Temmuz, 16 Ağustos",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-doctor-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-engineer-summer-experience",
@@ -15049,7 +15219,9 @@
       "dates": "5 Temmuz, 19 Temmuz, 16 Ağustos",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-engineer-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-young-entrepreneur-summer-experience",
@@ -15306,7 +15478,9 @@
       "dates": "5 Temmuz, 19 Temmuz, 16 Ağustos",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-young-entrepreneur-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-forensic-scientist-summer-experience",
@@ -15554,7 +15728,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-forensic-scientist-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-international-politics-summer-experience",
@@ -15789,7 +15965,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-international-politics-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-investment-banker-summer-experience",
@@ -16051,7 +16229,9 @@
       "dates": "5 Temmuz, 19 Temmuz, 16 Ağustos",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-investment-banker-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-lawyer-summer-experience",
@@ -16292,7 +16472,9 @@
       "dates": "5 Temmuz, 19 Temmuz, 16 Ağustos",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-lawyer-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-psychologist-summer-experience",
@@ -16549,7 +16731,9 @@
       "dates": "5 Temmuz, 19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-psychologist-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-tv-film-summer-experience",
@@ -16796,7 +16980,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-tv-film-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "investin-products-the-vet-summer-experience",
@@ -17048,7 +17234,9 @@
       "dates": "19 Temmuz",
       "fees": "£2,290 - £7,930",
       "source_url": "https://investin.org/products/the-vet-summer-experience"
-    }
+    },
+    "campus": "UCL",
+    "campus_tr": "UCL"
   },
   {
     "id": "stclares-summer-juniors-active-english",
@@ -17185,7 +17373,9 @@
       "dates": "8, 22 & 29 Temmuz; 5 Ağustos",
       "fees": "£3,695",
       "source_url": "https://www.stclares.ac.uk/summer-juniors-active-english"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-juniors-active-english-stem",
@@ -17322,7 +17512,9 @@
       "dates": "8, 22 & 29 Temmuz; 5 Ağustos",
       "fees": "£3,795",
       "source_url": "https://www.stclares.ac.uk/summer-juniors-active-english-stem"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-teens-ox-art",
@@ -17459,7 +17651,9 @@
       "dates": "5 & 26 Temmuz",
       "fees": "£3,790",
       "source_url": "https://www.stclares.ac.uk/summer-teens-ox-art"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-teens-ox-business",
@@ -17596,7 +17790,9 @@
       "dates": "5 & 26 Temmuz",
       "fees": "£3,790",
       "source_url": "https://www.stclares.ac.uk/summer-teens-ox-business"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-teens-ox-ib-intro",
@@ -17733,7 +17929,9 @@
       "dates": "28 Haziran; 19 Temmuz",
       "fees": "£5,670",
       "source_url": "https://www.stclares.ac.uk/summer-teens-ox-ib-intro"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-teens-ox-intensive-english",
@@ -17870,7 +18068,9 @@
       "dates": "28 Haziran; 19 Temmuz",
       "fees": "£4,350",
       "source_url": "https://www.stclares.ac.uk/summer-teens-ox-intensive-english"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-teens-ox-interactive-english",
@@ -18007,7 +18207,9 @@
       "dates": "21 & 28 Haziran; 5 & 19 Temmuz; 2 Ağustos",
       "fees": "£2,486",
       "source_url": "https://www.stclares.ac.uk/summer-teens-ox-interactive-english"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-teens-ox-project-eco",
@@ -18154,7 +18356,9 @@
       "dates": "9 Ağustos",
       "fees": "£1,395",
       "source_url": "https://www.stclares.ac.uk/summer-teens-ox-project-eco"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-teens-ox-science",
@@ -18291,7 +18495,9 @@
       "dates": "5 & 26 Temmuz",
       "fees": "£3,790",
       "source_url": "https://www.stclares.ac.uk/summer-teens-ox-science"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "stclares-summer-juniors-young-leaders",
@@ -18428,7 +18634,9 @@
       "dates": "8 & 22 Temmuz; 5 Ağustos",
       "fees": "£3,975",
       "source_url": "https://www.stclares.ac.uk/summer-juniors-young-leaders"
-    }
+    },
+    "campus": "St Clare's",
+    "campus_tr": "St Clare's"
   },
   {
     "id": "edconic-courses-vogue-summer-school-fashion-business-vogue-summer-school-london",
@@ -18504,7 +18712,9 @@
     "title_tr": "Vogue Yaz Okulu - Londra",
     "subject_tr": "Moda İşletmeciliği ve Medya",
     "location_tr": "Londra",
-    "description_short_tr": "Moda işletmeciliğini İngiliz mirası ve sektörü dönüştüren markalar üzerinden keşfedin; markalaşma, pazarlama, halkla ilişkiler, perakende, sürdürülebilirlik ve yaratıcı hizmetler alanlarında projeler ve ziyaretlerle."
+    "description_short_tr": "Moda işletmeciliğini İngiliz mirası ve sektörü dönüştüren markalar üzerinden keşfedin; markalaşma, pazarlama, halkla ilişkiler, perakende, sürdürülebilirlik ve yaratıcı hizmetler alanlarında projeler ve ziyaretlerle.",
+    "campus": "Vogue College of Fashion",
+    "campus_tr": "Vogue College of Fashion"
   },
   {
     "id": "edconic-pre-college-summer-academy-nyc-nyc-summer-academy",
@@ -18583,7 +18793,9 @@
     "title_tr": "NYC Yaz Akademisi",
     "subject_tr": "Gazetecilik ve Yazarlık",
     "location_tr": "New York",
-    "description_short_tr": "Gazeteciler ve editörlerle gazetecilik ve medyayı (kültür, spor, moda, iş ve hukuk) keşfedin; New York City'yi sınıfınızın uzantısı olarak kullanın."
+    "description_short_tr": "Gazeteciler ve editörlerle gazetecilik ve medyayı (kültür, spor, moda, iş ve hukuk) keşfedin; New York City'yi sınıfınızın uzantısı olarak kullanın.",
+    "campus": "The School of The New York Times",
+    "campus_tr": "The School of The New York Times"
   },
   {
     "id": "edconic-pre-college-summer-institute-summer-institute-nyc",
@@ -18660,7 +18872,9 @@
     "title_tr": "NYC Yaz Enstitüsü",
     "subject_tr": "Sanat İşletmeciliği ve Sanat Tarihi",
     "location_tr": "New York",
-    "description_short_tr": "Sanat, kültür ve lüksü keşfedin; müzeler, galeriler, müzayede evleri ve sanatçı stüdyolarıyla sektörü ilk elden deneyimleyin."
+    "description_short_tr": "Sanat, kültür ve lüksü keşfedin; müzeler, galeriler, müzayede evleri ve sanatçı stüdyolarıyla sektörü ilk elden deneyimleyin.",
+    "campus": "Sotheby's Institute of Art",
+    "campus_tr": "Sotheby's Institute of Art"
   },
   {
     "id": "edconic-vogue-summer-school-vogue-summer-school-nyc",
@@ -18738,7 +18952,9 @@
     "title_tr": "Vogue Yaz Okulu - NYC",
     "subject_tr": "Moda İşletmeciliği ve Medya",
     "location_tr": "New York",
-    "description_short_tr": "Vogue ile küresel moda sektörünün kulisine girin; moda işletmeciliği, moda medyası ve moda stilistliği temel kurslarından seçin."
+    "description_short_tr": "Vogue ile küresel moda sektörünün kulisine girin; moda işletmeciliği, moda medyası ve moda stilistliği temel kurslarından seçin.",
+    "campus": "Vogue College of Fashion",
+    "campus_tr": "Vogue College of Fashion"
   },
   {
     "id": "edconic-courses-vogue-winter-break-vogue-winter-break-nyc",
@@ -18814,7 +19030,9 @@
     "title_tr": "Vogue Kış Programı - NYC",
     "subject_tr": "Moda İşletmeciliği ve Medya",
     "location_tr": "New York",
-    "description_short_tr": "Lise öğrencileri için New York'ta, sınıf öğrenimini şehrin moda sektörüne erişimle birleştiren beş günlük moda işletmeciliği yoğun programı."
+    "description_short_tr": "Lise öğrencileri için New York'ta, sınıf öğrenimini şehrin moda sektörüne erişimle birleştiren beş günlük moda işletmeciliği yoğun programı.",
+    "campus": "Vogue College of Fashion",
+    "campus_tr": "Vogue College of Fashion"
   },
   {
     "id": "edconic-academics-pre-college-pre-college-online-online-essentials",
@@ -18954,7 +19172,9 @@
     "title_tr": "Üniversite Öncesi Sağlık Akademisi",
     "subject_tr": "Tıp ve Sağlık",
     "location_tr": "Rochester, Minnesota",
-    "description_short_tr": "Mayo Clinic'in öğrenme ortamında iki haftalık yatılı tıp ve sağlık hizmetlerine giriş programı; etkileşimli atölyeler ve uygulamalı öğrenmeyle."
+    "description_short_tr": "Mayo Clinic'in öğrenme ortamında iki haftalık yatılı tıp ve sağlık hizmetlerine giriş programı; etkileşimli atölyeler ve uygulamalı öğrenmeyle.",
+    "campus": "Mayo Clinic College of Medicine & Science",
+    "campus_tr": "Mayo Clinic College of Medicine & Science"
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-physics-and-engineering",
@@ -19023,7 +19243,9 @@
     "title_tr": "Fizik ve Mühendislik",
     "subject_tr": "Fizik ve Mühendislik",
     "location_tr": "Cambridge ve Londra",
-    "description_short_tr": "Fizik ve mühendislik dahil, birbirini tamamlayan üç dersi uygulamalı atölyeler ve kuram oturumlarıyla canlandırın."
+    "description_short_tr": "Fizik ve mühendislik dahil, birbirini tamamlayan üç dersi uygulamalı atölyeler ve kuram oturumlarıyla canlandırın.",
+    "campus": "MPW Cambridge & London",
+    "campus_tr": "MPW Cambridge & London"
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-architecture",
@@ -19092,7 +19314,9 @@
     "title_tr": "Mimarlık",
     "subject_tr": "Mimarlık",
     "location_tr": "Londra",
-    "description_short_tr": "Mimarlığa ilk adımlarınızı atın: tasarım ilkeleri, pratik beceriler ve portfolyo oluşturma; üssünüz Londra."
+    "description_short_tr": "Mimarlığa ilk adımlarınızı atın: tasarım ilkeleri, pratik beceriler ve portfolyo oluşturma; üssünüz Londra.",
+    "campus": "MPW London",
+    "campus_tr": "MPW London"
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-art-and-design",
@@ -19161,7 +19385,9 @@
     "title_tr": "Sanat ve Tasarım",
     "subject_tr": "Sanat ve Tasarım",
     "location_tr": "Londra",
-    "description_short_tr": "Yaratıcılığınızı ifade etmek için farklı malzeme, teknik ve formları deneyin: illüstrasyondan resme, tipografiden renge."
+    "description_short_tr": "Yaratıcılığınızı ifade etmek için farklı malzeme, teknik ve formları deneyin: illüstrasyondan resme, tipografiden renge.",
+    "campus": "MPW London",
+    "campus_tr": "MPW London"
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-business-finance-and-economics",
@@ -19230,7 +19456,9 @@
     "title_tr": "İşletme, Finans ve Ekonomi",
     "subject_tr": "İşletme, Finans ve Ekonomi",
     "location_tr": "Londra ve Cambridge",
-    "description_short_tr": "İşletmelerin nasıl çalıştığını anlayın: planlama, yatırım ve tedarik zincirinden markalaşma ve pazarlamaya."
+    "description_short_tr": "İşletmelerin nasıl çalıştığını anlayın: planlama, yatırım ve tedarik zincirinden markalaşma ve pazarlamaya.",
+    "campus": "MPW London & Cambridge",
+    "campus_tr": "MPW London & Cambridge"
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-computing-robotics-and-ai",
@@ -19299,7 +19527,9 @@
     "title_tr": "Bilgisayar Bilimleri, Robotik ve Yapay Zekâ",
     "subject_tr": "Bilgisayar Bilimleri, Robotik ve Yapay Zekâ",
     "location_tr": "Londra ve Cambridge",
-    "description_short_tr": "Geleceğimizi şekillendiren teknolojileri kriptodan kodlamaya keşfedin; hayal gücünüzü bir robot inşa ederek hayata geçirin."
+    "description_short_tr": "Geleceğimizi şekillendiren teknolojileri kriptodan kodlamaya keşfedin; hayal gücünüzü bir robot inşa ederek hayata geçirin.",
+    "campus": "MPW London & Cambridge",
+    "campus_tr": "MPW London & Cambridge"
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-medicine-and-sciences",
@@ -19368,7 +19598,9 @@
     "title_tr": "Tıp ve Fen Bilimleri",
     "subject_tr": "Tıp ve Fen Bilimleri",
     "location_tr": "Londra ve Cambridge",
-    "description_short_tr": "Tıp fakültesi yolculuğunuza uygulamalı atölyeler ve kuramsal öğrenmeyle başlayın."
+    "description_short_tr": "Tıp fakültesi yolculuğunuza uygulamalı atölyeler ve kuramsal öğrenmeyle başlayın.",
+    "campus": "MPW London & Cambridge",
+    "campus_tr": "MPW London & Cambridge"
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-politics-and-law",
@@ -19437,7 +19669,9 @@
     "title_tr": "Siyaset ve Hukuk",
     "subject_tr": "Siyaset ve Hukuk",
     "location_tr": "Londra ve Cambridge",
-    "description_short_tr": "Nasıl yönetildiğimizi belirleyen kurumları ve kararları, günümüz manşetlerindeki hukuki ve siyasi konuları anlayın."
+    "description_short_tr": "Nasıl yönetildiğimizi belirleyen kurumları ve kararları, günümüz manşetlerindeki hukuki ve siyasi konuları anlayın.",
+    "campus": "MPW London & Cambridge",
+    "campus_tr": "MPW London & Cambridge"
   },
   {
     "id": "mpw-international-students-summer-school-academic-programme-psychology-and-sociology",
@@ -19506,7 +19740,9 @@
     "title_tr": "Psikoloji ve Sosyoloji",
     "subject_tr": "Psikoloji ve Sosyoloji",
     "location_tr": "Londra ve Cambridge",
-    "description_short_tr": "İnsan davranışına ve modern toplumu nasıl şekillendirdiğine bakın: suç davranışı, sosyal kimlik, aile ve medya."
+    "description_short_tr": "İnsan davranışına ve modern toplumu nasıl şekillendirdiğine bakın: suç davranışı, sosyal kimlik, aile ve medya.",
+    "campus": "MPW London & Cambridge",
+    "campus_tr": "MPW London & Cambridge"
   },
   {
     "id": "sportech-esports-in-motorsport",
@@ -19582,7 +19818,9 @@
     "title_tr": "Motor Sporlarında Espor",
     "subject_tr": "Mühendislik",
     "location_tr": "Indianapolis",
-    "description_short_tr": "Dallara ve AK Esports ile bir hafta: simülatörden Amerikan motor sporlarının merkezindeki gerçek piste."
+    "description_short_tr": "Dallara ve AK Esports ile bir hafta: simülatörden Amerikan motor sporlarının merkezindeki gerçek piste.",
+    "campus": "Dallara AK Esports",
+    "campus_tr": "Dallara AK Esports"
   },
   {
     "id": "sportech-architecture-urban-design",
@@ -20226,7 +20464,9 @@
     "title_tr": "Futbol - AC Milan Experience Elite",
     "subject_tr": "Spor",
     "location_tr": "Milano",
-    "description_short_tr": "AC Milan Akademi antrenörleriyle kulübün elit tesislerinde, akademinin aynı metodolojisi ve video analiziyle antrenman yapın."
+    "description_short_tr": "AC Milan Akademi antrenörleriyle kulübün elit tesislerinde, akademinin aynı metodolojisi ve video analiziyle antrenman yapın.",
+    "campus": "AC Milan",
+    "campus_tr": "AC Milan"
   },
   {
     "id": "sportech-medicine",
@@ -20307,7 +20547,9 @@
     "title_tr": "Tıp",
     "subject_tr": "Sağlık ve Yaşam Bilimleri",
     "location_tr": "Milano",
-    "description_short_tr": "İtalya'nın en prestijli tıp kurumlarından San Raffaele Üniversitesi'nde uygulamalı klinik ve laboratuvar öğrenimi."
+    "description_short_tr": "İtalya'nın en prestijli tıp kurumlarından San Raffaele Üniversitesi'nde uygulamalı klinik ve laboratuvar öğrenimi.",
+    "campus": "Vita-Salute San Raffaele University (UniSR)",
+    "campus_tr": "Vita-Salute San Raffaele Üniversitesi (UniSR)"
   },
   {
     "id": "sportech-pet-design",
@@ -20763,7 +21005,9 @@
     "title_tr": "Motor Sporları Mühendisliği",
     "subject_tr": "Mühendislik",
     "location_tr": "Parma",
-    "description_short_tr": "Dallara Academy ile Motor Valley'de iki hafta: yarış aracı tasarımı, üretimi ve performansı; çizimden piste."
+    "description_short_tr": "Dallara Academy ile Motor Valley'de iki hafta: yarış aracı tasarımı, üretimi ve performansı; çizimden piste.",
+    "campus": "Dallara Academy",
+    "campus_tr": "Dallara Academy"
   },
   {
     "id": "sportech-aerospace-engineering",
@@ -20843,7 +21087,9 @@
     "title_tr": "Havacılık ve Uzay Mühendisliği",
     "subject_tr": "Mühendislik",
     "location_tr": "Roma",
-    "description_short_tr": "Sapienza'da havacılık ve uzay tasarımı ile itki sistemleri; gerçek bir roket fırlatma ve uçuş hazırlık incelemesiyle sona erer."
+    "description_short_tr": "Sapienza'da havacılık ve uzay tasarımı ile itki sistemleri; gerçek bir roket fırlatma ve uçuş hazırlık incelemesiyle sona erer.",
+    "campus": "Sapienza University of Rome",
+    "campus_tr": "Roma Sapienza Üniversitesi"
   },
   {
     "id": "sportech-aerospace-engineering-university",
@@ -20917,7 +21163,9 @@
     "title_tr": "Havacılık ve Uzay Mühendisliği",
     "subject_tr": "Mühendislik",
     "location_tr": "Roma",
-    "description_short_tr": "Sapienza Havacılık ve Uzay Mühendisliği Okulu'nda gerçek bir sonda roketinin aviyonik sistem paketini yapın ve fırlatın."
+    "description_short_tr": "Sapienza Havacılık ve Uzay Mühendisliği Okulu'nda gerçek bir sonda roketinin aviyonik sistem paketini yapın ve fırlatın.",
+    "campus": "Sapienza University of Rome",
+    "campus_tr": "Roma Sapienza Üniversitesi"
   },
   {
     "id": "sportech-music-innovation",
@@ -43898,7 +44146,9 @@
     "title_tr": "Biyoloji ve Araştırma",
     "subject_tr": "Biyoloji ve Araştırma",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Hücre yapısından ve DNA'dan evrime, beyin işlevine ve ekosistemlere kadar biyolojiyi keşfedin; genetik, tıp ve doğa koruma alanlarındaki gerçek uygulamalarla."
+    "description_short_tr": "Hücre yapısından ve DNA'dan evrime, beyin işlevine ve ekosistemlere kadar biyolojiyi keşfedin; genetik, tıp ve doğa koruma alanlarındaki gerçek uygulamalarla.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "constructor-university-summer-camp-business-and-entrepreneurship",
@@ -43968,7 +44218,9 @@
     "title_tr": "İşletme ve Girişimcilik",
     "subject_tr": "İşletme ve Girişimcilik",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Piyasaların nasıl işlediğini ve girişimlerin nasıl kurulduğunu öğrenin — arz-talep, maliyet sınıflandırması, girişim yatırımı, sunum yapma ve bütçeleme."
+    "description_short_tr": "Piyasaların nasıl işlediğini ve girişimlerin nasıl kurulduğunu öğrenin — arz-talep, maliyet sınıflandırması, girişim yatırımı, sunum yapma ve bütçeleme.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "constructor-university-summer-camp-chemistry-and-research",
@@ -44038,7 +44290,9 @@
     "title_tr": "Kimya ve Araştırma",
     "subject_tr": "Kimya ve Araştırma",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Temel kimyayı — atomik yapı, tepkimeler, asitler ve bazlar — ileri malzemelere, biyokimyaya ve günlük hayata bağlayın."
+    "description_short_tr": "Temel kimyayı — atomik yapı, tepkimeler, asitler ve bazlar — ileri malzemelere, biyokimyaya ve günlük hayata bağlayın.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "constructor-university-summer-camp-human-behavior-and-society",
@@ -44108,7 +44362,9 @@
     "title_tr": "İnsan Davranışı ve Toplum",
     "subject_tr": "İnsan Davranışı ve Toplum",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "İnsanların neden öyle düşündüğünü, hissettiğini ve davrandığını biyo-psiko-sosyal bakış açılarıyla, karar verme, sosyal etki ve medya okuryazarlığıyla keşfedin."
+    "description_short_tr": "İnsanların neden öyle düşündüğünü, hissettiğini ve davrandığını biyo-psiko-sosyal bakış açılarıyla, karar verme, sosyal etki ve medya okuryazarlığıyla keşfedin.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "constructor-university-summer-camp-innovation-and-design-thinking",
@@ -44178,7 +44434,9 @@
     "title_tr": "İnovasyon ve Tasarım Odaklı Düşünme",
     "subject_tr": "İnovasyon ve Tasarım Odaklı Düşünme",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Empati kurma, tanımlama, fikir üretme, prototipleme ve test etmeyi kapsayan tam insan odaklı tasarım döngüsünü uygulayın; yapay zekâ destekli ve veriye dayalı tasarım dahil."
+    "description_short_tr": "Empati kurma, tanımlama, fikir üretme, prototipleme ve test etmeyi kapsayan tam insan odaklı tasarım döngüsünü uygulayın; yapay zekâ destekli ve veriye dayalı tasarım dahil.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "constructor-university-summer-camp-mathematics-and-modeling",
@@ -44248,7 +44506,9 @@
     "title_tr": "Matematik ve Modelleme",
     "subject_tr": "Matematik ve Modelleme",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Kalkülüs ve matematiksel modellemenin temellerini öğrenin — fonksiyonlar, türevler, integraller ve veri analizi — ve bunları gerçek dünyadaki doğa, toplum ve teknik problemlere uygulayın."
+    "description_short_tr": "Kalkülüs ve matematiksel modellemenin temellerini öğrenin — fonksiyonlar, türevler, integraller ve veri analizi — ve bunları gerçek dünyadaki doğa, toplum ve teknik problemlere uygulayın.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "constructor-university-summer-camp-neural-networks-and-robotics",
@@ -44318,7 +44578,9 @@
     "title_tr": "Sinir Ağları ve Robotik",
     "subject_tr": "Sinir Ağları ve Robotik",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Donanım montajından pekiştirmeli öğrenmeye, sensör kalibrasyonuna ve otonom navigasyona kadar gerçek bir yapay zekâ destekli robot inşa edip eğitin."
+    "description_short_tr": "Donanım montajından pekiştirmeli öğrenmeye, sensör kalibrasyonuna ve otonom navigasyona kadar gerçek bir yapay zekâ destekli robot inşa edip eğitin.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "constructor-university-summer-camp-physics-and-research",
@@ -44388,7 +44650,9 @@
     "title_tr": "Fizik ve Araştırma",
     "subject_tr": "Fizik ve Araştırma",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Hareket, enerji, dalgalar ve elektromanyetizmayı inceleyin; bunları modern hesaplama, yapay zekâ ve uzay keşfiyle ilişkilendirin."
+    "description_short_tr": "Hareket, enerji, dalgalar ve elektromanyetizmayı inceleyin; bunları modern hesaplama, yapay zekâ ve uzay keşfiyle ilişkilendirin.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "constructor-university-summer-camp-programming-and-algorithms",
@@ -44458,7 +44722,9 @@
     "title_tr": "Programlama ve Algoritmalar",
     "subject_tr": "Programlama ve Algoritmalar",
     "location_tr": "Bremen, Almanya",
-    "description_short_tr": "Big-O gösteriminden özyinelemeye, sıralamaya ve aramaya kadar algoritmik problem çözme ve hesaplama karmaşıklığını inceleyin."
+    "description_short_tr": "Big-O gösteriminden özyinelemeye, sıralamaya ve aramaya kadar algoritmik problem çözme ve hesaplama karmaşıklığını inceleyin.",
+    "campus": "Constructor University",
+    "campus_tr": "Constructor University"
   },
   {
     "id": "emerald-trinity-walton-stem",
@@ -45451,7 +45717,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/architecture-summer-school-16-18"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-business-innovation-entrepreneurship-16-18",
@@ -45585,7 +45853,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/business-summer-school-16-18"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-economics-finance-16-18",
@@ -45719,7 +45989,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/economics-summer-school-16-18"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-engineering-civil-mechanical-electrical-16-18",
@@ -45853,7 +46125,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/engineering-summer-school-16-18"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-explore-business-12-15",
@@ -45987,7 +46261,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/business-summer-school-12-15"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-explore-engineering-12-15",
@@ -46121,7 +46397,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/explore-engineering-12-15"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-international-relations-diplomacy-16-18",
@@ -46255,7 +46533,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/international-relations-and-global-diplomacy-summer-school"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-law-justice-12-15",
@@ -46389,7 +46669,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/law-summer-school-12-15"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-law-justice-16-18",
@@ -46523,7 +46805,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/law-summer-school-16-18"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-medicine-16-18",
@@ -46657,7 +46941,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/medicine-summer-school-16-18"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-medicine-modern-healthcare-12-15",
@@ -46791,7 +47077,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/medicine-summer-school-12-15"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-psychology-human-mind-12-15",
@@ -46921,7 +47209,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/psychology-12-15"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-cambridge-summer-school-psychology-neuroscience-16-18",
@@ -47055,7 +47345,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/psychology-summer-school-16-18"
-    }
+    },
+    "campus": "University of Cambridge",
+    "campus_tr": "Cambridge Üniversitesi"
   },
   {
     "id": "oxford-royale-marlborough-college-summer-school-academic-discovery-10-12",
@@ -47978,7 +48270,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/architecture-summer-school-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-broadening-horizons-16-18",
@@ -48110,7 +48404,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/broadening-horizons-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-business-innovation-entrepreneurship-16-18",
@@ -48244,7 +48540,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/business-summer-school-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-cybersecurity-artificial-intelligence-16-18",
@@ -48376,7 +48674,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/cybersecurity-summer-school-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-economics-finance-16-18",
@@ -48510,7 +48810,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/economics-summer-school-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-engineering-civil-mechanical-electrical-16-18",
@@ -48644,7 +48946,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/engineering-summer-school-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-explore-artificial-intelligence-12-15",
@@ -48776,7 +49080,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/ai-summer-school-12-15"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-explore-business-12-15",
@@ -48910,7 +49216,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/business-summer-school-12-15"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-explore-engineering-12-15",
@@ -49044,7 +49352,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/explore-engineering-12-15"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-film-academy-12-15",
@@ -49176,7 +49486,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/film-academy-summer-school-12-15"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-international-relations-diplomacy-16-18",
@@ -49310,7 +49622,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/international-relations-and-global-diplomacy-summer-school"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-law-justice-12-15",
@@ -49444,7 +49758,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/law-summer-school-12-15"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-law-justice-16-18",
@@ -49578,7 +49894,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/law-summer-school-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-medicine-16-18",
@@ -49712,7 +50030,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/medicine-summer-school-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-medicine-modern-healthcare-12-15",
@@ -49846,7 +50166,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/medicine-summer-school-12-15"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-new-perspectives-12-15",
@@ -49978,7 +50300,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/new-perspectives-12-15"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "oxford-royale-oxford-summer-school-psychology-neuroscience-16-18",
@@ -50112,7 +50436,9 @@
       "dates": "4 Temmuz 2027, 18 Temmuz 2027, 1 Ağustos 2027",
       "fees": "£7,995",
       "source_url": "https://www.academyroyaleinternational.com/psychology-summer-school-16-18"
-    }
+    },
+    "campus": "University of Oxford",
+    "campus_tr": "Oxford Üniversitesi"
   },
   {
     "id": "studymind-careers-and-life-skills-work-experience",
