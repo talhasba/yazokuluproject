@@ -1,0 +1,36 @@
+/*
+ * Site-wide background: warm sun rays fanning out of the top-left corner ("Işın").
+ * The pattern sits on a fixed layer *behind* the page (body::before), so cards,
+ * photos and text are never tinted. The page containers are made transparent so
+ * it shows on the home, catalogue, programme and About pages alike.
+ */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: repeating-conic-gradient(from 0deg at 0 0, rgba(245, 158, 11, 0.2) 0 3deg, transparent 3deg 11deg);
+  -webkit-mask-image: radial-gradient(circle at 0 0, #000 0, rgba(0, 0, 0, 0.5) 38vmax, transparent 78vmax);
+  mask-image: radial-gradient(circle at 0 0, #000 0, rgba(0, 0, 0, 0.5) 38vmax, transparent 78vmax);
+}
+
+#root,
+#program-page,
+#home-page,
+#about-page {
+  position: relative;
+  z-index: 1;
+}
+
+/* Containers that paint their own page colour: let the rays through. */
+body { background-color: #fff; }
+.pp,
+.ab { background: transparent; }
+
+/* The home page paints its own white; keep only its soft colour glows. */
+.home-page {
+  background:
+    radial-gradient(circle at 8% 12%, rgba(52, 81, 209, 0.12), transparent 28rem),
+    radial-gradient(circle at 92% 8%, rgba(190, 30, 45, 0.07), transparent 22rem);
+}

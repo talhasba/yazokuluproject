@@ -9,20 +9,21 @@
     <title>Summer Programs</title>
     <script>document.documentElement.classList.add('site-locked');</script>
     <script defer src="./password-lock.js"></script>
-    <script type="module" crossorigin src="./app-loader.js?v=20261014-9"></script>
+    <script type="module" crossorigin src="./app-loader.js?v=20261014-10"></script>
     <script defer src="./online-research-options.js?v=20261005-1"></script>
-    <script defer src="./home-page.js"></script>
-    <script defer src="./program-page.js?v=20261014-6"></script>
+    <script defer src="./home-page.js?v=20261014-2"></script>
+    <script defer src="./program-page.js?v=20261014-7"></script>
+    <script defer src="./about-page.js?v=20261014-1"></script>
     <script defer src="./catalogue-cleanup.js"></script>
-    <script defer src="./bg-options.js?v=1"></script>
     <link rel="stylesheet" crossorigin href="./style.css">
     <link rel="stylesheet" href="./online-research-options.css">
     <link rel="stylesheet" href="./home-page.css">
     <link rel="stylesheet" href="./catalogue-cleanup.css?v=20261014-2">
     <link rel="stylesheet" href="./program-page.css?v=20261014-2">
     <link rel="stylesheet" href="./password-lock.css">
-    <link rel="stylesheet" href="./palette.css?v=20261014-1">
-    <link rel="stylesheet" href="./bg-options.css?v=2">
+    <link rel="stylesheet" href="./palette.css?v=20261014-2">
+    <link rel="stylesheet" href="./about-page.css?v=20261014-1">
+    <link rel="stylesheet" href="./background-rays.css?v=20261014-1">
   </head>
   <body>
     <div id="site-lock" class="site-lock" role="dialog" aria-modal="true" aria-labelledby="site-lock-title">
@@ -53,13 +54,15 @@
     <div id="home-page" class="home-page" hidden>
       <header class="home-header">
         <div class="home-brand">
-          <a class="site-brand-link" href="#/" aria-label="Ana sayfa"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere" /></a>
           <a class="parent-brand" href="https://asba.com.tr">
-            <span class="parent-brand-label" data-home-en="An ASBA project" data-home-tr="Bir ASBA projesi">Bir ASBA projesi</span>
             <img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237" />
           </a>
+          <a class="site-brand-link" href="#/" aria-label="SummerButWhere - Ana sayfa"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları" /></a>
         </div>
-        <button id="home-language" class="home-language" type="button" aria-label="Change language">EN</button>
+        <div class="home-actions">
+          <a class="site-about-link" href="#/about" data-home-en="About Us" data-home-tr="Hakkımızda">Hakkımızda</a>
+          <button id="home-language" class="home-language" type="button" aria-label="Change language">EN</button>
+        </div>
       </header>
 
       <main>
@@ -133,10 +136,12 @@
 
       <footer class="home-footer">
         <span data-home-en="Academic Summer School Programs" data-home-tr="Akademik Yaz Okulu Programları">Akademik Yaz Okulu Programları</span>
+        <a class="home-footer-link" href="#/about" data-home-en="About Us" data-home-tr="Hakkımızda">Hakkımızda</a>
         <span data-home-en="Explore. Learn. Grow." data-home-tr="Keşfet. Öğren. Geliş.">Keşfet. Öğren. Geliş.</span>
       </footer>
     </div>
     <div id="root"></div>
     <div id="program-page" class="pp" hidden></div>
+    <div id="about-page" class="ab" hidden></div>
   </body>
 </html>

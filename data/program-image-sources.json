@@ -1,9 +1,9 @@
 {
   "_meta": {
     "reviewed": "2026-10-13",
-    "programmes": 475,
-    "images": 475,
-    "provider_photos": 240,
+    "programmes": 473,
+    "images": 473,
+    "provider_photos": 238,
     "illustrative_photos": 235,
     "note": "Photographs sourced from programme providers, Wikimedia Commons or Openverse. Representative subject photographs do not depict the actual programme. Import rejects identical bytes and near-identical whole-image fingerprints; crop variants require the separate visual/feature audit."
   },
@@ -1281,25 +1281,6 @@
       "provider": "Immerse Education",
       "changes": "None; original downloaded bytes"
     },
-    "immerse-online-research-programme": {
-      "download_url": "https://cdn.prod.website-files.com/68935b974878a1f17a26d0de/6925772c3b5815fb7581d876_one-on-one.webp",
-      "canonical_url": "https://cdn.prod.website-files.com/68935b974878a1f17a26d0de/6925772c3b5815fb7581d876_one-on-one.webp",
-      "source_page": "https://www.immerse.education/pathways/online",
-      "description": "Experience world-class online learning",
-      "score": 60,
-      "source_kind": "provider",
-      "artist": "Immerse Education",
-      "license": "Provider-owned; no open licence asserted",
-      "license_url": "",
-      "width": 1265,
-      "height": 830,
-      "sha256": "7d6a5f05760cba6b91010a931004d8e469b38217f8612177202349ecc4c99740",
-      "dhash": "367666264ccc6c34",
-      "local_path": "/assets/program-images/unique/immerse-online-research-programme.webp",
-      "program_title": "Online Research Programme",
-      "provider": "Immerse Education",
-      "changes": "None; original downloaded bytes"
-    },
     "investin-products-the-young-entrepreneur-summer-experience": {
       "download_url": "https://investin.org/cdn/shop/products/Entrepreneur_3.jpg?v=1772706195",
       "canonical_url": "https://investin.org/cdn/shop/products/Entrepreneur_3.jpg",
@@ -1409,25 +1390,6 @@
       "dhash": "90889c5c6c6c0c0a",
       "local_path": "/assets/program-images/unique/edconic-courses-vogue-winter-break-vogue-winter-break-nyc.jpg",
       "program_title": "Vogue Winter Break - NYC",
-      "provider": "Edconic",
-      "changes": "None; original downloaded bytes"
-    },
-    "edconic-academics-pre-college-pre-college-online-online-essentials": {
-      "download_url": "https://www.voguecollege.com/wp-content/uploads/2024/11/VCF_Online_Precollege_hero.jpg",
-      "canonical_url": "https://www.voguecollege.com/wp-content/uploads/2024/11/VCF_Online_Precollege_hero.jpg",
-      "source_page": "https://www.voguecollege.com/academics/pre-college/pre-college-online/",
-      "description": "",
-      "score": 100,
-      "source_kind": "provider",
-      "artist": "Edconic",
-      "license": "Provider-owned; no open licence asserted",
-      "license_url": "",
-      "width": 1920,
-      "height": 1280,
-      "sha256": "6ab5eb2f78fb38419ac8b4a0bfc3d896acbafef7dd7923b924be22f01a0b4c5b",
-      "dhash": "73d7f5dc9e0f47db",
-      "local_path": "/assets/program-images/unique/edconic-academics-pre-college-pre-college-online-online-essentials.jpg",
-      "program_title": "Online Essentials",
       "provider": "Edconic",
       "changes": "None; original downloaded bytes"
     },

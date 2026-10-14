@@ -99,7 +99,7 @@
 
   const T = {
     en: {
-      brand: "An ASBA project", back: "All programs", langBtn: "TR", langLabel: "Türkçeye geç",
+      brand: "An ASBA project", about: "About Us", back: "All programs", langBtn: "TR", langLabel: "Türkçeye geç",
       age: "Age", duration: "Duration", dates: "Dates", price: "Price", location: "Location", format: "Format", accommodation: "Accommodation",
       onRequest: "On request", notListed: "Not listed",
       priceOptions: "Price options", historicalFees: "Historical 2026 fees", dayStudent: "Day student",
@@ -110,7 +110,7 @@
       review: "Needs source check (internal)"
     },
     tr: {
-      brand: "Bir ASBA projesi", back: "Tüm programlar", langBtn: "EN", langLabel: "Switch to English",
+      brand: "Bir ASBA projesi", about: "Hakkımızda", back: "Tüm programlar", langBtn: "EN", langLabel: "Switch to English",
       age: "Yaş", duration: "Süre", dates: "Tarihler", price: "Ücret", location: "Konum", format: "Format", accommodation: "Konaklama",
       onRequest: "Talep üzerine", notListed: "Belirtilmemiş",
       priceOptions: "Fiyat seçenekleri", historicalFees: "Geçmiş 2026 ücretleri", dayStudent: "Gündüzlü öğrenci",
@@ -178,14 +178,14 @@
     if (!loading) {
       const json = (url, fallback) => fetch(url).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
       loading = Promise.all([
-        json("./data/programs.normalized.json?v=20261014-3", []),
-        json("./data/program-digests.json?v=20261014-3", {}),
-        json("./data/image-candidates.json?v=20261014-3", {}),
+        json("./data/programs.normalized.json?v=20261014-4", []),
+        json("./data/program-digests.json?v=20261014-4", {}),
+        json("./data/image-candidates.json?v=20261014-4", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
-        json("./data/price-inclusions.json?v=20261014-3", {}),
-        import("./program-pricing.js?v=20261014-3"),
-        json("./data/program-image-sources.json?v=20261014-3", { images: {} })
+        json("./data/price-inclusions.json?v=20261014-4", {}),
+        import("./program-pricing.js?v=20261014-4"),
+        json("./data/program-image-sources.json?v=20261014-4", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
@@ -311,8 +311,8 @@
 
     page.innerHTML = `
       <header class="pp-top">
-        <div class="pp-brand"><a class="site-brand-link" href="#/"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere"></a><a class="parent-brand" href="https://asba.com.tr"><span class="parent-brand-label">${esc(L.brand)}</span><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
-        <nav><a class="pp-back" href="#/programs">← ${esc(L.back)}</a>
+        <div class="pp-brand"><a class="parent-brand" href="https://asba.com.tr"><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a><a class="site-brand-link" href="#/" aria-label="SummerButWhere"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a></div>
+        <nav><a class="pp-back" href="#/programs">← ${esc(L.back)}</a><a class="site-about-link" href="#/about">${esc(L.about)}</a>
         <button class="pp-lang" type="button" aria-label="${esc(L.langLabel)}">${L.langBtn}</button></nav>
       </header>
       <div class="pp-wrap">

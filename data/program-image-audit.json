@@ -1,12 +1,12 @@
 {
-  "input_photos": 475,
-  "photos_checked": 475,
-  "collection_sha256": "7ddc8d192561e5740be97c88b3e622dbb9c857d225324a328749271a3f3ff25f",
+  "input_photos": 473,
+  "photos_checked": 473,
+  "collection_sha256": "1c120d1e793305aa4eae2e08babb2404a779c5ed8b727cea840d828b9a2515fa",
   "pairs": [],
   "reviewed": "2026-10-13",
-  "visually_reviewed_photos": 475,
-  "served_photo_urls_checked": 475,
-  "provider_photos": 240,
+  "visually_reviewed_photos": 473,
+  "served_photo_urls_checked": 473,
+  "provider_photos": 238,
   "illustrative_photos": 235,
   "method": "SHA-256 file identity, 64-bit dHash with distance >3, ORB feature matching with homography and pixel agreement, and human contact-sheet review.",
   "note": "No duplicate pairs detected in this collection. Automated similarity matching has practical limits; the collection fingerprint makes this report invalid if a photo changes.",
@@ -15,5 +15,6 @@
     "provider": "Study Mind",
     "checks": "SHA-256 identity and 64-bit dHash distance >3 against the whole collection at import; human contact-sheet review of all 15 photographs. ORB feature matching was not re-run for this addition.",
     "note": "Careers and Life Skills shares Creative Writing's photograph on the provider site, so it uses a distinct CC0 illustrative photograph; a first candidate (an unrelated gift photo) was rejected on visual review."
-  }
+  },
+  "removed_2026_10_14": "Immerse Online Research Programme and Edconic Online Essentials were removed from the catalogue (in-person programmes only); their two photo records were dropped. No remaining photo changed."
 }

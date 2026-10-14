@@ -36,5 +36,16 @@ for (const f of ["data/image-candidates.json", "data/program-digests.json"]) {
   console.log(`${f}: ${n} entr${n === 1 ? "y" : "ies"} removed`);
 }
 
+// Photo source records for programs that no longer exist (includes ones removed on a previous run).
+const sourcesFile = "data/program-image-sources.json";
+const sources = readJson(sourcesFile);
+const keptIds = new Set(kept.map((p) => p.id));
+let orphans = 0;
+for (const id of Object.keys(sources.images || {})) {
+  if (!keptIds.has(id)) { delete sources.images[id]; orphans += 1; }
+}
+if (orphans) writeJson(sourcesFile, sources);
+console.log(`${sourcesFile}: ${orphans} entr${orphans === 1 ? "y" : "ies"} removed`);
+
 console.log(`programs: ${removed.length} online removed, ${kept.length} remain`);
 removed.forEach((p) => console.log("  - " + p.id));

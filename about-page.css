@@ -1,0 +1,72 @@
+/* About ("Hakkımızda") page layer (see about-page.js). Everything is scoped under .ab. */
+
+.ab {
+  --ab-ink: #17213b; --ab-muted: #667085; --ab-line: #e4e8f0;
+  --ab-brand: #3451d1; --ab-brand-dark: #293fa5; --ab-soft: #eef1ff;
+  min-height: 100vh;
+  color: var(--ab-ink);
+  font: 15px/1.6 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.ab[hidden] { display: none; }
+.ab *, .ab *::before, .ab *::after { box-sizing: border-box; }
+.ab h1, .ab h2, .ab p, .ab dl, .ab dd { margin: 0; }
+
+.ab-top {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 8px clamp(16px, 4vw, 32px);
+  background: rgba(255, 255, 255, .92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--ab-line);
+}
+.ab-brand { display: inline-flex; align-items: center; gap: 14px; }
+.ab-brand .parent-brand img { display: block; width: 124px; height: auto; object-fit: contain; }
+.ab-brand .site-brand-link img { display: block; width: auto; height: 84px; object-fit: contain; }
+.ab-top nav { display: flex; align-items: center; gap: 14px; }
+.ab-back { color: var(--ab-brand); font-size: 14px; font-weight: 600; text-decoration: none; }
+.ab-back:hover { text-decoration: underline; }
+.ab-lang {
+  font: inherit; font-size: 13px; font-weight: 700; color: var(--ab-brand);
+  background: var(--ab-soft); border: 0; border-radius: 999px; padding: 7px 14px; cursor: pointer;
+}
+.ab-lang:hover { background: #dfe4ff; }
+
+.ab-wrap { max-width: 1000px; margin: 0 auto; padding: 48px clamp(16px, 4vw, 32px) 80px; }
+
+.ab-hero { max-width: 760px; margin-bottom: 40px; }
+.ab-eyebrow { color: #be1e2d; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; }
+.ab-hero h1 { font-size: clamp(28px, 4.4vw, 42px); line-height: 1.15; font-weight: 800; letter-spacing: -.01em; }
+.ab-lead { margin-top: 18px; font-size: 18px; line-height: 1.6; color: var(--ab-muted); }
+
+.ab-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-bottom: 20px; }
+.ab-card {
+  background: #fff; border: 1px solid var(--ab-line); border-radius: 18px;
+  padding: 28px; box-shadow: 0 6px 22px rgba(23, 33, 59, .05);
+}
+.ab-card h2 { font-size: 20px; font-weight: 750; margin-bottom: 10px; }
+.ab-card p { color: var(--ab-muted); }
+
+.ab-button, .ab-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; font-weight: 700; text-decoration: none; }
+.ab-button { background: var(--ab-brand); color: #fff; padding: 11px 18px; border-radius: 999px; box-shadow: 0 10px 24px rgba(52, 81, 209, .24); }
+.ab-button:hover { background: var(--ab-brand-dark); }
+.ab-link { color: var(--ab-brand); margin-top: 8px; }
+.ab-link:hover { text-decoration: underline; }
+.ab-grid .ab-link { margin-top: 18px; }
+
+.ab-contact dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 28px; margin-top: 18px; }
+.ab-contact dt { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ab-muted); margin-bottom: 4px; }
+.ab-contact dd { font-size: 16px; font-weight: 550; overflow-wrap: anywhere; }
+.ab-contact dd a:not(.ab-link) { color: var(--ab-ink); text-decoration-color: #c7d0ff; text-underline-offset: 3px; }
+.ab-contact dd a:not(.ab-link):hover { color: var(--ab-brand); }
+
+@media (max-width: 720px) {
+  .ab-grid, .ab-contact dl { grid-template-columns: 1fr; }
+  .ab-wrap { padding-top: 32px; }
+  .ab-brand { gap: 8px; }
+  .ab-brand .parent-brand { padding-right: 8px; }
+  .ab-brand .parent-brand img { width: 80px; }
+  .ab-brand .site-brand-link img { height: 58px; }
+  .ab-top { padding: 8px 12px; gap: 8px; }
+  .ab-top nav { gap: 8px; }
+  .ab-back { font-size: 13px; }
+}

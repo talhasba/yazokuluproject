@@ -17,7 +17,7 @@ function mergeEditorOverride(base, override) {
 const [basePrograms, editorOverrides, photoSources] = await Promise.all([
   fetch("./data/programs.normalized.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : []),
   fetch("./data/program-editor-overrides.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : { programs: {} }).catch(() => ({ programs: {} })),
-  fetch("./data/program-image-sources.json?v=20261014-3").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
+  fetch("./data/program-image-sources.json?v=20261014-4").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
 ]);
 
 window.__PROGRAM_EDITOR_PROGRAMS__ = basePrograms.map((program) =>
@@ -157,17 +157,17 @@ function Nh({lang:m,onToggleLang:x,onToggleMobileMenu:O,mobileMenuOpen:d,t:_}) {
     className:"catalogue-header-inner", children:[
       b.jsxs("div", {className:"catalogue-brand", children:[
         b.jsx("button", {onClick:O,className:"catalogue-menu rounded-lg p-2 text-surface-600 hover:bg-surface-100 lg:hidden","aria-label":"Toggle menu",children:d?b.jsx(j0,{size:22}):b.jsx(Oh,{size:22})}),
-        b.jsx("img", {src:"./assets/summerbutwhere-logo.png",alt:"SummerButWhere",className:"catalogue-site-logo"}),
-        b.jsxs("div", {className:"catalogue-title",children:[
-          b.jsx("h1", {children:_.siteTitle}),
-          b.jsx("p", {children:_.siteSubtitle})
-        ]}),
-        b.jsxs("a", {className:"parent-brand",href:"https://asba.com.tr",children:[
-          b.jsx("span", {className:"parent-brand-label",children:m==="tr"?"Bir ASBA projesi":"An ASBA project"}),
+        b.jsx("a", {className:"parent-brand",href:"https://asba.com.tr",children:
           b.jsx("img", {src:"./assets/asba-logo.png",alt:"ASBA Yurtdışı Eğitim Danışmanlık",width:738,height:237})
-        ]})
+        }),
+        b.jsx("a", {className:"site-brand-link",href:"#/","aria-label":"SummerButWhere - "+(m==="tr"?"Ana sayfa":"Home"),children:
+          b.jsx("img", {src:"./assets/summerbutwhere-logo.png",alt:"SummerButWhere - Akademik Yaz Okulu Programları",className:"catalogue-site-logo"})
+        })
       ]}),
-      b.jsxs("button", {onClick:x,className:"catalogue-language flex items-center gap-1.5 rounded-lg border border-surface-200 px-3 py-1.5 text-sm font-medium text-surface-600 hover:bg-surface-100 transition-colors",children:[b.jsx(Mh,{size:16}),m==="en"?"EN":"TR"]})
+      b.jsxs("div", {className:"catalogue-actions",children:[
+        b.jsx("a", {className:"site-about-link",href:"#/about",children:m==="tr"?"Hakkımızda":"About Us"}),
+        b.jsxs("button", {onClick:x,className:"catalogue-language flex items-center gap-1.5 rounded-lg border border-surface-200 px-3 py-1.5 text-sm font-medium text-surface-600 hover:bg-surface-100 transition-colors",children:[b.jsx(Mh,{size:16}),m==="en"?"EN":"TR"]})
+      ]})
     ]
   })});
 }`, "ASBA catalogue header logo");
@@ -232,7 +232,7 @@ replaceOnce(
 
 replaceOnce(
   'fetch("data/image-candidates.json")',
-  'fetch("data/image-candidates.json?v=20261014-3")',
+  'fetch("data/image-candidates.json?v=20261014-4")',
   "program thumbnail cache version"
 );
 
