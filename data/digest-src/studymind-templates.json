@@ -1,0 +1,38 @@
+{
+  "common": {
+    "en": {
+      "doTitle": "What you'll do",
+      "outcomes": [
+        "A Study Mind certificate of completion to add to UCAS applications, CVs and portfolios"
+      ]
+    },
+    "tr": {
+      "doTitle": "Neler yapacaksınız",
+      "outcomes": [
+        "UCAS başvurularınıza, CV’nize ve portfolyonuza ekleyebileceğiniz Study Mind katılım sertifikası"
+      ]
+    }
+  },
+  "cities": {
+    "london": {
+      "en": {
+        "extras": [
+          "Small groups of 10–12 students per class",
+          "Optional residential stay at UCL Ramsay Hall in central London, with 24/7 supervision",
+          "Bursary places (full, 75% or 50%) for eligible students; bursaries do not include accommodation"
+        ]
+      },
+      "tr": {
+        "extras": [
+          "Sınıf başına 10–12 öğrencilik küçük gruplar",
+          "Londra merkezinde UCL Ramsay Hall’da 7/24 gözetimli isteğe bağlı konaklama",
+          "Uygun öğrenciler için burs (tam, %75 veya %50); burslar konaklamayı kapsamaz"
+        ]
+      }
+    }
+  },
+  "commonFlags": [
+    "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+    "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs."
+  ]
+}

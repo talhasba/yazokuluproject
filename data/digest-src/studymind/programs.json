@@ -1,0 +1,1550 @@
+{
+  "technology-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Hands-on coding, AI, cybersecurity and web-development workshops in London for ages 15–18, built around real-world projects, small groups and UCAS guidance for computer science and technology degrees.",
+      "tags": [
+        "Python & web development",
+        "Artificial intelligence",
+        "Cybersecurity",
+        "Data science",
+        "UCAS support"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Coding, AI, cybersecurity, website and game-development projects"
+      ],
+      "do": [
+        [
+          "Coding and software development",
+          "Learn Python, JavaScript, HTML and CSS, with hands-on practice in debugging, algorithms and computational thinking."
+        ],
+        [
+          "Artificial intelligence and machine learning",
+          "Explore how models are built, trained and applied across industries through interactive workshops."
+        ],
+        [
+          "Website design and development",
+          "Design websites with modern tools, covering front-end development, responsive design and UX principles."
+        ],
+        [
+          "Cybersecurity and digital protection",
+          "Learn ethical hacking and digital safety through simulations of how professionals protect systems, networks and data."
+        ],
+        [
+          "Data science and computational thinking",
+          "Use data analysis and logical reasoning to solve real-world problems."
+        ],
+        [
+          "Independent research project",
+          "Complete a technology research project with personalised written feedback from tutors."
+        ]
+      ],
+      "outcomes": [
+        "Practical coding, AI and web projects you can add to a portfolio, CV or UCAS application",
+        "Insight into computer science, software engineering, AI and cybersecurity degrees and careers"
+      ],
+      "fit": [
+        "Students curious about computer science, AI, cybersecurity or software engineering",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Algorithmic Thinking and What is Computer Science · Game Development · The World of Artificial Intelligence · Website Development · Data Structures and Algorithms · UCAS Application & Personal Statement"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Computer Architecture · Introduction to Python · AI and ‘Vibe Coding’ · Encryption and Codebreaking · Cybersecurity"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Weeks 1 and 2, plus a Career & Life Skills week and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "15–18 yaş için Londra’da uygulamalı kodlama, yapay zekâ, siber güvenlik ve web geliştirme atölyeleri; gerçek projeler, küçük gruplar ve bilgisayar bilimi ile teknoloji bölümleri için UCAS rehberliği.",
+      "tags": [
+        "Python ve web geliştirme",
+        "Yapay zekâ",
+        "Siber güvenlik",
+        "Veri bilimi",
+        "UCAS desteği"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Kodlama, yapay zekâ, siber güvenlik, web sitesi ve oyun geliştirme projeleri"
+      ],
+      "do": [
+        [
+          "Kodlama ve yazılım geliştirme",
+          "Python, JavaScript, HTML ve CSS öğrenin; hata ayıklama, algoritmalar ve algoritmik düşünme alanlarında uygulama yapın."
+        ],
+        [
+          "Yapay zekâ ve makine öğrenmesi",
+          "Etkileşimli atölyelerle modellerin nasıl oluşturulduğunu, eğitildiğini ve sektörlerde nasıl kullanıldığını keşfedin."
+        ],
+        [
+          "Web sitesi tasarımı ve geliştirme",
+          "Modern araçlarla web siteleri tasarlayın; ön yüz geliştirme, duyarlı tasarım ve kullanıcı deneyimi ilkelerini öğrenin."
+        ],
+        [
+          "Siber güvenlik ve dijital koruma",
+          "Uzmanların sistemleri, ağları ve verileri nasıl koruduğunu simülasyonlarla görerek etik hackleme ve dijital güvenliği öğrenin."
+        ],
+        [
+          "Veri bilimi ve algoritmik düşünme",
+          "Gerçek dünya sorunlarını çözmek için veri analizi ve mantıksal akıl yürütmeyi kullanın."
+        ],
+        [
+          "Bağımsız araştırma projesi",
+          "Eğitmenlerden kişiye özel yazılı geri bildirimle bir teknoloji araştırma projesi tamamlayın."
+        ]
+      ],
+      "outcomes": [
+        "Portfolyonuza, CV’nize veya UCAS başvurunuza ekleyebileceğiniz uygulamalı kodlama, yapay zekâ ve web projeleri",
+        "Bilgisayar bilimi, yazılım mühendisliği, yapay zekâ ve siber güvenlik bölümleri ile kariyerleri hakkında fikir"
+      ],
+      "fit": [
+        "Bilgisayar bilimi, yapay zekâ, siber güvenlik veya yazılım mühendisliğine meraklı öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Algoritmik Düşünme ve Bilgisayar Bilimi Nedir · Oyun Geliştirme · Yapay Zekâ Dünyası · Web Sitesi Geliştirme · Veri Yapıları ve Algoritmalar · UCAS Başvurusu ve Kişisel Beyan"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: Bilgisayar Mimarisi · Python’a Giriş · Yapay Zekâ ve ‘Vibe Coding’ · Şifreleme ve Kod Kırma · Siber Güvenlik"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. ve 2. haftalar; ek olarak Kariyer ve Yaşam Becerileri haftası ile profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": []
+  },
+  "economics-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Practical economics work experience in central London: private equity, financial markets and trading simulations, plus industry visits to EY and Lloyd’s of London, for students aged 15–18.",
+      "tags": [
+        "Financial markets",
+        "Private equity",
+        "Trading simulation",
+        "Industry visits",
+        "UCAS support"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Visits to EY, Lloyd’s of London and the London Academy of Trading"
+      ],
+      "do": [
+        [
+          "Private equity",
+          "Navigate real-world private equity scenarios, manage costs and respond to market competition."
+        ],
+        [
+          "Financial markets",
+          "Explore how central bank policies, such as interest rate changes, affect the wider economy."
+        ],
+        [
+          "Industry visit: EY (Ernst & Young)",
+          "Visit one of the big four accounting firms and join an interactive finance workshop with professionals."
+        ],
+        [
+          "Industry visit: Lloyd’s of London",
+          "Experience the insurance industry first hand on a visit to Lloyd’s led by UIB, a leading Lloyd’s broker."
+        ],
+        [
+          "London Academy of Trading",
+          "Learn financial modelling and valuation tools and trade stocks in a real-life simulation."
+        ],
+        [
+          "Hedge funds",
+          "Learn how hedge funds are managed and analyse case studies."
+        ]
+      ],
+      "outcomes": [
+        "Hands-on exposure to trading, risk management and private equity to draw on in personal statements and interviews",
+        "Contact with economists and finance professionals who offer career advice"
+      ],
+      "fit": [
+        "Students considering economics, finance, banking or business degrees and careers",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Risk Management · Financial Markets · Trading Floor Visit · Stock Market · Private Equity"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus a choice of a second Banking week or a Career & Life Skills week"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Weeks 1 and 2, plus Career & Life Skills and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra merkezinde uygulamalı ekonomi iş deneyimi: özel sermaye, finansal piyasalar ve alım satım simülasyonları ile EY ve Lloyd’s of London sektör ziyaretleri. 15–18 yaş öğrencileri için.",
+      "tags": [
+        "Finansal piyasalar",
+        "Özel sermaye",
+        "Alım satım simülasyonu",
+        "Sektör ziyaretleri",
+        "UCAS desteği"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "EY, Lloyd’s of London ve London Academy of Trading ziyaretleri"
+      ],
+      "do": [
+        [
+          "Özel sermaye",
+          "Gerçek özel sermaye senaryolarında yol alın, maliyetleri yönetin ve piyasa rekabetine karşılık verin."
+        ],
+        [
+          "Finansal piyasalar",
+          "Merkez bankası politikalarının, örneğin faiz değişikliklerinin, ekonomiyi nasıl etkilediğini keşfedin."
+        ],
+        [
+          "Sektör ziyareti: EY (Ernst & Young)",
+          "Dört büyük denetim firmasından birini ziyaret edin ve profesyonellerle etkileşimli bir finans atölyesine katılın."
+        ],
+        [
+          "Sektör ziyareti: Lloyd’s of London",
+          "Önde gelen Lloyd’s komisyoncusu UIB eşliğinde Lloyd’s ziyaretiyle sigorta sektörünü yakından görün."
+        ],
+        [
+          "London Academy of Trading",
+          "Finansal modelleme ve değerleme araçlarını öğrenin; gerçek hayata yakın bir simülasyonda hisse senedi alıp satın."
+        ],
+        [
+          "Hedge fonlar",
+          "Hedge fonların nasıl yönetildiğini öğrenin ve vaka çalışmalarını analiz edin."
+        ]
+      ],
+      "outcomes": [
+        "Kişisel beyan ve mülakatlarda kullanabileceğiniz alım satım, risk yönetimi ve özel sermaye deneyimi",
+        "Kariyer tavsiyesi veren ekonomist ve finans profesyonelleriyle tanışma"
+      ],
+      "fit": [
+        "Ekonomi, finans, bankacılık veya işletme bölümlerini ve kariyerlerini düşünen öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Risk Yönetimi · Finansal Piyasalar · Alım Satım Salonu Ziyareti · Borsa · Özel Sermaye"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak ikinci bir Bankacılık haftası ya da Kariyer ve Yaşam Becerileri haftası seçeneği"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. ve 2. haftalar; ek olarak Kariyer ve Yaşam Becerileri ile profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": [
+      "The page’s price heading reads “Pricing for 2026” while its course instances are 2027; confirm the 2027 fees before quoting."
+    ]
+  },
+  "careers-and-life-skills-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "A five-day London programme on confidence, personal branding, public speaking, financial literacy and using AI for applications, building the skills you need for university and your first career steps.",
+      "tags": [
+        "Public speaking",
+        "Personal branding",
+        "Financial literacy",
+        "CV & LinkedIn",
+        "AI for applications"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1 or 2 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "The 2-week plan can be combined with any other work experience week"
+      ],
+      "do": [
+        [
+          "Boosting confidence",
+          "Learn techniques to build self-assurance in personal and professional settings."
+        ],
+        [
+          "Crafting your professional brand",
+          "Create an impactful CV and LinkedIn profile that shows your strengths to employers and universities."
+        ],
+        [
+          "Mastering public speaking",
+          "Practise presenting yourself and speaking in front of an audience in hands-on sessions."
+        ],
+        [
+          "Financial independence",
+          "Learn the essentials of managing money for independent living and future financial decisions."
+        ],
+        [
+          "Technology for personal growth",
+          "Use AI and other tools to strengthen applications, personal statements and your career journey."
+        ]
+      ],
+      "outcomes": [
+        "A stronger CV, LinkedIn profile and personal statement approach",
+        "More confidence presenting yourself in applications, interviews and in front of an audience"
+      ],
+      "fit": [
+        "Students who want practical career and life skills before applying to university or for jobs",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Building Confidence for University · Crafting Personal Brand · Financial Literacy · AI for Personal Statement Writing · Mastering Public Speaking"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Building Confidence for University · Crafting Personal Brand · Financial Literacy · UCAS Application · Mastering Public Speaking, plus any other work experience week"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Özgüven, kişisel marka, topluluk önünde konuşma, finansal okuryazarlık ve başvurularda yapay zekâ kullanımı üzerine beş günlük Londra programı; üniversiteye ve ilk kariyer adımlarına hazırlanmanız için gereken becerileri geliştirir.",
+      "tags": [
+        "Topluluk önünde konuşma",
+        "Kişisel marka",
+        "Finansal okuryazarlık",
+        "CV ve LinkedIn",
+        "Başvurularda yapay zekâ"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1 veya 2 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "2 haftalık plan, başka bir iş deneyimi haftasıyla birleştirilebilir"
+      ],
+      "do": [
+        [
+          "Özgüveni artırma",
+          "Kişisel ve profesyonel ortamlarda özgüven kazanmanızı sağlayan teknikleri öğrenin."
+        ],
+        [
+          "Profesyonel markanızı oluşturma",
+          "İşverenlere ve üniversitelere güçlü yönlerinizi gösteren etkili bir CV ve LinkedIn profili hazırlayın."
+        ],
+        [
+          "Topluluk önünde konuşma",
+          "Uygulamalı oturumlarla kendinizi tanıtma ve dinleyici önünde konuşma becerilerinizi geliştirin."
+        ],
+        [
+          "Finansal bağımsızlık",
+          "Bağımsız yaşam ve gelecekteki mali kararlar için para yönetiminin temellerini öğrenin."
+        ],
+        [
+          "Kişisel gelişim için teknoloji",
+          "Başvurularınızı, kişisel beyanınızı ve kariyer yolculuğunuzu güçlendirmek için yapay zekâ ve diğer araçları kullanın."
+        ]
+      ],
+      "outcomes": [
+        "Daha güçlü bir CV, LinkedIn profili ve kişisel beyan yaklaşımı",
+        "Başvurularda, mülakatlarda ve dinleyici önünde kendinizi anlatırken daha fazla özgüven"
+      ],
+      "fit": [
+        "Üniversiteye veya iş başvurularına başlamadan önce pratik kariyer ve yaşam becerileri kazanmak isteyen öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Üniversite İçin Özgüven Geliştirme · Kişisel Marka Oluşturma · Finansal Okuryazarlık · Kişisel Beyan Yazımında Yapay Zekâ · Topluluk Önünde Konuşma"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: Üniversite İçin Özgüven Geliştirme · Kişisel Marka Oluşturma · Finansal Okuryazarlık · UCAS Başvurusu · Topluluk Önünde Konuşma; ek olarak herhangi bir iş deneyimi haftası"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": [
+      "The page labels the first plan “1 day · Rising Talent” at the same £1,799 as the 1-week plans elsewhere; the headline says “1 or 2 weeks” and describes a 5-day programme, so it is shown as 1 week."
+    ]
+  },
+  "psychology-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Psychology work experience in London covering clinical and counselling psychology, neuroscience, sports psychology and research methods, with case studies, simulations and UCAS support.",
+      "tags": [
+        "Clinical psychology",
+        "Neuroscience",
+        "Sports psychology",
+        "Research methods",
+        "UCAS support"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Clinical psychology, neuroplasticity, social psychology and drama therapy"
+      ],
+      "do": [
+        [
+          "Clinical and counselling psychology",
+          "See how psychologists support mental health through case studies, therapy simulations and discussion of behaviour, anxiety and emotional health."
+        ],
+        [
+          "Cognitive psychology and neuroscience",
+          "Explore how the brain handles memory, emotion, learning and decision-making through experiments and workshops."
+        ],
+        [
+          "Sports and performance psychology",
+          "Learn the mental strategies athletes and psychologists use to improve performance, confidence and motivation."
+        ],
+        [
+          "Research and experiments",
+          "Learn how psychologists research behaviour and interpret data through experiments, observations, surveys and group projects."
+        ]
+      ],
+      "outcomes": [
+        "Insight into clinical, counselling, cognitive and sports psychology career paths",
+        "Practical experience of psychological research to support a university application"
+      ],
+      "fit": [
+        "Students considering psychology, neuroscience or mental-health careers",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Introduction: Psychology · Clinical Psychology · Neuroplasticity · Social Psychology · Drama Therapy · UCAS Application"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Individual Psychology · Experimental and Research · Pain & Rehabilitation · How to Sleep · Drug Addiction from a clinical perspective"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Week 1, a Week 2 industry placement, a Career & Life Skills week and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da klinik ve danışmanlık psikolojisi, sinirbilim, spor psikolojisi ve araştırma yöntemlerini kapsayan psikoloji iş deneyimi; vaka çalışmaları, simülasyonlar ve UCAS desteği içerir.",
+      "tags": [
+        "Klinik psikoloji",
+        "Sinirbilim",
+        "Spor psikolojisi",
+        "Araştırma yöntemleri",
+        "UCAS desteği"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Klinik psikoloji, nöroplastisite, sosyal psikoloji ve drama terapisi"
+      ],
+      "do": [
+        [
+          "Klinik ve danışmanlık psikolojisi",
+          "Vaka çalışmaları, terapi simülasyonları ve davranış, kaygı ile duygusal sağlık üzerine tartışmalarla psikologların ruh sağlığını nasıl desteklediğini görün."
+        ],
+        [
+          "Bilişsel psikoloji ve sinirbilim",
+          "Deneyler ve atölyelerle beynin bellek, duygu, öğrenme ve karar vermeyi nasıl işlediğini keşfedin."
+        ],
+        [
+          "Spor ve performans psikolojisi",
+          "Sporcuların ve psikologların performansı, özgüveni ve motivasyonu artırmak için kullandığı zihinsel stratejileri öğrenin."
+        ],
+        [
+          "Araştırma ve deneyler",
+          "Deneyler, gözlemler, anketler ve grup projeleriyle psikologların davranışı nasıl araştırdığını ve verileri nasıl yorumladığını öğrenin."
+        ]
+      ],
+      "outcomes": [
+        "Klinik, danışmanlık, bilişsel ve spor psikolojisi kariyer yolları hakkında fikir",
+        "Üniversite başvurunuzu destekleyecek psikolojik araştırma deneyimi"
+      ],
+      "fit": [
+        "Psikoloji, sinirbilim veya ruh sağlığı kariyerlerini düşünen öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Giriş: Psikoloji · Klinik Psikoloji · Nöroplastisite · Sosyal Psikoloji · Drama Terapisi · UCAS Başvurusu"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: Bireysel Psikoloji · Deneysel Psikoloji ve Araştırma · Ağrı ve Rehabilitasyon · Nasıl Uyunur · Klinik Açıdan Madde Bağımlılığı"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. hafta, 2. haftada sektör yerleştirmesi, Kariyer ve Yaşam Becerileri haftası ve profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": []
+  },
+  "international-relations-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "International relations work experience in London with Model United Nations, diplomacy and negotiation simulations, human rights debates and a visit to the Houses of Parliament, for ages 15–18.",
+      "tags": [
+        "Diplomacy",
+        "Model United Nations",
+        "Global politics",
+        "Human rights",
+        "Houses of Parliament"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Model UN, Houses of Parliament and an Old Westminster Walk"
+      ],
+      "do": [
+        [
+          "Diplomacy and international negotiation",
+          "Practise negotiation through crises and debates, building communication, persuasion and strategic thinking."
+        ],
+        [
+          "International politics and global affairs",
+          "Study politics, economics, human rights and security, and analyse global events and their impact on society."
+        ],
+        [
+          "Model United Nations",
+          "Represent a country, debate global issues and learn about policymaking and public speaking in simulations."
+        ],
+        [
+          "Leadership and critical thinking",
+          "Build leadership, teamwork, research and presentation skills for careers in law, politics and diplomacy."
+        ],
+        [
+          "Houses of Parliament",
+          "Explore British politics through visits and workshops on how governments shape international policy."
+        ]
+      ],
+      "outcomes": [
+        "Negotiation, debate and policy-simulation experience to cite when applying for politics, law and international relations degrees",
+        "Contact with academics and practitioners working in international affairs"
+      ],
+      "fit": [
+        "Students interested in global politics, diplomacy, international law or world affairs",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Introduction: International Relations · Current Global Issues · Global Governance/Conflict & Peace Studies · Nuclear Weapons & International Relations · Theoretical Approaches to International Relations · UCAS Applications & Careers"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Human Rights · Old Westminster Walk · Model UN (intro and research, resolutions and lobbying, opening statements, resolution debate and vote) · Debate: Human Rights"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Weeks 1 and 2, plus a related work experience week and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da Model Birleşmiş Milletler, diplomasi ve müzakere simülasyonları, insan hakları tartışmaları ve Houses of Parliament ziyaretiyle uluslararası ilişkiler iş deneyimi. 15–18 yaş için.",
+      "tags": [
+        "Diplomasi",
+        "Model Birleşmiş Milletler",
+        "Küresel siyaset",
+        "İnsan hakları",
+        "Houses of Parliament"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Model BM, Houses of Parliament ve Old Westminster Yürüyüşü"
+      ],
+      "do": [
+        [
+          "Diplomasi ve uluslararası müzakere",
+          "Kriz ve tartışma çalışmalarıyla müzakere pratiği yapın; iletişim, ikna ve stratejik düşünme becerilerini geliştirin."
+        ],
+        [
+          "Uluslararası siyaset ve küresel gündem",
+          "Siyaset, ekonomi, insan hakları ve güvenliği inceleyin; küresel olayları ve toplum üzerindeki etkilerini analiz edin."
+        ],
+        [
+          "Model Birleşmiş Milletler",
+          "Simülasyonlarda bir ülkeyi temsil edin, küresel konuları tartışın; politika yapımını ve topluluk önünde konuşmayı öğrenin."
+        ],
+        [
+          "Liderlik ve eleştirel düşünme",
+          "Hukuk, siyaset ve diplomasi kariyerleri için liderlik, takım çalışması, araştırma ve sunum becerilerini geliştirin."
+        ],
+        [
+          "Houses of Parliament",
+          "Hükümetlerin uluslararası politikayı nasıl şekillendirdiğini ziyaretler ve atölyelerle inceleyerek İngiliz siyasetini keşfedin."
+        ]
+      ],
+      "outcomes": [
+        "Siyaset, hukuk ve uluslararası ilişkiler bölümlerine başvururken belirtebileceğiniz müzakere, tartışma ve politika simülasyonu deneyimi",
+        "Uluslararası ilişkiler alanında çalışan akademisyenler ve uzmanlarla tanışma"
+      ],
+      "fit": [
+        "Küresel siyaset, diplomasi, uluslararası hukuk veya dünya gündemiyle ilgilenen öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Giriş: Uluslararası İlişkiler · Güncel Küresel Sorunlar · Küresel Yönetişim/Çatışma ve Barış Çalışmaları · Nükleer Silahlar ve Uluslararası İlişkiler · Uluslararası İlişkilerde Kuramsal Yaklaşımlar · UCAS Başvuruları ve Kariyer"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: İnsan Hakları · Old Westminster Yürüyüşü · Model BM (giriş ve araştırma, karar tasarıları ve lobi, açılış konuşmaları, karar tasarısı oturumu ve oylama) · Tartışma: İnsan Hakları"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. ve 2. haftalar; ek olarak ilgili bir iş deneyimi haftası ve profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": []
+  },
+  "maths-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "University-level maths in London: infinity, set theory and proofs, vector spaces, game theory, cryptography and topology, taught through hands-on workshops and problem-solving.",
+      "tags": [
+        "Set theory & proofs",
+        "Infinity",
+        "Vector spaces",
+        "Game theory",
+        "Problem solving"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Bridges A-level and university maths; includes a trading-floor simulation"
+      ],
+      "do": [
+        [
+          "Understanding infinity",
+          "Meet countable and uncountable infinities and paradoxes such as Hilbert’s Hotel."
+        ],
+        [
+          "College-level maths",
+          "Move from A-level to university maths through infinity, proofs and linear algebra, with emphasis on reasoning and creativity."
+        ],
+        [
+          "Set theory and proofs",
+          "Explore sets and relationships while learning to build rigorous proofs."
+        ],
+        [
+          "Problem solving",
+          "Work in pairs or small groups on challenging problems and puzzles."
+        ]
+      ],
+      "outcomes": [
+        "Evidence of your enthusiasm for maths to support applications to maths-related degrees",
+        "Familiarity with proof-based, university-style mathematics beyond the school curriculum"
+      ],
+      "fit": [
+        "Students applying for maths-related degrees who want to go beyond the school curriculum",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Introduction to Higher Level Maths · Understanding Infinity · Basics of Set Theory and Proofs · Exploring Vector Spaces · Simulation: Trading Floor · UCAS & Careers"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Basics of Game Theory · Number Theory and Cryptography · An Introduction to Projective Geometry · Topology · Basics of Graph Theory"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Weeks 1 and 2, plus Career & Life Skills and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da üniversite düzeyinde matematik: sonsuzluk, küme kuramı ve ispatlar, vektör uzayları, oyun kuramı, kriptografi ve topoloji; uygulamalı atölyeler ve problem çözme çalışmalarıyla.",
+      "tags": [
+        "Küme kuramı ve ispatlar",
+        "Sonsuzluk",
+        "Vektör uzayları",
+        "Oyun kuramı",
+        "Problem çözme"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "A-level ile üniversite matematiği arasında köprü; borsa salonu simülasyonu içerir"
+      ],
+      "do": [
+        [
+          "Sonsuzluğu anlamak",
+          "Sayılabilir ve sayılamaz sonsuzlukları ve Hilbert’in Oteli gibi paradoksları tanıyın."
+        ],
+        [
+          "Üniversite düzeyinde matematik",
+          "Sonsuzluk, ispatlar ve doğrusal cebirle A-level’dan üniversite matematiğine geçin; akıl yürütme ve yaratıcılık ön plandadır."
+        ],
+        [
+          "Küme kuramı ve ispatlar",
+          "Kümeleri ve ilişkileri keşfederken sağlam ispatlar kurmayı öğrenin."
+        ],
+        [
+          "Problem çözme",
+          "Zorlu problem ve bulmacaları ikili ya da küçük gruplar halinde çözün."
+        ]
+      ],
+      "outcomes": [
+        "Matematikle ilgili bölümlere başvurunuzu destekleyecek, matematiğe duyduğunuz ilgiyi gösteren deneyim",
+        "Okul müfredatının ötesinde, ispata dayalı üniversite tarzı matematiğe aşinalık"
+      ],
+      "fit": [
+        "Matematikle ilgili bölümlere başvuran ve okul müfredatının ötesine geçmek isteyen öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Üst Düzey Matematiğe Giriş · Sonsuzluğu Anlamak · Küme Kuramı ve İspatların Temelleri · Vektör Uzaylarını Keşfetmek · Simülasyon: Borsa Salonu · UCAS ve Kariyer"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: Oyun Kuramının Temelleri · Sayılar Kuramı ve Kriptografi · Projektif Geometriye Giriş · Topoloji · Çizge Kuramının Temelleri"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. ve 2. haftalar; ek olarak Kariyer ve Yaşam Becerileri ile profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": []
+  },
+  "criminology-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Criminology work experience in London: forensic science, criminal psychology, digital forensics and investigations, with a visit to the Old Bailey and a mock trial.",
+      "tags": [
+        "Forensic science",
+        "Criminal psychology",
+        "Digital forensics",
+        "Law & courts",
+        "Case analysis"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Old Bailey, London Dungeon, Whitestone Chambers and a mock trial"
+      ],
+      "do": [
+        [
+          "Central Criminal Court (the Old Bailey)",
+          "Watch the legal system in action by observing real trials and exploring historic courtrooms."
+        ],
+        [
+          "Criminal psychology and behaviour analysis",
+          "Explore the psychological and social factors behind criminal behaviour, motives and patterns."
+        ],
+        [
+          "Digital forensics and cybercrime",
+          "Learn how technology is used to investigate online crime and digital evidence."
+        ],
+        [
+          "Investigative skills and case analysis",
+          "Build critical thinking through real-life case studies, group investigations and evidence analysis."
+        ],
+        [
+          "Research project",
+          "Complete an independent criminology research project with personalised written feedback."
+        ]
+      ],
+      "outcomes": [
+        "Practical problem-solving experience in real-life investigation scenarios",
+        "A foundation for applications in criminology, forensic psychology, law or criminal justice"
+      ],
+      "fit": [
+        "Students curious about crime, law, forensic science and criminal psychology",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: The Origins of Criminological Thought · Criminology Academic Study · The Origins of Confinement · London Dungeon · Central Criminal Court"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Human Rights · Whitestone Chambers · International Law Applied · Mock Trial · Debate: Human Rights"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Week 1, another related career week, a Career & Life Skills week and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da kriminoloji iş deneyimi: adli bilimler, suç psikolojisi, dijital adli bilişim ve soruşturmalar; Old Bailey ziyareti ve sahte duruşma içerir.",
+      "tags": [
+        "Adli bilimler",
+        "Suç psikolojisi",
+        "Dijital adli bilişim",
+        "Hukuk ve mahkemeler",
+        "Vaka analizi"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Old Bailey, London Dungeon, Whitestone Chambers ve sahte duruşma"
+      ],
+      "do": [
+        [
+          "Merkezi Ceza Mahkemesi (Old Bailey)",
+          "Gerçek davaları izleyerek ve tarihi mahkeme salonlarını keşfederek hukuk sistemini iş başında görün."
+        ],
+        [
+          "Suç psikolojisi ve davranış analizi",
+          "Suç davranışının, saiklerin ve örüntülerin ardındaki psikolojik ve sosyal etkenleri keşfedin."
+        ],
+        [
+          "Dijital adli bilişim ve siber suçlar",
+          "Çevrimiçi suçların ve dijital delillerin soruşturulmasında teknolojinin nasıl kullanıldığını öğrenin."
+        ],
+        [
+          "Soruşturma becerileri ve vaka analizi",
+          "Gerçek vaka çalışmaları, grup soruşturmaları ve delil analiziyle eleştirel düşünmeyi geliştirin."
+        ],
+        [
+          "Araştırma projesi",
+          "Kişiye özel yazılı geri bildirimle bağımsız bir kriminoloji araştırma projesi tamamlayın."
+        ]
+      ],
+      "outcomes": [
+        "Gerçek soruşturma senaryolarında pratik problem çözme deneyimi",
+        "Kriminoloji, adli psikoloji, hukuk veya ceza adaleti başvuruları için temel"
+      ],
+      "fit": [
+        "Suç, hukuk, adli bilimler ve suç psikolojisine meraklı öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Kriminolojik Düşüncenin Kökenleri · Kriminoloji Akademik Çalışma · Hapsedilmenin Kökenleri · London Dungeon · Merkezi Ceza Mahkemesi"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: İnsan Hakları · Whitestone Chambers · Uygulamalı Uluslararası Hukuk · Sahte Duruşma · Tartışma: İnsan Hakları"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. hafta, ilgili başka bir kariyer haftası, Kariyer ve Yaşam Becerileri haftası ve profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": []
+  },
+  "creative-writing-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Creative writing work experience in London covering fiction, poetry, scriptwriting and publishing, with writing workshops, editing and personalised feedback from writers.",
+      "tags": [
+        "Fiction",
+        "Poetry",
+        "Scriptwriting",
+        "Editing & publishing",
+        "Portfolio"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Includes “Writing in the Wild”, an out-of-classroom writing session"
+      ],
+      "do": [
+        [
+          "Fiction and storytelling",
+          "Develop plot, character, dialogue, pacing and world-building skills in fiction workshops."
+        ],
+        [
+          "Poetry and creative expression",
+          "Experiment with language, rhythm and imagery to build confidence and your own writing voice."
+        ],
+        [
+          "Scriptwriting and screenwriting",
+          "Write for film, TV and theatre: scene structure, dialogue, pacing and visual storytelling."
+        ],
+        [
+          "Editing, publishing and portfolio",
+          "Learn manuscript preparation and editing, and build a professional portfolio."
+        ],
+        [
+          "Writing project and feedback",
+          "Complete creative writing projects with personalised tutor feedback and guidance."
+        ]
+      ],
+      "outcomes": [
+        "A writing portfolio to support university applications and creative careers",
+        "Guidance on creative careers including publishing, journalism and screenwriting"
+      ],
+      "fit": [
+        "Students passionate about storytelling, poetry, screenwriting or publishing",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Introduction to Creative Writing · Creative Writing Master Class · Writing in the Wild (Out of Classroom) · Script Writing · Building Character Through Dialogue · UCAS Applications and Careers"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Genre Writing · Writing As Industry · Poetry and Print · Nature Writing · Working and Redrafting"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Weeks 1 and 2, plus a Career & Life Skills week and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da kurgu, şiir, senaryo yazarlığı ve yayıncılığı kapsayan yaratıcı yazarlık iş deneyimi; yazma atölyeleri, redaksiyon ve yazarlardan kişiye özel geri bildirim içerir.",
+      "tags": [
+        "Kurgu",
+        "Şiir",
+        "Senaryo yazarlığı",
+        "Redaksiyon ve yayıncılık",
+        "Portfolyo"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Sınıf dışında yazma oturumu “Writing in the Wild” dahildir"
+      ],
+      "do": [
+        [
+          "Kurgu ve hikâye anlatımı",
+          "Kurgu atölyelerinde olay örgüsü, karakter, diyalog, tempo ve dünya kurma becerilerini geliştirin."
+        ],
+        [
+          "Şiir ve yaratıcı ifade",
+          "Dil, ritim ve imgelerle denemeler yaparak özgüven kazanın ve kendi yazı sesinizi bulun."
+        ],
+        [
+          "Senaryo yazarlığı",
+          "Film, dizi ve tiyatro için yazın: sahne yapısı, diyalog, tempo ve görsel anlatım."
+        ],
+        [
+          "Redaksiyon, yayıncılık ve portfolyo",
+          "Metin hazırlama ve redaksiyonu öğrenin; profesyonel bir portfolyo oluşturun."
+        ],
+        [
+          "Yazı projesi ve geri bildirim",
+          "Eğitmenlerden kişiye özel geri bildirim ve rehberlikle yaratıcı yazarlık projeleri tamamlayın."
+        ]
+      ],
+      "outcomes": [
+        "Üniversite başvurularınızı ve yaratıcı kariyerlerinizi destekleyecek bir yazı portfolyosu",
+        "Yayıncılık, gazetecilik ve senaryo yazarlığı gibi yaratıcı kariyerler hakkında rehberlik"
+      ],
+      "fit": [
+        "Hikâye anlatımı, şiir, senaryo yazarlığı veya yayıncılığa tutkulu öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Yaratıcı Yazarlığa Giriş · Yaratıcı Yazarlık Ustalık Sınıfı · Doğada Yazma (Sınıf Dışı) · Senaryo Yazımı · Diyalogla Karakter Kurma · UCAS Başvuruları ve Kariyer"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: Tür Yazımı · Sektör Olarak Yazarlık · Şiir ve Baskı · Doğa Yazımı · Çalışma ve Yeniden Yazım"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. ve 2. haftalar; ek olarak Kariyer ve Yaşam Becerileri haftası ile profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": [
+      "The page headline says “1 or 2 weeks” but its pricing table lists a 3-week Future Leader plan; all three plans are shown."
+    ]
+  },
+  "chemical-engineering-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Chemical engineering work experience in London: lab experiments, process design and industrial chemistry, with clean energy, aeration and petroleum workshops and a laboratory visit.",
+      "tags": [
+        "Process design",
+        "Industrial chemistry",
+        "Lab experiments",
+        "Clean energy",
+        "Water treatment"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Clean energy, Mott MacDonald aeration and petroleum workshops; lab visit"
+      ],
+      "do": [
+        [
+          "Chemical processes and reactions",
+          "See how chemical reactions are controlled, measured and applied in industrial engineering systems."
+        ],
+        [
+          "Process design and engineering systems",
+          "Learn how engineers design systems to produce chemicals safely, efficiently and at large scale."
+        ],
+        [
+          "Materials and industrial chemistry",
+          "Understand how raw materials become usable products in energy, pharmaceuticals and manufacturing."
+        ],
+        [
+          "Laboratory skills and experimentation",
+          "Take part in supervised lab experiments to build technical and analytical skills."
+        ]
+      ],
+      "outcomes": [
+        "Practical STEM and engineering skills from lab work and real-world applications",
+        "UCAS, personal statement and career mentoring for chemical engineering and related degrees"
+      ],
+      "fit": [
+        "Students interested in chemical engineering, chemistry or process and energy industries",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Clean Energy Workshop · Mott MacDonald Aeration Workshop · Petroleum Workshop · Laboratory Visit · UCAS Application"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Process Design & Economics · Biochemical Engineering · Process Control & Automation · Water Treatment & Environmental Engineering · Chemical Reaction"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Weeks 1 and 2, plus Career & Life Skills and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da kimya mühendisliği iş deneyimi: laboratuvar deneyleri, proses tasarımı ve endüstriyel kimya; temiz enerji, havalandırma ve petrol atölyeleri ile bir laboratuvar ziyareti içerir.",
+      "tags": [
+        "Proses tasarımı",
+        "Endüstriyel kimya",
+        "Laboratuvar deneyleri",
+        "Temiz enerji",
+        "Su arıtma"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Temiz enerji, Mott MacDonald havalandırma ve petrol atölyeleri; laboratuvar ziyareti"
+      ],
+      "do": [
+        [
+          "Kimyasal prosesler ve tepkimeler",
+          "Kimyasal tepkimelerin endüstriyel mühendislik sistemlerinde nasıl kontrol edildiğini, ölçüldüğünü ve uygulandığını görün."
+        ],
+        [
+          "Proses tasarımı ve mühendislik sistemleri",
+          "Mühendislerin kimyasalları güvenli, verimli ve büyük ölçekte üretecek sistemleri nasıl tasarladığını öğrenin."
+        ],
+        [
+          "Malzemeler ve endüstriyel kimya",
+          "Ham maddelerin enerji, ilaç ve imalat sektörlerinde kullanılabilir ürünlere nasıl dönüştüğünü anlayın."
+        ],
+        [
+          "Laboratuvar becerileri ve deney",
+          "Teknik ve analitik becerilerinizi geliştirmek için gözetim altında laboratuvar deneylerine katılın."
+        ]
+      ],
+      "outcomes": [
+        "Laboratuvar çalışmaları ve gerçek uygulamalarla kazanılan pratik fen ve mühendislik becerileri",
+        "Kimya mühendisliği ve ilgili bölümler için UCAS, kişisel beyan ve kariyer danışmanlığı"
+      ],
+      "fit": [
+        "Kimya mühendisliği, kimya veya proses ve enerji sektörleriyle ilgilenen öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Temiz Enerji Atölyesi · Mott MacDonald Havalandırma Atölyesi · Petrol Atölyesi · Laboratuvar Ziyareti · UCAS Başvurusu"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: Proses Tasarımı ve Ekonomisi · Biyokimya Mühendisliği · Proses Kontrolü ve Otomasyon · Su Arıtma ve Çevre Mühendisliği · Kimyasal Tepkime"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. ve 2. haftalar; ek olarak Kariyer ve Yaşam Becerileri ile profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": [
+      "The last item of the 2-week plan is listed on the page simply as “Chemical Reaction”."
+    ]
+  },
+  "law-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Law work experience in London with mock trials, moots, legal workshops and court visits, plus UCAS and LNAT preparation, for students aged 15–18.",
+      "tags": [
+        "Mock trial",
+        "Moot workshop",
+        "Legal research",
+        "LNAT preparation",
+        "Court visits"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Royal Courts of Justice, a solicitors’ office and Whitestone Chambers"
+      ],
+      "do": [
+        [
+          "Mock trials and courtroom advocacy",
+          "Take part in mock trials and courtroom simulations to build advocacy, legal analysis and public speaking."
+        ],
+        [
+          "Areas of law",
+          "Explore legal specialisms through case studies and workshops."
+        ],
+        [
+          "Legal research and reasoning",
+          "Analyse evidence, research cases and build arguments with critical thinking."
+        ],
+        [
+          "UCAS, LNAT and university preparation",
+          "Get guidance on personal statements, LNAT preparation and interviews for competitive law degrees."
+        ],
+        [
+          "Court visits",
+          "Visit courts and legal environments to see UK legal procedure and courtroom roles."
+        ],
+        [
+          "Research project",
+          "Complete a legal research project with tutor feedback."
+        ]
+      ],
+      "outcomes": [
+        "Courtroom and legal-research experience to cite in law applications and interviews",
+        "LNAT and UCAS guidance from expert mentors"
+      ],
+      "fit": [
+        "Students exploring a career in law or applying for law degrees",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: The English Legal System · Corporate Law · Moot Workshop · Mock Trial · Solicitors’ Office · Royal Courts of Justice"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Human Rights · Old Westminster Walk · Whitestone Chambers · Mock Trial · Debate: Human Rights"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Weeks 1 and 2, plus Career & Life Skills and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da sahte duruşmalar, moot çalışmaları, hukuk atölyeleri ve mahkeme ziyaretleri ile UCAS ve LNAT hazırlığı içeren hukuk iş deneyimi. 15–18 yaş öğrencileri için.",
+      "tags": [
+        "Sahte duruşma",
+        "Moot atölyesi",
+        "Hukuki araştırma",
+        "LNAT hazırlığı",
+        "Mahkeme ziyaretleri"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Royal Courts of Justice, bir avukatlık bürosu ve Whitestone Chambers"
+      ],
+      "do": [
+        [
+          "Sahte duruşmalar ve mahkeme savunuculuğu",
+          "Savunuculuk, hukuki analiz ve topluluk önünde konuşma becerilerini geliştirmek için sahte duruşma ve mahkeme simülasyonlarına katılın."
+        ],
+        [
+          "Hukuk alanları",
+          "Vaka çalışmaları ve atölyelerle farklı hukuk uzmanlık alanlarını keşfedin."
+        ],
+        [
+          "Hukuki araştırma ve akıl yürütme",
+          "Delilleri analiz edin, davaları araştırın ve eleştirel düşünmeyle argüman kurun."
+        ],
+        [
+          "UCAS, LNAT ve üniversite hazırlığı",
+          "Rekabetçi hukuk bölümleri için kişisel beyan, LNAT hazırlığı ve mülakat rehberliği alın."
+        ],
+        [
+          "Mahkeme ziyaretleri",
+          "İngiltere’deki hukuki süreçleri ve mahkemedeki rolleri görmek için mahkemeleri ve hukuk ortamlarını ziyaret edin."
+        ],
+        [
+          "Araştırma projesi",
+          "Eğitmen geri bildirimiyle bir hukuk araştırma projesi tamamlayın."
+        ]
+      ],
+      "outcomes": [
+        "Hukuk başvurularında ve mülakatlarda belirtebileceğiniz mahkeme ve hukuki araştırma deneyimi",
+        "Uzman mentorlardan LNAT ve UCAS rehberliği"
+      ],
+      "fit": [
+        "Hukuk kariyerini keşfeden veya hukuk bölümlerine başvuran öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: İngiliz Hukuk Sistemi · Şirketler Hukuku · Moot Atölyesi · Sahte Duruşma · Avukatlık Bürosu · Royal Courts of Justice"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: İnsan Hakları · Old Westminster Yürüyüşü · Whitestone Chambers · Sahte Duruşma · Tartışma: İnsan Hakları"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. ve 2. haftalar; ek olarak Kariyer ve Yaşam Becerileri ile profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": []
+  },
+  "physics-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Physics work experience in London: mechanics, electricity, waves, astrophysics and Python, with a roller-coaster design project and a visit to Greenwich Observatory.",
+      "tags": [
+        "Mechanics & forces",
+        "Electricity & magnetism",
+        "Astrophysics",
+        "Space science",
+        "Python"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Roller-coaster design, Greenwich Observatory and an introduction to Python"
+      ],
+      "do": [
+        [
+          "Mechanics and forces",
+          "Explore motion, energy and forces through experiments that show physics principles in action."
+        ],
+        [
+          "Electricity and magnetism",
+          "Understand circuits, magnetism and energy systems through hands-on lab activities and demonstrations."
+        ],
+        [
+          "Waves, light and sound",
+          "Explore how waves behave, how light travels and how sound is produced and measured."
+        ],
+        [
+          "Modern physics and space science",
+          "Discover relativity, atomic structure and space physics through interactive discussion and simulations."
+        ]
+      ],
+      "outcomes": [
+        "Practical physics and problem-solving experience to cite in applications",
+        "UCAS, personal statement and career mentoring for physics and STEM degrees"
+      ],
+      "fit": [
+        "Students interested in physics, space science or engineering degrees",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Introduction to Physics · Roller Coaster Design · Astrophysics: The Scale of the Universe · An Introduction to Python · Greenwich Observatory · UCAS Application & Careers"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Astrophysics: The Scale of the Universe · Roller Coaster Design · An Introduction to Python · Industry Visit · UCAS Application & Careers, plus another career week or Career & Life Skills"
+          ],
+          [
+            "3 weeks",
+            "Future Leader: Week 1, a Career & Life Skills week, another related career week and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da mekanik, elektrik, dalgalar, astrofizik ve Python içeren fizik iş deneyimi; hız treni tasarım projesi ve Greenwich Gözlemevi ziyareti ile.",
+      "tags": [
+        "Mekanik ve kuvvetler",
+        "Elektrik ve manyetizma",
+        "Astrofizik",
+        "Uzay bilimi",
+        "Python"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Hız treni tasarımı, Greenwich Gözlemevi ve Python’a giriş"
+      ],
+      "do": [
+        [
+          "Mekanik ve kuvvetler",
+          "Fizik ilkelerini iş başında gösteren deneylerle hareket, enerji ve kuvvetleri keşfedin."
+        ],
+        [
+          "Elektrik ve manyetizma",
+          "Uygulamalı laboratuvar çalışmaları ve gösterilerle devreleri, manyetizmayı ve enerji sistemlerini anlayın."
+        ],
+        [
+          "Dalgalar, ışık ve ses",
+          "Dalgaların nasıl davrandığını, ışığın nasıl yayıldığını ve sesin nasıl üretilip ölçüldüğünü keşfedin."
+        ],
+        [
+          "Modern fizik ve uzay bilimi",
+          "Etkileşimli tartışmalar ve simülasyonlarla görelilik, atom yapısı ve uzay fiziğini keşfedin."
+        ]
+      ],
+      "outcomes": [
+        "Başvurularda belirtebileceğiniz pratik fizik ve problem çözme deneyimi",
+        "Fizik ve fen bilimleri bölümleri için UCAS, kişisel beyan ve kariyer danışmanlığı"
+      ],
+      "fit": [
+        "Fizik, uzay bilimi veya mühendislik bölümleriyle ilgilenen öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Fiziğe Giriş · Hız Treni Tasarımı · Astrofizik: Evrenin Ölçeği · Python’a Giriş · Greenwich Gözlemevi · UCAS Başvurusu ve Kariyer"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: Astrofizik: Evrenin Ölçeği · Hız Treni Tasarımı · Python’a Giriş · Sektör Ziyareti · UCAS Başvurusu ve Kariyer; ek olarak başka bir kariyer haftası veya Kariyer ve Yaşam Becerileri"
+          ],
+          [
+            "3 hafta",
+            "Future Leader: 1. hafta, Kariyer ve Yaşam Becerileri haftası, ilgili başka bir kariyer haftası ve profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": [
+      "The 2-week plan on the page repeats several Week 1 items and does not say “Week 1, plus”; it is shown as listed."
+    ]
+  },
+  "engineering-work-experience": {
+    "city": "london",
+    "en": {
+      "focus": "Engineering work experience in London covering mechanical, electrical, civil and structural engineering through design challenges, prototyping workshops and visits.",
+      "tags": [
+        "Mechanical engineering",
+        "Electrical systems",
+        "Civil & structural",
+        "Prototyping",
+        "Robotics"
+      ],
+      "hl": [
+        "Ages 15–18 · groups of 10–12 students",
+        "1, 2 or 3 weeks · weekly start dates 28 Jun – 9 Aug 2027",
+        "Cantilever, robotics and aerofoil workshops; Mott MacDonald workshop"
+      ],
+      "do": [
+        [
+          "Mechanical engineering principles",
+          "Explore motion, forces, energy and machine design through practical challenges and experiments."
+        ],
+        [
+          "Electrical systems and circuits",
+          "Understand electrical systems through circuit design, testing and applied problem-solving."
+        ],
+        [
+          "Civil and structural engineering",
+          "Learn how buildings, bridges and infrastructure are designed and tested for strength, safety and efficiency."
+        ],
+        [
+          "Engineering design and prototyping",
+          "Turn ideas into prototypes on creative projects using structured design-thinking methods."
+        ]
+      ],
+      "outcomes": [
+        "Practical design, build and test experience to draw on in engineering applications",
+        "UCAS, personal statement and career mentoring for top engineering degrees"
+      ],
+      "fit": [
+        "Students considering mechanical, electrical, civil or structural engineering degrees",
+        "Open to UK and international students aged 15–18; no previous subject experience needed, but participants need enough English to join workshops and discussions"
+      ],
+      "schedule": {
+        "title": "Programme weeks",
+        "items": [
+          [
+            "1 week",
+            "Rising Talent: Cantilever · Mott MacDonald Workshop · Brooklands Museum · Robotics · Aerofoils · UCAS Application"
+          ],
+          [
+            "2 weeks",
+            "Career Explorer: Week 1, plus: Matlab Workshop · Space Capsule Workshop · Concrete/Foundation Workshop · System/Electronics · Shadowing an Aeronautical Engineer"
+          ],
+          [
+            "3 weeks",
+            "Elite Intern: Weeks 1 and 2, plus a Career & Life Skills week and professional networking"
+          ]
+        ],
+        "note": "Module lists are taken from the provider’s pricing table; a finalised timetable is sent before the programme."
+      }
+    },
+    "tr": {
+      "focus": "Londra’da tasarım görevleri, prototipleme atölyeleri ve ziyaretlerle makine, elektrik, inşaat ve yapı mühendisliğini kapsayan mühendislik iş deneyimi.",
+      "tags": [
+        "Makine mühendisliği",
+        "Elektrik sistemleri",
+        "İnşaat ve yapı",
+        "Prototipleme",
+        "Robotik"
+      ],
+      "hl": [
+        "15–18 yaş · 10–12 kişilik gruplar",
+        "1, 2 veya 3 hafta · haftalık başlangıçlar 28 Haz – 9 Ağu 2027",
+        "Konsol, robotik ve kanat profili atölyeleri; Mott MacDonald atölyesi"
+      ],
+      "do": [
+        [
+          "Makine mühendisliği ilkeleri",
+          "Pratik görevler ve deneylerle hareketi, kuvvetleri, enerjiyi ve makine tasarımını keşfedin."
+        ],
+        [
+          "Elektrik sistemleri ve devreler",
+          "Devre tasarımı, test ve uygulamalı problem çözmeyle elektrik sistemlerini anlayın."
+        ],
+        [
+          "İnşaat ve yapı mühendisliği",
+          "Binaların, köprülerin ve altyapının dayanıklılık, güvenlik ve verimlilik için nasıl tasarlandığını ve test edildiğini öğrenin."
+        ],
+        [
+          "Mühendislik tasarımı ve prototipleme",
+          "Yapılandırılmış tasarım düşüncesi yöntemleriyle yaratıcı projelerde fikirleri prototipe dönüştürün."
+        ]
+      ],
+      "outcomes": [
+        "Mühendislik başvurularında belirtebileceğiniz tasarım, üretim ve test deneyimi",
+        "Üst düzey mühendislik bölümleri için UCAS, kişisel beyan ve kariyer danışmanlığı"
+      ],
+      "fit": [
+        "Makine, elektrik, inşaat veya yapı mühendisliği bölümlerini düşünen öğrenciler",
+        "15–18 yaş arası Birleşik Krallık ve uluslararası öğrencilere açıktır; önceden konu deneyimi gerekmez, ancak atölye ve tartışmalara katılmak için yeterli İngilizce gerekir"
+      ],
+      "schedule": {
+        "title": "Program haftaları",
+        "items": [
+          [
+            "1 hafta",
+            "Rising Talent: Konsol · Mott MacDonald Atölyesi · Brooklands Müzesi · Robotik · Kanat Profilleri · UCAS Başvurusu"
+          ],
+          [
+            "2 hafta",
+            "Career Explorer: 1. hafta ve ek olarak: Matlab Atölyesi · Uzay Kapsülü Atölyesi · Beton/Temel Atölyesi · Sistem/Elektronik · Havacılık Mühendisini Gölgeleme"
+          ],
+          [
+            "3 hafta",
+            "Elite Intern: 1. ve 2. haftalar; ek olarak Kariyer ve Yaşam Becerileri haftası ile profesyonel ağ kurma"
+          ]
+        ],
+        "note": "Modül listeleri sağlayıcının fiyat tablosundan alınmıştır; kesinleşmiş zaman çizelgesi program öncesinde gönderilir."
+      }
+    },
+    "flags": [
+      "The page spells “Brookland Museum” (read here as Brooklands Museum). The catalogue card describes electrical fields, autonomous systems and automotive engineering, which the course page does not detail."
+    ]
+  }
+}

@@ -4,13 +4,13 @@
 
 This repository contains a password-gated, bilingual (English/Turkish) catalogue of international summer programs. It is a static browser application: the client loads normalized JSON data, renders a filterable program grid, and shows a detail page for each program. There is no backend, database, account system, or server-side API.
 
-The catalogue currently contains **463 programs** from twelve providers. The application supports desktop and mobile layouts, subject/provider/country filtering, pagination, localized program content, and image fallbacks.
+The catalogue currently contains **475 programs** from thirteen providers. The application supports desktop and mobile layouts, subject/provider/country filtering, pagination, localized program content, and image fallbacks.
 
 The repository also includes a local browser-based Program Editor. Running `open-program-editor.bat` opens `http://localhost:5173/admin`, where an editor can search for a program and update titles, locations, dates, ages, pricing, catalogue summaries, and structured English/Turkish detail content without editing JSON manually. Saved changes are stored as a small override layer in `data/program-editor-overrides.json`; generated source files remain untouched.
 
 The newer-provider normalization sources and their QA reports are kept in `normalized_new_providers/`; their combined output has been merged into the main catalogue data. Constructor University's Summer Camp (Bremen, Germany) was normalized separately from its saved program page and course-syllabus document in `constructor/`; the reproducible normalizer and its standalone output live in `normalized_constructor/` and were merged into the same main catalogue data (see **Constructor University normalization** below).
 
-A second layer, added after the original bundle, replaces the generated detail page with a bullet-first "digest" page for 462 of the 463 programs (see **Program Digest Layer** below). This layer sits beside the original React catalogue rather than replacing it.
+A second layer, added after the original bundle, replaces the generated detail page with a bullet-first "digest" page for 474 of the 475 programs (see **Program Digest Layer** below). This layer sits beside the original React catalogue rather than replacing it.
 
 ## Runtime Architecture
 
@@ -32,7 +32,7 @@ This means `script.js` is effectively a compiled artifact, while `app-loader.js`
 
 - `#/` (or no hash): the marketing home page.
 - `#/programs`: the searchable program catalogue.
-- `#/programs/<program-id>`: an individual program detail page — the digest page (below) for 462 of 463 programs, the original React detail page otherwise.
+- `#/programs/<program-id>`: an individual program detail page — the digest page (below) for 474 of 475 programs, the original React detail page otherwise.
 
 Routing is hash-based and handled in the browser. No server rewrite rules are required.
 
@@ -72,11 +72,11 @@ The original bundle groups many raw subjects into broader display buckets such a
 `data/program-digests.json` (one entry per program, keyed by program id) is generated — not hand-edited — by `node tools/build-digests.mjs`, which reads hand-authored source files under `data/digest-src/` and validates every field (length limits, no placeholder text, no duplicate bullets) before writing output. Two authoring styles are used:
 
 - **Per-provider files** (`data/digest-src/<provider>/*.json`, optional `data/digest-src/<provider>-templates.json` for shared blocks like a certificate note or a campus's excursion list): used for Immerse, Academy Royale International, InvestIN, St Clare's, Bucksmore, MPW, Edconic, Sportech, and Constructor University. Immerse additionally reuses one of two shared curriculum templates ("academic" or "career") matched by the program's curriculum-section titles.
-- **Summer Discovery** (265 of the 463 programs) is handled differently because its source text is already bulleted and highly repetitive: `tools/extract-sd.mjs` auto-extracts the English structure from `programs.normalized.json` into `data/digest-src/summer_discovery-units.json`, de-duplicating 265 records down to 171 unique course "units" by content hash. Turkish translations are hand-written per unit (not per program) in `data/digest-src/summer_discovery-tr/part*.json`; the build fails if a translated list doesn't match its English counterpart item-for-item.
+- **Summer Discovery** (265 of the 475 programs) is handled differently because its source text is already bulleted and highly repetitive: `tools/extract-sd.mjs` auto-extracts the English structure from `programs.normalized.json` into `data/digest-src/summer_discovery-units.json`, de-duplicating 265 records down to 171 unique course "units" by content hash. Turkish translations are hand-written per unit (not per program) in `data/digest-src/summer_discovery-tr/part*.json`; the build fails if a translated list doesn't match its English counterpart item-for-item.
 
 Turkish catalogue metadata for Edconic, MPW, Sportech, Summer Discovery, and Constructor University is maintained in `data/tr-translations.json`. Run `node tools/apply-tr-translations.mjs` after rebuilding normalized data and digests. The script adds the reviewed Turkish title, subject, and location labels, reuses each program's reviewed Turkish digest focus as `description_short_tr`, updates the main and provider-level normalized files, and fails if any catalogue record remains incomplete.
 
-Coverage: 462 of 463 programs have a digest (Immerse's Online Research Programme is intentionally excluded — see above). Running `node tools/build-digests.mjs` after any source edit is required to regenerate `data/program-digests.json`; it exits non-zero on validation failure.
+Coverage: 474 of 475 programs have a digest (Immerse's Online Research Programme is intentionally excluded — see above). Running `node tools/build-digests.mjs` after any source edit is required to regenerate `data/program-digests.json`; it exits non-zero on validation failure.
 
 ### Academy Royale International normalization
 
@@ -109,11 +109,26 @@ Constructor University's Summer Camp is a single 12-day residential program in B
 - `data/programs.normalized.json`, `data/program-digests.json`, and `data/image-candidates.json` alone were not enough for the new provider to be usable: `script.js`'s provider filter list, country filter list, and subject-bucket map are hardcoded at build time, so `app-loader.js` needed three additional `replaceOnce(...)` patches (provider `_0`, country `O0`/`U0`, subject `Uh`) or Constructor's programs would exist in the data and catalogue count but be unreachable via the filter sidebar and would show under the generic "Other" subject.
 - Photos: the site's own campus-photo pipeline (Wikimedia Commons, tracked in `assets/program-images/image-sources.json`) had no Bremen entry. The user supplied a campus-sign photo directly, saved as `assets/program-images/campuses/bremen.jpg` (marked "provenance not verified" in the manifest, since it wasn't sourced or license-checked by this pipeline). Six additional, license-checked Commons photos (one per course topic without an existing local subject image) were downloaded into `assets/program-images/constructor/`; the other 3 courses (Chemistry, Biology, Business) reuse the site's existing `*-Product-Image` subject assets. `normalized_constructor/add_image_candidates.mjs` wires all of this into `data/image-candidates.json`, ordered [course topic photo, `bremen.jpg`, the provider's `image_url`] — `program-page.js`'s `photosFor()` always promotes whichever candidate contains `/campuses/` to the page hero, so Bremen becomes the header photo automatically and the topic photo appears in the gallery below it.
 
+### Study Mind work-experience normalization
+
+Study Mind (London) lists 15 work-experience programmes for ages 15–18 on one course-card page; 12 are catalogued and 3 are "coming soon" and left out. The card list is embedded in that page as a `var cardsData = [...]` JSON array rather than as `<a>` tags, so it is read from there.
+
+- Source material lives in `studymind/`: the saved listing page, `download-courses.mjs` (downloads each course page into `studymind/studymind-pages/` with an `index.json`; re-run with `node studymind/download-courses.mjs`).
+- `normalized_studymind/extract_studymind.mjs` parses each saved page: JSON-LD `Course` data (weekly start dates, price offers) plus the visible text (ages, duration, class size, highlights, per-plan module lists). `normalize_studymind.mjs` builds one BASE_FIELDS record per course (provider `studymind`, id prefix `studymind-`, `studymind-<subject>-work-experience`), writes `normalized_studymind/studymind.normalized.json` and merges it into `data/programs.normalized.json`, replacing any earlier Study Mind records so reruns are safe. Run it from the project root, then `node tools/build-digests.mjs` and `node tools/apply-tr-translations.mjs`.
+- English and Turkish digest copy is hand-authored in `normalized_studymind/digest-content.mjs`; the normalizer writes it to `data/digest-src/studymind/programs.json` and `data/digest-src/studymind-templates.json` (shared certificate outcome, London extras, common review flags). `studymind` was added to the `PREFIX` map in `tools/build-digests.mjs` and to `tools/apply-tr-translations.mjs`; its Turkish titles/subjects/location are in `data/tr-translations.json`.
+- **Price**: one fee per programme length — £1,799 (1 week), £2,999 (2 weeks), £3,999 (3 weeks; Careers & Life Skills has only the first two). Each fee is a price tier with bilingual title/note, so the generic pricing comparison shows it as duration options; `data/price-inclusions.json` (`providers.studymind`) explains why prices differ. The pages do not say whether the optional UCL Ramsay Hall accommodation is included or what it costs; this is flagged, not guessed.
+- **Dates**: the 12 live courses list seven weekly start dates (28 June – 9 August 2027) in their JSON-LD; they are stored as single ISO start dates. The JSON-LD `endDate` is the following Monday, so it is not used as a programme end date.
+- **Coming soon (not catalogued)**: Business & Entrepreneurship, Chemistry and Media & Journalism are "coming soon" pages with enquiry links only: no fee and no 2027 dates (Business and Chemistry still carry past 2026 sessions in their structured data). The normalizer skips any page flagged coming soon; their English/Turkish copy is parked in `PARKED_PROGRAMS` in `digest-content.mjs`. When a page opens for booking (plans and 2027 dates appear), delete `soon: true` on its entry and rerun the normalizer; the Turkish titles are already in `data/tr-translations.json`. Their saved pages stay in `studymind/studymind-pages/`.
+- **Page quirks recorded as flags**: Careers & Life Skills labels its 1-week plan "1 day"; Creative Writing's headline says "1 or 2 weeks" but prices a 3-week plan; the Chemistry highlight "Python Basics for Chemists" repeats a criminology mock-trial sentence; Economics' price heading says "Pricing for 2026" next to 2027 sessions.
+- **Photos**: each course uses the photo from its own provider page (`assets/program-images/unique/`, source kind `provider`). Careers & Life Skills shares Creative Writing's stock photo on the provider site, so it uses a distinct CC0 illustrative photo (configured in `data/program-photo-curation.json`). Imported with `python tools/fetch_unique_program_images.py --stage download`; the audit record notes that ORB matching was not re-run for this addition.
+- **Catalogue wiring**: `app-loader.js` adds "Study Mind" to the provider filter list and maps the new subjects `Careers & Life Skills` → Career Discovery and `Chemical Engineering` → Engineering & Tech (the other subjects already had buckets). `program-page.js` gained a Turkish label for the `1-3 weeks` duration.
+- Tests: `tests/studymind-programs.test.mjs`.
+
 ## Data Model
 
 ### `data/programs.normalized.json`
 
-The main data file is an array of 463 normalized program records. Common records include:
+The main data file is an array of 475 normalized program records. Common records include:
 
 - Identity and source: `id`, provider fields, source URLs/files, flags, and publish status.
 - Classification: program type, subject, categories, location, city, country, and delivery modes.
@@ -123,7 +138,7 @@ The main data file is an array of 463 normalized program records. Common records
 - Turkish content: translated title, subject/location labels, summaries, intro, sections, and key facts.
 - Location metadata: location ID, name, and type.
 
-The represented providers are Academy Royale International, Bucksmore, Constructor University, Edconic, Emerald Cultural Institute, Immerse Education, InvestIN Education, MPW Summer School, Schiller International University, Sportech Academy, St Clare's Oxford, and Summer Discovery. New-provider records also retain provider-specific fields where applicable, including grade ranges, historical age/fee evidence, operating institution, and price scope/notes.
+The represented providers are Academy Royale International, Bucksmore, Constructor University, Edconic, Emerald Cultural Institute, Immerse Education, InvestIN Education, MPW Summer School, Schiller International University, Sportech Academy, St Clare's Oxford, Study Mind, and Summer Discovery. New-provider records also retain provider-specific fields where applicable, including grade ranges, historical age/fee evidence, operating institution, and price scope/notes.
 
 ### `data/program-digests.json`
 
@@ -131,7 +146,7 @@ Generated output of the digest pipeline (see **Program Digest Layer** above). ~1
 
 ### `data/image-candidates.json`
 
-This object maps all 463 program IDs to ordered arrays of image candidates. The library includes reusable campus photography for the major catalogue locations and local subject-based fallbacks for business, engineering, medicine, law, arts, and other program areas. The UI uses the first candidate when available, then falls back to the program's own `image_url`, and finally displays a placeholder. The digest layer's `photosFor()` (`program-page.js`) always picks whichever candidate path contains `/campuses/` as the page's hero (rendered as a CSS `background-image`, not an `<img>` tag); the remaining local candidates become the small gallery below it. The 9 Constructor University records each list a course-specific topic photo first, then the shared `campuses/bremen.jpg` campus photo (so Bremen is always the hero), then the provider's own `image_url` as a last-resort fallback.
+This object maps all 475 program IDs to ordered arrays of image candidates. The library includes reusable campus photography for the major catalogue locations and local subject-based fallbacks for business, engineering, medicine, law, arts, and other program areas. The UI uses the first candidate when available, then falls back to the program's own `image_url`, and finally displays a placeholder. The digest layer's `photosFor()` (`program-page.js`) always picks whichever candidate path contains `/campuses/` as the page's hero (rendered as a CSS `background-image`, not an `<img>` tag); the remaining local candidates become the small gallery below it. The 9 Constructor University records each list a course-specific topic photo first, then the shared `campuses/bremen.jpg` campus photo (so Bremen is always the hero), then the provider's own `image_url` as a last-resort fallback.
 
 ### `data/program-editor-overrides.json`
 
@@ -188,10 +203,10 @@ Both `package-lock.json` and `pnpm-lock.yaml` are committed, although the pnpm w
 - The access control is only a client-side convenience. The password and all protected content are delivered to the browser, so this is not suitable for securing sensitive information.
 - `app-loader.js` depends on unique, exact snippets inside a minified generated bundle. Rebuilding or changing `script.js` can make a patch target disappear or become ambiguous, causing startup to fail. The patches should be reapplied to source code if maintainable source becomes available.
 - Several scripts use `MutationObserver` to modify React-generated DOM after rendering. This works for the current markup but is coupled to headings, class names, text labels, and element structure in the bundle. This risk is now confined to the single non-digested program.
-- The home page's hard-coded stats (currently 463 programs / 7 countries in `index.html`) must be updated by hand whenever the dataset total or country count changes; they are not computed from `data/programs.normalized.json`.
-- The image map (`data/image-candidates.json`) has entries for all 463 program IDs. Campus photos and local subject images provide fallback coverage; any future addition without an entry falls back to its own `image_url` and finally a placeholder.
+- The home page's hard-coded stats (currently 475 programs / 7 countries in `index.html`) must be updated by hand whenever the dataset total or country count changes; they are not computed from `data/programs.normalized.json`.
+- The image map (`data/image-candidates.json`) has entries for all 475 program IDs. Campus photos and local subject images provide fallback coverage; any future addition without an entry falls back to its own `image_url` and finally a placeholder.
 - Of the 308 newer-provider records, 287 are marked `needs_review` (the 9 Constructor University records are `ready`: price €4,600 and dates 25 July – 5 August were confirmed 2026-09-28). Flags preserve known scope, age/grade, pricing, date, and source limitations. The digest build surfaces many of these same issues (and others, e.g. campus-wide pricing, missing age ranges) per-record in `review.flags`, visible via `?review` on the live site.
 - The Bilgi Formu on digest pages does not send its submissions anywhere yet (`FORM_ENDPOINT` / `WHATSAPP_NUMBER` are empty in `program-page.js`); this must be wired up before relying on it for real enquiries.
-- All 463 catalogue records now include `title_tr`, `subject_tr`, `location_tr`, and `description_short_tr`. The newer-provider values are reproducible through `data/tr-translations.json` and `tools/apply-tr-translations.mjs`.
+- All 475 catalogue records now include `title_tr`, `subject_tr`, `location_tr`, and `description_short_tr`. The newer-provider values are reproducible through `data/tr-translations.json` and `tools/apply-tr-translations.mjs`.
 - The repository has no automated test files, lint configuration, or visible CI configuration. Verification is currently manual (see **Testing without the password gate** above) or build-based.
 - The bundle and generated CSS are checked in, but their original React/Tailwind source files and build configuration are not present. That makes direct feature development and regeneration harder than editing a typical Vite project.

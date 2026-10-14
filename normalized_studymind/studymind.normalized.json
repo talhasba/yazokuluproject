@@ -1,0 +1,1884 @@
+[
+  {
+    "id": "studymind-careers-and-life-skills-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Careers and Life Skills Work Experience",
+    "raw_title": "Careers and Life Skills Work Experience",
+    "subject": "Careers & Life Skills",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Careers & Life Skills"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1 or 2 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 2999,
+      "display": "£1,799 – £2,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Learn life skills in areas like personal branding, public speaking, and personal finance.",
+    "description_full": "This immersive careers & life skills programme includes hands-on, practical workshops to teach you career and life skills, with visits to top professionals in areas like personal branding, public speaking, and CV writing. You’ll also explore financial literacy and leadership development.\n\nBuilding confidence and essential life skills is more important than ever – developing these skills can shape your future success. How do you gain the confidence and tools to thrive? Our 5-day London career and life skills experience programme is designed to help you build confidence, improve your leadership abilities, and develop key skills like public speaking and personal branding, setting you up for success in both your career and personal life.",
+    "curriculum_sections": [
+      {
+        "title": "Boosting Confidence for Success",
+        "body": "Learn techniques to enhance your self-assurance, helping you thrive in both personal and professional environments."
+      },
+      {
+        "title": "Crafting Your Professional Brand",
+        "body": "Master the art of creating an impactful CV and LinkedIn profile that highlight your strengths and make you stand out to employers and universities."
+      },
+      {
+        "title": "Mastering Financial Independence",
+        "body": "Gain essential knowledge on managing your finances, ensuring you're equipped for independent living and future financial decisions."
+      },
+      {
+        "title": "Harnessing Technology for Personal Growth",
+        "body": "Explore how to use AI and other tools to enhance your applications, personal statements, and overall career journey."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Building Confidence for University • Crafting Personal Brand • Financial Literacy • AI for Personal Statement Writing • Mastering Public Speaking"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Building Confidence for University • Crafting Personal Brand • Financial Literacy • UCAS Application • Mastering Public Speaking • PLUS: Add on any other work experience week"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "",
+    "detail_url": "https://studymind.co.uk/careers-and-life-skills/",
+    "source_url": "https://studymind.co.uk/careers-and-life-skills/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/careers-and-life-skills.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs.",
+      "The page labels the first plan “1 day · Rising Talent” at the same £1,799 as the 1-week plans elsewhere; the headline says “1 or 2 weeks” and describes a 5-day programme, so it is shown as 1 week."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Kariyer ve Yaşam Becerileri İş Deneyimi Programı",
+    "subject_tr": "Kariyer ve Yaşam Becerileri",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Özgüven, kişisel marka, topluluk önünde konuşma, finansal okuryazarlık ve başvurularda yapay zekâ kullanımı üzerine beş günlük Londra programı; üniversiteye ve ilk kariyer adımlarına hazırlanmanız için gereken becerileri geliştirir."
+  },
+  {
+    "id": "studymind-chemical-engineering-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Chemical Engineering Work Experience",
+    "raw_title": "Chemical Engineering Work Experience",
+    "subject": "Chemical Engineering",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Chemical Engineering"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Practical workshops and industry visits designed to teach you key chemical engineering concepts.",
+    "description_full": "The Chemical Engineering Summer Career Camp for students aged 15–18 offers hands-on experience in chemical processes, industrial engineering, and laboratory-based learning. Students explore how raw materials are transformed into useful products through real-world experiments, simulations, and practical workshops. The programme also includes UCAS support, personal statement guidance, and career mentoring for future chemical engineering and STEM pathways.\n\nThe Chemical Engineering Summer Career Camp introduces students to the fundamentals of chemical engineering through practical, lab-based learning and real-world applications. Students explore topics such as chemical reactions, process design, material transformation, energy systems, and industrial production. Through guided experiments and structured workshops, students understand how chemical engineers design and improve large-scale processes. The programme also develops problem-solving, analytical thinking, and teamwork skills. Alongside technical learning, students receive UCAS support and university preparation guidance to help them progress into chemical engineering degrees and STEM careers.",
+    "curriculum_sections": [
+      {
+        "title": "Chemical Processes and Reactions",
+        "body": "Students explore how chemical reactions are controlled, measured, and applied in industrial engineering systems."
+      },
+      {
+        "title": "Process Design and Engineering Systems",
+        "body": "Learn how engineers design systems to produce chemicals safely, efficiently, and at large scale."
+      },
+      {
+        "title": "Materials and Industrial Chemistry",
+        "body": "Understand how raw materials are transformed into usable products in industries such as energy, pharmaceuticals, and manufacturing."
+      },
+      {
+        "title": "Laboratory Skills and Experimentation",
+        "body": "Students take part in supervised lab-based experiments to develop technical and analytical scientific skills."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "1 week including: • Clean Energy Workshop • Mott MacDonald Aeration Workshop • Petroleum Workshop • Laboratory Visit • UCAS Application"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Process Design & Economics • Biochemical Engineering • Process Control & Automation • Water Treatment & Environmental Engineering • Chemical Reaction"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Week 2 • Career & Life Skills • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/05/Chemical-Engineering-1280x854.png",
+    "detail_url": "https://studymind.co.uk/chemical-engineering-summer-career-camp/",
+    "source_url": "https://studymind.co.uk/chemical-engineering-summer-career-camp/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/chemical-engineering-summer-career-camp.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs.",
+      "The last item of the 2-week plan is listed on the page simply as “Chemical Reaction”."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Kimya Mühendisliği İş Deneyimi Programı",
+    "subject_tr": "Kimya Mühendisliği",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da kimya mühendisliği iş deneyimi: laboratuvar deneyleri, proses tasarımı ve endüstriyel kimya; temiz enerji, havalandırma ve petrol atölyeleri ile bir laboratuvar ziyareti içerir."
+  },
+  {
+    "id": "studymind-creative-writing-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Creative Writing Work Experience",
+    "raw_title": "Creative Writing Work Experience",
+    "subject": "Creative Writing",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Creative Writing"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Practical workshops to refine your writing abilities, providing insights into various genres and the publishing world.",
+    "description_full": "Creative Writing Summer Career Camp is an immersive programme for students aged 15–18 passionate about storytelling, poetry, screenwriting, and publishing. It offers workshops, projects, and mentorship from writers. Students develop skills in fiction, journalism, editing, and narrative structure, build portfolios, and receive university application support and personalised feedback guidance certificate.\n\nThe Creative Writing Summer Career Camp is a structured programme combining academic learning with practical writing experience. Students engage in workshops, writing challenges, and collaborative activities that reflect real creative environments. They learn how to develop characters, structure narratives, create emotional impact, and communicate ideas across genres. The course also covers editing, publishing, storytelling techniques, and audience engagement while building skills in creativity, communication, teamwork, and critical thinking. Alongside writing practice, students receive university support including personal statements, portfolio development, interview preparation, and academic mentoring. This blend of creativity and academic guidance prepares students for future study and creative writing careers.",
+    "curriculum_sections": [
+      {
+        "title": "Fiction and Storytelling Workshops",
+        "body": "Students develop storytelling skills through fiction workshops, learning plot, character, dialogue, pacing, and world-building to create engaging, professional-quality stories."
+      },
+      {
+        "title": "Poetry and Creative Expression",
+        "body": "Students explore poetry and creative expression, experimenting with language, rhythm, imagery, and techniques to build confidence and unique writing voice."
+      },
+      {
+        "title": "Scriptwriting and Screenwriting",
+        "body": "Students learn scriptwriting for film, TV, and theatre, exploring scene structure, dialogue, pacing, and visual storytelling through practical exercises."
+      },
+      {
+        "title": "Editing, Publishing and Portfolio Building",
+        "body": "Students learn publishing, editing, manuscript preparation, and portfolio development, polishing work and building a professional portfolio for future opportunities."
+      },
+      {
+        "title": "Writing Research Project and Personalised Feedback",
+        "body": "Students complete creative writing projects while improving creativity, storytelling, thinking, and writing skills through personalised tutor feedback and guidance."
+      },
+      {
+        "title": "University and Creative Career Preparation",
+        "body": "Students receive guidance on university applications, portfolio preparation, personal statements, and creative careers including publishing, journalism, and screenwriting."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Introduction to Creative Writing • Creative Writing Master Class • Writing in the Wild (Out of Classroom) • Script Writing • Building Character Through Dialogue • UCAS Applications and Careers"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Genre Writing • Writing As Industry • Poetry and Print • Nature Writing • Working and Redrafting"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Week 2 • Career & Life Skills Week • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/05/Creative-writing-1280x854.png",
+    "detail_url": "https://studymind.co.uk/creative-writing-summer-career-camp/",
+    "source_url": "https://studymind.co.uk/creative-writing-summer-career-camp/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/creative-writing-summer-career-camp.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs.",
+      "The page headline says “1 or 2 weeks” but its pricing table lists a 3-week Future Leader plan; all three plans are shown."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Yaratıcı Yazarlık İş Deneyimi Programı",
+    "subject_tr": "Yaratıcı Yazarlık",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da kurgu, şiir, senaryo yazarlığı ve yayıncılığı kapsayan yaratıcı yazarlık iş deneyimi; yazma atölyeleri, redaksiyon ve yazarlardan kişiye özel geri bildirim içerir."
+  },
+  {
+    "id": "studymind-criminology-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Criminology Work Experience",
+    "raw_title": "Criminology Work Experience",
+    "subject": "Criminology",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Criminology"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Hands-on, practical experience in the field of criminology",
+    "description_full": "The Criminology Summer Career Camp is a practical, immersive programme for students aged 15–18 who are curious about crime, law, forensic science, and criminal psychology. This programme blends academic theory, hands-on activities, and career guidance, giving students a true insight into criminology and the criminal justice system. Students leaving this camp will gain real investigative skills, university-ready experience, and a competitive edge for future criminology and law applications.\n\nEarly exposure to criminology, forensic science, and law enforcement\n\nPractical problem-solving experience in real-life criminal investigations\n\nA strong foundation for university applications and career planning\n\nNetworking opportunities with professionals, guest speakers, and mentors\n\nWhether aiming for a degree in criminology, forensic psychology, law, or criminal justice, this camp helps students clarify their goals and develop essential skills.",
+    "curriculum_sections": [
+      {
+        "title": "Central Criminal Court, The Old Bailey",
+        "body": "Witness the legal system in action as you observe real trials, explore historic courtrooms, and gain unprecedented insight into UK criminal proceedings."
+      },
+      {
+        "title": "Criminal Psychology and Behaviour Analysis",
+        "body": "Explore the psychological and social factors behind criminal behaviour while learning how criminologists analyse motives, patterns, and behavioural trends. Students gain insight into criminal profiling, deception detection, and psychological approaches within criminal investigations."
+      },
+      {
+        "title": "Digital Forensics and Cybercrime",
+        "body": "Participants are introduced to digital investigations and cybercrime analysis, learning how technology is used to investigate online criminal activity and digital evidence in modern law enforcement environments."
+      },
+      {
+        "title": "Investigative Skills and Case Analysis",
+        "body": "Students strengthen critical thinking and problem-solving skills through real-life case studies, group investigations, and structured evidence analysis exercises. These activities help students understand how investigators evaluate information and build criminal cases."
+      },
+      {
+        "title": "University and Career Preparation",
+        "body": "Students receive guidance on university applications, personal statements, criminology degree pathways, and interview preparation. Workshops help students understand future careers in criminology, forensic science, psychology, law enforcement, and criminal justice."
+      },
+      {
+        "title": "Research Project and Personalised Feedback",
+        "body": "Students complete an independent criminology research project designed to develop investigative, academic, and analytical skills. Tutors provide personalised written feedback to help students improve their critical thinking, research techniques, and report-writing abilities."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "The Origins of Criminological Thought • Criminology Academic Study • The Origins of Confinement • London Dungeon • Central Criminal Court • PLUS: Choose another career week OR Career & Life Skills"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Plus: Week 1 • Human Rights • Whitestone Chambers • International Law Applied • Mock Trial • Debate: Human Rights"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Another related career week • Career & Life Skills Week • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/05/New-criminology-1280x854.png",
+    "detail_url": "https://studymind.co.uk/criminology-summer-career-camp/",
+    "source_url": "https://studymind.co.uk/criminology-summer-career-camp/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/criminology-summer-career-camp.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Kriminoloji İş Deneyimi Programı",
+    "subject_tr": "Kriminoloji",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da kriminoloji iş deneyimi: adli bilimler, suç psikolojisi, dijital adli bilişim ve soruşturmalar; Old Bailey ziyareti ve sahte duruşma içerir."
+  },
+  {
+    "id": "studymind-economics-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Economics Work Experience",
+    "raw_title": "Economics Work Experience",
+    "subject": "Economics",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Economics"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Workshops and industry visits to understand financial markets, trading, private equity, and more.",
+    "description_full": "This practical, hands-on economics work experience will provide you with real-life skills and understanding of financial markets, trading, private equity, and more!\n\nIn our economics work experience programme, you can actively pursue unique hands-on experiences, including involvement in real-world financial projects and shadowing experienced economists. These experiences will enable you to cultivate essential skills and acquire insights that will set you apart in your future economics endeavours!",
+    "curriculum_sections": [
+      {
+        "title": "Private Equity",
+        "body": "Navigate real-world private equity scenarios, manage costs, and respond to market competition."
+      },
+      {
+        "title": "Financial Markets",
+        "body": "Explore how central bank policies, like interest rate adjustments, impact the broader economy."
+      },
+      {
+        "title": "Industry Visit: EY (Ernst & Young)",
+        "body": "Visit one of the top four accounting firms, EY and take part in an interactive finance workshop with professionals."
+      },
+      {
+        "title": "Industry Visit: Lloyd’s of London",
+        "body": "Discover the excitement, and experience the insurance industry first hand with a visit to Lloyd’s, led by UIB, a leading insurance and reinsurance Lloyd’s broker."
+      },
+      {
+        "title": "London Academy of Trading",
+        "body": "Be introduced to the tools and techniques of financial modelling and valuation as you trade stocks in a real-life simulation."
+      },
+      {
+        "title": "Hedge Funds",
+        "body": "Learn about hedge fund management and analyse case studies."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Risk Management • Financial Markets • Trading Floor Visit • Stock Market • Private Equity"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Risk Management • Financial Markets • Trading Floor Visit • Stock Market • Private Equity • Choice of: 2nd Banking Week or Career & Life Skills Week"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Week 2 • Career & Life Skills • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/03/Banking-Intro-Video-Block.png",
+    "detail_url": "https://studymind.co.uk/economics-work-experience/",
+    "source_url": "https://studymind.co.uk/economics-work-experience/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/economics-work-experience.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs.",
+      "The page’s price heading reads “Pricing for 2026” while its course instances are 2027; confirm the 2027 fees before quoting."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Ekonomi İş Deneyimi Programı",
+    "subject_tr": "Ekonomi",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra merkezinde uygulamalı ekonomi iş deneyimi: özel sermaye, finansal piyasalar ve alım satım simülasyonları ile EY ve Lloyd’s of London sektör ziyaretleri. 15–18 yaş öğrencileri için."
+  },
+  {
+    "id": "studymind-engineering-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Engineering Work Experience",
+    "raw_title": "Engineering Work Experience",
+    "subject": "Engineering",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Engineering"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Elite Intern",
+          "title": {
+            "en": "3 weeks · Elite Intern",
+            "tr": "3 hafta · Elite Intern"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Elite Intern",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Hands-on workshops and industry days including electrical fields, autonomous systems, and automotive engineering.",
+    "description_full": "The Engineering Summer Career Camp for students aged 15–18 offers hands-on experience in mechanical, civil, electrical, and structural engineering. Students take part in real engineering challenges, practical workshops, and design-based projects that reflect real-world industry problems. The programme also includes UCAS support, personal statement guidance, and career mentoring to prepare students for top engineering degrees and future STEM careers.\n\nThe Engineering Summer Career Camp introduces students to the core principles of engineering through practical, project-based learning. Students explore how engineers design, build, and improve systems in areas such as mechanics, structures, electricity, and materials. Through hands-on workshops, team challenges, and real-world problem-solving activities, students gain insight into how engineering is applied in industry. The programme also develops key skills in analysis, design thinking, teamwork, and communication. Alongside technical learning, students receive UCAS support and university preparation guidance to help them progress into engineering degrees and careers.",
+    "curriculum_sections": [
+      {
+        "title": "Mechanical Engineering Principles",
+        "body": "Students explore motion, forces, energy, and machine design through practical engineering challenges and experiments."
+      },
+      {
+        "title": "Electrical Systems and Circuits",
+        "body": "Understand how electrical systems work through circuit design, testing, and applied problem-solving activities."
+      },
+      {
+        "title": "Civil and Structural Engineering",
+        "body": "Learn how buildings, bridges, and infrastructure are designed and tested for strength, safety, and efficiency."
+      },
+      {
+        "title": "Engineering Design and Prototyping",
+        "body": "Students work on creative engineering projects, developing ideas into prototypes using structured design thinking methods."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Cantilever • Mott Macdonald Workshop • Brookland Museum • Robotics • Aerofoils • UCAS Application"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Matlab Workshop • Space Capsule Workshop • Concrete/Foundation Workshop • System/Electronics • Shadowing Aeronautical Engineer"
+      },
+      {
+        "title": "3 weeks · Elite Intern",
+        "body": "The ultime immersive experience • Week 1 • Week 2 • Career & Life Skills Week • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/05/Engineering-1280x854.png",
+    "detail_url": "https://studymind.co.uk/engineering-summer-career-camp/",
+    "source_url": "https://studymind.co.uk/engineering-summer-career-camp/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/engineering-summer-career-camp.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs.",
+      "The page spells “Brookland Museum” (read here as Brooklands Museum). The catalogue card describes electrical fields, autonomous systems and automotive engineering, which the course page does not detail."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Mühendislik İş Deneyimi Programı",
+    "subject_tr": "Mühendislik",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da tasarım görevleri, prototipleme atölyeleri ve ziyaretlerle makine, elektrik, inşaat ve yapı mühendisliğini kapsayan mühendislik iş deneyimi."
+  },
+  {
+    "id": "studymind-international-relations-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "International Relations Work Experience",
+    "raw_title": "International Relations Work Experience",
+    "subject": "International Relations",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "International Relations"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Immersive workshops to teach you international relations skills, including industry visits.",
+    "description_full": "The International Relations Summer Career Camp is for students aged 15–18 interested in global politics, diplomacy, law, economics, and world affairs. Through workshops, debates, simulations, and expert-led sessions, students explore international careers, develop analytical and leadership skills, and receive UCAS support, including personal statements and future university guidance planning support.\n\nThe International Relations Summer Career Camp introduces students to global politics and diplomacy through practical learning and academic exploration. Students study how governments and organisations address issues like climate change, conflict, migration, security, trade, and human rights. The programme combines university-level study with real-world experiences, including Model United Nations, political simulations, and debates. Participants develop critical thinking, communication, leadership, and teamwork skills while exploring careers in diplomacy, international law, politics, and global affairs. They also receive guidance for university applications and future pathways. Overall, it builds confidence and a strong understanding of international relations and global decision-making processes.",
+    "curriculum_sections": [
+      {
+        "title": "Diplomacy and International Negotiation",
+        "body": "Students learn diplomacy through negotiations, crises, and debates, developing communication, persuasion, and strategic thinking skills."
+      },
+      {
+        "title": "International Politics and Global Affairs",
+        "body": "Students study politics, economics, human rights, security, and analyse global events and their societal impact."
+      },
+      {
+        "title": "Model United Nations and Global Simulations",
+        "body": "Students join Model United Nations, representing countries, debating issues, and learning global policymaking and public speaking."
+      },
+      {
+        "title": "Leadership, Communication and Critical Thinking",
+        "body": "Students build leadership, teamwork, research, and presentation skills for university and careers in law, politics, and diplomacy."
+      },
+      {
+        "title": "Houses of Parliament and Political Institutions",
+        "body": "Students explore British politics through visits and workshops, learning how governments shape international policy and decisions."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Introduction: International Relations • Current Global Issues • Global Governance/Conflict & Peace Studies • Nuclear Weapons & Int. Relations • Theoretical Approaches to International Relations • UCAS Applications & Careers"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Human Rights • Old Westminster Walk • MODEL UN: Intro & Research • MODEL UN: Resolutions & Lobbying • MODEL UN: Opening Statements • MODEL UN: Resolution Debate & Vote • Debate: Human Rights"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Week 2 • Related Work Experience Week • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/05/New-International-1280x854.png",
+    "detail_url": "https://studymind.co.uk/international-relations-work-experience/",
+    "source_url": "https://studymind.co.uk/international-relations-work-experience/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/international-relations-work-experience.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Uluslararası İlişkiler İş Deneyimi Programı",
+    "subject_tr": "Uluslararası İlişkiler",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da Model Birleşmiş Milletler, diplomasi ve müzakere simülasyonları, insan hakları tartışmaları ve Houses of Parliament ziyaretiyle uluslararası ilişkiler iş deneyimi. 15–18 yaş için."
+  },
+  {
+    "id": "studymind-law-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Law Work Experience",
+    "raw_title": "Law Work Experience",
+    "subject": "Law",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Law"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Hands-on, industry visits to top solicitor firms, chambers and court rooms.",
+    "description_full": "The Law Summer Career Camp is a hands-on programme for students aged 15–18 exploring careers in law. Students gain practical experience through mock trials, legal workshops, debates, and court simulations while developing advocacy, research, and analytical skills. The camp also includes UCAS, LNAT, and interview preparation with expert mentor guidance.\n\nThe Law Summer Career Camp is a structured and immersive programme combining academic legal theory with hands-on legal experience for students aged 15–18. Through interactive workshops, mock trials, legal simulations, and group activities, students explore how legal professionals analyse evidence, build arguments, and present cases in realistic courtroom settings. Participants develop essential transferable skills including communication, leadership, teamwork, critical thinking, and problem-solving while gaining insight into legal systems and ethical issues. The programme also provides expert university preparation support through UCAS guidance, personal statement workshops, LNAT preparation, and interview coaching, helping students understand both academic pathways and future careers within the legal profession.",
+    "curriculum_sections": [
+      {
+        "title": "Mock Trials and Courtroom Advocacy",
+        "body": "Participate in mock trials and courtroom simulations while developing advocacy, legal analysis, public speaking, confidence, and persuasive communication skills."
+      },
+      {
+        "title": "Explore Different Areas of Law",
+        "body": "Students explore legal specialisms through case studies and workshops, learning how law works and how legal professionals support society."
+      },
+      {
+        "title": "Legal Research and Analytical Thinking",
+        "body": "Students develop legal reasoning by analysing evidence, researching cases, building arguments, and applying critical thinking in professional legal contexts."
+      },
+      {
+        "title": "UCAS, LNAT and University Preparation",
+        "body": "Students receive guidance on preparing strong university applications for competitive law programmes. Workshops cover personal statements, LNAT preparation, interview techniques, and strategies for standing out during the admissions process."
+      },
+      {
+        "title": "Court Visits and Legal Experiences",
+        "body": "Students visit courts and legal environments, gaining insight into UK legal procedures, courtroom roles, and real legal career pathways."
+      },
+      {
+        "title": "Research Project and Personalised Feedback",
+        "body": "Students complete legal research projects with tutor feedback, improving academic writing, investigative skills, and preparation for university studies."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "The English Legal System • Corporate Law • Moot Workshop • Mock Trial • Solicitors' Office • Royal Courts of Justice"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Human Rights • Old Westminster Walk • Whitestone Chambers • Mock Trial • Debate: Human Rights"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Week 2 • Career & Life Skills • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/05/New-law-1280x854.png",
+    "detail_url": "https://studymind.co.uk/law-summer-career-camp/",
+    "source_url": "https://studymind.co.uk/law-summer-career-camp/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/law-summer-career-camp.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Hukuk İş Deneyimi Programı",
+    "subject_tr": "Hukuk",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da sahte duruşmalar, moot çalışmaları, hukuk atölyeleri ve mahkeme ziyaretleri ile UCAS ve LNAT hazırlığı içeren hukuk iş deneyimi. 15–18 yaş öğrencileri için."
+  },
+  {
+    "id": "studymind-maths-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Maths Work Experience",
+    "raw_title": "Maths Work Experience",
+    "subject": "Mathematics",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Mathematics"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Explores higher-level maths through hands-on workshops and industry visits.",
+    "description_full": "This maths work experience programme explores higher-level mathematics through hands-on workshops, covering topics like set theory, proofs, vector spaces, and infinity, while enhancing problem-solving and analytical skills.\n\nWith the number of applicants for maths-related degrees and careers growing each year, standing out is more important than ever. How can you demonstrate your passion for mathematics? Our 5-day programme in London will help you showcase your enthusiasm and strengthen your chances of securing a spot at a top university or advancing your career in mathematics.",
+    "curriculum_sections": [
+      {
+        "title": "Understanding Infinity",
+        "body": "You will be introduced to the different types of infinity (e.g., countable and uncountable) and its paradoxes, such as Hilbert’s Hotel."
+      },
+      {
+        "title": "College Level Maths",
+        "body": "Transition from A‑level to university maths with topics like infinity, proofs, and linear algebra, emphasising reasoning, creativity, and applications."
+      },
+      {
+        "title": "Problem Solving",
+        "body": "You will be given a series of challenging problems and puzzles, and will work in pairs or small groups to solve them."
+      },
+      {
+        "title": "Set Theory & Proofs",
+        "body": "Set Theory & Proofs unlocks the exciting world of logic, where you’ll explore sets and relationships while mastering the art of crafting powerful proofs."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Introduction to Higher Level Maths • Understanding Infinity • Basics of Set Theory and Proofs • Exploring Vector Spaces • Simulation: Trading Floor • UCAS & Careers"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Basics of Game Theory • Number Theory and Cryptography • An Introduction to Projective Geometry • Topology • Basics of Graph Theory"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Week 2 • Career & Life Skills • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/05/New-Maths-1280x854.png",
+    "detail_url": "https://studymind.co.uk/maths-work-experience/",
+    "source_url": "https://studymind.co.uk/maths-work-experience/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/maths-work-experience.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Matematik İş Deneyimi Programı",
+    "subject_tr": "Matematik",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da üniversite düzeyinde matematik: sonsuzluk, küme kuramı ve ispatlar, vektör uzayları, oyun kuramı, kriptografi ve topoloji; uygulamalı atölyeler ve problem çözme çalışmalarıyla."
+  },
+  {
+    "id": "studymind-physics-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Physics Work Experience",
+    "raw_title": "Physics Work Experience",
+    "subject": "Physics",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Physics"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Practical workshops with industry visits in various physics fields.",
+    "description_full": "Physics Summer Career Camp for students aged 15–18 offers hands-on experience in physics, space science, engineering principles, and scientific problem-solving. Through interactive experiments, workshops, and demonstrations, students explore core concepts while building academic skills. The programme also includes UCAS support, personal statement guidance, and career mentoring for future STEM pathways.\n\nThe Physics Summer Career Camp introduces students to the core principles of physics through practical, hands-on learning and real-world applications. Students explore topics such as mechanics, electricity, forces, waves, energy, and modern physics through experiments, workshops, and problem-solving activities. The programme helps students understand how physics is used in engineering, space exploration, technology, and scientific research. Alongside academic learning, students develop key skills in analysis, critical thinking, teamwork, and communication. The camp also provides UCAS support, personal statement guidance, and university preparation to help students confidently progress toward physics-related degrees and careers.",
+    "curriculum_sections": [
+      {
+        "title": "Mechanics and Forces",
+        "body": "Students explore motion, energy, and forces through experiments that demonstrate real-world physics principles in action."
+      },
+      {
+        "title": "Electricity and Magnetism",
+        "body": "Understand how electrical circuits, magnetism, and energy systems work through hands-on lab activities and demonstrations."
+      },
+      {
+        "title": "Waves, Light and Sound",
+        "body": "Explore how waves behave, how light travels, and how sound is produced and measured in scientific environments."
+      },
+      {
+        "title": "Modern Physics and Space Science",
+        "body": "Students discover key ideas in relativity, atomic structure, and space physics through interactive discussions and simulations."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Introduction to Physics • Roller Coaster Design • Astrophysics: The Scale of the Universe • An Introduction to Python • Greenwich Observatory • UCAS Application & Careers"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Astrophysics: The Scale of the Universe • Roller Coaster Design • An Introduction to Python • Industry Visit • UCAS Application & Careers • PLUS: Choose another career week OR Career & Life Skills"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Career & Life Skills • Another related career week • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/03/physics-intro-page.jpg",
+    "detail_url": "https://studymind.co.uk/physics-summer-career-camp/",
+    "source_url": "https://studymind.co.uk/physics-summer-career-camp/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/physics-summer-career-camp.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs.",
+      "The 2-week plan on the page repeats several Week 1 items and does not say “Week 1, plus”; it is shown as listed."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Fizik İş Deneyimi Programı",
+    "subject_tr": "Fizik",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da mekanik, elektrik, dalgalar, astrofizik ve Python içeren fizik iş deneyimi; hız treni tasarım projesi ve Greenwich Gözlemevi ziyareti ile."
+  },
+  {
+    "id": "studymind-psychology-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Psychology Work Experience",
+    "raw_title": "Psychology Work Experience",
+    "subject": "Psychology",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Psychology"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Learn key psychological skills from industry experts and immersive workshops.",
+    "description_full": "The Psychology Summer Career Camp for students aged 15–18 offers hands-on experience in psychology, mental health, neuroscience, counselling, and research. Through interactive workshops, case studies, and simulations, students explore key psychology fields while developing academic skills. The programme also provides UCAS support, personal statement guidance, and career pathway mentoring.\n\nThe Psychology Summer Career Camp introduces students to the science of human behaviour through academic learning and practical experiences. Students explore emotions, memory, decision-making, mental health, and social behaviour, and how psychology is applied in healthcare, education, sport, business, and criminal justice. The programme combines theory with immersive workshops, simulations, case studies, and group discussions to demonstrate real-world psychological practice. Participants develop skills in research, communication, analysis, teamwork, and presentation while exploring key psychology specialisms and career pathways. The camp also provides UCAS support, personal statement guidance, and university preparation, helping students gain confidence and valuable insight into psychology studies and careers.",
+    "curriculum_sections": [
+      {
+        "title": "Clinical and Counselling Psychology",
+        "body": "Students explore how psychologists support mental health through case studies, therapy simulations, and discussions on behaviour, anxiety, and emotional health."
+      },
+      {
+        "title": "Cognitive Psychology and Neuroscience",
+        "body": "Explore how the brain processes memory, emotions, learning, and decision-making through psychology experiments and neuroscience workshops on human behaviour."
+      },
+      {
+        "title": "Sports and Performance Psychology",
+        "body": "Learn psychology in sports, improving performance, confidence, motivation, teamwork, and mental strategies used by athletes and psychologists."
+      },
+      {
+        "title": "Psychological Research and Experiments",
+        "body": "Students learn how psychologists conduct research, analyse behaviour, and interpret data through interactive experiments, observations, surveys, and group projects."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Introduction: Psychology • Clinical Psychology • Neuroplasticity • Social Psychology • Drama Therapy • UCAS Application"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Individual Psychology • Experimental and Research • Pain & Rehabilitation • How to Sleep • Drug Addiction from a clinical perspective"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "Week 1 • Week 2 Industry Placement • Career & Life Skills Week • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/04/WhatsApp-Image-2025-04-30-at-11.19.58.jpeg",
+    "detail_url": "https://studymind.co.uk/psychology-summer-career-camp/",
+    "source_url": "https://studymind.co.uk/psychology-summer-career-camp/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/psychology-summer-career-camp.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Psikoloji İş Deneyimi Programı",
+    "subject_tr": "Psikoloji",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "Londra’da klinik ve danışmanlık psikolojisi, sinirbilim, spor psikolojisi ve araştırma yöntemlerini kapsayan psikoloji iş deneyimi; vaka çalışmaları, simülasyonlar ve UCAS desteği içerir."
+  },
+  {
+    "id": "studymind-technology-work-experience",
+    "provider": "studymind",
+    "provider_label": "Study Mind",
+    "operating_institution": "Study Mind",
+    "program_type": "work_experience",
+    "title": "Computer Science & Technology Work Experience",
+    "raw_title": "Technology Work Experience",
+    "subject": "Computer Science & Technology",
+    "categories": [
+      "Work experience",
+      "Summer career camp",
+      "Computer Science & Technology"
+    ],
+    "location": "Central London",
+    "location_type": "city",
+    "location_id": "london",
+    "location_name": "Central London",
+    "city": "London",
+    "country": "United Kingdom",
+    "age_ranges": [
+      "15-18"
+    ],
+    "duration": "1-3 weeks",
+    "delivery_modes": [
+      "in_person"
+    ],
+    "class_size": "10-12 students",
+    "accommodation": "Optional residential stay at UCL Ramsay Hall, central London",
+    "price": {
+      "currency": "GBP",
+      "min_amount": 1799,
+      "max_amount": 3999,
+      "display": "£1,799 – £3,999",
+      "tiers": [
+        {
+          "label": "1 week · Rising Talent",
+          "title": {
+            "en": "1 week · Rising Talent",
+            "tr": "1 hafta · Rising Talent"
+          },
+          "note": {
+            "en": "One week: the core subject modules, workshops and visits.",
+            "tr": "Bir hafta: temel konu modülleri, atölyeler ve ziyaretler."
+          },
+          "weeks": 1,
+          "plan": "Rising Talent",
+          "amount": 1799,
+          "currency": "GBP",
+          "display": "£1,799"
+        },
+        {
+          "label": "2 weeks · Career Explorer",
+          "title": {
+            "en": "2 weeks · Career Explorer",
+            "tr": "2 hafta · Career Explorer"
+          },
+          "note": {
+            "en": "Two weeks: the core week plus a second week of further modules; some programmes let you choose a related or Career & Life Skills week.",
+            "tr": "İki hafta: temel hafta ve ek modüllerden oluşan ikinci hafta; bazı programlarda ilgili bir hafta veya Kariyer ve Yaşam Becerileri haftası seçilebilir."
+          },
+          "weeks": 2,
+          "plan": "Career Explorer",
+          "amount": 2999,
+          "currency": "GBP",
+          "display": "£2,999"
+        },
+        {
+          "label": "3 weeks · Future Leader",
+          "title": {
+            "en": "3 weeks · Future Leader",
+            "tr": "3 hafta · Future Leader"
+          },
+          "note": {
+            "en": "Three weeks: the programme weeks plus a Career & Life Skills or related career week and professional networking.",
+            "tr": "Üç hafta: program haftalarına ek olarak Kariyer ve Yaşam Becerileri veya ilgili bir kariyer haftası ile profesyonel ağ kurma."
+          },
+          "weeks": 3,
+          "plan": "Future Leader",
+          "amount": 3999,
+          "currency": "GBP",
+          "display": "£3,999"
+        }
+      ]
+    },
+    "price_scope": "course_fee_by_duration",
+    "price_note": "One fee per programme length (1, 2 or 3 weeks). The page does not say whether the optional UCL Ramsay Hall accommodation is included or what it costs.",
+    "price_note_tr": "Program süresine göre tek ücret (1, 2 veya 3 hafta). Sayfada isteğe bağlı UCL Ramsay Hall konaklamasının ücrete dahil olup olmadığı veya maliyeti belirtilmemiştir.",
+    "dates": [
+      "2027-06-28",
+      "2027-07-05",
+      "2027-07-12",
+      "2027-07-19",
+      "2027-07-26",
+      "2027-08-02",
+      "2027-08-09"
+    ],
+    "date_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "dates_year": 2027,
+    "description_short": "Hands-on workshops on Python, AI, website development, and more.",
+    "description_full": "The Computer Science Summer Career Camp for ages 15–18 offers hands-on experience in coding, AI, cybersecurity, and software development through real-world projects and expert-led workshops. Students benefit from small group learning, university admissions support, UCAS guidance, networking opportunities, and practical insight into future careers in computer science and technology.\n\nThe Computer Science Summer Career Camp for ages 15–18 combines academic learning with hands-on experience in coding, AI, cybersecurity, software development, and computational problem-solving. Through immersive workshops, collaborative projects, and real-world simulations, students gain insight into how technology professionals solve challenges and create innovative digital solutions. The programme also helps students develop key skills including teamwork, communication, creativity, leadership, and analytical thinking. Alongside practical experience, students receive expert support with UCAS applications, personal statements, interview preparation, and university planning. With small group learning, industry-led guidance, and career-focused activities, the camp provides valuable preparation for future studies and careers in computer science and technology.",
+    "curriculum_sections": [
+      {
+        "title": "Coding and Software Development",
+        "body": "Students learn Python, JavaScript, HTML, and CSS, gaining hands-on experience in software development, debugging, algorithms, and computational thinking skills."
+      },
+      {
+        "title": "Artificial Intelligence and Machine Learning",
+        "body": "Explore AI, machine learning, and data-driven technologies through interactive workshops, learning how models are built, trained, and applied across industries."
+      },
+      {
+        "title": "Website Design and Interactive Development",
+        "body": "Participants design websites using modern tools, learning front-end development, responsive design, UX principles, and professional development practices."
+      },
+      {
+        "title": "Cybersecurity and Digital Protection",
+        "body": "Students learn cybersecurity, ethical hacking, and digital safety through simulations, exploring how professionals protect systems, networks, and data."
+      },
+      {
+        "title": "Data Science and Computational Thinking",
+        "body": "Students explore data analysis, logical reasoning, and computational thinking, learning how professionals use data to solve real-world problems effectively."
+      },
+      {
+        "title": "Industry Research Project and Personalised Feedback",
+        "body": "Students complete an independent technology research project designed to strengthen technical understanding, analytical thinking, and project development skills. Tutors provide personalised written feedback to support academic development and future university preparation."
+      },
+      {
+        "title": "Technology Innovation and Industry Exploration",
+        "body": "Students join a coding workshop using Python, learning variables, loops, functions, and algorithms through FizzBuzz and interactive game projects."
+      },
+      {
+        "title": "1 week · Rising Talent",
+        "body": "Algorithmic Thinking and What is Computer Science • Game Development • The World of Artificial Intelligence • Website Development • Data Structures and Algorithms • UCAS Application & Personal Statement"
+      },
+      {
+        "title": "2 weeks · Career Explorer",
+        "body": "Computer Architecture • Introduction to Python • AI and 'Vibe Coding' • Encryption and Codebreaking • Cybersecurity"
+      },
+      {
+        "title": "3 weeks · Future Leader",
+        "body": "1 week experience • 2 week experience • Career & Life Skills • Professional Networking"
+      }
+    ],
+    "learning_outcomes": [],
+    "image_url": "https://studymind.co.uk/wp-content/uploads/2025/05/New-computer-1280x854.png",
+    "detail_url": "https://studymind.co.uk/technology-summer-career-camp/",
+    "source_url": "https://studymind.co.uk/technology-summer-career-camp/",
+    "source_files": [
+      "studymind/Study Mind Work Experience _ Career Programmes 2026.html",
+      "studymind/studymind-pages/technology-summer-career-camp.html"
+    ],
+    "source_reviewed": "2026-10-13",
+    "flags": [
+      "Weekly start dates and fees are read from the course page’s structured data (2027 course instances); confirm both before booking.",
+      "The page offers residential and non-residential options (UCL Ramsay Hall) but lists one fee per programme length and does not say whether accommodation is included or what it costs."
+    ],
+    "publish_status": "ready",
+    "title_tr": "Bilgisayar Bilimi ve Teknoloji İş Deneyimi Programı",
+    "subject_tr": "Bilgisayar Bilimi ve Teknoloji",
+    "location_tr": "Londra Merkezi",
+    "description_short_tr": "15–18 yaş için Londra’da uygulamalı kodlama, yapay zekâ, siber güvenlik ve web geliştirme atölyeleri; gerçek projeler, küçük gruplar ve bilgisayar bilimi ile teknoloji bölümleri için UCAS rehberliği."
+  }
+]

@@ -17,7 +17,7 @@ function mergeEditorOverride(base, override) {
 const [basePrograms, editorOverrides, photoSources] = await Promise.all([
   fetch("./data/programs.normalized.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : []),
   fetch("./data/program-editor-overrides.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : { programs: {} }).catch(() => ({ programs: {} })),
-  fetch("./data/program-image-sources.json?v=20261012-7").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
+  fetch("./data/program-image-sources.json?v=20261013-2").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
 ]);
 
 window.__PROGRAM_EDITOR_PROGRAMS__ = basePrograms.map((program) =>
@@ -33,6 +33,8 @@ const additionalSubjectBuckets = {
   "Biology & Research": "Medicine & Life Sciences",
   "Business, Finance and Economics": "Business",
   "Business, Leadership & Entrepreneurship": "Business",
+  "Careers & Life Skills": "Career",
+  "Chemical Engineering": "Engineering",
   "Chemistry & Research": "Medicine & Life Sciences",
   "Computer Science & Technology": "Computer Science",
   "Computing, Robotics and AI": "Computer Science",
@@ -121,25 +123,25 @@ replaceOnce(
 
 replaceOnce(
   '_0=["Bucksmore","Immerse Education","InvestIN Education","Oxford Royale","St Clare\'s, Oxford"]',
-  '_0=["Bucksmore","Constructor University Summer Camp","Edconic","Emerald Cultural Institute","Immerse Education","InvestIN Education","MPW Summer School","Academy Royale International","Schiller International University","Sportech Academy","St Clare\'s, Oxford","Summer Discovery"]',
+  '_0=["Bucksmore","Constructor University Summer Camp","Edconic","Emerald Cultural Institute","Immerse Education","InvestIN Education","MPW Summer School","Academy Royale International","Schiller International University","Sportech Academy","St Clare\'s, Oxford","Study Mind","Summer Discovery"]',
   "complete provider filter options"
 );
 
 replaceOnce(
   'src:"/logo.png"',
-  'src:"./assets/summerbutwhere-logo.png"',
+  'src:"./summerbutwhere-logo.png"',
   "GitHub Pages logo path"
 );
 
 replaceOnce(
-  'siteTitle:"Summer Programs",siteSubtitle:"Discover summer programs, camps and schools worldwide"',
-  'siteTitle:"Academic Summer School Programs",siteSubtitle:"Discover academic summer school programs worldwide"',
+  'siteSubtitle:"Discover summer programs, camps and schools worldwide"',
+  'siteSubtitle:"Discover summer programs worldwide"',
   "English catalogue subtitle"
 );
 
 replaceOnce(
-  'siteTitle:"Yaz Programları",siteSubtitle:"Dünya genelinde yaz programlarını, kampları ve okulları keşfedin"',
-  'siteTitle:"Akademik Yaz Okulu Programları",siteSubtitle:"Dünyadaki akademik yaz okulu programlarını keşfedin"',
+  'siteSubtitle:"Dünya genelinde yaz programlarını, kampları ve okulları keşfedin"',
+  'siteSubtitle:"Dünyadaki yaz programlarını keşfedin"',
   "Turkish catalogue subtitle"
 );
 
@@ -154,7 +156,7 @@ function Nh({lang:m,onToggleLang:x,onToggleMobileMenu:O,mobileMenuOpen:d,t:_}) {
     className:"catalogue-header-inner", children:[
       b.jsxs("div", {className:"catalogue-brand", children:[
         b.jsx("button", {onClick:O,className:"catalogue-menu rounded-lg p-2 text-surface-600 hover:bg-surface-100 lg:hidden","aria-label":"Toggle menu",children:d?b.jsx(j0,{size:22}):b.jsx(Oh,{size:22})}),
-        b.jsx("img", {src:"./assets/summerbutwhere-logo.png",alt:"SummerButWhere",className:"catalogue-site-logo"}),
+        b.jsx("img", {src:"./summerbutwhere-logo.png",alt:"SummerButWhere",className:"catalogue-site-logo"}),
         b.jsxs("div", {className:"catalogue-title",children:[
           b.jsx("h1", {children:_.siteTitle}),
           b.jsx("p", {children:_.siteSubtitle})
@@ -209,7 +211,7 @@ function codexSamePlace(m){if(["city","virtual","multi_city"].includes(m.locatio
 function codexPlaceName(m,x){const O=codexCityName(m,x),d=x?codexStripCountry(m.location_tr||m.location,m.country,!0):codexStripCountry(m.location,m.country,!1);return codexSamePlace(m)?O||d:d||O}
 function codexDisplayLocation(m,x){const O=codexCityName(m,x),d=codexPlaceName(m,x);return!O||codexSamePlace(m)||O.toLowerCase()===d.toLowerCase()?d||O:O+" · "+d}
 function codexCleanTitle(m,x,O){if(!m)return m;let d=m;const _={London:"Londra","New York City":"New York",Oxford:"Oxford",Cambridge:"Cambridge",Toronto:"Toronto","San Francisco":"San Francisco","New Haven":"New Haven","New Haven / New York":"New Haven ve New York",Online:"Çevrimiçi"},N=[x.location,codexStripCountry(x.location,x.country,!1),x.city,x.location_tr,codexStripCountry(x.location_tr,x.country,!0),_[x.city],...(x.city==="New York City"?["NYC"]:[])];return[...new Set(N.filter(Boolean))].sort((X,J)=>J.length-X.length).forEach(X=>{const J=codexEscapeRegExp(X);d=d.replace(new RegExp("\\s+in\\s+"+J+"(?=\\s|$)","gi")," ").replace(new RegExp("\\s*[-–]\\s*"+J+"(?=\\s|$)","gi")," ")}),d.replace(/\s+/g," ").replace(/\s+([,:])/g,"$1").trim()}
-function codexProgramTitle(m,x){const O=codexCleanTitle(x&&m.title_tr?m.title_tr:m.title,m,x),d=(x&&m.campus_tr)||m.campus||codexPlaceName(m,x);return d?O+" - "+d:O}
+function codexProgramTitle(m,x){const O=codexCleanTitle(x&&m.title_tr?m.title_tr:m.title,m,x),d=codexPlaceName(m,x);return d?O+" - "+d:O}
 function codexDecoratedProvider(m,x){const O=m.provider_label||m.provider||"Unknown",d=codexPlaceName(m,x);return d&&!O.toLowerCase().endsWith(", "+d.toLowerCase())?O+" ("+d+")":O}
 function codexCleanProgram(m){const x=m.provider_label||m.provider||"Unknown",O=codexDecoratedProvider(m,!1),d=codexDecoratedProvider(m,!0),_=m.detail_facts?{...m.detail_facts,school:O}:m.detail_facts,N=m.detail_facts_tr?{...m.detail_facts_tr,school:d}:m.detail_facts_tr;return{...m,title:codexProgramTitle(m,!1),title_tr:codexProgramTitle(m,!0),displayLocation:codexDisplayLocation(m,!1),displayLocation_tr:codexDisplayLocation(m,!0),providerLabel:O,providerFilter:x,detail_facts:_,detail_facts_tr:N}}
 function Xh(m){const x=codexCleanProgram(m);return{...x,subjectBucket:Uh[x.subject]||"Other"}}`,
@@ -224,7 +226,7 @@ replaceOnce(
 
 replaceOnce(
   'fetch("data/image-candidates.json")',
-  'fetch("data/image-candidates.json?v=20261012-7")',
+  'fetch("data/image-candidates.json?v=20261013-2")',
   "program thumbnail cache version"
 );
 
@@ -266,41 +268,6 @@ replaceOnce(cardSource, `${cardSource.slice(0, cardReturn)}
     ]}) : null
   ]});
 }`, "programme photograph attribution");
-
-// Replace the bundle's arrows-only pagination with numbered page buttons
-// (1 2 3 … N) while keeping the per-page selector and prev/next arrows.
-const pagerStart = source.indexOf("function Gh({currentPage:m");
-const pagerTail = 'children:b.jsx(ph,{size:18})})]})]})}';
-const pagerTailAt = source.indexOf(pagerTail, pagerStart);
-const pagerEnd = pagerTailAt < 0 ? -1 : pagerTailAt + pagerTail.length;
-if (pagerStart < 0 || pagerEnd < 0) throw new Error("Pagination patch target not found");
-replaceOnce(source.slice(pagerStart, pagerEnd), `
-function Gh({currentPage:m,totalPages:x,pageSize:O,totalItems:d,onPageSizeChange:_,onPageChange:N,t:X}) {
-  const J=[25,50,100];
-  if (d===0) return null;
-  const go=p=>{ if(p<1||p>x||p===m) return; N(p); window.scrollTo({top:0,behavior:"smooth"}); };
-  const nums=[];
-  for (let p=1;p<=x;p++) {
-    if (p===1||p===x||Math.abs(p-m)<=1||(m<=3&&p<=4)||(m>=x-2&&p>=x-3)) nums.push(p);
-    else if (nums[nums.length-1]!=="…") nums.push("…");
-  }
-  return b.jsxs("div", {className:"catalogue-pager", children:[
-    b.jsxs("div", {className:"catalogue-pager-size", children:[
-      b.jsxs("span", {children:[X.showPerPage||"Show per page",":"]}),
-      b.jsx("div", {className:"catalogue-pager-sizes", children:J.map(M=>b.jsx("button", {
-        onClick:()=>_(M), className:O===M?"is-active":"", children:M
-      }, M))})
-    ]}),
-    x>1 ? b.jsxs("nav", {className:"catalogue-pager-pages", "aria-label":"Pagination", children:[
-      b.jsx("button", {onClick:()=>go(m-1), disabled:m===1, "aria-label":"Previous page", className:"catalogue-pager-arrow", children:b.jsx(Th,{size:18})}),
-      nums.map((p,i)=>p==="…"
-        ? b.jsx("span", {className:"catalogue-pager-gap", children:"…"}, "gap"+i)
-        : b.jsx("button", {onClick:()=>go(p), "aria-current":p===m?"page":void 0, className:"catalogue-pager-num"+(p===m?" is-active":""), children:p}, p)),
-      b.jsx("button", {onClick:()=>go(m+1), disabled:m===x, "aria-label":"Next page", className:"catalogue-pager-arrow", children:b.jsx(ph,{size:18})})
-    ]}) : null
-  ]});
-}
-`, "numbered catalogue pagination");
 
 const blob = new Blob([source], { type: "text/javascript" });
 const bundleUrl = URL.createObjectURL(blob);
