@@ -63,7 +63,7 @@
   .ab-grid, .ab-contact dl { grid-template-columns: 1fr; }
   .ab-wrap { padding-top: 32px; }
   .ab-brand { gap: 8px; }
-  .ab-brand .parent-brand { padding-right: 8px; }
+  .ab-brand .parent-brand { padding-left: 8px; }
   .ab-brand .parent-brand img { width: 80px; }
   .ab-brand .site-brand-link img { height: 58px; }
   .ab-top { padding: 8px 12px; gap: 8px; }

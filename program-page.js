@@ -264,7 +264,7 @@
     };
     const duration = rec.duration ? (lang === "tr" ? durationTr[rec.duration] || rec.duration : rec.duration) : "";
     return [
-      ["age", L.age, (rec.age_ranges || []).join(", ") || ageOverride || L.notListed],
+      ["age", L.age, (rec.age_ranges || []).join("\n") || ageOverride || L.notListed], // one range per line
       ["duration", L.duration, duration || L.notListed],
       ["dates", L.dates, dates.join(" · ") || L.onRequest],
       ["price", L.price, rec.price?.display || L.onRequest],
@@ -311,7 +311,7 @@
 
     page.innerHTML = `
       <header class="pp-top">
-        <div class="pp-brand"><a class="parent-brand" href="https://asba.com.tr"><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a><a class="site-brand-link" href="#/" aria-label="SummerButWhere"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a></div>
+        <div class="pp-brand"><a class="site-brand-link" href="#/" aria-label="SummerButWhere"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a><a class="parent-brand" href="https://asba.com.tr"><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
         <nav><a class="pp-back" href="#/programs">← ${esc(L.back)}</a><a class="site-about-link" href="#/about">${esc(L.about)}</a>
         <button class="pp-lang" type="button" aria-label="${esc(L.langLabel)}">${L.langBtn}</button></nav>
       </header>
@@ -324,7 +324,7 @@
           </div>
           ${hero && !photoAttribution ? (credit(hero) || (rec.image_credit ? `<span class="pp-credit">${esc(L.photo)}: ${esc(rec.image_credit)}</span>` : "")) : ""}
         </div>
-        <div class="pp-facts">${facts.map(([k, label, value]) => `<div class="pp-fact"><div class="pp-ic">${ICON[k]}</div><div><small>${esc(label)}</small><span>${esc(value)}</span></div></div>`).join("")}</div>
+        <div class="pp-facts">${facts.map(([k, label, value]) => `<div class="pp-fact"><div class="pp-ic">${ICON[k]}</div><div><small>${esc(label)}</small><span${k === "age" ? ' class="pp-lines"' : ""}>${esc(value)}</span></div></div>`).join("")}</div>
         <div class="pp-grid">
           ${photoAttribution}
           <main class="pp-main">

@@ -218,8 +218,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
-  padding-right: 16px;
-  border-right: 1px solid #e4e8f0;
+  padding-left: 16px;
+  border-left: 1px solid #e4e8f0;
 }
 .site-brand-link { display: block; flex: none; }
 .site-brand-link:focus-visible, .parent-brand:focus-visible {
@@ -274,7 +274,7 @@
 @media (max-width: 600px) {
   .home-brand, .pp-brand { gap: 8px; }
   .home-brand .site-brand-link img, .pp-brand .site-brand-link img { width: clamp(125px, 38vw, 150px); height: auto; }
-  .parent-brand { padding-right: 8px; }
+  .parent-brand { padding-left: 8px; }
   .home-actions, .catalogue-actions { gap: 8px; }
   .site-about-link { font-size: 13px; }
   .home-brand .parent-brand img,

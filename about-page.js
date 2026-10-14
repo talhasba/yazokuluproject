@@ -61,8 +61,8 @@
     page.innerHTML = `
       <header class="ab-top">
         <div class="ab-brand">
-          <a class="parent-brand" href="${WEBSITE}"><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a>
           <a class="site-brand-link" href="#/" aria-label="SummerButWhere - ${esc(L.home)}"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a>
+          <a class="parent-brand" href="${WEBSITE}"><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a>
         </div>
         <nav>
           <a class="ab-back" href="#/programs">← ${esc(L.back)}</a>

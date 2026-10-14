@@ -157,11 +157,11 @@ function Nh({lang:m,onToggleLang:x,onToggleMobileMenu:O,mobileMenuOpen:d,t:_}) {
     className:"catalogue-header-inner", children:[
       b.jsxs("div", {className:"catalogue-brand", children:[
         b.jsx("button", {onClick:O,className:"catalogue-menu rounded-lg p-2 text-surface-600 hover:bg-surface-100 lg:hidden","aria-label":"Toggle menu",children:d?b.jsx(j0,{size:22}):b.jsx(Oh,{size:22})}),
-        b.jsx("a", {className:"parent-brand",href:"https://asba.com.tr",children:
-          b.jsx("img", {src:"./assets/asba-logo.png",alt:"ASBA Yurtdışı Eğitim Danışmanlık",width:738,height:237})
-        }),
         b.jsx("a", {className:"site-brand-link",href:"#/","aria-label":"SummerButWhere - "+(m==="tr"?"Ana sayfa":"Home"),children:
           b.jsx("img", {src:"./assets/summerbutwhere-logo.png",alt:"SummerButWhere - Akademik Yaz Okulu Programları",className:"catalogue-site-logo"})
+        }),
+        b.jsx("a", {className:"parent-brand",href:"https://asba.com.tr",children:
+          b.jsx("img", {src:"./assets/asba-logo.png",alt:"ASBA Yurtdışı Eğitim Danışmanlık",width:738,height:237})
         })
       ]}),
       b.jsxs("div", {className:"catalogue-actions",children:[
@@ -262,6 +262,19 @@ replaceOnce(
   'b.jsx(_a,{title:d.school,',
   'b.jsx(codexSchoolFilter,{title:d.school,',
   "mobile school filter with locations"
+);
+
+// Filter order: Subject, Country, then School (the bundle has School before Country).
+replaceOnce(
+  'b.jsx(codexSchoolFilter,{title:x.school,items:d.map(D=>({value:D,label:D})),selected:X,onToggle:D=>M("provider",D),lang:m}),b.jsx(_a,{title:x.location,items:_.map(D=>{var H;return{value:D,label:((H=U0[D])==null?void 0:H[m])||D}}),selected:J,onToggle:D=>M("location",D),lang:m})',
+  'b.jsx(_a,{title:x.location,items:_.map(D=>{var H;return{value:D,label:((H=U0[D])==null?void 0:H[m])||D}}),selected:J,onToggle:D=>M("location",D),lang:m}),b.jsx(codexSchoolFilter,{title:x.school,items:d.map(D=>({value:D,label:D})),selected:X,onToggle:D=>M("provider",D),lang:m})',
+  "desktop filter order: country before school"
+);
+
+replaceOnce(
+  'b.jsx(codexSchoolFilter,{title:d.school,items:N.map(H=>({value:H,label:H})),selected:M,onToggle:H=>G("provider",H),lang:O}),b.jsx(_a,{title:d.location,items:X.map(H=>{var el;return{value:H,label:((el=U0[H])==null?void 0:el[O])||H}}),selected:p,onToggle:H=>G("location",H),lang:O})',
+  'b.jsx(_a,{title:d.location,items:X.map(H=>{var el;return{value:H,label:((el=U0[H])==null?void 0:el[O])||H}}),selected:p,onToggle:H=>G("location",H),lang:O}),b.jsx(codexSchoolFilter,{title:d.school,items:N.map(H=>({value:H,label:H})),selected:M,onToggle:H=>G("provider",H),lang:O})',
+  "mobile filter order: country before school"
 );
 
 replaceOnce(

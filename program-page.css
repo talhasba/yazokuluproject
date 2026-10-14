@@ -46,6 +46,7 @@
 .pp-ic svg { width: 18px; height: 18px; }
 .pp-fact small { display: block; font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--pp-muted); font-weight: 700; }
 .pp-fact span { display: block; font-weight: 650; font-size: 14px; line-height: 1.3; overflow-wrap: anywhere; }
+.pp-fact span.pp-lines { white-space: pre-line; }
 
 /* layout */
 .pp-grid { display: grid; grid-template-columns: minmax(0, 1fr) 310px; gap: 28px; align-items: start; }
