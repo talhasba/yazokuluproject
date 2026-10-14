@@ -100,7 +100,7 @@
   const T = {
     en: {
       brand: "An ASBA project", back: "All programs", langBtn: "TR", langLabel: "Türkçeye geç",
-      age: "Age", duration: "Duration", dates: "Dates", price: "Price", location: "Location", format: "Format",
+      age: "Age", duration: "Duration", dates: "Dates", price: "Price", location: "Location", format: "Format", accommodation: "Accommodation",
       onRequest: "On request", notListed: "Not listed",
       priceOptions: "Price options", historicalFees: "Historical 2026 fees", dayStudent: "Day student",
       in_person: "In person", virtual: "Online", online: "Online", hybrid: "Hybrid",
@@ -111,7 +111,7 @@
     },
     tr: {
       brand: "Bir ASBA projesi", back: "Tüm programlar", langBtn: "EN", langLabel: "Switch to English",
-      age: "Yaş", duration: "Süre", dates: "Tarihler", price: "Ücret", location: "Konum", format: "Format",
+      age: "Yaş", duration: "Süre", dates: "Tarihler", price: "Ücret", location: "Konum", format: "Format", accommodation: "Konaklama",
       onRequest: "Talep üzerine", notListed: "Belirtilmemiş",
       priceOptions: "Fiyat seçenekleri", historicalFees: "Geçmiş 2026 ücretleri", dayStudent: "Gündüzlü öğrenci",
       in_person: "Yüz yüze", virtual: "Çevrimiçi", online: "Çevrimiçi", hybrid: "Karma",
@@ -163,6 +163,7 @@
     price: svg('<circle cx="12" cy="12" r="10"/><path d="M15 9.5a3 3 0 0 0-3-1.5c-1.7 0-3 1-3 2.3 0 3 6 1.7 6 4.7 0 1.3-1.3 2.5-3 2.5a3.4 3.4 0 0 1-3-1.5M12 6v2m0 8v2"/>'),
     location: svg('<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>'),
     format: svg('<path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/>'),
+    accommodation: svg('<path d="M3 20V8M21 20v-5a3 3 0 0 0-3-3H8v8M3 15h18"/><circle cx="6.5" cy="11" r="1.7"/>'),
     form: svg('<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h2l1.5 3 2-6L15 13h1"/>'),
     user: svg('<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>'),
     phone: svg('<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/>'),
@@ -177,14 +178,14 @@
     if (!loading) {
       const json = (url, fallback) => fetch(url).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
       loading = Promise.all([
-        json("./data/programs.normalized.json?v=20261013-2", []),
-        json("./data/program-digests.json?v=20261013-2", {}),
-        json("./data/image-candidates.json?v=20261013-2", {}),
+        json("./data/programs.normalized.json?v=20261014-1", []),
+        json("./data/program-digests.json?v=20261014-1", {}),
+        json("./data/image-candidates.json?v=20261014-1", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
-        json("./data/price-inclusions.json?v=20261013-2", {}),
-        import("./program-pricing.js?v=20261013-2"),
-        json("./data/program-image-sources.json?v=20261013-2", { images: {} })
+        json("./data/price-inclusions.json?v=20261014-1", {}),
+        import("./program-pricing.js?v=20261014-1"),
+        json("./data/program-image-sources.json?v=20261014-1", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
@@ -268,7 +269,7 @@
       ["dates", L.dates, dates.join(" · ") || L.onRequest],
       ["price", L.price, rec.price?.display || L.onRequest],
       ["location", L.location, displayLocation(rec, lang) || L.notListed],
-      ["format", L.format, L[mode] || mode || L.notListed]
+      ["accommodation", L.accommodation, (lang === "tr" && rec.accommodation_tr) || rec.accommodation || L.onRequest]
     ];
   }
 
@@ -323,7 +324,7 @@
           </div>
           ${hero && !photoAttribution ? (credit(hero) || (rec.image_credit ? `<span class="pp-credit">${esc(L.photo)}: ${esc(rec.image_credit)}</span>` : "")) : ""}
         </div>
-        <div class="pp-facts">${facts.map(([k, label, value]) => `<div class="pp-fact"><div class="pp-ic">${ICON[k]}</div><div><small>${esc(label)}</small><span>${esc(value)}</span></div></div>`).join("")}</div>
+        <div class="pp-facts">${facts.map(([k, label, value]) => `<div class="pp-fact${k === "accommodation" ? " pp-fact-wide" : ""}"><div class="pp-ic">${ICON[k]}</div><div><small>${esc(label)}</small><span>${esc(value)}</span></div></div>`).join("")}</div>
         <div class="pp-grid">
           ${photoAttribution}
           <main class="pp-main">

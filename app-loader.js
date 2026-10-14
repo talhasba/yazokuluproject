@@ -17,7 +17,7 @@ function mergeEditorOverride(base, override) {
 const [basePrograms, editorOverrides, photoSources] = await Promise.all([
   fetch("./data/programs.normalized.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : []),
   fetch("./data/program-editor-overrides.json", { cache: "no-store" }).then((result) => result.ok ? result.json() : { programs: {} }).catch(() => ({ programs: {} })),
-  fetch("./data/program-image-sources.json?v=20261013-2").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
+  fetch("./data/program-image-sources.json?v=20261014-1").then((result) => result.ok ? result.json() : { images: {} }).catch(() => ({ images: {} }))
 ]);
 
 window.__PROGRAM_EDITOR_PROGRAMS__ = basePrograms.map((program) =>
@@ -229,7 +229,7 @@ replaceOnce(
 
 replaceOnce(
   'fetch("data/image-candidates.json")',
-  'fetch("data/image-candidates.json?v=20261013-2")',
+  'fetch("data/image-candidates.json?v=20261014-1")',
   "program thumbnail cache version"
 );
 
