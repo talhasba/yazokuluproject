@@ -44,7 +44,7 @@ The React bundle provides:
 - Responsive program cards with provider, subject, age, location, price, and image information.
 - Filters for subject group, provider, and country.
 - Desktop sidebar filters and a mobile filter drawer.
-- Pagination with 25, 50, or 100 results per page.
+- Pagination with 25, 50, or 100 results per page. The bundle only had prev/next arrows and a "1 / N" label; `app-loader.js` replaces that component (`Gh`) with numbered page buttons (1 2 3 … N, ellipsis, prev/next, scroll-to-top on change), styled by the `.catalogue-pager*` rules in `catalogue-cleanup.css`.
 - Program detail pages with hero imagery, localized descriptions, content sections, and key facts.
 - Loading, data-fetch error, empty-result, and missing-image states.
 
@@ -84,9 +84,13 @@ Academy Royale International's current 2027 source set lives under `royale inter
 
 The 24 pages produce 36 catalogue records because the twelve pages offered in both Oxford and Cambridge are split into campus-specific entries. Current offerings are limited to Oxford, Cambridge and Marlborough College; retired London, Yale and New York records are removed. The normalizer also refreshes Academy Royale digest sources, Turkish lookup values, image candidates, the reviewed photo manifest and its collection fingerprint. Run it before `node tools/build-digests.mjs` and `node tools/apply-tr-translations.mjs`.
 
-### Logo options (temporary)
+### Campus labels (campus / campus_tr)
 
-Two candidate SummerButWhere logos are being compared: `assets/logo-option-1.png` (sun + "Yaz Okulları ve Danışmanlık") and `assets/logo-option-2.png` (sticker-style "Yurtdışı Yaz Okulları"). `logo-options.js` / `logo-options.css` (loaded last in `index.html`) swap every `summerbutwhere-logo.png` image — password screen, home header, catalogue header, digest page header — and show a floating "Logo: Seçenek 1 / Seçenek 2" toggle. The choice is kept in `localStorage` (`sbw-logo-option`) and can be forced with `?logo=1` / `?logo=2`. Once one is chosen, point the `<img>` tags in `index.html`, `program-page.js` and `app-loader.js` at it, then delete `logo-options.js`, `logo-options.css` and their two tags in `index.html`. The original `summerbutwhere-logo.png` is untouched.
+Catalogue and detail-page titles read "<program> - <campus>" when a record has a `campus` (falling back to the city); the city still shows under each card. The field is written by `node tools/apply-campuses.mjs` (rules by provider + location, plus per-id exceptions) - rerun it after any normalizer rebuilds `data/programs.normalized.json`. Only venues confirmed on provider pages are listed: Immerse (UCL / Oxford / Cambridge / Barnard-Columbia / Toronto / Berkeley), InvestIN (UCL, Dulwich College), Academy Royale, St Clare's, MPW, Constructor, Edconic (`operating_institution`), and the six Sportech programs whose page names a host. Remaining Sportech programs, Emerald Young Adult and online programs keep the city.
+
+### Logo
+
+The site logo is `assets/summerbutwhere-logo.png` (sun + "SummerButWhere" wordmark, tagline removed). It is referenced from `index.html` (password screen, home header), `program-page.js` (digest page header) and `app-loader.js` (catalogue header); its height-based sizing is at the end of `palette.css`. The original root `summerbutwhere-logo.png` is no longer used.
 
 ### Testing without the password gate
 

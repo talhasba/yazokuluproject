@@ -23,3 +23,96 @@
   border-radius: 999px;
   background: #3157d5;
 }
+
+/* Catalogue pagination (numbered pages) */
+.catalogue-pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.catalogue-pager-size {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #667085;
+  font-size: 14px;
+}
+
+.catalogue-pager-sizes {
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.catalogue-pager-sizes button {
+  padding: 6px 12px;
+  border: 0;
+  background: #fff;
+  color: #475467;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.catalogue-pager-sizes button.is-active,
+.catalogue-pager-num.is-active {
+  background: #3157d5;
+  color: #fff;
+}
+
+.catalogue-pager-pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.catalogue-pager-num,
+.catalogue-pager-arrow {
+  min-width: 38px;
+  height: 38px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+  background: #fff;
+  color: #475467;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.catalogue-pager-num:hover:not(.is-active),
+.catalogue-pager-arrow:hover:not(:disabled) {
+  background: #f2f4f7;
+}
+
+.catalogue-pager-num.is-active {
+  border-color: #3157d5;
+}
+
+.catalogue-pager-arrow:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.catalogue-pager-gap {
+  min-width: 20px;
+  text-align: center;
+  color: #98a2b3;
+}
+
+@media (max-width: 640px) {
+  .catalogue-pager {
+    flex-direction: column;
+  }
+}

@@ -93,7 +93,7 @@
   };
   const programTitle = (rec, lang) => {
     const title = cleanTitle((lang === "tr" && rec.title_tr) || rec.title, rec, lang);
-    const place = placeName(rec, lang);
+    const place = (lang === "tr" && rec.campus_tr) || rec.campus || placeName(rec, lang);
     return place ? `${title} - ${place}` : title;
   };
 
@@ -309,7 +309,7 @@
 
     page.innerHTML = `
       <header class="pp-top">
-        <div class="pp-brand"><a class="site-brand-link" href="#/"><img src="./summerbutwhere-logo.png" alt="SummerButWhere"></a><a class="parent-brand" href="https://asba.com.tr"><span class="parent-brand-label">${esc(L.brand)}</span><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
+        <div class="pp-brand"><a class="site-brand-link" href="#/"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere"></a><a class="parent-brand" href="https://asba.com.tr"><span class="parent-brand-label">${esc(L.brand)}</span><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
         <nav><a class="pp-back" href="#/programs">← ${esc(L.back)}</a>
         <button class="pp-lang" type="button" aria-label="${esc(L.langLabel)}">${L.langBtn}</button></nav>
       </header>
