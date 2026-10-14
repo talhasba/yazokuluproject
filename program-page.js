@@ -178,14 +178,14 @@
     if (!loading) {
       const json = (url, fallback) => fetch(url).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
       loading = Promise.all([
-        json("./data/programs.normalized.json?v=20261014-2", []),
-        json("./data/program-digests.json?v=20261014-2", {}),
-        json("./data/image-candidates.json?v=20261014-2", {}),
+        json("./data/programs.normalized.json?v=20261014-3", []),
+        json("./data/program-digests.json?v=20261014-3", {}),
+        json("./data/image-candidates.json?v=20261014-3", {}),
         json("./assets/program-images/image-sources.json", { images: {} }),
         json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
-        json("./data/price-inclusions.json?v=20261014-2", {}),
-        import("./program-pricing.js?v=20261014-2"),
-        json("./data/program-image-sources.json?v=20261014-2", { images: {} })
+        json("./data/price-inclusions.json?v=20261014-3", {}),
+        import("./program-pricing.js?v=20261014-3"),
+        json("./data/program-image-sources.json?v=20261014-3", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
@@ -324,7 +324,7 @@
           </div>
           ${hero && !photoAttribution ? (credit(hero) || (rec.image_credit ? `<span class="pp-credit">${esc(L.photo)}: ${esc(rec.image_credit)}</span>` : "")) : ""}
         </div>
-        <div class="pp-facts">${facts.map(([k, label, value]) => `<div class="pp-fact${k === "accommodation" ? " pp-fact-wide" : ""}"><div class="pp-ic">${ICON[k]}</div><div><small>${esc(label)}</small><span>${esc(value)}</span></div></div>`).join("")}</div>
+        <div class="pp-facts">${facts.map(([k, label, value]) => `<div class="pp-fact"><div class="pp-ic">${ICON[k]}</div><div><small>${esc(label)}</small><span>${esc(value)}</span></div></div>`).join("")}</div>
         <div class="pp-grid">
           ${photoAttribution}
           <main class="pp-main">

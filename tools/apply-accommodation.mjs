@@ -1,9 +1,9 @@
 // Adds `accommodation` / `accommodation_tr` to data/programs.normalized.json.
 //
-// The digest detail page shows these in the "Accommodation / Konaklama" fact
-// (program-page.js). Text comes from each provider's own pages (saved HTML in the
-// hp_comp/summerbutwhere folder, provider sites, and the digest sources in this
-// repo). A program with no entry here shows "On request" on the page.
+// The digest detail page shows these next to Location (program-page.js), so the
+// values are kept short: the institution or residence, not a sentence. Text comes
+// from each provider's own pages (saved HTML/markdown, provider sites, and the
+// digest sources in this repo). A program with no entry shows "On request".
 //
 // Re-run after any normalizer rebuilds programs.normalized.json:
 //   node tools/apply-accommodation.mjs
@@ -16,85 +16,46 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const file = path.join(root, "data", "programs.normalized.json");
 const programs = JSON.parse(fs.readFileSync(file, "utf8"));
 
-const a = (en, tr) => ({ accommodation: en, accommodation_tr: tr });
+const a = (en, tr = en) => ({ accommodation: en, accommodation_tr: tr });
 
 // ---- provider + location -------------------------------------------------
 const byLocation = {
   immerse: {
-    London: a(
-      "UCL student residences (Astor College, John Dodgson House), central London",
-      "UCL öğrenci yurtları (Astor College, John Dodgson House), Londra merkezi"
-    ),
-    Cambridge: a(
-      "Cambridge University college rooms (college assigned a few weeks before arrival)",
-      "Cambridge Üniversitesi kolej odaları (kolej, varıştan birkaç hafta önce atanır)"
-    ),
-    Oxford: a(
-      "Oxford University college rooms (college assigned a few weeks before arrival)",
-      "Oxford Üniversitesi kolej odaları (kolej, varıştan birkaç hafta önce atanır)"
-    ),
-    "New York": a(
-      "Barnard College (Columbia University), Manhattan",
-      "Barnard College (Columbia Üniversitesi), Manhattan"
-    ),
-    Toronto: a(
-      "University of Toronto college residences",
-      "Toronto Üniversitesi kolej yurtları"
-    ),
-    "San Francisco": a(
-      "UC Berkeley campus, college-style rooms",
-      "UC Berkeley kampüsü, kolej tarzı odalar"
-    )
+    London: a("University College London (UCL)"),
+    Cambridge: a("University of Cambridge", "Cambridge Üniversitesi"),
+    Oxford: a("University of Oxford", "Oxford Üniversitesi"),
+    "New York": a("Barnard College (Columbia University)", "Barnard College (Columbia Üniversitesi)"),
+    Toronto: a("University of Toronto", "Toronto Üniversitesi"),
+    "San Francisco": a("UC Berkeley")
   },
   investin: {
-    London: a(
-      "University of London halls of residence in central London, used by UCL and LSE students (private en-suite rooms; non-residential option)",
-      "Londra merkezinde UCL ve LSE öğrencilerinin de kullandığı Londra Üniversitesi yurtları (özel banyolu tek kişilik odalar; gündüzlü katılım seçeneği)"
-    )
+    London: a("University of London halls, central London", "Londra Üniversitesi yurtları, Londra merkezi")
   },
   bucksmore: {
-    "King's College London": a(
-      "King's College London student residence, just over Waterloo Bridge",
-      "King's College London öğrenci yurdu, Waterloo Köprüsü'nün hemen karşısı"
-    )
+    "King's College London": a("King's College London")
   },
   mpw: {
-    London: a(
-      "Queen's Gate House, South Kensington (MPW residence, en-suite rooms)",
-      "Queen's Gate House, South Kensington (MPW yurdu, özel banyolu odalar)"
-    ),
+    London: a("Queen's Gate House, London"),
     "London & Cambridge": a(
-      "Queen's Gate House, London and Tripos Court, Cambridge (MPW residences, en-suite rooms)",
-      "Queen's Gate House, Londra ve Tripos Court, Cambridge (MPW yurtları, özel banyolu odalar)"
+      "Queen's Gate House (London), Tripos Court (Cambridge)",
+      "Queen's Gate House (Londra), Tripos Court (Cambridge)"
     ),
     "Cambridge & London": a(
-      "Queen's Gate House, London and Tripos Court, Cambridge (MPW residences, en-suite rooms)",
-      "Queen's Gate House, Londra ve Tripos Court, Cambridge (MPW yurtları, özel banyolu odalar)"
+      "Queen's Gate House (London), Tripos Court (Cambridge)",
+      "Queen's Gate House (Londra), Tripos Court (Cambridge)"
     )
   },
   oxford_royale: {
-    Oxford: a("University of Oxford college residences", "Oxford Üniversitesi kolej yurtları"),
-    Cambridge: a("University of Cambridge college residences", "Cambridge Üniversitesi kolej yurtları"),
-    "Marlborough College": a(
-      "Marlborough College boarding houses",
-      "Marlborough College yatılı evleri"
-    )
+    Oxford: a("University of Oxford", "Oxford Üniversitesi"),
+    Cambridge: a("University of Cambridge", "Cambridge Üniversitesi"),
+    "Marlborough College": a("Marlborough College")
   },
   constructor_university: {
-    "Bremen, Germany": a(
-      "On the Constructor University campus, Bremen",
-      "Constructor University kampüsünde, Bremen"
-    )
+    "Bremen, Germany": a("Constructor University campus", "Constructor University kampüsü")
   },
   schiller: {
-    "Madrid Campus": a(
-      "Included for the full two weeks, Madrid (details on request)",
-      "İki haftanın tamamı için dahil, Madrid (ayrıntılar talep üzerine)"
-    ),
-    "Heidelberg Campus": a(
-      "Included for the full two weeks, Heidelberg (details on request)",
-      "İki haftanın tamamı için dahil, Heidelberg (ayrıntılar talep üzerine)"
-    )
+    "Madrid Campus": a("Included (details on request)", "Dahil (ayrıntılar talep üzerine)"),
+    "Heidelberg Campus": a("Included (details on request)", "Dahil (ayrıntılar talep üzerine)")
   }
 };
 
@@ -102,54 +63,54 @@ const byLocation = {
 const byId = {
   // InvestIN Career Discovery runs at Dulwich College.
   "investin-products-career-discovery-summer-experience": a(
-    "Dulwich College boarding houses, London (single en-suite or shared room; non-residential option)",
-    "Dulwich College yatılı evleri, Londra (tek kişilik özel banyolu veya paylaşımlı oda; gündüzlü katılım seçeneği)"
+    "Dulwich College boarding houses",
+    "Dulwich College yatılı evleri"
   ),
 
   // Emerald Cultural Institute
-  "emerald-trinity-walton-stem": a(
-    "Homestay or Trinity Hall residence (Dartry Road), Dublin",
-    "Aile yanı veya Trinity Hall yurdu (Dartry Road), Dublin"
-  ),
+  "emerald-trinity-walton-stem": a("Homestay or Trinity Hall", "Aile yanı veya Trinity Hall"),
   "emerald-young-adult": a("Homestay or residence, Dublin", "Aile yanı veya yurt, Dublin"),
 
   // Edconic
   "edconic-pre-college-summer-academy-nyc-nyc-summer-academy": a(
-    "Dorm-style university residence hall, New York City (residential or day option)",
-    "Üniversite yurdu tarzı konaklama, New York (yurtta veya gündüzlü katılım)"
+    "University residence hall, New York",
+    "Üniversite yurdu, New York"
   ),
   "edconic-pre-college-summer-institute-summer-institute-nyc": a(
-    "Dorm-style residence hall, Manhattan (residential or day option)",
-    "Yurt tarzı konaklama, Manhattan (yurtta veya gündüzlü katılım)"
+    "Residence hall, Manhattan",
+    "Yurt, Manhattan"
   ),
   "edconic-precollege-mayo-edu-pre-college-healthcare-academy": a(
-    "University accommodation in central Rochester, MN, walking distance to Mayo Clinic",
-    "Rochester (MN) merkezinde üniversite konaklaması, Mayo Clinic'e yürüme mesafesinde"
+    "University housing, Rochester, MN",
+    "Üniversite konaklaması, Rochester, MN"
   ),
 
-  // StudyMind
-  // (applied per record below: all StudyMind programs share the same residence)
-
   // Sportech (from each program's own page)
-  "sportech-aerospace-engineering": a("4★ hotel in Rome, with daily shuttle to classes", "Roma'da 4★ otel, derslere günlük servis"),
-  "sportech-aerospace-engineering-university": a("Optional: arranged by Sportech Academy in Rome", "İsteğe bağlı: Sportech Academy aracılığıyla Roma'da"),
-  "sportech-agrifoodtech": a("University residence in Milan, single rooms with private bathroom", "Milano'da üniversite yurdu, özel banyolu tek kişilik odalar"),
-  "sportech-architecture-urban-design": a("Residential accommodation in Milan, full board", "Milano'da yurt konaklaması, tam pansiyon"),
-  "sportech-automotive-design": a("Residential accommodation in Milan, full board", "Milano'da yurt konaklaması, tam pansiyon"),
-  "sportech-biomedical-engineering": a("Residential accommodation in Milan, full board", "Milano'da yurt konaklaması, tam pansiyon"),
-  "sportech-business": a("University residence in Milan, single en-suite rooms", "Milano'da üniversite yurdu, özel banyolu tek kişilik odalar"),
-  "sportech-business-university": a("Optional: university residence in Milan, walking distance to the lecture rooms", "İsteğe bağlı: Milano'da üniversite yurdu, ders salonlarına yürüme mesafesinde"),
-  "sportech-cosmetic-sciences": a("Residential accommodation in Milan, full board", "Milano'da yurt konaklaması, tam pansiyon"),
-  "sportech-engineering-motorsport": a("Accommodation in Parma, all meals included", "Parma'da konaklama, tüm öğünler dahil"),
-  "sportech-esports-in-motorsport": a("4★ Courtyard by Marriott Indianapolis West-Speedway, shared rooms", "4★ Courtyard by Marriott Indianapolis West-Speedway, paylaşımlı odalar"),
-  "sportech-fashion": a("Residential accommodation in Milan, full board", "Milano'da yurt konaklaması, tam pansiyon"),
-  "sportech-football": a("4★ Quark Hotel Milano, close to the training facility", "4★ Quark Hotel Milano, antrenman tesisine yakın"),
-  "sportech-medicine": a("University residence in Milan, single en-suite rooms", "Milano'da üniversite yurdu, özel banyolu tek kişilik odalar"),
-  "sportech-motorsport-management-university": a("Optional: university residence, arranged by Sportech Academy", "İsteğe bağlı: üniversite yurdu, Sportech Academy aracılığıyla"),
-  "sportech-motorsport-engineering-university": a("Optional: 4★ Daytona Hotel & Residence, with daily shuttle to classes", "İsteğe bağlı: 4★ Daytona Hotel & Residence, derslere günlük servis"),
-  "sportech-music-innovation": a("4★ Hotel Alla Torre, centre of Castelfranco Veneto", "4★ Hotel Alla Torre, Castelfranco Veneto merkezi"),
-  "sportech-pet-design": a("Residential accommodation in Milan, full board", "Milano'da yurt konaklaması, tam pansiyon"),
-  "sportech-sports-management": a("University residence in Milan, full board", "Milano'da üniversite yurdu, tam pansiyon")
+  "sportech-aerospace-engineering": a("4★ hotel, Rome", "4★ otel, Roma"),
+  "sportech-aerospace-engineering-university": a("Optional, arranged by Sportech", "İsteğe bağlı, Sportech aracılığıyla"),
+  "sportech-agrifoodtech": a("University residence, Milan", "Üniversite yurdu, Milano"),
+  "sportech-architecture-urban-design": a("Residence, Milan", "Yurt, Milano"),
+  "sportech-automotive-design": a("Residence, Milan", "Yurt, Milano"),
+  "sportech-biomedical-engineering": a("Residence, Milan", "Yurt, Milano"),
+  "sportech-business": a("University residence, Milan", "Üniversite yurdu, Milano"),
+  "sportech-business-university": a("Optional, university residence in Milan", "İsteğe bağlı, Milano'da üniversite yurdu"),
+  "sportech-cosmetic-sciences": a("Residence, Milan", "Yurt, Milano"),
+  "sportech-engineering-motorsport": a("Accommodation in Parma", "Parma'da konaklama"),
+  "sportech-esports-in-motorsport": a(
+    "Courtyard by Marriott Indianapolis West-Speedway",
+    "Courtyard by Marriott Indianapolis West-Speedway"
+  ),
+  "sportech-fashion": a("Residence, Milan", "Yurt, Milano"),
+  "sportech-football": a("Quark Hotel Milano", "Quark Hotel Milano"),
+  "sportech-medicine": a("University residence, Milan", "Üniversite yurdu, Milano"),
+  "sportech-motorsport-management-university": a("Optional, university residence", "İsteğe bağlı, üniversite yurdu"),
+  "sportech-motorsport-engineering-university": a(
+    "Optional, Daytona Hotel & Residence",
+    "İsteğe bağlı, Daytona Hotel & Residence"
+  ),
+  "sportech-music-innovation": a("Hotel Alla Torre, Castelfranco Veneto", "Hotel Alla Torre, Castelfranco Veneto"),
+  "sportech-pet-design": a("Residence, Milan", "Yurt, Milano"),
+  "sportech-sports-management": a("University residence, Milan", "Üniversite yurdu, Milano")
 };
 
 // ---- rules that need the record -------------------------------------------------
@@ -157,37 +118,20 @@ function rule(p) {
   if (byId[p.id]) return byId[p.id];
 
   if (p.provider === "studymind") {
-    return a(
-      "UCL Ramsay Hall, central London (optional residential stay)",
-      "UCL Ramsay Hall, Londra merkezi (isteğe bağlı yurt konaklaması)"
-    );
+    return a("UCL Ramsay Hall (optional)", "UCL Ramsay Hall (isteğe bağlı)");
   }
 
   if (p.provider === "stclares") {
     return p.program_type === "stclares_teenagers_oxford" || p.program_type === "stclares_add_on"
-      ? a(
-          "St Clare's residential houses near the Banbury Road campus, Oxford (single, twin or triple rooms)",
-          "St Clare's yatılı evleri, Banbury Road kampüsüne yakın, Oxford (tek, çift veya üç kişilik odalar)"
-        )
-      : a("St Clare's residential campus, Oxford", "St Clare's yatılı kampüsü, Oxford");
+      ? a("St Clare's houses, Oxford", "St Clare's evleri, Oxford")
+      : a("St Clare's campus, Oxford", "St Clare's kampüsü, Oxford");
   }
 
   if (p.provider === "summer_discovery") {
-    const campus = p.location;
-    const blob = JSON.stringify(p).toLowerCase();
-    const commuter = blob.includes("commuter");
-    if (campus === "UCLA") {
-      return a(
-        `UCLA, Hedrick Summit Residence Hall (exclusive to Summer Discovery students)${commuter ? "; commuter option available" : ""}`,
-        `UCLA, Hedrick Summit yurdu (yalnızca Summer Discovery öğrencilerine ayrılmış)${commuter ? "; gündüzlü katılım seçeneği mevcut" : ""}`
-      );
-    }
-    // The saved Summer Discovery pages only describe a residential programme on
-    // each campus (and UCLA's named hall above); no residence names are published.
-    return a(
-      `Residential programme on the ${campus} campus${commuter ? " (commuter option available)" : ""}`,
-      `${campus} kampüsünde konaklamalı program${commuter ? " (gündüzlü katılım seçeneği mevcut)" : ""}`
-    );
+    // The saved Summer Discovery pages describe a residential programme on each
+    // campus and name only UCLA's hall.
+    if (p.location === "UCLA") return a("UCLA, Hedrick Summit Hall", "UCLA, Hedrick Summit yurdu");
+    return a(`${p.location} campus`, `${p.location} kampüsü`);
   }
 
   return byLocation[p.provider]?.[p.location] || null;

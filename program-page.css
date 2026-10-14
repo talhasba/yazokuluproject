@@ -197,7 +197,3 @@
 }
 /* Past-season source information stays visible without internal review mode. */
 .pp-season { padding: 14px 18px; margin: 0 0 22px; border-left: 4px solid #ca8a04; background: #fffbeb; color: #713f12; border-radius: 8px; font-size: 14px; line-height: 1.6; }
-
-/* Accommodation spans the full facts row so longer venue names stay readable. */
-.pp-fact-wide { grid-column: 1 / -1; border-right: 0; border-top: 1px solid var(--pp-line); }
-.pp-fact-wide span { font-weight: 600; }
