@@ -32,6 +32,8 @@ const runtimeFiles = [
   "about-page.js",
   "about-page.css",
   "background-rays.css",
+  "seo.js",
+  "robots.txt",
   "data/programs.normalized.json",
   "data/program-digests.json",
   "data/image-candidates.json",
