@@ -176,6 +176,7 @@
 .parent-brand {
   text-decoration: none;
   flex: none;
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

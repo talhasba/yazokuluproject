@@ -63,6 +63,8 @@ import { currentRoute, sitePath } from "./src/site-paths.js";
   function render() {
     const l = lang();
     const L = T[l];
+    const wordmark = '<span class="ab-wordmark"><span class="ab-wordmark-summer">Summer</span><span class="ab-wordmark-but">But</span><span class="ab-wordmark-where">Where</span></span>';
+    const heading = esc(L.h1).replace("SummerButWhere", wordmark);
     page.innerHTML = `
       <header class="ab-top">
         <div class="ab-brand">
@@ -77,7 +79,7 @@ import { currentRoute, sitePath } from "./src/site-paths.js";
       <main class="ab-wrap">
         <section class="ab-hero">
           <p class="ab-eyebrow">${esc(L.eyebrow)}</p>
-          <h1>${esc(L.h1)}</h1>
+          <h1>${heading}</h1>
           <div class="ab-lead">${(Array.isArray(L.lead) ? L.lead : [L.lead]).map((paragraph) => `<p>${esc(paragraph)}</p>`).join("")}</div>
         </section>
         <div class="ab-grid">

@@ -36,6 +36,10 @@
 .ab-hero { max-width: 760px; margin-bottom: 40px; }
 .ab-eyebrow { color: #be1e2d; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px; }
 .ab-hero h1 { font-size: clamp(28px, 4.4vw, 42px); line-height: 1.15; font-weight: 800; letter-spacing: -.01em; }
+.ab-wordmark { white-space: nowrap; }
+.ab-wordmark-summer { color: #ef762f; }
+.ab-wordmark-but { color: #1a9f89; }
+.ab-wordmark-where { color: #17324d; }
 .ab-lead { margin-top: 18px; font-size: 18px; line-height: 1.6; color: var(--ab-muted); }
 .ab-lead p + p { margin-top: 16px; }
 
