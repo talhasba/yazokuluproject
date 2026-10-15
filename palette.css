@@ -252,17 +252,17 @@
 
 /* Site logo: sizes are height-based (the wordmark is ~2.3:1). */
 html .home-brand .site-brand-link img,
-html .pp-brand .site-brand-link img { display: block; width: auto; height: 100px; object-fit: contain; }
-html .catalogue-site-logo { display: block; width: auto; height: 86px; object-fit: contain; }
+html .pp-brand .site-brand-link img { display: block; width: auto; height: 120px; object-fit: contain; }
+html .catalogue-site-logo { display: block; width: auto; height: 104px; object-fit: contain; }
 
 @media (max-width: 600px) {
   html .home-brand .site-brand-link img,
-  html .pp-brand .site-brand-link img { height: 68px; }
-  html .catalogue-site-logo { height: 62px; }
+  html .pp-brand .site-brand-link img { height: 82px; }
+  html .catalogue-site-logo { height: 74px; }
 }
 
 /* Taller header: the logo now carries the "Akademik Yaz Okulu Programları" line. */
-.home-header { height: auto; min-height: 116px; padding: 8px 0; }
+.home-header { height: auto; min-height: 136px; padding: 8px 0; }
 @media (max-width: 600px) {
-  .home-header { min-height: 86px; }
+  .home-header { min-height: 100px; }
 }
