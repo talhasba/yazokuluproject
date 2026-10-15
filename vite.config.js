@@ -43,8 +43,8 @@ function runtimeCopyPlugin() {
   return {
     name: "summerbutwhere-runtime-copy",
     apply: "build",
-    closeBundle() {
-      const outputRoot = resolve(projectRoot, "dist");
+    writeBundle(outputOptions) {
+      const outputRoot = resolve(projectRoot, outputOptions.dir || "dist");
       const files = new Set(runtimeFiles.map(safeRelativePath));
       runtimeFiles.filter((path) => path.endsWith(".json")).forEach((path) => {
         const source = resolve(projectRoot, safeRelativePath(path));
