@@ -21,7 +21,7 @@
 }
 .ab-brand { display: inline-flex; align-items: center; gap: 14px; }
 .ab-brand .parent-brand img { display: block; width: 124px; height: auto; object-fit: contain; }
-.ab-brand .site-brand-link img { display: block; width: auto; height: 84px; object-fit: contain; }
+.ab-brand .site-brand-link img { display: block; width: auto; height: 100px; object-fit: contain; }
 .ab-top nav { display: flex; align-items: center; gap: 14px; }
 .ab-back { color: var(--ab-brand); font-size: 14px; font-weight: 600; text-decoration: none; }
 .ab-back:hover { text-decoration: underline; }
@@ -65,7 +65,7 @@
   .ab-brand { gap: 8px; }
   .ab-brand .parent-brand { padding-left: 8px; }
   .ab-brand .parent-brand img { width: 80px; }
-  .ab-brand .site-brand-link img { height: 58px; }
+  .ab-brand .site-brand-link img { height: 68px; }
   .ab-top { padding: 8px 12px; gap: 8px; }
   .ab-top nav { gap: 8px; }
   .ab-back { font-size: 13px; }
