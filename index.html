@@ -27,8 +27,13 @@
     <meta name="twitter:image" content="%BASE_URL%assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp" />
     <script>
       (() => {
+        const base = "%BASE_URL%";
+        const redirectedRoute = new URLSearchParams(location.search).get("__route");
+        if (redirectedRoute) {
+          history.replaceState(null, "", `${base}${redirectedRoute.replace(/^\/+/, "")}`);
+        }
         const legacy = /^#\/(about|programs(?:\/[^/?#]+)?)\/?$/.exec(location.hash);
-        if (legacy) history.replaceState(null, "", `%BASE_URL%${legacy[1]}${location.search}`);
+        if (legacy) history.replaceState(null, "", `${base}${legacy[1]}${location.search}`);
       })();
     </script>
     <script type="module" src="/src/main.jsx"></script>

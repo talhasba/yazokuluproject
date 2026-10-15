@@ -40,9 +40,13 @@ function collectAssetReferences(value, references) {
 }
 
 function runtimeCopyPlugin() {
+  let deploymentBase = "/";
   return {
     name: "summerbutwhere-runtime-copy",
     apply: "build",
+    configResolved(config) {
+      deploymentBase = config.base.endsWith("/") ? config.base : `${config.base}/`;
+    },
     writeBundle(outputOptions) {
       const outputRoot = resolve(projectRoot, outputOptions.dir || "dist");
       const files = new Set(runtimeFiles.map(safeRelativePath));
@@ -57,7 +61,26 @@ function runtimeCopyPlugin() {
         mkdirSync(dirname(destination), { recursive: true });
         copyFileSync(source, destination);
       }
-      copyFileSync(resolve(outputRoot, "index.html"), resolve(outputRoot, "404.html"));
+      const fallback = `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Opening SummerButWhere…</title>
+    <script>
+      (() => {
+        const base = ${JSON.stringify(deploymentBase)};
+        const route = location.pathname.startsWith(base)
+          ? location.pathname.slice(base.length)
+          : location.pathname.replace(/^\\/+/, "");
+        location.replace(base + "?__route=" + encodeURIComponent(route + location.search + location.hash));
+      })();
+    <\/script>
+  </head>
+  <body></body>
+</html>
+`;
+      writeFileSync(resolve(outputRoot, "404.html"), fallback);
       writeFileSync(resolve(outputRoot, ".nojekyll"), "");
     },
   };
