@@ -61,6 +61,25 @@ function runtimeCopyPlugin() {
         mkdirSync(dirname(destination), { recursive: true });
         copyFileSync(source, destination);
       }
+
+      // GitHub Pages otherwise serves these clean URLs through 404.html. Writing
+      // the app shell into each route directory makes refreshes and direct links
+      // return a real page instead of depending on an inline redirect script.
+      const shell = readFileSync(resolve(outputRoot, "index.html"), "utf8");
+      const programs = JSON.parse(readFileSync(resolve(projectRoot, "data/programs.normalized.json"), "utf8"));
+      const staticRoutes = [
+        "about",
+        "programs",
+        ...programs.map(({ id }) => `programs/${encodeURIComponent(String(id))}`),
+      ];
+      for (const route of staticRoutes) {
+        const destination = resolve(outputRoot, safeRelativePath(route), "index.html");
+        const fromOutput = relative(outputRoot, destination);
+        if (fromOutput.startsWith("..") || isAbsolute(fromOutput)) throw new Error(`Route leaves output directory: ${route}`);
+        mkdirSync(dirname(destination), { recursive: true });
+        writeFileSync(destination, shell);
+      }
+
       const fallback = `<!doctype html>
 <html lang="en">
   <head>
