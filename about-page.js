@@ -23,7 +23,11 @@
       about: "Hakkımızda", back: "Tüm programlar", home: "Ana sayfa", langBtn: "EN", langLabel: "Switch to English",
       eyebrow: "Hakkımızda",
       h1: "SummerButWhere, ASBA Yurtdışı Eğitim Danışmanlık'ın, tavsiye ettiği akademik yaz okulu programlarını sunduğu projesidir",
-      lead: "SummerButWhere, ASBA Yurtdışı Eğitim Danışmanlık'ın, yurtdışındaki akademik yaz okullarını tanıtma amacıyla geliştirdiği bir projedir. Dünyanın önde gelen kurumlarındaki akademik yaz okulu programlarını tek bir yerde bir araya getirir.",
+      lead: [
+        "SummerButWhere, ASBA Yurtdışı Eğitim Danışmanlık’ın dünyanın önde gelen kurumlarındaki akademik yaz okulu programlarını tek bir çatı altında sunduğu özel bir platformdur. Öğrencilerin vizyonunu geliştirecek en doğru akademik yaz programı seçimlerinde rehberlik etmek amacıyla hayata geçirilmiştir.",
+        "Öğrencilerimiz için Dünyanın en seçkin akademik yaz okullarını tek bir noktada buluşturan özel bir rehber oluşturduk. ASBA Yurtdışı Eğitim Danışmanlık’ın akademik yaz okulu alanındaki uzmanlığını ve seçkin program tavsiyelerini tek bir çatı altında kolaylıkla inceleyebilir ve kayıt olabilirsiniz.",
+        "SummerButWhere öğrencilere en doğru eğitim yolculuğunu sunmak üzere ASBA güvencesi ile hizmetinizde."
+      ],
       whatTitle: "SummerButWhere nedir?",
       whatBody: "Öğrencilerin ve ailelerin yurtdışındaki akademik yaz okulu programlarını konu, okul ve ülkeye göre karşılaştırabilmesi için hazırlanmış bir program rehberidir. Her program sayfasında yaş aralığı, süre, tarih, ücret ve konaklama gibi temel bilgiler özetlenir.",
       asbaTitle: "ASBA Yurtdışı Eğitim Danışmanlık",
@@ -73,7 +77,7 @@
         <section class="ab-hero">
           <p class="ab-eyebrow">${esc(L.eyebrow)}</p>
           <h1>${esc(L.h1)}</h1>
-          <p class="ab-lead">${esc(L.lead)}</p>
+          <div class="ab-lead">${(Array.isArray(L.lead) ? L.lead : [L.lead]).map((paragraph) => `<p>${esc(paragraph)}</p>`).join("")}</div>
         </section>
         <div class="ab-grid">
           <section class="ab-card">
