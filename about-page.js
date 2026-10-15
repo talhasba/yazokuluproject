@@ -65,6 +65,7 @@ import { currentRoute, sitePath } from "./src/site-paths.js";
     const L = T[l];
     const wordmark = '<span class="ab-wordmark"><span class="ab-wordmark-summer">Summer</span><span class="ab-wordmark-but">But</span><span class="ab-wordmark-where">Where</span></span>';
     const heading = esc(L.h1).replace("SummerButWhere", wordmark);
+    const whatHeading = esc(L.whatTitle).replace("SummerButWhere", wordmark);
     page.innerHTML = `
       <header class="ab-top">
         <div class="ab-brand">
@@ -84,7 +85,7 @@ import { currentRoute, sitePath } from "./src/site-paths.js";
         </section>
         <div class="ab-grid">
           <section class="ab-card">
-            <h2>${esc(L.whatTitle)}</h2>
+            <h2>${whatHeading}</h2>
             <p>${esc(L.whatBody)}</p>
             <a class="ab-button" href="${sitePath("programs")}">${esc(L.cta)} <span aria-hidden="true">→</span></a>
           </section>
