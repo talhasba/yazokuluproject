@@ -156,27 +156,6 @@
   background: var(--site-accent-dark);
 }
 
-/* Password screen */
-.site-lock {
-  color: #17213b;
-  background:
-    radial-gradient(circle at 14% 18%, rgba(255, 255, 255, 0.82), transparent 30%),
-    radial-gradient(circle at 12% 84%, rgba(52, 81, 209, 0.17), transparent 30%),
-    radial-gradient(circle at 86% 18%, rgba(190, 30, 45, 0.12), transparent 28%),
-    #eef1ff;
-}
-
-.site-lock__eyebrow,
-.site-lock__error {
-  color: var(--site-accent);
-}
-
-.site-lock__logo {
-  width: min(100%, 320px);
-  height: auto;
-  margin-bottom: 12px;
-}
-
 @media (max-width: 600px) {
   .home-brand img {
     width: 170px;
@@ -190,24 +169,6 @@
   .pp-brand span {
     display: none;
   }
-}
-
-.site-lock h1,
-.site-lock__form label {
-  color: #17213b;
-}
-
-.site-lock__intro {
-  color: #667085;
-}
-
-.site-lock__input-row input {
-  border-color: #c7d0ff;
-}
-
-.site-lock__input-row input:focus {
-  border-color: var(--site-primary);
-  box-shadow: 0 0 0 4px rgba(52, 81, 209, 0.14);
 }
 
 /* Parent-company branding, shared by the home, catalogue and programme headers. */
@@ -288,30 +249,12 @@
   .catalogue-site-logo { width: clamp(80px, 24vw, 110px); }
 }
 
-.site-lock__input-row input[aria-invalid="true"] {
-  border-color: var(--site-accent);
-}
-
-.site-lock__input-row button {
-  background: var(--site-primary);
-}
-
-.site-lock__input-row button:hover {
-  background: var(--site-primary-dark);
-}
-
-.site-lock__input-row button:focus-visible {
-  outline-color: rgba(52, 81, 209, 0.3);
-}
-
 /* Site logo: sizes are height-based (the wordmark is ~2.3:1). */
-html .site-lock__logo { display: block; width: auto; max-width: 100%; height: 130px; object-fit: contain; }
 html .home-brand .site-brand-link img,
 html .pp-brand .site-brand-link img { display: block; width: auto; height: 84px; object-fit: contain; }
 html .catalogue-site-logo { display: block; width: auto; height: 72px; object-fit: contain; }
 
 @media (max-width: 600px) {
-  html .site-lock__logo { height: 104px; }
   html .home-brand .site-brand-link img,
   html .pp-brand .site-brand-link img { height: 58px; }
   html .catalogue-site-logo { height: 54px; }

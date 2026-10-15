@@ -7,9 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <title>Summer Programs</title>
-    <script>document.documentElement.classList.add('site-locked');</script>
-    <script defer src="./password-lock.js"></script>
-    <script type="module" crossorigin src="./app-loader.js?v=20261014-11"></script>
+    <script type="module" crossorigin src="./app-loader.js?v=20261015-1"></script>
     <script defer src="./online-research-options.js?v=20261005-1"></script>
     <script defer src="./home-page.js?v=20261014-2"></script>
     <script defer src="./program-page.js?v=20261014-8"></script>
@@ -18,39 +16,13 @@
     <link rel="stylesheet" crossorigin href="./style.css">
     <link rel="stylesheet" href="./online-research-options.css">
     <link rel="stylesheet" href="./home-page.css">
-    <link rel="stylesheet" href="./catalogue-cleanup.css?v=20261014-2">
+    <link rel="stylesheet" href="./catalogue-cleanup.css?v=20261015-1">
     <link rel="stylesheet" href="./program-page.css?v=20261014-3">
-    <link rel="stylesheet" href="./password-lock.css">
     <link rel="stylesheet" href="./palette.css?v=20261014-3">
     <link rel="stylesheet" href="./about-page.css?v=20261014-2">
     <link rel="stylesheet" href="./background-rays.css?v=20261014-1">
   </head>
   <body>
-    <div id="site-lock" class="site-lock" role="dialog" aria-modal="true" aria-labelledby="site-lock-title">
-      <div class="site-lock__card">
-        <img class="site-lock__logo" src="./assets/summerbutwhere-logo.png" alt="SummerButWhere" />
-        <p class="site-lock__eyebrow">An ASBA project</p>
-        <h1 id="site-lock-title">Protected site</h1>
-        <p class="site-lock__intro">Enter the password to view the summer programs.</p>
-        <form id="site-lock-form" class="site-lock__form" novalidate>
-          <label for="site-lock-password">Password</label>
-          <div class="site-lock__input-row">
-            <input
-              id="site-lock-password"
-              name="password"
-              type="password"
-              autocomplete="current-password"
-              autocapitalize="none"
-              spellcheck="false"
-              required
-              aria-describedby="site-lock-error"
-            />
-            <button type="submit">Enter</button>
-          </div>
-          <p id="site-lock-error" class="site-lock__error" role="alert" aria-live="polite"></p>
-        </form>
-      </div>
-    </div>
     <div id="home-page" class="home-page" hidden>
       <header class="home-header">
         <div class="home-brand">

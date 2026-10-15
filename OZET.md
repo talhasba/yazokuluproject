@@ -1,12 +1,12 @@
 # Kod Tabanı Özeti
 
-Bu belge, 5 Ekim 2026 tarihinde yapılan kod incelemesinden sonra 14 Ekim 2026 tarihindeki güncellemelerle (Study Mind, kampüs ve konaklama bilgileri, sağlayıcı/kampüs filtreleri, numaralı sayfalama, çevrimiçi programların kaldırılması) yenilenmiştir. Sayısal bilgiler mevcut veri dosyalarından doğrulanmıştır.
+Bu belge, 5 Ekim 2026 tarihinde yapılan kod incelemesinden sonra 15 Ekim 2026 tarihindeki güncellemelerle (Study Mind, kampüs ve konaklama bilgileri, sağlayıcı/kampüs filtreleri, numaralı sayfalama, çevrimiçi programların ve parola ekranının kaldırılması, üretim dağıtım klasörü) yenilenmiştir. Sayısal bilgiler mevcut veri dosyalarından doğrulanmıştır.
 
 ## Projenin amacı
 
 Proje, **Summer Programs / summerbutwhere** markasıyla uluslararası yaz okullarını, kampları ve akademik programları bir araya getiren, ASBA bağlantılı bir katalog uygulamasıdır. Ziyaretçiler programları konu, sağlayıcı ve ülkeye göre filtreleyebilir; ücret, tarih, yaş, konum ve eğitim içeriğini inceleyebilir. Arayüz ve program içerikleri İngilizce ve Türkçe sunulur.
 
-Ziyaretçiye sunulan site, HTML, CSS, JavaScript ve JSON dosyalarıyla çalışan statik bir uygulamadır. Veritabanı, kullanıcı hesabı veya yayımlanan siteye ait bir içerik kayıt API'si bulunmaz. İçerik düzenlemek için ayrıca yerel bir Node.js sunucusu ve tarayıcı tabanlı editör vardır.
+Ziyaretçiye sunulan site, HTML, CSS, JavaScript ve JSON dosyalarıyla çalışan, parola ekranı olmadan doğrudan ana sayfaya açılan herkese açık statik bir uygulamadır. Veritabanı, kullanıcı hesabı veya yayımlanan siteye ait bir içerik kayıt API'si bulunmaz. İçerik düzenlemek için ayrıca yerel bir Node.js sunucusu ve tarayıcı tabanlı editör vardır.
 
 ## Güncel veri kapsamı
 
@@ -51,19 +51,19 @@ Academy Royale International, Oxford Royale'ın yeni sağlayıcı adıdır; [res
 
 ## Uygulamanın yapısı
 
-`index.html`, parola penceresini, statik tanıtım sayfasını ve iki ayrı uygulama alanını içerir: React kataloğu için `#root`, özetli program detayları için `#program-page`.
+`index.html`, statik tanıtım sayfasını ve iki ayrı uygulama alanını içerir: React kataloğu için `#root`, özetli program detayları için `#program-page`.
 
 - **`script.js`:** React, React DOM ve Lucide bileşenlerini içeren küçültülmüş uygulama paketidir. Katalog kartlarını, filtreleri, sayfalamayı, dil seçimini ve özgün detay sayfalarını oluşturur. Bu paketin özgün React kaynak dosyaları depoda bulunmaz.
 - **`app-loader.js`:** Paketi metin olarak indirir, belirli kod parçalarını değiştirir ve sonucu bir Blob modülü olarak çalıştırır. Çalıştırmadan önce program verisine editör değişikliklerini uygular.
 - **`program-page.js`:** İlgili programın özet içeriği varsa React alanını gizleyerek kendi detay sayfasını gösterir. Özet bulunamazsa özgün React sayfasına döner.
 - **`program-pricing.js`:** Birden fazla farklı ücret bulunan programlarda paket kapsamlarını karşılaştırır; süre, konaklama ve doğrulanmış ek olanakları açıklar. Kampüs geneli aralıkları ve geçmiş dönem ücretlerini ayrı gösterir.
 - **`home-page.js`:** Ana sayfa ile katalog arasındaki görünürlüğü, ana sayfanın dilini ve özgün detay sayfasının kataloğa geri dönüşünü yönetir.
-- **`password-lock.js`:** Sayfaya erişim için tarayıcıda parola kontrolü yapar; başarılı erişimi `sessionStorage` içinde tutar.
+- **`about-page.js`:** `#/about` adresindeki iki dilli Hakkımızda sayfasını ve ASBA iletişim kartını oluşturur.
 - **`catalogue-cleanup.js`:** Özgün React detay sayfasındaki dış bağlantıları ve tekrarlayan bölümleri kaldırır, uzun açıklamaları maddelere dönüştürür.
 - **`online-research-options.js`:** Immerse çevrimiçi araştırma programına özel seçenek ve ücret kartlarını ekliyordu. Bu program katalogdan kaldırıldığı için betik şu anda etkin değildir.
-- **`bg-options.js` / `bg-options.css`:** Geçici arka plan deseni seçicisi (aşağıya bakın).
+- **`background-rays.css`:** Ana sayfa, katalog, program ve Hakkımızda sayfalarında kullanılan kalıcı ışın arka planını oluşturur.
 
-`style.css` derlenmiş katalog stillerini içerir. Ana sayfa, detay sayfası, parola penceresi ve ek bölümler kendi CSS dosyalarıyla biçimlendirilir. `palette.css`, ortak mavi/kırmızı renkleri ve derlenmiş kataloğun marka renklerini düzenler.
+`style.css` derlenmiş katalog stillerini içerir. Ana sayfa, detay sayfası ve ek bölümler kendi CSS dosyalarıyla biçimlendirilir. `palette.css`, ortak mavi/kırmızı renkleri ve derlenmiş kataloğun marka renklerini düzenler. Katalogdaki sağ sütun Bilgi Formu'nun düzeni ve görünümü `catalogue-cleanup.css` dosyasındaki `/* Catalogue layout and right-hand information form */` bölümündedir.
 
 Bu yapı, özgün React paketi üzerine eklenen bağımsız JavaScript ve CSS katmanlarından oluşur. Betikler verileri asenkron yükler; çalışma sırası yalnızca HTML içindeki etiket sırasına dayanmaz.
 
@@ -113,6 +113,15 @@ Yalnızca yüz yüze programlar sunulduğu için `immerse-online-research-progra
 Birden fazla farklı ücret bulunan 84 özetli program sayfasında paket karşılaştırması vardır. InvestIN seçenekleri bir hafta, iki hafta ve Enhanced olarak ayrılır; konaklamalı ücretler toplam paket fiyatı olarak açıklanır. Bu eşlemeler doğrulanmış ücret ve para birimiyle eşleşir; editörde tanınmayan bir ücret girilirse süre tahmin edilmez. Aynı ücretin tekrar eden kayıtları ayrı paket oluşturmaz. 259 programın kampüs geneli ücret aralığı, bu dersin kesin fiyatı veya iki ayrı paket gibi sunulmaz. Bilinmeyen yemek/ek hizmet kapsamları açıkça belirtilir. Paket açıklamaları temel JSON yeniden üretilse de ayrı dosyada korunur.
 
 Bilgi formu ad, telefon, e-posta, katılımcı yaşı ve il bilgilerini doğrular. Yaşı program aralığıyla karşılaştırıp uygunluk bilgisi gösterir. Ancak `FORM_ENDPOINT` ve `WHATSAPP_NUMBER` şu anda boştur: form verisi bir alıcıya gönderilmez, gönderilmediğini belirten mesaj gösterilir ve hazırlanan veri tarayıcı konsoluna yazılır.
+
+### Bilgi Formu kodda nerede bulunur?
+
+Sitede iki ayrı Bilgi Formu uygulaması vardır:
+
+- **Katalog formu (`#/programs`, sağ sütun):** Bileşen kodu `app-loader.js` içindeki `catalogueFormComponent` metnindedir. Bu metin derlenmiş React paketine `CODEX_CATALOGUE_FORM_ENDPOINT`, `CODEX_CATALOGUE_CITIES` ve `codexCatalogueInfoForm` adlarını ekler. Hemen ardından gelen `replaceOnce(...)` çağrıları bileşeni pakete yerleştirir, katalog alanını genişletir, `catalogue-layout` adlı üç sütunlu düzeni kurar ve formu program listesinin sağına ekler. Görsel kurallar `catalogue-cleanup.css` içinde `/* Catalogue layout and right-hand information form */` başlığının altındaki `.catalogue-info` ve `.cat-info-*` seçicileridir. Gönderim adresi `app-loader.js` içindeki `CODEX_CATALOGUE_FORM_ENDPOINT` sabitidir.
+- **Program detay formu (`#/programs/<program-id>`, detay içeriğinin altında):** `program-page.js` dosyasının üst kısmındaki `FORM_ENDPOINT` ve `WHATSAPP_NUMBER` gönderim ayarlarıdır; `FORM` iki dilli metinleri, `CITIES` il listesini içerir. `formHTML(rec, lang)` formun HTML'ini üretir, `bindForm(rec, lang)` yaş uygunluğu, doğrulama ve gönderim davranışını yönetir; `render(...)` formu `${formHTML(rec, lang)}` ile sayfaya ekler. Stiller `program-page.css` dosyasındaki `/* Bilgi Formu */` bölümünde, `.pp-form`, `.pp-form-side`, `.pp-form-main`, `.pp-field` ve ilişkili `.pp-*` seçicilerindedir.
+
+İki formun gönderim sabitleri birbirinden ayrıdır ve şu anda ikisi de boştur. Gerçek başvuru göndermek için iki adresin de yapılandırılması veya tek bir ortak ayara bağlanması gerekir.
 
 URL'de `#` öncesine `?review` eklenirse özet sayfalarında iç veri kontrol notları görünür. Bu notlar normal ziyaretçi görünümünde gizlidir.
 
@@ -165,24 +174,35 @@ node local-server.mjs --no-open --port=5174
 
 Windows'ta `open-localhost.bat` ve `open-program-editor.bat` aynı işlemleri başlatır. Bu başlatıcılar önce 5173 portunu dinleyen mevcut süreçleri sonlandırır; açık başka bir yerel çalışma varsa bu davranış dikkate alınmalıdır.
 
-`package.json`, React 19, React DOM, Lucide, Vite 6 ve Tailwind CSS 4 bağımlılıklarını; `dev`, `build`, `preview`, `build:compress` ve `preview:compress` komutlarını tanımlar. Ancak özgün React kaynakları ve Vite yapılandırması depoda yoktur. `build:compress` yalnızca `compress` modunu seçer; bu moda ait ayrı çıktı klasörü ayarı görünmezken `preview:compress`, `compress` klasörünü bekler. Bu komutların uçtan uca çalıştığı bu incelemede doğrulanmamıştır.
+`package.json`, React 19, React DOM, Lucide, Vite 6 ve Tailwind CSS 4 bağımlılıklarını; `dev`, `build`, `build:deploy`, `preview`, `build:compress` ve `preview:compress` komutlarını tanımlar. `npm run build:deploy`, ana kaynaklardan temiz dağıtım klasörünü yeniden üretir. Özgün React kaynakları ve Vite yapılandırması depoda yoktur; bu nedenle eski Vite derleme komutları ayrıca doğrulanmalıdır.
+
+## Üretim dağıtım klasörü
+
+`site-deploy/`, gerçek sunucu veya alan adına yüklenmek üzere hazırlanmış bağımsız statik site klasörüdür. `index.html` alan adının belge kökünde olacak şekilde bu klasörün **içeriği** sunucuya yüklenmelidir. Rotalar URL'nin `#` bölümünü kullandığı için sunucuda geçmiş rota yönlendirmesi gerekmez.
+
+Kaynak kod, veri, görsel veya özet belgeleri değiştiğinde klasör proje kökünde şu komutla yenilenir:
+
+```powershell
+npm run build:deploy
+```
+
+`tools/build-deploy-folder.mjs`, açık bir dağıtım dosyası listesi ve çalışan kod/verideki yerel görsel başvurularını kullanır; dosyaları doğrular ve yalnızca `site-deploy/` klasörünü güvenli biçimde yeniden oluşturur. PDF'leri, ham sağlayıcı sayfalarını, normalleştirme kaynaklarını, testleri, yerel editörü, paket yöneticisi dosyalarını ve Git verilerini dışarıda bırakır. `summary.md` ve `OZET.md` hem proje kökünde tutulur hem de dağıtım klasörüne kopyalanır. Üretim sitesi parola istemeden doğrudan açılır.
 
 ## Destekleyici belgeler ve bakım noktaları
 
-`summary.md`, `contentsummary.md` ve `providers-overview.md` mevcut İngilizce açıklamalardır. `price-comparison-2027.md`, katalog ile dış bir fiyat/tarih çalışması arasındaki karşılaştırmayı kaydeder; uygulama bu dosyayı okumaz. `contents/` içindeki Excel ve Word dosyaları referans kopyalarıdır, düzenlenmeleri site verilerini otomatik güncellemez. `constructor/` kaynak sayfa arşivini ve ders belgesini içerir. `prototypes/index.html` tasarım prototipidir; `prototypes/layer-test.html` parola katmanı olmadan gerçek özet sayfasını denemek ve editör önizlemesi için kullanılır.
+`summary.md`, `contentsummary.md` ve `providers-overview.md` mevcut İngilizce açıklamalardır. `price-comparison-2027.md`, katalog ile dış bir fiyat/tarih çalışması arasındaki karşılaştırmayı kaydeder; uygulama bu dosyayı okumaz. `contents/` içindeki Excel ve Word dosyaları referans kopyalarıdır, düzenlenmeleri site verilerini otomatik güncellemez. `constructor/` kaynak sayfa arşivini ve ders belgesini içerir. `prototypes/index.html` tasarım prototipidir; `prototypes/layer-test.html` gerçek özet sayfasını ve editör önizlemesini en küçük sayfa kabuğuyla denemek için kullanılır.
 
 Bakım sırasında mevcut yapının şu özellikleri önemlidir:
 
 - `app-loader.js`, küçültülmüş paketteki tam metin eşleşmelerine bağlıdır. Eşleşme kaybolur veya birden fazla kez bulunursa uygulama yüklemesi hata verir. Yeni sağlayıcı, ülke ve konu eklenirken veriyle birlikte filtre listeleri ve konu eşlemeleri de kontrol edilmelidir.
 - `MutationObserver` kullanan ek betikler, özgün React sayfasının metinlerine ve DOM yapısına bağlıdır. Paket değişiklikleri bu davranışları etkileyebilir.
-- Parola tarayıcı kodunda bulunur; kontrol yalnızca arayüz erişimini sınırlar. JSON verileri ve dosyalar sunucudan ayrıca erişilebilir.
 - Ana sayfadaki 473 program ve 7 ülke sayıları `index.html` içinde sabittir, veri değişince kendiliğinden yenilenmez.
 - Güncel inceleme durumu toplamı **285**'tir (265 Summer Discovery, 8 MPW, 4 Sportech, 4 Schiller, 2 Emerald, 2 Edconic); Schiller'ın duyuruya dayanan dört kaydı dahildir. Veri sayıları için ana dosya esas alınmalıdır.
 - Bazı ücretler geçmiş dönem bilgisi veya kampüs geneli aralıktır. Bu ayrımlar `flags`, fiyat notları, tarihsel alanlar ve özet kontrol notlarında korunur.
 - Görsel adayının bulunması, görselin yüklenebilir veya açık lisanslı olduğunu tek başına göstermez. Commons ve sağlayıcı kaynak kayıtları ayrıdır; Bremen görselinin kaynak/lisans doğrulaması belgelere göre tamamlanmamıştır.
 - `tests/program-pricing.test.mjs`, fiyat eşlemelerini, konaklama ayrımını, geçmiş ücretleri, tekrarların birleştirilmesini, metin güvenliğini ve iki dilde tüm katalog kapsamını kontrol eder. `node --test tests/program-pricing.test.mjs` ile çalıştırılır. `tests/program-images.test.mjs` fotoğraf koleksiyonunu, `tests/studymind-programs.test.mjs` Study Mind kayıtlarını denetler; testler tek tek dosya olarak çalıştırılır. Lint yapılandırması veya görünür CI iş akışı bulunmaz. Özet üreticisindeki içerik kontrolleri ve yerel arayüz önizlemeleri de kullanılabilir.
 
-Bu belge için kod ve veri dosyaları okunmuş, JSON sayıları ve eşleşmeler kontrol edilmiştir. Fiyat kapsamları eklendikten sonra ilgili otomatik testler ve yerel tarayıcı kontrolleri yapılmıştır. Üretim derlemesi ve içerik üretim betikleri bu incelemede yürütülmemiştir.
+Bu belge için kod ve veri dosyaları okunmuş, JSON sayıları ve eşleşmeler kontrol edilmiştir. Otomatik testler çalıştırılmış ve `site-deploy/` klasörü `npm run build:deploy` ile yeniden üretilip yerel HTTP sunucusunda doğrulanmıştır. İçerik normalleştirme betikleri bu güncellemede yeniden çalıştırılmamıştır.
 
 ## İrlanda programları (5 Ekim 2026)
 
@@ -208,4 +228,4 @@ Madrid için önceki Schiller yaz programından iki gerçek fotoğraf; Heidelber
 - **Konaklama (`accommodation` / `accommodation_tr`):** Program sayfasındaki bilgi şeridinde "Format" yerine "Konaklama" konumun yanında gösterilir. Değerler sağlayıcı sayfalarından doğrulanmıştır (`mdoutput/` klasöründeki kaydedilmiş sayfa dönüşümleri dahil): Immerse için UCL, Cambridge/Oxford kolejleri, Barnard College, Toronto Üniversitesi ve UC Berkeley; InvestIN için Londra Üniversitesi yurtları (Career Discovery için Dulwich College); MPW için Queen's Gate House ve Tripos Court. Summer Discovery sayfaları yalnızca kampüste konaklamalı programı belirtir ve UCLA'nın yurdunu adlandırır; diğer kampüslerde "<kampüs> kampüsü" yazar. Veri bulunmayan üç Edconic Vogue programı "Talep üzerine" gösterir.
 - **Çevrimiçi programlar:** Yalnızca yüz yüze programlar sunulduğu için iki çevrimiçi kayıt kaldırılmıştır; katalog 473 programdır. Fotoğraf denetim kaydı (`data/program-image-audit.json`) ve parmak izi bu sayıya göre güncellenmiştir.
 - **Filtre ve sayfalama:** Sayfalar numaralı düğmelerle gezilir; sağlayıcılar kampüs/konum listesi açar; "Diğer" konu kategorisi kaldırılmıştır (iki Academy Royale "Economics & Finance" kaydı İş Dünyası ve Finans altına alınmıştır).
-- **Marka ve görünüm:** Site logosu `assets/summerbutwhere-logo.png` dosyasıdır ("Yaz Okulları ve Danışmanlık" alt yazısı kırpılmıştır); logo seçici kaldırılmıştır. Başlıklarda "Akademik Yaz Okulu Programları" ifadesi kullanılır. Geçici arka plan deseni seçicisi (`bg-options.js`, `?bg=0..5`) kalıcı bir desen seçilene kadar sayfanın sol altında görünür.
+- **Marka ve görünüm:** Site logosu `assets/summerbutwhere-logo.png` dosyasıdır ve "Akademik Yaz Okulu Programları" alt satırını içerir; logo seçici kaldırılmıştır. Ana sayfa, katalog, program ve Hakkımızda sayfalarında `background-rays.css` içindeki kalıcı ışın arka planı kullanılır.

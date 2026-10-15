@@ -21,3 +21,9 @@ test("landing-page Turkish copy is valid UTF-8 without mojibake", () => {
   assert.match(indexHtml, /Bu yaz tatilini bir keşif yolculuğuna dönüştür/);
   assert.match(indexHtml, /Programları Gör/);
 });
+
+test("the public site opens without a password gate", () => {
+  assert.doesNotMatch(indexHtml, /site-lock|site-locked|password-lock/);
+  assert.doesNotMatch(indexHtml, /type=["']password["']/i);
+  assert.match(indexHtml, /id="home-page"/);
+});

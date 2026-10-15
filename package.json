@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:deploy": "node tools/build-deploy-folder.mjs",
     "build:compress": "vite build --mode compress",
     "preview": "vite preview",
     "preview:compress": "vite preview --outDir compress"

@@ -345,6 +345,79 @@ function Gh({currentPage:m,totalPages:x,pageSize:O,totalItems:d,onPageSizeChange
 }
 `, "numbered catalogue pagination");
 
+// Reuse the programme enquiry experience on the catalogue itself. On wide
+// screens this sits in the previously unused right-hand column; responsive
+// CSS moves it below the results when three columns no longer fit.
+const catalogueFormComponent = String.raw`
+const CODEX_CATALOGUE_FORM_ENDPOINT="";
+const CODEX_CATALOGUE_CITIES="Adana,Adıyaman,Afyonkarahisar,Ağrı,Aksaray,Amasya,Ankara,Antalya,Ardahan,Artvin,Aydın,Balıkesir,Bartın,Batman,Bayburt,Bilecik,Bingöl,Bitlis,Bolu,Burdur,Bursa,Çanakkale,Çankırı,Çorum,Denizli,Diyarbakır,Düzce,Edirne,Elazığ,Erzincan,Erzurum,Eskişehir,Gaziantep,Giresun,Gümüşhane,Hakkâri,Hatay,Iğdır,Isparta,İstanbul,İzmir,Kahramanmaraş,Karabük,Karaman,Kars,Kastamonu,Kayseri,Kırıkkale,Kırklareli,Kırşehir,Kilis,Kocaeli,Konya,Kütahya,Malatya,Manisa,Mardin,Mersin,Muğla,Muş,Nevşehir,Niğde,Ordu,Osmaniye,Rize,Sakarya,Samsun,Şanlıurfa,Siirt,Sinop,Sivas,Şırnak,Tekirdağ,Tokat,Trabzon,Tunceli,Uşak,Van,Yalova,Yozgat,Zonguldak".split(",").sort((m,x)=>m.localeCompare(x,"tr"));
+function codexCatalogueInfoForm({lang:m}) {
+  const [x,O]=yl.useState({}),[d,_]=yl.useState(""),[N,X]=yl.useState(!1);
+  const J=m==="tr"?{
+    eyebrow:"Size yardımcı olalım",title:"Bilgi Formu",intro:"İlgilendiğiniz programlar hakkında detaylı bilgi ve fiyat teklifi almak için formu doldurun.",
+    interest:"Program veya ilgi alanı",interestPh:"Örn. Tıp, Londra, 14–17 yaş",name:"Adı Soyadı",namePh:"Adınız soyadınız",phone:"Telefon",phonePh:"05xx xxx xx xx",email:"E-posta",emailPh:"ornek@eposta.com",age:"Katılımcının yaşı",city:"Bulunduğunuz il",pick:"Lütfen seçin",abroad:"Yurt dışı",yearsOld:"yaş",submit:"Bilgi al",note:"Bilgileriniz yalnızca size dönüş yapmak için kullanılır.",
+    errName:"Lütfen adınızı ve soyadınızı yazın.",errPhone:"Geçerli bir telefon numarası yazın.",errEmail:"Geçerli bir e-posta adresi yazın.",errAge:"Katılımcının yaşını seçin.",errCity:"Bulunduğunuz ili seçin.",sending:"Gönderiliyor…",done:"Talebiniz alındı. En kısa sürede size dönüş yapacağız.",notConnected:"Form henüz bir e-posta adresine bağlı değil; bilgileriniz gönderilmedi.",failed:"Gönderilemedi. Lütfen daha sonra tekrar deneyin."
+  }:{
+    eyebrow:"Let us help",title:"Information form",intro:"Fill in the form to get detailed information and a price quote for programs that interest you.",
+    interest:"Program or subject of interest",interestPh:"E.g. Medicine, London, ages 14–17",name:"Name / surname",namePh:"Your name and surname",phone:"Phone",phonePh:"+90 5xx xxx xx xx",email:"Email",emailPh:"name@example.com",age:"Participant's age",city:"City you live in",pick:"Please select",abroad:"Outside Türkiye",yearsOld:"years old",submit:"Request info",note:"Your details are only used to get back to you.",
+    errName:"Please enter your name and surname.",errPhone:"Please enter a valid phone number.",errEmail:"Please enter a valid email address.",errAge:"Please select the participant's age.",errCity:"Please select your city.",sending:"Sending…",done:"Request received. We will get back to you shortly.",notConnected:"The form is not connected to an email address yet; your details were not sent.",failed:"Could not send. Please try again later."
+  };
+  const M=(k,label,input,error,wide)=>b.jsxs("div",{className:"cat-info-field"+(wide?" is-wide":"")+(x[k]?" is-invalid":""),children:[b.jsx("label",{htmlFor:"cat-info-"+k,children:label}),input,b.jsx("p",{className:"cat-info-error",children:error})]});
+  const p=async e=>{
+    e.preventDefault();
+    const form=e.currentTarget,values=Object.fromEntries(new FormData(form).entries());
+    const bad={name:String(values.name||"").trim().length<3,phone:String(values.phone||"").replace(/\D/g,"").length<10,email:!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(values.email||"").trim()),age:!values.age,city:!values.city};
+    O(bad);_("");
+    if(Object.values(bad).some(Boolean))return;
+    if(!CODEX_CATALOGUE_FORM_ENDPOINT){_(J.notConnected);return;}
+    X(!0);_(J.sending);
+    try{
+      const result=await fetch(CODEX_CATALOGUE_FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify({...values,language:m,page:location.href})});
+      if(!result.ok)throw new Error(String(result.status));
+      form.reset();O({});_(J.done);
+    }catch{_(J.failed)}finally{X(!1)}
+  };
+  return b.jsx("aside",{className:"catalogue-info",children:b.jsxs("div",{className:"cat-info-card",children:[
+    b.jsxs("div",{className:"cat-info-head",children:[b.jsx("span",{className:"cat-info-icon","aria-hidden":"true",children:"?"}),b.jsxs("div",{children:[b.jsx("p",{children:J.eyebrow}),b.jsx("h2",{children:J.title})]}),b.jsx("p",{className:"cat-info-intro",children:J.intro})]}),
+    b.jsxs("form",{onSubmit:p,noValidate:true,children:[b.jsx("div",{className:"cat-info-fields",children:[
+      M("interest",J.interest,b.jsx("input",{id:"cat-info-interest",name:"interest",placeholder:J.interestPh}),"",true),
+      M("name",J.name,b.jsx("input",{id:"cat-info-name",name:"name",autoComplete:"name",placeholder:J.namePh}),J.errName),
+      M("phone",J.phone,b.jsx("input",{id:"cat-info-phone",name:"phone",type:"tel",inputMode:"tel",autoComplete:"tel",placeholder:J.phonePh}),J.errPhone),
+      M("email",J.email,b.jsx("input",{id:"cat-info-email",name:"email",type:"email",inputMode:"email",autoComplete:"email",placeholder:J.emailPh}),J.errEmail),
+      M("age",J.age,b.jsxs("select",{id:"cat-info-age",name:"age",defaultValue:"",children:[b.jsx("option",{value:"",children:J.pick}),...Array.from({length:15},(_,i)=>i+5).map(a=>b.jsxs("option",{value:a,children:[a," ",J.yearsOld]},a))]}),J.errAge),
+      M("city",J.city,b.jsxs("select",{id:"cat-info-city",name:"city",defaultValue:"",children:[b.jsx("option",{value:"",children:J.pick}),...CODEX_CATALOGUE_CITIES.map(c=>b.jsx("option",{value:c,children:c},c)),b.jsx("option",{value:J.abroad,children:J.abroad})]}),J.errCity)
+    ]}),
+    d?b.jsx("div",{className:"cat-info-status","aria-live":"polite",children:d}):null,
+    b.jsx("button",{className:"cat-info-submit",type:"submit",disabled:N,children:N?J.sending:J.submit}),
+    b.jsx("p",{className:"cat-info-note",children:J.note})
+  ]})]})});
+}
+`;
+
+replaceOnce(
+  "function Jh(){",
+  catalogueFormComponent + "\nfunction Jh(){",
+  "catalogue information form component"
+);
+
+replaceOnce(
+  'className:"mx-auto max-w-7xl px-4 py-6 sm:px-6"',
+  'className:"catalogue-main-shell mx-auto px-4 py-6 sm:px-6"',
+  "wide catalogue shell"
+);
+
+replaceOnce(
+  'b.jsxs("div",{className:"flex gap-8",children:[b.jsx(Hh,',
+  'b.jsxs("div",{className:"catalogue-layout flex gap-8",children:[b.jsx(Hh,',
+  "catalogue three-column layout"
+);
+
+replaceOnce(
+  'b.jsx(Gh,{currentPage:X,totalPages:w,pageSize:_,totalItems:Ll.length,onPageSizeChange:hl=>{N(hl),J(1)},onPageChange:J,t:ul})]})]})]})]})}',
+  'b.jsx(Gh,{currentPage:X,totalPages:w,pageSize:_,totalItems:Ll.length,onPageSizeChange:hl=>{N(hl),J(1)},onPageChange:J,t:ul})]}),b.jsx(codexCatalogueInfoForm,{lang:m})]})]})]})}',
+  "catalogue form placement"
+);
+
 const blob = new Blob([source], { type: "text/javascript" });
 const bundleUrl = URL.createObjectURL(blob);
 
