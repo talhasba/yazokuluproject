@@ -1,2 +1,5 @@
 .local-editor/
 __pycache__/
+node_modules/
+dist/
+site-deploy/

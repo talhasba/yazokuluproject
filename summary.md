@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a password-gated, bilingual (English/Turkish) catalogue of international summer programs. It is a static browser application: the client loads normalized JSON data, renders a filterable program grid, and shows a detail page for each program. There is no backend, database, account system, or server-side API.
+This repository contains a bilingual (English/Turkish) catalogue of international summer programs. It is a static Vite/React application: the client loads normalized JSON data, renders a filterable program grid, and shows a detail page for each program. There is no database, account system, or production server-side API.
 
 The catalogue currently contains **473 programs** from thirteen providers; all are in-person programs (online-only offerings are removed on purpose, see **Accommodation fact and online programs**). The application supports desktop and mobile layouts, subject/provider/country filtering (providers expand into their campuses/locations), numbered pagination, localized program content, and image fallbacks.
 
@@ -10,63 +10,62 @@ The repository also includes a local browser-based Program Editor. Running `open
 
 The newer-provider normalization sources and their QA reports are kept in `normalized_new_providers/`; their combined output has been merged into the main catalogue data. Constructor University's Summer Camp (Bremen, Germany) was normalized separately from its saved program page and course-syllabus document in `constructor/`; the reproducible normalizer and its standalone output live in `normalized_constructor/` and were merged into the same main catalogue data (see **Constructor University normalization** below).
 
-A second layer, added after the original bundle, replaces the generated detail page with a bullet-first "digest" page for every program (see **Program Digest Layer** below). This layer sits beside the original React catalogue rather than replacing it.
+The catalogue is maintained as readable JavaScript and JSX under `src/`. Program detail pages use the existing bullet-first digest renderer in `program-page.js` (see **Program Digest Layer** below).
 
 ## Runtime Architecture
 
-`index.html` is the only page shell. It contains the password dialog and a hand-written marketing home page, plus an empty `#root` element where the React catalogue is mounted, and a `#program-page` element used by the digest layer.
+`index.html` is the single page shell. It contains the hand-written marketing home page, an empty `#root` element for the React catalogue, `#program-page` for program details, and `#about-page` for the About page.
 
 The browser loads the application in this order:
 
-1. `password-lock.js` blocks the page until the visitor enters the client-side password.
-2. `app-loader.js` fetches the generated `script.js` bundle as text, applies a series of exact string replacements, converts the result to a Blob module, and imports it.
-3. The patched React application fetches the program and image JSON files, merges any fields in `data/program-editor-overrides.json`, and renders into `#root`.
-4. `online-research-options.js`, `home-page.js`, and `catalogue-cleanup.js` observe or modify the rendered page to add behavior not present in the generated bundle.
-5. `program-page.js` watches the hash route. On `#/programs/<id>`, if `data/program-digests.json` has an entry for that id, it hides `#root` and renders its own digest page into `#program-page` instead; otherwise it leaves the original React page visible.
+1. Vite loads `src/main.jsx`, which imports the shared CSS and mounts `src/catalogue/CatalogueApp.jsx` on `/programs`.
+2. `src/catalogue/programs.js` loads the main program data, image candidates, photo sources, and editor overrides, then exposes normalized display helpers.
+3. `src/catalogue/constants.js` holds the explicit subject-bucket and bilingual UI mappings. Provider, country, and campus filter lists are derived from the live program JSON rather than compiled into a bundle.
+4. `home-page.js`, `about-page.js`, and `program-page.js` render their path-based routes. `program-page.js` loads the matching digest and program facts into `#program-page`.
+5. `seo.js` updates canonical, Open Graph, Twitter, and JSON-LD metadata for the current clean path.
 
-This means `script.js` is effectively a compiled artifact, while `app-loader.js` and the smaller scripts form a browser-side customization layer around it. `program-page.js` is a further, independent layer on top of that: it never modifies `script.js` or the React output, only decides whether to show it.
+The former minified `script.js` and browser-side `app-loader.js` patch system have been removed. The catalogue now has ordinary readable source modules and a reproducible `vite.config.js` build.
 
 ## User-Facing Behavior
 
 ### Routes
 
-- `#/` (or no hash): the marketing home page.
-- `#/about`: the "Hakkımızda" / About Us page.
-- `#/programs`: the searchable program catalogue.
-- `#/programs/<program-id>`: an individual program detail page — the digest page (below) for every catalogue program; the original React detail page remains only as a fallback for a program with no digest.
+- `/`: the marketing home page.
+- `/about`: the "Hakkımızda" / About Us page.
+- `/programs`: the searchable program catalogue.
+- `/programs/<program-id>`: an individual digest-based program detail page.
 
-Routing is hash-based and handled in the browser. No server rewrite rules are required.
+Routes use clean browser paths. `vercel.json` first serves real files, then rewrites unmatched routes to `index.html`; the inline compatibility redirect in `index.html` converts old `#/about` and `#/programs...` links to their clean equivalents.
 
 ### Catalogue
 
-The React bundle provides:
+The readable React catalogue provides:
 
 - English and Turkish UI copy, with the selected language stored in `localStorage` under `lang`.
 - Responsive program cards with provider, subject, age, location, price, and image information.
 - Filters for subject group, provider, and country.
-- Desktop sidebar filters and a mobile filter drawer, in the order Subject, Country, School (swapped from the bundle's Subject, School, Country by two `replaceOnce` patches in `app-loader.js`). Program pages list multiple age ranges one per line in the facts strip. In the School filter, providers with more than one location (e.g. Summer Discovery's campuses, Immerse's cities) get an expandable list of locations with program counts (`codexSchoolFilter` in `app-loader.js`). Provider filter values are `"<provider>"` or `"<provider>||<location>"`; a program matches if either is selected. Location rows use the campus/university name (`campus`, long names via `codexFilterNames`); a provider with only some locations ticked shows a dash and a count badge, and clicking it clears those locations.
-- Pagination with 25, 50, or 100 results per page. The bundle only had prev/next arrows and a "1 / N" label; `app-loader.js` replaces that component (`Gh`) with numbered page buttons (1 2 3 … N, ellipsis, prev/next, scroll-to-top on change), styled by the `.catalogue-pager*` rules in `catalogue-cleanup.css`.
+- Desktop sidebar filters and a mobile drawer in Subject, Country, School order. In `CatalogueApp.jsx`, the School filter derives providers and campuses from the data, shows location counts, and supports full/partial provider selection using `"<provider>||<location>"` values.
+- Numbered pagination with 25, 50, or 100 results per page, ellipses, previous/next controls, and scroll-to-top on page changes.
 - Program detail pages with hero imagery, localized descriptions, content sections, and key facts.
 - Loading, data-fetch error, empty-result, and missing-image states.
 
-The original bundle groups many raw subjects into broader display buckets such as Business & Finance, Computer Science & AI, Medicine & Life Sciences, and Law, Politics & Society. There is no catch-all "Other" subject filter: every subject is mapped to a real bucket in `additionalSubjectBuckets`, and the filter list drops an "Other" entry if an unmapped subject ever appears (that program stays visible unfiltered but matches no subject filter until it is mapped).
+`src/catalogue/constants.js` groups raw subjects into broader display buckets such as Business & Finance, Computer Science & AI, Medicine & Life Sciences, and Law, Politics & Society. There is no catch-all "Other" checkbox; an unmapped program remains visible when no subject filter is active but must be mapped before it can be reached through a subject checkbox.
 
-### Browser-Side Customizations
+### Catalogue source modules
 
-- `app-loader.js` adds the Online Research Program category, changes the location filter from city to country, formats every displayed title as `Program - Campus` (the record's `campus`, falling back to the city), shows `City · Campus` under catalogue cards when the two differ, and shows the plain provider name on cards (no location in parentheses). It also holds `additionalSubjectBuckets`, which maps every newer-provider subject missing from the generated bundle and adds the Science & Mathematics and Sports filters. **Important:** the provider filter list (`_0`), country filter list (`O0`/`U0`), and base subject-bucket map (`Uh`) are hardcoded arrays/objects baked into the minified `script.js` at build time — they are NOT derived from `data/programs.normalized.json` at runtime. Adding a new provider, a new country, or a subject not covered by either the bundle or `additionalSubjectBuckets` requires an additional `replaceOnce(...)` patch here or the new programs will exist in the data and catalogue count but be unreachable via the filter checkboxes and will not be reachable through a subject filter.
-- `home-page.js` switches between the static home page and React catalogue, coordinates the language selector, and corrects the detail-page back navigation so it returns to `#/programs`.
-- `catalogue-cleanup.js` removes external provider links and redundant generated detail sections, then converts remaining long prose into short bullet lists. Now that every program has a digest page, it only affects a record without a digest.
-- `online-research-options.js` added localized pricing/pathway cards to the Immerse Online Research Programme detail page. That program (and Edconic Online Essentials) has since been removed from the catalogue, so this script is currently inactive and can be deleted.
-- `password-lock.js` stores successful access in `sessionStorage`, so access lasts only for the current browser tab/session.
+- `src/main.jsx` is the Vite entry point and shared stylesheet import list.
+- `src/catalogue/CatalogueApp.jsx` contains the readable React header, filters, cards, pagination, mobile drawer, and right-column Information Form.
+- `src/catalogue/programs.js` handles data loading, editor-override merging, image selection, title cleanup, and localized location formatting.
+- `src/catalogue/constants.js` contains bilingual labels, subject groups, country labels, and the Turkish city list used by the catalogue form.
 
 ## Program Digest Layer
 
-`program-page.js` / `program-page.css` render a redesigned detail page — hero photo, a facts strip (age/duration/dates/price/location/accommodation), a focus statement, topic chips, "what you'll do" modules, outcomes, "good fit if…", extras, and a bilingual "Bilgi Formu" enquiry form (name, phone, email, participant age, city) — for any program with an entry in `data/program-digests.json`. Before rendering, it merges the program and digest entries from `data/program-editor-overrides.json`. It never edits `script.js`; it only toggles which of `#root` / `#program-page` is visible.
+`program-page.js` / `program-page.css` render the detail page — hero photo, facts strip (age/duration/dates/price/location/accommodation), focus statement, topic chips, "what you'll do" modules, outcomes, "good fit if…", extras, and a bilingual "Bilgi Formu" (name, phone, email, participant age, city). Before rendering, it merges program and digest entries from `data/program-editor-overrides.json`.
 
 - **Facts always come from `data/programs.normalized.json`**, read live, never from the digest — so age/price/dates/location can't drift out of sync with the dataset.
 - **Photos** come from `data/image-candidates.json`, preferring local campus photos from `assets/program-images/`; attribution (photographer, license) is shown on the page when known.
 - **The enquiry form** validates client-side and checks the entered age against the program's listed age range, but does not send anywhere yet: `FORM_ENDPOINT` and `WHATSAPP_NUMBER` in `program-page.js` are placeholders to be filled in once an email/WhatsApp destination exists.
-- **`?review` query flag**: adds `?review` before the `#` in the site URL to show internal data-quality notes (e.g. missing age range, campus-wide price, contradicting source text) inline on each digest page. These notes are generated per record and are not shown to visitors by default.
+- **`?review` query flag**: append `?review` to a clean program URL to show internal data-quality notes (e.g. missing age range, campus-wide price, contradicting source text). These notes are not shown to visitors by default.
 
 ### Digest data pipeline (`data/digest-src/`, `tools/build-digests.mjs`)
 
@@ -93,25 +92,25 @@ Only in-person programs are offered, so `node tools/remove-online-programs.mjs` 
 
 ### Campus labels (`campus` / `campus_tr`)
 
-Catalogue and detail-page titles read "<program> - <campus>" when a record has a `campus` (falling back to the city); the city still shows under each card, and the School filter's location rows use the same campus/university names (long official names such as "University College London (UCL)" come from `codexFilterNames` in `app-loader.js`). The field is written by `node tools/apply-campuses.mjs` (rules by provider + location, plus per-id exceptions); rerun it after any normalizer rebuilds `data/programs.normalized.json`. Only venues confirmed on provider pages are listed: Immerse (UCL, University of Oxford/Cambridge, Barnard College, University of Toronto, UC Berkeley), InvestIN (UCL, Dulwich College), Academy Royale, St Clare's, MPW, Constructor, Edconic (`operating_institution`), and the six Sportech programs whose page names a host. 163 of 473 programs have a campus; the rest (other Sportech programs, Emerald Young Adult) keep the city.
+Catalogue and detail-page titles read "<program> - <campus>" when a record has a `campus` (falling back to the city); the city still shows under each card, and School-filter location rows use the same campus/university names. The small long-name aliases live in `src/catalogue/programs.js`. The field is written by `node tools/apply-campuses.mjs` (rules by provider + location, plus per-id exceptions); rerun it after any normalizer rebuilds `data/programs.normalized.json`.
 
 ### Logo
 
-The site logo is `assets/summerbutwhere-logo.png` (sun + "SummerButWhere" wordmark with the line "Akademik Yaz Okulu Programları" baked into the image, 938x513 transparent PNG; the old catalogue-header title text "Academic Summer School Programs" was removed). It is referenced from `index.html` (password screen, home header), `program-page.js` (digest page header), `about-page.js` and `app-loader.js` (catalogue header); its height-based sizing is at the end of `palette.css`. The original root `summerbutwhere-logo.png` is no longer used.
+The site logo is `assets/summerbutwhere-logo.png` (sun + "SummerButWhere" wordmark with the line "Akademik Yaz Okulu Programları" baked into the image, 938x513 transparent PNG). It is referenced from `index.html`, `program-page.js`, `about-page.js`, and `src/catalogue/CatalogueApp.jsx`; height-based sizing is at the end of `palette.css`.
 
-**Header layout** (home, catalogue, programme and About headers share it): the SummerButWhere logo (links to `#/`, home) sits on the left, separated by a thin rule from the ASBA logo (`assets/asba-logo.png`, links to asba.com.tr). The "An ASBA project" label was removed from the headers (the password screen's eyebrow still says it). Right side: an "About Us / Hakkımızda" link and the language button.
+**Header layout** (home, catalogue, programme and About headers share it): the SummerButWhere logo (links to `/`) sits on the left, separated by a thin rule from the ASBA logo (`assets/asba-logo.png`, links to asba.com.tr). The right side contains the "About Us / Hakkımızda" link and language button.
 
-### About page (`#/about`)
+### About page (`/about`)
 
-`about-page.js` / `about-page.css` render a bilingual "Hakkımızda" page into `#about-page`: SummerButWhere is a sub-brand/project of ASBA Yurtdışı Eğitim Danışmanlık, plus a contact card (address Caddebostan, Bağdat Cad. Yenel Apt No:350 D:8, 34728 Kadıköy/İstanbul; phone (0216) 358 89 19; email bilgi@asba.com.tr; asba.com.tr; a Google Maps directions link). Working hours were not included because the source screenshot only showed a live open/closed status. Like `program-page.js` it only toggles `#root` / `#about-page`; it must load after `home-page.js` and `program-page.js` so its `hashchange` handler runs last. The link appears in every header and in the home footer.
+`about-page.js` / `about-page.css` render a bilingual "Hakkımızda" page into `#about-page`: SummerButWhere is a sub-brand/project of ASBA Yurtdışı Eğitim Danışmanlık, plus the ASBA contact card. It responds to the clean `/about` path and the link appears in every header and the home footer.
 
 ### Background ("Işın" sun rays)
 
 `background-rays.css` is the permanent site-wide background: warm rays fanning out of the top-left corner, drawn on a fixed `body::before` layer behind `#root` / `#home-page` / `#program-page` / `#about-page`, so cards and photos are never tinted. `.pp` and `.ab` have transparent backgrounds so the rays show through on programme pages. The earlier temporary switcher (`bg-options.js` / `.css`, with dots/waves/rings/routes alternatives) was deleted.
 
-### Testing without the password gate
+### Detail-page prototype
 
-`prototypes/layer-test.html` loads a minimal page shell (`#root` + `#program-page`, no password lock) and includes `program-page.js`/`.css`, for exercising the digest layer directly during development, e.g. `http://localhost:5173/prototypes/layer-test.html?review#/programs/<id>`. `prototypes/index.html` is an earlier, self-contained mockup of the same visual design used to choose the layout before the real integration existed.
+`prototypes/layer-test.html` is a historical minimal shell for the digest renderer. The supported way to test the live implementation is now `npm run dev` followed by a clean URL such as `http://127.0.0.1:5173/programs/<id>?review`. `prototypes/index.html` is an earlier self-contained visual mockup.
 
 ### Constructor University normalization
 
@@ -121,9 +120,9 @@ Constructor University's Summer Camp is a single 12-day residential program in B
 - `normalized_constructor/normalize_constructor.mjs` (Node, not Python — see below) embeds the extracted text for all 9 courses, builds one BASE_FIELDS-schema record per course (all sharing the same detail/source URL, location, ages, duration, price, and dates — the camp is one 12-day program, not priced per course), writes `normalized_constructor/constructor.normalized.json`, and merges the 9 records into `data/programs.normalized.json` (replacing any prior Constructor records first, so the script is safe to rerun). Run it with `node .\normalized_constructor\normalize_constructor.mjs`.
 - Unlike `normalized_new_providers/normalize_new_providers.py`, this normalizer is JavaScript: no Python interpreter was available in this environment to run or verify a `.py` version, so a `.mjs` script (consistent with `tools/build-digests.mjs`) was used instead.
 - All 9 records are digested like any other authored provider: `data/digest-src/constructor_university/courses.json` (per-course EN/TR focus, tags, highlights, "do" steps, outcomes, fit) plus `data/digest-src/constructor_university-templates.json` (a shared closing "do" step about the company visit/excursions and a shared outcome about campus life). `constructor_university` was added to the `PREFIX` map in `tools/build-digests.mjs` so `buildAuthored()` picks it up automatically.
-- Building a digest for these records isn't just cosmetic: the original generated React detail page (`script.js`) renders blank past the hero image for any record whose `price` and `dates` are both empty (a latent bug that was previously unreachable because every other record with that shape already had a digest overriding it). The digest layer bypasses this entirely and shows "On request" for price/dates instead.
+- The digest renderer shows "On request" for missing price/dates and does not depend on the removed legacy detail implementation.
 - The home page's hard-coded programme/country stats in `index.html` were updated after this merge and must still be maintained whenever the catalogue changes (see **Maintenance Notes and Risks**).
-- `data/programs.normalized.json`, `data/program-digests.json`, and `data/image-candidates.json` alone were not enough for the new provider to be usable: `script.js`'s provider filter list, country filter list, and subject-bucket map are hardcoded at build time, so `app-loader.js` needed three additional `replaceOnce(...)` patches (provider `_0`, country `O0`/`U0`, subject `Uh`) or Constructor's programs would exist in the data and catalogue count but be unreachable via the filter sidebar and would not be reachable through a subject filter.
+- Provider, country, and campus filter entries are now derived from `data/programs.normalized.json`; only genuinely new subject names need an entry in `src/catalogue/constants.js`.
 - Photos: the site's own campus-photo pipeline (Wikimedia Commons, tracked in `assets/program-images/image-sources.json`) had no Bremen entry. The user supplied a campus-sign photo directly, saved as `assets/program-images/campuses/bremen.jpg` (marked "provenance not verified" in the manifest, since it wasn't sourced or license-checked by this pipeline). Six additional, license-checked Commons photos (one per course topic without an existing local subject image) were downloaded into `assets/program-images/constructor/`; the other 3 courses (Chemistry, Biology, Business) reuse the site's existing `*-Product-Image` subject assets. `normalized_constructor/add_image_candidates.mjs` wires all of this into `data/image-candidates.json`, ordered [course topic photo, `bremen.jpg`, the provider's `image_url`] — `program-page.js`'s `photosFor()` always promotes whichever candidate contains `/campuses/` to the page hero, so Bremen becomes the header photo automatically and the topic photo appears in the gallery below it.
 
 ### Study Mind work-experience normalization
@@ -138,7 +137,7 @@ Study Mind (London) lists 15 work-experience programmes for ages 15–18 on one 
 - **Coming soon (not catalogued)**: Business & Entrepreneurship, Chemistry and Media & Journalism are "coming soon" pages with enquiry links only: no fee and no 2027 dates (Business and Chemistry still carry past 2026 sessions in their structured data). The normalizer skips any page flagged coming soon; their English/Turkish copy is parked in `PARKED_PROGRAMS` in `digest-content.mjs`. When a page opens for booking (plans and 2027 dates appear), delete `soon: true` on its entry and rerun the normalizer; the Turkish titles are already in `data/tr-translations.json`. Their saved pages stay in `studymind/studymind-pages/`.
 - **Page quirks recorded as flags**: Careers & Life Skills labels its 1-week plan "1 day"; Creative Writing's headline says "1 or 2 weeks" but prices a 3-week plan; the Chemistry highlight "Python Basics for Chemists" repeats a criminology mock-trial sentence; Economics' price heading says "Pricing for 2026" next to 2027 sessions.
 - **Photos**: each course uses the photo from its own provider page (`assets/program-images/unique/`, source kind `provider`). Careers & Life Skills shares Creative Writing's stock photo on the provider site, so it uses a distinct CC0 illustrative photo (configured in `data/program-photo-curation.json`). Imported with `python tools/fetch_unique_program_images.py --stage download`; the audit record notes that ORB matching was not re-run for this addition.
-- **Catalogue wiring**: `app-loader.js` adds "Study Mind" to the provider filter list and maps the new subjects `Careers & Life Skills` → Career Discovery and `Chemical Engineering` → Engineering & Tech (the other subjects already had buckets). `program-page.js` gained a Turkish label for the `1-3 weeks` duration.
+- **Catalogue wiring**: providers are discovered from the data. `src/catalogue/constants.js` maps `Careers & Life Skills` → Career Discovery and `Chemical Engineering` → Engineering & Tech; `program-page.js` contains the Turkish label for the `1-3 weeks` duration.
 - Tests: `tests/studymind-programs.test.mjs`.
 
 ## Data Model
@@ -167,7 +166,7 @@ This object maps all 473 program IDs to ordered arrays of image candidates. The 
 
 ### `data/program-editor-overrides.json`
 
-This is the publishable output of the Local Program Editor. It contains only the program and digest fields that differ from generated source content, keyed by stable program ID. `app-loader.js` applies program overrides before the React catalogue renders, and `program-page.js` applies both program and digest overrides before a detail page renders. Resetting a program in the editor removes its entries from this file. Rebuilding the normalized catalogue or digest does not erase editor changes because the overrides are applied afterward.
+This is the publishable output of the Local Program Editor. It contains only program and digest fields that differ from generated source content, keyed by stable program ID. `src/catalogue/programs.js` applies program overrides before catalogue rendering, while `program-page.js` applies both program and digest overrides before a detail page renders.
 
 ## Local Program Editor
 
@@ -183,15 +182,15 @@ Contains local JPG, PNG, and WebP images used by the home page and as catalogue 
 
 | File | Responsibility |
 | --- | --- |
-| `index.html` | Page shell, password dialog, marketing home-page markup, and script/style loading order. |
-| `script.js` | Minified generated React application containing the catalogue UI, filtering, routing, localization, and details. |
-| `app-loader.js` | Loads and patches `script.js` before execution. |
-| `style.css` | Generated Tailwind-based styles for the React catalogue. |
+| `index.html` | Single page shell, home-page markup, legacy-hash compatibility redirect, and runtime entry scripts. |
+| `src/main.jsx` | Vite/React entry and shared stylesheet imports. |
+| `src/catalogue/CatalogueApp.jsx` | Readable catalogue UI: header, filters, cards, pagination, mobile drawer, and catalogue Information Form. |
+| `src/catalogue/programs.js` | Catalogue data loading, override merging, image/title/location helpers, and normalization. |
+| `src/catalogue/constants.js` | Subject groups, bilingual labels, country labels, and catalogue form cities. |
+| `style.css` | Existing generated utility styles used by the readable catalogue components. |
 | `home-page.js` / `home-page.css` | Static landing page, route visibility, and bilingual copy. |
-| `password-lock.js` / `password-lock.css` | Client-side session password gate and its presentation. |
-| `catalogue-cleanup.js` / `catalogue-cleanup.css` | Post-render cleanup and bullet formatting for detail pages (now only reached by the one non-digested program). |
-| `online-research-options.js` / `online-research-options.css` | Special pricing/pathway section for one online research program. |
-| `program-page.js` / `program-page.css` | Digest detail-page layer: renders the redesigned program page and Bilgi Formu, or falls back to the original React page. |
+| `catalogue-cleanup.css` | Catalogue checkbox, pagination, provider/campus filter, and right-column Information Form styles. |
+| `program-page.js` / `program-page.css` | Clean-path program detail renderer and program-specific Bilgi Formu. |
 | `local-editor/` | Local browser UI for editing program facts and bilingual detail content. |
 | `data/program-editor-overrides.json` | Small, committed editorial layer generated by the local editor and applied at runtime. |
 | `open-program-editor.bat` | Windows launcher that starts the local editor at `/admin`. |
@@ -202,11 +201,13 @@ Contains local JPG, PNG, and WebP images used by the home page and as catalogue 
 | `tools/apply-accommodation.mjs` | Writes `accommodation` / `accommodation_tr` (where students stay) into `programs.normalized.json`. |
 | `tools/apply-default-age-range.mjs` | Sets `age_ranges` to `13-18` only for records that have no explicit age bracket; rerun after provider normalization. |
 | `tools/remove-online-programs.mjs` | Removes online-only programs (and their image/digest/photo records) from the data. |
-| `about-page.js` / `about-page.css` | Bilingual About ("Hakkımızda") page on `#/about` (see **About page**). |
+| `about-page.js` / `about-page.css` | Bilingual About ("Hakkımızda") page on `/about`. |
 | `background-rays.css` | Site-wide "Işın" sun-ray background (see **Background**). |
 | `mdoutput/` | Markdown conversions of the saved provider HTML pages, used for fact checking (accommodation, venues). |
 | `local-server.mjs` | Minimal static HTTP server on `127.0.0.1:5173`; opens the default browser automatically. |
 | `open-localhost.bat` | Windows launcher that stops an existing listener on port 5173 and starts the local server. |
+| `vite.config.js` | React build, readable production output, source maps, and validated runtime/data/asset copying. |
+| `vercel.json` | Vercel build/output settings and filesystem-first clean-route fallback. |
 | `package.json` | Vite commands and React, Lucide, Tailwind, and Vite dependencies. |
 
 ## Development and Local Use
@@ -216,22 +217,20 @@ The package defines these commands:
 - `npm run dev` / `pnpm dev`: start Vite in development mode.
 - `npm run build` / `pnpm build`: create a production build.
 - `npm run preview` / `pnpm preview`: preview the Vite build.
-- `npm run build:compress` and `preview:compress`: use the custom `compress` mode/output.
+- `npm run build:deploy`: build with Vite, then safely recreate `site-deploy/` from `dist/`.
 
-On Windows, `open-localhost.bat` offers a dependency-light alternative that serves the repository directly through `local-server.mjs`. For normal site paths the server accepts GET and HEAD requests, prevents path traversal, sends basic MIME types, disables browser caching, and does not provide history-route fallback because routing uses URL hashes. Its local-only `/api/editor/` endpoints accept validated save/reset requests from `/admin`. `open-program-editor.bat` starts the same server with the editor as its opening page. `.claude/launch.json` defines a `local-site` preview configuration that runs the same server for the built-in browser pane.
+For the visitor site, use Vite (`npm run dev`) so clean-route fallback and JSX transformation are available; `open-localhost.bat` launches that command on Windows. `local-server.mjs` remains the local Program Editor server and its `/api/editor/` endpoints accept validated save/reset requests from `/admin`.
 
 Both `package-lock.json` and `pnpm-lock.yaml` are committed, although the pnpm workspace file indicates pnpm is likely the intended package manager.
 
 ## Maintenance Notes and Risks
 
-- The access control is only a client-side convenience. The password and all protected content are delivered to the browser, so this is not suitable for securing sensitive information.
-- `app-loader.js` depends on unique, exact snippets inside a minified generated bundle. Rebuilding or changing `script.js` can make a patch target disappear or become ambiguous, causing startup to fail. The patches should be reapplied to source code if maintainable source becomes available.
-- Several scripts use `MutationObserver` to modify React-generated DOM after rendering. This works for the current markup but is coupled to headings, class names, text labels, and element structure in the bundle. This risk is now confined to the single non-digested program.
+- Clean client-side routes require a history fallback. Vercel is configured in `vercel.json`; another static host needs the equivalent filesystem-first rewrite to `index.html`.
+- Subject buckets remain explicit in `src/catalogue/constants.js`; when a genuinely new raw subject appears, map it there. Provider, country, and campus lists update automatically from the program data.
 - The home page's hard-coded stats (currently 473 programs / 7 countries in `index.html`) must be updated by hand whenever the dataset total or country count changes; they are not computed from `data/programs.normalized.json`.
 - The image map (`data/image-candidates.json`) has entries for all 473 program IDs. Campus photos and local subject images provide fallback coverage; any future addition without an entry falls back to its own `image_url` and finally a placeholder.
 - 285 of the 473 records are marked `needs_review` (all 265 Summer Discovery, 8 MPW, 4 Sportech, 4 Schiller, 2 Emerald, 2 Edconic; the 9 Constructor University records are `ready`: price €4,600 and dates 25 July – 5 August were confirmed 2026-09-28). Flags preserve known scope, age/grade, pricing, date, and source limitations. The digest build surfaces many of these same issues (and others, e.g. campus-wide pricing) per-record in `review.flags`, visible via `?review` on the live site.
 - The Bilgi Formu on digest pages does not send its submissions anywhere yet (`FORM_ENDPOINT` / `WHATSAPP_NUMBER` are empty in `program-page.js`); this must be wired up before relying on it for real enquiries.
 - All 473 catalogue records now include `title_tr`, `subject_tr`, `location_tr`, and `description_short_tr`. The newer-provider values are reproducible through `data/tr-translations.json` and `tools/apply-tr-translations.mjs`.
 - Every catalogue record has an age bracket. Where a provider record has no explicit age range, `tools/apply-default-age-range.mjs` supplies the catalogue default `13-18` without changing any published range.
-- The repository has no lint configuration or visible CI configuration. Automated checks are limited to `node --test` files in `tests/` (`program-images`, `program-pricing`, `studymind-programs`); run each file directly. Other verification is manual (see **Testing without the password gate** above) or build-based.
-- The bundle and generated CSS are checked in, but their original React/Tailwind source files and build configuration are not present. That makes direct feature development and regeneration harder than editing a typical Vite project.
+- The repository has no lint configuration or visible CI configuration. Automated checks are the `node --test` files in `tests/`; route/layout verification is also done with the Vite development/preview servers.

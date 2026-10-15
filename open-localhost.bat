@@ -24,4 +24,4 @@ echo Your browser will open automatically.
 echo Keep this window open, and press Ctrl+C to stop the server.
 echo.
 
-"%NODE_EXE%" local-server.mjs
+call npm run dev -- --open

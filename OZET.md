@@ -51,36 +51,38 @@ Academy Royale International, Oxford Royale'ın yeni sağlayıcı adıdır; [res
 
 ## Uygulamanın yapısı
 
-`index.html`, statik tanıtım sayfasını ve iki ayrı uygulama alanını içerir: React kataloğu için `#root`, özetli program detayları için `#program-page`.
+`index.html`, statik tanıtım sayfasını ve üç uygulama alanını içerir: React kataloğu için `#root`, program detayları için `#program-page`, Hakkımızda sayfası için `#about-page`.
 
-- **`script.js`:** React, React DOM ve Lucide bileşenlerini içeren küçültülmüş uygulama paketidir. Katalog kartlarını, filtreleri, sayfalamayı, dil seçimini ve özgün detay sayfalarını oluşturur. Bu paketin özgün React kaynak dosyaları depoda bulunmaz.
-- **`app-loader.js`:** Paketi metin olarak indirir, belirli kod parçalarını değiştirir ve sonucu bir Blob modülü olarak çalıştırır. Çalıştırmadan önce program verisine editör değişikliklerini uygular.
-- **`program-page.js`:** İlgili programın özet içeriği varsa React alanını gizleyerek kendi detay sayfasını gösterir. Özet bulunamazsa özgün React sayfasına döner.
+- **`src/main.jsx`:** Vite/React giriş noktasıdır ve ortak CSS dosyalarını yükler.
+- **`src/catalogue/CatalogueApp.jsx`:** Katalog başlığı, masaüstü/mobil filtreler, kartlar, sayfalama ve sağ sütundaki Bilgi Formu'nun okunabilir JSX kaynağıdır.
+- **`src/catalogue/programs.js`:** Program verisini, editör değişikliklerini ve görsel kaynaklarını yükler; başlık, kampüs ve konum gösterimlerini düzenler.
+- **`src/catalogue/constants.js`:** Konu grupları, ülke çevirileri, iki dilli arayüz metinleri ve katalog formunun il listesini içerir.
+- **`program-page.js`:** `/programs/<id>` yolunda programın özetli detay sayfasını gösterir.
 - **`program-pricing.js`:** Birden fazla farklı ücret bulunan programlarda paket kapsamlarını karşılaştırır; süre, konaklama ve doğrulanmış ek olanakları açıklar. Kampüs geneli aralıkları ve geçmiş dönem ücretlerini ayrı gösterir.
 - **`home-page.js`:** Ana sayfa ile katalog arasındaki görünürlüğü, ana sayfanın dilini ve özgün detay sayfasının kataloğa geri dönüşünü yönetir.
-- **`about-page.js`:** `#/about` adresindeki iki dilli Hakkımızda sayfasını ve ASBA iletişim kartını oluşturur.
-- **`catalogue-cleanup.js`:** Özgün React detay sayfasındaki dış bağlantıları ve tekrarlayan bölümleri kaldırır, uzun açıklamaları maddelere dönüştürür.
-- **`online-research-options.js`:** Immerse çevrimiçi araştırma programına özel seçenek ve ücret kartlarını ekliyordu. Bu program katalogdan kaldırıldığı için betik şu anda etkin değildir.
+- **`about-page.js`:** `/about` adresindeki iki dilli Hakkımızda sayfasını ve ASBA iletişim kartını oluşturur.
+- **`seo.js`:** Temiz URL'ye göre canonical, açıklama, Open Graph, Twitter ve JSON-LD meta bilgilerini günceller.
 - **`background-rays.css`:** Ana sayfa, katalog, program ve Hakkımızda sayfalarında kullanılan kalıcı ışın arka planını oluşturur.
 
-`style.css` derlenmiş katalog stillerini içerir. Ana sayfa, detay sayfası ve ek bölümler kendi CSS dosyalarıyla biçimlendirilir. `palette.css`, ortak mavi/kırmızı renkleri ve derlenmiş kataloğun marka renklerini düzenler. Katalogdaki sağ sütun Bilgi Formu'nun düzeni ve görünümü `catalogue-cleanup.css` dosyasındaki `/* Catalogue layout and right-hand information form */` bölümündedir.
+`style.css` mevcut yardımcı sınıfları içerir. Ana sayfa, detay sayfası ve ek bölümler kendi CSS dosyalarıyla biçimlendirilir. `palette.css` ortak marka renklerini düzenler. Katalogdaki sağ sütun Bilgi Formu'nun düzeni ve görünümü `catalogue-cleanup.css` dosyasındaki `/* Catalogue layout and right-hand information form */` bölümündedir.
 
-Bu yapı, özgün React paketi üzerine eklenen bağımsız JavaScript ve CSS katmanlarından oluşur. Betikler verileri asenkron yükler; çalışma sırası yalnızca HTML içindeki etiket sırasına dayanmaz.
+Eski küçültülmüş `script.js` ve metin yaması uygulayan `app-loader.js` kaldırılmıştır. Katalog artık `src/` altındaki okunabilir JavaScript/JSX dosyalarından Vite ile üretilir.
 
 ## Sayfa ve kullanıcı akışı
 
 | Adres | İşlev |
 | --- | --- |
-| `#/` veya boş adres parçası | Tanıtım ana sayfası |
-| `#/programs` | Filtrelenebilir program kataloğu |
-| `#/programs/<id>` | Program detay sayfası |
+| `/` | Tanıtım ana sayfası |
+| `/programs` | Filtrelenebilir program kataloğu |
+| `/programs/<id>` | Program detay sayfası |
+| `/about` | Hakkımızda ve ASBA iletişim sayfası |
 | `/admin` | Yerel sunucunun sunduğu program editörü |
 
-Ziyaretçi sayfaları URL'nin `#` bölümünü kullandığı için bu rotalar sunucuda özel yönlendirme kuralı gerektirmez. `/admin` ise yerel sunucuda tanımlanan ayrı bir yoldur.
+Ziyaretçi sayfaları temiz URL kullanır. `vercel.json`, gerçek dosyaları önce sunar ve kalan yolları `index.html` dosyasına yönlendirir. Başka bir statik sunucuda da eşdeğer history fallback gerekir. Eski `#/programs...` bağlantıları `index.html` tarafından temiz adrese dönüştürülür. `/admin` yerel editör sunucusuna ait ayrı bir yoldur.
 
 Katalog, konu grubu, sağlayıcı ve ülke filtrelerini birlikte uygular. Masaüstünde yan panel, mobilde açılır filtre paneli kullanılır. Birden çok konumu olan sağlayıcılar (ör. Summer Discovery kampüsleri, Immerse şehirleri) açılır liste olarak kampüs/üniversite adlarını ve program sayılarını gösterir; yalnızca bazı konumlar seçiliyse sağlayıcı kutusunda tire ve sayı rozeti görünür, tıklamak bu seçimleri temizler. Konu filtresinde "Diğer" kategorisi yoktur. Sayfa başına 25, 50 veya 100 kayıt gösterilebilir ve sayfalar numaralı düğmelerle (1 2 3 … N) gezilir. Ana katalogda serbest metin arama alanı bulunmaz; metinle arama yerel editörde vardır. Dil tercihi `localStorage` içindeki `lang` anahtarında saklanır.
 
-`app-loader.js`, katalog başlıklarını "Program - Kampüs" biçiminde düzenler (kayıtta `campus` varsa kampüs/üniversite, yoksa şehir); şehir kartın altında görünmeye devam eder. Kartlarda yalnızca sağlayıcı adı gösterilir. Başlık, sayfalama ve sağlayıcı/kampüs filtreleri bu dosyadaki yamalarla eklenir. Ayrıca ülke ve sağlayıcı listelerini genişletir, yeni konu eşlemelerini ekler ve bazı görsel yollarını alt dizinden sunuma uygun hâle getirir.
+`src/catalogue/programs.js`, katalog başlıklarını "Program - Kampüs" biçiminde düzenler (kayıtta `campus` varsa kampüs/üniversite, yoksa şehir); şehir kartın altında görünmeye devam eder. Sağlayıcı, ülke ve kampüs listeleri program JSON'undan otomatik çıkarılır. Yeni bir ham konu adı geldiğinde `src/catalogue/constants.js` içindeki `SUBJECT_BUCKETS` eşlemesine eklenmelidir.
 
 ## Veri dosyaları ve öncelik sırası
 
@@ -118,12 +120,12 @@ Bilgi formu ad, telefon, e-posta, katılımcı yaşı ve il bilgilerini doğrula
 
 Sitede iki ayrı Bilgi Formu uygulaması vardır:
 
-- **Katalog formu (`#/programs`, sağ sütun):** Bileşen kodu `app-loader.js` içindeki `catalogueFormComponent` metnindedir. Bu metin derlenmiş React paketine `CODEX_CATALOGUE_FORM_ENDPOINT`, `CODEX_CATALOGUE_CITIES` ve `codexCatalogueInfoForm` adlarını ekler. Hemen ardından gelen `replaceOnce(...)` çağrıları bileşeni pakete yerleştirir, katalog alanını genişletir, `catalogue-layout` adlı üç sütunlu düzeni kurar ve formu program listesinin sağına ekler. Görsel kurallar `catalogue-cleanup.css` içinde `/* Catalogue layout and right-hand information form */` başlığının altındaki `.catalogue-info` ve `.cat-info-*` seçicileridir. Gönderim adresi `app-loader.js` içindeki `CODEX_CATALOGUE_FORM_ENDPOINT` sabitidir.
-- **Program detay formu (`#/programs/<program-id>`, detay içeriğinin altında):** `program-page.js` dosyasının üst kısmındaki `FORM_ENDPOINT` ve `WHATSAPP_NUMBER` gönderim ayarlarıdır; `FORM` iki dilli metinleri, `CITIES` il listesini içerir. `formHTML(rec, lang)` formun HTML'ini üretir, `bindForm(rec, lang)` yaş uygunluğu, doğrulama ve gönderim davranışını yönetir; `render(...)` formu `${formHTML(rec, lang)}` ile sayfaya ekler. Stiller `program-page.css` dosyasındaki `/* Bilgi Formu */` bölümünde, `.pp-form`, `.pp-form-side`, `.pp-form-main`, `.pp-field` ve ilişkili `.pp-*` seçicilerindedir.
+- **Katalog formu (`/programs`, sağ sütun):** `src/catalogue/CatalogueApp.jsx` içindeki `InformationForm` bileşenidir. Aynı dosyanın üstündeki `FORM_ENDPOINT` gönderim adresidir; iki dilli metinler, doğrulama ve gönderim davranışı bileşenin içinde, il listesi `src/catalogue/constants.js` içindedir. Görsel kurallar `catalogue-cleanup.css` içindeki `/* Catalogue layout and right-hand information form */` bölümünde `.catalogue-info` ve `.cat-info-*` seçicileridir.
+- **Program detay formu (`/programs/<program-id>`, detay içeriğinin altında):** `program-page.js` dosyasının üst kısmındaki `FORM_ENDPOINT` ve `WHATSAPP_NUMBER` gönderim ayarlarıdır; `FORM` iki dilli metinleri, `CITIES` il listesini içerir. `formHTML(rec, lang)` formun HTML'ini üretir, `bindForm(rec, lang)` yaş uygunluğu, doğrulama ve gönderim davranışını yönetir; `render(...)` formu `${formHTML(rec, lang)}` ile sayfaya ekler. Stiller `program-page.css` dosyasındaki `/* Bilgi Formu */` bölümündedir.
 
 İki formun gönderim sabitleri birbirinden ayrıdır ve şu anda ikisi de boştur. Gerçek başvuru göndermek için iki adresin de yapılandırılması veya tek bir ortak ayara bağlanması gerekir.
 
-URL'de `#` öncesine `?review` eklenirse özet sayfalarında iç veri kontrol notları görünür. Bu notlar normal ziyaretçi görünümünde gizlidir.
+Temiz program URL'sine `?review` eklenirse özet sayfalarında iç veri kontrol notları görünür. Bu notlar normal ziyaretçi görünümünde gizlidir.
 
 ## İçerik üretim araçları
 
@@ -159,26 +161,30 @@ Kayıt ve sıfırlama istekleri rastgele üretilen editör anahtarı ve yerel ka
 
 ## Yerelde çalıştırma
 
-Node.js ile doğrudan çalıştırmak için proje kökünde:
+Ziyaretçi sitesini geliştirme modunda çalıştırmak için proje kökünde:
 
 ```powershell
-# Siteyi açar.
-node local-server.mjs
+# İlk kurulumda bağımlılıkları yükler.
+npm ci
+
+# Vite geliştirme sunucusunu açar.
+npm run dev
 
 # Editörü açar.
 node local-server.mjs --editor
 
-# Tarayıcı açmadan farklı bir portta çalıştırır.
-node local-server.mjs --no-open --port=5174
+# Üretim derlemesini yerelde önizler.
+npm run build
+npm run preview
 ```
 
-Windows'ta `open-localhost.bat` ve `open-program-editor.bat` aynı işlemleri başlatır. Bu başlatıcılar önce 5173 portunu dinleyen mevcut süreçleri sonlandırır; açık başka bir yerel çalışma varsa bu davranış dikkate alınmalıdır.
+`open-localhost.bat` ziyaretçi sitesi için Vite geliştirme sunucusunu; `open-program-editor.bat` program editörü için `local-server.mjs --editor` komutunu başlatır.
 
-`package.json`, React 19, React DOM, Lucide, Vite 6 ve Tailwind CSS 4 bağımlılıklarını; `dev`, `build`, `build:deploy`, `preview`, `build:compress` ve `preview:compress` komutlarını tanımlar. `npm run build:deploy`, ana kaynaklardan temiz dağıtım klasörünü yeniden üretir. Özgün React kaynakları ve Vite yapılandırması depoda yoktur; bu nedenle eski Vite derleme komutları ayrıca doğrulanmalıdır.
+`package.json`, React 19, React DOM, Lucide, Vite 6 ve Tailwind CSS 4 bağımlılıklarını; `dev`, `build`, `build:deploy`, `preview`, `build:compress` ve `preview:compress` komutlarını tanımlar. Okunabilir React kaynakları `src/`, yapılandırma `vite.config.js` içindedir. `npm run build:deploy`, Vite üretim derlemesini oluşturup temiz dağıtım klasörünü yeniden üretir.
 
 ## Üretim dağıtım klasörü
 
-`site-deploy/`, gerçek sunucu veya alan adına yüklenmek üzere hazırlanmış bağımsız statik site klasörüdür. `index.html` alan adının belge kökünde olacak şekilde bu klasörün **içeriği** sunucuya yüklenmelidir. Rotalar URL'nin `#` bölümünü kullandığı için sunucuda geçmiş rota yönlendirmesi gerekmez.
+`dist/`, Vite'ın üretim çıktısıdır. `site-deploy/`, aynı çıktının gerçek sunucu veya alan adına yüklenmek üzere hazırlanan bağımsız kopyasıdır. Temiz rotalar için sunucuda gerçek dosyaları önceleyen ve diğer yolları `index.html` dosyasına yönlendiren history fallback gerekir; Vercel ayarı `vercel.json` içindedir.
 
 Kaynak kod, veri, görsel veya özet belgeleri değiştiğinde klasör proje kökünde şu komutla yenilenir:
 
@@ -186,7 +192,7 @@ Kaynak kod, veri, görsel veya özet belgeleri değiştiğinde klasör proje kö
 npm run build:deploy
 ```
 
-`tools/build-deploy-folder.mjs`, açık bir dağıtım dosyası listesi ve çalışan kod/verideki yerel görsel başvurularını kullanır; dosyaları doğrular ve yalnızca `site-deploy/` klasörünü güvenli biçimde yeniden oluşturur. PDF'leri, ham sağlayıcı sayfalarını, normalleştirme kaynaklarını, testleri, yerel editörü, paket yöneticisi dosyalarını ve Git verilerini dışarıda bırakır. `summary.md` ve `OZET.md` hem proje kökünde tutulur hem de dağıtım klasörüne kopyalanır. Üretim sitesi parola istemeden doğrudan açılır.
+`vite.config.js`, gerekli JSON dosyalarını ve bu JSON'lardaki yerel görsel başvurularını doğrulayarak `dist/` içine kopyalar; ayrıca kaynak haritası üretir ve üretim JavaScript'ini küçültmez. `tools/build-deploy-folder.mjs`, doğrulanmış `dist/` çıktısını yalnızca `site-deploy/` klasörüne güvenli biçimde kopyalar. PDF'ler, ham sağlayıcı sayfaları, normalleştirme kaynakları, testler, yerel editör ve Git verileri dağıtıma girmez.
 
 ## Destekleyici belgeler ve bakım noktaları
 
@@ -194,8 +200,8 @@ npm run build:deploy
 
 Bakım sırasında mevcut yapının şu özellikleri önemlidir:
 
-- `app-loader.js`, küçültülmüş paketteki tam metin eşleşmelerine bağlıdır. Eşleşme kaybolur veya birden fazla kez bulunursa uygulama yüklemesi hata verir. Yeni sağlayıcı, ülke ve konu eklenirken veriyle birlikte filtre listeleri ve konu eşlemeleri de kontrol edilmelidir.
-- `MutationObserver` kullanan ek betikler, özgün React sayfasının metinlerine ve DOM yapısına bağlıdır. Paket değişiklikleri bu davranışları etkileyebilir.
+- Sağlayıcı, ülke ve kampüs filtreleri program verisinden türetilir. Yeni bir konu adı eklendiğinde `src/catalogue/constants.js` içindeki konu grubu eşlemesi kontrol edilmelidir.
+- Temiz URL kullanan başka bir barındırma ortamında `vercel.json` eşdeğeri history fallback yapılandırılmalıdır.
 - Ana sayfadaki 473 program ve 7 ülke sayıları `index.html` içinde sabittir, veri değişince kendiliğinden yenilenmez.
 - Güncel inceleme durumu toplamı **285**'tir (265 Summer Discovery, 8 MPW, 4 Sportech, 4 Schiller, 2 Emerald, 2 Edconic); Schiller'ın duyuruya dayanan dört kaydı dahildir. Veri sayıları için ana dosya esas alınmalıdır.
 - Bazı ücretler geçmiş dönem bilgisi veya kampüs geneli aralıktır. Bu ayrımlar `flags`, fiyat notları, tarihsel alanlar ve özet kontrol notlarında korunur.

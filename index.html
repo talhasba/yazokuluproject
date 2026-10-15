@@ -12,47 +12,38 @@
     <meta name="author" content="ASBA Yurtdışı Eğitim Danışmanlık" />
     <meta name="application-name" content="SummerButWhere" />
     <meta name="theme-color" content="#3451d1" />
-    <link rel="canonical" href="./" />
-    <link rel="icon" type="image/png" href="./assets/summerbutwhere-logo.png" />
+    <link rel="icon" type="image/png" href="/assets/summerbutwhere-logo.png" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SummerButWhere" />
     <meta property="og:title" content="SummerButWhere | Academic Summer School Programs" />
     <meta property="og:description" content="Explore carefully selected academic summer school programs from leading institutions around the world and find the right summer experience." />
-    <meta property="og:image" content="./assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp" />
+    <meta property="og:image" content="/assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp" />
     <meta property="og:image:alt" content="Students attending an academic summer school program" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="tr_TR" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="SummerButWhere | Academic Summer School Programs" />
     <meta name="twitter:description" content="Explore carefully selected academic summer school programs from leading institutions around the world and find the right summer experience." />
-    <meta name="twitter:image" content="./assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp" />
-    <script type="module" crossorigin src="./app-loader.js?v=20261015-1"></script>
-    <script defer src="./online-research-options.js?v=20261005-1"></script>
-    <script defer src="./home-page.js?v=20261014-2"></script>
-    <script defer src="./program-page.js?v=20261014-8"></script>
-    <script defer src="./about-page.js?v=20261014-2"></script>
-    <script defer src="./catalogue-cleanup.js"></script>
-    <script defer src="./seo.js?v=20261015-1"></script>
-    <link rel="stylesheet" crossorigin href="./style.css">
-    <link rel="stylesheet" href="./online-research-options.css">
-    <link rel="stylesheet" href="./home-page.css">
-    <link rel="stylesheet" href="./catalogue-cleanup.css?v=20261015-1">
-    <link rel="stylesheet" href="./program-page.css?v=20261014-3">
-    <link rel="stylesheet" href="./palette.css?v=20261014-3">
-    <link rel="stylesheet" href="./about-page.css?v=20261014-2">
-    <link rel="stylesheet" href="./background-rays.css?v=20261014-1">
+    <meta name="twitter:image" content="/assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp" />
+    <script>
+      (() => {
+        const legacy = /^#\/(about|programs(?:\/[^/?#]+)?)\/?$/.exec(location.hash);
+        if (legacy) history.replaceState(null, "", `/${legacy[1]}${location.search}`);
+      })();
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
   </head>
   <body>
     <div id="home-page" class="home-page" hidden>
       <header class="home-header">
         <div class="home-brand">
-          <a class="site-brand-link" href="#/" aria-label="SummerButWhere - Ana sayfa"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları" /></a>
+          <a class="site-brand-link" href="/" aria-label="SummerButWhere - Ana sayfa"><img src="/assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları" /></a>
           <a class="parent-brand" href="https://asba.com.tr">
-            <img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237" />
+            <img src="/assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237" />
           </a>
         </div>
         <div class="home-actions">
-          <a class="site-about-link" href="#/about" data-home-en="About Us" data-home-tr="Hakkımızda">Hakkımızda</a>
+          <a class="site-about-link" href="/about" data-home-en="About Us" data-home-tr="Hakkımızda">Hakkımızda</a>
           <button id="home-language" class="home-language" type="button" aria-label="Change language">EN</button>
         </div>
       </header>
@@ -63,13 +54,13 @@
             <p class="home-eyebrow" data-home-en="A summer that shapes the future" data-home-tr="Geleceğe yön veren bir yaz">Geleceğe yön veren bir yaz</p>
             <h1 data-home-en="Turn this summer into a journey of discovery" data-home-tr="Bu yaz tatilini bir keşif yolculuğuna dönüştür">Bu yaz tatilini bir keşif yolculuğuna dönüştür</h1>
             <p class="home-lead" data-home-en="Explore carefully selected academic summer schools from leading institutions around the world and find the experience that matches your interests and goals." data-home-tr="Dünyanın önde gelen kurumlarındaki özenle seçilmiş akademik yaz okullarını keşfet; ilgi alanlarına ve hedeflerine uygun deneyimi bul.">Dünyanın önde gelen kurumlarındaki özenle seçilmiş akademik yaz okullarını keşfet; ilgi alanlarına ve hedeflerine uygun deneyimi bul.</p>
-            <a class="home-primary-button" href="#/programs">
+            <a class="home-primary-button" href="/programs">
               <span data-home-en="View Programs" data-home-tr="Programları Gör">Programları Gör</span>
               <span aria-hidden="true">→</span>
             </a>
           </div>
           <div class="home-hero-visual" aria-hidden="true">
-            <img src="./assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp" alt="" />
+            <img src="/assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp" alt="" />
             <div class="home-visual-card home-visual-card-top">
               <strong>473</strong>
               <span data-home-en="programs" data-home-tr="program">program</span>
@@ -119,7 +110,7 @@
             <h2 data-home-en="Your next step starts here" data-home-tr="Bir sonraki adımın burada başlıyor">Bir sonraki adımın burada başlıyor</h2>
             <p data-home-en="Compare programs by subject, school and location to find the right summer experience for you." data-home-tr="Konu, okul ve konum seçeneklerini karşılaştırarak sana uygun yaz deneyimini kolayca bul.">Konu, okul ve konum seçeneklerini karşılaştırarak sana uygun yaz deneyimini kolayca bul.</p>
           </div>
-          <a class="home-secondary-button" href="#/programs">
+          <a class="home-secondary-button" href="/programs">
             <span data-home-en="View Programs" data-home-tr="Programları Gör">Programları Gör</span>
             <span aria-hidden="true">→</span>
           </a>
@@ -128,7 +119,7 @@
 
       <footer class="home-footer">
         <span data-home-en="Academic Summer School Programs" data-home-tr="Akademik Yaz Okulu Programları">Akademik Yaz Okulu Programları</span>
-        <a class="home-footer-link" href="#/about" data-home-en="About Us" data-home-tr="Hakkımızda">Hakkımızda</a>
+        <a class="home-footer-link" href="/about" data-home-en="About Us" data-home-tr="Hakkımızda">Hakkımızda</a>
         <span data-home-en="Explore. Learn. Grow." data-home-tr="Keşfet. Öğren. Geliş.">Keşfet. Öğren. Geliş.</span>
       </footer>
     </div>

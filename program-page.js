@@ -1,7 +1,7 @@
 /*
  * Program detail page layer.
  *
- * Takes over #/programs/<id> for programs that have an entry in data/program-digests.json and
+ * Takes over /programs/<id> for programs that have an entry in data/program-digests.json and
  * renders a photo-led, bullet-first page with the "Bilgi Formu". Programs without a digest are
  * left alone and keep showing the original React page. Facts (age, price, dates, location) are read
  * from programs.normalized.json, never from the digest, so the two cannot disagree.
@@ -178,14 +178,14 @@
     if (!loading) {
       const json = (url, fallback) => fetch(url).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
       loading = Promise.all([
-        json("./data/programs.normalized.json?v=20261014-4", []),
-        json("./data/program-digests.json?v=20261014-4", {}),
-        json("./data/image-candidates.json?v=20261014-4", {}),
-        json("./assets/program-images/image-sources.json", { images: {} }),
-        json("./data/program-editor-overrides.json", { programs: {}, digests: {} }),
-        json("./data/price-inclusions.json?v=20261014-4", {}),
-        import("./program-pricing.js?v=20261014-4"),
-        json("./data/program-image-sources.json?v=20261014-4", { images: {} })
+        json("/data/programs.normalized.json?v=20261014-4", []),
+        json("/data/program-digests.json?v=20261014-4", {}),
+        json("/data/image-candidates.json?v=20261014-4", {}),
+        json("/assets/program-images/image-sources.json", { images: {} }),
+        json("/data/program-editor-overrides.json", { programs: {}, digests: {} }),
+        json("/data/price-inclusions.json?v=20261014-4", {}),
+        import("/program-pricing.js?v=20261014-4"),
+        json("/data/program-image-sources.json?v=20261014-4", { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
@@ -220,7 +220,7 @@
   function photosFor(id) {
     const local = (data.images[id] || [])
       .filter((u) => u.startsWith("/") && (!/\.(svg|png)(\?|$)/i.test(u) || u.includes("/unique/")) && !/-300x\d+/.test(u))
-      .map((u) => "." + u);
+      .map((u) => u);
     const hero = local.find((u) => u.includes("/unique/")) || local.find((u) => u.includes("/campuses/")) || local[0] || "";
     return { hero, gallery: local.filter((u) => u !== hero).slice(0, 3) };
   }
@@ -235,7 +235,7 @@
 
   function photoSource(hero, rec, lang) {
     const source = data.photoSources[rec.id];
-    if (!source || hero !== "." + source.local_path) return "";
+    if (!source || hero !== source.local_path) return "";
     const label = source.source_kind === "illustrative"
       ? (lang === "tr" ? "Temsili fotoğraf" : "Illustrative photo")
       : T[lang].photo;
@@ -311,8 +311,8 @@
 
     page.innerHTML = `
       <header class="pp-top">
-        <div class="pp-brand"><a class="site-brand-link" href="#/" aria-label="SummerButWhere"><img src="./assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a><a class="parent-brand" href="https://asba.com.tr"><img src="./assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
-        <nav><a class="pp-back" href="#/programs">← ${esc(L.back)}</a><a class="site-about-link" href="#/about">${esc(L.about)}</a>
+        <div class="pp-brand"><a class="site-brand-link" href="/" aria-label="SummerButWhere"><img src="/assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a><a class="parent-brand" href="https://asba.com.tr"><img src="/assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
+        <nav><a class="pp-back" href="/programs">← ${esc(L.back)}</a><a class="site-about-link" href="/about">${esc(L.about)}</a>
         <button class="pp-lang" type="button" aria-label="${esc(L.langLabel)}">${L.langBtn}</button></nav>
       </header>
       <div class="pp-wrap">
@@ -439,7 +439,7 @@
       const payload = {
         name: form.name.value.trim(), phone: form.phone.value.trim(), email: form.email.value.trim(),
         age: +age.value, city: city.value, program: form.program.value, program_id: rec.id,
-        age_fits: hint.classList.contains("ok"), language: lang, page: location.href.split("#")[0] + "#/programs/" + rec.id
+        age_fits: hint.classList.contains("ok"), language: lang, page: new URL(`/programs/${encodeURIComponent(rec.id)}`, location.origin).href
       };
 
       if (!FORM_ENDPOINT) {
@@ -460,11 +460,11 @@
 
   // ---- routing -------------------------------------------------------------------------------
   function currentId() {
-    const m = /^#\/programs\/([^/?#]+)/.exec(window.location.hash);
+    const m = /^\/programs\/([^/?#]+)\/?$/.exec(window.location.pathname);
     return m ? decodeURIComponent(m[1]) : null;
   }
 
-  const isHomeRoute = () => window.location.hash === "" || window.location.hash === "#/";
+  const isHomeRoute = () => window.location.pathname.replace(/\/+$/, "") === "";
   let active = false;
 
   function leave() {
@@ -500,6 +500,6 @@
     window.scrollTo(0, 0);
   }
 
-  window.addEventListener("hashchange", route);
+  window.addEventListener("popstate", route);
   route();
 })();

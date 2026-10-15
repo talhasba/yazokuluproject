@@ -6,7 +6,7 @@
   if (!page || !root) return;
 
   function isHomeRoute() {
-    return window.location.hash === "" || window.location.hash === "#/";
+    return window.location.pathname.replace(/\/+$/, "") === "";
   }
 
   function getLanguage() {
@@ -43,17 +43,6 @@
     window.location.reload();
   });
 
-  document.addEventListener("click", (event) => {
-    const button = event.target.closest("button");
-    if (!button || isHomeRoute()) return;
-    const label = button.textContent.trim();
-    if (label === "Back to Programs" || label === "Programlara Dön") {
-      event.preventDefault();
-      event.stopPropagation();
-      window.location.hash = "#/programs";
-    }
-  }, true);
-
-  window.addEventListener("hashchange", renderRoute);
+  window.addEventListener("popstate", renderRoute);
   renderRoute();
 })();

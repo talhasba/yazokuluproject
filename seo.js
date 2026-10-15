@@ -3,8 +3,8 @@
 
   const SITE_NAME = "SummerButWhere";
   const ORGANIZATION_NAME = "ASBA Yurtdışı Eğitim Danışmanlık";
-  const DEFAULT_IMAGE = "./assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp";
-  const LOGO = "./assets/summerbutwhere-logo.png";
+  const DEFAULT_IMAGE = "/assets/Experience-Cambridge-1-1024x660.jpg-DppmgKJn.webp";
+  const LOGO = "/assets/summerbutwhere-logo.png";
   const copy = {
     en: {
       homeTitle: "SummerButWhere | Academic Summer School Programs",
@@ -35,13 +35,16 @@
   }
 
   function baseUrl() {
-    return new URL("./", document.baseURI).href;
+    return new URL("/", location.origin).href;
+  }
+
+  function pageUrl() {
+    return new URL(location.pathname, location.origin).href;
   }
 
   function assetUrl(path) {
     if (!path) return new URL(DEFAULT_IMAGE, document.baseURI).href;
-    const normalized = String(path).startsWith("/assets/") ? `.${path}` : path;
-    return new URL(normalized, document.baseURI).href;
+    return new URL(String(path), location.origin).href;
   }
 
   function concise(value, maximum = 160) {
@@ -92,8 +95,8 @@
       },
       {
         "@type": meta.schemaType,
-        "@id": `${location.href}#webpage`,
-        url: location.href,
+        "@id": `${pageUrl()}#webpage`,
+        url: pageUrl(),
         name: meta.title,
         description: meta.description,
         inLanguage: lang,
@@ -114,14 +117,14 @@
   function apply(meta, lang) {
     document.documentElement.lang = lang;
     document.title = meta.title;
-    setCanonical(baseUrl());
+    setCanonical(pageUrl());
     setMeta("name", "description", meta.description);
     setMeta("name", "robots", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
     setMeta("property", "og:type", "website");
     setMeta("property", "og:site_name", SITE_NAME);
     setMeta("property", "og:title", meta.title);
     setMeta("property", "og:description", meta.description);
-    setMeta("property", "og:url", baseUrl());
+    setMeta("property", "og:url", pageUrl());
     setMeta("property", "og:image", meta.image);
     setMeta("property", "og:image:alt", meta.imageAlt || SITE_NAME);
     setMeta("property", "og:locale", lang === "tr" ? "tr_TR" : "en_US");
@@ -136,10 +139,11 @@
   function routeMeta(lang) {
     const text = copy[lang];
     const image = assetUrl(DEFAULT_IMAGE);
-    if (/^#\/about\/?$/.test(location.hash)) {
+    const path = location.pathname.replace(/\/+$/, "") || "/";
+    if (path === "/about") {
       return { title: text.aboutTitle, description: text.aboutDescription, image, imageAlt: "SummerButWhere and ASBA", schemaType: "AboutPage" };
     }
-    if (location.hash === "#/programs" || location.hash === "#/programs/") {
+    if (path === "/programs") {
       return { title: text.catalogueTitle, description: text.catalogueDescription, image, imageAlt: text.catalogueTitle, schemaType: "CollectionPage" };
     }
     return { title: text.homeTitle, description: text.homeDescription, image, imageAlt: text.homeTitle, schemaType: "WebPage" };
@@ -148,8 +152,8 @@
   function loadCatalogueData() {
     if (!catalogueDataPromise) {
       catalogueDataPromise = Promise.all([
-        fetch("./data/programs.normalized.json").then((response) => response.ok ? response.json() : []),
-        fetch("./data/image-candidates.json").then((response) => response.ok ? response.json() : {}).catch(() => ({}))
+        fetch("/data/programs.normalized.json").then((response) => response.ok ? response.json() : []),
+        fetch("/data/image-candidates.json").then((response) => response.ok ? response.json() : {}).catch(() => ({}))
       ]).catch(() => [[], {}]);
     }
     return catalogueDataPromise;
@@ -177,14 +181,14 @@
   async function update() {
     const revision = ++routeRevision;
     const lang = language();
-    const match = /^#\/programs\/([^/?#]+)/.exec(location.hash);
+    const match = /^\/programs\/([^/?#]+)\/?$/.exec(location.pathname);
     let meta = routeMeta(lang);
     if (match) meta = await programMeta(decodeURIComponent(match[1]), lang);
     if (revision !== routeRevision) return;
     apply(meta, lang);
   }
 
-  window.addEventListener("hashchange", update);
+  window.addEventListener("popstate", update);
   window.addEventListener("storage", (event) => { if (event.key === "lang") update(); });
   document.addEventListener("click", (event) => {
     if (event.target.closest("#home-language,.catalogue-language,.pp-lang,.ab-lang")) {
