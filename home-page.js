@@ -40,7 +40,7 @@
   languageButton.addEventListener("click", () => {
     const nextLanguage = getLanguage() === "tr" ? "en" : "tr";
     localStorage.setItem("lang", nextLanguage);
-    window.location.reload();
+    applyLanguage();
   });
 
   window.addEventListener("popstate", renderRoute);
