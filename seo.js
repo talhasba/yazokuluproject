@@ -1,3 +1,5 @@
+import { absoluteSiteUrl, currentRoute, sitePath } from "./src/site-paths.js";
+
 (function () {
   "use strict";
 
@@ -35,7 +37,7 @@
   }
 
   function baseUrl() {
-    return new URL("/", location.origin).href;
+    return absoluteSiteUrl();
   }
 
   function pageUrl() {
@@ -43,8 +45,9 @@
   }
 
   function assetUrl(path) {
-    if (!path) return new URL(DEFAULT_IMAGE, document.baseURI).href;
-    return new URL(String(path), location.origin).href;
+    if (!path) return absoluteSiteUrl(DEFAULT_IMAGE);
+    const value = String(path);
+    return /^https?:\/\//i.test(value) ? value : absoluteSiteUrl(value);
   }
 
   function concise(value, maximum = 160) {
@@ -139,7 +142,7 @@
   function routeMeta(lang) {
     const text = copy[lang];
     const image = assetUrl(DEFAULT_IMAGE);
-    const path = location.pathname.replace(/\/+$/, "") || "/";
+    const path = currentRoute().replace(/\/+$/, "") || "/";
     if (path === "/about") {
       return { title: text.aboutTitle, description: text.aboutDescription, image, imageAlt: "SummerButWhere and ASBA", schemaType: "AboutPage" };
     }
@@ -152,8 +155,8 @@
   function loadCatalogueData() {
     if (!catalogueDataPromise) {
       catalogueDataPromise = Promise.all([
-        fetch("/data/programs.normalized.json").then((response) => response.ok ? response.json() : []),
-        fetch("/data/image-candidates.json").then((response) => response.ok ? response.json() : {}).catch(() => ({}))
+        fetch(sitePath("data/programs.normalized.json")).then((response) => response.ok ? response.json() : []),
+        fetch(sitePath("data/image-candidates.json")).then((response) => response.ok ? response.json() : {}).catch(() => ({}))
       ]).catch(() => [[], {}]);
     }
     return catalogueDataPromise;
@@ -181,7 +184,7 @@
   async function update() {
     const revision = ++routeRevision;
     const lang = language();
-    const match = /^\/programs\/([^/?#]+)\/?$/.exec(location.pathname);
+    const match = /^\/programs\/([^/?#]+)\/?$/.exec(currentRoute());
     let meta = routeMeta(lang);
     if (match) meta = await programMeta(decodeURIComponent(match[1]), lang);
     if (revision !== routeRevision) return;

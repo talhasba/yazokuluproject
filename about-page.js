@@ -1,3 +1,5 @@
+import { currentRoute, sitePath } from "./src/site-paths.js";
+
 /*
  * About ("Hakkımızda") page, shown on /about. Independent layer like program-page.js:
  * it only decides whether #root or #about-page is visible.
@@ -56,7 +58,7 @@
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const lang = () => { try { return localStorage.getItem("lang") === "tr" ? "tr" : "en"; } catch { return "en"; } };
-  const isAbout = () => window.location.pathname.replace(/\/+$/, "") === "/about";
+  const isAbout = () => currentRoute().replace(/\/+$/, "") === "/about";
   const originalTitle = document.title;
 
   function render() {
@@ -65,11 +67,11 @@
     page.innerHTML = `
       <header class="ab-top">
         <div class="ab-brand">
-          <a class="site-brand-link" href="/" aria-label="SummerButWhere - ${esc(L.home)}"><img src="/assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a>
-          <a class="parent-brand" href="${WEBSITE}"><img src="/assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a>
+          <a class="site-brand-link" href="${sitePath()}" aria-label="SummerButWhere - ${esc(L.home)}"><img src="${sitePath("assets/summerbutwhere-logo.png")}" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a>
+          <a class="parent-brand" href="${WEBSITE}"><img src="${sitePath("assets/asba-logo.png")}" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a>
         </div>
         <nav>
-          <a class="ab-back" href="/programs">← ${esc(L.back)}</a>
+          <a class="ab-back" href="${sitePath("programs")}">← ${esc(L.back)}</a>
           <button class="ab-lang" type="button" aria-label="${esc(L.langLabel)}">${esc(L.langBtn)}</button>
         </nav>
       </header>
@@ -83,7 +85,7 @@
           <section class="ab-card">
             <h2>${esc(L.whatTitle)}</h2>
             <p>${esc(L.whatBody)}</p>
-            <a class="ab-button" href="/programs">${esc(L.cta)} <span aria-hidden="true">→</span></a>
+            <a class="ab-button" href="${sitePath("programs")}">${esc(L.cta)} <span aria-hidden="true">→</span></a>
           </section>
           <section class="ab-card">
             <h2>${esc(L.asbaTitle)}</h2>

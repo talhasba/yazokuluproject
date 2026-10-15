@@ -12,8 +12,9 @@ import "../home-page.js";
 import "../program-page.js";
 import "../about-page.js";
 import "../seo.js";
+import { currentRoute } from "./site-paths.js";
 
-const route = window.location.pathname.replace(/\/+$/, "") || "/";
+const route = currentRoute().replace(/\/+$/, "") || "/";
 if (route === "/programs") {
   const root = document.getElementById("root");
   if (root) createRoot(root).render(<StrictMode><CatalogueApp /></StrictMode>);

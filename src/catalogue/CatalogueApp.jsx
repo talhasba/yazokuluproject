@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Check, ChevronLeft, ChevronRight, Globe2, Menu, RotateCcw, X } from "lucide-react";
 import { BUCKET_LABELS, CITIES, COUNTRY_LABELS, UI } from "./constants.js";
 import { displayLocation, imageFor, loadCatalogueData, programTitle } from "./programs.js";
+import { sitePath } from "../site-paths.js";
 
 const FORM_ENDPOINT = "";
 const PAGE_SIZES = [25, 50, 100];
@@ -19,15 +20,15 @@ function Header({ language, onLanguage, onOpenFilters }) {
           <button className="catalogue-menu rounded-lg p-2 text-surface-600 hover:bg-surface-100 lg:hidden" type="button" onClick={onOpenFilters} aria-label={copy.menu}>
             <Menu size={22} />
           </button>
-          <a className="site-brand-link" href="/" aria-label={`SummerButWhere - ${language === "tr" ? "Ana sayfa" : "Home"}`}>
-            <img className="catalogue-site-logo" src="/assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları" />
+          <a className="site-brand-link" href={sitePath()} aria-label={`SummerButWhere - ${language === "tr" ? "Ana sayfa" : "Home"}`}>
+            <img className="catalogue-site-logo" src={sitePath("assets/summerbutwhere-logo.png")} alt="SummerButWhere - Akademik Yaz Okulu Programları" />
           </a>
           <a className="parent-brand" href="https://asba.com.tr">
-            <img src="/assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237" />
+            <img src={sitePath("assets/asba-logo.png")} alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237" />
           </a>
         </div>
         <div className="catalogue-actions">
-          <a className="site-about-link" href="/about">{copy.about}</a>
+          <a className="site-about-link" href={sitePath("about")}>{copy.about}</a>
           <button className="catalogue-language flex items-center gap-1.5 rounded-lg border border-surface-200 px-3 py-1.5 text-sm font-medium text-surface-600 hover:bg-surface-100 transition-colors" type="button" onClick={onLanguage}>
             <Globe2 size={16} /> {language === "en" ? "TR" : "EN"}
           </button>
@@ -184,10 +185,10 @@ function ProgramCard({ program, candidates, language }) {
   const image = imageFor(program, candidates);
   const title = programTitle(program, language);
   const description = language === "tr" && program.description_short_tr ? program.description_short_tr : program.description_short;
-  const source = program.photo_source && image === program.photo_source.local_path ? program.photo_source : null;
+  const source = program.photo_source && image === sitePath(program.photo_source.local_path) ? program.photo_source : null;
   return (
     <div className="programme-photo-card">
-      <a className="group flex flex-col overflow-hidden rounded-xl border border-surface-200 bg-white text-left shadow-sm transition-all hover:border-brand-300 hover:shadow-md hover:-translate-y-0.5" href={`/programs/${encodeURIComponent(program.id)}`}>
+      <a className="group flex flex-col overflow-hidden rounded-xl border border-surface-200 bg-white text-left shadow-sm transition-all hover:border-brand-300 hover:shadow-md hover:-translate-y-0.5" href={sitePath(`programs/${encodeURIComponent(program.id)}`)}>
         <div className="relative h-44 overflow-hidden bg-surface-100">
           {image ? <img className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" src={image} alt={title} loading="lazy" /> : <div className="flex h-full items-center justify-center text-5xl opacity-20">🎓</div>}
           <span className="absolute top-3 left-3 inline-flex items-center rounded-full bg-white/90 px-2.5 py-1 text-[11px] font-semibold text-surface-700 shadow-sm backdrop-blur-sm">{BUCKET_LABELS[program.subjectBucket]?.en || program.subjectBucket}</span>

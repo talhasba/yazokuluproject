@@ -1,4 +1,5 @@
 import { SUBJECT_BUCKETS } from "./constants.js";
+import { sitePath } from "../site-paths.js";
 
 function mergeOverride(base, override) {
   if (override === undefined) return base;
@@ -124,7 +125,8 @@ export function normalizeProgram(program, photoSource) {
 
 export function imageFor(program, candidates) {
   const images = candidates[program.id] || [];
-  return images.find((url) => url.startsWith("/assets/")) || program.image_url || "";
+  const image = images.find((url) => url.startsWith("/assets/")) || program.image_url || "";
+  return image.startsWith("/assets/") ? sitePath(image) : image;
 }
 
 async function readJson(url, fallback) {
@@ -138,10 +140,10 @@ async function readJson(url, fallback) {
 
 export async function loadCatalogueData() {
   const [programs, candidates, overrides, photoSources] = await Promise.all([
-    readJson("/data/programs.normalized.json", []),
-    readJson("/data/image-candidates.json", {}),
-    readJson("/data/program-editor-overrides.json", { programs: {} }),
-    readJson("/data/program-image-sources.json", { images: {} }),
+    readJson(sitePath("data/programs.normalized.json"), []),
+    readJson(sitePath("data/image-candidates.json"), {}),
+    readJson(sitePath("data/program-editor-overrides.json"), { programs: {} }),
+    readJson(sitePath("data/program-image-sources.json"), { images: {} }),
   ]);
 
   return {

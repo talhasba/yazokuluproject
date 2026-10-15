@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, isAbsolute, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import react from "@vitejs/plugin-react";
@@ -57,6 +57,8 @@ function runtimeCopyPlugin() {
         mkdirSync(dirname(destination), { recursive: true });
         copyFileSync(source, destination);
       }
+      copyFileSync(resolve(outputRoot, "index.html"), resolve(outputRoot, "404.html"));
+      writeFileSync(resolve(outputRoot, ".nojekyll"), "");
     },
   };
 }

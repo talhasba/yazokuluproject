@@ -1,3 +1,5 @@
+import { currentRoute } from "./src/site-paths.js";
+
 (function () {
   const page = document.getElementById("home-page");
   const root = document.getElementById("root");
@@ -6,7 +8,7 @@
   if (!page || !root) return;
 
   function isHomeRoute() {
-    return window.location.pathname.replace(/\/+$/, "") === "";
+    return currentRoute().replace(/\/+$/, "") === "";
   }
 
   function getLanguage() {

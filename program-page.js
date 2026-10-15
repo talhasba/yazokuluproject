@@ -1,3 +1,5 @@
+import { absoluteSiteUrl, currentRoute, sitePath } from "./src/site-paths.js";
+
 /*
  * Program detail page layer.
  *
@@ -178,14 +180,14 @@
     if (!loading) {
       const json = (url, fallback) => fetch(url).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
       loading = Promise.all([
-        json("/data/programs.normalized.json?v=20261014-4", []),
-        json("/data/program-digests.json?v=20261014-4", {}),
-        json("/data/image-candidates.json?v=20261014-4", {}),
-        json("/assets/program-images/image-sources.json", { images: {} }),
-        json("/data/program-editor-overrides.json", { programs: {}, digests: {} }),
-        json("/data/price-inclusions.json?v=20261014-4", {}),
-        import("/program-pricing.js?v=20261014-4"),
-        json("/data/program-image-sources.json?v=20261014-4", { images: {} })
+        json(sitePath("data/programs.normalized.json?v=20261014-4"), []),
+        json(sitePath("data/program-digests.json?v=20261014-4"), {}),
+        json(sitePath("data/image-candidates.json?v=20261014-4"), {}),
+        json(sitePath("assets/program-images/image-sources.json"), { images: {} }),
+        json(sitePath("data/program-editor-overrides.json"), { programs: {}, digests: {} }),
+        json(sitePath("data/price-inclusions.json?v=20261014-4"), {}),
+        import("./program-pricing.js"),
+        json(sitePath("data/program-image-sources.json?v=20261014-4"), { images: {} })
       ]).then(([programs, digests, images, sources, overrides, priceInclusions, pricing, photoSources]) => {
         const mergedPrograms = programs.map((program) => mergeEditorOverride(program, overrides.programs?.[program.id]));
         const mergedDigests = { ...digests };
@@ -311,12 +313,12 @@
 
     page.innerHTML = `
       <header class="pp-top">
-        <div class="pp-brand"><a class="site-brand-link" href="/" aria-label="SummerButWhere"><img src="/assets/summerbutwhere-logo.png" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a><a class="parent-brand" href="https://asba.com.tr"><img src="/assets/asba-logo.png" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
-        <nav><a class="pp-back" href="/programs">← ${esc(L.back)}</a><a class="site-about-link" href="/about">${esc(L.about)}</a>
+        <div class="pp-brand"><a class="site-brand-link" href="${sitePath()}" aria-label="SummerButWhere"><img src="${sitePath("assets/summerbutwhere-logo.png")}" alt="SummerButWhere - Akademik Yaz Okulu Programları"></a><a class="parent-brand" href="https://asba.com.tr"><img src="${sitePath("assets/asba-logo.png")}" alt="ASBA Yurtdışı Eğitim Danışmanlık" width="738" height="237"></a></div>
+        <nav><a class="pp-back" href="${sitePath("programs")}">← ${esc(L.back)}</a><a class="site-about-link" href="${sitePath("about")}">${esc(L.about)}</a>
         <button class="pp-lang" type="button" aria-label="${esc(L.langLabel)}">${L.langBtn}</button></nav>
       </header>
       <div class="pp-wrap">
-        <div class="pp-hero"${hero ? ` style="background-image:url('${esc(hero)}')"` : ""}>
+        <div class="pp-hero"${hero ? ` style="background-image:url('${esc(sitePath(hero))}')"` : ""}>
           <div class="pp-hero-in">
             <div class="pp-crumb" lang="en">${esc(rec.provider_label || rec.provider)}</div>
             <h1 class="pp-title">${esc(title)}</h1>
@@ -342,7 +344,7 @@
               ${d.highlights?.length ? `<div class="pp-hl">${list(d.highlights)}</div>` : ""}
               <a class="pp-cta" href="#" data-goto-form>${esc(L.formPill)} ${ICON.form}</a>
             </div>
-            ${gallery.length ? `<div class="pp-gal">${gallery.map((u) => `<img src="${esc(u)}" alt="" loading="lazy">`).join("")}</div>` : ""}
+            ${gallery.length ? `<div class="pp-gal">${gallery.map((u) => `<img src="${esc(sitePath(u))}" alt="" loading="lazy">`).join("")}</div>` : ""}
           </aside>
         </div>
         ${formHTML(rec, lang)}
@@ -439,7 +441,7 @@
       const payload = {
         name: form.name.value.trim(), phone: form.phone.value.trim(), email: form.email.value.trim(),
         age: +age.value, city: city.value, program: form.program.value, program_id: rec.id,
-        age_fits: hint.classList.contains("ok"), language: lang, page: new URL(`/programs/${encodeURIComponent(rec.id)}`, location.origin).href
+        age_fits: hint.classList.contains("ok"), language: lang, page: absoluteSiteUrl(`programs/${encodeURIComponent(rec.id)}`)
       };
 
       if (!FORM_ENDPOINT) {
@@ -460,11 +462,11 @@
 
   // ---- routing -------------------------------------------------------------------------------
   function currentId() {
-    const m = /^\/programs\/([^/?#]+)\/?$/.exec(window.location.pathname);
+    const m = /^\/programs\/([^/?#]+)\/?$/.exec(currentRoute());
     return m ? decodeURIComponent(m[1]) : null;
   }
 
-  const isHomeRoute = () => window.location.pathname.replace(/\/+$/, "") === "";
+  const isHomeRoute = () => currentRoute().replace(/\/+$/, "") === "";
   let active = false;
 
   function leave() {
