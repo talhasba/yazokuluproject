@@ -24,11 +24,10 @@ import { currentRoute, sitePath } from "./src/site-paths.js";
       title: "Hakkımızda · SummerButWhere",
       about: "Hakkımızda", back: "Tüm programlar", home: "Ana sayfa", langBtn: "EN", langLabel: "Switch to English",
       eyebrow: "Hakkımızda",
-      h1: "SummerButWhere, ASBA Yurtdışı Eğitim Danışmanlık'ın, tavsiye ettiği akademik yaz okulu programlarını sunduğu projesidir",
+      h1: "SummerButWhere öğrencilere en doğru eğitim yolculuğunu sunmak üzere ASBA güvencesi ile hizmetinizde.",
       lead: [
         "SummerButWhere, ASBA Yurtdışı Eğitim Danışmanlık’ın dünyanın önde gelen kurumlarındaki akademik yaz okulu programlarını tek bir çatı altında sunduğu özel bir platformdur. Öğrencilerin vizyonunu geliştirecek en doğru akademik yaz programı seçimlerinde rehberlik etmek amacıyla hayata geçirilmiştir.",
-        "Öğrencilerimiz için Dünyanın en seçkin akademik yaz okullarını tek bir noktada buluşturan özel bir rehber oluşturduk. ASBA Yurtdışı Eğitim Danışmanlık’ın akademik yaz okulu alanındaki uzmanlığını ve seçkin program tavsiyelerini tek bir çatı altında kolaylıkla inceleyebilir ve kayıt olabilirsiniz.",
-        "SummerButWhere öğrencilere en doğru eğitim yolculuğunu sunmak üzere ASBA güvencesi ile hizmetinizde."
+        "Öğrencilerimiz için Dünyanın en seçkin akademik yaz okullarını tek bir noktada buluşturan özel bir rehber oluşturduk. ASBA Yurtdışı Eğitim Danışmanlık’ın akademik yaz okulu alanındaki uzmanlığını ve seçkin program tavsiyelerini tek bir çatı altında kolaylıkla inceleyebilir ve kayıt olabilirsiniz."
       ],
       whatTitle: "SummerButWhere nedir?",
       whatBody: "Öğrencilerin ve ailelerin yurtdışındaki akademik yaz okulu programlarını konu, okul ve ülkeye göre karşılaştırabilmesi için hazırlanmış bir program rehberidir. Her program sayfasında yaş aralığı, süre, tarih, ücret ve konaklama gibi temel bilgiler özetlenir.",
